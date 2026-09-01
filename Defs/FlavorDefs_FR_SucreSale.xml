@@ -21,13 +21,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ConfitDOignons</defName>
-		<label>confit d'oignons</label>
+		<label>onion confit</label>
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} émincés fondus deux heures à couvert, puis découverts et laissés caraméliser {1_plur} et {2_plur} rouge jusqu'à devenir presque noirs et sirupeux.</description>
+		<description>{0_coll} sliced and melted two hours under a lid, then uncovered and left to caramelise with {1_plur} and red {2_plur} until they turn almost black and syrupy.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -35,13 +35,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TatinDOignons</defName>
-		<label>tatin d'oignons</label>
+		<label>onion tatin</label>
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} coupés en deux, posés face plate dans un caramel {1_adj} au vinaigre, couverts de pâte et retournés après cuisson. Le principe de la tarte aux pommes, appliqué au salé.</description>
+		<description>{0_coll} halved and set cut side down in a {1_adj} caramel with vinegar, covered over with pastry and turned out after baking. The principle of the apple tart, applied to the savoury.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -55,7 +55,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>de petits {0_coll} entiers glacés au vinaigre balsamique et {1_plur}, avec du laurier. Se mangent froids, et se gardent une semaine en gagnant à chaque jour.</description>
+		<description>small whole {0_coll} glazed in balsamic vinegar and {1_plur}, with bay. Eaten cold, and they keep a week, gaining by the day.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>
@@ -64,13 +64,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ConfitureOignonsLard</defName>
-		<label>confiture d'oignons au lard</label>
+		<label>bacon and onion jam</label>
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{2_coll} rendue lentement, {0_coll} compotés dans sa graisse {1_plur} roux et le vinaigre de cidre. Se tartine sur un burger ou sur du pain grillé, indifféremment.</description>
+		<description>{2_coll} rendered slowly, {0_coll} stewed down in its fat with brown {1_plur} and cider vinegar. Spread on a burger or on toast, indifferently.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -80,13 +80,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ConfitureTomatesVertes</defName>
-		<label>confiture de tomates vertes</label>
+		<label>green tomato jam</label>
 		<ingredients>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} qui n'ont pas mûri avant les gelées, tranchées et macérées {1_plur} une nuit, puis cuites {2_plur} jusqu'à devenir translucides. Rien ne se perd au potager.</description>
+		<description>{0_coll} that never ripened before the frosts, sliced and steeped overnight in {1_plur}, then cooked with {2_plur} until they turn translucent. Nothing is wasted in the garden.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsPaste</li>
@@ -101,7 +101,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} réduites des heures {2_plur}, du vinaigre, {1_coll} et un sachet d'épices entières retiré à la fin. Le mot vient d'une saumure de poisson chinoise, et il n'y avait pas de tomate dedans.</description>
+		<description>{0_coll} reduced for hours with {2_plur}, vinegar, {1_coll} and a bag of whole spices lifted out at the end. The word comes from a Chinese fish brine, and there was no tomato in it.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -109,13 +109,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChutneyTomateDatte</defName>
-		<label>chutney tomate-datte</label>
+		<label>tomato and date chutney</label>
 		<ingredients>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Date</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {2_coll} mijotées {1_plur} de palme et aux cinq épices bengalies, jusqu'à napper. Se sert en fin de repas, avant le dessert, pour nettoyer la bouche.</description>
+		<description>{0_coll} and {2_coll} stewed in palm {1_plur} with the five Bengali spices, until it coats the spoon. Served at the end of the meal, before the sweet, to clean the mouth.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -123,13 +123,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TatinDeTomates</defName>
-		<label>tatin de tomates</label>
+		<label>tomato tatin</label>
 		<ingredients>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} confites dans un caramel {1_adj} et {2_adj}, serrées côte à côte sous une abaisse et retournées tièdes. Le sucre ne les rend pas sucrées : il les concentre.</description>
+		<description>{0_coll} candied in a {1_adj} and {2_adj} caramel, packed side by side under a sheet of pastry and turned out warm. The sugar does not make them sweet: it concentrates them.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -139,13 +139,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoeufTeriyaki</defName>
-		<label>bœuf teriyaki</label>
+		<label>beef teriyaki</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>{0_coll} tranchée fine et saisie, puis laquée d'une réduction {2_adj}, de mirin et {1_adj} passée trois fois au pinceau. Le brillant est le but, pas la sauce.</description>
+		<description>{0_coll} sliced thin and seared, then lacquered with a reduction of {2_adj}, mirin and {1_adj} brushed on three times over. The shine is the object, not the sauce.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -154,13 +154,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoeufALOrange</defName>
-		<label>bœuf à l'orange</label>
+		<label>orange beef</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Orange</li></categories></li>
 		</ingredients>
-		<description>des lanières {0_adj} enrobées de fécule et frites croustillantes, sautées dans un sirop {1_adj} au vinaigre et aux écorces {2_adj} séchées. La croûte doit tenir sous la sauce.</description>
+		<description>strips of {0_adj} coated in starch and fried crisp, tossed in a {1_adj} syrup with vinegar and dried {2_adj} peel. The crust has to hold up under the sauce.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 			<li>FT_MealsNonSpecial</li>
@@ -169,13 +169,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CarbonnadeCassonade</defName>
-		<label>carbonnade à la cassonade</label>
+		<label>carbonnade with brown sugar</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisée {2_plur} brune, adoucie {1_plur} brune et d'une tranche de pain d'épices moutardé qui se dissout et lie la sauce. L'amertume de la bière et le sucre se tiennent en équilibre.</description>
+		<description>{0_coll} braised in brown {2_plur}, softened with brown {1_plur} and a slice of mustarded gingerbread that dissolves and binds the sauce. The bitterness of the beer and the sugar hold each other in balance.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -183,13 +183,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoeufAuxPruneaux</defName>
-		<label>bœuf aux pruneaux</label>
+		<label>beef with prunes</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Plum</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisée avec {2_coll} séchés qui se défont en fin de cuisson et sucrent le jus d'eux-mêmes. On n'ajoute {1_coll} qu'à la toute fin, et très peu.</description>
+		<description>{0_coll} braised with dried {2_coll} that fall apart at the end of the cooking and sweeten the juices by themselves. {1_coll} goes in only at the very last, and very little of it.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -197,13 +197,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BrisketSucreBrun</defName>
-		<label>brisket au sucre brun</label>
+		<label>brown sugar brisket</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>une poitrine {0_adj} frottée {1_plur} roux, {2_plur} et paprika fumé, puis fumée douze heures. Le sucre forme l'écorce noire qu'on appelle bark, et qui est le meilleur morceau.</description>
+		<description>a {0_adj} brisket rubbed with brown {1_plur}, {2_plur} and smoked paprika, then smoked twelve hours. The sugar forms the black crust they call the bark, and it is the best of it.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -220,7 +220,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en rondelles cuites à découvert dans juste assez d'eau, {1_plur} et {2_plur}, jusqu'à ce que le liquide s'évapore et laisse un glaçage brillant.</description>
+		<description>{0_coll} in rounds cooked uncovered in just enough water, {1_plur} and {2_plur}, until the liquid goes and leaves a shining glaze behind.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -234,7 +234,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Apple</li></categories></li>
 		</ingredients>
-		<description>{0_coll} rouge émincé et braisé une heure avec {2_coll} râpées, du vinaigre et {1_coll}, plus un clou de girofle. L'acide garde la couleur ; sans lui, le chou vire au bleu.</description>
+		<description>red {0_coll} shredded and braised an hour with grated {2_coll}, vinegar and {1_coll}, plus a single clove. The acid holds the colour; without it the cabbage turns blue.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -242,13 +242,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BetteravesAigresDouces</defName>
-		<label>betteraves aigres-douces</label>
+		<label>sweet-and-sour beetroot</label>
 		<ingredients>
 			<li><categories><li>FT_Beet</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuites en robe puis marinées dans un vinaigre {1_adj} aux graines de moutarde et à l'aneth. Prennent une semaine à s'équilibrer et se gardent des mois.</description>
+		<description>{0_coll} cooked in their skins then marinated in a {1_adj} vinegar with mustard seed and dill. They take a week to come into balance and keep for months.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
@@ -263,7 +263,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
 		</ingredients>
-		<description>des morceaux de patate douce frits puis enrobés d'un caramel {1_adj} au soja, semés {2_plur} noir. « Patate d'université » : les étudiants tokyoïtes les achetaient pour trois fois rien.</description>
+		<description>pieces of sweet potato fried and then coated in a {1_adj} caramel with soy, sown with black {2_plur}. University potato: the students of Tokyo bought them for next to nothing.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsDeepFry</li>
@@ -278,7 +278,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>des tranches {0_adj} frites puis marinées à chaud dans un vinaigre {1_adj} avec de la menthe et de l'ail. Se mange froid le lendemain ; le jour même, c'est trop violent.</description>
+		<description>slices of {0_adj} fried and then marinated hot in a {1_adj} vinegar with mint and garlic. Eaten cold the next day; on the day itself it is too violent.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>
@@ -293,7 +293,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>un daikon séché au soleil plusieurs semaines jusqu'à plier, puis enfoui dans du son de riz {1_plur} et au sel. Jaune vif, craquant, et bruyant à mâcher.</description>
+		<description>a daikon dried in the sun for weeks until it will bend, then buried in rice bran with {1_plur} and salt. Bright yellow, crisp, and loud to chew.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsSalad</li>
@@ -302,13 +302,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PicklesSucresConcombre</defName>
-		<label>pickles sucrés de concombre</label>
+		<label>sweet cucumber pickles</label>
 		<ingredients>
 			<li><categories><li>FT_Cucumber</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {2_coll} tranchés fin, dégorgés au gros sel puis ébouillantés dans un vinaigre {1_adj} au curcuma et aux graines de moutarde.</description>
+		<description>{0_coll} and {2_coll} finely sliced, drawn out in coarse salt then scalded in a {1_adj} vinegar with turmeric and mustard seed.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsSalad</li>
@@ -319,13 +319,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorcAigreDoux</defName>
-		<label>porc aigre-doux</label>
+		<label>sweet-and-sour pork</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_BellPepper</li></categories></li>
 		</ingredients>
-		<description>{0_coll} enrobée de fécule et frite deux fois, jetée au dernier moment dans une sauce {1_adj} au vinaigre avec {2_coll}. Mélangée trop tôt, la panure s'effondre.</description>
+		<description>{0_coll} coated in starch and fried twice, thrown at the last moment into a {1_adj} sauce with vinegar and {2_coll}. Mixed too early, the coating collapses.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 			<li>FT_MealsDeepFry</li>
@@ -340,13 +340,13 @@
 	-->
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AchardsDeLegumes</defName>
-		<label>achards de légumes</label>
+		<label>vegetable achards</label>
 		<ingredients>
 			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} taillés en fine julienne, blanchis puis noyés dans une huile au curcuma, au gingembre et au vinaigre, avec juste assez {1_adj} pour arrondir l'acide. Se bonifient trois jours durant.</description>
+		<description>{0_coll} cut into fine julienne, blanched then drowned in an oil with turmeric, ginger and vinegar, with just enough {1_adj} to round off the acid. They improve over three days.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
@@ -355,13 +355,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_JambonGlaceAuMiel</defName>
-		<label>jambon glacé au miel</label>
+		<label>honey-glazed ham</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>une pièce {0_adj} quadrillée au couteau et piquée de clous de girofle, badigeonnée {1_plur} et {2_plur} toutes les vingt minutes jusqu'à former une croûte ambrée.</description>
+		<description>a joint of {0_adj} scored in a lattice and stuck with cloves, brushed with {1_plur} and {2_plur} every twenty minutes until an amber crust forms.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -370,13 +370,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PouletMielAil</defName>
-		<label>poulet au miel et à l'ail</label>
+		<label>honey and garlic chicken</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} saisie puis mijotée dans {1_coll}, {2_coll} écrasé et un trait de vinaigre, jusqu'à ce que la sauce réduise et colle à la chair.</description>
+		<description>{0_coll} seared then stewed in {1_coll}, crushed {2_coll} and a splash of vinegar, until the sauce reduces and clings to the flesh.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -384,13 +384,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaumonMisoMiel</defName>
-		<label>saumon glacé au miso et au miel</label>
+		<label>miso and honey glazed salmon</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 		</ingredients>
-		<description>{0_coll} marinée une nuit dans une pâte {1_adj} fermenté et {2_adj}, puis passée sous le gril. Le sucre du miso brûle vite : on surveille sans quitter la salamandre.</description>
+		<description>{0_coll} marinated overnight in a paste of fermented {1_adj} and {2_adj}, then run under the grill. The sugar of the miso burns fast: you watch it without leaving the salamander.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -401,13 +401,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TajineTfaya</defName>
-		<label>tajine tfaya</label>
+		<label>tfaya tagine</label>
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Grape</li></categories></li>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 		</ingredients>
-		<description>{2_coll} mijotée au safran, couverte d'une tfaya — {0_coll} compotés des heures {1_plur} secs, à la cannelle et au miel, jusqu'au brun sombre.</description>
+		<description>{2_coll} stewed with saffron, covered with a tfaya — {0_coll} stewed down for hours with dried {1_plur}, cinnamon and honey, until dark brown.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -421,7 +421,7 @@
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 			<li><categories><li>FT_Almond</li></categories></li>
 		</ingredients>
-		<description>{0_coll} confite au ras el hanout et au smen, noyée {1_plur} et chargée {2_adj} frites. Le miel et le sel conservaient la viande des semaines après la fête du sacrifice.</description>
+		<description>{0_coll} confited with ras el hanout and smen, drowned in {1_plur} and loaded with fried {2_adj}. The honey and the salt kept the meat for weeks after the feast of the sacrifice.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -435,7 +435,7 @@
 			<li><categories><li>FT_Apple</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisée avec des coings en quartiers, dont la chair dure fond en une heure et parfume tout, acidulée au verjus et sucrée d'un peu de miel.</description>
+		<description>{0_coll} braised with quinces in quarters, whose hard flesh melts within the hour and scents everything, sharpened with verjuice and sweetened with a little honey.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -443,13 +443,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorcCidrePommes</defName>
-		<label>porc au cidre et aux pommes</label>
+		<label>pork with cider and apples</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Apple</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>un rôti {0_adj} braisé {2_plur} avec {1_coll} en quartiers, dont la moitié se défait en compote et l'autre tient. Le jus réduit devient sirupeux tout seul.</description>
+		<description>a roast of {0_adj} braised in {2_plur} with {1_coll} in quarters, half of which fall to a compote while the other half hold their shape. The juices reduce to a syrup on their own.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
