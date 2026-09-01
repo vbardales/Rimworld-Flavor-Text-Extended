@@ -7,13 +7,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Bortsch</defName>
-		<label>bortsch</label>
+		<label>borscht with smetana</label>
 		<ingredients>
 			<li><categories><li>FT_Beet</li></categories></li>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>{0_coll} râpées et acidulées au vinaigre pour tenir leur rouge — sans acide, la soupe vire au brun —, avec {1_coll}, et une cuillère {2_adj} qui fait des spirales roses en fondant.</description>
+		<description>{0_coll} grated and sharpened with vinegar so as to hold their red — without acid the soup turns brown — with {1_coll}, and a spoonful of {2_adj} that draws pink spirals as it melts.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -27,7 +27,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} fermentés et frais mêlés, mijotés {1_plur} et {2_plur} séchés, puis refroidis et réchauffés plusieurs jours de suite. On dit qu'il n'est bon qu'au troisième réchauffage.</description>
+		<description>{0_coll} fermented and fresh mixed together, stewed with {1_plur} and dried {2_plur}, then cooled and reheated several days running. They say it is only good at the third reheating.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -35,13 +35,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Blinis</defName>
-		<label>blinis</label>
+		<label>blini</label>
 		<ingredients>
 			<li><categories><li>FT_Buckwheat</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>de petites crêpes {0_adj} levées à la levure et laissées gonfler des heures, cuites au beurre et servies tièdes {2_plur} épaisse. Nourriture de fête de fin d'hiver, où l'on en mange une semaine durant.</description>
+		<description>small {0_adj} pancakes raised with yeast and left to swell for hours, cooked in butter and served warm with thick {2_plur}. Late-winter feast food, eaten for a week at a time.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsSnack</li>
@@ -50,13 +50,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Koulibiac</defName>
-		<label>koulibiac</label>
+		<label>coulibiac</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en pavé entier, {1_coll} et {2_coll} durs montés en strates dans une brioche close, cuits ensemble. Se tranche comme une terrine et révèle ses couches d'un coup.</description>
+		<description>{0_coll} in one whole piece, {1_coll} and hard-boiled {2_coll} built up in strata inside a closed brioche and baked together. Cut like a terrine, and it reveals its layers all at once.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -64,13 +64,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Solianka</defName>
-		<label>solianka</label>
+		<label>solyanka</label>
 		<ingredients>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Cucumber</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 		</ingredients>
-		<description>une soupe volontairement aigre et salée : {0_coll} de plusieurs sortes, {1_coll} saumurés avec leur jus, {2_coll} et une rondelle de citron. Le plat des lendemains de fête, et ce n'est pas un hasard.</description>
+		<description>a soup deliberately sour and salt: {0_coll} of several kinds, {1_coll} pickled and put in with their brine, {2_coll} and a slice of lemon. The dish of the morning after, and that is no accident.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -84,7 +84,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>des demi-lunes de pâte fourrées {1_plur} écrasées, pochées puis arrosées {2_adj} fondus dans le beurre. Le pli doit tenir à l'eau bouillante : c'est tout le savoir-faire.</description>
+		<description>half-moons of dough filled with crushed {1_plur}, poached and then doused with {2_adj} melted down in butter. The seal has to hold in boiling water: that is the whole craft.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 		</mealKinds>
@@ -92,13 +92,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Khatchapouri</defName>
-		<label>khatchapouri</label>
+		<label>khachapuri</label>
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>un pain en forme de barque rempli {1_adj} fondu, avec un jaune cru et une noix {2_adj} déposés au centre à la sortie du four. On mélange le tout avec la pointe de la croûte qu'on arrache.</description>
+		<description>a bread shaped like a boat filled with melted {1_adj}, with a raw yolk and a knob of {2_adj} set at the centre as it leaves the oven. Everything is mixed together with the tip of the crust, torn off for the purpose.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -112,7 +112,7 @@
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 		</ingredients>
-		<description>{2_coll} taillées en longs bâtonnets — jamais râpées — étuvées {1_plur} et sa graisse, {0_coll} versé dessus sans être mélangé et cuit à la vapeur du fond. Se prépare au chaudron, pour cinquante personnes.</description>
+		<description>{2_coll} cut into long batons — never grated — sweated with {1_plur} and its fat, {0_coll} poured over without being stirred in and cooked in the steam from below. Made in a cauldron, for fifty people.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -120,13 +120,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Chachlik</defName>
-		<label>chachlik</label>
+		<label>shashlik</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} marinée une nuit {1_plur} râpés et {2_plur}, enfilée sur de larges lames de métal et grillée sur braises éteintes. On alterne un morceau maigre, un morceau gras.</description>
+		<description>{0_coll} marinated overnight with grated {1_plur} and {2_plur}, threaded onto broad metal blades and grilled over dying embers. A lean piece, then a fat piece, and so on.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -134,13 +134,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Kacha</defName>
-		<label>kacha</label>
+		<label>kasha</label>
 		<ingredients>
 			<li><categories><li>FT_Buckwheat</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} torréfié à sec jusqu'à sentir la noisette, puis gonflé à l'eau salée et abondamment {1_plur}, avec {2_coll}. Le plat le plus ordinaire qui soit, et celui qui manque le plus quand on part.</description>
+		<description>{0_coll} toasted dry until it smells of hazelnut, then swelled in salted water and generously {1_plur}, with {2_coll}. The most ordinary dish there is, and the one most missed when you leave.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -148,13 +148,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Zourek</defName>
-		<label>zourek</label>
+		<label>żurek</label>
 		<ingredients>
 			<li><categories><li>FT_Rye</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>une soupe blanche et franchement acide, montée sur un levain {0_adj} fermenté plusieurs jours, avec {1_coll} fumée et {2_coll} durs. Se sert parfois dans un pain évidé, qu'on mange à la fin.</description>
+		<description>a white and frankly sour soup, built on a {0_adj} leaven fermented for several days, with smoked {1_coll} and hard-boiled {2_coll}. Sometimes served in a hollowed loaf, which is eaten at the end.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>

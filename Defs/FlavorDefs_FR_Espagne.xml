@@ -12,7 +12,7 @@
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 			<li><categories><li>FT_BellPepper</li></categories></li>
 		</ingredients>
-		<description>{0_coll} étalé en couche mince dans une poêle plus large que haute, jamais remué, avec {1_coll} et {2_coll}. La croûte dorée qui attache au fond s'appelle le socarrat et se dispute.</description>
+		<description>{0_coll} spread in a thin layer in a pan wider than it is deep, never stirred, with {1_coll} and {2_coll}. The gilded crust that catches on the bottom is called the socarrat, and it is fought over.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -28,7 +28,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>du pain grillé frotté {2_plur} cru puis {1_plur} coupées en deux, jusqu'à ce qu'il ne reste que la peau. Sel, huile, rien d'autre — et pourtant on en fait tout un art à Barcelone.</description>
+		<description>toasted bread rubbed with raw {2_plur} and then with {1_plur} cut in half, until nothing but the skin is left. Salt, oil, nothing else — and yet a whole art is made of it in Barcelona.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -42,7 +42,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} trempée trois fois dans l'eau bouillante avant d'y rester — sinon la peau s'en va —, coupée aux ciseaux sur des rondelles {1_adj}, huile et paprika fumé.</description>
+		<description>{0_coll} dipped three times into boiling water before it is left there — otherwise the skin comes away — cut with scissors over rounds of {1_adj}, oil and smoked paprika.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -56,7 +56,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>de gros haricots blancs mijotés {1_plur} fumée, jamais remués à la cuillère : on secoue la marmite d'un mouvement de poignet pour ne pas les briser.</description>
+		<description>large white beans stewed with smoked {1_plur}, never stirred with a spoon: the pot is shaken with a turn of the wrist so as not to break them.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSoup</li>
@@ -71,7 +71,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 		</ingredients>
-		<description>une pâte {0_adj} poussée à travers une douille étoilée directement dans l'huile — les cannelures évitent qu'ils n'éclatent —, roulés {1_plur} et trempés dans {2_coll} épais.</description>
+		<description>a {0_adj} dough pushed through a star nozzle straight into the oil — the flutes keep them from bursting — rolled in {1_plur} and dipped into thick {2_coll}.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsDeepFry</li>
@@ -86,7 +86,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en cubes irréguliers frites deux fois, noyées d'une sauce {1_adj} et d'une émulsion {2_adj}. Se piquent au cure-dent, debout au bar.</description>
+		<description>{0_coll} in irregular cubes fried twice, drowned in a {1_adj} sauce and a {2_adj} emulsion. Speared on a toothpick, standing at the bar.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -101,7 +101,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} grillées, {1_coll} rôtis et {2_coll} séchés broyés au mortier avec du pain frit qui lie l'ensemble. Se mange sur des oignons doux cuits sous la cendre, à même la main.</description>
+		<description>{0_coll} toasted, {1_coll} roasted and dried {2_coll} ground in a mortar with fried bread that binds the whole. Eaten off sweet onions cooked under the ashes, straight from the hand.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -115,7 +115,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} broyés avec de la mie et montés à l'huile jusqu'à devenir une crème orange assez épaisse pour tenir, servie glacée avec {2_coll} durs émiettés. Plus dense que le gaspacho, dont il est le cousin de Cordoue.</description>
+		<description>{0_coll} ground with crumb and mounted with oil into an orange cream thick enough to stand up, served iced with hard-boiled {2_coll} crumbled over. Denser than gazpacho, of which it is the Córdoban cousin.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsPaste</li>
@@ -130,7 +130,7 @@
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>de courtes pâtes creuses grillées à sec puis cuites dans un fumet {1_adj}, qu'elles boivent en se dressant à la verticale. Née d'un mousse qui cachait le riz à son capitaine trop gourmand.</description>
+		<description>short hollow pasta toasted dry then cooked in a {1_adj} fumet, which they drink up while standing on end. Born of a ship's boy hiding the rice from a captain who ate too much of it.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 			<li>FT_MealsNonSpecial</li>
@@ -145,7 +145,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Grape</li></categories></li>
 		</ingredients>
-		<description>du pain dur humecté la veille, effrité et sauté longuement dans la graisse {1_adj} jusqu'à devenir doré et mobile, servi {2_plur}. Un déjeuner de berger, fait de ce qui restait.</description>
+		<description>hard bread damped the day before, crumbled and fried at length in {1_adj} fat until it turns golden and loose, served with {2_plur}. A shepherd's lunch, made of what was left.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

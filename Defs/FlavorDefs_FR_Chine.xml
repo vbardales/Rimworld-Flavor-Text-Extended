@@ -12,7 +12,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>des cubes de tofu {0_adj} glissés dans une sauce rouge de fèves fermentées, avec {2_coll} hachée et du poivre du Sichuan qui engourdit la langue avant que {1_coll} ne la brûlent.</description>
+		<description>cubes of {0_adj} tofu slipped into a red sauce of fermented beans, with minced {2_coll} and Sichuan pepper that numbs the tongue before {1_coll} burns it.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -26,7 +26,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>des bandes {0_adj} laquées au miel et {2_plur}, suspendues à des crochets au-dessus du feu jusqu'à noircir sur les bords. Le nom veut dire « cuit à la fourche ».</description>
+		<description>strips of {0_adj} lacquered with honey and {2_plur}, hung on hooks over the fire until the edges blacken. The name means cooked on a fork.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -40,7 +40,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>des raviolis plissés dix-huit fois, farcis {1_plur} et d'une gelée de bouillon qui redevient liquide à la vapeur. On les perce avant de mordre, sous peine de brûlure.</description>
+		<description>dumplings pleated eighteen times, filled with {1_plur} and a jelly of stock that turns back to liquid in the steam. You pierce them before biting, on pain of a burn.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 		</mealKinds>
@@ -54,7 +54,7 @@
 			<li><categories><li>FT_Peanut</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en dés sautée si vite que le wok ne refroidit jamais, avec {2_coll} entiers laissés dans l'huile et {1_coll} ajoutées en dernier pour rester croquantes.</description>
+		<description>{0_coll} in dice fried so fast that the wok never cools, with whole {2_coll} left in the oil and {1_coll} added last of all so as to stay crisp.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -68,7 +68,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>des cubes {0_adj} caramélisés dans {1_coll} fondu à sec avant d'être mijotés {2_plur}. Le sucre doit brunir sans amertume : quelques secondes séparent les deux.</description>
+		<description>cubes of {0_adj} caramelised in {1_coll} melted dry before they are stewed with {2_plur}. The sugar has to brown without bitterness: a few seconds part the two.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -76,13 +76,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_DanDan</defName>
-		<label>dan dan</label>
+		<label>dan dan noodles</label>
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>des nouilles servies sur une flaque de pâte {1_adj} et d'huile {2_adj}, à mélanger soi-même. Le nom vient de la palanche des marchands ambulants qui les portaient.</description>
+		<description>noodles served over a pool of {1_adj} paste and {2_adj} oil, to be mixed by the eater. The name comes from the carrying pole of the hawkers who bore them.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 		</mealKinds>
@@ -96,7 +96,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Kelp</li></categories></li>
 		</ingredients>
-		<description>des carrés de pâte si fine qu'on voit la farce {1_adj} au travers, refermés d'un pincement et pochés dans un bouillon {2_adj}. La queue de pâte flotte et ondule : c'est ce qui leur a donné leur nom.</description>
+		<description>squares of dough so fine that the {1_adj} filling shows through, closed with a pinch and poached in a {2_adj} broth. The tail of dough floats and ripples: that is what gave them their name.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 			<li>FT_MealsSoup</li>
@@ -105,13 +105,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CanardLaque</defName>
-		<label>canard laqué</label>
+		<label>peking duck</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>une bête gonflée d'air pour décoller la peau de la chair, ébouillantée, laquée {1_plur} et séchée un jour au vent avant de rôtir. On sert la peau d'abord, dans de fines crêpes, et la viande après.</description>
+		<description>a bird blown full of air to lift the skin off the flesh, scalded, lacquered with {1_plur} and dried a day in the wind before roasting. The skin is served first, in fine pancakes, and the meat afterwards.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -120,13 +120,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RizCantonais</defName>
-		<label>riz cantonais</label>
+		<label>cantonese fried rice</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Pea</li></categories></li>
 		</ingredients>
-		<description>{0_coll} de la veille, sec et détaché grain par grain, sauté à feu maximal {1_plur} et {2_plur}. Du riz frais colle et fait de la bouillie : il faut qu'il ait dormi.</description>
+		<description>yesterday's {0_coll}, dry and loose grain by grain, fried at the highest flame with {1_plur} and {2_plur}. Fresh rice clumps and turns to porridge: it has to have slept.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -134,13 +134,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PouletNoixCajou</defName>
-		<label>poulet aux noix de cajou</label>
+		<label>chicken with cashews</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>{0_coll} enrobée de fécule et blanchie à l'huile tiède avant le wok — c'est ce qui la garde tendre —, puis sautée {2_plur} avec {1_coll} grillées.</description>
+		<description>{0_coll} coated in starch and blanched in warm oil before it meets the wok — that is what keeps it tender — then fried with {2_plur} and toasted {1_coll}.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>

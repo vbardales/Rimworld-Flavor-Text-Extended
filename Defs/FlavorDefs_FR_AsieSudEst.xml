@@ -12,7 +12,7 @@
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 			<li><categories><li>FT_Cilantro</li></categories></li>
 		</ingredients>
-		<description>des galettes {0_adj} trempées une seconde dans l'eau tiède, roulées serré sur {1_coll} et des herbes. On voit le rose à travers la feuille : c'est pour ça qu'on la roule dans ce sens.</description>
+		<description>{0_adj} wrappers dipped a second into warm water, rolled tight over {1_coll} and herbs. You can see the pink through the sheet: that is why it is rolled that way round.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsSnack</li>
@@ -27,7 +27,7 @@
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Cilantro</li></categories></li>
 		</ingredients>
-		<description>des vermicelles {0_adj} froids sous {1_coll} sautée brûlante, avec des herbes crues et une sauce claire sucrée-salée versée par-dessus. Le chaud et le froid dans le même bol, sans que ce soit un défaut.</description>
+		<description>cold {0_adj} vermicelli under scalding fried {1_coll}, with raw herbs and a clear sweet-salt sauce poured over the top. Hot and cold in the same bowl, and it is not a fault.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 			<li>FT_MealsSalad</li>
@@ -42,7 +42,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>des rouleaux fins farcis {1_plur} hachée et {2_plur} noirs réhydratés, frits deux fois. Se mangent enveloppés dans une feuille de salade, avec de la menthe.</description>
+		<description>fine rolls filled with minced {1_plur} and black {2_plur} soaked back up, fried twice over. Eaten wrapped in a lettuce leaf, with mint.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -51,13 +51,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PadThai</defName>
-		<label>pad thaï</label>
+		<label>pad thai</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Peanut</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>des nouilles {0_adj} sautées dans un caramel de tamarin, {2_coll} brouillés à l'écart puis rabattus dessus, {1_coll} concassées à la fin. Inventé dans les années trente pour économiser le riz en grain.</description>
+		<description>{0_adj} noodles fried in a tamarind caramel, {2_coll} scrambled off to one side and then folded back over them, crushed {1_coll} at the end. Invented in the nineteen-thirties to save on whole-grain rice.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 			<li>FT_MealsStirFry</li>
@@ -72,7 +72,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>un bouillon {0_adj} monté sur citronnelle, galanga et feuilles de combava, acidifié {2_plur} hors du feu et brûlé {1_plur}. Les aromates ne se mangent pas ; on les pousse sur le bord.</description>
+		<description>a {0_adj} broth built on lemongrass, galangal and kaffir lime leaves, soured with {2_plur} off the heat and burnt with {1_plur}. The aromatics are not eaten; they are pushed to the rim.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -80,13 +80,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CurryVert</defName>
-		<label>curry vert</label>
+		<label>green curry</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>une pâte {2_adj} verts pilée puis frite dans la crème {1_adj} jusqu'à ce que l'huile se sépare et remonte, avec {0_coll}. Le vert est le plus fort des trois currys, malgré sa couleur douce.</description>
+		<description>a paste of green {2_adj} pounded and then fried in {1_adj} cream until the oil separates and rises, with {0_coll}. Green is the fiercest of the three curries, for all its mild colour.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -100,7 +100,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} hachée menu, à peine saisie, assaisonnée {2_plur} et de {1_coll} grillé et pilé qui donne du grain et une odeur de noisette. Le plat national du Laos.</description>
+		<description>{0_coll} finely chopped and barely seared, seasoned with {2_plur} and with {1_coll} toasted and pounded, which gives grain and a smell of hazelnut. The national dish of Laos.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
@@ -115,7 +115,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} sauté dans une pâte {2_adj} et une sauce de soja épaisse et sucrée, coiffé d'un œuf au plat aux bords dentelés de friture.</description>
+		<description>{0_coll} fried in a {2_adj} paste and a thick sweet soy sauce, crowned with a fried egg whose edges are lace from the fat.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -129,7 +129,7 @@
 			<li><categories><li>FT_Peanut</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>de fines lanières {0_adj} marinées au curcuma et {2_plur}, grillées sur des braises éventées à la main, servies avec une sauce épaisse {1_adj}.</description>
+		<description>fine strips of {0_adj} marinated in turmeric and {2_plur}, grilled over embers fanned by hand, served with a thick {1_adj} sauce.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>

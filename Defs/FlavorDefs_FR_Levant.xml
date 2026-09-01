@@ -7,13 +7,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Souvlaki</defName>
-		<label>souvláki</label>
+		<label>souvlaki</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>des cubes {0_adj} marinés à l'huile, {1_plur} et {2_plur}, enfilés sur de petites broches et grillés vite. Le nom veut simplement dire « petite brochette ».</description>
+		<description>cubes of {0_adj} marinated in oil, {1_plur} and {2_plur}, threaded on small skewers and grilled fast. The name means simply little skewer.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -21,13 +21,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Tzatziki</defName>
-		<label>tzatzíki</label>
+		<label>tzatziki</label>
 		<ingredients>
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Cucumber</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} égoutté une nuit dans un linge, mêlé {1_plur} râpés et pressés — sinon l'eau ruine tout — et {2_plur} cru.</description>
+		<description>{0_coll} drained overnight in a cloth, mixed with {1_plur} grated and wrung out — otherwise the water ruins it all — and raw {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 			<li>FT_MealsSalad</li>
@@ -36,13 +36,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Houmous</defName>
-		<label>houmous</label>
+		<label>hummus</label>
 		<ingredients>
 			<li><categories><li>FT_Chickpea</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuits jusqu'à s'écraser sous le doigt, broyés avec une pâte {1_adj}, {2_plur} et de l'eau glacée qui les fait blanchir et gonfler.</description>
+		<description>{0_coll} cooked until they crush under a finger, ground with a {1_adj} paste, {2_plur} and iced water that whitens them and makes them swell.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -50,13 +50,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Fattouche</defName>
-		<label>fattouche</label>
+		<label>fattoush</label>
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Cucumber</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>du pain plat rassis, grillé et brisé à la main, jeté sur {1_coll} et {2_coll} avec du sumac. Se sert au dernier moment : le pain doit encore craquer.</description>
+		<description>stale flatbread, toasted and broken by hand, thrown over {1_coll} and {2_coll} with sumac. Served at the last moment: the bread must still crack.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -64,13 +64,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Moujadara</defName>
-		<label>moujadara</label>
+		<label>mujadara</label>
 		<ingredients>
 			<li><categories><li>FT_Lentil</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} cuits ensemble, couverts {2_adj} frits jusqu'au brun presque noir. Ce presque-brûlé est le plat entier ; sans lui il ne reste que des lentilles.</description>
+		<description>{0_coll} and {1_coll} cooked together, covered over with {2_adj} fried to an almost black brown. That near-burning is the whole dish; without it there are only lentils.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -78,13 +78,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Taboule</defName>
-		<label>taboulé</label>
+		<label>tabbouleh</label>
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Cilantro</li></categories></li>
 		</ingredients>
-		<description>une montagne d'herbes hachées au couteau, {1_coll} en dés, et juste une poignée de boulgour. La version où la semoule domine est une invention d'ailleurs.</description>
+		<description>a mountain of herbs chopped by knife, {1_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -92,13 +92,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Avgolemono</defName>
-		<label>avgolémono</label>
+		<label>avgolemono</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} battus {1_plur} et détendus louche à louche avec le bouillon brûlant avant d'y retourner. Versés d'un coup, ils coagulent et le plat est perdu.</description>
+		<description>{0_coll} beaten with {1_plur} and let down ladle by ladle with the scalding broth before going back into it. Poured in all at once, they curdle and the dish is lost.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -106,13 +106,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Stifado</defName>
-		<label>stifádo</label>
+		<label>stifado</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Rabbit</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisée avec autant {1_adj} entiers que de viande, {2_plur} et à la cannelle. Les oignons ne sont pas un aromate, ici : ils sont la moitié du plat.</description>
+		<description>{0_coll} braised with as much whole {1_adj} as meat, with {2_plur} and cinnamon. The onions are not an aromatic here: they are half the dish.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -120,13 +120,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Labne</defName>
-		<label>labné</label>
+		<label>labneh</label>
 		<ingredients>
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} salé et suspendu dans un linge un jour entier, jusqu'à devenir tartinable, creusé d'un puits d'huile {1_adj} et saupoudré {2_adj}.</description>
+		<description>{0_coll} salted and hung in a cloth for a whole day, until it can be spread, hollowed into a well of {1_adj} oil and dusted with {2_adj}.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -134,13 +134,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChichTaouk</defName>
-		<label>chich taouk</label>
+		<label>shish taouk</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} marinée {1_plur} et {2_plur}, grillée en brochettes et servie avec une émulsion d'ail si dense qu'elle se tient à la cuillère.</description>
+		<description>{0_coll} marinated in {1_plur} and {2_plur}, grilled on skewers and served with a garlic emulsion so dense that it holds on the spoon.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
