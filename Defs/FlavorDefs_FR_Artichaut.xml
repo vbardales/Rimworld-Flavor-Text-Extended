@@ -13,13 +13,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ArtichautsBarigoule</defName>
-		<label>artichauts à la barigoule</label>
+		<label>artichokes à la barigoule</label>
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>de petits violets tournés et fendus, étuvés {1_plur} et une mirepoix, mouillés {2_plur} blanc et laissés réduire à sec. Le nom vient d'un champignon qu'on n'y met plus depuis deux siècles.</description>
+		<description>small violet artichokes turned and split, sweated in {1_plur} with a mirepoix, moistened with white {2_plur} and left to reduce dry. The name comes from a mushroom nobody has put in for two centuries.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -27,13 +27,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ArtichautsVinaigrette</defName>
-		<label>artichauts vinaigrette</label>
+		<label>artichokes vinaigrette</label>
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} entiers bouillis la tête en bas, servis tièdes avec une vinaigrette moutardée. On les effeuille un à un et on racle la base de chaque feuille entre les dents ; le fond se garde pour la fin.</description>
+		<description>{0_coll} boiled whole and head down, served warm with a mustard vinaigrette. You pull the leaves off one by one and scrape the base of each between your teeth; the heart is kept for last.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
@@ -42,13 +42,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ArtichautsFarcis</defName>
-		<label>artichauts farcis</label>
+		<label>stuffed artichokes</label>
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} évidés de leur foin, garnis d'une farce {1_adj} liée de mie, et braisés debout dans un peu de bouillon jusqu'à ce que les feuilles s'écartent d'elles-mêmes.</description>
+		<description>{0_coll} cleared of their choke, filled with a {1_adj} stuffing bound with crumb, and braised upright in a little stock until the leaves open of their own accord.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -65,7 +65,7 @@
 			<li><categories><li>FT_Garlic</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} parés jusqu'au cœur tendre, farcis {1_plur} et de menthe romaine, plantés la tige en l'air dans une casserole étroite et étuvés à l'huile et à l'eau.</description>
+		<description>{0_coll} trimmed down to the tender heart, stuffed with {1_plur} and Roman mint, planted stem upwards in a narrow pan and sweated in oil and water.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -79,7 +79,7 @@
 			<li><categories><li>FT_Fat</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} entiers frits deux fois, écrasés entre deux passages pour que les feuilles s'ouvrent en fleur et deviennent aussi cassantes que des chips. Une invention du ghetto de Rome.</description>
+		<description>{0_coll} whole fried twice over, crushed between the two fryings so that the leaves open into a flower and turn as brittle as crisps. An invention of the Roman ghetto.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsNonSpecial</li>
@@ -94,7 +94,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{1_coll} nacré et mouillé louche par louche, {0_coll} taillés en lamelles et ajoutés en deux fois — les uns au début pour fondre, les autres à la fin pour rester fermes — puis lié {2_plur}.</description>
+		<description>{1_coll} pearled and moistened ladle by ladle, {0_coll} cut into slivers and added in two goes — the first at the start to melt away, the rest at the end to stay firm — then bound with {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -108,7 +108,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} émincés au rasoir et fondus {2_plur} et à l'huile, allongés d'un peu d'eau de cuisson pour lier les pâtes sans crème.</description>
+		<description>{0_coll} shaved fine and melted down in {2_plur} and oil, let down with a little cooking water to bind the pasta without cream.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 		</mealKinds>
@@ -122,7 +122,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} poêlés jusqu'à dorer, noyés {1_plur} battus {2_plur}, cuits à feu très doux puis retournés d'un coup d'assiette. Se mange froide, coupée en parts.</description>
+		<description>{0_coll} fried until they gild, drowned in {1_plur} beaten with {2_plur}, cooked over a very low flame then turned over with a plate. Eaten cold, cut into wedges.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -136,7 +136,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en tranches farinées et frites, montés en couches {1_plur} et {2_plur}, puis gratinés. Moins connue que celle aux aubergines, et plus fine.</description>
+		<description>{0_coll} sliced, floured and fried, built up in layers with {1_plur} and {2_plur}, then browned. Less known than the aubergine version, and finer.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -144,13 +144,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PizzaAuxArtichauts</defName>
-		<label>pizza aux artichauts</label>
+		<label>artichoke pizza</label>
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} marinés à l'huile posés sur la pâte au dernier moment, avec {2_coll} — un des quatre quartiers de la capricciosa, promu plat entier.</description>
+		<description>{0_coll} marinated in oil and laid on the base at the last moment, with {2_coll} — one of the four quarters of a capricciosa, promoted to a whole dish.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsSandwich</li>
@@ -167,7 +167,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} blanchis puis sautés {2_plur} et {1_plur} taillé en dés, qui rend son gras et sale le plat sans qu'on ajoute rien.</description>
+		<description>{0_coll} blanched and then fried in {2_plur} with {1_plur} cut into dice, which gives up its fat and salts the dish without anything else being added.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -181,7 +181,7 @@
 			<li><categories><li>FT_Pea</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisés à l'huile avec {1_coll} et des carottes, liés d'un avgolemono {2_adj} monté hors du feu. « À la façon de la Ville » — c'est-à-dire de Constantinople.</description>
+		<description>{0_coll} braised in oil with {1_coll} and carrots, bound with an {2_adj} avgolemono mounted off the heat. In the manner of the City — meaning Constantinople.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -197,7 +197,7 @@
 			<li><categories><li>FT_Olive</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 		</ingredients>
-		<description>des fonds {0_adj} remplis {2_plur} et de carottes en dés, cuits à l'huile {1_adj} et refroidis dedans. Les plats « à l'huile d'olive » turcs se mangent toujours froids.</description>
+		<description>the bottoms of {0_adj} filled with {2_plur} and diced carrot, cooked in {1_adj} oil and cooled in it. Turkish olive-oil dishes are always eaten cold.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>
@@ -212,7 +212,7 @@
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 		</ingredients>
-		<description>des fonds {0_adj} garnis d'un hachis {1_adj} et {2_adj}, mijotés dans une sauce blanche au citron. Le plat algérien du printemps, quand les cardons arrivent.</description>
+		<description>the bottoms of {0_adj} filled with a hash of {1_adj} and {2_adj}, stewed in a white lemon sauce. The Algerian dish of spring, when the cardoons come in.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -220,13 +220,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TajineDArtichauts</defName>
-		<label>tajine d'artichauts</label>
+		<label>artichoke tagine</label>
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{1_coll} mijotée au safran et au gingembre, {0_coll} ajoutés à mi-cuisson pour ne pas se défaire, et {2_coll} confit en fin de course.</description>
+		<description>{1_coll} stewed with saffron and ginger, {0_coll} added halfway through so as not to fall apart, and preserved {2_coll} at the very end.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -236,13 +236,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SpinachArtichokeDip</defName>
-		<label>spinach-artichoke dip</label>
+		<label>spinach and artichoke dip</label>
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} hachés noyés {2_plur} fondu, gratinés et servis bouillants avec de quoi tremper. Le plat d'apéritif américain par excellence, et personne ne s'arrête à temps.</description>
+		<description>{0_coll} and {1_coll} chopped and drowned in melted {2_plur}, browned and served boiling with something to dip. The American party dish above all others, and nobody stops in time.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 			<li>FT_MealsBake</li>
