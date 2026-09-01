@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Figue de Barbarie — catégorie FT_CactusFruit, orpheline.
+  Quinze plats, quinze combinaisons distinctes.
+
+  Confiture, gelée, marmelade, ate, dulce, queso de tuna et pâte de fruit sont toutes
+  « fruit + sucre » : elles ne se distinguent que par le procédé, invisible au moteur.
+  On en garde une par tournure réellement différente et on ouvre le reste sur les
+  accords salés et lactés, que la catégorie permet et que rien ne couvrait.
+-->
+<Defs>
+
+	<!-- ===================================================== CONFISERIES -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ConfitureFigueBarbarie</defName>
+		<label>confiture de figues de Barbarie</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} épluchées avec des gants — les glochides sont invisibles et s'enfoncent seuls —, cuites {1_plur} et parfumées {2_plur}. Les pépins se retirent au tamis ou se gardent, selon la patience.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_QuesoDeTuna</defName>
+		<label>queso de tuna</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>la pulpe {0_adj} réduite des heures jusqu'à devenir une pâte brune assez ferme pour se trancher, chargée {1_plur}. Malgré son nom, il n'y a pas de fromage dedans : c'est la forme du bloc qui l'a baptisé.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChutneyFigueBarbarie</defName>
+		<label>chutney de figues de Barbarie</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} confites au vinaigre {2_plur} et {1_plur}, jusqu'à ce que le doux et l'acide s'équilibrent. Se garde des mois et s'améliore les premières semaines.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================== DESSERTS GLACÉS -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GranitaFichiIndia</defName>
+		<label>granita ai fichi d'India</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>le jus {0_adj} filtré, sucré et acidulé {2_plur}, pris au froid et gratté à la fourchette toutes les demi-heures pour rester en cristaux. Se mange en Sicile au petit-déjeuner, avec une brioche.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GelatoFicoIndia</defName>
+		<label>gelato al fico d'India</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une base {1_adj} peu foisonnée où la pulpe {0_adj} donne un rose profond qui ne vient d'aucun colorant. Plus dense qu'une glace, servi à la spatule.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_NieveDeTuna</defName>
+		<label>nieve de tuna</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une glace battue à la main dans un seau de bois entouré de glace et de sel, comme sur les places mexicaines. La pulpe {0_adj} et {1_coll}, rien d'autre.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ======================================================= PÂTISSERIE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TarteFigueBarbarie</defName>
+		<label>tarte à la figue de Barbarie</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>un fond sablé {2_plur} garni d'une gelée {0_adj} prise, dont la couleur passe du magenta au grenat en refroidissant.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CheesecakeFigueBarbarie</defName>
+		<label>cheesecake à la figue de Barbarie</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>un appareil {1_adj} et {2_adj} nappé d'un miroir {0_adj}. L'acidité du fruit tranche le gras du fromage, ce que les fruits rouges font moins nettement.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FigueBarbarieYaourtPistaches</defName>
+		<label>figues de Barbarie au yaourt et aux pistaches</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Pistachio</li></categories></li>
+		</ingredients>
+		<description>{0_coll} pelées et tranchées sur {1_coll} égoutté, arrosées de miel et parsemées {2_adj} concassées. Le dessert de fin d'été, du Maghreb au Levant.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================================ BOISSON -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Colonche</defName>
+		<label>colonche</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>le jus {0_adj} rouges laissé fermenter quelques jours dans une jarre de terre. Une boisson préhispanique, encore vendue dans les marchés du centre du Mexique.</description>
+		<mealKinds>
+			<li>FT_MealsDrink</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================================= SALÉ -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SalsaDeTuna</defName>
+		<label>salsa de tuna</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en dés, {1_coll} hachés fin et {2_coll} rouge, avec du citron vert et de la coriandre. Le sucre du fruit éteint le piment sans le masquer.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladeNopalesTuna</defName>
+		<label>salade de nopales et tuna</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Cilantro</li></categories></li>
+		</ingredients>
+		<description>les raquettes du cactus épépinées, blanchies pour ôter leur bave, coupées en lanières, et le fruit du même cactus en dés — avec {1_coll} et {2_coll}. La plante entière dans une seule assiette.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladeFigueBarbarieFeta</defName>
+		<label>salade de figues de Barbarie à la feta</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en quartiers sur un lit {2_adj} amères, avec {1_coll} émietté, de la menthe et un filet d'huile. Le sucré du fruit contre le salé du fromage.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CevicheFigueBarbarie</defName>
+		<label>ceviche à la figue de Barbarie</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Meat_Seafood</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{1_coll} crue cuite par l'acide {2_adj}, avec {0_coll} en dés qui apportent le sucre et la couleur. Une invention récente des côtes du Pacifique mexicain.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PouletFigueBarbarie</defName>
+		<label>poulet glacé à la figue de Barbarie</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{1_coll} grillée et laquée d'un sirop {0_adj} relevé {2_plur} fumés. Le glaçage est appliqué en fin de cuisson seulement : le sucre du fruit brûle vite.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Cuisine italienne. Flavor Text ne couvrait que carbonara, polenta et tiramisu.
+
+  Les noms restent en italien : c'est ainsi qu'on les dit en français, et traduire
+  « cacio e pepe » par « fromage et poivre » serait une trahison plus qu'une traduction.
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RisiEBisi</defName>
+		<label>risi e bisi</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Pea</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} cuits ensemble, entre la soupe et le risotto — assez liquide pour la cuillère, trop épais pour le bol. Les cosses servent au bouillon, rien ne se perd.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Gnocchi</defName>
+		<label>gnocchi</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{0_coll} écrasées encore chaudes et liées d'aussi peu de farine que possible, roulées, striées à la fourchette. Ils sont cuits quand ils remontent.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_OssoBuco</defName>
+		<label>osso-buco</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Carrot</li></categories></li>
+		</ingredients>
+		<description>des tranches de jarret braisées {1_plur} et {2_plur}, l'os laissé au centre. La moelle qu'il contient est la raison d'être du plat.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Parmigiana</defName>
+		<label>parmigiana {0_adj}</label>
+		<ingredients>
+			<li><categories><li>FT_Eggplant</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en tranches dégorgées au sel puis frites, montées en couches {1_plur} et {2_plur}, et gratinées. Le sel enlève l'amertume ; sans lui le plat est immangeable.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Caponata</defName>
+		<label>caponata</label>
+		<ingredients>
+			<li><categories><li>FT_Eggplant</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+		</ingredients>
+		<description>{0_coll} frites à part, réunies {1_plur} fondus et {2_plur}, puis aigres-douces au vinaigre et au sucre. Se mange froide, le lendemain, quand l'acidité s'est rangée.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Minestrone</defName>
+		<label>minestrone</label>
+		<ingredients>
+			<li><categories><li>FT_Bean</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+		</ingredients>
+		<description>une soupe de fond de garde-manger : {0_coll}, {1_coll} et {2_coll} mijotés sans recette fixe. Meilleure le lendemain, ce qui arrange tout le monde.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Ribollita</defName>
+		<label>ribollita</label>
+		<ingredients>
+			<li><categories><li>FT_Bean</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>littéralement « rebouillie » : la soupe {0_adj} et {1_adj} de la veille, épaissie de pain rassis et remise sur le feu jusqu'à ne plus couler.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PannaCotta</defName>
+		<label>panna cotta</label>
+		<ingredients>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+		</ingredients>
+		<description>{0_coll} à peine chauffée {1_plur}, prise au froid tout juste assez pour tenir, et nappée d'un coulis {2_adj}. Elle doit trembler quand on pose l'assiette.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Cannoli</defName>
+		<label>cannoli</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+		</ingredients>
+		<description>des tubes de pâte frits autour d'un roseau, garnis {1_plur} sucrée et {2_plur} au dernier moment. Fourrés d'avance, ils ramollissent et ne valent plus rien.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Focaccia</defName>
+		<label>focaccia</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>une pâte très hydratée creusée du bout des doigts, noyée d'huile {1_adj} et salée en gros grains. Les trous retiennent l'huile : ils ne sont pas décoratifs.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Arancini</defName>
+		<label>arancini</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>un reste de risotto froid serré en boule autour d'un cœur {2_adj}, roulé dans une chapelure {1_adj} et frit. Le nom veut dire « petites oranges », d'après la couleur qu'elles prennent en sortant de l'huile.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Caprese</defName>
+		<label>caprese</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} en tranches alternées, huile, sel, feuilles vertes. Rien d'autre, et surtout pas de vinaigre.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Saltimbocca</defName>
+		<label>saltimbocca</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>une escalope {0_adj} aplatie, une feuille de sauge et une tranche {1_adj} fixées dessus, saisies une minute par face. Le nom dit « saute en bouche ».</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_VitelloTonnato</defName>
+		<label>vitello tonnato</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} pochée, refroidie, tranchée au plus fin, et nappée d'une sauce froide {1_adj} montée {2_plur}. L'accord paraît absurde jusqu'à la première bouchée.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Panzanella</defName>
+		<label>panzanella</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>du pain dur trempé puis pressé, mêlé {1_plur} et {2_plur}. Un plat inventé pour ne rien jeter, devenu un plat qu'on réclame.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BagnaCauda</defName>
+		<label>bagna cauda</label>
+		<ingredients>
+			<li><categories><li>FT_Anchovy</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} fondus {2_plur} avec beaucoup {1_adj}, tenus tièdes sur une flamme. On y trempe les légumes crus ; l'odeur tient trois jours dans la pièce.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FrittoMisto</defName>
+		<label>fritto misto</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Seafood</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{0_coll} roulée dans la farine, jetée dans l'huile brûlante et sortie aussitôt, servie {2_plur}. Se mange debout, dans du papier, avant d'avoir refroidi.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Polpette</defName>
+		<label>polpette</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+		</ingredients>
+		<description>{0_coll} hachée et allégée de mie trempée, roulée en boulettes et finie de cuire dans une sauce {2_adj}.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CotolettaMilanese</defName>
+		<label>cotoletta alla milanese</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>une côte {0_adj} laissée sur son os, passée {2_plur} puis à la chapelure, et cuite au beurre clarifié. Milan et Vienne se disputent l'antériorité depuis deux siècles.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Amatriciana</defName>
+		<label>amatriciana</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>{2_coll} rendue lentement jusqu'à devenir translucide, {1_coll} ajoutées à la graisse obtenue, et les pâtes finies dedans.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Zabaione</defName>
+		<label>zabaione</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>des jaunes {0_adj} fouettés {1_plur} et {2_plur} au bain-marie, jusqu'à tripler de volume. Une seconde de trop et c'est une omelette sucrée.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

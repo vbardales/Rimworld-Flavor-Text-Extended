@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Grenade — catégorie FT_Pomegranate, orpheline.
+  Vingt-cinq plats, vingt-cinq combinaisons distinctes.
+
+  La grenade est le fruit acide de l'axe Levant-Anatolie-Iran-Caucase : sa mélasse y
+  tient le rôle que le citron tient ailleurs. D'où une majorité de plats salés.
+
+  « Muhammara » n'est pas repris : Flavor Text le possède déjà.
+  « Nar ekşisi » et « dibs rumman » sont la même mélasse en turc et en arabe — une
+  seule def ; le narsharab azéri, épicé, en garde une à part.
+-->
+<Defs>
+
+	<!-- ============================================================== IRAN -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Fesenjan</defName>
+		<label>fesenjan</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+		</ingredients>
+		<description>{1_coll} broyées si finement qu'elles rendent leur huile, mijotées des heures {0_plur} jusqu'à ce que la sauce devienne presque noire. {2_coll} y cuit lentement. Le plat le plus ancien encore servi de la table persane.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AsheAnar</defName>
+		<label>ash-e anar</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Lentil</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+		</ingredients>
+		<description>une soupe épaisse d'herbes hachées, {1_coll} et {2_coll}, acidulée au jus {0_adj} et parsemée de graines fraîches. Se prépare pour la nuit du solstice d'hiver.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AnarBij</defName>
+		<label>anar bij</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{2_coll} longuement fondus, le jus {0_adj} versé dessus et réduit, puis {1_coll} cassés dedans et brouillés à peine. Un plat du nord de l'Iran, mangé au petit-déjeuner.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_JeweledRice</defName>
+		<label>riz aux joyaux</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Pistachio</li></categories></li>
+		</ingredients>
+		<description>{1_coll} safrané monté en dôme, incrusté de graines {0_adj}, {2_adj} et d'écorces d'orange confites. Se prépare pour les mariages, et le nom n'est pas une image.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =========================================== CAUCASE ET MÉLASSES -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MelasseDeGrenade</defName>
+		<label>mélasse de grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>le jus {0_adj} réduit des heures jusqu'au dixième de son volume, épais, noir et franchement acide. Dibs rumman en arabe, nar ekşisi en turc : le citron du Levant.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Narsharab</defName>
+		<label>narsharab</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>la mélasse azérie, montée {2_plur} et parfumée à la cannelle, au clou et au laurier. Se sert avec le poisson d'esturgeon grillé, et rien d'autre ne la remplace.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_NarQovurma</defName>
+		<label>nar qovurma</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{1_coll} saisie puis mijotée {2_plur} dans le jus {0_adj}, qui l'attendrit et la teinte. Un plat de fête azerbaïdjanais, servi dans son plat de cuivre.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BadrijaniGrenade</defName>
+		<label>badrijani nigvzit à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Eggplant</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>des lanières {1_adj} frites, roulées sur une pâte {2_adj} à l'ail et au fenugrec bleu, semées de graines {0_adj}. Le rouge sur le violet : les Géorgiens y tiennent autant qu'au goût.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladeGrenadeNoix</defName>
+		<label>salade de grenade aux noix</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>des graines {0_adj}, {1_coll} concassées et {2_coll} rouge finement émincé, avec une masse d'herbes fraîches. Arménienne, et servie à toutes les tables de la région.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================ LEVANT ET ANATOLIE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FattoushGrenade</defName>
+		<label>fattoush à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cucumber</li></categories></li>
+		</ingredients>
+		<description>du pain plat frit et brisé, {2_coll} et des herbes, avec une vinaigrette au sumac et à la mélasse {0_adj}. Le pain doit encore craquer à l'arrivée en table.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GavurdagiSalatasi</defName>
+		<label>gavurdağı salatası</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>{1_coll} et oignon taillés très petit et réguliers, {2_coll} concassées, le tout lié à la mélasse {0_adj} et à l'huile. La taille des dés fait la réputation du cuisinier.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_KisirGrenade</defName>
+		<label>kısır à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+		</ingredients>
+		<description>du boulgour fin gonflé à l'eau chaude et travaillé à la main avec du concentré {2_adj}, du piment doux et la mélasse {0_adj}. Se sert dans des feuilles de laitue.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AuberginesTahiniGrenade</defName>
+		<label>aubergines au tahini et à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Eggplant</li></categories></li>
+			<li><categories><li>FT_Sesame</li></categories></li>
+		</ingredients>
+		<description>{1_coll} rôties entières jusqu'à s'affaisser, ouvertes et nappées d'une crème {2_adj} au citron, semées de graines {0_adj} crues.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PoisChichesGrenade</defName>
+		<label>pois chiches à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Chickpea</li></categories></li>
+			<li><categories><li>FT_Sesame</li></categories></li>
+		</ingredients>
+		<description>{1_coll} rôtis jusqu'à croustiller, servis sur une crème {2_adj} et arrosés de mélasse {0_adj}. Le sucré-acide contre l'amertume du sésame.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladeFetaGrenade</defName>
+		<label>salade de feta à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+		</ingredients>
+		<description>{2_coll} poivrées, {1_coll} en gros éclats et une pluie de graines {0_adj}, avec de l'huile et du sumac. Les graines craquent, le fromage sale, les feuilles amèrent.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PouletMelasseGrenade</defName>
+		<label>poulet à la mélasse de grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+		</ingredients>
+		<description>{1_coll} laquée d'un mélange de mélasse {0_adj} et {2_adj}, rôtie jusqu'à ce que la peau devienne acajou. Le glaçage est passé trois fois pendant la cuisson.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TajineAgneauGrenade</defName>
+		<label>tajine d'agneau à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{1_coll} mijotée au safran et à la cannelle, la sauce acidulée au jus {0_adj} et les graines fraîches semées au moment de servir seulement — cuites, elles perdent tout.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================== INDE, ANARDANA -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AnardanaChutney</defName>
+		<label>anardana chutney</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>des graines {0_adj} sauvage séchées et moulues, broyées {1_plur} verts et à la coriandre. L'anardana remplace le tamarin dans tout le nord de l'Inde.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AnardanaChicken</defName>
+		<label>anardana chicken</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{1_coll} marinée aux graines {0_adj} moulues, qui attendrissent la chair par leur acidité, puis mijotée aux épices sèches sans tomate ni yaourt.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RaitaGrenade</defName>
+		<label>raïta à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Cucumber</li></categories></li>
+		</ingredients>
+		<description>{1_coll} battu avec {2_coll} râpés et du cumin torréfié, semé de graines {0_adj} entières qui éclatent sous la dent.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================= POISSON ET DESSERTS -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaumonGlaceGrenade</defName>
+		<label>saumon glacé à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{1_coll} rôtie côté peau et laquée d'une réduction {0_adj} sucrée, appliquée les deux dernières minutes pour ne pas brûler.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ConfitureDeGrenade</defName>
+		<label>confiture de grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Apple</li></categories></li>
+		</ingredients>
+		<description>les graines {0_adj} cuites {1_plur} avec un peu {2_adj} râpée, dont la pectine fait prendre une gelée que le fruit seul ne donnerait jamais.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SorbetGrenade</defName>
+		<label>sorbet à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Citrus</li></categories></li>
+		</ingredients>
+		<description>le jus {0_adj} pressé à la main, sucré et relevé {2_plur}, turbiné sans une goutte de lait. La couleur est celle du fruit, et elle ne pardonne aucune dilution.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GelatoMelagrana</defName>
+		<label>gelato alla melagrana</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une base {1_adj} peu foisonnée où le jus {0_adj} donne un rose soutenu, avec quelques graines entières laissées dedans pour le croquant.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CheesecakeGrenade</defName>
+		<label>cheesecake à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>un appareil {1_adj} et {2_adj} sous un miroir {0_adj} constellé de graines entières. L'acidité du fruit tranche le gras mieux que le citron.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PavlovaGrenade</defName>
+		<label>pavlova à la grenade</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>une meringue {1_adj} craquante et guimauve, {2_coll} fouettée à peine sucrée, et une poignée de graines {0_adj} jetées dessus. Rouge sur blanc, et rien à ajouter.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

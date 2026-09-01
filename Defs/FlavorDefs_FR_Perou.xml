@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Cuisine péruvienne et andine. Flavor Text connaissait ceviche, ajiaco, salchipapa
+  et arepas con queso — on complète le reste.
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_LomoSaltado</defName>
+		<label>lomo saltado</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} sautée au wok à feu brutal {2_plur}, déglacée au vinaigre et à la sauce de soja, puis mêlée {1_plur} frites. Un plat chinois passé par les Andes, et resté.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AjiDeGallina</defName>
+		<label>ají de gallina</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>{0_coll} bouillie puis effilochée à la main, dans une sauce jaune épaissie de mie et {2_adj} broyées, colorée {1_plur} doux. Le piment est là pour la couleur autant que pour le feu.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CausaLimena</defName>
+		<label>causa limeña</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+			<li><categories><li>FT_Avocado</li></categories></li>
+		</ingredients>
+		<description>une purée {0_adj} jaunes, pétrie {1_plur} et au piment jusqu'à devenir malléable comme de la pâte, montée en couches {2_plur}. Se mange froide, tranchée net.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Anticuchos</defName>
+		<label>anticuchos</label>
+		<ingredients>
+			<li><categories><li>FT_Offal</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{0_coll} marinée au vinaigre, {1_plur} et {2_plur}, enfilée sur des broches et grillée au charbon dans la rue. Née de ce que les maîtres ne mangeaient pas.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PapaHuancaina</defName>
+		<label>papa a la huancaína</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{0_coll} bouillies et froides, noyées sous une sauce {1_adj} frais et {2_adj} jaune passée jusqu'à devenir soyeuse. Une entrée, jamais un plat.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RocotoRelleno</defName>
+		<label>rocoto relleno</label>
+		<ingredients>
+			<li><categories><li>FT_BellPepper</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{0_coll} évidés et blanchis trois fois pour ôter l'essentiel du feu, farcis {1_plur} hachée, coiffés {2_plur} et passés au four. Trois fois, et ça pique encore.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChupeDeCamarones</defName>
+		<label>chupe de camarones</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>une soupe épaisse {0_adj}, {1_adj} et {2_adj}, où l'on casse un œuf entier au dernier moment. Les têtes des crevettes font le bouillon et ne se jettent jamais.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ArrozConPollo</defName>
+		<label>arroz con pollo</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_BellPepper</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuit dans le bouillon {1_adj} et une purée de coriandre qui le teint en vert profond, avec {2_coll}. La couleur déroute d'abord, puis manque quand elle n'y est pas.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Pachamanca</defName>
+		<label>pachamanca</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Corn</li></categories></li>
+		</ingredients>
+		<description>{0_coll}, {1_coll} et {2_coll} enfouis dans un trou tapissé de pierres chauffées au feu, recouverts de terre, et laissés cuire des heures. Le nom veut dire « marmite de la terre » ; ce n'est pas une image.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SopaDeQuinua</defName>
+		<label>sopa de quinua</label>
+		<ingredients>
+			<li><categories><li>FT_Quinoa</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{0_coll} rincé longuement — sa saponine est amère — puis mijoté {1_plur} jusqu'à ouvrir ses germes en spirale, {2_plur} fondu dedans.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TacuTacu</defName>
+		<label>tacu tacu</label>
+		<ingredients>
+			<li><categories><li>FT_Bean</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} de la veille écrasés ensemble et poêlés en une galette dorée sur les deux faces, {2_plur} revenus dedans. Un plat né des restes, devenu une institution.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SecoDeCordero</defName>
+		<label>seco {0_adj}</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Cilantro</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>{0_coll} braisée dans une purée {1_adj} et {2_plur} fermentée, jusqu'à ce que la sauce devienne vert sombre. On l'appelle « sec » alors qu'il baigne : personne ne sait pourquoi.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Picarones</defName>
+		<label>picarones</label>
+		<ingredients>
+			<li><categories><li>FT_Squash</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>des anneaux de pâte {0_adj} et de patate douce, façonnés à la main d'un geste tournant, frits et noyés d'un sirop {2_adj} roux. Le successeur colonial d'un beignet plus ancien.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SuspiroLimena</defName>
+		<label>suspiro a la limeña</label>
+		<ingredients>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} réduit {2_plur} pendant une heure jusqu'au caramel, lié de jaunes {1_adj}, et coiffé d'une meringue au porto. Nommé d'après un soupir, pour sa douceur et sa brièveté.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

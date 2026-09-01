@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Catégories d'ingrédients absentes de Flavor Text mais indispensables à la cuisine française.
+
+  La catégorisation compare le defName ET le label de chaque ThingDef aux mots-clés. Le
+  defName reste anglais quelle que soit la langue, le label est traduit : on donne donc
+  les mots-clés dans les deux langues.
+
+  Les formes grammaticales (singularCollective, inflectionsOverride) sont héritées du
+  parent — rien à redéfinir ici.
+-->
+<Defs>
+
+	<FlavorText.FlavorCategoryDef>
+		<defName>FT_Leek</defName>
+		<label>Flavor Text leek</label>
+		<parents>
+			<li>FT_Vegetable</li>
+		</parents>
+		<keywords>
+			<li>leek</li>
+			<li>leeks</li>
+			<li>poireau</li>
+			<li>poireaux</li>
+			<li>ramson</li>
+			<li>wild leek</li>
+		</keywords>
+		<thingDefsToAbsorb>
+			<li MayRequire="vvenchov.vvnewharvest">VV_Leeks</li>
+			<li MayRequire="vanillaexpanded.vplantsemore">VCE_RawLeek</li>
+			<li MayRequire="dismarzero.vgp.vgpvegetablegarden">Rawleek</li>
+		</thingDefsToAbsorb>
+	</FlavorText.FlavorCategoryDef>
+
+	<FlavorText.FlavorCategoryDef>
+		<defName>FT_Shallot</defName>
+		<label>Flavor Text shallot</label>
+		<parents>
+			<li>FT_Onion</li>
+		</parents>
+		<keywords>
+			<li>shallot</li>
+			<li>shallots</li>
+			<li>échalote</li>
+			<li>echalote</li>
+			<li>scallion</li>
+		</keywords>
+		<thingDefsToAbsorb>
+			<li MayRequire="vvenchov.vvnewharvest">VV_Shallots</li>
+			<li MayRequire="dismarzero.vgp.vgpvegetablegarden">Rawshallot</li>
+		</thingDefsToAbsorb>
+	</FlavorText.FlavorCategoryDef>
+
+</Defs>

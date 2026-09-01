@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_Ingredients_Salad	{0_adj} salad	0=Ingredients 1=Ingredients	MealsSalad	
+FlavorText_Ingredients_Salad_2	{0_adj} salad	0=Ingredients 1=Meat_Poultry 2=Egg	MealsSalad	
+FlavorText_Ingredients_Szalot	{1_adj} szalot	0=Ingredients 1=Ingredients 2=Potato	MealsSalad	
+FlavorText_Fleischsalat	fleischsalat	0=Ingredients 1=MeatRaw 2=Egg	MealsSalad	
+FlavorText_NourishBowl	nourish bowl	0=Ingredients 1=Ingredients 2=Nut	MealsSalad	
+FlavorText_Pickled_Ingredients	pickled {0_coll}	0=Ingredients	MealsSalad	
+FlavorText_Kelp_Salad	{0_adj} salad	0=Kelp 1=Soy/Meat_Dryad	MealsSalad	
+FlavorText_Esqueixada	esqueixada	0=Meat_Fish 1=Tomato/Onion/Eggplant/BellPepper 2=Egg/Olive/Tomato/Onion/Eggplant/BellPepper	MealsSalad	
+FlavorText_MeatRaw_Salad	{0_adj} salad	0=MeatRaw 1=Egg	MealsSalad	
+FlavorText_CandleSalad	candle salad	0=Pineapple 1=Banana	MealsSalad	
+FlavorText_PlantFoodRaw_Salad	{0_adj} salad	0=PlantFoodRaw 1=PlantFoodRaw	MealsSalad	
+FlavorText_Sweet_Corn_Salad	sweet {2_adj} salad	0=Sugar 1=Fruit 2=Corn	MealsSalad	
+FlavorText_Sweet_Fungus_Salad	sweet {2_adj} salad	0=Sugar 1=Fruit 2=Fungus	MealsSalad	
+FlavorText_FarmersSalad	Farmer's salad	0=Vegetable 1=Vegetable 2=Milk	MealsSalad	
+FlavorText_Kisir	kısır	0=Wheat 1=Tomato 2=Fruit	MealsSalad	
+FlavorText_Lahmacun	lahmacun	0=Grain 1=MeatRaw 2=BellPepper/Eggplant/Onion	MealsSandwich,MealsBake,MealsGrill	
+FlavorText_Ingredients_Pide	{1_adj} pide	0=Grain 1=Ingredients	MealsSandwich,MealsBake	
+FlavorText_GrilledCheese	grilled cheese	0=Milk 1=Grain	MealsSandwich,MealsDeepFry,MealsGrill	
+FlavorText_VadaPav	vada pav	0=Ingredients 1=Potato 2=Grain	MealsSandwich,MealsDeepFry	
+FlavorText_BatataVada	batata vada	0=Potato 1=Chickpea	MealsSandwich,MealsDeepFry	
+FlavorText_DonutBurger	donut burger	0=MeatRaw 1=Grain 2=Sugar	MealsSandwich,MealsDessert	
+FlavorText_Durum	dürüm	0=Grain 1=Meat_Hoofed/Meat_Poultry 2=LeafyVeg/Onion/Tomato/Cucumber	MealsSandwich,MealsGrill	poste:Fire
+FlavorText_IslakBurger	islak burger	0=Grain 1=Meat_Cow 2=Tomato	MealsSandwich,MealsGrill	poste:Fire
+FlavorText_Fungus_Burger	{1_adj} burger	0=Ingredients 1=Fungus 2=Grain	MealsSandwich,MealsGrill	
+FlavorText_Soy_Wrap	{1_adj} wrap	0=Ingredients 1=Soy/Meat_Dryad 2=Grain	MealsSandwich,MealsGrill	
+FlavorText_BalikEkmek	balik ekmek	0=Meat_Fish 1=Grain 2=Tomato/Lettuce/BellPepper	MealsSandwich,MealsGrill	
+FlavorText_KofteEkmek	köfte ekmek	0=Meat_Hoofed/Meat_Poultry 1=Grain 2=BellPepper/Onion/Tomato/Dairy	MealsSandwich,MealsGrill	
+FlavorText_Kokorec	kokorec	0=Offal 1=Grain	MealsSandwich,MealsGrill	
+FlavorText_DonerKebab	döner kebab	0=Wheat 1=Meat_Cow/Meat_Poultry 2=Cabbage/Cucumber/Onion/Tomato	MealsSandwich,MealsGrill	poste:Fire
+FlavorText_Yakisoba-Pan	yakisoba-pan	0=Grain 1=Cabbage/Onion/Carrot	MealsSandwich,MealsNoodle,MealsStirFry	
+FlavorText_Yakisoba-Pan_2	yakisoba-pan	0=Grain 1=Ingredients 2=Cabbage/Onion/Carrot	MealsSandwich,MealsNoodle,MealsStirFry	
+FlavorText_Kumru	kumru	0=Chickpea 1=MeatRaw 2=Dairy/Tomato	MealsSandwich	
+FlavorText_MarmaladeSandwich	marmalade sandwich	0=Citrus 1=Grain	MealsSandwich	
+FlavorText_Taquitos	taquitos	0=Corn 1=Ingredients	MealsSandwich	
+FlavorText_HuitlacocheQuesadillas	huitlacoche quesadillas	0=Dairy 1=Corn 2=Fungus	MealsSandwich	
+FlavorText_Egg_SaladSandwich	{0_adj} salad sandwich	0=Egg 1=Egg 2=Grain	MealsSandwich	
+FlavorText_Egg_SaladSandwich_2	{0_adj} salad sandwich	0=Egg 1=Grain	MealsSandwich	
+FlavorText_FrenchToast	French toast	0=Flour 1=Milk 2=Egg	MealsSandwich	
+FlavorText_Nut_ButterAndJellySandwich	{1_adj} butter and jelly sandwich	0=Grain 1=Nut 2=Fruit	MealsSandwich	
+FlavorText_Nut_ButterSandwich	{1_adj} butter sandwich	0=Grain 1=Nut	MealsSandwich	
+FlavorText_BanhMi	bánh mì	0=Grain 1=Meat_Pig 2=Vegetable	MealsSandwich	
+FlavorText_CurriedEggSandwich	curried egg sandwich	0=Grain 1=Egg 2=Spice	MealsSandwich	
+FlavorText_GoldenSops	golden sops	0=Grain 1=Milk/Nut 2=Fruit	MealsSandwich	
+FlavorText_SloppyJoe	sloppy Joe	0=Grain 1=Meat_Cow 2=Tomato	MealsSandwich	
+FlavorText_Sphatlhou	sphatlhou	0=Grain 1=Potato 2=MeatRaw/AnimalProductRaw/Soy	MealsSandwich	
+FlavorText_Tantuni	tantuni	0=Grain 1=Meat_Hoofed/Meat_Poultry 2=Onion/Tomato/BellPepper/Spice	MealsSandwich	
+FlavorText_Ingredients_Burger	{0_adj} burger	0=Ingredients 1=Ingredients 2=Ingredients	MealsSandwich	
+FlavorText_Ingredients_Burger_2	{0_adj} burger	0=Ingredients 1=Ingredients 2=PlantFoodRaw	MealsSandwich	
+FlavorText_Ingredients_Rolls	{0_adj} rolls	0=Ingredients	MealsSandwich	
+FlavorText_Ingredients_Tacos	{0_adj} tacos	0=Ingredients 1=Grain	MealsSandwich	
+FlavorText_Ingredients_Wrap	{0_adj} wrap	0=Ingredients 1=Ingredients	MealsSandwich	
+FlavorText_Ingredients_Wrap_2	{0_adj} wrap	0=Ingredients 1=PlantFoodRaw	MealsSandwich	
+FlavorText_MeatRaw_Sandwich	{1_adj} sandwich	0=Ingredients 1=MeatRaw 2=Grain	MealsSandwich	
+FlavorText_Cheese_Sandwich	{1_adj} sandwich	0=Ingredients 1=Cheese 2=Grain	MealsSandwich	
+FlavorText_BreakfastSandwich	breakfast sandwich	0=Ingredients 1=Egg 2=Grain	MealsSandwich	
+FlavorText_CheeseSandwich	cheese sandwich	0=Ingredients 1=Dairy 2=Grain	MealsSandwich	
+FlavorText_BabyYouCanChiveMyCar	Baby You Can Chive My Car	0=Meat_Cow 1=Grain 2=Dairy/Onion/Cucumber	MealsSandwich	
+FlavorText_HotDogs	hot dogs	0=Meat_Cow 1=Grain	MealsSandwich	
+FlavorText_ReubenSandwich	Reuben sandwich	0=Meat_Cow 1=Rye 2=Milk	MealsSandwich	
+FlavorText_MeatRaw_Burritos	{0_adj} burritos	0=MeatRaw 1=Corn 2=Rice	MealsSandwich	
+FlavorText_MeatRaw_HuitlacocheTacos	{0_adj} huitlacoche tacos	0=MeatRaw 1=Corn 2=Fungus	MealsSandwich	
+FlavorText_MeatRaw_PicadilloTacos	{0_adj} picadillo tacos	0=MeatRaw 1=Corn 2=Potato	MealsSandwich	
+FlavorText_Burger	burger	0=PlantFoodRaw/AnimalProductRaw 1=Meat_Cow 2=Grain	MealsSandwich	
+FlavorText_Croissant_Ingredients_Sandwich	croissant {2_adj} sandwich	0=Wheat 1=Dairy 2=Ingredients	MealsSandwich	
+FlavorText_Flautas	flautas	0=Wheat 1=Ingredients	MealsSandwich	
+FlavorText_Milkshake	milkshake	0=Dairy 1=Sugar	MealsSnack,MealsDessert,MealsDrink	
+FlavorText_Fruit_Kool-AidPickles	{1_adj} kool-aid pickles	0=Cucumber 1=Fruit	MealsSnack,MealsDessert	
+FlavorText_Fruit_CrackSeed	{0_adj} crack seed	0=Fruit	MealsSnack,MealsDessert	
+FlavorText_Fruit_Pops	{0_adj} pops	0=Fruit 1=Dairy	MealsSnack,MealsDessert	
+FlavorText_CrackerJacks	cracker jacks	0=Nut 1=Corn 2=Sugar	MealsSnack,MealsDessert	
+FlavorText_CottonCandy	cotton candy	0=Sugar	MealsSnack,MealsDessert	
+FlavorText_Muhammara	muhammara	0=BellPepper 1=Nut	MealsSnack,MealsGrill	
+FlavorText_MeatRaw_CocktailSausages	{0_adj} cocktail sausages	0=MeatRaw 1=MeatRaw	MealsSnack,MealsGrill	
+FlavorText_BuzluBadem	buzlu badem	0=Almond	MealsSnack	
+FlavorText_BoqueronesEnVinagre	boquerones en vinagre	0=Anchovy	MealsSnack	
+FlavorText_Harissa	harissa	0=BellPepper 1=Chili	MealsSnack	
+FlavorText_DhanaDal	dhana dal	0=Cilantro	MealsSnack	
+FlavorText_Popcorn	popcorn	0=Corn	MealsSnack	
+FlavorText_CheesePoofs	cheese poofs	0=Dairy 1=Grain	MealsSnack	
+FlavorText_Nachos	nachos	0=Dairy 1=PlantFoodRaw	MealsSnack	

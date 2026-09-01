@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Durian — catégorie FT_Durian, orpheline.
+  Dix-sept plats, dix-sept combinaisons distinctes.
+
+  Le durian est la plus riche des orphelines parce qu'il possède une branche salée :
+  le tempoyak, chair fermentée au sel, sert de condiment et de base de curry en
+  Indonésie et en Malaisie. Quatre defs en sortent, là où les autres fruits n'en
+  donnaient aucune.
+
+  « pulut durian », « ketan durian », « khao niao durian », « durian sticky rice » et
+  « xôi sầu riêng » sont un seul et même plat en cinq langues : un seul triplet.
+
+  « Pengat durian » et « dodol durian » utilisent le sucre de palme, qui relève de
+  FT_SugarFromPlants — la catégorie que le sirop d'érable avait ouverte.
+-->
+<Defs>
+
+	<!-- ============================================== ASIE DU SUD-EST, SUCRÉ -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PulutDurian</defName>
+		<label>pulut durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+		</ingredients>
+		<description>{1_coll} gluant cuit à la vapeur et salé au lait {2_adj}, avec la chair {0_adj} posée dessus sans être mélangée. Le gras du coco et le sel tempèrent le fruit, qui autrement écrase tout.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PengatDurian</defName>
+		<label>pengat durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_SugarFromPlants</li></categories></li>
+		</ingredients>
+		<description>la chair {0_adj} défaite dans un lait {1_adj} chaud sucré {2_plur} de palme, parfumé au pandan. Se mange tiède à la cuillère, entre la crème et la soupe.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CendolDurian</defName>
+		<label>cendol durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>des vermicelles verts de farine de riz au pandan, de la glace pilée, du lait {1_adj} et une cuillerée de chair {0_adj} par-dessus. On mélange tout avant de manger.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_EsDurian</defName>
+		<label>es durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>de la glace pilée noyée de lait concentré {2_adj}, avec {0_coll} en morceaux et parfois du fromage râpé — l'accord indonésien qui déroute tout le monde et que personne ne remet en question là-bas.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DodolDurian</defName>
+		<label>dodol durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_SugarFromPlants</li></categories></li>
+		</ingredients>
+		<description>une pâte de farine {1_adj} gluant, {2_adj} de palme et chair {0_adj}, remuée sans arrêt six heures durant au chaudron jusqu'à devenir presque noire et se détacher des parois.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DurianMochi</defName>
+		<label>mochi au durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une peau de pâte {1_adj} gluant fourrée de chair {0_adj} froide. La pâte contient l'odeur jusqu'à la première morsure, ce qui en fait une farce redoutable.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================= PÂTISSERIE ET GLACES -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BanhPiaSauRieng</defName>
+		<label>bánh pía sầu riêng</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>un gâteau vietnamien à pâte feuilletée en spirale, fourré de pâte {0_adj} et d'un jaune {2_adj} salé au centre. Les couches se décollent une à une à la découpe.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DurianMooncake</defName>
+		<label>gâteau de lune au durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_RedBean</li></categories></li>
+		</ingredients>
+		<description>une pâte de neige non cuite moulée au sceau, fourrée de chair {0_adj} et d'une pâte {2_adj} sucrés. Se sert glacé, contrairement au gâteau de lune classique.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DurianMilleCrepes</defName>
+		<label>mille-crêpes au durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>vingt crêpes très fines empilées, chacune séparée d'une couche de chair {0_adj} montée {2_plur}. Se tranche net et se mange glacé.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DurianPuff</defName>
+		<label>durian puff</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>de petits choux garnis d'une crème {0_adj} pure, servis froids. Vendus par boîtes réfrigérées à Singapour, et interdits dans le métro comme tout ce qui contient ce fruit.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DurianCheesecake</defName>
+		<label>cheesecake au durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>un appareil {1_adj} sans cuisson, chargé de chair {0_adj}, pris au froid une nuit entière. Le fromage arrondit le fruit et le rend abordable aux non-initiés.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GateauAuDurian</defName>
+		<label>gâteau au durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une génoise très aérée où la chair {0_adj} est incorporée à la pâte crue. L'odeur envahit la cuisine pendant la cuisson et s'y installe pour la journée.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GlaceAuDurian</defName>
+		<label>glace au durian</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>une base {1_adj} et {2_adj} où le fruit passe cru, sans cuisson qui atténuerait son parfum. Le froid l'assagit un peu ; un peu seulement.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================== TEMPOYAK, LE SALÉ -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Tempoyak</defName>
+		<label>tempoyak</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+		</ingredients>
+		<description>la chair {0_adj} salée et laissée fermenter une semaine en jarre close, jusqu'à devenir acide et crémeuse. Ce n'est plus un fruit à ce stade : c'est un condiment, et il se garde des mois.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SambalTempoyak</defName>
+		<label>sambal tempoyak</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{0_coll} fermenté pilé {1_plur} et {2_plur} au mortier, puis frit brièvement. L'acidité de la fermentation remplace le tamarin qu'on mettrait ailleurs.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GulaiTempoyak</defName>
+		<label>gulai tempoyak</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>un curry jaune monté sur lait {1_adj} et curcuma, acidifié {0_plur} fermenté plutôt qu'au tamarin. La sauce prend une texture épaisse qu'aucun autre acide ne donne.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_IkanPatinTempoyak</defName>
+		<label>ikan patin tempoyak</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{1_coll} de rivière mijotée dans {0_coll} fermenté et {2_coll}, sans lait de coco. Le plat emblématique de Pahang et de Jambi, et la meilleure démonstration que ce fruit n'est pas qu'un dessert.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

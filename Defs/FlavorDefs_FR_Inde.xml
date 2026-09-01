@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Cuisine indienne. Flavor Text couvrait déjà korma, kheer et dosa.
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Dal</defName>
+		<label>dal</label>
+		<ingredients>
+			<li><categories><li>FT_Lentil</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuits jusqu'à se défaire, puis réveillés d'un tempérage : {1_coll} et {2_coll} frits une poignée de secondes dans le beurre brûlant et versés dessus, encore grésillants.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Biryani</defName>
+		<label>biryani</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} à moitié cuit et {1_coll} marinée montés en couches, scellés sous un couvercle luté à la pâte, et finis à l'étouffée. On ne remue jamais : chaque couche doit rester distincte à l'ouverture.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ButterChicken</defName>
+		<label>butter chicken</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} passée d'abord au four brûlant, puis remise dans une sauce {1_adj} montée {2_plur} et à la crème. Inventé pour récupérer les restes de la veille, devenu le plat le plus commandé du pays.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Samosa</defName>
+		<label>samosa</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Pea</li></categories></li>
+		</ingredients>
+		<description>des triangles de pâte {0_adj} fourrés {1_plur} écrasées et {2_plur}, soudés à l'eau et frits doucement pour que la croûte reste bullée plutôt que lisse.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Raita</defName>
+		<label>raïta</label>
+		<ingredients>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Cucumber</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} battu avec {1_coll} râpés et {2_coll} torréfiés au sec. Ce n'est pas un accompagnement : c'est l'extincteur du repas.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PalakPaneer</defName>
+		<label>palak paneer</label>
+		<ingredients>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>{0_coll} blanchies puis broyées en une purée verte tenue courte pour ne pas brunir, où l'on pose des cubes {1_adj} frais qui ne fondent pas.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChanaMasala</defName>
+		<label>chana masala</label>
+		<ingredients>
+			<li><categories><li>FT_Chickpea</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} mijotés dans un fond {2_adj} longuement roussis et {1_adj}, acidulé au tamarin et à l'amchoor. La sauce doit coller aux pois, pas les baigner.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Vindaloo</defName>
+		<label>vindaloo</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>{0_coll} marinée au vinaigre {2_adj} et {1_plur}, héritage portugais de Goa. Le nom vient de « vinha d'alhos » — vin et ail — et non du mot pomme de terre, malgré les apparences.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RoganJosh</defName>
+		<label>rogan josh</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{0_coll} braisée {1_plur} et {2_plur} du Cachemire, qui donnent une couleur écarlate sans presque aucun feu. Le rouge et le piquant ne vont pas toujours ensemble.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Tandoori</defName>
+		<label>tandoori {0_adj}</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{0_coll} incisée jusqu'à l'os, marinée une nuit {1_plur} et {2_plur}, puis plaquée contre la paroi d'un four d'argile chauffé au rouge. Le yaourt tient la marinade collée et attendrit la chair.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Pakora</defName>
+		<label>pakora</label>
+		<ingredients>
+			<li><categories><li>FT_Chickpea</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{1_coll} enrobés d'une pâte {0_adj} relevée {2_plur} et frits en amas irréguliers. Sans gluten par accident, croustillants par construction.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GulabJamun</defName>
+		<label>gulab jamun</label>
+		<ingredients>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} réduit des heures jusqu'à devenir une pâte solide, roulé en boules, frit très doucement, et laissé s'imbiber d'un sirop {1_adj} parfumé à la rose. Il faut qu'elles coulent quand on mord.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Chutney</defName>
+		<label>chutney {0_adj}</label>
+		<ingredients>
+			<li><categories><li>FT_Fruit</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuits {1_plur}, au vinaigre et {2_plur} jusqu'à confire. Se garde des mois et s'améliore les premières semaines.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

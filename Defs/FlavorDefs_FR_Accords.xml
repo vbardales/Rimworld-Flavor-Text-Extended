@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Les cinq accords manquants que le couverture.js corrigé a fait remonter, une fois
+  l'arbre pris en compte et le classement rebasculé sur « assise » :
+
+      Rice + Wheat               149 plats parlent du moins installé des deux
+      Meat_Cow + Meat_Poultry     83
+      Butter + Rice               64
+      Coconut × (Butter, Cheese, Fungus, Tomato, Meat_Cow, Drink)   52
+      Citrus × (LeafyVeg, Coconut, Butter, Alcohol)                 51
+
+  Vérifiés un par un par requête directe avant d'écrire : riz+blé, bœuf+volaille et
+  beurre+riz sont réellement à zéro def.
+
+  Attention à ne PAS y ajouter Citrus + Olive : la paire est déjà couverte par le
+  crudo et par le tajine aux olives et citron confit. Elle n'a jamais figuré dans la
+  sortie de couverture.js — c'est une erreur de relecture, pas un manque.
+
+  Dédoublonnage, en suivant la règle habituelle — ce qui compte est le triplet
+  d'ingrédients, pas le nom :
+    riz aux vermicelles libanais = égyptien = şehriyeli pilav turc  → 1 def
+    arancini siciliens = supplì romains                            → 1 def
+    tarte au riz = rijstevlaai = Belgian rice tart                 → 1 def
+    ghee rice = neychoru = nei choru = ghee pulao                  → 1 def
+
+  Pas de séparation de FT_Coconut : les seuls ThingDefs de coco installés sont
+  VCE_RawCoconut, Romy_RawCoconuts, CK_Coconuts et Romy_CoconutSyrup. Aucun lait ni
+  crème de coco n'existe en tant que ThingDef, donc FT_CoconutMilk resterait vide et
+  ses plats seraient écartés au chargement.
+-->
+<Defs>
+
+	<!-- ===================================================== RIZ ET BLÉ (149) -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RizAuxVermicelles</defName>
+		<label>riz aux vermicelles</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>des vermicelles {1_adj} cassés court et colorés {2_plur} jusqu'au brun noisette, avant qu'on verse {0_coll} par-dessus et qu'on couvre d'eau. Du Liban à l'Égypte et jusqu'en Turquie, c'est le riz de tous les jours.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!--
+		Les arancini existaient déjà dans le lot italien, en riz + fromage + œuf. Plutôt
+		que d'en écrire un second, on a corrigé l'original : la chapelure de blé est plus
+		définitoire que l'œuf dans un plat dont le nom vient de sa panure. L'accord
+		Riz + Blé y gagne, et le corpus perd un doublon au lieu d'en gagner un.
+	-->
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TourteAuRiz</defName>
+		<label>tourte au riz</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuit au bouillon, lié puis enfermé dans une pâte {1_adj} avec une poêlée {2_adj}. Une tourte salée qui tient au corps et se mange froide le lendemain, ce qui était tout son intérêt.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TarteAuRiz</defName>
+		<label>tarte au riz</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>un riz au lait très épais coulé dans un fond de pâte levée {1_adj}, puis passé au four jusqu'à ce que le dessus se craquelle. La spécialité de Verviers, qu'on y mange depuis des siècles.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CroquettesDeRiz</defName>
+		<label>croquettes de riz</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuit à l'excès pour qu'il colle, lié {2_plur} battus, façonné en bâtonnets, passé à la farine {1_adj} puis frit. Une façon d'écouler le fond de la marmite qui vaut mieux que son origine.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RizPilafOrzo</defName>
+		<label>riz pilaf à l'orzo</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et de petites pâtes {1_adj} en grain de riz, nacrés ensemble avec {2_coll} avant d'être mouillés au bouillon. Deux féculents dans la même casserole, et deux textures à l'arrivée.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================== BŒUF ET VOLAILLE (83) -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BrochettesMixtes</defName>
+		<label>brochettes mixtes</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_BellPepper</li></categories></li>
+		</ingredients>
+		<description>des cubes {0_adj} et {1_adj} enfilés en alternance avec {2_coll}, sur des broches séparées : les deux viandes ne cuisent pas au même rythme, et le griller ensemble est la faute du débutant.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChawarmaMixte</defName>
+		<label>chawarma mixte</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>deux broches verticales côte à côte, l'une {0_adj}, l'autre {1_adj}, dont on racle les copeaux au fur et à mesure pour les rouler ensemble dans un pain {2_adj}. Le client qui hésite prend les deux.</description>
+		<mealKinds>
+			<li>FT_MealsSandwich</li>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Puchero</defName>
+		<label>puchero</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Chickpea</li></categories></li>
+		</ingredients>
+		<description>un pot où {0_coll} et {1_coll} cuisent ensemble des heures avec {2_coll} trempés. On sert le bouillon en premier, les pois et les légumes ensuite, les viandes en dernier — c'est un repas en trois services tiré d'une seule marmite.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DoubleConsomme</defName>
+		<label>double consommé</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
+		</ingredients>
+		<description>un fond {0_adj} déjà clarifié, remis à cuire sur {1_coll} et {2_coll} pour en extraire une seconde fois. Il faut deux marmites de départ pour un bol d'arrivée, et le résultat est limpide comme du thé.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BiryaniMixte</defName>
+		<label>biryani mixte</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+		</ingredients>
+		<description>{2_coll} à moitié cuit posé en couches sur {0_coll} et {1_coll} marinées au yaourt, le tout scellé sous une pâte et fini à l'étouffée. On brise le couvercle à table.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PainDeViandeMixte</defName>
+		<label>pain de viande mixte</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} pour le goût, {1_coll} pour la tenue, {2_coll} pour lier le tout, façonnés en pain et cuits au four. Le mélange des deux viandes n'est pas une économie : la volaille seule s'assèche, le bœuf seul s'affaisse.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================ BEURRE ET RIZ (64) -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GheeRice</defName>
+		<label>ghee rice</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières — cannelle, clou, cardamome, laurier — puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Tahdig</defName>
+		<label>tahdig</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+		</ingredients>
+		<description>le fond de la marmite : {0_coll} mêlé {2_plur} et au safran, tassé dans {1_coll} fondu et laissé prendre à feu doux jusqu'à former une croûte dorée qu'on retourne d'un bloc sur le plat. C'est la part qu'on se dispute.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RizBeurreSoja</defName>
+		<label>riz au beurre et au soja</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>une noix {1_adj} qui fond dans {0_coll} brûlant, un filet {2_adj}, rien d'autre. Se fait à une heure du matin, avec ce qui reste du cuiseur.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RizBeurreAil</defName>
+		<label>riz au beurre et à l'ail</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{2_coll} haché blondi dans {1_coll} mousseux, puis {0_coll} sauté dedans grain par grain. L'ail doit colorer sans brûler : passé le blond, il devient amer et le plat est perdu.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ========================================================= COCO (52) -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TomKha</defName>
+		<label>tom kha</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>un lait {0_adj} infusé de galanga, de citronnelle et de feuilles de combava, dans lequel pochent {1_coll} et {2_coll}. Le galanga n'est pas du gingembre et ne se remplace pas : c'est lui qui fait le plat.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Moilee</defName>
+		<label>moilee</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+		</ingredients>
+		<description>un curry blanc du Kerala : {1_coll} pochée dans un lait {0_adj} au curcuma, avec {2_coll} ajoutées en fin de course pour qu'elles gardent leur tenue. Doux, presque pâle — le piment y est vert et discret.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BoeufLaitDeCoco</defName>
+		<label>bœuf au lait de coco</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{1_coll} braisée très lentement dans un lait {0_adj} et une pâte {2_adj}, jusqu'à ce que le lait se casse et que l'huile remonte. À partir de là, la viande frit dans sa propre sauce.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Haupia</defName>
+		<label>haupia</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Flour</li></categories></li>
+		</ingredients>
+		<description>un lait {0_adj} sucré {1_plur} et lié d'un amidon {2_adj}, versé en plaque et laissé prendre au froid, puis découpé en carrés qui se mangent à la main. Le dessert des lūʻau hawaïens.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Cocada</defName>
+		<label>cocada</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>{0_coll} râpée cuite {1_plur} et {2_plur} jusqu'à ce que la masse se détache du fond de la casserole, puis dressée à la cuillère en petits tas qui durcissent en refroidissant.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PolSambol</defName>
+		<label>pol sambol</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{0_coll} fraîche râpée, pilée au mortier avec {1_coll} séchés, de l'oignon rouge et un jus {2_adj}. Cinglant, sec, servi à côté de tout au Sri Lanka. Se fait à la minute : râpée la veille, la coco rancit.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChutneyDeCoco</defName>
+		<label>chutney de coco</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Lentil</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} mixée avec {1_coll} grillés et un peu d'eau, puis réveillée d'un tempérage : des graines de moutarde et des feuilles de curry qu'on fait éclater dans l'huile brûlante et qu'on verse par-dessus. Accompagne le dosa.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ====================================================== AGRUMES (51) -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladeAgrumesFenouil</defName>
+		<label>salade d'agrumes au fenouil</label>
+		<ingredients>
+			<li><categories><li>FT_Citrus</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} pelés à vif, en rondelles, avec du fenouil coupé à la mandoline, {2_coll} et {1_coll} noires. Une huile, du poivre, rien de plus : l'acidité du fruit tient lieu de vinaigre.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CitronConfit</defName>
+		<label>citron confit</label>
+		<ingredients>
+			<li><categories><li>FT_Citrus</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} fendus en croix, bourrés de gros sel et tassés dans un bocal où ils rendent leur jus pendant un mois, {2_plur} et sous une couche d'huile {1_adj}. On n'emploie que l'écorce ; la pulpe se jette.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Ponzu</defName>
+		<label>ponzu</label>
+		<ingredients>
+			<li><categories><li>FT_Citrus</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_Kelp</li></categories></li>
+		</ingredients>
+		<description>un jus {0_adj} mêlé {1_plur}, à du mirin et à un bouillon {2_adj} avec des copeaux de bonite, laissé reposer plusieurs jours avant d'être filtré. Sert à tremper autant qu'à assaisonner.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_VinaigretteAgrumes</defName>
+		<label>vinaigrette aux agrumes</label>
+		<ingredients>
+			<li><categories><li>FT_Citrus</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
+		</ingredients>
+		<description>un jus {0_adj} monté à l'huile {1_adj} sur une pointe {2_adj} qui empêche l'émulsion de retomber. Trois volumes d'huile pour un de jus, et on rectifie au goût du fruit.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PouletLaqueAgrumes</defName>
+		<label>poulet laqué aux agrumes</label>
+		<ingredients>
+			<li><categories><li>FT_Citrus</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+		</ingredients>
+		<description>{1_coll} rôtie et badigeonnée en fin de cuisson d'un mélange {2_adj} et de jus {0_adj} réduit, repassé au pinceau trois fois. Le glaçage brûle en un rien de temps : on ne le pose qu'à la toute fin.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

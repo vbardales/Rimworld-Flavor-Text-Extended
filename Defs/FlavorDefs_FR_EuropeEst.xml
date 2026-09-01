@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Europe centrale et orientale. Flavor Text couvrait déjà goulash, pierogi, cevapi,
+  sarma et stroganoff.
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Bortsch</defName>
+		<label>bortsch</label>
+		<ingredients>
+			<li><categories><li>FT_Beet</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>{0_coll} râpées et acidulées au vinaigre pour tenir leur rouge — sans acide, la soupe vire au brun —, avec {1_coll}, et une cuillère {2_adj} qui fait des spirales roses en fondant.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Bigos</defName>
+		<label>bigos</label>
+		<ingredients>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{0_coll} fermentés et frais mêlés, mijotés {1_plur} et {2_plur} séchés, puis refroidis et réchauffés plusieurs jours de suite. On dit qu'il n'est bon qu'au troisième réchauffage.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Blinis</defName>
+		<label>blinis</label>
+		<ingredients>
+			<li><categories><li>FT_Buckwheat</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>de petites crêpes {0_adj} levées à la levure et laissées gonfler des heures, cuites au beurre et servies tièdes {2_plur} épaisse. Nourriture de fête de fin d'hiver, où l'on en mange une semaine durant.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Koulibiac</defName>
+		<label>koulibiac</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en pavé entier, {1_coll} et {2_coll} durs montés en strates dans une brioche close, cuits ensemble. Se tranche comme une terrine et révèle ses couches d'un coup.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Solianka</defName>
+		<label>solianka</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Cucumber</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+		</ingredients>
+		<description>une soupe volontairement aigre et salée : {0_coll} de plusieurs sortes, {1_coll} saumurés avec leur jus, {2_coll} et une rondelle de citron. Le plat des lendemains de fête, et ce n'est pas un hasard.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Vareniki</defName>
+		<label>vareniki</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>des demi-lunes de pâte fourrées {1_plur} écrasées, pochées puis arrosées {2_adj} fondus dans le beurre. Le pli doit tenir à l'eau bouillante : c'est tout le savoir-faire.</description>
+		<mealKinds>
+			<li>FT_MealsDumpling</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Khatchapouri</defName>
+		<label>khatchapouri</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>un pain en forme de barque rempli {1_adj} fondu, avec un jaune cru et une noix {2_adj} déposés au centre à la sortie du four. On mélange le tout avec la pointe de la croûte qu'on arrache.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Plov</defName>
+		<label>plov</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Carrot</li></categories></li>
+		</ingredients>
+		<description>{2_coll} taillées en longs bâtonnets — jamais râpées — étuvées {1_plur} et sa graisse, {0_coll} versé dessus sans être mélangé et cuit à la vapeur du fond. Se prépare au chaudron, pour cinquante personnes.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Chachlik</defName>
+		<label>chachlik</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>{0_coll} marinée une nuit {1_plur} râpés et {2_plur}, enfilée sur de larges lames de métal et grillée sur braises éteintes. On alterne un morceau maigre, un morceau gras.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Kacha</defName>
+		<label>kacha</label>
+		<ingredients>
+			<li><categories><li>FT_Buckwheat</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{0_coll} torréfié à sec jusqu'à sentir la noisette, puis gonflé à l'eau salée et abondamment {1_plur}, avec {2_coll}. Le plat le plus ordinaire qui soit, et celui qui manque le plus quand on part.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Zourek</defName>
+		<label>zourek</label>
+		<ingredients>
+			<li><categories><li>FT_Rye</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>une soupe blanche et franchement acide, montée sur un levain {0_adj} fermenté plusieurs jours, avec {1_coll} fumée et {2_coll} durs. Se sert parfois dans un pain évidé, qu'on mange à la fin.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

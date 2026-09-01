@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Flavor Text Extended</name>
+	<author>nelim</author>
+	<packageId>nelim.flavortextextended</packageId>
+	<url>https://github.com/vbardales/Rimworld-Flavor-Text-Extended</url>
+	<description>An add-on for Flavor Text (hekmo). Requires it, contains none of its files, and does nothing without it.
+
+896 NEW DISHES
+
+French and regional cooking first, then the wider repertoire: Italy, the Maghreb, Japan, Korea, Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the Caribbean, Polynesia.
+
+Every dish rests on a distinct combination of ingredients. That combination is what the engine draws on, not the name - so the same dish under five different names would add nothing, and is not here. Where two dishes share a combination it is deliberate: the engine picks at random among matching definitions, weighted by how narrow each one is, so sharing produces variety rather than conflict.
+
+NEW INGREDIENT CATEGORIES
+
+Leek and shallot, split out of the generic onion. Five reptile meats - turtle, alligator, iguana, lizard, frog - split out of the single herptile category.
+
+THIRD-PARTY INGREDIENTS
+
+Flavor Text sorts ingredients by matching Latin keywords against their labels. Mods whose labels are in Chinese or Japanese are therefore invisible to it, however common their ingredients. This mod attaches them by name instead: highland barley, hybrid rice, salted mustard greens, bok choy, ginkgo nuts, grain wines, dried meat and cheeses, among others.
+
+None of those mods are required. Each operation does nothing when its mod is absent.
+
+FRENCH
+
+A companion mod, Flavor Text Extended - Français, translates all of this along with Flavor Text itself. This mod is in English and needs nothing from it.
+
+CREDITS AND DISCLOSURE
+
+Flavor Text is by hekmo. All of its machinery - how names are composed, how a definition is picked, how ingredients inflect - is his work.
+
+This mod's content was produced with the assistance of Claude (Anthropic), under human direction and review. See ATTRIBUTION.md for the detail.</description>
+	<modVersion>1.0.0</modVersion>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>hekmo.FlavorText</packageId>
+			<displayName>Flavor Text</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3245374432</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>hekmo.FlavorText</li>
+	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Catégories rares : fruit à pain (1 def), oseille (1), châtaigne (2), lotus (2),
+  laitue (12 mais peu de plats où elle est le sujet), viande humaine (2).
+
+  Sur le lotus : FT_Lotus a pour parent FT_Seed, si bien que le rhizome est rangé
+  comme une graine — ce qui est faux en cuisine. La séparation LotusRoot / LotusSeed
+  n'est pourtant pas faite ici : le seul ThingDef de lotus existant est VCE_RawLotus,
+  dont le nom ne contient pas « lotus root ». Une catégorie FT_LotusRoot resterait
+  vide, et le moteur écarterait tous les plats la visant. Les préparations de rhizome
+  et de graines passent donc toutes par FT_Lotus, distinguées par leurs accompagnements.
+
+  Sur la viande humaine : noms délibérément sobres et fonctionnels, descriptions
+  tenues à la note de cuisine. Pas de spécialité régionale, pas de gastronomie.
+-->
+<Defs>
+
+	<!-- =================================================== FRUIT À PAIN -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_OilDown</defName>
+		<label>oil down</label>
+		<ingredients>
+			<li><categories><li>FT_Breadfruit</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en quartiers étouffé dans un lait {1_adj} avec {2_coll} salée, jusqu'à ce que le liquide soit entièrement bu et que l'huile seule reste au fond. C'est de là que vient le nom.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_UruAuLaitDeCoco</defName>
+		<label>uru au lait de coco</label>
+		<ingredients>
+			<li><categories><li>FT_Breadfruit</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} pelé et mijoté dans un lait {1_adj} pressé à la main, avec {2_coll} et du thym. Cueilli vert il tient au couteau ; cueilli mûr il fond, et c'est un autre plat.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_UruRotiMorue</defName>
+		<label>uru rôti à la morue</label>
+		<ingredients>
+			<li><categories><li>FT_Breadfruit</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} entier posé sur la braise jusqu'à ce que la peau charbonne de tous côtés, ouvert brûlant et servi avec {1_coll} salée dessalée, effeuillée {2_plur} cru et à l'huile.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FritesDeFruitAPain</defName>
+		<label>frites de fruit à pain</label>
+		<ingredients>
+			<li><categories><li>FT_Breadfruit</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} ferme taillé en bâtonnets, jeté deux fois {2_plur} bouillante comme une pomme de terre, et salé {1_plur} au piment dès la sortie.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CurryDeFruitAPain</defName>
+		<label>curry de fruit à pain</label>
+		<ingredients>
+			<li><categories><li>FT_Breadfruit</li></categories></li>
+			<li><categories><li>FT_Chickpea</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en gros cubes mijoté avec {1_coll} trempés dans un masala grillé {2_plur} entières. Il boit la sauce comme rien d'autre, alors on en prépare le double.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BeignetsDeFruitAPain</defName>
+		<label>beignets de fruit à pain</label>
+		<ingredients>
+			<li><categories><li>FT_Breadfruit</li></categories></li>
+			<li><categories><li>FT_Flour</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>une purée {0_adj} mûr, liée {1_plur} et {2_plur} battus, laissée reposer puis lâchée à la cuillère dans la friture. Ils gonflent d'un coup et retombent aussitôt refroidis.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PoeAuFruitAPain</defName>
+		<label>po'e au fruit à pain</label>
+		<ingredients>
+			<li><categories><li>FT_Breadfruit</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+		</ingredients>
+		<description>une pâte {0_adj} bien mûr, {1_adj} et d'amidon, cuite au four polynésien jusqu'à devenir translucide et élastique, nappée d'un lait {2_adj} pressé froid.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Bougna</defName>
+		<label>bougna</label>
+		<ingredients>
+			<li><categories><li>FT_Breadfruit</li></categories></li>
+			<li><categories><li>FT_Yam</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} empilés avec {2_coll} dans des feuilles de bananier ligotées, enfouis sur des pierres chauffées et recouverts de terre deux heures. On ouvre le paquet à table.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_VelouteFruitAPain</defName>
+		<label>velouté de fruit à pain</label>
+		<ingredients>
+			<li><categories><li>FT_Breadfruit</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>une purée {0_adj} détendue {1_plur} et montée {2_plur}, muscadée. Sa texture est celle de la pomme de terre, en plus doux et légèrement sucré.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FruitAPainAuxHaricots</defName>
+		<label>fruit à pain aux haricots</label>
+		<ingredients>
+			<li><categories><li>FT_Breadfruit</li></categories></li>
+			<li><categories><li>FT_Bean</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en dés mijoté avec {1_coll} rouges et une sauce {2_adj} au piment végétal. Un seul arbre nourrit une maisonnée toute la saison, ce qui explique le nombre de recettes.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ========================================================= OSEILLE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SoupeALOseille</defName>
+		<label>soupe à l'oseille</label>
+		<ingredients>
+			<li><categories><li>FT_Sorrel</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>{0_coll} jetée crue dans un bouillon {1_adj} au dernier moment, où elle fond en trente secondes et vire au kaki, puis liée {2_plur}. Cuite plus longtemps, elle perd toute son acidité.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Schav</defName>
+		<label>schav</label>
+		<ingredients>
+			<li><categories><li>FT_Sorrel</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+		</ingredients>
+		<description>{0_coll} bouillie brièvement puis refroidie, liée {1_plur} battus hors du feu et blanchie {2_plur}. Se sert glacée avec une pomme de terre chaude au fond du bol.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaumonALOseille</defName>
+		<label>saumon à l'oseille</label>
+		<ingredients>
+			<li><categories><li>FT_Sorrel</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>un escalope {1_adj} saisie d'un seul côté et laissée rosée, nappée d'une sauce {2_adj} réduite au vin blanc où {0_coll} vient de fondre. L'acide de la feuille remplace le citron.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_OmeletteALOseille</defName>
+		<label>omelette à l'oseille</label>
+		<ingredients>
+			<li><categories><li>FT_Sorrel</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} tombée {2_plur} mousseux avant d'y verser {1_coll} battus. Elle rend beaucoup d'eau : on la fait tomber à part et on l'égoutte, sinon l'omelette ne prend pas.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BortschVert</defName>
+		<label>bortsch vert</label>
+		<ingredients>
+			<li><categories><li>FT_Sorrel</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>un bortsch sans betterave : {0_coll} donne l'acidité que la betterave donne ailleurs, avec {1_coll} en cubes et {2_coll} durs coupés en deux au moment de servir.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TarteALOseille</defName>
+		<label>tarte à l'oseille</label>
+		<ingredients>
+			<li><categories><li>FT_Sorrel</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>une pâte {1_adj} garnie {0_adj} étuvée et bien pressée, couverte {2_adj} frais. L'acidité tranche le gras de la pâte, ce qu'aucune herbe douce ne ferait.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PureeDOseille</defName>
+		<label>purée d'oseille</label>
+		<ingredients>
+			<li><categories><li>FT_Sorrel</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} fondue {1_plur} avec une échalote {2_adj} hachée, réduite jusqu'à ce qu'il ne reste presque rien. Deux grands paniers donnent un bol : c'est le prix de l'affaire.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PestoDOseille</defName>
+		<label>pesto d'oseille</label>
+		<ingredients>
+			<li><categories><li>FT_Sorrel</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+		</ingredients>
+		<description>{0_coll} crue pilée avec {1_coll} grillées et une huile {2_adj}, sans ail. Il ne se garde pas : l'acide oxalique noircit tout en une heure, alors on le fait pour le repas.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SarmaALOseille</defName>
+		<label>sarma à l'oseille</label>
+		<ingredients>
+			<li><categories><li>FT_Sorrel</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+		</ingredients>
+		<description>de grandes feuilles {0_adj} blanchies, roulées serré autour {1_adj} cru et {2_adj} hachée, rangées debout dans la marmite et cuites à couvert sous une assiette lestée.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ======================================================= CHÂTAIGNE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DindeAuxMarrons</defName>
+		<label>dinde aux marrons</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+		</ingredients>
+		<description>{1_coll} farcie {0_plur} entiers et à sa propre chair hachée, arrosée {2_plur} toutes les vingt minutes. Les marrons du fond confisent dans le jus et valent mieux que la volaille.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PureeDeMarrons</defName>
+		<label>purée de marrons</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} pochés {1_plur} avec une branche de céleri, passés au tamis puis montés {2_plur}. Le céleri ne se sent pas mais empêche la purée d'être écœurante.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SoupeChataignesPotiron</defName>
+		<label>soupe châtaignes-potiron</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Pumpkin</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} rôtis séparément avant d'être mixés ensemble, liés {2_plur}. Deux douceurs qui se ressemblent trop : il faut beaucoup de poivre pour les séparer.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Castagnaccio</defName>
+		<label>castagnaccio</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+			<li><categories><li>FT_Grape</li></categories></li>
+		</ingredients>
+		<description>une farine {0_adj} délayée à l'eau — ni œuf, ni sucre, ni levure — étalée très mince, arrosée d'une huile {1_adj} et semée {2_adj} secs et de romarin. Elle craquelle en cuisant, et c'est voulu.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MontBlanc</defName>
+		<label>mont-blanc</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>une crème {0_adj} et {1_adj} poussée au travers d'une passoire en vermicelles, entassée sur une meringue et coiffée {2_adj} fouettée. Le désordre est la forme correcte.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_KuriGohan</defName>
+		<label>kuri gohan</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>{1_coll} cuit avec {0_coll} épluchés crus, un trait {2_adj} et du saké, sans rien remuer. Plat d'automne qu'on fait le jour où les bogues s'ouvrent, et pas un autre.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PorcBraiseChataignes</defName>
+		<label>porc braisé aux châtaignes</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>{1_coll} braisée au caramel et {2_plur}, avec {0_coll} ajoutés à mi-cuisson pour qu'ils s'imprègnent sans se défaire. Ils boivent la sauce et deviennent le meilleur du plat.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChataignesChouLard</defName>
+		<label>châtaignes au chou et au lard</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>{1_coll} braisé une heure dans la graisse {2_adj} rendue, avec {0_coll} grillés et pelés à chaud. La châtaigne remplaçait le pain dans les montagnes, et le prouve encore.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MarronsGlaces</defName>
+		<label>marrons glacés</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>{0_coll} entiers passés sept jours durant dans un sirop {1_adj} de plus en plus dense, vanillé et parfumé {2_plur}, puis séchés à l'étuve. Un seul se brise et la fournée est déclassée.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PolentaDeChataigne</defName>
+		<label>polenta de châtaigne</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>une farine {0_adj} coupée {2_plur} jaune, versée en pluie dans l'eau bouillante et tournée quarante minutes dans le même sens, puis servie {1_plur} frais.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RisottoAuxChataignes</defName>
+		<label>risotto aux châtaignes</label>
+		<ingredients>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{1_coll} mené au bouillon avec {2_coll} des bois, où l'on écrase la moitié {0_adj} pour lier et garde l'autre en morceaux. Deux textures d'un même ingrédient, ce qui suffit au plat.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ========================================================== LAITUE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladeCesar</defName>
+		<label>salade César</label>
+		<ingredients>
+			<li><categories><li>FT_Lettuce</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>des cœurs {0_adj} romaine gardés entiers, enrobés d'une sauce montée {2_plur} cru, {1_plur} vieux et anchois. Inventée à Tijuana un jour où il ne restait presque rien en cuisine.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_LaitueBraiseePetitsPois</defName>
+		<label>laitue braisée aux petits pois</label>
+		<ingredients>
+			<li><categories><li>FT_Lettuce</li></categories></li>
+			<li><categories><li>FT_Pea</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} coupée en quartiers et étouffée {2_plur} avec {1_coll} et de petits oignons, sans une goutte d'eau — la salade en rend bien assez toute seule.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Ssambap</defName>
+		<label>ssambap</label>
+		<ingredients>
+			<li><categories><li>FT_Lettuce</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>une feuille {0_adj} tenue à plat dans la paume, une cuillère {1_adj}, un morceau {2_adj} grillée et une pointe de pâte fermentée, refermée en une bouchée qui doit tenir en un seul coup.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_LaitueSauteeALAil</defName>
+		<label>laitue sautée à l'ail</label>
+		<ingredients>
+			<li><categories><li>FT_Lettuce</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>{0_coll} jetée dans un wok fumant {2_plur} et {1_plur} écrasé, remuée quarante secondes et pas une de plus. Elle doit rester croquante à la tige et fondue à la feuille.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_WrapsLaituePoulet</defName>
+		<label>wraps de laitue au poulet</label>
+		<ingredients>
+			<li><categories><li>FT_Lettuce</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Sesame</li></categories></li>
+		</ingredients>
+		<description>{1_coll} hachée au couteau et sautée très sec, servie brûlante dans des coupes {0_adj} glacées, avec une huile {2_adj} et des cacahuètes concassées. Le contraste de température est le plat.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_VelouteDeLaitue</defName>
+		<label>velouté de laitue</label>
+		<ingredients>
+			<li><categories><li>FT_Lettuce</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>{0_coll} montée en graine ou trop amère pour la salade, jetée dans un bouillon {1_adj} et mixée aussitôt, liée {2_plur}. La soupe des jardins de juillet, quand tout monte d'un coup.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =========================================================== LOTUS -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_KinpiraRenkon</defName>
+		<label>kinpira renkon</label>
+		<ingredients>
+			<li><categories><li>FT_Lotus</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_Sesame</li></categories></li>
+		</ingredients>
+		<description>des rondelles {0_adj} trempées au vinaigre pour rester blanches, sautées vif puis laquées {1_plur} et au mirin, semées {2_adj} grillé. Les trous se remplissent de sauce.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RenkonTempura</defName>
+		<label>renkon tempura</label>
+		<ingredients>
+			<li><categories><li>FT_Lotus</li></categories></li>
+			<li><categories><li>FT_Flour</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+		</ingredients>
+		<description>des tranches {0_adj} passées dans une pâte {1_adj} à peine mêlée à l'eau glacée, frites {2_plur} très chaude. La pâte doit rester grumeleuse : trop battue, elle devient une croûte.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SoupePorcLotus</defName>
+		<label>soupe porc-lotus</label>
+		<ingredients>
+			<li><categories><li>FT_Lotus</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Date</li></categories></li>
+		</ingredients>
+		<description>des travers {1_adj} et des tronçons {0_adj} mijotés trois heures avec {2_coll} rouges, sans rien d'autre. Le rhizome devient farineux et sucré ; c'est une soupe qu'on boit pour se soigner.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_LotusAigreDoux</defName>
+		<label>racine de lotus aigre-douce</label>
+		<ingredients>
+			<li><categories><li>FT_Lotus</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>des rondelles {0_adj} sautées à feu vif dans un vinaigre {1_adj} {2_plur} séché et au poivre du Sichuan. Elles restent croquantes quoi qu'on fasse, ce qui est tout l'intérêt.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_LotusRizGluant</defName>
+		<label>racine de lotus au riz gluant</label>
+		<ingredients>
+			<li><categories><li>FT_Lotus</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_SugarFromPlants</li></categories></li>
+		</ingredients>
+		<description>les trous {0_adj} bourrés un à un {1_plur} gluant à la baguette, le tronçon rebouché puis cuit des heures dans un sirop {2_adj} à l'osmanthus. Se tranche froid, en rondelles marbrées.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SoupeSucreeGrainesLotus</defName>
+		<label>soupe sucrée aux graines de lotus</label>
+		<ingredients>
+			<li><categories><li>FT_Lotus</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Date</li></categories></li>
+		</ingredients>
+		<description>{0_coll} dont on a retiré le germe vert — amer comme une écorce — pochées en sirop {1_adj} avec {2_coll} rouges. Se sert tiède, entre les plats plutôt qu'après.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CongeeGrainesLotus</defName>
+		<label>congee aux graines de lotus</label>
+		<ingredients>
+			<li><categories><li>FT_Lotus</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>{1_coll} crevé dans dix fois son volume d'eau avec {0_coll} et quelques lamelles {2_adj}, remué de temps à autre pendant deux heures jusqu'à ne plus distinguer les grains.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_LoMaiGai</defName>
+		<label>lo mai gai</label>
+		<ingredients>
+			<li><categories><li>FT_Lotus</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+		</ingredients>
+		<description>{1_coll} gluant et {2_coll} marinée enfermés dans une feuille {0_adj} séchée puis assouplie à l'eau chaude, ficelés et passés à la vapeur. La feuille ne se mange pas mais parfume tout.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsDumpling</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladeRacineDeLotus</defName>
+		<label>salade de racine de lotus</label>
+		<ingredients>
+			<li><categories><li>FT_Lotus</li></categories></li>
+			<li><categories><li>FT_Cucumber</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>des rondelles {0_adj} blanchies trente secondes et jetées à l'eau glacée, mêlées {1_plur} en biseau et à une vinaigrette {2_plur}. Le dessin des trous est la moitié du plat.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =================================================== VIANDE HUMAINE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ViandeHumaineSechee</defName>
+		<label>viande humaine séchée</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} taillée dans le sens de la fibre, saumurée {2_plur} et {1_plur}, puis séchée à l'air pendant plusieurs jours. Se conserve des mois et ne demande aucun combustible.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsSurvivalPack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RagoutChairHumaine</defName>
+		<label>ragoût de chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en cubes saisie puis mouillée {2_plur}, mijotée à couvert avec {1_coll} en gros morceaux. Cuisson longue, comme pour toute viande d'animal adulte et musclé.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RotiChairHumaine</defName>
+		<label>rôti de chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>une pièce {0_adj} bardée {1_plur}, piquée {2_plur} et rôtie à four moyen. Elle est maigre et sèche vite : la barde n'est pas facultative.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BrochettesChairHumaine</defName>
+		<label>brochettes de chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_BellPepper</li></categories></li>
+		</ingredients>
+		<description>des cubes {0_adj} alternés avec {1_coll} et {2_coll} sur des tiges de métal, grillés à feu vif et retournés souvent. Cuisson courte, sinon la viande durcit.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaucisseChairHumaine</defName>
+		<label>saucisse de chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} hachée grossièrement et remontée à un tiers {1_adj}, assaisonnée {2_plur} puis embossée. Sans l'apport de gras, la saucisse s'effrite à la cuisson.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TourteChairHumaine</defName>
+		<label>tourte à la chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuite à l'avance et refroidie, enfermée dans une pâte {1_adj} et {2_adj}, avec une cheminée pour laisser sortir la vapeur. Se mange aussi bien froide que chaude.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_HachisChairHumaine</defName>
+		<label>hachis de chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>{0_coll} hachée et étalée au fond du plat, couverte d'une purée {1_adj} montée {2_plur} et gratinée. Manière courante d'employer les restes d'un rôti de la veille.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CurryChairHumaine</defName>
+		<label>curry de chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+		</ingredients>
+		<description>{0_coll} mijotée dans un lait {2_adj} avec une pâte {1_adj} et d'épices grillées. Le gras du coco compense une viande qui n'en fournit pas beaucoup.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BoulettesChairHumaine</defName>
+		<label>boulettes de chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} hachée liée {1_plur} et à de la mie {2_adj} trempée, roulée à la main et pochée au bouillon. La mie retient l'eau et empêche la boulette de devenir sèche.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BouillonChairHumaine</defName>
+		<label>bouillon de chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Bone</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
+		</ingredients>
+		<description>{1_coll} concassés et rôtis avant d'être mis à frémir avec les parures {0_adj} et {2_coll} de garniture, écumés régulièrement pendant six heures. On ne fait jamais bouillir.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PateChairHumaine</defName>
+		<label>pâté de chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Offal</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} hachées ensemble, macérées {2_plur} une nuit puis cuites en terrine au bain-marie. Se laisse mûrir trois jours au froid avant d'être entamée.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RizSauteChairHumaine</defName>
+		<label>riz sauté à la chair humaine</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Human</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{1_coll} de la veille, sec et détaché, sauté très vif avec {0_coll} en petits dés et {2_coll} brouillés. Le riz frais colle et rate le plat : il faut du froid.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

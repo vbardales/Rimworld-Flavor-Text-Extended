@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_Shumai	shumai	0=Meat_Pig/Meat_Fish/Meat_Sheep/Meat_Cow 1=Fungus/Meat_Shellfish/Rice 2=Grain	MealsDumpling	
+FlavorText_Meat_Seafood_Sushi	{0_adj} sushi	0=Meat_Seafood/PlantFoodRaw 1=Ingredients 2=Rice	MealsDumpling	
+FlavorText_MeatRaw_Lumpia	{0_adj} lumpia	0=MeatRaw 1=Vegetable 2=Grain	MealsDumpling	
+FlavorText_MeatRaw_Sarma	{0_adj} sarma	0=MeatRaw 1=Vegetable 2=Rice	MealsDumpling	
+FlavorText_MeatRaw_Wontons	{0_adj} wontons	0=MeatRaw 1=Sugar 2=Rice	MealsDumpling	
+FlavorText_Tsampa	tsampa	0=Milk 1=Grain 2=Tea	MealsDumpling	
+FlavorText_PlantFoodRaw_SpringRolls	{1_adj} spring rolls	0=PlantFoodRaw 1=PlantFoodRaw 2=Rice	MealsDumpling	
+FlavorText_Rice_Balls	{0_adj} balls	0=Rice	MealsDumpling	
+FlavorText_Bean_Mochi	{2_adj} mochi	0=Rice 1=Sugar 2=Bean/Fruit	MealsDumpling	
+FlavorText_Dango	dango	0=Rice 1=Rice 2=Sugar/RedBean	MealsDumpling	
+FlavorText_Dolma	dolma	0=Rice 1=Ingredients 2=Eggplant/Cucumber/Squash/BellPepper/Apple/Onion	MealsDumpling	
+FlavorText_Dolma_2	dolma	0=Rice 1=Ingredients 2=Meat_Mammal	MealsDumpling	
+FlavorText_Dosa	dosa	0=Rice 1=Bean	MealsDumpling	
+FlavorText_Idli	idli	0=Rice 1=Lentil	MealsDumpling	
+FlavorText_Jeungpyeon	jeungpyeon	0=Rice 1=Rice	MealsDumpling	
+FlavorText_Tteok	tteok	0=Rice	MealsDumpling	
+FlavorText_SarimsakliKofte	sarımsaklı köfte	0=Wheat 1=Tomato 2=Garlic	MealsDumpling	
+FlavorText_Currywurst	currywurst	0=MeatRaw 1=Tomato	MealsGrill,MealsNonSpecial	
+FlavorText_Kastane	kastane	0=Chestnut	MealsGrill,MealsSnack	
+FlavorText_CigKofte	çiğ köfte	0=Grain/MeatRaw/Egg 1=Onion 2=Tomato/Chili	MealsGrill,MealsSnack	
+FlavorText_Misir	mısır	0=Corn	MealsGrill	poste:Fire
+FlavorText_Elote	elote	0=Egg 1=Dairy 2=Corn	MealsGrill	poste:Fire
+FlavorText_Ingredients_Roast	{0_adj} roast	0=Ingredients 1=Ingredients 2=Ingredients	MealsGrill	
+FlavorText_MeatRaw_KoreanBBQ	{2_adj} Korean BBQ	0=Ingredients 1=MeatRaw 2=MeatRaw	MealsGrill	
+FlavorText_Barbecued_Ingredients	barbecued {0_coll}	0=Ingredients	MealsGrill	
+FlavorText_Roasted_Ingredients_And_Ingredients	roasted {0_coll} and {1_coll}	0=Ingredients 1=Ingredients	MealsGrill	
+FlavorText_Cevapi	cevapi	0=Meat_Cow 1=Meat_Hoofed	MealsGrill	
+FlavorText_HamburgerSteak	hamburger steak	0=Meat_Cow 1=Onion	MealsGrill	
+FlavorText_JapaneseHamburgerSteak	Japanese hamburger steak	0=Meat_Cow 1=Meat_Pig	MealsGrill	
+FlavorText_SalisburySteak	Salisbury steak	0=Meat_Cow 1=Onion 2=Fungus	MealsGrill	
+FlavorText_Steak	steak	0=Meat_Cow	MealsGrill	
+FlavorText_Bulgogi	bulgogi	0=Meat_Hoofed 1=Soy/Meat_Dryad	MealsGrill	
+FlavorText_Pastirma	pastirma	0=Meat_Hoofed	MealsGrill	
+FlavorText_TurkishKofte	Turkish köfte	0=Meat_Hoofed/Meat_Poultry 1=Onion	MealsGrill	
+FlavorText_Meat_Insect_EggsOnAStick	{0_adj} eggs on a stick	0=Meat_Insect	MealsGrill	
+FlavorText_GrubsOnAStick	grubs on a stick	0=Meat_Insect	MealsGrill	
+FlavorText_Bacon	bacon	0=Meat_Pig	MealsGrill	
+FlavorText_Meat_Pig_Chorizo	{0_adj} chorizo	0=Meat_Pig/Soy/Meat_Dryad 1=Chili	MealsGrill	
+FlavorText_Buldak	buldak	0=Meat_Poultry 1=Chili	MealsGrill	
+FlavorText_Yakitori	yakitori	0=Meat_Poultry	MealsGrill	
+FlavorText_Grilled_Meat_Seafood	grilled {0_coll}	0=Meat_Seafood	MealsGrill	
+FlavorText_Smoked_Meat_Seafood	smoked {0_coll}	0=Meat_Seafood	MealsGrill	poste:Fire
+FlavorText_MeatRaw_Vegetable_ShishKebab	{0_adj} {1_adj} shish kebab	0=MeatRaw 1=Vegetable	MealsGrill	poste:Fire
+FlavorText_Barbecued_MeatRaw	barbecued {0_coll}	0=MeatRaw 1=PlantFoodRaw/AnimalProductRaw	MealsGrill	poste:Fire
+FlavorText_Jerk_MeatRaw	jerk {0_coll}	0=MeatRaw 1=Chili 2=Spice	MealsGrill	
+FlavorText_PullusFusilis	pullus fusilis	0=MeatRaw 1=Meat_Poultry 2=Oat	MealsGrill	
+FlavorText_Teriyaki_MeatRaw	teriyaki {0_coll}	0=MeatRaw 1=Sugar	MealsGrill	
+FlavorText_MudCookies	mud cookies		MealsKinds	
+FlavorText_Soft-Boiled_Egg	soft-boiled {0_coll}	0=Egg	MealsNonSpecial,MealsBaby	
+FlavorText_FondantPotatoes	fondant potatoes	0=Potato 1=Dairy	MealsNonSpecial,MealsBake	
+FlavorText_FondantPotatoes_2	fondant potatoes	0=Potato 1=MeatRaw/PlantFoodRaw	MealsNonSpecial,MealsBake	
+FlavorText_Meat_Poultry_AndWaffles	{0_coll} and waffles	0=Meat_Poultry 1=Grain 2=Egg	MealsNonSpecial,MealsDeepFry	
+FlavorText_PlateLunch	plate lunch	0=MeatRaw 1=Rice 2=Grain	MealsNonSpecial,MealsDeepFry	
+FlavorText_PlateLunch_2	plate lunch	0=MeatRaw 1=Rice 2=Ingredients	MealsNonSpecial,MealsDeepFry	
+FlavorText_Crepes	crepes	0=Grain 1=Egg 2=Dairy	MealsNonSpecial,MealsDessert	
+FlavorText_MeatRaw_MeatRaw_Sausage	{0_adj} {1_adj} sausage	0=MeatRaw 1=MeatRaw	MealsNonSpecial,MealsGrill	
+FlavorText_MeatRaw_PotRoast	{0_adj} pot roast	0=MeatRaw 1=PlantFoodRaw	MealsNonSpecial,MealsGrill	
+FlavorText_MeatRaw_Sausage	{0_adj} sausage	0=MeatRaw 1=AnimalProductRaw	MealsNonSpecial,MealsGrill	
+FlavorText_MeatRaw_Stuffed_Fungus	{0_sing} stuffed {2_coll}	0=MeatRaw 1=MeatRaw 2=Fungus	MealsNonSpecial,MealsGrill	
+FlavorText_MeatRaw_MeatRaw_SausageWithGravy	{1_adj} {0_adj} sausage with gravy	0=MeatRaw 1=MeatRaw 2=Dairy	MealsNonSpecial,MealsGrill	
+FlavorText_MeatRaw_MeatRaw_SummerSausage	{1_adj} {0_adj} summer sausage	0=MeatRaw 1=MeatRaw 2=Sugar	MealsNonSpecial,MealsGrill	
+FlavorText_GarbagePlate_2	garbage plate	0=MeatRaw 1=Potato 2=Chili/Tomato/Onion	MealsNonSpecial,MealsNoodle,MealsDeepFry	
+FlavorText_GarbagePlate	garbage plate	0=MeatRaw/Onion 1=Potato 2=Egg/Grain	MealsNonSpecial,MealsNoodle,MealsDeepFry	
+FlavorText_Pickles	pickles	0=Cucumber	MealsNonSpecial,MealsSalad	
+FlavorText_Vegetable_Achar	{0_adj} achar	0=Vegetable/MeatRaw/Fruit 1=Fruit	MealsNonSpecial,MealsSalad	
+FlavorText_BreakfastBurrito	breakfast burrito	0=Ingredients 1=Egg 2=Grain	MealsNonSpecial,MealsSandwich	
+FlavorText_Musakhan	musakhan	0=Meat_Poultry 1=Wheat 2=Seed	MealsNonSpecial,MealsSandwich	
+FlavorText_ChipsWithGuacamole	chips with guacamole	0=Avocado 1=Corn	MealsNonSpecial,MealsSnack	
+FlavorText_Guacamole	guacamole	0=Avocado	MealsNonSpecial,MealsSnack	
+FlavorText_SugarFromAnimals-Sing-Glazed_Fungus	{1-sing}-glazed {0_coll}	0=Fungus 1=SugarFromAnimals	MealsNonSpecial,MealsStirFry	
+FlavorText_AnimalProductRaw_Cups	{0_adj} cups	0=AnimalProductRaw	MealsNonSpecial	
+FlavorText_AnimalProductRaw_Pate	{0_adj} paté	0=AnimalProductRaw 1=AnimalProductRaw	MealsNonSpecial	
+FlavorText_BoxtyWith_PlantFoodRaw	boxty with {1_coll}	0=AnimalProductRaw 1=PlantFoodRaw 2=Potato	MealsNonSpecial	
+FlavorText_Alloco	alloco	0=Banana	MealsNonSpecial	
+FlavorText_MoinMoin	moin moin	0=Bean 1=Onion/BellPepper/Chili	MealsNonSpecial	
+FlavorText_MoinMoin_2	moin moin	0=Bean 1=Onion/BellPepper/Chili 2=MeatRaw/Egg	MealsNonSpecial	
+FlavorText_Coleslaw	coleslaw	0=Cabbage	MealsNonSpecial	
+FlavorText_Kimchi	kimchi	0=Cabbage 1=Chili	MealsNonSpecial	
+FlavorText_Hutspot	hutspot	0=Carrot 1=Onion 2=Potato	MealsNonSpecial	
+FlavorText_Vegetable_WithHummus	{1_plur} with hummus	0=Chickpea 1=Vegetable	MealsNonSpecial	

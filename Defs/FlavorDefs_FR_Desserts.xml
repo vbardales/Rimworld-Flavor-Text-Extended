@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Desserts du monde, première série.
+
+  Sélection guidée par les combinaisons d'ingrédients plutôt que par les noms : le
+  garde-manger sucré de RimWorld est étroit, et deux desserts qui exigent le même
+  triplet ne se distinguent jamais en jeu. On couvre donc les triplets, pas les listes.
+-->
+<Defs>
+
+	<!-- ============================================================= FRANCE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_IleFlottante</defName>
+		<label>île flottante</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Almond</li></categories></li>
+		</ingredients>
+		<description>des blancs {0_adj} montés et pochés au lait, posés sur une crème anglaise et striés de caramel, avec {2_coll} effilées grillées. L'île flotte parce qu'elle est plus légère que la mer.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MousseAuChocolat</defName>
+		<label>mousse au chocolat</label>
+		<ingredients>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>{0_coll} fondu et lié à des jaunes, allégé de blancs montés incorporés en trois fois — le premier tiers pour détendre, les deux autres à la spatule, sans casser l'air.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Clafoutis</defName>
+		<label>clafoutis</label>
+		<ingredients>
+			<li><categories><li>FT_Cherry</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>{0_coll} noyées dans un appareil {1_adj} et {2_adj}, cuites jusqu'à ce que la pâte prenne autour. On garde les noyaux : ils parfument à l'amande pendant la cuisson.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PoiresBelleHelene</defName>
+		<label>poires Belle-Hélène</label>
+		<ingredients>
+			<li><categories><li>FT_Pear</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} pelées et pochées dans un sirop {2_adj} vanillé, servies froides sous {1_coll} chaud versé à table. Escoffier l'a nommé d'après une opérette d'Offenbach.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PecheMelba</defName>
+		<label>pêche Melba</label>
+		<ingredients>
+			<li><categories><li>FT_Peach</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>{0_coll} pochées sur une glace à la vanille, nappées d'un coulis {1_adj} cru — jamais cuit, il perdrait sa couleur. Créé pour une cantatrice australienne.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_QuatreQuarts</defName>
+		<label>quatre-quarts</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>autant de farine que {1_adj}, que de sucre, que {2_adj} — quatre quarts, d'où le nom. On pèse les œufs d'abord et tout le reste se déduit.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GateauAuYaourt</defName>
+		<label>gâteau au yaourt</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>le pot {1_adj} sert de mesure pour tout le reste. Le premier gâteau que l'on apprend à faire, et le seul dont on n'oublie jamais la recette.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FondantAuChocolat</defName>
+		<label>fondant au chocolat</label>
+		<ingredients>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} fondus ensemble, à peine liés de farine, et cuits très court pour que le centre reste coulant. Deux minutes de trop et ce n'est plus qu'un gâteau.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ParisBrest</defName>
+		<label>paris-brest</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>une couronne de pâte à choux fendue et garnie d'une crème pralinée {1_adj}. La forme imite une roue de bicyclette : le pâtissier avait son atelier sur le parcours de la course.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MilleFeuille</defName>
+		<label>mille-feuille</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>trois abaisses de feuilletage cuites sous un poids pour rester plates, montées avec une crème pâtissière {2_adj}. Se mange couché sur le flanc : personne n'a jamais réussi autrement.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_EclairAuCafe</defName>
+		<label>éclair au café</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Coffee</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>un boudin de pâte à choux garni d'une crème {1_adj} et glacé du même parfum. Le nom viendrait de la vitesse à laquelle il se mange.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TarteCitronMeringuee</defName>
+		<label>tarte au citron meringuée</label>
+		<ingredients>
+			<li><categories><li>FT_Lemon</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une crème {0_adj} acide montée au beurre, sous une meringue {1_adj} pochée en vagues et brûlée au chalumeau. L'acidité doit rester franche, sinon la meringue écrase tout.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BabaAuRhum</defName>
+		<label>baba au rhum</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une pâte levée séchée exprès, puis noyée dans un sirop {2_adj} tiède {1_plur} jusqu'à ne plus rien pouvoir absorber. On le presse doucement : il doit rendre du jus.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Profiteroles</defName>
+		<label>profiteroles</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>de petits choux garnis de glace {2_adj}, noyés sous {1_coll} chaud versé devant les convives. Le contraste des températures est tout le dessert.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Madeleine</defName>
+		<label>madeleines</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>une pâte reposée au froid puis enfournée très chaud : le choc thermique fait la bosse, et une madeleine sans bosse est ratée. Parfumée {2_plur}.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Financier</defName>
+		<label>financiers</label>
+		<ingredients>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>de la poudre {0_adj} et des blancs {1_adj}, liés {2_plur} cuit jusqu'à sentir la noisette. Moulé en lingot, et vendu autrefois aux agents de change du quartier de la Bourse.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Canele</defName>
+		<label>canelés</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>une pâte liquide reposée deux jours, cuite dans des moules cuivrés enduits de cire, jusqu'à obtenir une croûte presque noire autour d'un cœur mou {1_adj} et {2_adj}.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<!-- Flavor Text couvre déjà « macarons », avec exactement ces ingrédients. -->
+		<defName>FlavorTextFR_Dacquoise</defName>
+		<label>dacquoise</label>
+		<ingredients>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>des disques de meringue {1_adj} chargée de poudre {0_adj}, séchés au four doux et montés avec une crème au beurre. Le biscuit doit rester croquant sous la crème pendant des heures.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SableBreton</defName>
+		<label>sablés bretons</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>presque autant {1_adj} demi-sel que de farine, à peine travaillés pour rester sablonneux. Le sel n'est pas un assaisonnement ici : c'est l'ingrédient principal après le beurre.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Teurgoule</defName>
+		<label>teurgoule</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} cannellés, cuits cinq heures au four du boulanger dans une terrine, jusqu'à former une peau brune et épaisse. Le nom vient de la brûlure qu'elle inflige à qui n'attend pas.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Bugnes</defName>
+		<label>bugnes</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>des rubans de pâte nouée, parfumés {2_plur} et à la fleur d'oranger, frits et sucrés. Épaisses à Lyon, sèches et craquantes à Saint-Étienne : chacun défend les siennes.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Calisson</defName>
+		<label>calissons</label>
+		<ingredients>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Melon</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une pâte {0_adj} et {1_adj} confit, posée sur une feuille d'azyme et glacée de blanc. La forme en navette daterait d'un mariage comtal au XVe siècle.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Nougat</defName>
+		<label>nougat</label>
+		<ingredients>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+		</ingredients>
+		<description>{2_coll} cuit au grand cassé, versé sur des blancs montés et battu une heure, puis chargé {0_adj} grillées. Serré entre deux feuilles d'azyme pour ne pas coller aux doigts.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================ EUROPE CENTRALE ET EST -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Sachertorte</defName>
+		<label>sachertorte</label>
+		<ingredients>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+		</ingredients>
+		<description>un biscuit {0_adj} dense, fendu et garni d'une couche de confiture {2_adj}, glacé d'un fondant sombre et lisse. Deux maisons viennoises se sont fait sept ans de procès pour ce gâteau.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Apfelstrudel</defName>
+		<label>apfelstrudel</label>
+		<ingredients>
+			<li><categories><li>FT_Apple</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grape</li></categories></li>
+		</ingredients>
+		<description>une pâte étirée à la main sur une nappe jusqu'à lire le journal au travers, garnie {0_adj} et {2_adj} secs, puis roulée. Un trou dans la pâte et tout est à recommencer.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Kaiserschmarrn</defName>
+		<label>kaiserschmarrn</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Grape</li></categories></li>
+		</ingredients>
+		<description>une crêpe épaisse {1_adj} déchirée en morceaux à la spatule pendant qu'elle cuit, caramélisée au sucre avec {2_coll} secs. « La bouillie de l'Empereur » : le nom dit son peu de manières.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Sernik</defName>
+		<label>sernik</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>un fromage blanc polonais passé trois fois au tamis, monté {1_plur} et cuit lentement. Plus dense et moins sucré que ses cousins occidentaux.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Makowiec</defName>
+		<label>makowiec</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Seed</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>une brioche roulée sur une masse de graines de pavot moulues et cuites {2_plur}. La spirale noire et blanche apparaît à la coupe.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Medovik</defName>
+		<label>medovik</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>une douzaine de disques de pâte {1_adj} cuits un par un, empilés avec une crème acidulée, et laissés une nuit pour que tout s'attendrisse et devienne moelleux.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Syrniki</defName>
+		<label>syrniki</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+		</ingredients>
+		<description>de petites galettes de fromage frais liées {1_plur}, poêlées au beurre et servies avec de la crème aigre et une confiture {2_adj}.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================== ÎLES BRITANNIQUES -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Cranachan</defName>
+		<label>cranachan</label>
+		<ingredients>
+			<li><categories><li>FT_Oat</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+		</ingredients>
+		<description>{0_coll} grillés à sec, {1_coll} fouettée au whisky et au miel, {2_coll} écrasées — montés en verre sans les mélanger, pour que chaque cuillerée diffère.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_StickyToffeePudding</defName>
+		<label>sticky toffee pudding</label>
+		<ingredients>
+			<li><categories><li>FT_Date</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuites et écrasées dans la pâte, qui la rendent presque noire, sous un caramel {2_adj} versé chaud et absorbé par le gâteau.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BanoffeePie</defName>
+		<label>banoffee pie</label>
+		<ingredients>
+			<li><categories><li>FT_Banana</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>un fond de biscuits écrasés, une couche de lait concentré cuit jusqu'au caramel, {0_coll} en rondelles, et {2_coll} fouettée. Inventé dans un pub du Sussex en 1971.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_EtonMess</defName>
+		<label>eton mess</label>
+		<ingredients>
+			<li><categories><li>FT_Berry</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>de la meringue {1_adj} brisée, {2_coll} fouettée et {0_coll} écrasées, mêlées sans soin. Le désordre est le principe, pas l'accident.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BakewellTart</defName>
+		<label>bakewell tart</label>
+		<ingredients>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>une pâte sablée, une couche de confiture {1_adj}, et une frangipane {0_adj} par-dessus qui gonfle et dore au four.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================== AMÉRIQUES ET AILLEURS -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TresLeches</defName>
+		<label>tres leches</label>
+		<ingredients>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>un biscuit sec exprès, percé de trous et noyé de trois laits différents jusqu'à saturation. Il doit être détrempé sans s'effondrer : tout l'exercice est là.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Alfajores</defName>
+		<label>alfajores</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+		</ingredients>
+		<description>deux sablés très friables collés par du dulce de leche, les bords roulés {2_plur} râpée. Se défont dès qu'on les prend : c'est le signe qu'ils sont bons.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Brigadeiro</defName>
+		<label>brigadeiro</label>
+		<ingredients>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>du lait concentré cuit {0_plur} et {2_plur} jusqu'à se décoller de la casserole, roulé en boules et enrobé de vermicelles. Aucun anniversaire brésilien n'en manque.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PastelDeNata</defName>
+		<label>pastel de nata</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>une crème {0_adj} dans une coque feuilletée, cuite à four brûlant jusqu'à ce que le dessus se tache de noir. Saupoudré {2_adj} à la sortie, jamais avant.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PecanPie</defName>
+		<label>pecan pie</label>
+		<ingredients>
+			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} noyées dans un appareil {1_adj} et {2_adj} qui prend en cuisant, remontent à la surface et forment une croûte craquante.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Brownie</defName>
+		<label>brownie</label>
+		<ingredients>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>très peu de farine, beaucoup {0_adj}, et {2_coll} concassées. Sorti du four trop tard, ce n'est plus qu'un gâteau ; trop tôt, ce n'est pas encore un brownie.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Cheesecake</defName>
+		<label>cheesecake</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>un fond de biscuits beurrés sous un appareil {0_adj} et {1_adj}, cuit au bain-marie et refroidi lentement — un choc de température le fend en deux.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Lamington</defName>
+		<label>lamington</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+		</ingredients>
+		<description>des cubes de génoise trempés dans un glaçage {1_adj} liquide puis roulés {2_plur} râpée. Australien, et nommé d'après un gouverneur du Queensland qui n'y était pour rien.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AnzacBiscuits</defName>
+		<label>anzac biscuits</label>
+		<ingredients>
+			<li><categories><li>FT_Oat</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} liés au sirop doré, sans œuf — ils devaient survivre à des semaines de mer avant d'atteindre les tranchées.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MalvaPudding</defName>
+		<label>malva pudding</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>un gâteau sud-africain {1_adj} et à l'abricot, percé à la sortie du four et noyé d'une sauce {2_adj} chaude qu'il absorbe entièrement.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================ ORIENT ET ASIE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Kunefe</defName>
+		<label>künefe</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} frais pris entre deux couches de cheveux d'ange, doré des deux côtés puis arrosé de sirop brûlant. Se mange immédiatement : le fromage doit encore filer.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Sutlac</defName>
+		<label>sütlaç</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} longuement cuit {1_plur}, réparti en ramequins de terre et passé sous le gril jusqu'à ce que la surface brunisse par plaques.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Maamoul</defName>
+		<label>maamoul</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Date</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>une semoule travaillée {2_plur} clarifié et reposée une nuit, fourrée {1_plur} et pressée dans un moule de bois gravé. Chaque motif désigne une garniture différente.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_OmAli</defName>
+		<label>om ali</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>du feuilletage brisé, noyé {1_plur} sucré et couvert {2_adj}, gratiné jusqu'à ce que le dessus croustille sur un dessous détrempé.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Basbousa</defName>
+		<label>basbousa</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+		</ingredients>
+		<description>un gâteau de semoule {1_adj} et {2_adj}, coupé en losanges avant cuisson et imbibé de sirop dès la sortie du four, pendant qu'il est encore brûlant.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GajarKaHalwa</defName>
+		<label>gajar ka halwa</label>
+		<ingredients>
+			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} râpées cuites une heure {1_plur} jusqu'à ce que tout le liquide ait disparu, puis confites au ghee. Le légume devient un dessert sans qu'on ajoute rien d'autre.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Kulfi</defName>
+		<label>kulfi</label>
+		<ingredients>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Pistachio</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} réduit de moitié à feu doux, parfumé au cardamome, chargé {1_adj} et gelé dans des cônes de métal sans être battu. Plus dense qu'une glace, et plus lent à fondre.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Jalebi</defName>
+		<label>jalebi</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une pâte fermentée {1_plur} pressée en spirales directement dans l'huile, puis plongée quelques secondes dans un sirop tiède. Croustillante dehors, gorgée dedans.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Taiyaki</defName>
+		<label>taiyaki</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_RedBean</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>une pâte à gaufre cuite dans un moule en forme de daurade, fourrée d'une pâte {1_adj} sucrée. La question de savoir par où le mordre — la tête ou la queue — divise le Japon.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Hotteok</defName>
+		<label>hotteok</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>une galette levée fourrée {1_plur} de canne et {2_plur} concassées, aplatie sur la plaque brûlante. La garniture devient un sirop bouillant qui brûle la langue à coup sûr.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

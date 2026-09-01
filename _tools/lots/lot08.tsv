@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_Condiment_Flavorant	{0_adj} flavorant	0=Condiment	MealsPaste	
+FlavorText_Condiment-Condiment_Stick	{0_adj}-{1_adj} stick	0=Condiment 1=Condiment 2=Condiment	MealsPaste	
+FlavorText_Condiment_And_Condiment_FlavorCube	{0_sing} and {1_sing} flavor cube	0=Condiment 1=Condiment	MealsPaste	
+FlavorText_Blended_Corn	blended {0_coll}	0=Corn	MealsPaste	
+FlavorText_Curdled_Dairy	curdled {0_adj}	0=Dairy	MealsPaste	
+FlavorText_Cubed_Egg	cubed {0_coll}	0=Egg	MealsPaste	
+FlavorText_Foods_CharcuterieBoard	{0_sing} charcuterie board	0=Foods 1=Foods 2=Foods	MealsPaste	
+FlavorText_Foods_CubesOnAStick	{0_sing} cubes on a stick	0=Foods	MealsPaste	
+FlavorText_Foods_Pancakes	{0_sing} pancakes	0=Foods	MealsPaste	
+FlavorText_Foods_Pancakes_2	{0_sing} pancakes	0=Foods 1=Foods	MealsPaste	
+FlavorText_Foods_Pancakes_3	{0_sing} pancakes	0=Foods 1=Foods 2=Foods	MealsPaste	
+FlavorText_Purified_Fruit	purified {0_coll}	0=Fruit	MealsPaste	
+FlavorText_Fungus_Pulp	{0_adj} pulp	0=Fungus	MealsPaste	
+FlavorText_Grain_Sponge	{0_adj} sponge	0=Grain	MealsPaste	
+FlavorText_Grain_StarchWith_Fruit_Glaze	{0_adj} starch with {1_adj} glaze	0=Grain 1=Fruit	MealsPaste	
+FlavorText_AnimalProductRaw_Drink	{1_adj} drink	0=Grain 1=AnimalProductRaw	MealsPaste	
+FlavorText_Meat_Insect_EggSaladSandwich	{1_sing} egg salad sandwich	0=Grain 1=Meat_Insect	MealsPaste	
+FlavorText_Autolyzed_Grain	autolyzed {0_coll}	0=Grain 1=Grain	MealsPaste	
+FlavorText_Ingredients_Bricks	{0_adj} bricks	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_Ingredients_Chow	{0_adj} chow	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_Ingredients_EggPowder	{0_adj} egg powder	0=Ingredients 1=Egg	MealsPaste	
+FlavorText_Ingredients_Gel	{0_adj} gel	0=Ingredients	MealsPaste	
+FlavorText_Ingredients_Globules	{0_adj} globules	0=Ingredients	MealsPaste	
+FlavorText_Ingredients_Goo	{0_adj} goo	0=Ingredients 1=Ingredients	MealsPaste	
+FlavorText_Ingredients_Mash	{0_adj} mash	0=Ingredients	MealsPaste	
+FlavorText_Ingredients_Mix	{0_adj} mix	0=Ingredients 1=Ingredients	MealsPaste	
+FlavorText_Ingredients_Parfait	{0_adj} parfait	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_Ingredients_Pills	{0_adj} pills	0=Ingredients	MealsPaste	
+FlavorText_Ingredients_Wafers	{0_adj} wafers	0=Ingredients	MealsPaste	
+FlavorText_Ingredients_And_Ingredients_Ingredients_Pills	{0_sing} and {1_sing} {2_adj} pills	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_Ingredients_And_Ingredients_Blend	{0_sing} and {1_sing} blend	0=Ingredients 1=Ingredients	MealsPaste	
+FlavorText_Ingredients_And_Ingredients_Dots	{0_sing} and {1_sing} dots	0=Ingredients 1=Ingredients	MealsPaste	
+FlavorText_Ingredients_And_Ingredients_Pills	{0_sing} and {1_sing} pills	0=Ingredients 1=Ingredients	MealsPaste	
+FlavorText_Ingredients_And_Ingredients_SoupBlend	{0_sing} and {1_sing} soup blend	0=Ingredients 1=Ingredients	MealsPaste	
+FlavorText_Ingredients_And_Ingredients_SoupMix	{0_sing} and {1_sing} soup mix	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_Ingredients-Coated_LeafyVeg	{0_sing}-coated {1_coll}	0=Ingredients 1=LeafyVeg	MealsPaste	
+FlavorText_Ingredients_SandwichSubstitute	{1_adj} sandwich substitute	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_AssortedJuices	assorted juices	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_AssortedPastes	assorted pastes	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_Combination_Ingredients	combination {1_coll}	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_Cultured_Ingredients_Ingredients_Paste	cultured {0_adj} {1_adj} paste	0=Ingredients 1=Ingredients	MealsPaste	
+FlavorText_Cultured_Ingredients_Paste	cultured {0_adj} paste	0=Ingredients	MealsPaste	
+FlavorText_Cultured_Ingredients_And_Ingredients_Paste	cultured {0_sing} and {1_sing} paste	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_Edible_Ingredients_Squares	edible {0_adj} squares	0=Ingredients 1=Ingredients 2=Ingredients	MealsPaste	
+FlavorText_Edible_Ingredients_Squares_2	edible {0_adj} squares	0=Ingredients 1=Ingredients	MealsPaste	
+FlavorText_Juiced_Ingredients	juiced {0_coll}	0=Ingredients	MealsPaste	
+FlavorText_Milled_Ingredients	milled {0_coll}	0=Ingredients 1=Grain	MealsPaste	
+FlavorText_LeafyVeg_Wafers	{0_adj} wafers	0=LeafyVeg	MealsPaste	
+FlavorText_SoylentRed	soylent red	0=Lentil	MealsPaste	
+FlavorText_SoylentGreen	soylent green	0=Meat_Human	MealsPaste	
+FlavorText_Spam	spam	0=Meat_Pig	MealsPaste	
+FlavorText_Liquid_Meat_Seafood	liquid {0_coll}	0=Meat_Seafood	MealsPaste	
+FlavorText_MeatRaw_PlantFoodRaw_Rolls	{0_adj} {1_adj} rolls	0=MeatRaw 1=PlantFoodRaw	MealsPaste	
+FlavorText_MeatRaw_Nuggets	{0_adj} nuggets	0=MeatRaw 1=MeatRaw	MealsPaste	
+FlavorText_MeatRaw_Smoothie	{0_adj} smoothie	0=MeatRaw 1=AnimalProductRaw 2=AnimalProductRaw	MealsPaste	
+FlavorText_MeatRaw_Surprise	{0_adj} surprise	0=MeatRaw 1=MeatRaw 2=MeatRaw	MealsPaste	
+FlavorText_MeatRaw_CubesAndCream	{0_coll} cubes and cream	0=MeatRaw 1=Dairy	MealsPaste	
+FlavorText_Denatured_MeatRaw	denatured {0_coll}	0=MeatRaw 1=AnimalProductRaw	MealsPaste	
+FlavorText_HappyAnimalGravy	happy animal gravy	0=MeatRaw 1=MeatRaw 2=AnimalProductRaw	MealsPaste	
+FlavorText_Predigested_MeatRaw	predigested {0_coll}	0=MeatRaw	MealsPaste	
+FlavorText_PlantFoodRaw_Slushball	{0_adj} slushball	0=PlantFoodRaw 1=PlantFoodRaw 2=AnimalProductRaw	MealsPaste	
+FlavorText_AnimalProductRaw_CongealedSalad	{1_adj} congealed salad	0=PlantFoodRaw 1=AnimalProductRaw 2=AnimalProductRaw	MealsPaste	
+FlavorText_Compressed_PlantFoodRaw	compressed {0_coll}	0=PlantFoodRaw	MealsPaste	
+FlavorText_HealthyPlantTray	healthy plant tray	0=PlantFoodRaw 1=PlantFoodRaw 2=PlantFoodRaw	MealsPaste	
+FlavorText_Powdered_PlantFoodRaw_Balls	powdered {0_adj} balls	0=PlantFoodRaw 1=AnimalProductRaw	MealsPaste	
+FlavorText_Mushed_Potato	mushed {0_coll}	0=Potato	MealsPaste	
+FlavorText_Rice_Gruel	{0_adj} gruel	0=Rice	MealsPaste	
+FlavorText_SoylentYellow	soylent yellow	0=Soybean/Meat_Dryad	MealsPaste	
+FlavorText_Sugar_Gel	{0_adj} gel	0=Sugar	MealsPaste	
+FlavorText_Vegetable_Paste	{0_adj} paste	0=Vegetable	MealsPaste	
+FlavorText_Masticated_Vegetable	masticated {0_coll}	0=Vegetable 1=Vegetable	MealsPaste	
+FlavorText_FruitMacedonia	fruit macedonia	0=Fruit 1=Fruit	MealsSalad,MealsDessert	
+FlavorText_FruitSalad	fruit salad	0=Fruit 1=Fruit 2=Fruit	MealsSalad,MealsDessert	
+FlavorText_PlantFoodRaw_Jelly	{1_adj} jelly	0=AnimalProductRaw 1=PlantFoodRaw	MealsSalad	
+FlavorText_Fungus_SaladWith_PlantFoodRaw	{2_adj} salad with {1_coll}	0=Dairy 1=PlantFoodRaw 2=Fungus	MealsSalad	
+FlavorText_Potato_SaladWith_PlantFoodRaw	{2_adj} salad with {1_coll}	0=Egg 1=PlantFoodRaw 2=Potato	MealsSalad	
+FlavorText_RusticSalad	rustic salad	0=Fruit 1=Fungus	MealsSalad	
+FlavorText_WaldorfSalad	Waldorf salad	0=Fruit/Celery/Broccoli 1=Nut/Celery/Broccoli 2=Fruit/Nut/Meat_Poultry	MealsSalad	
+FlavorText_ColdNoodleSalad	cold noodle salad	0=Grain 1=Vegetable 2=LeafyVeg	MealsSalad	
+FlavorText_Ingredients_PokeBowl	{0_adj} poke bowl	0=Ingredients 1=Ingredients 2=Ingredients	MealsSalad	

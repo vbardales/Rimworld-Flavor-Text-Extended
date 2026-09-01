@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Ingrédients de mods installés qu'aucune catégorie de Flavor Text ne reconnaît.
+
+  Relevé par _tools/ingredients.js, qui parcourt les ThingDefs comestibles des mods
+  du dossier workshop et rejoue le scoring de FlavorText (un mot-clé simple vaut au
+  plus 3 points — contient, commence/finit, égale — un mot-clé multi-mots en vaut 6 ;
+  il faut 3 points pour qu'une catégorie retienne le ThingDef).
+
+  Les plats finis d'autres mods (nasi lemak, satay, dango, rockbread, cheesecake…)
+  ne sont volontairement PAS rattachés : Flavor Text renomme des repas, il n'a pas
+  à traiter un repas comme un ingrédient.
+
+  Le cas « honeycomb » est instructif : FT_SugarFromAnimals connaît « honey », mais
+  le mot composé ne marque que 2 points (contient + commence par), donc il échoue
+  d'un cheveu. Même mécanique pour « marrowberries » face à « berries ». C'est
+  précisément pour ça que hekmo énumère explicitement strawberry, raspberry, etc.
+-->
+<Patch>
+
+	<!-- Miel : « honeycomb » ne marque que 2 points contre « honey ». -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_SugarFromAnimals"]/keywords</xpath>
+		<value>
+			<li>honeycomb</li>
+			<li>honey comb</li>
+			<li>rayon de miel</li>
+		</value>
+	</Operation>
+
+	<!-- Okara : la pulpe de soja, sous-produit du tofu. Aucun rapport lexical avec « soy ». -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Soy"]/keywords</xpath>
+		<value>
+			<li>okara</li>
+			<li>unohana</li>
+			<li>soy pulp</li>
+		</value>
+	</Operation>
+
+	<!-- Baies composées : « marrowberries » ne marque que 2 points contre « berries ». -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Berry"]/keywords</xpath>
+		<value>
+			<li>marrowberry</li>
+			<li>marrowberries</li>
+			<li>baie</li>
+			<li>baies</li>
+		</value>
+	</Operation>
+
+	<!-- Arachnides comestibles : FT_Meat_Insect ne connaît que les insectes du jeu de base. -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Meat_Insect"]/keywords</xpath>
+		<value>
+			<li>tarantula</li>
+			<li>spider</li>
+			<li>arachnid</li>
+			<li>scorpion</li>
+			<li>cricket</li>
+			<li>locust</li>
+			<li>grub</li>
+			<li>larva</li>
+			<li>larvae</li>
+		</value>
+	</Operation>
+
+	<!--
+		Nourriture animale : sans rattachement, ces ThingDefs remontent au fourre-tout
+		FT_Ingredients et peuvent apparaître dans un nom de repas. Le fourrage n'est
+		pas un ingrédient de cuisine — on le range là où il doit être.
+	-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_AnimalFoods"]/keywords</xpath>
+		<value>
+			<li>alfalfa</li>
+			<li>fodder</li>
+			<li>chaff</li>
+			<li>feedstock</li>
+			<li>animal treat</li>
+			<li>animal treats</li>
+			<li>grazing</li>
+			<li>forage</li>
+		</value>
+	</Operation>
+
+	<!--
+		Le mod RLE laisse ses labels en japonais : aucun mot-clé latin ne peut les
+		atteindre. On les rattache nommément, seule méthode fiable ici.
+		干し肉 = viande séchée, ナチュラルチーズ = fromage à pâte naturelle.
+		packageId verifie dans About.xml du mod (RimLife Expansion Trading items),
+		pas devine : un MayRequire errone fait sauter l operation en silence.
+	-->
+	<Operation Class="PatchOperationAdd" MayRequire="daylight.RimLifeExTRGMod">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_MeatRaw"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequire="daylight.RimLifeExTRGMod">RLE_DriedMeat</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd" MayRequire="daylight.RimLifeExTRGMod">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Cheese"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequire="daylight.RimLifeExTRGMod">RLE_CheesNatureAfter</li>
+			<li MayRequire="daylight.RimLifeExTRGMod">RLE_CheesNatureAged</li>
+		</value>
+	</Operation>
+
+</Patch>

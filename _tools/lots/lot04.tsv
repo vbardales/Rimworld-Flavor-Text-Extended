@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_Sugar_Candy	{0_adj} candy	0=Sugar	MealsDessert	
+FlavorText_Dairy_Candy	{1_adj} candy	0=Sugar 1=Dairy	MealsDessert	
+FlavorText_Fruit_Jam	{1_adj} jam	0=Sugar 1=Fruit	MealsDessert	
+FlavorText_Fruit_Tanghulu	{1_adj} tanghulu	0=Sugar 1=Fruit	MealsDessert	
+FlavorText_Citrus_TurkishDelight	{1_adj} Turkish delight	0=Sugar 1=Citrus/Nut/Flower	MealsDessert	
+FlavorText_Ambrosia	ambrosia	0=Sugar 1=Dairy 2=Fruit/Dairy	MealsDessert	
+FlavorText_Candied_Citrus_Peel	candied {1_adj} peel	0=Sugar 1=Citrus	MealsDessert	
+FlavorText_Candied_Nut	candied {1_coll}	0=Sugar 1=Nut	MealsDessert	
+FlavorText_Chocolate-CoatedMarshmallowTreats	chocolate-coated marshmallow treats	0=Sugar 1=Chocolate	MealsDessert	
+FlavorText_DragonsBeardCandy	dragon's beard candy	0=Sugar 1=Nut 2=Coconut/Seed/Grain	MealsDessert	
+FlavorText_Khabisa	khabisa	0=Sugar 1=Nut 2=Grain	MealsDessert	
+FlavorText_Kutya	kutya	0=Sugar 1=Fruit 2=Rice	MealsDessert	
+FlavorText_Raggmunkar	raggmunkar	0=Sugar 1=Fruit 2=Potato	MealsDessert	
+FlavorText_Savillum	savillum	0=Sugar 1=Dairy 2=Grain	MealsDessert	
+FlavorText_Tembleque	tembleque	0=Sugar 1=Coconut	MealsDessert	
+FlavorText_Fruitcake	fruitcake	0=Wheat 1=Fruit 2=Nut	MealsDessert	
+FlavorText_Knafeh	knafeh	0=Wheat 1=Sugar 2=Dairy	MealsDessert	
+FlavorText_Asida	asida	0=Wheat/Millet/Barley 1=Milk 2=SugarFromAnimals/Date	MealsDessert	
+FlavorText_MuzluSut	muzlu sut	0=Banana 1=Dairy	MealsDrink,MealsDessert	
+FlavorText_Boza	boza	0=Corn 1=Wheat	MealsDrink,MealsDessert	
+FlavorText_ChichaMorada	chicha morada	0=Corn 1=Apple/Pear 2=Pineapple	MealsDrink,MealsDessert	
+FlavorText_Salep	salep	0=Dairy 1=Flower/Grain	MealsDrink,MealsDessert	
+FlavorText_Eggnog	eggnog	0=Egg 1=Milk 2=Spice	MealsDrink,MealsDessert	
+FlavorText_Atole	atole	0=Sugar 1=Corn	MealsDrink,MealsDessert	
+FlavorText_Horchata	horchata	0=Sugar 1=Rice	MealsDrink,MealsDessert	
+FlavorText_Ingredients_HealthDrink	{0_adj} health drink	0=Ingredients 1=Ingredients	MealsDrink,MealsPaste	
+FlavorText_Ingredients_Juice	{0_adj} juice	0=Ingredients	MealsDrink,MealsPaste	
+FlavorText_Ingredients_Smoothie	{0_adj} smoothie	0=Ingredients 1=Ingredients 2=Ingredients	MealsDrink,MealsPaste	
+FlavorText_MulledWine	mulled wine	0=Fruit 1=Spice/Sugar/Citrus	MealsDrink	
+FlavorText_Boza_2	boza	0=Grain	MealsDrink	
+FlavorText_ProteinShake	protein shake	0=PlantFoodRaw/AnimalProductRaw 1=PlantFoodRaw/AnimalProductRaw	MealsDrink	
+FlavorText_Sungnyung	sungnyung	0=Rice	MealsDrink	poste:Fire
+FlavorText_LeafyVeg_Pies	{1_adj} pies	0=Wheat 1=LeafyVeg	MealsDumpling,MealsBake	
+FlavorText_Kibbeh	kibbeh	0=Meat_Hoofed/Meat_Poultry 1=Grain	MealsDumpling,MealsDeepFry,MealsGrill	
+FlavorText_Chickpea_Bonda	{0_adj} bonda	0=Chickpea 1=Ingredients	MealsDumpling,MealsDeepFry,MealsSnack	
+FlavorText_Ingredients_Samosas	{0_adj} samosas	0=Ingredients 1=PlantFoodRaw 2=Grain	MealsDumpling,MealsDeepFry	
+FlavorText_Meat_Shellfish_Cakes	{0_adj} cakes	0=Meat_Shellfish 1=Egg 2=Grain	MealsDumpling,MealsDeepFry	
+FlavorText_MeatRaw_PapaRellena	{0_adj} papa rellena	0=MeatRaw 1=Egg 2=Potato	MealsDumpling,MealsDeepFry	
+FlavorText_Mooncakes	mooncakes	0=Egg 1=Lotus/RedBean/Yam 2=Sugar	MealsDumpling,MealsDessert	
+FlavorText_Manapua	manapua	0=Ingredients 1=Grain	MealsDumpling,MealsDessert	
+FlavorText_Ingredients_Balls	{0_adj} balls	0=Ingredients	MealsDumpling,MealsGrill	
+FlavorText_Dango_2	dango	0=Rice 1=Sugar 2=Bean/Meat_Dryad	MealsDumpling,MealsGrill	poste:Fire
+FlavorText_PlantFoodRaw_Tsukemono	{0_adj} tsukemono	0=PlantFoodRaw 1=Rice	MealsDumpling,MealsSalad,MealsNoodle	
+FlavorText_Simit	simit	0=Grain 1=Seed	MealsDumpling,MealsSandwich,MealsBake	
+FlavorText_HuitlacocheTamales	huitlacoche tamales	0=Corn 1=Fungus	MealsDumpling,MealsSandwich	
+FlavorText_Ingredients_Arepas	{0_adj} arepas	0=Ingredients 1=Ingredients 2=Corn	MealsDumpling,MealsSandwich	
+FlavorText_Ingredients_Burek	{0_adj} burek	0=Ingredients 1=MeatRaw/AnimalProductRaw 2=Grain	MealsDumpling,MealsSandwich	
+FlavorText_Ingredients_Enchiladas	{0_adj} enchiladas	0=Ingredients 1=Corn 2=Chili/Chocolate/Tomato/Dairy	MealsDumpling,MealsSandwich	
+FlavorText_ArepasConQueso	arepas con queso	0=Ingredients 1=Dairy 2=Corn	MealsDumpling,MealsSandwich	
+FlavorText_MeatRaw_Tamales	{0_adj} tamales	0=MeatRaw 1=Corn	MealsDumpling,MealsSandwich	
+FlavorText_Cholera	cholera	0=Milk 1=PlantFoodRaw 2=Grain	MealsDumpling,MealsSandwich	
+FlavorText_GuanimesConBacalao	guanimes con bacalao	0=Cod 1=Vegetable 2=Corn	MealsDumpling,MealsSoup	
+FlavorText_Gamja-Ongsimi	gamja-ongsimi	0=Meat_Fish 1=Vegetable 2=Potato	MealsDumpling,MealsSoup	
+FlavorText_MeatRaw_SoupDumplings	{1_adj} soup dumplings	0=MeatRaw 1=MeatRaw 2=Rice	MealsDumpling,MealsSoup	
+FlavorText_PasutsTolma	pasuts tolma	0=Cabbage 1=Bean 2=Grain	MealsDumpling	
+FlavorText_Banana_Fufu	{1_adj} fufu	0=Cassava/Yam 1=Banana/Grain	MealsDumpling	
+FlavorText_Fufu	fufu	0=Cassava/Yam	MealsDumpling	
+FlavorText_Paniyaram	paniyaram	0=Chili/Sugar 1=Rice 2=Lentil	MealsDumpling	
+FlavorText_Latke	latke	0=Egg 1=Onion 2=Potato	MealsDumpling	
+FlavorText_PierogiLeniwe	pierogi leniwe	0=Egg 1=Milk 2=Wheat	MealsDumpling	
+FlavorText_TamagoSushi	tamago sushi	0=Egg 1=Sugar 2=Rice	MealsDumpling	
+FlavorText_ImamBayildi	İmam bayıldı	0=Eggplant 1=Onion 2=Tomato	MealsDumpling	
+FlavorText_EnglishMuffins	English muffins	0=Grain 1=Dairy	MealsDumpling	
+FlavorText_Khinkali	khinkali	0=Grain 1=Ingredients	MealsDumpling	
+FlavorText_Potetball	potetball	0=Grain 1=Potato	MealsDumpling	
+FlavorText_Puto	puto	0=Grain	MealsDumpling	
+FlavorText_Takoyaki	takoyaki	0=Grain 1=Cephalopod	MealsDumpling	
+FlavorText_Ingredients_Baozi	{0_adj} baozi	0=Ingredients 1=Grain	MealsDumpling	
+FlavorText_Ingredients_ChorMuang	{0_adj} chor muang	0=Ingredients 1=Vegetable 2=Rice	MealsDumpling	
+FlavorText_Ingredients_Dumplings	{0_adj} dumplings	0=Ingredients 1=Ingredients	MealsDumpling	
+FlavorText_Ingredients_Dumplings_2	{0_adj} dumplings	0=Ingredients 1=Ingredients 2=Ingredients	MealsDumpling	
+FlavorText_Ingredients_MomoWith_Ingredients_Achar	{0_adj} momo with {1_adj} achar	0=Ingredients 1=Ingredients 2=Grain	MealsDumpling	
+FlavorText_Ingredients_Pierogi	{0_adj} pierogi	0=Ingredients 1=Potato 2=Wheat	MealsDumpling	
+FlavorText_Ingredients_Zongzi	{0_adj} zongzi	0=Ingredients 1=Rice	MealsDumpling	
+FlavorText_MeatRaw_Croquettes	{1_adj} croquettes	0=Ingredients 1=MeatRaw 2=Potato	MealsDumpling	
+FlavorText_MeatRaw_Jiaozi	{1_adj} jiaozi	0=Ingredients 1=MeatRaw 2=Rice	MealsDumpling	
+FlavorText_Gimbap	gimbap	0=Ingredients 1=Ingredients 2=Rice	MealsDumpling	
+FlavorText_MercimekKoftesi	mercimek köftesi	0=Lentil 1=Tomato 2=Wheat	MealsDumpling	
+FlavorText_Manti	manti	0=Meat_Hoofed/Meat_Poultry 1=Grain 2=Dairy	MealsDumpling	
+FlavorText_Meat_Pig_Gefillde	{0_adj} gefillde	0=Meat_Pig/Meat_Cow 1=Grain 2=Potato	MealsDumpling	

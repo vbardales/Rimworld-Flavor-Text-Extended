@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Cuisine marocaine et maghrébine. Flavor Text ne connaissait que « couscous ».
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TajinePruneaux</defName>
+		<label>tajine {0_adj} aux pruneaux</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Plum</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuite des heures dans un plat conique qui renvoie la vapeur vers le fond, avec {1_coll} confits et {2_coll}. Le sucré et le salé ne se disputent pas, ici.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TajineOlivesCitron</defName>
+		<label>tajine {0_adj} aux olives et citron confit</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{0_coll} mijotée {1_plur} et {2_plur} confit au sel pendant des mois. On n'utilise que l'écorce ; la pulpe est trop amère.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Harira</defName>
+		<label>harira</label>
+		<ingredients>
+			<li><categories><li>FT_Lentil</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Chickpea</li></categories></li>
+		</ingredients>
+		<description>une soupe épaisse {0_adj}, {1_adj} et {2_adj}, liée d'un levain de farine fermentée. C'est elle qui rompt le jeûne, chaque soir du mois.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Pastilla</defName>
+		<label>pastilla</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} effilochée et {1_coll} grillées enfermées dans des feuilles de brick, le tout saupoudré de sucre et de cannelle par-dessus. Un plat salé qui se sert sous une couche sucrée, et personne ne s'en étonne.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Mechoui</defName>
+		<label>méchoui</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>une bête entière badigeonnée {1_adj} et {2_adj}, tournée au-dessus des braises une demi-journée. Se mange à la main ; la première épaule revient à l'invité.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Zaalouk</defName>
+		<label>zaalouk</label>
+		<ingredients>
+			<li><categories><li>FT_Eggplant</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{0_coll} brûlées puis pelées, écrasées {1_plur} et {2_plur} jusqu'à ce que l'eau soit entièrement partie. Se sert froid, avec du pain, avant tout le reste.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Briouates</defName>
+		<label>briouates</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>des triangles de brick fourrés {1_plur} pilées, frits puis plongés brûlants dans le miel froid. Le choc des températures fait le croustillant.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Chakchouka</defName>
+		<label>chakchouka</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} réduits en sauce épaisse, dans laquelle on creuse des nids pour {2_coll}, couverts jusqu'à ce que le blanc prenne et pas plus.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Rfissa</defName>
+		<label>rfissa</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Lentil</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} servies sur des crêpes déchirées à la main, qui boivent tout le bouillon {2_adj}. On la prépare pour les jeunes mères.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Amlou</defName>
+		<label>amlou</label>
+		<ingredients>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} torréfiées et broyées jusqu'à rendre leur huile, mêlées {1_plur} et {2_plur} en une pâte lourde et brune. Se mange à la cuillère, sans honte.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TheALaMenthe</defName>
+		<label>thé à la menthe</label>
+		<ingredients>
+			<li><categories><li>FT_Tea</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} vert, une poignée de menthe, et bien plus {1_adj} qu'on ne veut l'admettre. Versé de haut pour faire la mousse, et trois fois plutôt qu'une.</description>
+		<mealKinds>
+			<li>FT_MealsDrink</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CouscousRoyal</defName>
+		<label>couscous royal</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Squash</li></categories></li>
+		</ingredients>
+		<description>de la semoule roulée à la main et cuite trois fois à la vapeur du bouillon, servie {1_plur} et {2_plur}. La graine ne touche jamais l'eau.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Loubia</defName>
+		<label>loubia</label>
+		<ingredients>
+			<li><categories><li>FT_Bean</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} blancs mijotés {1_plur}, {2_plur} et beaucoup d'huile, jusqu'à ce que la sauce épaississe d'elle-même. Un plat de rue, mangé debout au bol.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_KeftaMkaouara</defName>
+		<label>kefta mkaouara</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>des boulettes {0_adj} hachée pochées dans une sauce {1_adj}, avec {2_coll} cassés dessus à la fin. Arrive au tajine, encore en train de cuire.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Seffa</defName>
+		<label>seffa</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>de la semoule vapeur montée en cône, striée de cannelle et de sucre glace, couronnée {1_plur} frites, {2_plur} servi à part et froid.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Maakouda</defName>
+		<label>maâkouda</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>des galettes {0_adj} écrasées, liées {1_plur} et safranées {2_plur}, frites jusqu'au doré. Se glissent dans un pain, avec de la harissa.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- Mêmes ingrédients que le kouign-amann : les deux se partageront le tirage,
+	     ce qui fait de la variété plutôt qu'un conflit. -->
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Msemen</defName>
+		<label>msemen</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une pâte étirée jusqu'à la transparence sur un plan huilé, badigeonnée {1_plur} et de semoule, pliée en carré et repliée encore, puis cuite à sec. Les feuillets se comptent à la déchirure.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

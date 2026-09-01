@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_NachosAndSalsa	nachos and salsa	0=Dairy 1=Tomato 2=PlantFoodRaw	MealsSnack	
+FlavorText_PizzaRolls	pizza rolls	0=Dairy 1=Tomato 2=Grain	MealsSnack	
+FlavorText_SpanishOmelette	Spanish omelette	0=Egg 1=Potato 2=Onion	MealsSnack	
+FlavorText_Escalivada	escalivada	0=Eggplant 1=BellPepper 2=Tomato/Onion/Garlic	MealsSnack	
+FlavorText_Fruit_GummySnacks	{0_adj} gummy snacks	0=Fruit	MealsSnack	
+FlavorText_TrailMix	trail mix	0=Fruit 1=Nut	MealsSnack	
+FlavorText_Pretzel	pretzel	0=Grain	MealsSnack	
+FlavorText_Ingredients_Popcorn	{0_adj} popcorn	0=Ingredients 1=Corn	MealsSnack	
+FlavorText_Ingredients_PowerBar	{0_adj} power bar	0=Ingredients 1=Ingredients 2=Ingredients	MealsSnack	
+FlavorText_Ingredients_With_Ingredients_Dip	{0_coll} with {1_adj} dip	0=Ingredients 1=Ingredients	MealsSnack	
+FlavorText_PlantFoodRaw_ChipsAndDip	{2_adj} chips and dip	0=Ingredients 1=PlantFoodRaw 2=PlantFoodRaw	MealsSnack	
+FlavorText_Dried_Ingredients	dried {0_coll}	0=Ingredients	MealsSnack	
+FlavorText_Instant_Ingredients_Ramen	instant {0_adj} ramen	0=Ingredients 1=Grain	MealsSnack	
+FlavorText_MeatRaw_Jerky	{0_adj} jerky	0=MeatRaw	MealsSnack	
+FlavorText_DinoNuggets	dino nuggets	0=MeatRaw 1=MeatRaw 2=MeatRaw	MealsSnack	
+FlavorText_GranolaBar	granola bar	0=Oat 1=Sugar/Nut/Fruit	MealsSnack	
+FlavorText_PlantFoodRaw_Chips	{0_adj} chips	0=PlantFoodRaw	MealsSnack	
+FlavorText_ProteinBar	protein bar	0=PlantFoodRaw/AnimalProductRaw 1=PlantFoodRaw/AnimalProductRaw	MealsSnack	
+FlavorText_Rice_Crackers	{0_adj} crackers	0=Rice	MealsSnack	
+FlavorText_Rice_KrispiesTreats	{0_adj} Krispies treats	0=Rice 1=Sugar	MealsSnack	
+FlavorText_Mukhwas	mukhwas	0=Seed/Spice 1=Sugar	MealsSnack	
+FlavorText_KettleCorn	kettle corn	0=Sugar 1=Corn	MealsSnack	
+FlavorText_GinataangMais	ginataang mais	0=Coconut 1=Corn 2=Rice	MealsSoup,MealsDessert	
+FlavorText_Ingredients_TongSui	{0_adj} tong sui	0=Ingredients 1=Sugar	MealsSoup,MealsDessert	
+FlavorText_SnowFungusSoup	snow fungus soup	0=Sugar 1=Fungus	MealsSoup,MealsDessert	
+FlavorText_Poi	poi	0=Taro	MealsSoup,MealsDessert	
+FlavorText_EbaWith_Ingredients_Stew	eba with {0_adj} stew	0=Ingredients 1=Cassava	MealsSoup,MealsDumpling	
+FlavorText_UgaliAnd_Ingredients_Stew	ugali and {0_adj} stew	0=Ingredients 1=Corn 2=Potato	MealsSoup,MealsDumpling	
+FlavorText_RagdaPattice	ragda pattice	0=Potato 1=Pea 2=Spice	MealsSoup,MealsDumpling	
+FlavorText_Tikourbabine	tikourbabine	0=Wheat 1=PlantFoodRaw 2=Ingredients	MealsSoup,MealsNoodle,MealsDumpling	
+FlavorText_Sujebi	sujebi	0=Meat_Seafood 1=Grain 2=Vegetable	MealsSoup,MealsNoodle	
+FlavorText_Etouffee	étouffée	0=Meat_Shellfish 1=Rice	MealsSoup,MealsNoodle	
+FlavorText_MeatRaw_Ramen	{0_adj} ramen	0=MeatRaw/Fungus/Kelp 1=Meat_Fish/Soybean/Meat_Dryad/Kelp 2=Grain	MealsSoup,MealsNoodle	
+FlavorText_Rendang	rendang	0=MeatRaw 1=Coconut	MealsSoup,MealsStirFry	
+FlavorText_AnimalProductRaw_Grits	{0_adj} grits	0=AnimalProductRaw 1=Corn	MealsSoup	
+FlavorText_AnimalProductRaw_Porridge	{0_adj} porridge	0=AnimalProductRaw 1=Rice	MealsSoup	
+FlavorText_Bazin	bazin	0=Barley 1=Tomato 2=Meat_Hoofed/Potato/Egg	MealsSoup	
+FlavorText_Feijoada	feijoada	0=Bean 1=Meat_Pig/Meat_Cow	MealsSoup	
+FlavorText_Gising-Gising	gising-gising	0=Bean 1=Coconut 2=Chili/Garlic/Onion/MeatRaw	MealsSoup	
+FlavorText_Potaje	potaje	0=Bean 1=Potato 2=LeafyVeg/MeatRaw	MealsSoup	
+FlavorText_PinkSoup	pink soup	0=Beet 1=Dairy 2=Cucumber/Potato/Egg	MealsSoup	
+FlavorText_Piperade	pipérade	0=BellPepper 1=Onion/Tomato 2=Chili	MealsSoup	
+FlavorText_Lablabi	lablabi	0=Chickpea 1=Grain	MealsSoup	
+FlavorText_Condiment_Reduction	{0_adj} reduction	0=Condiment	MealsSoup	
+FlavorText_Condiment_Condiment_Sauce	{0_coll} {1_coll} sauce	0=Condiment 1=Condiment	MealsSoup	
+FlavorText_Condiment_Dressing	{0_coll} dressing	0=Condiment 1=Condiment 2=Condiment	MealsSoup	
+FlavorText_Tocana	Tocană	0=Corn 1=Garlic 2=Tomato	MealsSoup	
+FlavorText_Menemen	menemen	0=Egg 1=Tomato 2=BellPepper	MealsSoup	
+FlavorText_Shakshuka	shakshuka	0=Egg 1=PlantFoodRaw 2=Tomato	MealsSoup	
+FlavorText_UovaAlPurgatorio	uova al purgatorio	0=Egg 1=Tomato	MealsSoup	
+FlavorText_ConfitByaldi	confit byaldi	0=Eggplant 1=Squash 2=BellPepper/Tomato/Onion	MealsSoup	
+FlavorText_Ratatouille	ratatouille	0=Eggplant 1=Squash 2=BellPepper/Tomato/Onion	MealsSoup	
+FlavorText_BagaraBaingan	bagara baingan	0=Eggplant/Okra 1=Fruit 2=Peanut/Sesame/Coconut	MealsSoup	
+FlavorText_Fungus_Stew	{0_adj} stew	0=Fungus	MealsSoup	
+FlavorText_Tourin	tourin	0=Garlic 1=Egg	MealsSoup	
+FlavorText_Ingredients_Thukpa	{2_adj} thukpa	0=Grain 1=Vegetable 2=Ingredients	MealsSoup	
+FlavorText_AjoBlanco	ajo blanco	0=Grain 1=Nut/Bean 2=Garlic	MealsSoup	
+FlavorText_Zanzarelli	zanzarelli	0=Grain 1=Egg 2=Dairy	MealsSoup	
+FlavorText_Ingredients_Bisque	{0_adj} bisque	0=Ingredients 1=Dairy	MealsSoup	
+FlavorText_Ingredients_Bouillon	{0_adj} bouillon	0=Ingredients	MealsSoup	
+FlavorText_Ingredients_Chowder	{0_adj} chowder	0=Ingredients 1=Dairy	MealsSoup	
+FlavorText_Ingredients_Chowder_2	{0_adj} chowder	0=Ingredients 1=Ingredients 2=Dairy	MealsSoup	
+FlavorText_Ingredients_Congee	{0_adj} congee	0=Ingredients 1=Rice	MealsSoup	
+FlavorText_Ingredients_Curry	{0_adj} curry	0=Ingredients 1=Milk 2=Spice	MealsSoup	
+FlavorText_Ingredients_Fricot	{0_adj} fricot	0=Ingredients 1=Vegetable 2=Potato	MealsSoup	
+FlavorText_Ingredients_Jjigae	{0_adj} jjigae	0=Ingredients 1=Chili/Soybean/Meat_Shellfish/Meat_Dryad	MealsSoup	
+FlavorText_Ingredients_Korma	{0_adj} korma	0=Ingredients 1=Dairy	MealsSoup	
+FlavorText_Ingredients_NoodleSoup	{0_adj} noodle soup	0=Ingredients 1=Grain	MealsSoup	
+FlavorText_Ingredients_Ph	{0_adj} phở	0=Ingredients 1=MeatRaw 2=Rice	MealsSoup	
+FlavorText_Ingredients_Pottage	{0_adj} pottage	0=Ingredients 1=Ingredients 2=Ingredients	MealsSoup	
+FlavorText_Ingredients_Ragout	{0_adj} ragout	0=Ingredients 1=Ingredients	MealsSoup	
+FlavorText_Ingredients_TikkaMasala	{0_adj} tikka masala	0=Ingredients 1=Milk 2=Spice	MealsSoup	
+FlavorText_Coddle	coddle	0=Ingredients 1=Meat_Pig 2=Potato	MealsSoup	
+FlavorText_CreamOf_Ingredients_Soup	cream of {0_sing} soup	0=Ingredients 1=Dairy	MealsSoup	
+FlavorText_HotAndSour_Ingredients_Soup	hot and sour {0_adj} soup	0=Ingredients 1=PlantFoodRaw	MealsSoup	
+FlavorText_Jjim	jjim	0=Ingredients 1=Vegetable 2=Ingredients	MealsSoup	
+FlavorText_MinestroneSoup	minestrone soup	0=Ingredients 1=PlantFoodRaw 2=PlantFoodRaw	MealsSoup	
+FlavorText_MisoSoup	miso soup	0=Ingredients 1=Meat_Fish 2=Grain/Soybean/Meat_Dryad	MealsSoup	
+FlavorText_MulliganStew	mulligan stew	0=Ingredients 1=Ingredients 2=PlantFoodRaw	MealsSoup	
+FlavorText_Miyeok-Guk	miyeok-guk	0=Kelp 1=Meat_Cow/Meat_Fish	MealsSoup	

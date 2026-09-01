@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Cuisine mexicaine. Flavor Text couvrait déjà pozole, guacamole, elote, enchiladas,
+  esquites et tamales — on complète autour.
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MolePoblano</defName>
+		<label>mole poblano</label>
+		<ingredients>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+		</ingredients>
+		<description>une sauce brun-noir où {0_coll} grillés, {1_coll} et une vingtaine d'autres choses sont broyés puis mijotés des heures, versée sur {2_coll}. Le chocolat ne la sucre pas : il l'épaissit et l'assombrit.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CochinitaPibil</defName>
+		<label>cochinita pibil</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Citrus</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} marinée {1_plur} amère et {2_plur} de rocou qui la teignent en orange, enveloppée de feuilles de bananier et cuite enterrée. « Pib » veut dire fosse.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChilesEnNogada</defName>
+		<label>chiles en nogada</label>
+		<ingredients>
+			<li><categories><li>FT_BellPepper</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>{0_coll} farcis {2_plur} hachée et de fruits, nappés d'une crème {1_adj} fraîches et grenés de grenade. Vert, blanc, rouge : le drapeau, servi en assiette.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Tinga</defName>
+		<label>tinga</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} effilochée et mijotée dans une sauce {1_adj} fumée aux piments en adobo, avec {2_coll} en lamelles. Se sert sur une tostada, jamais dans une assiette.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Quesadilla</defName>
+		<label>quesadilla</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>une galette {0_adj} pliée sur {1_coll} et {2_coll}, saisie à sec jusqu'à ce que le fromage file quand on l'ouvre. À Mexico, on demande s'il faut y mettre du fromage ; le reste du pays trouve la question absurde.</description>
+		<mealKinds>
+			<li>FT_MealsSandwich</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SopaDeLima</defName>
+		<label>sopa de lima</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+			<li><categories><li>FT_Corn</li></categories></li>
+		</ingredients>
+		<description>un bouillon {0_adj} acidulé {1_plur}, garni de lanières {2_adj} frites qui ramollissent à mesure qu'on mange. Il faut donc manger vite.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Birria</defName>
+		<label>birria</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuite à l'étouffée dans un adobo {1_adj} et {2_adj} jusqu'à se défiler. Le jus rendu se garde à part : on y trempe tout le reste.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Chilaquiles</defName>
+		<label>chilaquiles</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>des galettes {0_adj} de la veille, coupées, frites, puis noyées de sauce {1_adj} juste assez longtemps pour s'attendrir sans se dissoudre, avec {2_coll} par-dessus. Le petit-déjeuner des lendemains difficiles.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Carnitas</defName>
+		<label>carnitas</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+			<li><categories><li>FT_Citrus</li></categories></li>
+		</ingredients>
+		<description>{0_coll} confite des heures {1_plur} avec {2_coll}, puis montée en température à la fin pour croustiller les bords. Tendre dedans, cassante dehors, dans le même morceau.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

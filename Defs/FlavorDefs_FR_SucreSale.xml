@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Sucré-salé : confits, chutneys, laquages, aigres-doux, mijotés aux fruits.
+
+  L'analyse de couverture désignait quatre paires absentes malgré des catégories
+  très servies de part et d'autre :
+    Onion + Sugar        134 defs chacun, zéro rencontre
+    Sugar + Tomato       106
+    Meat_Cow + Sugar      74
+    Sugar + Vegetable     60
+  Tout le registre du sucre en salé — confire, laquer, aigre-doucir, mijoter aux
+  fruits secs — n'avait donc aucun nom, alors qu'il traverse la moitié des cuisines
+  du monde.
+
+  Quelques defs servent en plus des catégories rares : l'orange, le potiron, la datte,
+  la prune et le coing (rattaché à FT_Apple par mots-clés).
+-->
+<Defs>
+
+	<!-- ======================================================= OIGNON ET SUCRE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ConfitDOignons</defName>
+		<label>confit d'oignons</label>
+		<ingredients>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>{0_coll} émincés fondus deux heures à couvert, puis découverts et laissés caraméliser {1_plur} et {2_plur} rouge jusqu'à devenir presque noirs et sirupeux.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TatinDOignons</defName>
+		<label>tatin d'oignons</label>
+		<ingredients>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} coupés en deux, posés face plate dans un caramel {1_adj} au vinaigre, couverts de pâte et retournés après cuisson. Le principe de la tarte aux pommes, appliqué au salé.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CipollineAgrodolce</defName>
+		<label>cipolline in agrodolce</label>
+		<ingredients>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>de petits {0_coll} entiers glacés au vinaigre balsamique et {1_plur}, avec du laurier. Se mangent froids, et se gardent une semaine en gagnant à chaque jour.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ConfitureOignonsLard</defName>
+		<label>confiture d'oignons au lard</label>
+		<ingredients>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>{2_coll} rendue lentement, {0_coll} compotés dans sa graisse {1_plur} roux et le vinaigre de cidre. Se tartine sur un burger ou sur du pain grillé, indifféremment.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ======================================================= TOMATE ET SUCRE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ConfitureTomatesVertes</defName>
+		<label>confiture de tomates vertes</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{0_coll} qui n'ont pas mûri avant les gelées, tranchées et macérées {1_plur} une nuit, puis cuites {2_plur} jusqu'à devenir translucides. Rien ne se perd au potager.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Ketchup</defName>
+		<label>ketchup</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} réduites des heures {2_plur}, du vinaigre, {1_coll} et un sachet d'épices entières retiré à la fin. Le mot vient d'une saumure de poisson chinoise, et il n'y avait pas de tomate dedans.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChutneyTomateDatte</defName>
+		<label>chutney tomate-datte</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Date</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {2_coll} mijotées {1_plur} de palme et aux cinq épices bengalies, jusqu'à napper. Se sert en fin de repas, avant le dessert, pour nettoyer la bouche.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TatinDeTomates</defName>
+		<label>tatin de tomates</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} confites dans un caramel {1_adj} et {2_adj}, serrées côte à côte sous une abaisse et retournées tièdes. Le sucre ne les rend pas sucrées : il les concentre.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ========================================================= BŒUF ET SUCRE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BoeufTeriyaki</defName>
+		<label>bœuf teriyaki</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>{0_coll} tranchée fine et saisie, puis laquée d'une réduction {2_adj}, de mirin et {1_adj} passée trois fois au pinceau. Le brillant est le but, pas la sauce.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BoeufALOrange</defName>
+		<label>bœuf à l'orange</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Orange</li></categories></li>
+		</ingredients>
+		<description>des lanières {0_adj} enrobées de fécule et frites croustillantes, sautées dans un sirop {1_adj} au vinaigre et aux écorces {2_adj} séchées. La croûte doit tenir sous la sauce.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CarbonnadeCassonade</defName>
+		<label>carbonnade à la cassonade</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>{0_coll} braisée {2_plur} brune, adoucie {1_plur} brune et d'une tranche de pain d'épices moutardé qui se dissout et lie la sauce. L'amertume de la bière et le sucre se tiennent en équilibre.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BoeufAuxPruneaux</defName>
+		<label>bœuf aux pruneaux</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Plum</li></categories></li>
+		</ingredients>
+		<description>{0_coll} braisée avec {2_coll} séchés qui se défont en fin de cuisson et sucrent le jus d'eux-mêmes. On n'ajoute {1_coll} qu'à la toute fin, et très peu.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BrisketSucreBrun</defName>
+		<label>brisket au sucre brun</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>une poitrine {0_adj} frottée {1_plur} roux, {2_plur} et paprika fumé, puis fumée douze heures. Le sucre forme l'écorce noire qu'on appelle bark, et qui est le meilleur morceau.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ====================================================== LÉGUMES ET SUCRE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CarottesVichy</defName>
+		<label>carottes Vichy</label>
+		<ingredients>
+			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en rondelles cuites à découvert dans juste assez d'eau, {1_plur} et {2_plur}, jusqu'à ce que le liquide s'évapore et laisse un glaçage brillant.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Rotkohl</defName>
+		<label>rotkohl</label>
+		<ingredients>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Apple</li></categories></li>
+		</ingredients>
+		<description>{0_coll} rouge émincé et braisé une heure avec {2_coll} râpées, du vinaigre et {1_coll}, plus un clou de girofle. L'acide garde la couleur ; sans lui, le chou vire au bleu.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BetteravesAigresDouces</defName>
+		<label>betteraves aigres-douces</label>
+		<ingredients>
+			<li><categories><li>FT_Beet</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuites en robe puis marinées dans un vinaigre {1_adj} aux graines de moutarde et à l'aneth. Prennent une semaine à s'équilibrer et se gardent des mois.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DaigakuImo</defName>
+		<label>daigaku imo</label>
+		<ingredients>
+			<li><categories><li>FT_Yam</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Sesame</li></categories></li>
+		</ingredients>
+		<description>des morceaux de patate douce frits puis enrobés d'un caramel {1_adj} au soja, semés {2_plur} noir. « Patate d'université » : les étudiants tokyoïtes les achetaient pour trois fois rien.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ZuccaInAgrodolce</defName>
+		<label>zucca in agrodolce</label>
+		<ingredients>
+			<li><categories><li>FT_Pumpkin</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>des tranches {0_adj} frites puis marinées à chaud dans un vinaigre {1_adj} avec de la menthe et de l'ail. Se mange froid le lendemain ; le jour même, c'est trop violent.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Takuan</defName>
+		<label>takuan</label>
+		<ingredients>
+			<li><categories><li>FT_Turnip</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>un daikon séché au soleil plusieurs semaines jusqu'à plier, puis enfoui dans du son de riz {1_plur} et au sel. Jaune vif, craquant, et bruyant à mâcher.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PicklesSucresConcombre</defName>
+		<label>pickles sucrés de concombre</label>
+		<ingredients>
+			<li><categories><li>FT_Cucumber</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {2_coll} tranchés fin, dégorgés au gros sel puis ébouillantés dans un vinaigre {1_adj} au curcuma et aux graines de moutarde.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =============================================== LAQUAGES ET AIGRES-DOUX -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PorcAigreDoux</defName>
+		<label>porc aigre-doux</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_BellPepper</li></categories></li>
+		</ingredients>
+		<description>{0_coll} enrobée de fécule et frite deux fois, jetée au dernier moment dans une sauce {1_adj} au vinaigre avec {2_coll}. Mélangée trop tôt, la panure s'effondre.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!--
+		FT_Vegetable est le fourre-tout parent : il attrape les légumes qui n'ont
+		aucune catégorie propre, y compris ceux des mods. Les sept plats légume-sucre
+		ci-dessus passent tous par des catégories filles, si bien que la paire
+		générique Sugar + Vegetable restait vide. Ce plat la couvre.
+	-->
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AchardsDeLegumes</defName>
+		<label>achards de légumes</label>
+		<ingredients>
+			<li><categories><li>FT_Vegetable</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} taillés en fine julienne, blanchis puis noyés dans une huile au curcuma, au gingembre et au vinaigre, avec juste assez {1_adj} pour arrondir l'acide. Se bonifient trois jours durant.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_JambonGlaceAuMiel</defName>
+		<label>jambon glacé au miel</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>une pièce {0_adj} quadrillée au couteau et piquée de clous de girofle, badigeonnée {1_plur} et {2_plur} toutes les vingt minutes jusqu'à former une croûte ambrée.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PouletMielAil</defName>
+		<label>poulet au miel et à l'ail</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{0_coll} saisie puis mijotée dans {1_coll}, {2_coll} écrasé et un trait de vinaigre, jusqu'à ce que la sauce réduise et colle à la chair.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaumonMisoMiel</defName>
+		<label>saumon glacé au miso et au miel</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+		</ingredients>
+		<description>{0_coll} marinée une nuit dans une pâte {1_adj} fermenté et {2_adj}, puis passée sous le gril. Le sucre du miso brûle vite : on surveille sans quitter la salamandre.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================= MIJOTÉS VIANDE ET FRUITS -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TajineTfaya</defName>
+		<label>tajine tfaya</label>
+		<ingredients>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_Grape</li></categories></li>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+		</ingredients>
+		<description>{2_coll} mijotée au safran, couverte d'une tfaya — {0_coll} compotés des heures {1_plur} secs, à la cannelle et au miel, jusqu'au brun sombre.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Mrouzia</defName>
+		<label>mrouzia</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+			<li><categories><li>FT_Almond</li></categories></li>
+		</ingredients>
+		<description>{0_coll} confite au ras el hanout et au smen, noyée {1_plur} et chargée {2_adj} frites. Le miel et le sel conservaient la viande des semaines après la fête du sacrifice.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_KhoreshBeh</defName>
+		<label>khoresh-e beh</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Apple</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>{0_coll} braisée avec des coings en quartiers, dont la chair dure fond en une heure et parfume tout, acidulée au verjus et sucrée d'un peu de miel.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PorcCidrePommes</defName>
+		<label>porc au cidre et aux pommes</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Apple</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>un rôti {0_adj} braisé {2_plur} avec {1_coll} en quartiers, dont la moitié se défait en compote et l'autre tient. Le jus réduit devient sirupeux tout seul.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

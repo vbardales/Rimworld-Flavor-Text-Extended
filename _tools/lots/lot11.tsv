@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_Afang	afang	0=LeafyVeg 1=MeatRaw 2=Coconut	MealsSoup	
+FlavorText_GhormehSabzi	ghormeh sabzi	0=LeafyVeg 1=MeatRaw 2=Bean	MealsSoup	
+FlavorText_Luau	lū'au	0=LeafyVeg 1=Coconut 2=Vegetable/MeatRaw	MealsSoup	
+FlavorText_Luau_2	lū'au	0=LeafyVeg 1=Meat_Cow/Meat_Pig	MealsSoup	
+FlavorText_ChanaSaag	chana saag	0=LeafyVeg/Broccoli 1=Chickpea	MealsSoup	
+FlavorText_Saag	saag	0=LeafyVeg/Broccoli	MealsSoup	
+FlavorText_DalTadka	dal tadka	0=Lentil 1=Spice	MealsSoup	
+FlavorText_Chairo	chairo	0=Meat_Cow 1=PlantFoodRaw 2=Toxipotato	MealsSoup	
+FlavorText_Gomguk	gomguk	0=Meat_Cow	MealsSoup	
+FlavorText_Hulatang	hulatang	0=Meat_Cow 1=Spice	MealsSoup	
+FlavorText_RawonSoup	rawon soup	0=Meat_Cow 1=Nut	MealsSoup	
+FlavorText_Flemish_Plum_Stew	Flemish {1_adj} stew	0=Meat_Cow/Meat_Pig 1=Plum 2=Onion	MealsSoup	
+FlavorText_FlemishStew	Flemish stew	0=Meat_Cow/Meat_Pig 1=Grain 2=Onion	MealsSoup	
+FlavorText_Nilaga	nilaga	0=Meat_Cow/Meat_Pig 1=Meat_Seafood 2=Vegetable/Corn	MealsSoup	
+FlavorText_Pepperpot	pepperpot	0=Meat_Cow/Meat_Pig/Meat_Mutton 1=Cassava 2=Chili	MealsSoup	
+FlavorText_Meat_Fish_Amok	{0_adj} amok	0=Meat_Fish 1=Egg 2=Coconut	MealsSoup	
+FlavorText_BalikCorbasi	balık çorbası	0=Meat_Fish 1=Meat_Seafood	MealsSoup	
+FlavorText_Brudet	brudet	0=Meat_Fish 1=Meat_Shellfish 2=Tomato	MealsSoup	
+FlavorText_Meat_Fish_Waterzooi	{0_adj} waterzooi	0=Meat_Fish/Meat_Poultry 1=Milk 2=Vegetable	MealsSoup	
+FlavorText_Daube	daube	0=Meat_Hoofed 1=Carrot/Onion 2=Fruit	MealsSoup	
+FlavorText_IrishStew	Irish stew	0=Meat_Hoofed 1=RootVeg	MealsSoup	
+FlavorText_Pichelsteiner	Pichelsteiner	0=Meat_Hoofed/Meat_Pig 1=Meat_Hoofed/Meat_Pig 2=Vegetable	MealsSoup	
+FlavorText_Maafe	maafe	0=Meat_Hoofed/Meat_Poultry 1=RootVeg/LeafyVeg 2=Peanut	MealsSoup	
+FlavorText_Wat	wat	0=Meat_Hoofed/Meat_Poultry 1=Milk 2=Vegetable	MealsSoup	
+FlavorText_Meat_Insect_EggSoup	{0_adj} egg soup	0=Meat_Insect 1=Coconut	MealsSoup	
+FlavorText_Meat_Insect_Soup	{0_adj} soup	0=Meat_Insect 1=Meat_Poultry/Meat_Cow	MealsSoup	
+FlavorText_Meat_Insect_Soup_2	{0_adj} soup	0=Meat_Insect 1=Meat_Poultry/Meat_Cow 2=Egg/Grain	MealsSoup	
+FlavorText_Tuhu	tuh'u	0=Meat_Mutton 1=PlantFoodRaw 2=Beet	MealsSoup	
+FlavorText_Meat_Poultry_EggDropSoup	{0_adj} egg drop soup	0=Meat_Poultry 1=Egg	MealsSoup	
+FlavorText_Ajiaco	ajiaco	0=Meat_Poultry 1=Potato 2=Corn/Potato/Avocado/Dairy	MealsSoup	
+FlavorText_Galinhada	galinhada	0=Meat_Poultry 1=Rice	MealsSoup	
+FlavorText_Galinhada_2	galinhada	0=Meat_Poultry 1=Rice 2=Onion/Garlic/Tomato/BellPepper/Corn/Carrot	MealsSoup	
+FlavorText_Koldil_Meat_Poultry	koldil {0_coll}	0=Meat_Poultry 1=Banana	MealsSoup	
+FlavorText_TomYum	tom yum	0=Meat_Poultry/Meat_Pig/Meat_Seafood/Coconut 1=Vegetable 2=Fruit	MealsSoup	
+FlavorText_HerbsAndStewed_Meat_Rabbit	herbs and stewed {0_coll}	0=Meat_Rabbit 1=Potato 2=Onion	MealsSoup	
+FlavorText_Meat_Seafood_Boillabaisse	{0_adj} boillabaisse	0=Meat_Seafood 1=Vegetable	MealsSoup	
+FlavorText_Moqueca	moqueca	0=Meat_Seafood 1=Tomato/Coconut/Onion/Garlic	MealsSoup	
+FlavorText_Pinakbet	pinakbet	0=Meat_Seafood 1=Squash/Yam/Okra/Eggplant/Meat_Pig	MealsSoup	
+FlavorText_Pinakbet_2	pinakbet	0=Meat_Seafood 1=Squash/Yam/Okra/Eggplant/Meat_Pig 2=Squash/Yam/Okra/Eggplant/Meat_Pig	MealsSoup	
+FlavorText_Saimin	saimin	0=Meat_Seafood 1=Grain 2=Meat_Pig/Kelp/Fungus/LeafyVeg	MealsSoup	
+FlavorText_Farikal	fårikål	0=Meat_Sheep 1=Potato 2=Cabbage	MealsSoup	
+FlavorText_LungFungSoup	lung fung soup	0=Meat_Snake/Meat_Poultry/Fungus/Meat_Seafood 1=Cabbage/Carrot/Onion/Bean/Chili/Garlic/Ginger 2=Egg	MealsSoup	
+FlavorText_MeatRaw_Bourguignon	{0_adj} bourguignon	0=MeatRaw 1=Fungus	MealsSoup	
+FlavorText_MeatRaw_Consomme	{0_adj} consommé	0=MeatRaw 1=Egg	MealsSoup	
+FlavorText_MeatRaw_Consomme_2	{0_adj} consommé	0=MeatRaw	MealsSoup	
+FlavorText_MeatRaw_Jeongol	{0_adj} jeongol	0=MeatRaw 1=Ingredients 2=Chili/Soybean/Meat_Shellfish/Meat_Dryad	MealsSoup	
+FlavorText_MeatRaw_Maraq	{0_adj} maraq	0=MeatRaw 1=Vegetable	MealsSoup	
+FlavorText_MeatRaw_NoodleSoup	{0_adj} noodle soup	0=MeatRaw 1=Grain	MealsSoup	
+FlavorText_MeatRaw_Pozole	{0_adj} pozole	0=MeatRaw 1=PlantFoodRaw 2=Corn	MealsSoup	
+FlavorText_MeatRaw_RopaVieja	{0_adj} ropa vieja	0=MeatRaw 1=Tomato	MealsSoup	
+FlavorText_MeatRaw_Sinigang	{0_adj} sinigang	0=MeatRaw 1=Vegetable 2=Fruit	MealsSoup	
+FlavorText_MeatRaw_Tagine	{0_adj} tagine	0=MeatRaw 1=PlantFoodRaw	MealsSoup	
+FlavorText_BoilUp	boil up	0=MeatRaw 1=LeafyVeg/RootVeg 2=Grain	MealsSoup	
+FlavorText_Booyah	booyah	0=MeatRaw 1=Vegetable 2=Vegetable	MealsSoup	
+FlavorText_CantoneseSeafoodSoup	Cantonese seafood soup	0=MeatRaw 1=Meat_Seafood 2=Vegetable	MealsSoup	
+FlavorText_Cassoulet	cassoulet	0=MeatRaw 1=MeatRaw 2=Bean	MealsSoup	
+FlavorText_Chorba	chorba	0=MeatRaw 1=Bean 2=Vegetable	MealsSoup	
+FlavorText_Cocido	cocido	0=MeatRaw 1=Bean 2=Vegetable	MealsSoup	
+FlavorText_CreamStew	cream stew	0=MeatRaw 1=Flour 2=Vegetable	MealsSoup	
+FlavorText_Goulash	goulash	0=MeatRaw 1=PlantFoodRaw 2=Tomato	MealsSoup	
+FlavorText_Gumbo	gumbo	0=MeatRaw 1=Celery/BellPepper/Onion 2=Okra	MealsSoup	
+FlavorText_Hachee	hachée	0=MeatRaw 1=Vegetable 2=PlantFoodRaw	MealsSoup	
+FlavorText_Kalops	kalops	0=MeatRaw 1=Potato/Onion/Beet/Carrot	MealsSoup	
+FlavorText_Kalops_2	kalops	0=MeatRaw 1=Potato/Onion/Beet/Carrot 2=Potato/Onion/Beet/Carrot	MealsSoup	
+FlavorText_KigHaFarz	kig ha farz	0=MeatRaw 1=MeatRaw 2=Buckwheat	MealsSoup	
+FlavorText_PalaverSauce	palaver sauce	0=MeatRaw 1=RootVeg/Rice 2=Seed	MealsSoup	
+FlavorText_Peppersoup	peppersoup	0=MeatRaw 1=Chili	MealsSoup	
+FlavorText_Pot-Au-Feu	pot-au-feu	0=MeatRaw 1=Carrot/Turnip/Celery/Onion	MealsSoup	
+FlavorText_Saloona	saloona	0=MeatRaw 1=Potato 2=Vegetable	MealsSoup	
+FlavorText_Saltah	saltah	0=MeatRaw 1=Vegetable 2=Tomato/Spice	MealsSoup	
+FlavorText_StewPeas	stew peas	0=MeatRaw 1=Bean 2=Coconut	MealsSoup	
+FlavorText_Stracciatella	stracciatella	0=MeatRaw 1=Egg	MealsSoup	
+FlavorText_Tongseng	tongseng	0=MeatRaw 1=Coconut 2=Sugar	MealsSoup	
+FlavorText_WontonSoup	wonton soup	0=MeatRaw 1=MeatRaw 2=Grain	MealsSoup	
+FlavorText_Xarem	xarém	0=MeatRaw 1=Meat_Seafood 2=Corn	MealsSoup	
+FlavorText_Yuvarlakia	yuvarlakia	0=MeatRaw 1=Rice 2=Tomato/Egg	MealsSoup	
+FlavorText_Chili	chili	0=MeatRaw/Bean 1=Tomato 2=Chili	MealsSoup	
+FlavorText_Beet_Borscht	{2_adj} borscht	0=MeatRaw/Fungus 1=Vegetable 2=Beet/Rye/Cabbage/Sorrel	MealsSoup	
+FlavorText_KhoreshKarafs	khoresh karafs	0=MeatRaw/Fungus 1=Celery	MealsSoup	
+FlavorText_Khoresh	khoresh	0=MeatRaw/PlantFoodRaw 1=Fruit 2=Ingredients	MealsSoup	

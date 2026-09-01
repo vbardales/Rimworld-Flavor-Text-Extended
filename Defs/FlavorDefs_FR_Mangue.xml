@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Mangue — catégorie FT_Mango, orpheline.
+  Vingt-neuf plats, vingt-neuf combinaisons distinctes : la plus riche rencontrée.
+
+  Elle le doit à sa double nature. Mûre, c'est un fruit de dessert ; verte, c'est
+  un légume acide qui entre dans les saumures, les currys, les sambals et les salades.
+  Les deux usages ne partagent presque aucun accord, d'où le nombre de triplets.
+
+  Fusions opérées : mango sticky rice = khao niao mamuang = xôi xoài (trois langues) ;
+  mango float = mango graham cake ; mango pickle = aam ka achar = avakaya = kuchela ;
+  green mango salad = gỏi xoài ; mangonada = mango loco.
+-->
+<Defs>
+
+	<!-- ================================================= INDE, MANGUE MÛRE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Aamras</defName>
+		<label>aamras</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>la pulpe {0_adj} pressée à la main plutôt que mixée — le fouet oxyde et ternit la couleur —, à peine {1_plur} et parfumée au cardamome et au safran.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AamrasPuri</defName>
+		<label>aamras puri</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>la purée {0_adj} servie avec des puri gonflés brûlants, qu'on déchire pour y tremper. Sucré et salé dans la même bouchée : un repas entier au Gujarat pendant la saison.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoLassi</defName>
+		<label>mango lassi</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} battue {1_plur} et {2_plur} jusqu'à mousser, servie glacée. L'acidité du yaourt empêche le fruit d'écœurer.</description>
+		<mealKinds>
+			<li>FT_MealsDrink</li>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoShrikhand</defName>
+		<label>mango shrikhand</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>{1_coll} suspendu une nuit dans une mousseline jusqu'à perdre tout son petit-lait, mêlé à la pulpe {0_adj} et parsemé {2_adj} effilées.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoKulfi</defName>
+		<label>mango kulfi</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Pistachio</li></categories></li>
+		</ingredients>
+		<description>{1_coll} réduit de moitié puis chargé de pulpe {0_adj} et {2_adj}, gelé dans des cônes de métal sans être battu. Il fond lentement, ce qui laisse le temps d'en profiter.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoPhirni</defName>
+		<label>mango phirni</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>{1_coll} broyé grossièrement avant cuisson — c'est ce qui distingue le phirni du kheer — cuit {2_plur} jusqu'à épaissir, puis refroidi en coupelles de terre avec la purée {0_adj}.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================= ASIE DU SUD-EST ET CHINE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoStickyRice</defName>
+		<label>mango sticky rice</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+		</ingredients>
+		<description>{1_coll} gluant trempé une nuit, cuit à la vapeur puis noyé de lait {2_adj} salé et sucré, avec {0_coll} tranchée à côté. La crème salée versée par-dessus au dernier moment est ce que les imitations oublient.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CheXoai</defName>
+		<label>chè xoài</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>des dés {0_adj} dans un lait {1_adj} sucré, avec des perles de tapioca et de la glace pilée. Se boit à la paille large autant qu'il se mange à la cuillère.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsDrink</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoPomeloSago</defName>
+		<label>mango pomelo sago</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Citrus</li></categories></li>
+		</ingredients>
+		<description>une purée {0_adj} allongée {1_plur}, avec des perles de sagou et des vésicules {2_adj} détachées une à une. L'amertume du pomélo empêche l'ensemble de tourner au sirop.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoPudding</defName>
+		<label>mango pudding</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>une crème prise {2_plur} et {1_plur} évaporé, démoulée tremblante, avec des dés {0_adj} frais dessus. Le dessert de fin de dim sum cantonais.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoFloat</defName>
+		<label>mango float</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>des couches alternées de biscuits graham, {1_adj} fouettée au lait concentré et {0_adj} en lamelles, prises une nuit au froid. Les biscuits ramollissent et deviennent gâteau.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoBingsu</defName>
+		<label>mango bingsu</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_RedBean</li></categories></li>
+		</ingredients>
+		<description>une montagne de {1_coll} congelé et rasé en flocons — pas de glace pilée, du lait gelé — couverte {0_plur} et d'une cuillerée de pâte {2_adj} sucrés.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================= PÂTISSERIE OCCIDENTALE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoCheesecake</defName>
+		<label>cheesecake à la mangue</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>un appareil {1_adj} et {2_adj} sous un miroir {0_adj}. Le fruit doit être très mûr : une mangue ferme rend de l'eau et fait couler le miroir.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoPavlova</defName>
+		<label>pavlova à la mangue</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>une meringue {1_adj} séchée des heures à four très doux, craquante dehors et guimauve dedans, couverte {2_plur} fouettée et {0_plur}. Se monte à la dernière minute.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MousseDeManga</defName>
+		<label>mousse de manga</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>la pulpe {0_adj} montée {1_plur} fouettée, sans gélatine — la fibre du fruit suffit à tenir si la mangue est assez mûre. Se sert en verre, bien froide.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ====================================================== MEXIQUE ET RUE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Mangonada</defName>
+		<label>mangonada</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{0_coll} glacée, du chamoy acide et salé, {2_coll} vert et une pluie de poudre {1_adj}, avec un bâton de tamarin planté dedans. Sucré, salé, acide et piquant en une seule gorgée.</description>
+		<mealKinds>
+			<li>FT_MealsDrink</li>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================ MANGUE VERTE, SAUMURES -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoChutney</defName>
+		<label>chutney de mangue</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>{0_coll} vertes confites au vinaigre {1_plur} et {2_plur}, jusqu'à devenir translucides et ambrées. Se garde un an et s'améliore les premiers mois.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AamKaAchar</defName>
+		<label>aam ka achar</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+		</ingredients>
+		<description>des morceaux {0_adj} verte salés et séchés au soleil, puis noyés dans une huile de moutarde chargée {1_plur} et d'épices. Rien n'est cuit : c'est le soleil et le sel qui font tout, en quelques semaines.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoChow</defName>
+		<label>mango chow</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{0_coll} verte en quartiers, secouée dans du sel, {1_coll} écrasés, {2_coll} et du chadon beni. Se mange dans le sachet même, à Trinidad, au bord de la route.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SambalMangga</defName>
+		<label>sambal mangga</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} verte râpée pilée {1_plur} et {2_plur} au mortier, avec de la pâte de crevette. L'acidité du fruit remplace le tamarin et rend le sambal plus vif.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RougailMangue</defName>
+		<label>rougail mangue</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>{0_coll} verte écrasée au sel {1_plur} et {2_plur}, servie crue à côté du cari. À la Réunion, aucun repas n'arrive sans son rougail.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AchardDeMangue</defName>
+		<label>achard de mangue</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} verte et {1_coll} en fine julienne, blanchies puis marinées {2_plur} au curcuma et à la moutarde. Le condiment mauricien, croquant et jaune vif.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GoiXoai</defName>
+		<label>gỏi xoài</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Peanut</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+		</ingredients>
+		<description>{0_coll} verte en julienne, {2_coll} séchée effilochée, {1_coll} concassées et une sauce de poisson au citron vert. Le croquant tient de la mangue, pas de la salade.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================ MANGUE VERTE, PLATS CUITS -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoDal</defName>
+		<label>mango dal</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Lentil</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{1_coll} cuits jusqu'à se défaire avec {0_coll} verte en morceaux, qui remplace le tamarin comme acide. Un tempérage {2_adj} grillées versé brûlant à la fin.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RawMangoCurry</defName>
+		<label>curry de mangue verte</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} verte mijotée dans un lait {1_adj} monté au curcuma et aux graines de moutarde. Le fruit garde sa tenue et son acidité : ce n'est pas un dessert malgré le sucre qu'il contient.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MangoChickenCurry</defName>
+		<label>curry de poulet à la mangue</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{1_coll} mijotée dans une sauce où {0_coll} mûre fond et sucre le curry, tandis que quelques morceaux verts gardés entiers apportent l'acide.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ======================================================= CRU ET MARIN -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CevicheMangue</defName>
+		<label>ceviche à la mangue</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Meat_Seafood</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{1_coll} crue raidie par l'acide {2_adj}, avec {0_coll} en dés et de la coriandre. Le sucre du fruit arrondit le citron sans l'annuler.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TartareThonMangue</defName>
+		<label>tartare de thon à la mangue</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Sesame</li></categories></li>
+		</ingredients>
+		<description>{1_coll} taillée au couteau en dés réguliers, mêlée {0_plur} de la même taille, huile {2_adj} et soja. Coupé au robot, le poisson devient une pâte : c'est tout ce qu'il faut éviter.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PokeSaumonMangue</defName>
+		<label>poke saumon-mangue</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+		</ingredients>
+		<description>{2_coll} vinaigré tiède au fond du bol, {1_coll} crue marinée au soja, {0_coll} en cubes et de l'oignon nouveau. Le riz doit être tiède et le poisson froid.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

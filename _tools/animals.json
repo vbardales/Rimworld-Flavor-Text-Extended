@@ -1,0 +1,1343 @@
+[
+ {
+  "defName": "Bear_Grizzly",
+  "en": "grizzly bear",
+  "fr": "grizzly",
+  "meatLabel": "bear meat",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Bear_Polar",
+  "en": "polar bear",
+  "fr": "ours polaire",
+  "meatLabel": "",
+  "useMeatFrom": "Bear_Grizzly",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Ostrich",
+  "en": "ostrich",
+  "fr": "autruche",
+  "meatLabel": "",
+  "useMeatFrom": "Cassowary",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Emu",
+  "en": "emu",
+  "fr": "émeu",
+  "meatLabel": "",
+  "useMeatFrom": "Cassowary",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Cassowary",
+  "en": "cassowary",
+  "fr": "casoar",
+  "meatLabel": "bird meat",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Cougar",
+  "en": "cougar",
+  "fr": "cougar",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Lynx",
+  "en": "lynx",
+  "fr": "lynx",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Cat",
+  "en": "cat",
+  "fr": "chat",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "YorkshireTerrier",
+  "en": "yorkshire terrier",
+  "fr": "Yorkshire Terrier",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "GuineaPig",
+  "en": "guinea pig",
+  "fr": "cobaye",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "LabradorRetriever",
+  "en": "labrador retriever",
+  "fr": "labrador",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Husky",
+  "en": "husky",
+  "fr": "husky",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Monkey",
+  "en": "monkey",
+  "fr": "singe",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Chicken",
+  "en": "chicken",
+  "fr": "poulet",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Duck",
+  "en": "duck",
+  "fr": "canard",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Turkey",
+  "en": "turkey",
+  "fr": "dinde",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Goose",
+  "en": "goose",
+  "fr": "oie",
+  "meatLabel": "",
+  "useMeatFrom": "Cassowary",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Cow",
+  "en": "cow",
+  "fr": "vache",
+  "meatLabel": "beef",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Boomalope",
+  "en": "boomalope",
+  "fr": "boomalope",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Muffalo",
+  "en": "muffalo",
+  "fr": "muffalo",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Bison",
+  "en": "bison",
+  "fr": "bison",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Dromedary",
+  "en": "dromedary",
+  "fr": "dromadaire",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Goat",
+  "en": "goat",
+  "fr": "chèvre",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Elk",
+  "en": "elk",
+  "fr": "wapiti",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Yak",
+  "en": "yak",
+  "fr": "yak",
+  "meatLabel": "yak beef",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Caribou",
+  "en": "caribou",
+  "fr": "caribou",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Horse",
+  "en": "horse",
+  "fr": "cheval",
+  "meatLabel": "horse meat",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Donkey",
+  "en": "donkey",
+  "fr": "âne",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Elephant",
+  "en": "elephant",
+  "fr": "éléphant",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Rhinoceros",
+  "en": "rhinoceros",
+  "fr": "rhinocéros",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Hare",
+  "en": "hare",
+  "fr": "lièvre",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Snowhare",
+  "en": "snowhare",
+  "fr": "lièvre des neiges",
+  "meatLabel": "",
+  "useMeatFrom": "Hare",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Megascarab",
+  "en": "megascarab",
+  "fr": "mégascarabée",
+  "meatLabel": "",
+  "useMeatFrom": "Megaspider",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Spelopede",
+  "en": "spelopede",
+  "fr": "spélopède",
+  "meatLabel": "",
+  "useMeatFrom": "Megaspider",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Megaspider",
+  "en": "megaspider",
+  "fr": "mégaraignée",
+  "meatLabel": "insect meat",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Thrumbo",
+  "en": "thrumbo",
+  "fr": "thrumbo",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Cobra",
+  "en": "cobra",
+  "fr": "cobra",
+  "meatLabel": "cobra meat",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Tortoise",
+  "en": "tortoise",
+  "fr": "tortue",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Alphabeaver",
+  "en": "alphabeaver",
+  "fr": "alphacastor",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Pig",
+  "en": "pig",
+  "fr": "cochon",
+  "meatLabel": "pork",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "WildBoar",
+  "en": "wild boar",
+  "fr": "sanglier",
+  "meatLabel": "",
+  "useMeatFrom": "Pig",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Ibex",
+  "en": "ibex",
+  "fr": "bouquetin",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Deer",
+  "en": "deer",
+  "fr": "cerf",
+  "meatLabel": "venison",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Gazelle",
+  "en": "gazelle",
+  "fr": "gazelle",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Chinchilla",
+  "en": "chinchilla",
+  "fr": "chinchilla",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Sheep",
+  "en": "sheep",
+  "fr": "mouton",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Alpaca",
+  "en": "alpaca",
+  "fr": "alpaga",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Megasloth",
+  "en": "megasloth",
+  "fr": "mégathérium",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Capybara",
+  "en": "capybara",
+  "fr": "capybara",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Squirrel",
+  "en": "squirrel",
+  "fr": "écureuil",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Rat",
+  "en": "rat",
+  "fr": "rat",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Boomrat",
+  "en": "boomrat",
+  "fr": "rataboum",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Raccoon",
+  "en": "raccoon",
+  "fr": "raton laveur",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Iguana",
+  "en": "iguana",
+  "fr": "iguane",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Warg",
+  "en": "warg",
+  "fr": "warg",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Wolf_Timber",
+  "en": "timber wolf",
+  "fr": "loup des bois",
+  "meatLabel": "wolf meat",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Wolf_Arctic",
+  "en": "arctic wolf",
+  "fr": "loup arctique",
+  "meatLabel": "",
+  "useMeatFrom": "Wolf_Timber",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Fox_Fennec",
+  "en": "fennec fox",
+  "fr": "fennec",
+  "meatLabel": "fox meat",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Fox_Red",
+  "en": "red fox",
+  "fr": "renard roux",
+  "meatLabel": "",
+  "useMeatFrom": "Fox_Fennec",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Fox_Arctic",
+  "en": "arctic fox",
+  "fr": "renard arctique",
+  "meatLabel": "",
+  "useMeatFrom": "Fox_Fennec",
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Human",
+  "en": "human",
+  "fr": "humain",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Mech_Lancer",
+  "en": "lancer",
+  "fr": "lancier",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Mech_Scyther",
+  "en": "scyther",
+  "fr": "faucheur",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Mech_Pikeman",
+  "en": "pikeman",
+  "fr": "piquier",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Mech_Termite",
+  "en": "termite",
+  "fr": "termite",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Core"
+ },
+ {
+  "defName": "Dryad_Basic",
+  "en": "immature dryad",
+  "fr": "dryade immature",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Ideology"
+ },
+ {
+  "defName": "Dryad_Carrier",
+  "en": "carrier dryad",
+  "fr": "dryade porteuse",
+  "meatLabel": "",
+  "useMeatFrom": "Dryad_Basic",
+  "hasMeat": true,
+  "exp": "Ideology"
+ },
+ {
+  "defName": "Dryad_Clawer",
+  "en": "clawer dryad",
+  "fr": "dryade griffe",
+  "meatLabel": "",
+  "useMeatFrom": "Dryad_Basic",
+  "hasMeat": true,
+  "exp": "Ideology"
+ },
+ {
+  "defName": "Dryad_Barkskin",
+  "en": "barkskin dryad",
+  "fr": "dryade peau d'écorce",
+  "meatLabel": "",
+  "useMeatFrom": "Dryad_Basic",
+  "hasMeat": true,
+  "exp": "Ideology"
+ },
+ {
+  "defName": "WasteRat",
+  "en": "waste rat",
+  "fr": "toxirat",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Toxalope",
+  "en": "toxalope",
+  "fr": "toxilope",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Tunneler",
+  "en": "tunneler",
+  "fr": "tunnelier",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Militor",
+  "en": "militor",
+  "fr": "militoïde",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Lifter",
+  "en": "lifter",
+  "fr": "manutoïde",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Constructoid",
+  "en": "constructoid",
+  "fr": "constructoïde",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Fabricor",
+  "en": "fabricor",
+  "fr": "fabritoïde",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Agrihand",
+  "en": "agrihand",
+  "fr": "agritoïde",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Cleansweeper",
+  "en": "cleansweeper",
+  "fr": "nettoïde",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_WarUrchin",
+  "en": "war urchin",
+  "fr": "rejeton de guerre",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Paramedic",
+  "en": "paramedic",
+  "fr": "médiktoïde",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Legionary",
+  "en": "legionary",
+  "fr": "légionnaire",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Tesseron",
+  "en": "tesseron",
+  "fr": "tesseron",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Scorcher",
+  "en": "scorcher",
+  "fr": "fournaise",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Apocriton",
+  "en": "apocriton",
+  "fr": "apocrite",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Centurion",
+  "en": "centurion",
+  "fr": "centurion",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Warqueen",
+  "en": "war queen",
+  "fr": "reine de guerre",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Mech_Diabolus",
+  "en": "diabolus",
+  "fr": "diabolus",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Biotech"
+ },
+ {
+  "defName": "Nociosphere",
+  "en": "nociosphere",
+  "fr": "nociosphère",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Metalhorror",
+  "en": "metalhorror",
+  "fr": "horreur métallique",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Revenant",
+  "en": "revenant",
+  "fr": "revenant",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Sightstealer",
+  "en": "sightstealer",
+  "fr": "occulteur",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "CreepJoiner",
+  "en": "",
+  "fr": "humain",
+  "meatLabel": "",
+  "useMeatFrom": "Human",
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Noctol",
+  "en": "noctol",
+  "fr": "noctol",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "FleshmassNucleus",
+  "en": "fleshmass nucleus",
+  "fr": "noyau de chair",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Gorehulk",
+  "en": "gorehulk",
+  "fr": "mastomonstre",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Devourer",
+  "en": "devourer",
+  "fr": "dévoreur",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Chimera",
+  "en": "chimera",
+  "fr": "chimère",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Bulbfreak",
+  "en": "bulbfreak",
+  "fr": "bulbodieux",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Toughspike",
+  "en": "toughspike",
+  "fr": "robustopointe",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Trispike",
+  "en": "trispike",
+  "fr": "tripointe",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Fingerspike",
+  "en": "fingerspike",
+  "fr": "digipointe",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "Dreadmeld",
+  "en": "dreadmeld",
+  "fr": "amalgore",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Anomaly"
+ },
+ {
+  "defName": "BogHound",
+  "en": "bog hound",
+  "fr": "chien des marais",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "MonitorLizard",
+  "en": "monitor lizard",
+  "fr": "varan",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "PrairieDog",
+  "en": "prairie dog",
+  "fr": "chien de prairie",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Porcupine",
+  "en": "porcupine",
+  "fr": "porc-épic",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Mastodon",
+  "en": "mastodon",
+  "fr": "mastodonte",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Cat_Scimitar",
+  "en": "scimitar cat",
+  "fr": "chat-cimeterre",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Wolverine",
+  "en": "wolverine",
+  "fr": "glouton",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Wolf_Great",
+  "en": "greatwolf",
+  "fr": "loup géant",
+  "meatLabel": "greatwolf meat",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Moose",
+  "en": "moose",
+  "fr": "élan",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "AlphaThrumbo",
+  "en": "alpha thrumbo",
+  "fr": "thrumbo alpha",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Muskox",
+  "en": "muskox",
+  "fr": "bœuf musqué",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Tiger",
+  "en": "tiger",
+  "fr": "tigre",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Mink",
+  "en": "mink",
+  "fr": "vison",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Gorilla",
+  "en": "gorilla",
+  "fr": "gorille",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Badger",
+  "en": "badger",
+  "fr": "blaireau",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Panda",
+  "en": "panda",
+  "fr": "panda",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Hippo",
+  "en": "hippo",
+  "fr": "hippopotame",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Megavole",
+  "en": "megavole",
+  "fr": "campagnol géant",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Armadillo",
+  "en": "armadillo",
+  "fr": "tatou",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Alligator",
+  "en": "alligator",
+  "fr": "alligator",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Bullfrog",
+  "en": "bullfrog",
+  "fr": "ouaouaron",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "ColossusToad",
+  "en": "colossus toad",
+  "fr": "crapaud colosse",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "LavaSnail",
+  "en": "lava snail",
+  "fr": "escargot de lave",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Sparrow",
+  "en": "sparrow",
+  "fr": "moineau",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Crow",
+  "en": "crow",
+  "fr": "corbeau",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Bluebird",
+  "en": "bluebird",
+  "fr": "merlebleu",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Quail",
+  "en": "quail",
+  "fr": "caille",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Macaw",
+  "en": "macaw",
+  "fr": "ara",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Flamingo",
+  "en": "flamingo",
+  "fr": "flamant rose",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Heron",
+  "en": "heron",
+  "fr": "héron",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Swan",
+  "en": "swan",
+  "fr": "cygne",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Peacock",
+  "en": "peafowl",
+  "fr": "paon",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Vulture",
+  "en": "vulture",
+  "fr": "vautour",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Penguin",
+  "en": "penguin",
+  "fr": "manchot",
+  "meatLabel": "",
+  "useMeatFrom": "Cassowary",
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Walrus",
+  "en": "walrus",
+  "fr": "morse",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "SeaLion",
+  "en": "sea lion",
+  "fr": "lion de mer",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Seal",
+  "en": "seal",
+  "fr": "phoque",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "HermitCrab",
+  "en": "hermit crab",
+  "fr": "bernard-l'ermite",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "StoneCrab",
+  "en": "stone crab",
+  "fr": "crabe rouge",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "SeaTurtle",
+  "en": "sea turtle",
+  "fr": "tortue de mer",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Otter",
+  "en": "otter",
+  "fr": "loutre",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Larva",
+  "en": "larva",
+  "fr": "larve",
+  "meatLabel": "",
+  "useMeatFrom": "Megaspider",
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "HiveQueen",
+  "en": "hive queen",
+  "fr": "reine-ruche",
+  "meatLabel": "",
+  "useMeatFrom": "Megaspider",
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Locust",
+  "en": "locust",
+  "fr": "locuste",
+  "meatLabel": "",
+  "useMeatFrom": "Megaspider",
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Drone_Hunter",
+  "en": "hunter drone",
+  "fr": "drone chasseur",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Drone_Wasp",
+  "en": "wasp",
+  "fr": "guêpe",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ },
+ {
+  "defName": "Mech_Cyclops",
+  "en": "cyclops",
+  "fr": "cyclope",
+  "meatLabel": "",
+  "useMeatFrom": null,
+  "hasMeat": true,
+  "exp": "Odyssey"
+ }
+]

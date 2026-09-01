@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_JerusalemBagels	Jerusalem bagels	0=Wheat 1=Sesame 2=Sugar/Dairy	MealsBake	
+FlavorText_Kaak	ka'ak	0=Wheat 1=Sesame 2=Chickpea	MealsBake	
+FlavorText_Spanakopita	spanakopita	0=Wheat 1=LeafyVeg 2=Dairy	MealsBake	
+FlavorText_Condiment_Garnish	{0_adj} garnish	0=Condiment 1=Condiment	MealsCooked	
+FlavorText_Condiment_Spread	{0_adj} spread	0=Condiment 1=Condiment 2=Condiment	MealsCooked	
+FlavorText_Toasted_Condiment	toasted {0_sing}	0=Condiment	MealsCooked	
+FlavorText_Potato_Donuts	{2_adj} donuts	0=Egg 1=Sugar 2=Potato	MealsDeepFry,MealsDessert	
+FlavorText_Fruit_Fritters	{2_adj} fritters	0=Egg 1=Grain 2=Fruit	MealsDeepFry,MealsDessert	
+FlavorText_Donuts	donuts	0=Egg 1=Grain 2=Sugar	MealsDeepFry,MealsDessert	
+FlavorText_FishFingersAndCustard	fish fingers and custard	0=Meat_Fish 1=Dairy 2=Egg	MealsDeepFry,MealsDessert	
+FlavorText_Acaraj	acarajé	0=Bean 1=Onion/MeatRaw/Coconut/Spice/Nut/Cassava	MealsDeepFry,MealsDumpling,MealsSnack	
+FlavorText_Akara	akara	0=Bean	MealsDeepFry,MealsDumpling,MealsSnack	
+FlavorText_KalamarTava	kalamar tava	0=Cephalopod 1=Dairy	MealsDeepFry,MealsDumpling	
+FlavorText_Chili_Poppers	{0_adj} poppers	0=Chili 1=Dairy	MealsDeepFry,MealsDumpling	
+FlavorText_Pastel	pastel	0=Grain 1=Ingredients	MealsDeepFry,MealsDumpling	
+FlavorText_CornDogs	corn dogs	0=Meat_Cow 1=Corn	MealsDeepFry,MealsDumpling	
+FlavorText_MidyeTava	midye tava	0=Meat_Shellfish 1=Dairy	MealsDeepFry,MealsDumpling	
+FlavorText_MeatRaw_And_MeatRaw_CornDogs	{1_sing} and {0_sing} corn dogs	0=MeatRaw 1=MeatRaw 2=Corn	MealsDeepFry,MealsDumpling	
+FlavorText_Brik	brik	0=Wheat 1=Egg 2=MeatRaw/BellPepper/Onion/Olive/Cheese	MealsDeepFry,MealsDumpling	
+FlavorText_Citrus_MeatRaw	{1_adj} {0_coll}	0=MeatRaw 1=Citrus/Pineapple	MealsDeepFry,MealsGrill,MealsDumpling,MealsSnack	
+FlavorText_GeneralTsos_Meat_Poultry	General Tso's {0_coll}	0=Meat_Poultry 1=Soy/Meat_Dryad	MealsDeepFry,MealsGrill,MealsDumpling	
+FlavorText_Crispy_Soy	crispy {0_coll}	0=Soy/Meat_Dryad	MealsDeepFry,MealsGrill	
+FlavorText_Deep-Fried_Fungus	deep-fried {1_coll}	0=AnimalProductRaw 1=Fungus	MealsDeepFry	
+FlavorText_Malakoffs	malakoffs	0=AnimalProductRaw 1=Dairy	MealsDeepFry	
+FlavorText_Falafel	falafel	0=Chickpea	MealsDeepFry	
+FlavorText_Hushpuppies	hushpuppies	0=Egg 1=Corn	MealsDeepFry	
+FlavorText_PigsInABlanket	pigs in a blanket	0=Grain 1=Dairy 2=Meat_Pig	MealsDeepFry	
+FlavorText_SausageAndPancakesOnAStick	sausage and pancakes on a stick	0=Grain 1=Dairy 2=MeatRaw	MealsDeepFry	
+FlavorText_Ingredients_Ingredients_Fritters	{0_adj} {1_adj} fritters	0=Ingredients 1=Ingredients 2=Ingredients	MealsDeepFry	
+FlavorText_Ingredients_Chips	{0_adj} chips	0=Ingredients	MealsDeepFry	
+FlavorText_Ingredients_LoadedFries	{0_adj} loaded fries	0=Ingredients 1=AnimalProductRaw 2=Potato	MealsDeepFry	
+FlavorText_Ingredients_Tempura	{0_adj} tempura	0=Ingredients 1=Wheat	MealsDeepFry	
+FlavorText_Ingredients-Coated_Ingredients_Strips	{0_sing}-coated {1_adj} strips	0=Ingredients 1=Ingredients	MealsDeepFry	
+FlavorText_RockyMountainOysters	Rocky Mountain oysters	0=Meat_Cow	MealsDeepFry	
+FlavorText_Salchipapa	salchipapa	0=Meat_Cow 1=Potato	MealsDeepFry	
+FlavorText_Meat_Fish_Fillets	{0_adj} fillets	0=Meat_Fish	MealsDeepFry	
+FlavorText_FishAndChips	fish and chips	0=Meat_Fish 1=Potato	MealsDeepFry	
+FlavorText_Tonkatsu	tonkatsu	0=Meat_Pig	MealsDeepFry	
+FlavorText_PoulFri	poul fri	0=Meat_Poultry	MealsDeepFry	
+FlavorText_MeatRaw_ScotchEgg	{1_adj} Scotch egg	0=MeatRaw 1=MeatRaw 2=Egg	MealsDeepFry	
+FlavorText_Fried_MeatRaw	fried {0_coll}	0=MeatRaw 1=Egg/Dairy 2=Wheat	MealsDeepFry	
+FlavorText_Fried_MeatRaw_2	fried {0_coll}	0=MeatRaw	MealsDeepFry	
+FlavorText_Poutine	poutine	0=MeatRaw 1=Potato 2=Cheese	MealsDeepFry	
+FlavorText_SpiceBag	spice bag	0=MeatRaw 1=Potato 2=Chili	MealsDeepFry	
+FlavorText_PanDeRegla	pan de regla	0=Grain 1=Dairy 2=Egg	MealsDessert,MealsBake,MealsDumpling,MealsSandwich	
+FlavorText_Champurradas	champurradas	0=Corn 1=Egg/Dairy 2=Sugar	MealsDessert,MealsBake	
+FlavorText_Fruit_DutchBaby	{1_adj} Dutch baby	0=Egg 1=Fruit	MealsDessert,MealsBake	
+FlavorText_Fruit_Souffle	{2_adj} souffle	0=Egg 1=Sugar 2=Fruit	MealsDessert,MealsBake	
+FlavorText_Baklava	baklava	0=Flour 1=Sugar 2=Nut	MealsDessert,MealsBake	
+FlavorText_CreamPuffs	cream puffs	0=Flour 1=Egg 2=Cream	MealsDessert,MealsBake	
+FlavorText_Croissant	croissant	0=Flour 1=Butter	MealsDessert,MealsBake	
+FlavorText_Fruit_BrownBetty	{0_adj} Brown Betty	0=Fruit 1=Sugar 2=Wheat	MealsDessert,MealsBake	
+FlavorText_Fruit_Buckle	{0_adj} buckle	0=Fruit 1=Egg/Dairy 2=Grain	MealsDessert,MealsBake	
+FlavorText_Fruit_Cobbler	{0_adj} cobbler	0=Fruit 1=Dairy 2=Grain	MealsDessert,MealsBake	
+FlavorText_Fruit_Crisp	{0_adj} crisp	0=Fruit 1=Sugar 2=Grain	MealsDessert,MealsBake	
+FlavorText_Fruit_Crumble	{2_adj} crumble	0=Grain 1=Sugar 2=Fruit	MealsDessert,MealsBake	
+FlavorText_Baumkuchen	Baumkuchen	0=Grain 1=AnimalProductRaw	MealsDessert,MealsBake	
+FlavorText_Pfeffernsse	pfeffernüsse	0=Grain 1=Spice	MealsDessert,MealsBake	
+FlavorText_Pfeffernsse_2	pfeffernüsse	0=Grain 1=Spice 2=Sugar/AnimalProductRaw	MealsDessert,MealsBake	
+FlavorText_Revani	revani	0=Grain 1=Sugar 2=Yogurt	MealsDessert,MealsBake	
+FlavorText_Scones	scones	0=Grain 1=Sugar/AnimalProductRaw	MealsDessert,MealsBake	
+FlavorText_Scones_2	scones	0=Grain 1=Sugar/Fruit 2=AnimalProductRaw	MealsDessert,MealsBake	
+FlavorText_Sekerpare	sekerpare	0=Grain 1=Nut 2=Sugar	MealsDessert,MealsBake	
+FlavorText_Stollen	stollen	0=Grain 1=Fruit 2=Nut	MealsDessert,MealsBake	
+FlavorText_SugarCookies	sugar cookies	0=Grain 1=Sugar 2=Egg	MealsDessert,MealsBake	
+FlavorText_Ingredients_Casserole_2	{0_adj} casserole	0=Ingredients 1=Ingredients 2=Ingredients	MealsDessert,MealsBake	
+FlavorText_Ingredients_Flan	{0_adj} flan	0=Ingredients 1=Grain 2=Egg	MealsDessert,MealsBake	
+FlavorText_Ingredients_Fruit_Crisp	{1_adj} {2_adj} crisp	0=Ingredients 1=Ingredients 2=Fruit	MealsDessert,MealsBake	
+FlavorText_PanDulce	pan dulce	0=Wheat 1=Dairy/Egg 2=Sugar	MealsDessert,MealsBake	
+FlavorText_SeoritaBread	señorita bread	0=Wheat 1=AnimalProductRaw 2=Sugar	MealsDessert,MealsBake	
+FlavorText_HalkaTatlisi	halka tatlisi	0=Grain 1=Sugar	MealsDessert,MealsDeepFry,MealsDumpling	
+FlavorText_Lokma	lokma	0=Grain 1=Sugar 2=Lemon	MealsDessert,MealsDeepFry,MealsDumpling	
+FlavorText_PisangGoreng	pisang goreng	0=Banana 1=Grain	MealsDessert,MealsDeepFry	
+FlavorText_Deep-FriedIceCream	deep-fried ice cream	0=Dairy 1=Grain 2=Sugar	MealsDessert,MealsDeepFry	
+FlavorText_Beignets	beignets	0=Flour 1=Egg 2=Milk	MealsDessert,MealsDeepFry	
+FlavorText_Champurrado	champurrado	0=Corn 1=Chocolate	MealsDessert,MealsDrink	
+FlavorText_Fruit_Fruit_Smoothie	{1_adj} {2_adj} smoothie	0=Dairy 1=Fruit 2=Fruit	MealsDessert,MealsDrink	
+FlavorText_BanhPhuThe	bánh phu thê	0=Cassava/Rice 1=Bean 2=Sugar	MealsDessert,MealsDumpling	
+FlavorText_Macarons	macarons	0=Egg 1=Almond 2=Sugar	MealsDessert,MealsDumpling	
+FlavorText_Eight-Treasure_Rice	eight-treasure {1_coll}	0=Fruit 1=Rice	MealsDessert,MealsNoodle	

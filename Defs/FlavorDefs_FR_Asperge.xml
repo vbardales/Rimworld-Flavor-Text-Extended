@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Asperge — catégorie FT_Asparagus, orpheline elle aussi.
+  Dix-sept plats, dix-sept combinaisons distinctes.
+
+  Note : « asperges sauce hollandaise » et « Spargel mit Sauce Hollandaise » sont le même
+  plat sous deux langues, donc le même triplet. On garde le premier et on prend à la place
+  le classique allemand des asperges blanches aux pommes de terre nouvelles.
+-->
+<Defs>
+
+	<!-- ============================================= FRANCE ET PAYS-BAS -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AspergesHollandaise</defName>
+		<label>asperges sauce hollandaise</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} pochées al dente, nappées d'une émulsion de jaunes {1_adj} montée {2_plur} clarifié au bain-marie. La sauce tranche si elle dépasse soixante-cinq degrés : elle se fait au dernier moment ou pas du tout.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AspergesMousseline</defName>
+		<label>asperges sauce mousseline</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>la même hollandaise, allégée d'un tiers {2_adj} fouettée incorporée hors du feu. Elle double de volume et perd son mordant : c'est la version des dimanches.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AspergesFlamande</defName>
+		<label>asperges à la flamande</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} blanches servies avec un œuf dur écrasé à la fourchette dans du beurre fondu, du persil et une râpure de muscade. Chacun mélange sa sauce dans son assiette.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_VelouteDAsperges</defName>
+		<label>velouté d'asperges</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+		</ingredients>
+		<description>les épluchures et les parties fibreuses bouillies à part pour le fond, les pointes réservées et ajoutées entières à la fin. {2_coll} lient sans farine, {1_coll} adoucit l'amertume.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FlanDAsperges</defName>
+		<label>flan d'asperges</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>une purée {0_adj} liée {1_plur} et {2_plur}, cuite au bain-marie en ramequins jusqu'à prendre sans bulles. Se démoule tiède, tremblant.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GratinDAsperges</defName>
+		<label>gratin d'asperges</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{0_coll} égouttées longuement puis rangées serrées sous une béchamel {1_adj} et {2_plur}, passées au four jusqu'à ce que la surface cloque.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TarteAuxAsperges</defName>
+		<label>tarte aux asperges</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{0_coll} rangées en rayons sur un fond précuit, entre elles une crème {2_adj}. Les pointes vers le centre, les talons vers le bord : c'est la seule façon que chaque part en ait une.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AspergesJambonGratinees</defName>
+		<label>asperges au jambon gratinées</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>des bottes {0_adj} roulées deux par deux dans une tranche {1_adj}, nappées et gratinées {2_plur}. Le cousin printanier des endives au jambon.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================================= ITALIE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AsparagiAllaMilanese</defName>
+		<label>asparagi alla milanese</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{0_coll} couchées sous un œuf au plat cuit au beurre noisette, {2_coll} râpé par-dessus. On perce le jaune et on y trempe les pointes.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AsparagiAllaParmigiana</defName>
+		<label>asparagi alla parmigiana</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} rangées en couches alternées {1_plur} râpé et {2_plur} fondu, gratinées jusqu'à ce que le fromage forme une croûte dorée aux bords du plat.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RisottoAgliAsparagi</defName>
+		<label>risotto agli asparagi</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{1_coll} mouillé du bouillon tiré des épluchures {0_adj}, les tiges fondues dedans et les pointes gardées croquantes pour la fin, le tout lié {2_plur}.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FrittataDiAsparagi</defName>
+		<label>frittata di asparagi</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} tronçonnées et poêlées {2_plur} nouveaux, noyées {1_plur} battus et cuites à feu doux jusqu'à ce que le centre soit à peine pris.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PastaAgliAsparagi</defName>
+		<label>pasta agli asparagi</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>les tiges {0_adj} fondues {2_plur} jusqu'à se défaire en crème, les pointes ajoutées entières deux minutes avant la fin. L'eau de cuisson lie le tout.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================ ALLEMAGNE ET ESPAGNE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SpargelMitKartoffeln</defName>
+		<label>spargel mit kartoffeln</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} blanches épluchées jusqu'au pied et cuites dans une eau sucrée et salée, avec {1_coll} nouvelles et {2_coll} fondu. En Allemagne, la saison ouvre et ferme à date fixe et rien d'autre ne se mange entre les deux.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RevueltoDeEsparragos</defName>
+		<label>revuelto de espárragos trigueros</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+		</ingredients>
+		<description>des asperges sauvages, fines et amères, sautées {2_plur} d'olive puis brouillées {1_plur} à peine pris. Se ramassent au bord des chemins andalous au printemps.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================================== JAPON -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AsparagusTempura</defName>
+		<label>tempura d'asperges</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} entières trempées dans une pâte {1_adj} glacée et à peine mélangée, frites trente secondes {2_plur}. La pointe reste verte et croquante sous la croûte.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AsparagusNikumaki</defName>
+		<label>asparagus nikumaki</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>{0_coll} enroulées une à une dans une lamelle {1_adj} très fine, saisies à la poêle jusqu'à ce que la viande scelle, puis laquées {2_plur} et au mirin.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Châtaigne d'eau — catégorie FT_WaterChestnut, dernière orpheline végétale.
+  Dix-neuf plats, dix-neuf combinaisons distinctes.
+
+  Sa raison d'être en cuisine est une texture, pas un goût : elle reste croquante à
+  la cuisson, ce qui explique qu'on la hache dans les farces plutôt qu'on ne la serve
+  seule. D'où le poids des raviolis, boulettes et rouleaux dans cette liste.
+
+  Trois de ces plats servent aussi FT_Lotus et FT_Lettuce, qui n'avaient qu'une def.
+
+  Fusions : les rouleaux de printemps et le lumpiang Shanghai sont le même rouleau
+  frit ; le siu mai est le ravioli porc ET crevette, donc distinct des deux autres.
+-->
+<Defs>
+
+	<!-- =========================================== FARCES ET BOUCHÉES VAPEUR -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PorcVapeurChataigneDEau</defName>
+		<label>porc vapeur aux châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>{1_coll} hachée au couteau et travaillée dans un seul sens jusqu'à devenir élastique, {0_coll} en petits dés dedans, le tout étalé en galette et cuit à la vapeur sur le riz.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_JiaoziPorcChataigneDEau</defName>
+		<label>raviolis porc et châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>une farce {1_adj} où {0_coll} hachées apportent le croquant que la viande seule ne donne jamais, enfermée dans des disques de pâte plissés à la main.</description>
+		<mealKinds>
+			<li>FT_MealsDumpling</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_JiaoziCrevettesChataigneDEau</defName>
+		<label>raviolis crevettes et châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>{1_coll} laissée en gros morceaux plutôt que broyée, mêlée {0_plur} en dés. Deux textures qui craquent, chacune à sa façon.</description>
+		<mealKinds>
+			<li>FT_MealsDumpling</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SiuMaiChataigneDEau</defName>
+		<label>siu mai aux châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+		</ingredients>
+		<description>{1_coll} et {2_coll} ensemble dans une pâte jaune ouverte en corolle, {0_coll} hachées dedans. Cuits en panier de bambou empilé, et servis en premier au dim sum.</description>
+		<mealKinds>
+			<li>FT_MealsDumpling</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RouleauxChataigneDEau</defName>
+		<label>rouleaux de printemps aux châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+		</ingredients>
+		<description>{2_coll} et {0_coll} émincés, roulés serré dans une feuille de pâte et frits jusqu'au brun doré. Le croquant vient de l'intérieur autant que de la croûte.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =============================================== SAUTÉS ET PLATS DE WOK -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MooGooGaiPan</defName>
+		<label>moo goo gai pan</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{1_coll} en lamelles blanchies à l'huile tiède, sautée {2_plur} et {0_plur} dans une sauce claire à peine liée. Un plat cantonais devenu l'emblème des restaurants sino-américains.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PouletCajouChataigneDEau</defName>
+		<label>poulet aux noix de cajou et châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>{1_coll} en dés sautée à feu maximal avec {2_coll} grillées à part et {0_coll}. Trois croquants de dureté différente dans la même bouchée.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BoeufChataigneDEau</defName>
+		<label>bœuf aux châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Broccoli</li></categories></li>
+		</ingredients>
+		<description>{1_coll} tranchée contre le fil et attendrie à la fécule, sautée {2_plur} blanchi et {0_plur} dans une sauce aux huîtres.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CrevettesChataigneDEau</defName>
+		<label>crevettes aux châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>{1_coll} saumurée au bicarbonate pour rester ferme, sautée quelques secondes {2_plur} et {0_plur}, dans une sauce à peine liée.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_LegumesSautesChataigneDEau</defName>
+		<label>légumes sautés aux châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>{1_coll} jetés dans le wok par ordre de fermeté, {0_coll} en dernier pour ne rien perdre de leur croquant, le tout laqué {2_plur}.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChapChyeChataigneDEau</defName>
+		<label>chap chye aux châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{1_coll} mijoté longuement avec des vermicelles de soja, {2_coll} noirs réhydratés et {0_coll}. Un plat peranakan qu'on refait chaque jour avec ce qui reste.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TofuChataigneDEau</defName>
+		<label>tofu aux châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>des cubes de tofu {1_adj} dorés sur toutes leurs faces, sautés {2_plur} et {0_plur} dans une sauce brune. Le tofu est mou, la châtaigne d'eau croque : c'est tout le principe.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =============================================== APÉRITIF OCCIDENTAL -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BaconChataigneDEau</defName>
+		<label>châtaignes d'eau au bacon</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} entières enroulées dans une bande {1_adj}, piquées et rôties dans un sirop {2_adj} et de soja jusqu'à ce que le lard croustille. L'amuse-bouche des années soixante, jamais démodé.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DipEpinardsChataigneDEau</defName>
+		<label>dip épinards et châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{1_coll} hachés et pressés de leur eau, mêlés {2_plur} frais et {0_plur} en dés. Se sert froid, et le croquant est la seule chose qui empêche l'ensemble d'être mou.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_WrapsLaitueChataigneDEau</defName>
+		<label>feuilles de laitue au poulet et châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Lettuce</li></categories></li>
+		</ingredients>
+		<description>{1_coll} hachée et sautée {0_plur} et à la sauce hoisin, servie brûlante dans des feuilles {2_adj} glacées qu'on referme à la main.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsSandwich</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ====================================================== SUCRÉ ET SOUPES -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MaTaiGo</defName>
+		<label>ma tai go</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+		</ingredients>
+		<description>une pâte de fécule {0_adj} et de sucre candi, cuite à la vapeur en plaque translucide et ambrée, avec des dés entiers dedans. Se mange tiède, ou retranché et poêlé le lendemain.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TubTimKrob</defName>
+		<label>tub tim krob</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>des dés {0_adj} teints en rouge et enrobés de fécule de tapioca, pochés jusqu'à devenir translucides, servis sur glace pilée dans un lait {1_adj} sucré. « Rubis croquants » : ils en ont l'aspect exact.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CheCuNang</defName>
+		<label>chè củ năng</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Lotus</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {2_coll} pochées dans un sirop parfumé au pandan, servies tièdes dans un lait {1_adj}. Une soupe sucrée que l'on donne aux malades autant qu'aux enfants.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SoupeCanneChataigneDEau</defName>
+		<label>soupe de canne à sucre et châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_SugarFromPlants</li></categories></li>
+			<li><categories><li>FT_Carrot</li></categories></li>
+		</ingredients>
+		<description>des tronçons de canne, {0_coll} et {2_coll} bouillis une heure, la soupe filtrée et bue tiède. Un remède cantonais contre la chaleur autant qu'un dessert.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsDrink</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SoupePorcChataigneDEau</defName>
+		<label>soupe de porc aux châtaignes d'eau</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Carrot</li></categories></li>
+		</ingredients>
+		<description>des côtes {1_adj} blanchies puis mijotées trois heures avec {0_coll} et {2_coll}, sans autre assaisonnement que le sel. Le bouillon reste clair et sucré tout seul.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Sous-catégories de FT_Meat_Herp.
+
+  Flavor Text range tortue, iguane, alligator, varan, ouaouaron et crapaud colosse
+  dans une seule catégorie. Impossible dans ces conditions d'écrire une soupe de
+  tortue qui se déclenche sur la tortue : elle sortirait aussi bien sur l'iguane.
+
+  On scinde donc en cinq branches, sur le modèle reptiles / amphibiens :
+    FT_Meat_Turtle    tortue, tortue de mer
+    FT_Meat_Alligator alligator, et par mots-clés crocodile et caïman
+    FT_Meat_Iguana    iguane
+    FT_Meat_Lizard    varan et lézards
+    FT_Meat_Frog      ouaouaron et grenouilles (amphibien, pas reptile)
+
+  Le crapaud colosse reste volontairement dans FT_Meat_Herp seul : il ne matchera
+  que les plats génériques, jamais une recette nommée. Celui du jeu est une créature
+  d'Odyssey, pas le Rhinella marina toxique — mais rien n'oblige à en faire un civet.
+
+  Les formes grammaticales sont héritées de FT_MeatRaw : « viande de tortue », etc.
+-->
+<Defs>
+
+	<FlavorText.FlavorCategoryDef>
+		<defName>FT_Meat_Turtle</defName>
+		<label>Flavor Text turtle meat</label>
+		<parents>
+			<li>FT_Meat_Herp</li>
+		</parents>
+		<keywords>
+			<li>turtle</li>
+			<li>tortoise</li>
+			<li>terrapin</li>
+			<li>tortue</li>
+			<li>sea turtle</li>
+			<li>snapping turtle</li>
+			<li>soft-shell turtle</li>
+		</keywords>
+		<thingDefsToAbsorb>
+			<li>Meat_Tortoise</li>
+			<li MayRequire="ludeon.rimworld.odyssey">Meat_SeaTurtle</li>
+		</thingDefsToAbsorb>
+	</FlavorText.FlavorCategoryDef>
+
+	<FlavorText.FlavorCategoryDef>
+		<defName>FT_Meat_Alligator</defName>
+		<label>Flavor Text alligator meat</label>
+		<parents>
+			<li>FT_Meat_Herp</li>
+		</parents>
+		<keywords>
+			<li>alligator</li>
+			<li>gator</li>
+			<li>crocodile</li>
+			<li>croc</li>
+			<li>caiman</li>
+			<li>caïman</li>
+		</keywords>
+		<thingDefsToAbsorb>
+			<li>Meat_Alligator</li>
+		</thingDefsToAbsorb>
+	</FlavorText.FlavorCategoryDef>
+
+	<FlavorText.FlavorCategoryDef>
+		<defName>FT_Meat_Iguana</defName>
+		<label>Flavor Text iguana meat</label>
+		<parents>
+			<li>FT_Meat_Herp</li>
+		</parents>
+		<keywords>
+			<li>iguana</li>
+			<li>iguane</li>
+			<li>garrobo</li>
+		</keywords>
+		<thingDefsToAbsorb>
+			<li>Meat_Iguana</li>
+		</thingDefsToAbsorb>
+	</FlavorText.FlavorCategoryDef>
+
+	<FlavorText.FlavorCategoryDef>
+		<defName>FT_Meat_Lizard</defName>
+		<label>Flavor Text lizard meat</label>
+		<parents>
+			<li>FT_Meat_Herp</li>
+		</parents>
+		<keywords>
+			<li>monitor lizard</li>
+			<li>monitor</li>
+			<li>varan</li>
+			<li>goanna</li>
+			<li>gecko</li>
+		</keywords>
+		<thingDefsToAbsorb>
+			<li>Meat_MonitorLizard</li>
+		</thingDefsToAbsorb>
+	</FlavorText.FlavorCategoryDef>
+
+	<FlavorText.FlavorCategoryDef>
+		<defName>FT_Meat_Frog</defName>
+		<label>Flavor Text frog meat</label>
+		<parents>
+			<li>FT_Meat_Herp</li>
+		</parents>
+		<keywords>
+			<li>frog</li>
+			<li>bullfrog</li>
+			<li>grenouille</li>
+			<li>ouaouaron</li>
+		</keywords>
+		<thingDefsToAbsorb>
+			<li>Meat_Bullfrog</li>
+		</thingDefsToAbsorb>
+	</FlavorText.FlavorCategoryDef>
+
+</Defs>

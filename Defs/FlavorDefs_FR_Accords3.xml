@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Chocolate + Meat_Pig et Coffee + RedBean.
+
+  J'avais cité ces deux paires comme exemples d'accords que la cuisine réelle ne
+  fait pas. C'était vrai pour l'une et faux pour l'autre.
+
+  Le mole au porc est parfaitement canonique : puerco en mole, mole negro con cerdo,
+  costillas en mole sont des plats du répertoire mexicain, pas des inventions de
+  fusion. J'avais jugé sur le couple d'ingrédients sans regarder la cuisine — la
+  faute que je passe mon temps à corriger ailleurs.
+
+  Réserve reprise de la remarque qui l'accompagnait : tous les moles ne contiennent
+  pas de chocolat. Ceux écrits ici en portent réellement — le poblano et le negro
+  en ont, le verde n'en a pas et n'apparaît donc pas.
+
+  Coffee + RedBean, en revanche, reste marginal : c'est de la pâtisserie asiatique
+  contemporaine, pas une tradition ancienne, et l'accord canonique de l'azuki est
+  le matcha, pas le café. D'où quatre plats seulement, sur les branches qui tiennent
+  vraiment — la boulangerie fourrée à l'anko, la gelée, la glace.
+
+  Le mole poblano existant est en dinde (Chili + Chocolate + Meat_Poultry) et
+  l'iguana en mole en Meat_Iguana : les versions au porc sont des triplets distincts.
+  Le dorayaki existant est en Wheat + RedBean + Egg, celui au café en diffère.
+-->
+<Defs>
+
+	<!-- ================================== CHOCOLAT ET PORC — les moles -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PuercoEnMole</defName>
+		<label>puerco en mole</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{0_coll} mijotée dans une sauce où {2_coll} séchés grillés puis trempés sont broyés avec {1_coll} amer, du pain rassis et des épices. Le chocolat n'y sucre rien : il lie la sauce et lui donne sa profondeur sombre.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MoleNegroConCerdo</defName>
+		<label>mole negro con cerdo</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>le plus long des sept moles d'Oaxaca : une trentaine d'ingrédients, dont {2_coll} grillés et {1_coll}, et des piments chilhuacle brûlés jusqu'au noir puis rincés. C'est cette brûlure contrôlée qui donne la couleur, et rater la limite gâche la journée entière.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PorcCroutteDeCacao</defName>
+		<label>filet de porc en croûte de cacao</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>un filet {0_adj} frotté d'un mélange {1_adj} amer, {2_adj} et de piment fumé, puis saisi. Le cacao pur se comporte ici comme une épice : amer, terreux, et pas sucré du tout.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BaconEnrobeDeChocolat</defName>
+		<label>bacon enrobé de chocolat</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>des tranches {0_adj} cuites au four jusqu'au cassant, caramélisées {2_plur} roux, refroidies puis trempées {1_plur} noir fondu. Le sel du lard et l'amertume du chocolat font le travail que le sucre seul ne ferait pas.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChiliDePorcAuCacao</defName>
+		<label>chili de porc au cacao</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_Bean</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en gros cubes mijotée avec {2_coll} noirs, une cuillerée {1_adj} non sucré jetée en fin de cuisson. Personne ne le reconnaît dans l'assiette, et tout le monde remarque quand il manque.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TraversLaquesChocolat</defName>
+		<label>travers laqués au chocolat</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+		</ingredients>
+		<description>un travers {0_adj} cuit lentement, puis laqué d'une sauce barbecue montée {1_plur} amer, {2_plur} et au piment chipotle, et passé sous le gril jusqu'à ce qu'elle cloque.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================ CAFÉ ET AZUKI — branche restreinte -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AnpanAuCafe</defName>
+		<label>anpan au café</label>
+		<ingredients>
+			<li><categories><li>FT_Coffee</li></categories></li>
+			<li><categories><li>FT_RedBean</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>une brioche {2_adj} dont la pâte est montée {0_plur} serré, fourrée d'une pâte {1_adj} sucrés. L'amertume du café empêche l'anko de saturer, ce qui est tout le problème de l'anpan classique.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GeleeDeCafeAzuki</defName>
+		<label>gelée de café aux azuki</label>
+		<ingredients>
+			<li><categories><li>FT_Coffee</li></categories></li>
+			<li><categories><li>FT_RedBean</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} noir pris en gelée à l'agar, coupé en cubes tremblants et servi sur {1_coll} confits {2_plur}. Se mange à la cuillère, glacé, dans les cafés japonais depuis un siècle.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GlaceCafeAzuki</defName>
+		<label>glace café-azuki</label>
+		<ingredients>
+			<li><categories><li>FT_Coffee</li></categories></li>
+			<li><categories><li>FT_RedBean</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>une crème glacée {0_plur} dans laquelle on incorpore {1_coll} entiers confits, montée {2_plur} et tournée pendant la prise. Les grains restent fermes au milieu du gras froid.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DorayakiAuCafe</defName>
+		<label>dorayaki au café</label>
+		<ingredients>
+			<li><categories><li>FT_Coffee</li></categories></li>
+			<li><categories><li>FT_RedBean</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>deux petits pancakes épais, montés {2_plur} et parfumés {0_plur}, assemblés sur une couche de pâte {1_adj} sucrés. Le nom vient du gong qu'ils imitent.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

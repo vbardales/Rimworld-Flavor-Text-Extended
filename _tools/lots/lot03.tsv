@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_Lapsi	lapsi	0=Grain 1=Milk 2=Nut/Fruit	MealsDessert,MealsNoodle	
+FlavorText_FrogInThePond	frog in the pond	0=Chocolate 1=AnimalProductRaw	MealsDessert,MealsSnack	
+FlavorText_Fruit_Newtons	{0_adj} Newtons	0=Fruit 1=Grain	MealsDessert,MealsSnack	
+FlavorText_Twinkies	Twinkies	0=Grain 1=Dairy 2=Sugar	MealsDessert,MealsSnack	
+FlavorText_Ingredients_Fondue	{0_adj} fondue	0=Ingredients 1=Dairy 2=Fruit	MealsDessert,MealsSoup	
+FlavorText_TapiocaPudding	tapioca pudding	0=Milk 1=Cassava 2=Sugar	MealsDessert,MealsSoup	
+FlavorText_Marzipan	marzipan	0=Almond/Grain 1=Sugar	MealsDessert	
+FlavorText_AnimalProductRaw_Junket	{0_adj} junket	0=AnimalProductRaw 1=Dairy 2=Sugar	MealsDessert	
+FlavorText_AnimalProductRaw_PowerBar	{0_adj} power bar	0=AnimalProductRaw 1=Fruit	MealsDessert	
+FlavorText_Potato_Pancakes	{1_adj} pancakes	0=AnimalProductRaw 1=Potato	MealsDessert	
+FlavorText_Preserved_AnimalProductRaw	preserved {0_coll}	0=AnimalProductRaw 1=Sugar	MealsDessert	
+FlavorText_TarteTatin	tarte tatin	0=Apple 1=Dairy 2=Sugar	MealsDessert	
+FlavorText_BananaSplit	banana split	0=Banana 1=Dairy 2=Sugar	MealsDessert	
+FlavorText_PlatanosEnMole	plátanos en mole	0=Banana 1=Chocolate 2=Tomato/Chili	MealsDessert	
+FlavorText_Tostones	tostones	0=Banana	MealsDessert	
+FlavorText_SagoPudding	sago pudding	0=Cassava 1=Sugar 2=Coconut	MealsDessert	
+FlavorText_NanaimoBars	nanaimo bars	0=Chocolate 1=Dairy 2=Nut/Grain	MealsDessert	
+FlavorText_Citrus_Marmalade	{0_adj} marmalade	0=Citrus	MealsDessert	
+FlavorText_Halo-Halo	halo-halo	0=Coconut/Dairy 1=Fruit/Bean/Yam/Rice 2=Fruit/Bean/Yam/Rice	MealsDessert	
+FlavorText_Affogato	affogato	0=Coffee 1=Dairy	MealsDessert	
+FlavorText_Dairy_Pavlova	{0_adj} pavlova	0=Dairy 1=Egg 2=Fruit	MealsDessert	
+FlavorText_Fruit_Yogurt	{1_adj} yogurt	0=Dairy 1=Fruit	MealsDessert	
+FlavorText_Fruit_Gelato	{2_adj} gelato	0=Dairy 1=Sugar 2=Fruit	MealsDessert	
+FlavorText_AlooKaHalwa	aloo ka halwa	0=Dairy 1=Sugar 2=Potato	MealsDessert	
+FlavorText_Cornflakes	cornflakes	0=Dairy 1=Sugar 2=Corn	MealsDessert	
+FlavorText_CremeBrulee	creme brulee	0=Dairy 1=Egg 2=Sugar	MealsDessert	
+FlavorText_Dondurma	dondurma	0=Dairy 1=Sugar 2=Flower	MealsDessert	
+FlavorText_Flan	flan	0=Dairy 1=Egg 2=Sugar	MealsDessert	
+FlavorText_FrootLoops	froot loops	0=Dairy 1=Fruit 2=Corn	MealsDessert	
+FlavorText_Gelato	gelato	0=Dairy 1=Sugar	MealsDessert	
+FlavorText_Globi	globi	0=Dairy 1=Grain 2=Sugar/Seed	MealsDessert	
+FlavorText_HuitlacocheIceCream	huitlacoche ice cream	0=Dairy 1=Sugar 2=Fungus	MealsDessert	
+FlavorText_IceCream	ice cream	0=Dairy 1=Egg 2=Sugar	MealsDessert	
+FlavorText_Kheer	kheer	0=Dairy 1=Sugar 2=Rice	MealsDessert	
+FlavorText_Kvfjordkake	Kvæfjordkake	0=Dairy 1=Egg 2=Grain/Sugar/Almond	MealsDessert	
+FlavorText_MississippiMudPie	Mississippi mud pie	0=Dairy 1=Chocolate 2=Grain/Sugar	MealsDessert	
+FlavorText_SutiPolo	suti polo	0=Dairy 1=Fruit 2=Rice	MealsDessert	
+FlavorText_Tartufo	tartufo	0=Dairy 1=Chocolate 2=Fruit/Nut/Coffee	MealsDessert	
+FlavorText_Tiramisu	tiramisu	0=Dairy 1=Coffee/Chocolate 2=Wheat	MealsDessert	
+FlavorText_Yogurt	yogurt	0=Dairy	MealsDessert	
+FlavorText_Kakigori_3	kakigori	0=Dairy/Sugar/Fruit/Tea/Rice	MealsDessert	
+FlavorText_Fruit_MeringuePie	{1_adj} meringue pie	0=Egg 1=Fruit 2=Grain/Dairy/Sugar	MealsDessert	
+FlavorText_Meringue	meringue	0=Egg 1=Sugar	MealsDessert	
+FlavorText_BiciBici	bici bici	0=Flower	MealsDessert	
+FlavorText_Fruit_Candy	{0_adj} candy	0=Fruit 1=Sugar	MealsDessert	
+FlavorText_Fruit_Jello	{0_adj} jello	0=Fruit 1=AnimalProductRaw	MealsDessert	
+FlavorText_Fruit_Mousse	{0_adj} mousse	0=Fruit 1=Egg	MealsDessert	
+FlavorText_Fruit_Preserves	{0_adj} preserves	0=Fruit	MealsDessert	
+FlavorText_Rodgrod	rødgrød	0=Fruit 1=Potato	MealsDessert	
+FlavorText_Fruit_Pudding	{0_adj} pudding	0=Fruit/Condiment/Sugar 1=AnimalProductRaw	MealsDessert	
+FlavorText_Sugar-Coated_Fruit	{1_sing}-coated {0_coll}	0=Fruit/Nut 1=Sugar	MealsDessert	
+FlavorText_Kakigori	kakigori	0=Fruit/Tea/Rice 1=Dairy/Sugar/Fruit/Tea/Rice 2=Dairy/Sugar	MealsDessert	
+FlavorText_Kakigori_2	kakigori	0=Fruit/Tea/Rice 1=Dairy/Sugar	MealsDessert	
+FlavorText_Fruit_Cake	{2_adj} cake	0=Grain 1=AnimalProductRaw 2=Fruit/Nut/Sugar	MealsDessert	
+FlavorText_Nut_Halva	{2_adj} halva	0=Grain 1=Dairy 2=Nut/Spice/Flower/Sugar/Chocolate/Fruit	MealsDessert	
+FlavorText_Nut_Pismaniye	{2_adj} pişmaniye	0=Grain 1=Dairy 2=Nut	MealsDessert	
+FlavorText_CantoneseCustardBuns	Cantonese custard buns	0=Grain 1=AnimalProductRaw	MealsDessert	
+FlavorText_CantoneseCustardBuns_2	Cantonese custard buns	0=Grain 1=AnimalProductRaw 2=AnimalProductRaw/Sugar	MealsDessert	
+FlavorText_JammyDodgers	Jammy Dodgers	0=Grain 1=Fruit 2=AnimalProductRaw	MealsDessert	
+FlavorText_Mersu	mersu	0=Grain 1=Fruit 2=Pistachio	MealsDessert	
+FlavorText_Pancakes	pancakes	0=Grain 1=Egg 2=Milk	MealsDessert	
+FlavorText_PoudingChmeur	pouding chômeur	0=Grain 1=Sugar/Dairy	MealsDessert	
+FlavorText_ThumbprintCookies	thumbprint cookies	0=Grain 1=Fruit 2=AnimalProductRaw	MealsDessert	
+FlavorText_Ashure	ashure	0=Grain/Bean 1=Nut 2=Fruit	MealsDessert	
+FlavorText_Churchkhela	churchkhela	0=Grape 1=Nut	MealsDessert	
+FlavorText_Macun	macun	0=Grape	MealsDessert	
+FlavorText_Ingredients_HandPies	{0_adj} hand pies	0=Ingredients 1=Ingredients	MealsDessert	
+FlavorText_Ingredients_Pudding	{0_adj} pudding	0=Ingredients 1=AnimalProductRaw	MealsDessert	
+FlavorText_Ingredients_ShavedIce	{0_adj} shaved ice	0=Ingredients	MealsDessert	
+FlavorText_Ingredients_And_Ingredients_In_Sugar_Syrup	{1_coll} and {0_coll} in {2_adj} syrup	0=Ingredients 1=Ingredients 2=Sugar	MealsDessert	
+FlavorText_JellyBeans	jelly beans	0=Ingredients 1=Sugar	MealsDessert	
+FlavorText_JellyBeans_2	jelly beans	0=Ingredients 1=Ingredients 2=Sugar	MealsDessert	
+FlavorText_MeatRaw_MincemeatPudding	{0_adj} mincemeat pudding	0=MeatRaw 1=Egg 2=Fruit	MealsDessert	
+FlavorText_VratKaHalwa	vrat ka halwa	0=Milk 1=Amaranth 2=Sugar	MealsDessert	
+FlavorText_Nut_Chikki	{0_adj} chikki	0=Nut/Rice/Chickpea/Coconut/Seed 1=Sugar	MealsDessert	
+FlavorText_WatergateSalad	Watergate salad	0=Pistachio 1=Dairy/Coconut 2=Pineapple/Nut	MealsDessert	
+FlavorText_PlantFoodRaw_Sticky_Rice	{2_adj} sticky {0_coll}	0=Rice 1=Coconut/Sugar 2=PlantFoodRaw	MealsDessert	
+FlavorText_MochiPancakes	mochi pancakes	0=Rice 1=Dairy/Egg	MealsDessert	
+FlavorText_MyanmarFloatingRiceBalls	Myanmar floating rice balls	0=Rice 1=Sugar 2=Coconut	MealsDessert	
+FlavorText_KabakTatlisi	kabak tatlısı	0=Squash 1=Sugar 2=Nut/Dairy	MealsDessert	

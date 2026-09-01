@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  L'œuf mollet.
+
+  Le français distingue trois cuissons en coquille, séparées par le seul temps de
+  cuisson : à la coque (3 min, blanc à peine pris, jaune liquide), mollet (6 min,
+  blanc ferme, jaune coulant, œuf écalé), dur (9 min, tout est pris).
+
+  Flavor Text a Soft-Boiled et Hard-Boiled, mais rien entre les deux. Le mollet
+  n'est pas un intermédiaire flou : c'est une préparation à part entière, la seule
+  qui s'écale et se serve dans une assiette plutôt que dans un coquetier — sur une
+  salade, dans un bouillon, en meurette.
+
+  Il partage sa signature (FT_Egg seul) avec les deux autres, ce qui est sans
+  conséquence : le moteur tire au sort parmi les defs qui correspondent, pondéré
+  par leur spécificité. Trois defs pour un même œuf produisent de la variété,
+  pas un conflit.
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_OeufMollet</defName>
+		<label>{0_coll} mollets</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>six minutes exactement dans l'eau frémissante, puis l'eau glacée. Le blanc est ferme, le jaune encore coulant. C'est la seule des trois cuissons en coquille qui s'écale : elle demande de la patience et des œufs qui ne soient pas de la veille.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

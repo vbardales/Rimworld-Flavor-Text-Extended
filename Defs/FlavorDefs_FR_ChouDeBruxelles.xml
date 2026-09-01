@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Chou de Bruxelles — catégorie FT_BrusselsSprout, orpheline.
+  Quatorze plats, quatorze combinaisons distinctes.
+
+  « Choux de Bruxelles aux lardons », « Rosenkohl mit Speck » et « Spruitjes met spek »
+  sont le même plat en trois langues : un seul triplet, donc une seule def.
+
+  « Maple-bacon » ouvre au passage FT_SugarFromPlants, jusqu'ici jamais citée par
+  aucune def — l'agave du jeu de base y tombe aussi.
+-->
+<Defs>
+
+	<!-- ============================================================= EUROPE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesLardons</defName>
+		<label>choux de Bruxelles aux lardons</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} coupés en deux et saisis face plate dans la graisse rendue {1_adj}, sans les remuer, jusqu'à ce que la tranche noircisse. C'est cette caramélisation qui ôte l'amertume, pas la cuisson à l'eau.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesMarrons</defName>
+		<label>choux de Bruxelles aux marrons</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Chestnut</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} blanchis puis étuvés {2_plur} avec {1_coll} entiers déjà cuits, qui se défont à moitié et sucrent le plat. L'accompagnement des tables de fin d'année.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GratinChouxBruxelles</defName>
+		<label>gratin de choux de Bruxelles</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{0_coll} précuits et bien égouttés sous une béchamel {1_adj} muscadée, gratinés {2_plur}. Mal égouttés, ils rendent leur eau et délavent la sauce.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesMoutarde</defName>
+		<label>choux de Bruxelles à la moutarde</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>{0_coll} poêlés puis enrobés d'une sauce {2_adj} montée {1_plur} hors du feu — bouillie, la moutarde perd son piquant et tourne amère.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RisottoChouxBruxelles</defName>
+		<label>risotto aux choux de Bruxelles</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>les feuilles extérieures {0_adj} détachées et frites à part pour le croquant, les cœurs émincés fondus dans {1_coll}, et {2_coll} pour lier.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PastaChouxBruxellesPancetta</defName>
+		<label>pasta aux choux de Bruxelles et pancetta</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>{0_coll} effeuillés et rissolés dans le gras {2_adj}, mêlés aux pâtes avec un peu d'eau de cuisson. Les feuilles séparées grillent bien mieux que les boules entières.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ====================================================== AMÉRIQUE DU NORD -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesCesar</defName>
+		<label>salade César de choux de Bruxelles</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Anchovy</li></categories></li>
+		</ingredients>
+		<description>{0_coll} crus rasés en copeaux, assaisonnés d'une César montée {2_plur} et à l'ail, avec {1_coll} râpé et des croûtons. Crus, ils sont noisette et non amers.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesSlaw</defName>
+		<label>slaw de choux de Bruxelles</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Apple</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>{0_coll} tranchés au rasoir, {1_coll} en allumettes et {2_coll} grillées, liés d'une vinaigrette acide. Se fait une heure d'avance pour que les copeaux s'attendrissent.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesErableLard</defName>
+		<label>choux de Bruxelles à l'érable et au lard</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_SugarFromPlants</li></categories></li>
+		</ingredients>
+		<description>{0_coll} rôtis à four très chaud avec {1_coll}, laqués {2_plur} dans les dernières minutes seulement — versé plus tôt, il brûle avant que les choux soient cuits.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesCroustillants</defName>
+		<label>choux de Bruxelles croustillants</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{0_coll} jetés entiers dans l'huile brûlante : les feuilles extérieures explosent en pétales noircis pendant que le cœur reste tendre. Un trait {2_adj} à la sortie, et rien d'autre.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesBuffalo</defName>
+		<label>choux de Bruxelles buffalo</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} frits puis secoués dans une sauce {1_adj} au vinaigre émulsionnée {2_plur}. La recette des ailes de poulet, appliquée à un légume que personne n'aimait.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesHash</defName>
+		<label>hash de choux de Bruxelles</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} hachés et {1_coll} en dés rissolés ensemble jusqu'à accrocher au fond, avec {2_coll} cassés dessus à la fin. Le petit-déjeuner des restes.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================================ ASIE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesMiso</defName>
+		<label>choux de Bruxelles laqués au miso</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_Sesame</li></categories></li>
+		</ingredients>
+		<description>{0_coll} rôtis puis enrobés d'une pâte {1_adj} fermenté, de mirin et de sucre, repassés sous le gril jusqu'à ce que le glaçage bouillonne, et parsemés {2_plur} torréfié.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouxBruxellesCurry</defName>
+		<label>curry de choux de Bruxelles</label>
+		<ingredients>
+			<li><categories><li>FT_BrusselsSprout</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} coupés en quatre et mijotés dans un lait {1_adj} monté sur cumin, curcuma et graines de moutarde éclatées à l'huile chaude.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

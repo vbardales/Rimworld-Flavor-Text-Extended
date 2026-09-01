@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_Scrambled_Egg_2	scrambled {0_coll}	0=Egg	MealsBaby	
+FlavorText_Ingredients_Ingredients_Mash	{0_adj} {1_adj} mash	0=Ingredients 1=Ingredients	MealsBaby	
+FlavorText_Ingredients_Ingredients_Mash_2	{0_adj} {1_adj} mash	0=Ingredients 1=Ingredients 2=Ingredients	MealsBaby	
+FlavorText_Ingredients_Mash_2	{0_adj} mash	0=Ingredients	MealsBaby	
+FlavorText_Milk_Bottle	{0_adj} bottle	0=Milk	MealsBaby	
+FlavorText_PlantFoodRaw_Puree	{0_adj} purée	0=PlantFoodRaw	MealsBaby	
+FlavorText_FairyBread	fairy bread	0=Dairy 1=Grain 2=Sugar	MealsBake,MealsDessert	
+FlavorText_Ingredients_Muffins	{1_adj} muffins	0=Grain 1=Ingredients	MealsBake,MealsDessert	
+FlavorText_Ingredients_Muffins_2	{1_adj} muffins	0=Grain 1=Ingredients 2=Ingredients	MealsBake,MealsDessert	
+FlavorText_Spice_SwirlToast	{2_adj} swirl toast	0=Grain 1=AnimalProductRaw 2=Spice/Sugar	MealsBake,MealsDessert	
+FlavorText_Beigli	beigli	0=Grain 1=Nut 2=Sugar/Fruit/Dairy	MealsBake,MealsDessert	
+FlavorText_StarBread	star bread	0=Grain 1=Dairy	MealsBake,MealsDessert	
+FlavorText_ThreeKingsCake	three kings cake	0=Grain 1=AnimalProductRaw 2=Fruit/Sugar	MealsBake,MealsDessert	
+FlavorText_Ingredients_Pie	{0_adj} pie	0=Ingredients 1=Wheat 2=Sugar	MealsBake,MealsDessert	
+FlavorText_Ingredients_Tart	{0_adj} tart	0=Ingredients 1=Grain	MealsBake,MealsDessert	
+FlavorText_BostonBun	Boston bun	0=Potato 1=Grain 2=Coconut	MealsBake,MealsDessert	
+FlavorText_Ingredients_Empanadas	{0_adj} empanadas	0=Ingredients 1=Milk 2=Wheat	MealsBake,MealsDumpling,MealsSandwich	
+FlavorText_Ingredients_Paratha	{0_adj} paratha	0=Ingredients 1=Milk 2=Grain	MealsBake,MealsDumpling,MealsSandwich	
+FlavorText_Calzone	calzone	0=MeatRaw 1=Milk 2=Wheat	MealsBake,MealsDumpling,MealsSandwich	
+FlavorText_CornishPasty	Cornish pasty	0=Potato/Onion/Turnip 1=Meat_Cow 2=Wheat	MealsBake,MealsDumpling,MealsSandwich	
+FlavorText_Dairy_Lasagna	{2_adj} lasagna	0=Grain 1=Tomato 2=Dairy/MeatRaw/Vegetable	MealsBake,MealsNoodle	
+FlavorText_Casabe	casabe	0=Cassava	MealsBake,MealsSandwich	
+FlavorText_Boyoz	boyoz	0=Grain 1=Seed	MealsBake,MealsSandwich	
+FlavorText_Gozleme	gözleme	0=Grain 1=Dairy 2=Ingredients	MealsBake,MealsSandwich	poste:Fire
+FlavorText_ToastWithJam	toast with jam	0=Grain 1=Fruit	MealsBake,MealsSandwich	
+FlavorText_Pizza	pizza	0=Milk 1=Wheat 2=Tomato	MealsBake,MealsSandwich	
+FlavorText_Bhakri	bhakri	0=Millet	MealsBake,MealsSandwich	
+FlavorText_Lefse	lefse	0=Potato 1=Wheat 2=Milk	MealsBake,MealsSandwich	
+FlavorText_RotiWith_Ingredients_Curry	roti with {0_adj} curry	0=Ingredients 1=Vegetable 2=Grain	MealsBake,MealsSoup	
+FlavorText_Bulz	bulz	0=AnimalProductRaw 1=Dairy 2=Corn	MealsBake	
+FlavorText_Laplap	laplap	0=Banana/Taro/Yam/Breadfruit 1=Coconut	MealsBake	
+FlavorText_BroodjeHagelslag	broodje hagelslag	0=Chocolate 1=Grain 2=Dairy	MealsBake	
+FlavorText_PlantFoodRaw_Cornbread	{1_adj} cornbread	0=Dairy 1=PlantFoodRaw 2=Corn	MealsBake	
+FlavorText_Funeral_Potato	funeral {2_coll}	0=Dairy 1=Corn 2=Potato	MealsBake	
+FlavorText_MamaligaInPaturi	Mămăligă în pături	0=Dairy 1=Egg 2=Corn	MealsBake	
+FlavorText_YorkshirePudding	Yorkshire pudding	0=Dairy 1=Egg 2=Grain	MealsBake	
+FlavorText_MushroomCups	mushroom cups	0=Egg 1=Fungus	MealsBake	
+FlavorText_Shirred_Egg	shirred {0_coll}	0=Egg	MealsBake	
+FlavorText_Grain_Bread	{0_adj} bread	0=Grain	MealsBake	
+FlavorText_Fruit_Bread	{1_adj} bread	0=Grain 1=Fruit/Squash	MealsBake	
+FlavorText_Avocado_Toast	{1_adj} toast	0=Grain 1=Avocado	MealsBake	
+FlavorText_Bean_OnToast	{1_coll} on toast	0=Grain 1=Bean	MealsBake	
+FlavorText_Bean_OnToast_2	{1_coll} on toast	0=Grain 1=Bean 2=Tomato	MealsBake	
+FlavorText_Egg_Benedict	{1_plur} Benedict	0=Grain 1=Egg 2=Meat_Pig	MealsBake	
+FlavorText_Bagels	bagels	0=Grain	MealsBake	
+FlavorText_ButteredToast	buttered toast	0=Grain 1=Dairy	MealsBake	
+FlavorText_Challah	challah	0=Grain 1=Egg	MealsBake	
+FlavorText_CinnamonRaisinToast	cinnamon raisin toast	0=Grain 1=Grape	MealsBake	
+FlavorText_DeepDishPizza	deep dish pizza	0=Grain 1=Dairy 2=Tomato	MealsBake	
+FlavorText_Empado	empadão	0=Grain 1=MeatRaw 2=Potato/Corn/Fungus/Pea/Tomato/AnimalProductRaw/Garlic/Onion	MealsBake	
+FlavorText_LaffahBread	laffah bread	0=Grain	MealsBake	
+FlavorText_Langos	lángos	0=Grain 1=AnimalProductRaw/Potato	MealsBake	
+FlavorText_NeopolitanPizza	Neopolitan pizza	0=Grain 1=Dairy 2=Tomato	MealsBake	
+FlavorText_NewYorkStylePizza	New York style pizza	0=Grain 1=Dairy 2=Tomato	MealsBake	
+FlavorText_PoFrancs	pão francês	0=Grain	MealsBake	
+FlavorText_Pastiera	pastiera	0=Grain 1=Egg 2=Dairy	MealsBake	
+FlavorText_Sourdough_Grain_Bread	sourdough {0_adj} bread	0=Grain	MealsBake	
+FlavorText_Toast	toast	0=Grain	MealsBake	
+FlavorText_Tourtire	tourtière	0=Grain 1=MeatRaw/Potato/Onion	MealsBake	
+FlavorText_Vatrushka	vatrushka	0=Grain 1=Milk 2=Fruit/Onion	MealsBake	
+FlavorText_Ingredients_Bake	{0_adj} bake	0=Ingredients 1=Ingredients	MealsBake	
+FlavorText_Ingredients_Casserole	{0_adj} casserole	0=Ingredients 1=MeatRaw 2=AnimalProductRaw	MealsBake	
+FlavorText_Ingredients_Casserole_3	{0_adj} casserole	0=Ingredients 1=Ingredients 2=Ingredients	MealsBake	
+FlavorText_Ingredients_Quiche	{0_adj} quiche	0=Ingredients 1=Egg 2=Grain	MealsBake	
+FlavorText_Ingredients_AuGratin	{1_adj} au gratin	0=Ingredients 1=Ingredients 2=Dairy	MealsBake	
+FlavorText_Baked_Ingredients	baked {0_coll}	0=Ingredients	MealsBake	
+FlavorText_Kumpir	kumpir	0=Ingredients 1=Potato	MealsBake	
+FlavorText_PommesBoulangere	Pommes boulangère	0=Ingredients 1=Onion 2=Potato	MealsBake	
+FlavorText_Meat_Cow_Wellington	{0_adj} wellington	0=Meat_Cow 1=Wheat 2=Fungus	MealsBake	
+FlavorText_Eggplant_Moussaka	{2_adj} moussaka	0=Meat_Cow 1=Milk 2=Eggplant/Potato	MealsBake	
+FlavorText_JanssonsFrestelse	Janssons frestelse	0=Meat_Fish 1=Onion 2=Potato	MealsBake	
+FlavorText_BiscuitsAndGravy	biscuits and gravy	0=Meat_Pig 1=Milk 2=Grain	MealsBake	
+FlavorText_RappiePie	rappie pie	0=Meat_Poultry/Meat_Pig/Meat_Shellfish 1=Potato	MealsBake	
+FlavorText_Meat_Seafood_SushiBake	{0_adj} sushi bake	0=Meat_Seafood/PlantFoodRaw 1=Ingredients 2=Rice	MealsBake	
+FlavorText_MeatRaw_ShepherdsPie	{0_adj} shepherd's pie	0=MeatRaw 1=Dairy 2=Potato	MealsBake	
+FlavorText_Toad-In-The-Hole	toad-in-the-hole	0=MeatRaw 1=Egg 2=Grain	MealsBake	
+FlavorText_Glazed_PlantFoodRaw	glazed {0_coll}	0=PlantFoodRaw 1=Sugar	MealsBake	
+FlavorText_Baked_Potato	baked {0_coll}	0=Potato	MealsBake	
+FlavorText_Tombet	tombet	0=Potato 1=Eggplant 2=BellPepper	MealsBake	
+FlavorText_Spice_Bread	{2_adj} bread	0=Wheat 1=Dairy 2=Spice	MealsBake	

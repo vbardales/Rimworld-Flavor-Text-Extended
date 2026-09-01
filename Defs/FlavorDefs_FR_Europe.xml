@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Portugal, pays germaniques, Scandinavie, îles Britanniques.
+
+  Sélection guidée par les combinaisons d'ingrédients : on privilégie les plats qui
+  ouvrent un triplet qu'aucune def existante ne couvre.
+-->
+<Defs>
+
+	<!-- =========================================================== PORTUGAL -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BacalhauABras</defName>
+		<label>bacalhau à Brás</label>
+		<ingredients>
+			<li><categories><li>FT_Cod</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} effeuillée, {1_coll} en allumettes frites, le tout lié {2_plur} battus jetés hors du feu et remués jusqu'à napper sans coaguler.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BacalhauComNatas</defName>
+		<label>bacalhau com natas</label>
+		<ingredients>
+			<li><categories><li>FT_Cod</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} dessalée et émiettée, mêlée {2_plur} fondus et noyée {1_plur}, gratinée jusqu'à ce que la surface se craquelle.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Francesinha</defName>
+		<label>francesinha</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>un croque-monsieur de Porto poussé jusqu'à l'absurde : quatre viandes empilées, du fromage fondu par-dessus, et une sauce épaisse {2_adj} et à la tomate versée à ras bord de l'assiette.</description>
+		<mealKinds>
+			<li>FT_MealsSandwich</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Bifana</defName>
+		<label>bifana</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>de fines escalopes {1_adj} mijotées {2_plur} et au vin blanc, empilées brûlantes dans un pain qui boit la sauce.</description>
+		<mealKinds>
+			<li>FT_MealsSandwich</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CozidoAPortuguesa</defName>
+		<label>cozido à portuguesa</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+			<li><categories><li>FT_Carrot</li></categories></li>
+		</ingredients>
+		<description>tout ce que la maison possède en viandes et en charcuteries, bouilli avec {1_coll} et {2_coll} et servi sur un plat unique et démesuré.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ArrozDePato</defName>
+		<label>arroz de pato</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuit dans le bouillon {1_adj} pochée, la chair effilochée mêlée dedans, des rondelles de chorizo posées dessus, et le tout gratiné au four.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Acorda</defName>
+		<label>açorda</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>du pain rassis détrempé dans une eau bouillante {1_plur} et à la coriandre, battu jusqu'à devenir une bouillie, avec {2_coll} pochés dedans. Un plat de pauvreté alentejane devenu emblème.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CataplanaDeMarisco</defName>
+		<label>cataplana de marisco</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {2_coll} cuits ensemble dans un chaudron de cuivre à charnière, refermé hermétiquement — la vapeur ne s'échappe pas, et le plat se cuit dans son propre jus.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FrangoPiriPiri</defName>
+		<label>frango piri-piri</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{0_coll} ouverte en crapaudine et grillée au charbon, badigeonnée pendant toute la cuisson d'une huile {1_adj} minuscules et {2_adj}.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================ ALLEMAGNE ET AUTRICHE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Sauerbraten</defName>
+		<label>sauerbraten</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+		</ingredients>
+		<description>une pièce {0_adj} marinée au vinaigre une semaine entière, braisée, la sauce liée au pain d'épices émietté et adoucie {2_plur} séchées.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Rinderrouladen</defName>
+		<label>rinderrouladen</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Cucumber</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>de fines tranches {0_adj} tartinées de moutarde, roulées sur un cornichon et {2_coll}, maintenues par un pique et braisées deux heures.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Schweinshaxe</defName>
+		<label>schweinshaxe</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>un jarret entier rôti des heures, arrosé {2_plur} brune, jusqu'à ce que la couenne devienne une carapace qui craque sous le couteau.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_WienerSchnitzel</defName>
+		<label>wiener schnitzel</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>une escalope {0_adj} battue jusqu'à la transparence, panée sans presser, et frite au beurre en secouant la poêle pour que la panure gonfle et se décolle de la viande.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_KonigsbergerKlopse</defName>
+		<label>königsberger klopse</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>des boulettes {0_adj} pochées dans un bouillon, servies sous une sauce blanche {1_adj} acidulée {2_plur} et relevée de câpres.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Maultaschen</defName>
+		<label>maultaschen</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+		</ingredients>
+		<description>de grands carrés de pâte farcis {1_plur} et {2_plur}. Les moines souabes y cachaient la viande pour la manger en carême : on les appelle encore « les attrape-Dieu ».</description>
+		<mealKinds>
+			<li>FT_MealsDumpling</li>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Kasespatzle</defName>
+		<label>käsespätzle</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>des spätzle râclés dans l'eau bouillante, montés en couches {1_plur} et coiffés {2_adj} frits jusqu'au brun sombre.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Kartoffelpuffer</defName>
+		<label>kartoffelpuffer</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Apple</li></categories></li>
+		</ingredients>
+		<description>{0_coll} râpées crues et pressées de leur eau, liées {1_plur}, frites en galettes fines et servies avec une compote {2_adj}. Le sucré face au salé, comme souvent en Rhénanie.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_HimmelUndErde</defName>
+		<label>himmel und erde</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Apple</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>« ciel et terre » : {1_coll} qui poussent en haut, {0_coll} qui poussent en bas, écrasées ensemble, avec du boudin poêlé et des oignons frits.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GrunkohlMitPinkel</defName>
+		<label>grünkohl mit pinkel</label>
+		<ingredients>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Oat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} frisés cueillis après la première gelée — qui les adoucit — mijotés des heures avec une saucisse fumée {2_adj}.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Tafelspitz</defName>
+		<label>tafelspitz</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Turnip</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>une pièce {0_adj} pochée dans un bouillon de racines, servie avec une sauce {2_adj} au raifort et à la pomme. Le plat préféré de François-Joseph, dit-on, qui en mangeait tous les jours.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TirolerGrostl</defName>
+		<label>tiroler gröstl</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} de la veille sautées ensemble à la poêle jusqu'à accrocher, coiffées d'un œuf au plat et servies dans la poêle même.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Semmelknodel</defName>
+		<label>semmelknödel</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>du pain rassis trempé {1_plur} tiède, mêlé {2_plur} et au persil, roulé en boules et poché à l'eau frémissante. Une boule qui se défait est une boule trop travaillée.</description>
+		<mealKinds>
+			<li>FT_MealsDumpling</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ======================================================= SCANDINAVIE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Kottbullar</defName>
+		<label>köttbullar</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+		</ingredients>
+		<description>de petites boulettes {0_adj} roulées à la main, poêlées puis servies sous une sauce brune {1_adj}, avec une cuillerée de confiture {2_adj} rouges à côté.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Gravlax</defName>
+		<label>gravlax</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>un filet enfoui deux jours sous du sel, {1_coll} et beaucoup d'aneth, sous un poids. Le nom veut dire « saumon enterré » : on l'enfouissait autrefois vraiment dans le sable.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Smorrebrod</defName>
+		<label>smørrebrød</label>
+		<ingredients>
+			<li><categories><li>FT_Rye</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>une tranche de pain noir {0_adj} beurrée jusqu'aux bords, chargée de hareng mariné et {2_adj} crus. Se mange à la fourchette, jamais à la main, et jamais refermée.</description>
+		<mealKinds>
+			<li>FT_MealsSandwich</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Frikadeller</defName>
+		<label>frikadeller</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>{0_coll} hachée deux fois, allégée de farine et {2_adj}, façonnée à la cuillère en galettes bombées et poêlée longuement au beurre.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Lohikeitto</defName>
+		<label>lohikeitto</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>une soupe finlandaise où {0_coll} n'est ajoutée qu'à la toute fin, dans un bouillon {1_adj} déjà crémé, et pochée hors du feu pour rester juste rosée.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Poronkaristys</defName>
+		<label>poronkäristys</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Hoofed</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+		</ingredients>
+		<description>{0_coll} de renne rabotée en copeaux sur le bloc gelé, jetée dans la graisse brûlante et servie avec une purée et une cuillerée d'airelles. Un plat de Laponie, mangé l'hiver.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Artsoppa</defName>
+		<label>ärtsoppa</label>
+		<ingredients>
+			<li><categories><li>FT_Pea</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} jaunes cassés trempés une nuit et mijotés avec {1_coll} fumée, parfumés au thym et à la marjolaine. En Suède, on la mange le jeudi ; personne ne sait plus vraiment pourquoi.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Plokkfiskur</defName>
+		<label>plokkfiskur</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>les restes de poisson bouilli écrasés grossièrement avec {1_coll} et {2_coll}, réchauffés à la poêle. Islandais, et fait pour ne rien jeter dans un pays où rien ne pousse.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Lapskaus</defName>
+		<label>lapskaus</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Turnip</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et les racines cuites si longtemps ensemble qu'on ne distingue plus rien. Un plat de marins, fait de salaisons et de ce qui se conservait à bord.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Kjotsupa</defName>
+		<label>kjötsúpa</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Turnip</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+		</ingredients>
+		<description>{0_coll} sur l'os bouillie avec {1_coll} et {2_coll}, sans autre assaisonnement que le sel. La soupe islandaise de tous les jours, depuis mille ans.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================== ÎLES BRITANNIQUES -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SteakAndAlePie</defName>
+		<label>steak and ale pie</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} braisée {1_plur} brune jusqu'à s'effilocher, enfermée sous un couvercle de pâte qui gonfle et brunit au four.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_LancashireHotpot</defName>
+		<label>lancashire hotpot</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {2_coll} en couches sous un toit de fines rondelles {1_adj} qui dorent et croustillent pendant que le dessous mijote.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CullenSkink</defName>
+		<label>cullen skink</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>de l'églefin fumé poché {2_plur}, effeuillé, remis dans son lait avec {1_coll} écrasées. Épais au point de tenir la cuillère debout.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_HaggisNeepsTatties</defName>
+		<label>haggis, neeps and tatties</label>
+		<ingredients>
+			<li><categories><li>FT_Offal</li></categories></li>
+			<li><categories><li>FT_Oat</li></categories></li>
+			<li><categories><li>FT_Turnip</li></categories></li>
+		</ingredients>
+		<description>{0_coll} hachée avec {1_coll} et beaucoup de poivre, cuite dans une panse, servie avec des navets et des pommes de terre écrasés séparément. On le tranche d'un coup de couteau devant les convives.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CockALeekie</defName>
+		<label>cock-a-leekie</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Leek</li></categories></li>
+			<li><categories><li>FT_Plum</li></categories></li>
+		</ingredients>
+		<description>une soupe écossaise {0_adj} et {1_adj}, avec des pruneaux entiers dedans. L'accord surprend, mais il est attesté depuis le XVIe siècle.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FullEnglishBreakfast</defName>
+		<label>full english breakfast</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Bean</li></categories></li>
+		</ingredients>
+		<description>{0_coll}, {1_coll} sous toutes ses formes, {2_coll} à la tomate, champignons et pain frit, tout dans la même assiette. Un petit-déjeuner qui tient lieu de deux repas.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Kedgeree</defName>
+		<label>kedgeree</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} au curry mêlé de poisson fumé effeuillé et d'œufs durs. Un khichdi indien rapporté par les Britanniques, devenu chez eux un plat de petit-déjeuner.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BeefGuinnessStew</defName>
+		<label>ragoût de bœuf à la Guinness</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+			<li><categories><li>FT_Turnip</li></categories></li>
+		</ingredients>
+		<description>{0_coll} mijotée {1_plur} noire, dont l'amertume torréfiée se transforme en profondeur après trois heures, avec {2_coll} et carottes.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

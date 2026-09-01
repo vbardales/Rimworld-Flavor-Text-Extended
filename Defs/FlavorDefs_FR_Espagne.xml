@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Espagne et Portugal. Flavor Text couvrait déjà gazpacho, escalivada, cocido et pisto.
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Paella</defName>
+		<label>paella</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_BellPepper</li></categories></li>
+		</ingredients>
+		<description>{0_coll} étalé en couche mince dans une poêle plus large que haute, jamais remué, avec {1_coll} et {2_coll}. La croûte dorée qui attache au fond s'appelle le socarrat et se dispute.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<!-- Flavor Text couvre déjà la tortilla sous « Spanish omelette », avec exactement
+		     les mêmes ingrédients. On prend un autre classique catalan à la place. -->
+		<defName>FlavorTextFR_PanConTomate</defName>
+		<label>pan con tomate</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>du pain grillé frotté {2_plur} cru puis {1_plur} coupées en deux, jusqu'à ce qu'il ne reste que la peau. Sel, huile, rien d'autre — et pourtant on en fait tout un art à Barcelone.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PulpoGallega</defName>
+		<label>pulpo a la gallega</label>
+		<ingredients>
+			<li><categories><li>FT_Cephalopod</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} trempée trois fois dans l'eau bouillante avant d'y rester — sinon la peau s'en va —, coupée aux ciseaux sur des rondelles {1_adj}, huile et paprika fumé.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Fabada</defName>
+		<label>fabada</label>
+		<ingredients>
+			<li><categories><li>FT_Bean</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>de gros haricots blancs mijotés {1_plur} fumée, jamais remués à la cuillère : on secoue la marmite d'un mouvement de poignet pour ne pas les briser.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Churros</defName>
+		<label>churros</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+		</ingredients>
+		<description>une pâte {0_adj} poussée à travers une douille étoilée directement dans l'huile — les cannelures évitent qu'ils n'éclatent —, roulés {1_plur} et trempés dans {2_coll} épais.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PatatasBravas</defName>
+		<label>patatas bravas</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en cubes irréguliers frites deux fois, noyées d'une sauce {1_adj} et d'une émulsion {2_adj}. Se piquent au cure-dent, debout au bar.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Romesco</defName>
+		<label>romesco</label>
+		<ingredients>
+			<li><categories><li>FT_Almond</li></categories></li>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{0_coll} grillées, {1_coll} rôtis et {2_coll} séchés broyés au mortier avec du pain frit qui lie l'ensemble. Se mange sur des oignons doux cuits sous la cendre, à même la main.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Salmorejo</defName>
+		<label>salmorejo</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} broyés avec de la mie et montés à l'huile jusqu'à devenir une crème orange assez épaisse pour tenir, servie glacée avec {2_coll} durs émiettés. Plus dense que le gaspacho, dont il est le cousin de Cordoue.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Fideua</defName>
+		<label>fideuà</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>de courtes pâtes creuses grillées à sec puis cuites dans un fumet {1_adj}, qu'elles boivent en se dressant à la verticale. Née d'un mousse qui cachait le riz à son capitaine trop gourmand.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Migas</defName>
+		<label>migas</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Grape</li></categories></li>
+		</ingredients>
+		<description>du pain dur humecté la veille, effrité et sauté longuement dans la graisse {1_adj} jusqu'à devenir doré et mobile, servi {2_plur}. Un déjeuner de berger, fait de ce qui restait.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

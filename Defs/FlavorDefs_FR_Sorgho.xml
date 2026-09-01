@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Sorgho — catégorie FT_Sorghum, dernière orpheline céréalière.
+  Vingt plats, vingt combinaisons distinctes.
+
+  Le sorgho est un féculent de base, pas un ingrédient d'accent : tô, tuwo, ugali,
+  sadza, pap, ting, motoho, asida, kisra, genfo, uji et ogi sont tous de la farine
+  bouillie en pâte, sous douze noms. Ce n'est pas de la traduction, c'est douze
+  cultures qui ont nommé le même geste.
+
+  Ce qui les distingue réellement est la SAUCE qui les accompagne — et cela, le moteur
+  le voit. Chaque pâte est donc appariée à son accompagnement caractéristique.
+
+  Le sirop de sorgho n'est pas repris ici : il relève de FT_SugarFromPlants, dont les
+  mots-clés incluent « syrup ». Les pâtisseries du Sud américain croisent les deux.
+-->
+<Defs>
+
+	<!-- ================================================== AFRIQUE DE L'OUEST -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ToDeSorgho</defName>
+		<label>tô de sorgho</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Okra</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+		</ingredients>
+		<description>une pâte {0_adj} battue à la spatule jusqu'à devenir lisse et ferme, servie avec une sauce {1_adj} filante. On en prélève une boulette à la main droite, on la creuse du pouce, on trempe.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TuwoDawa</defName>
+		<label>tuwo dawa</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Peanut</li></categories></li>
+		</ingredients>
+		<description>la version haoussa : une boule {0_adj} moulée à la louche, avec un miyan kuka de feuilles de baobab pilées et une sauce {2_adj}. Le baobab épaissit sans farine.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FuraDaNono</defName>
+		<label>fura da nono</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>des boules {0_adj} cuit, pilées {2_plur} et au gingembre, écrasées dans {1_coll} fermenté des éleveurs peuls. Bue à la calebasse, elle tient lieu de repas entier sur la route.</description>
+		<mealKinds>
+			<li>FT_MealsDrink</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_OgiDeSorgho</defName>
+		<label>ogi de sorgho</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>{0_coll} trempé trois jours, broyé, tamisé et laissé aigrir, puis cuit en bouillie lisse. Acide, {1_adj} et parfumé {2_plur} : le petit-déjeuner de la moitié de l'Afrique de l'Ouest.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================ SOUDAN ET CORNE DE L'AFRIQUE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Kisra</defName>
+		<label>kisra</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>une pâte {0_adj} fermentée étalée en voile sur une plaque brûlante, si fine qu'elle cuit en dix secondes. Empilée par dizaines, elle sert d'assiette à un mullah {1_adj} et {2_adj}.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AsidaDeSorgho</defName>
+		<label>asida de sorgho</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>une pâte {0_adj} travaillée jusqu'à l'élasticité, creusée d'un puits au centre où l'on verse {1_coll} fondu et {2_coll}. Se mange des bords vers le milieu, à plusieurs, dans le même plat.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_InjeraDeSorgho</defName>
+		<label>injera de sorgho</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Lentil</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>une pâte {0_adj} fermentée trois jours, versée en spirale sur la plaque et couverte : les bulles qui percent la surface forment les alvéoles. Chargée d'un misir wat {1_adj} et {2_adj}.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GenfoDeSorgho</defName>
+		<label>genfo de sorgho</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>une bouillie {0_adj} très épaisse moulée en dôme, creusée au centre et remplie de niter kibbeh — un beurre clarifié aux épices — et de berbéré {2_adj}. Le déjeuner des jeunes mères éthiopiennes.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ===================================================== AFRIQUE AUSTRALE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TingYaMabele</defName>
+		<label>ting ya mabele</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Bean</li></categories></li>
+		</ingredients>
+		<description>{0_coll} laissé fermenter plusieurs jours avant cuisson, d'où son acidité franche, servi avec {2_coll} et {1_coll} caillé. Le plat national du Botswana, mangé matin et soir.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================================ INDE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_JowarBhakri</defName>
+		<label>jowar bhakri</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>une galette {0_adj} pétrie à l'eau brûlante et aplatie à la paume — sans gluten, elle se déchire à la moindre hésitation —, cuite à sec puis gonflée sur la flamme, avec un thecha {1_adj} et {2_adj} pilé.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_JowarKhichdi</defName>
+		<label>jowar khichdi</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Lentil</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} concassé et {1_coll} cuits ensemble jusqu'à se confondre, relevés d'un tempérage {2_adj} grillées dans le ghee. Le plat qu'on sert aux convalescents.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_JowarDosa</defName>
+		<label>jowar dosa</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Lentil</li></categories></li>
+		</ingredients>
+		<description>une pâte {0_adj}, {1_adj} et {2_adj} fermentée une nuit, étalée en spirale sur la plaque et cuite jusqu'à croustiller aux bords.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_JowarThalipeeth</defName>
+		<label>jowar thalipeeth</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_Cilantro</li></categories></li>
+		</ingredients>
+		<description>une galette épaisse de plusieurs farines mêlées, chargée {1_adj} crus et {2_adj}, aplatie directement dans la poêle avec les doigts mouillés et percée d'un trou au centre.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================================== CORÉE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SusuBap</defName>
+		<label>susu bap</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Bean</li></categories></li>
+		</ingredients>
+		<description>{1_coll} cuit avec une poignée {0_adj} et {2_adj}, qui le teintent de rouge sombre. On en servait aux enfants le jour de leur premier anniversaire, pour éloigner le mauvais sort.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SusuBukkumi</defName>
+		<label>susu-bukkumi</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_RedBean</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>de petites galettes {0_adj} gluant poêlées puis pliées en demi-lune sur une pâte {1_adj} sucrés. Le sorgho leur donne une couleur rouille et un goût de noisette.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================ AMÉRIQUE DU NORD -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SorghumGrainBowl</defName>
+		<label>bol de sorgho</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>{0_coll} entier bouilli une heure jusqu'à éclater sans se défaire, mêlé {1_plur} rôtis et {2_plur} grillées. Il reste ferme sous la dent, contrairement à toutes les autres céréales.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PoppedSorghum</defName>
+		<label>sorgho soufflé</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Fat</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} jeté par poignées dans une poêle brûlante : les grains éclatent en minuscules boules blanches, dix fois plus petites que du maïs soufflé, et bien plus tendres.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SorghumSyrupBiscuits</defName>
+		<label>biscuits au sirop de sorgho</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_SugarFromPlants</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>des scones {2_adj} fendus brûlants et noyés {1_plur} de sorgho, sombre et amer sous la douceur. Le sirop et le grain viennent de la même plante, pressée ou battue.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SorghumMolassesCookies</defName>
+		<label>biscuits à la mélasse de sorgho</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_SugarFromPlants</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>une pâte {1_adj} de sorgho et {2_adj} moulu, cuite court pour rester moelleuse au centre et craquelée dessus.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SorghumPecanPie</defName>
+		<label>tarte aux noix de pécan et au sorgho</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{1_coll} noyées dans un appareil {2_adj} lié au sirop {0_adj}, moins écœurant que le sirop de maïs et bien plus profond. La tarte du Kentucky et du Tennessee.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

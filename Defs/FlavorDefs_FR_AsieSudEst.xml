@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Asie du Sud-Est. Flavor Text couvrait déjà phở, bánh mì, amok et rendang.
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GoiCuon</defName>
+		<label>gỏi cuốn</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Cilantro</li></categories></li>
+		</ingredients>
+		<description>des galettes {0_adj} trempées une seconde dans l'eau tiède, roulées serré sur {1_coll} et des herbes. On voit le rose à travers la feuille : c'est pour ça qu'on la roule dans ce sens.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BoBun</defName>
+		<label>bo bun</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Cilantro</li></categories></li>
+		</ingredients>
+		<description>des vermicelles {0_adj} froids sous {1_coll} sautée brûlante, avec des herbes crues et une sauce claire sucrée-salée versée par-dessus. Le chaud et le froid dans le même bol, sans que ce soit un défaut.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Nem</defName>
+		<label>nem</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>des rouleaux fins farcis {1_plur} hachée et {2_plur} noirs réhydratés, frits deux fois. Se mangent enveloppés dans une feuille de salade, avec de la menthe.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PadThai</defName>
+		<label>pad thaï</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Peanut</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>des nouilles {0_adj} sautées dans un caramel de tamarin, {2_coll} brouillés à l'écart puis rabattus dessus, {1_coll} concassées à la fin. Inventé dans les années trente pour économiser le riz en grain.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TomYam</defName>
+		<label>tom yam</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>un bouillon {0_adj} monté sur citronnelle, galanga et feuilles de combava, acidifié {2_plur} hors du feu et brûlé {1_plur}. Les aromates ne se mangent pas ; on les pousse sur le bord.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CurryVert</defName>
+		<label>curry vert</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>une pâte {2_adj} verts pilée puis frite dans la crème {1_adj} jusqu'à ce que l'huile se sépare et remonte, avec {0_coll}. Le vert est le plus fort des trois currys, malgré sa couleur douce.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Laap</defName>
+		<label>laap</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{0_coll} hachée menu, à peine saisie, assaisonnée {2_plur} et de {1_coll} grillé et pilé qui donne du grain et une odeur de noisette. Le plat national du Laos.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_NasiGoreng</defName>
+		<label>nasi goreng</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{0_coll} sauté dans une pâte {2_adj} et une sauce de soja épaisse et sucrée, coiffé d'un œuf au plat aux bords dentelés de friture.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Satay</defName>
+		<label>satay</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Peanut</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>de fines lanières {0_adj} marinées au curcuma et {2_plur}, grillées sur des braises éventées à la main, servies avec une sauce épaisse {1_adj}.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

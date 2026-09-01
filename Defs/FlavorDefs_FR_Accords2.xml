@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Deuxième vague d'accords, sur la nouvelle tête de liste de couverture.js :
+
+      Meat_Poultry + Meat_Seafood   108 plats parlent du moins installé des deux
+      Butter + Meat_Pig              69
+      Butter + Corn                  66
+      Meat_Fish + Meat_Pig           60
+
+  Plus cinq plats de coco râpée, voir la note plus bas.
+
+  Deux vérifications faites avant d'écrire, et deux réponses négatives :
+
+  — Romy_CoconutSyrup n'a besoin d'aucun patch. Son label « coconut syrup » marque
+    déjà 3 points sur FT_Sugar, 3 sur FT_SugarFromPlants et 5 sur FT_Coconut, et le
+    moteur conserve toutes les catégories qui atteignent 3. Il est donc déjà traité
+    comme un sucrant en même temps que comme une coco.
+
+  — Aucun ThingDef de cœur de palmier n'existe dans les 1201 mods installés : ni
+    « palmito », ni « heart of palm », ni « palm heart ». Des plats de palmito
+    seraient écartés au chargement, comme l'auraient été ceux de FT_CoconutMilk.
+
+  Sur le lait de coco : les plats déjà écrits qui en demandent — tom kha, moilee,
+  bœuf au lait de coco, haupia — sont conservés. Ils ciblent FT_Coconut, c'est-à-dire
+  la noix brute, et non un objet « lait » qui n'existe pas. Or presser le lait d'une
+  noix fraîche (râper, infuser à l'eau chaude, tordre dans un linge) est une étape de
+  cuisine au même titre que la râper : c'est même la méthode d'origine, antérieure à
+  la conserve. Une colonie qui récolte des cocos peut faire un tom kha.
+
+  Les cinq plats ajoutés ici emploient la noix râpée directement, sans passer par le
+  lait : ils élargissent la coco vers un autre registre plutôt qu'ils ne corrigent
+  les premiers.
+-->
+<Defs>
+
+	<!-- ======================================== VOLAILLE ET FRUITS DE MER (108) -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PaellaMixta</defName>
+		<label>paella mixta</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+		</ingredients>
+		<description>{2_coll} safrané cuit à découvert dans une poêle large et plate, avec {0_coll} saisie d'abord et {1_coll} posés à la fin pour qu'ils ne durcissent pas. On ne remue jamais : c'est ce qui laisse le socarrat se former au fond.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GumboPouletCrevettes</defName>
+		<label>gumbo poulet-crevettes</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Okra</li></categories></li>
+		</ingredients>
+		<description>un roux mené au brun foncé — quarante minutes à remuer sans s'arrêter, sous peine de tout jeter — puis {0_coll}, {2_coll} et enfin {1_coll}, qui ne demandent que trois minutes.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RizCantonaisMixte</defName>
+		<label>riz cantonais poulet-crevettes</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>du riz de la veille sauté au wok brûlant avec {0_coll} en dés, {1_coll} décortiqués et {2_coll} brouillés à part. Le riz frais colle et rate le plat : il faut qu'il ait passé une nuit au froid.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PadThaiMixte</defName>
+		<label>pad thaï poulet-crevettes</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Peanut</li></categories></li>
+		</ingredients>
+		<description>des nouilles de riz trempées à froid puis sautées très vif avec {0_coll} et {1_coll}, dans une sauce au tamarin et à la saumure de poisson, semées {2_adj} concassées et de germes crus.</description>
+		<mealKinds>
+			<li>FT_MealsStirFry</li>
+			<li>FT_MealsNoodle</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SiuMaiMixte</defName>
+		<label>siu mai poulet-crevettes</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>une farce {0_adj} hachée au couteau et {1_adj} entiers, dans une pâte {2_adj} pincée en corolle ouverte. On les cuit à la vapeur en panier, une crevette entière posée sur le dessus.</description>
+		<mealKinds>
+			<li>FT_MealsDumpling</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SoupePouletFruitsDeMer</defName>
+		<label>soupe poulet et fruits de mer</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Meat_Seafood</li></categories></li>
+			<li><categories><li>FT_Kelp</li></categories></li>
+		</ingredients>
+		<description>un fond {0_adj} clarifié, dans lequel on pose {1_coll} au dernier moment, avec {2_coll} pour le iode. Les deux bouillons ne se mélangent bien que si l'un est fait d'avance.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================== BEURRE ET PORC (69) -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_JambonBeurre</defName>
+		<label>jambon-beurre</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>une demi-baguette {2_adj} fendue, {1_coll} en couche franche sur toute la longueur, deux tranches {0_adj}, rien d'autre. Le sandwich le plus vendu de France, et celui qui pardonne le moins un mauvais pain.</description>
+		<mealKinds>
+			<li>FT_MealsSandwich</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PorcBeurreAil</defName>
+		<label>porc au beurre à l'ail</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>une pièce {0_adj} saisie puis arrosée à la cuillère, la poêle inclinée, d'un {1_coll} mousseux où fondent des gousses {2_adj} en chemise. On arrose vingt fois plutôt qu'une.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PorcBeurreSauge</defName>
+		<label>côte de porc au beurre de sauge</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>une côte {0_adj} grillée, nappée d'un {1_coll} cuit jusqu'à la noisette où l'on a jeté des feuilles de sauge qui deviennent croustillantes. Le beurre noisette passe à brûlé en dix secondes.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SchnitzelDePorc</defName>
+		<label>schnitzel de porc</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>une escalope {0_adj} battue jusqu'au papier, passée à la farine, {2_plur} puis à la chapelure, et cuite dans beaucoup {1_adj} clarifié qu'on fait rouler sur elle pour que la panure gonfle et se détache.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PorcBeurreMiso</defName>
+		<label>porc au beurre et au miso</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>{0_coll} saisie puis glacée d'une pâte {2_adj} fermenté détendue {1_plur} fondu. Le miso brûle vite et le beurre encore plus : on éteint le feu avant de les réunir.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =============================================== BEURRE ET MAÏS (66) -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_EpiDeMaisAuBeurre</defName>
+		<label>épi de maïs au beurre</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>un épi {0_adj} bouilli ou grillé, roulé encore brûlant dans un {1_coll} travaillé {2_plur} et au citron vert, qui fond dans les rangées de grains.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RamenMaisBeurre</defName>
+		<label>ramen au maïs et au beurre</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>des nouilles {2_adj} dans un bouillon au miso, couvertes {0_adj} doux et coiffées d'une noix {1_adj} qui fond lentement en surface. La spécialité de Sapporo, née d'un hiver rigoureux.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CornCheese</defName>
+		<label>corn cheese</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>{0_coll} doux revenu {1_plur} dans une petite poêle de fonte, couvert {2_adj} râpé et laissé fondre jusqu'à filer. Se mange à la cuillère, à même la poêle, en accompagnement d'un grill coréen.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PolentaAuBeurre</defName>
+		<label>polenta au beurre</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>une semoule {0_adj} versée en pluie dans {2_coll} frémissant et tournée quarante minutes, puis montée {1_plur} froid hors du feu. C'est le dernier beurre, ajouté au dernier moment, qui la rend brillante.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PopcornAuBeurre</defName>
+		<label>popcorn au beurre</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>des grains {0_adj} éclatés à couvert, arrosés d'un {1_coll} clarifié — l'eau du beurre entier détremperait tout — et secoués {2_plur} dans un grand saladier.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================= POISSON ET PORC (60) -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TruiteBardeeDeLard</defName>
+		<label>truite bardée de lard</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} entière, vidée et remplie de thym, enroulée de tranches {1_adj} qui la tiennent et l'arrosent en fondant, puis grillée. Le lard remplace la matière grasse que le poisson n'a pas.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CabillaudAuChorizo</defName>
+		<label>cabillaud au chorizo</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>un dos {0_adj} poché dans l'huile rouge qu'un chorizo {1_adj} au paprika a rendue à la poêle, {2_plur} doux. C'est la graisse teintée qui fait le plat, pas la saucisse elle-même.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChaudreePoissonBacon</defName>
+		<label>chaudrée de poisson au bacon</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+		</ingredients>
+		<description>{1_coll} fondue la première, {2_coll} cuits dans sa graisse, puis {0_coll} en morceaux posée dessus et laissée pocher à couvert sans jamais bouillir, sous peine de la voir se défaire.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CaKhoTo</defName>
+		<label>cá kho tộ</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en tronçons braisée dans un pot de terre avec de la poitrine {1_adj} et un caramel {2_adj} poussé jusqu'à l'amertume, allongé de saumure de poisson. Le caramel doit fumer avant qu'on l'arrête.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PoissonVapeurPorcHache</defName>
+		<label>poisson vapeur au porc haché</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>{0_coll} entière posée sur des tiges de ciboule, couverte {1_adj} hachée assaisonnée {2_plur}, et passée à la vapeur vive huit minutes. Une huile fumante versée dessus au service fait grésiller la peau.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!--
+		Coco râpée : ces cinq-là n'emploient que la noix brute, sans extraction de lait.
+		Ils élargissent la coco vers le condiment et la confiserie, là où les premiers
+		plats de coco l'avaient tirée vers le curry et la soupe.
+	-->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PolRoti</defName>
+		<label>pol roti</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>une farine {1_adj} pétrie avec beaucoup {0_adj} fraîche râpée, {2_coll} verts et de l'oignon, à peine liée à l'eau, puis cuite épaisse sur une plaque sèche. Se déchire à la main, jamais au couteau.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Serundeng</defName>
+		<label>serundeng</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} râpée torréfiée à sec très longtemps, avec {1_coll} de palme, {2_coll} et de l'ail, jusqu'au brun doré. Se garde des semaines et se sème sur le riz comme on saupoudrerait du parmesan.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Urap</defName>
+		<label>urap</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{1_coll} blanchis et essorés, mêlés {0_adj} fraîche râpée assaisonnée {2_plur}, d'ail et de galanga. Se mange tiède, le jour même : la coco râpée rancit vite.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Quindim</defName>
+		<label>quindim</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>des jaunes {1_adj} seuls, battus {2_plur} et {0_plur} râpée, cuits au bain-marie dans un moule beurré. À la sortie, tout s'est séparé : la coco est montée en couronne et le dessous est d'un jaune vitreux.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RizNoixDeCoco</defName>
+		<label>riz à la noix de coco</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Lentil</li></categories></li>
+		</ingredients>
+		<description>{1_coll} cuit nature, dans lequel on mêle {0_coll} fraîche râpée revenue à l'huile avec {2_coll} décortiquées, des graines de moutarde et des feuilles de curry. Le thengai sadam du Tamil Nadu, fait sans une goutte de lait.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

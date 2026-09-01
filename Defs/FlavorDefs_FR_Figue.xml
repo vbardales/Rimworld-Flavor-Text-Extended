@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Figue — catégorie FT_Fig, orpheline.
+  Vingt-trois plats, vingt-trois combinaisons distinctes.
+
+  La plus riche des orphelines : la figue tient le sucré et le salé avec la même
+  aisance, et s'accorde avec les fromages, les charcuteries, les gibiers et les vins.
+
+  « Pain de figues » et « pan de higo » sont le même bloc de figues sèches pilées aux
+  amandes, en deux langues : un seul triplet.
+
+  « Fig Newtons » n'est pas repris : Flavor Text possède déjà une def générique
+  « {0_adj} Newtons » qui produira « biscuits fourrés aux figues » toute seule.
+-->
+<Defs>
+
+	<!-- ==================================================== SUCRÉ, CLASSIQUES -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TarteAuxFigues</defName>
+		<label>tarte aux figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Almond</li></categories></li>
+		</ingredients>
+		<description>{0_coll} fendues en croix et posées debout sur une crème {2_adj}, qui boit leur jus pendant la cuisson et empêche la pâte de détremper.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CrostataDiFichi</defName>
+		<label>crostata di fichi</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>une pâte sablée {2_plur} croisée en treillis sur une couche épaisse de confiture {0_adj}. Se mange froide, le lendemain, quand la pâte a bu un peu du fruit.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FiguesRotiesAuMiel</defName>
+		<label>figues rôties au miel</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>{0_coll} entaillées en croix, une noix {2_adj} et une cuillerée {1_adj} au creux, passées dix minutes à four brûlant jusqu'à ce qu'elles s'ouvrent comme des fleurs.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FiguesPocheesVinRouge</defName>
+		<label>figues pochées au vin rouge</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} frémies dans {1_coll} rouge sucré {2_plur} et à la badiane, puis laissées refroidir dedans une nuit — c'est en refroidissant qu'elles prennent la couleur jusqu'au cœur.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ConfitureDeFigues</defName>
+		<label>confiture de figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>{0_coll} coupées en quatre, macérées une nuit {1_plur}, puis cuites court avec {2_coll} qui apporte la pectine et empêche que tout tourne au sirop.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PainDeFigues</defName>
+		<label>pain de figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} sèches pilées au mortier avec {1_coll} et {2_coll}, pressées en bloc et séchées. Se garde tout l'hiver et se tranche au couteau, comme un fromage.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =================================================== TURQUIE ET INDE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_IncirTatlisi</defName>
+		<label>incir tatlısı</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>{0_coll} sèches regonflées dans un sirop, chacune fourrée d'un cerneau {1_adj}, servies sous une cuillerée de kaymak — une crème épaissie si dense qu'elle se coupe.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_IncirUyutmasi</defName>
+		<label>incir uyutması</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Pistachio</li></categories></li>
+		</ingredients>
+		<description>des figues sèches écrasées dans {1_coll} tiède, laissées reposer quelques heures : leur enzyme fait prendre le lait toute seule, sans présure ni gélifiant. « Endormir la figue », dit le nom.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AnjeerHalwa</defName>
+		<label>anjeer halwa</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} trempées puis broyées, cuites au ghee {1_plur} réduit jusqu'à ce que la masse se décolle de la casserole et brille.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AnjeerBarfi</defName>
+		<label>anjeer barfi</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une pâte {0_adj} et {1_adj} roulée en boudin, refroidie, puis tranchée en losanges. Assez ferme pour voyager, ce qui en fait le cadeau de fête par excellence.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================ CRÈMES ET GLACES -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CheesecakeAuxFigues</defName>
+		<label>cheesecake aux figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>un appareil {1_adj} et {2_adj} sous des quartiers {0_adj} rangés en rosace, laqués de leur propre sirop réduit.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GelatoAiFichi</defName>
+		<label>gelato ai fichi</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} mûres à point passées crues dans une base {1_adj} peu foisonnée. Les grains restent perceptibles sous la dent, et c'est ce qu'on cherche.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================= PAINS ET SALÉ ITALIEN -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FocacciaAuxFigues</defName>
+		<label>focaccia aux figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+		</ingredients>
+		<description>{0_coll} enfoncées dans la pâte creusée aux doigts, avec du romarin, de l'huile {2_adj} et du gros sel. Le sucre du fruit caramélise au contact de la plaque.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PizzaFiguesProsciutto</defName>
+		<label>pizza figues et prosciutto</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>une pâte blanche sans tomate, {0_coll} rôties dessus, et {2_coll} cru déposé à la sortie du four seulement — cuit, il durcit et perd tout.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsSandwich</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ProsciuttoEFichi</defName>
+		<label>prosciutto e fichi</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+		</ingredients>
+		<description>{0_coll} ouvertes en quatre sans les détacher, une tranche {1_adj} cru posée dessus, un filet d'huile. Rien de plus : c'est l'accord entier du salé et du sucré en deux ingrédients.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ==================================================== FIGUE ET FROMAGE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladeFiguesChevre</defName>
+		<label>salade de figues au chèvre</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} tièdes sur un lit {2_adj} poivrées, avec {1_coll} frais émietté et une vinaigrette au vinaigre balsamique réduit.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FiguesAuRoquefort</defName>
+		<label>figues au roquefort</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>{0_coll} farcies d'un bleu écrasé {2_plur} concassées, passées deux minutes sous le gril. Le sucre du fruit est la seule chose qui tienne tête à ce fromage.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ======================================================= FIGUE ET VIANDE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FoieGrasAuxFigues</defName>
+		<label>foie gras aux figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Offal</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>une escalope {1_adj} saisie trente secondes par face dans une poêle brûlante et sèche, déglacée {2_plur} doux, avec {0_coll} juste tiédies.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MagretAuxFigues</defName>
+		<label>magret de canard aux figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>{1_coll} cuite côté peau jusqu'à rendre sa graisse, {0_coll} caramélisées dedans, et la poêle déglacée {2_plur} rouge réduit en sirop.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AgneauAuxFigues</defName>
+		<label>agneau aux figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>une épaule {1_adj} braisée lentement {2_plur} fondus, {0_coll} ajoutées la dernière demi-heure pour ne pas se défaire complètement.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TajineAgneauFigues</defName>
+		<label>tajine d'agneau aux figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{1_coll} mijotée au safran, au gingembre et à la cannelle, {0_coll} sèches regonflées ajoutées à la fin avec des amandes grillées.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PorcAuxFigues</defName>
+		<label>porc aux figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+		</ingredients>
+		<description>un filet {1_adj} rôti rosé, la poêle déglacée et montée {2_plur}, avec {0_coll} poêlées à part au beurre.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================ CONDIMENTS -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChutneyDeFigues</defName>
+		<label>chutney de figues</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} rouges confits au vinaigre {2_plur}, jusqu'à ce que la préparation nappe la cuillère. Se sert avec les fromages affinés et les viandes froides.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ReductionFiguesBalsamique</defName>
+		<label>réduction de figues au balsamique</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} fondues dans un vinaigre vieilli et {2_coll}, réduites jusqu'au sirop noir et brillant. Un trait suffit ; deux, et le plat n'est plus qu'un dessert.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

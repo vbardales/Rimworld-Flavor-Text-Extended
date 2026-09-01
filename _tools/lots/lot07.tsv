@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_Meatloaf	meatloaf	0=MeatRaw 1=MeatRaw 2=MeatRaw	MealsNonSpecial	
+FlavorText_MincemeatPie	mincemeat pie	0=MeatRaw 1=Wheat 2=Fruit	MealsNonSpecial	
+FlavorText_Picadillo	picadillo	0=MeatRaw 1=Tomato 2=Berry	MealsNonSpecial	
+FlavorText_PyttIPanna	pytt i panna	0=MeatRaw 1=Potato/Onion	MealsNonSpecial	
+FlavorText_PyttIPanna_2	pytt i panna	0=MeatRaw 1=Potato/Onion 2=Beet/Potato/Onion/Egg/Cucumber	MealsNonSpecial	
+FlavorText_SwedishMeatballs	swedish meatballs	0=MeatRaw 1=Fruit 2=Potato	MealsNonSpecial	
+FlavorText_MeatRaw_Stroganoff_2	{0_adj} stroganoff	0=MeatRaw/Fungus 1=Dairy	MealsNonSpecial	
+FlavorText_Murtabak	murtabak	0=MeatRaw/Onion 1=Egg 2=Wheat	MealsNonSpecial	
+FlavorText_Fried_Ingredients_With_MeatRaw	fried {1_coll} with {0_coll}	0=MeatRaw/PlantFoodRaw 1=Ingredients	MealsNonSpecial	
+FlavorText_Colcannon	colcannon	0=Milk 1=Potato 2=LeafyVeg	MealsNonSpecial	
+FlavorText_PotatosObrien	potatos o'brien	0=Onion 1=Potato 2=BellPepper	MealsNonSpecial	
+FlavorText_PlantFoodRaw_Stoemp	{0_adj} stoemp	0=PlantFoodRaw 1=Potato	MealsNonSpecial	
+FlavorText_PlantFoodRaw_WooltonPie	{1_adj} woolton pie	0=PlantFoodRaw 1=PlantFoodRaw 2=Potato	MealsNonSpecial	
+FlavorText_BatataHarra	batata harra	0=Potato 1=Chili	MealsNonSpecial	
+FlavorText_BombayPotatoes	bombay potatoes	0=Potato 1=Chili 2=Spice	MealsNonSpecial	
+FlavorText_BubbleAndSqueak	bubble and squeak	0=Potato 1=Cabbage	MealsNonSpecial	
+FlavorText_Clapshot	clapshot	0=Potato 1=Turnip	MealsNonSpecial	
+FlavorText_HashBrowns	hash browns	0=Potato	MealsNonSpecial	
+FlavorText_HasselbackPotatoes	Hasselback potatoes	0=Potato	MealsNonSpecial	
+FlavorText_SwedishDill_Potato	Swedish dill {0_plur}	0=Potato 1=Dairy	MealsNonSpecial	
+FlavorText_Skordalia	skordalia	0=Potato/Nut 1=Garlic	MealsNonSpecial	
+FlavorText_BaioDeDois	baião de dois	0=Rice 1=Bean	MealsNonSpecial	
+FlavorText_BaioDeDois_2	baião de dois	0=Rice 1=Bean 2=MeatRaw/Dairy/Onion/Tomato/Chili/Cassava	MealsNonSpecial	
+FlavorText_BanhXeo	bánh xèo	0=Rice 1=Meat_Shellfish/Bean 2=Vegetable	MealsNonSpecial	
+FlavorText_KhanumKrok	khanum krok	0=Rice 1=Coconut 2=Sugar	MealsNonSpecial	
+FlavorText_Dambou	dambou	0=Rice/Millet/Wheat/Corn 1=LeafyVeg	MealsNonSpecial	
+FlavorText_Edamame	edamame	0=Soybean/Meat_Dryad	MealsNonSpecial	
+FlavorText_BrunedeKartofler	Brunede Kartofler	0=Sugar 1=Potato	MealsNonSpecial	
+FlavorText_Roasted_Vegetable	roasted {0_coll}	0=Vegetable	MealsNonSpecial	
+FlavorText_VegetableMacedonia	vegetable macedonia	0=Vegetable 1=Vegetable	MealsNonSpecial	
+FlavorText_Yachaejeon	yachaejeon	0=Vegetable 1=Vegetable 2=Grain	MealsNonSpecial	
+FlavorText_BunnyChow	bunny chow	0=Wheat 1=Ingredients 2=Spice	MealsNonSpecial	
+FlavorText_Croffle	croffle	0=Wheat 1=Dairy	MealsNonSpecial	
+FlavorText_Ingredients-FilledPastaShells	{1_sing}-filled pasta shells	0=Grain 1=Ingredients	MealsNoodle,MealsBake	
+FlavorText_Champorado	champorado	0=Rice 1=Chocolate	MealsNoodle,MealsDessert	
+FlavorText_LeafyVeg_Ravioli	{0_adj} ravioli	0=LeafyVeg 1=Milk 2=Wheat	MealsNoodle,MealsDumpling	
+FlavorText_BuddhaBowl	Buddha bowl	0=Rice/Quinoa 1=PlantFoodRaw/AnimalProductRaw 2=Nut	MealsNoodle,MealsSalad	
+FlavorText_FideoSoup	fideo soup	0=Grain 1=Tomato	MealsNoodle,MealsSoup	
+FlavorText_Ingredients_PancitCanton	{0_adj} pancit canton	0=Ingredients 1=Wheat 2=Fruit	MealsNoodle,MealsStirFry	
+FlavorText_Succotash	succotash	0=Bean 1=Corn	MealsNoodle	
+FlavorText_ArrozConMaiz	arroz con maiz	0=Corn 1=Rice	MealsNoodle	
+FlavorText_Cou-Cou	cou-cou	0=Corn 1=Okra	MealsNoodle	
+FlavorText_Omurice	omurice	0=Egg 1=Rice	MealsNoodle	
+FlavorText_DiriDjondjon	diri djondjon	0=Fungus 1=Rice	MealsNoodle	
+FlavorText_Bap	bap	0=Grain 1=Grain/Bean	MealsNoodle	
+FlavorText_ButterNoodles	butter noodles	0=Grain 1=Dairy	MealsNoodle	
+FlavorText_CacioEPepe	cacio e pepe	0=Grain 1=Dairy	MealsNoodle	
+FlavorText_Polenta	polenta	0=Grain	MealsNoodle	poste:Fire
+FlavorText_Spatzle	spätzle	0=Grain 1=Egg	MealsNoodle	
+FlavorText_Ingredients_Noodles	{0_adj} noodles	0=Ingredients	MealsNoodle	
+FlavorText_Ingredients_Orzotto	{0_adj} orzotto	0=Ingredients 1=Grain 2=Dairy/Coconut	MealsNoodle	
+FlavorText_Ingredients_Pilaf	{0_adj} pilaf	0=Ingredients 1=PlantFoodRaw 2=Grain	MealsNoodle	
+FlavorText_Ingredients_Risotto	{0_adj} risotto	0=Ingredients 1=Rice	MealsNoodle	
+FlavorText_Ingredients_Spaghetti	{0_adj} spaghetti	0=Ingredients 1=Ingredients 2=Ingredients	MealsNoodle	
+FlavorText_Ingredients_With_Ingredients_Noodles	{0_coll} with {1_adj} noodles	0=Ingredients 1=Ingredients	MealsNoodle	
+FlavorText_Couscous	couscous	0=Ingredients 1=Grain	MealsNoodle	
+FlavorText_Pesto	pesto	0=LeafyVeg 1=Grain 2=Dairy/Garlic/Seed/Olive	MealsNoodle	
+FlavorText_MadrasLentils	madras lentils	0=Lentil 1=Bean 2=Tomato	MealsNoodle	
+FlavorText_CincinnatiChili	Cincinnati chili	0=Meat_Cow 1=Tomato/Chili/Bean/Onion/Dairy 2=Grain	MealsNoodle	
+FlavorText_Carbonara	carbonara	0=Meat_Pig 1=Wheat 2=Milk	MealsNoodle	
+FlavorText_TavukPilav	tavuk pilav	0=Meat_Poultry 1=Rice 2=Onion/Garlic/BellPepper	MealsNoodle	
+FlavorText_Jambalaya	jambalaya	0=Meat_Poultry/Meat_Pig/Meat_Seafood 1=Rice 2=Celery/BellPepper/Onion	MealsNoodle	
+FlavorText_MeatRaw_Tortellini	{0_adj} tortellini	0=MeatRaw 1=Wheat	MealsNoodle	
+FlavorText_FurikakeGohan	furikake gohan	0=MeatRaw 1=Egg 2=Rice	MealsNoodle	
+FlavorText_Hash	hash	0=MeatRaw 1=Onion 2=Potato	MealsNoodle	
+FlavorText_SwedishSausageStroganoff	Swedish sausage stroganoff	0=MeatRaw 1=Tomato/Dairy 2=Grain/Potato	MealsNoodle	
+FlavorText_MeatRaw_Stroganoff	{0_adj} stroganoff	0=MeatRaw/Fungus 1=Dairy 2=Grain	MealsNoodle	
+FlavorText_Potato_Masala	{0_adj} masala	0=Potato 1=Rice	MealsNoodle	
+FlavorText_JollofRice	Jollof rice	0=Rice 1=Tomato	MealsNoodle	
+FlavorText_LocoMoco	loco moco	0=Rice 1=Meat_Cow 2=Egg	MealsNoodle	
+FlavorText_Maqluba	maqluba	0=Rice 1=MeatRaw 2=Eggplant	MealsNoodle	
+FlavorText_LolliCon_Bean	lolli con {2_sing}	0=Vegetable 1=Grain 2=Bean	MealsNoodle	
+FlavorText_MeatRaw_Freekeh	{1_adj} freekeh	0=Wheat 1=MeatRaw 2=Vegetable	MealsNoodle	
+FlavorText_MacaroniAndCheese	macaroni and cheese	0=Wheat 1=Milk	MealsNoodle	
+FlavorText_Mesfouf	mesfouf	0=Wheat 1=Fruit/Nut/Bean/MeatRaw/Chili/Dairy/Sugar 2=Fruit/Nut/Bean/MeatRaw/Chili/Dairy/Sugar	MealsNoodle	
+FlavorText_SpaghettiAndMeatballs	spaghetti and meatballs	0=Wheat 1=Tomato 2=MeatRaw	MealsNoodle	
+FlavorText_AnimalProductRaw_Chunks	{0_adj} chunks	0=AnimalProductRaw 1=AnimalProductRaw	MealsPaste	
+FlavorText_AnimalProductRaw_Gel	{0_adj} gel	0=AnimalProductRaw 1=AnimalProductRaw 2=AnimalProductRaw	MealsPaste	
+FlavorText_Jellied_AnimalProductRaw	jellied {0_coll}	0=AnimalProductRaw	MealsPaste	
+FlavorText_SteamedRefried_Bean	steamed refried {0_coll}	0=Bean	MealsPaste	

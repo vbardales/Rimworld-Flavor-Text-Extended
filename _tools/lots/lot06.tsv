@@ -1,0 +1,81 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_ChiliPaste	chili paste	0=Chili	MealsNonSpecial	
+FlavorText_Pikliz	pikliz	0=Chili 1=Carrot/BellPepper/Onion	MealsNonSpecial	
+FlavorText_Corn_Pones	{0_adj} pones	0=Corn	MealsNonSpecial	
+FlavorText_Irio	irio	0=Corn 1=Pea 2=Potato	MealsNonSpecial	
+FlavorText_Corn_Cheese	{1_adj} cheese	0=Dairy 1=Corn	MealsNonSpecial	
+FlavorText_Rice_Pudding	{2_adj} pudding	0=Dairy 1=Egg 2=Rice	MealsNonSpecial	
+FlavorText_Mashed_Potato	mashed {1_coll}	0=Dairy 1=Potato	MealsNonSpecial	
+FlavorText_Scrambled_Egg	scrambled {1_coll}	0=Dairy 1=Egg	MealsNonSpecial	
+FlavorText_Egg_Bhurji	{0_adj} bhurji	0=Egg 1=Onion/Tomato/Chili/Garlic/Ginger	MealsNonSpecial	
+FlavorText_Egg_Over-Easy	{0_coll} over-easy	0=Egg	MealsNonSpecial	
+FlavorText_Egg_Over-Hard	{0_coll} over-hard	0=Egg	MealsNonSpecial	
+FlavorText_Egg_Over-Medium	{0_coll} over-medium	0=Egg	MealsNonSpecial	
+FlavorText_Egg_InABasket	{0_plur} in a basket	0=Egg 1=Grain	MealsNonSpecial	
+FlavorText_PlantFoodRaw_Kuku	{1_adj} kuku	0=Egg 1=PlantFoodRaw 2=PlantFoodRaw	MealsNonSpecial	
+FlavorText_AmericanOmlette	American omlette	0=Egg 1=Dairy/Vegetable/MeatRaw	MealsNonSpecial	
+FlavorText_Basted_Egg	basted {0_coll}	0=Egg	MealsNonSpecial	
+FlavorText_BrooklynRicottaScramble	Brooklyn ricotta scramble	0=Egg 1=Dairy	MealsNonSpecial	
+FlavorText_Deviled_Egg	deviled {0_plur}	0=Egg 1=Egg	MealsNonSpecial	
+FlavorText_EnqulalFirfir	enqulal firfir	0=Egg 1=Onion/Tomato/Chili/Garlic	MealsNonSpecial	
+FlavorText_FrenchOmlette	French omlette	0=Egg 1=Dairy	MealsNonSpecial	
+FlavorText_Fried_Egg	fried {0_coll}	0=Egg	MealsNonSpecial	
+FlavorText_Hard-Boiled_Egg	hard-boiled {0_coll}	0=Egg	MealsNonSpecial	
+FlavorText_NigerianEggStew	Nigerian egg stew	0=Egg 1=Tomato 2=BellPepper/Onion	MealsNonSpecial	
+FlavorText_Poached_Egg	poached {0_coll}	0=Egg	MealsNonSpecial	
+FlavorText_Scrambled_Egg_3	scrambled {0_coll}	0=Egg	MealsNonSpecial	
+FlavorText_SteamedEggs	steamed eggs	0=Egg	MealsNonSpecial	
+FlavorText_Strapatsada	strapatsada	0=Egg 1=Tomato	MealsNonSpecial	
+FlavorText_Sunny-Side-Up_Egg	sunny-side-up {0_coll}	0=Egg	MealsNonSpecial	
+FlavorText_Zarangollo	zarangollo	0=Egg 1=Squash/Onion	MealsNonSpecial	
+FlavorText_Zarangollo_2	zarangollo	0=Egg 1=Squash/Onion 2=Potato	MealsNonSpecial	
+FlavorText_BabaGhanoush	baba ghanoush	0=Eggplant	MealsNonSpecial	
+FlavorText_Nasaump	nasaump	0=Fruit/Nut 1=Corn	MealsNonSpecial	
+FlavorText_JellyFungus	jelly fungus	0=Fungus 1=Meat_Human	MealsNonSpecial	
+FlavorText_Black_Garlic	black {0_coll}	0=Garlic	MealsNonSpecial	
+FlavorText_BaconPancakes	bacon pancakes	0=Grain 1=Dairy/Egg 2=Meat_Pig	MealsNonSpecial	
+FlavorText_Gachas	gachas	0=Grain	MealsNonSpecial	
+FlavorText_Skordalia_2	skordalia	0=Grain 1=Garlic	MealsNonSpecial	
+FlavorText_Ingredients_MeatRaw_Sautee	{0_adj} {1_adj} sautee	0=Ingredients 1=MeatRaw	MealsNonSpecial	
+FlavorText_Ingredients_Bauernfruhstuck	{0_adj} bauernfrühstück	0=Ingredients 1=Egg 2=Potato	MealsNonSpecial	
+FlavorText_Ingredients_Buchimgae	{0_adj} buchimgae	0=Ingredients 1=MeatRaw 2=Egg	MealsNonSpecial	
+FlavorText_Ingredients_Esquites	{0_adj} esquites	0=Ingredients 1=Corn	MealsNonSpecial	
+FlavorText_Ingredients_Frittata	{0_adj} frittata	0=Ingredients 1=Ingredients 2=Egg	MealsNonSpecial	
+FlavorText_Ingredients_Omlette	{0_adj} omlette	0=Ingredients 1=Egg	MealsNonSpecial	
+FlavorText_Ingredients_Stuffed_Fungus	{0_adj} stuffed {1_coll}	0=Ingredients 1=Fungus	MealsNonSpecial	
+FlavorText_Ingredients_With_Fruit_Chutney	{0_coll} with {1_adj} chutney	0=Ingredients 1=Fruit	MealsNonSpecial	
+FlavorText_Ingredients_Patina	{2_adj} patina	0=Ingredients 1=Ingredients 2=Ingredients	MealsNonSpecial	
+FlavorText_CharcuterieBoard	charcuterie board	0=Ingredients 1=MeatRaw 2=MeatRaw	MealsNonSpecial	
+FlavorText_Fried_Ingredients	fried {0_coll}	0=Ingredients	MealsNonSpecial	
+FlavorText_Jumeok-Bap	jumeok-bap	0=Ingredients 1=Rice	MealsNonSpecial	
+FlavorText_Kush	kush	0=Ingredients 1=Corn 2=Onion	MealsNonSpecial	
+FlavorText_Norii	norii	0=Kelp	MealsNonSpecial	
+FlavorText_Laulau	laulau	0=LeafyVeg 1=MeatRaw/RootVeg	MealsNonSpecial	
+FlavorText_Corned_Meat_Cow_And_Cabbage	corned {0_coll} and {1_coll}	0=Meat_Cow 1=Cabbage	MealsNonSpecial	
+FlavorText_Estrogonoffe	estrogonoffe	0=Meat_Cow 1=Tomato 2=Dairy	MealsNonSpecial	
+FlavorText_JiggsDinner	Jiggs dinner	0=Meat_Cow 1=RootVeg/Cabbage	MealsNonSpecial	
+FlavorText_SteakTartare	steak tartare	0=Meat_Cow 1=Egg	MealsNonSpecial	
+FlavorText_Gefilte_Meat_Fish	gefilte {0_coll}	0=Meat_Fish 1=Carrot	MealsNonSpecial	
+FlavorText_Bobotie	bobotie	0=Meat_Hoofed 1=Egg 2=Condiment	MealsNonSpecial	
+FlavorText_Yukhoe	yukhoe	0=Meat_Mammal/Meat_Poultry 1=Pear/Egg/Nut	MealsNonSpecial	
+FlavorText_Sisig	sisig	0=Meat_Pig 1=Meat_Poultry	MealsNonSpecial	
+FlavorText_Trinxat	trinxat	0=Meat_Pig 1=Potato 2=Cabbage	MealsNonSpecial	
+FlavorText_Ceviche	ceviche	0=Meat_Seafood 1=Citrus	MealsNonSpecial	
+FlavorText_Cocktail_Meat_Seafood	cocktail {0_coll}	0=Meat_Seafood 1=Tomato	MealsNonSpecial	
+FlavorText_TestiKebab	testi kebab	0=Meat_Sheep 1=Onion 2=Tomato/Garlic/BellPepper	MealsNonSpecial	
+FlavorText_MidyeDolma	midye dolma	0=Meat_Shellfish 1=Rice 2=Lemon	MealsNonSpecial	
+FlavorText_MeatRaw_Fricasee	{0_adj} fricasée	0=MeatRaw 1=Dairy	MealsNonSpecial	
+FlavorText_MeatRaw_Hotdish	{0_adj} hotdish	0=MeatRaw 1=PlantFoodRaw 2=Grain	MealsNonSpecial	
+FlavorText_MeatRaw_Mincemeat	{0_adj} mincemeat	0=MeatRaw 1=Fruit	MealsNonSpecial	
+FlavorText_MeatRaw_Paprikash	{0_adj} paprikash	0=MeatRaw 1=Dairy	MealsNonSpecial	
+FlavorText_MeatRaw_Picadillo	{0_adj} picadillo	0=MeatRaw 1=Potato	MealsNonSpecial	
+FlavorText_MeatRaw_And_Fungus_SpudPies	{0_sing} and {1_sing} spud pies	0=MeatRaw 1=Fungus 2=Potato	MealsNonSpecial	
+FlavorText_MeatRaw_Stuffed_Citrus	{0_sing} stuffed {1_coll}	0=MeatRaw 1=Citrus 2=Nut/Fungus	MealsNonSpecial	
+FlavorText_MeatRaw_MeatRaw_BreakfastSausage	{1_adj} {0_adj} breakfast sausage	0=MeatRaw 1=MeatRaw 2=Fruit	MealsNonSpecial	
+FlavorText_MeatRaw_BangersAndMash	{1_adj} bangers and mash	0=MeatRaw 1=MeatRaw 2=Potato	MealsNonSpecial	
+FlavorText_PlantFoodRaw_Stamppot	{1_adj} stamppot	0=MeatRaw 1=PlantFoodRaw 2=Potato	MealsNonSpecial	
+FlavorText_BlackPudding	black pudding	0=MeatRaw 1=Oat	MealsNonSpecial	
+FlavorText_Braised_MeatRaw	braised {0_coll}	0=MeatRaw	MealsNonSpecial	
+FlavorText_Braised_MeatRaw_WithRum	braised {0_coll} with rum	0=MeatRaw 1=Sugar 2=Fruit	MealsNonSpecial	
+FlavorText_ChristmasPudding	christmas pudding	0=MeatRaw 1=Grain 2=Fruit	MealsNonSpecial	
+FlavorText_Corned_MeatRaw	corned {0_coll}	0=MeatRaw 1=Spice/Sugar	MealsNonSpecial	

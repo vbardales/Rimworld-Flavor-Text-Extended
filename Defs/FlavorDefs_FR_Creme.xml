@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  La crème.
+
+  FT_Cream apparaît dans 66 defs et rencontre déjà soixante catégories. L'analyse
+  par ARBRE — celle qui tient compte du fait qu'un emplacement déclarant FT_Fruit
+  accepte aussi FT_Pear, parce que le moteur descend récursivement dans les
+  catégories filles — montre que les manques réels sont ailleurs :
+
+      Rice        136 defs, jamais avec la crème
+      Bean        128
+      Tomato      112
+      Chili        91
+      Corn         62
+      Coconut      47
+      BellPepper   42
+      Meat_Mutton  29
+      Eggplant     23   Lentil 19   Cucumber 18   Squash 18   Artichoke 16
+
+  Les dix-huit plats ci-dessous couvrent treize de ces catégories.
+
+  Convention d'écriture des descriptions : on privilégie {N_adj} (« de X », avec
+  élision) et {N_plur} (« à la X ») à l'intérieur d'un groupe nominal dont le nom
+  de tête est écrit en dur. Cela évite tout accord en genre sur un mot inconnu.
+-->
+<Defs>
+
+	<!-- ============================================================== RIZ -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RizAuLait</defName>
+		<label>riz au lait</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cuit très lentement {1_plur} vanillée jusqu'à rendre tout son amidon, avec à peine {2_adj} ajouté en fin de cuisson. Le grain doit se défaire sous la cuillère sans jamais tourner en farine.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Phirni</defName>
+		<label>phirni</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Almond</li></categories></li>
+		</ingredients>
+		<description>{0_coll} moulu en semoule fine avant cuisson, épaissi {1_plur} et parfumé à la cardamome, servi glacé en coupelle de terre cuite avec un voile {2_adj} par-dessus.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RizCremeuxChampignons</defName>
+		<label>riz crémeux aux champignons</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{0_coll} nacré au beurre puis mouillé louche après louche, lié {1_plur} hors du feu. La poêlée {2_adj} se fait à part, sinon elle rend son eau dans le riz et tout devient mou.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =========================================================== TOMATE -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_VelouteDeTomate</defName>
+		<label>velouté de tomate</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
+		</ingredients>
+		<description>une purée {0_adj} passées au four avant d'être mixées, montée {1_plur} et {2_plur} hors du feu. Le passage au four concentre le sucre et efface l'acidité, ce qu'aucun ajout ne fait aussi bien.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PenneAllaVodka</defName>
+		<label>penne alla vodka</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Alcohol</li></categories></li>
+		</ingredients>
+		<description>une sauce {0_adj} concentrée au double, détendue {1_plur} et relevée d'un trait {2_adj} qui libère des arômes que ni l'eau ni la graisse n'atteignent seules.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PouletAuBeurre</defName>
+		<label>poulet au beurre</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+		</ingredients>
+		<description>{2_coll} marinée au yaourt puis grillée, mijotée ensuite dans une sauce {0_adj} au fenugrec et adoucie {1_plur}. Née à Delhi d'un reste de tandoori qu'il fallait rallonger pour le service du soir.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =========================================================== PIMENT -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RajasConCrema</defName>
+		<label>rajas con crema</label>
+		<ingredients>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Corn</li></categories></li>
+		</ingredients>
+		<description>des lanières {0_adj} grillés jusqu'au noir puis pelés, étuvées {1_plur} et {2_plur} doux. La peau brûlée se retire à la main sous l'eau, et c'est tout le travail.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PouletPaprika</defName>
+		<label>poulet paprika</label>
+		<ingredients>
+			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+		</ingredients>
+		<description>{2_coll} braisée dans un roux {0_adj} doux et beaucoup d'oignon, liée {1_plur} hors du feu pour que la sauce ne tranche pas. Le paprika brûle en trois secondes : on le jette casserole retirée.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ============================================================= MAÏS -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChowderDeMais</defName>
+		<label>chowder de maïs</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+		</ingredients>
+		<description>une soupe épaisse {0_adj} et {2_adj} en dés, liée {1_plur}, où les rafles ont bouilli dans le lait une demi-heure avant d'être retirées. Elles ne se mangent pas, mais elles donnent tout.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ========================================================= HARICOTS -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_HaricotsVertsCreme</defName>
+		<label>haricots verts à la crème</label>
+		<ingredients>
+			<li><categories><li>FT_Bean</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} blanchis au vert et refroidis net, puis étuvés {1_plur} avec une fondue {2_adj}. Se sert avec le rôti, et tient lieu de rôti les jours où il n'y en a pas.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_VelouteHaricotsBlancs</defName>
+		<label>velouté de haricots blancs</label>
+		<ingredients>
+			<li><categories><li>FT_Bean</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>une purée {0_adj} trempés la veille, montée {1_plur} et parfumée {2_plur} confit dans son huile. Elle épaissit en refroidissant : on la détend au bouillon plutôt qu'à l'eau.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- =============================================== LÉGUMES ET AUTRES -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_KormaDAgneau</defName>
+		<label>korma d'agneau</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Almond</li></categories></li>
+		</ingredients>
+		<description>{0_coll} mijotée à feu mourant dans une pâte {2_adj} et de cardamome, liée {1_plur} en toute fin. Aucun piment n'y entre : la douceur est le sujet du plat, pas son défaut.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PoivronsALaCreme</defName>
+		<label>poivrons à la crème</label>
+		<ingredients>
+			<li><categories><li>FT_BellPepper</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{0_coll} taillés en lanières et fondus une heure {2_plur}, puis liés {1_plur} et d'un tour de moulin. Ils rendent beaucoup d'eau, alors on cuit à découvert du début à la fin.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Mizeria</defName>
+		<label>mizeria</label>
+		<ingredients>
+			<li><categories><li>FT_Cucumber</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} tranchés à la mandoline, dégorgés au gros sel puis noyés {1_plur} acidulée, {2_plur} et beaucoup d'aneth. Se mange glacé, l'été, avec des pommes de terre tièdes.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DalMakhani</defName>
+		<label>dal makhani</label>
+		<ingredients>
+			<li><categories><li>FT_Lentil</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} noires cuites une nuit entière sur un feu mourant, montées au beurre et {1_plur}, {2_plur} entières retirées au moment de servir. Le noir vient du temps, pas d'un ingrédient.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CremeDArtichauts</defName>
+		<label>crème d'artichauts</label>
+		<ingredients>
+			<li><categories><li>FT_Artichoke</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+		</ingredients>
+		<description>des fonds {0_adj} tournés au couteau puis étuvés, mixés et montés {1_plur}, tenus au blanc {2_plur} pour qu'ils ne noircissent pas entre le tour et la casserole.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AuberginesALaCreme</defName>
+		<label>aubergines à la crème</label>
+		<ingredients>
+			<li><categories><li>FT_Eggplant</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Garlic</li></categories></li>
+		</ingredients>
+		<description>{0_coll} brûlées à la flamme jusqu'à ce que la peau cède, chair écrasée à la fourchette, montée {1_plur} et {2_plur} cru. Le goût de fumée vient de la peau, qu'on jette pourtant.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_VelouteDeCourge</defName>
+		<label>velouté de courge</label>
+		<ingredients>
+			<li><categories><li>FT_Squash</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} rôtie en moitiés face contre la plaque, grattée à la cuillère quand elle s'affaisse, mixée {1_plur} et relevée {2_plur} et de muscade râpée au dernier moment.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PannaCottaCoco</defName>
+		<label>panna cotta à la noix de coco</label>
+		<ingredients>
+			<li><categories><li>FT_Coconut</li></categories></li>
+			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>{1_coll} portée au frémissement {0_plur} râpée et à peine {2_adj}, prise à la gélatine puis démoulée. Elle doit trembler quand on pose l'assiette ; ferme, elle est ratée.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

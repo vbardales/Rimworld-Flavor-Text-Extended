@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  含商咀徵 — 神州文化扩展 / Chinese Traditional Cultural Things Expanded
+  DEUX versions du mod sont installées, avec des packageId différents :
+    2371079000  Dajian.ChiTeaditional.Expanded.OldMode   versions 1.2 – 1.3
+    2877536640  Dajian.ChiTeaditional.Expanded           versions 1.2 – 1.5
+  Les dix-sept ThingDefs visés existent dans les deux. Une garde MayRequire sur le
+  seul .OldMode aurait rendu tout ce fichier inerte si c'est l'autre qui est chargé —
+  sans le moindre message. On emploie donc MayRequireAnyOf, dont la sémantique est
+  bien « l'un OU l'autre » là où MayRequire exige TOUS les packageId listés.
+
+  Le mod livre 45 ThingDefs comestibles dont TOUS les labels sont en chinois. Il
+  embarque bien un dossier Languages/English, mais celui-ci ne traduit aucun de ces
+  ingrédients : les labels restent 青稞杆, 优质梅菜, 银杏果 quelle que soit la langue.
+
+  Flavor Text catégorise par mots-clés latins comparés au label. Aucun ne peut donc
+  atteindre ces ThingDefs, et le rattachement nominal est la seule voie — comme pour
+  la viande séchée et les fromages du mod RimLife.
+
+  Ce qui est rattaché ici : les INGRÉDIENTS bruts ou semi-transformés seulement.
+  Les plats finis du mod (饺子 jiaozi, 火锅 hot pot, 月饼 gâteaux de lune, 北京烤鸭
+  canard laqué de Pékin…) sont laissés de côté : ce sont des repas nommés, pas des
+  ingrédients, et Flavor Text n'a pas à rebaptiser un canard laqué de Pékin.
+
+  粽叶 (RawZongYe), les feuilles de roseau du zongzi, sont volontairement exclues :
+  elles enveloppent la cuisson mais ne se mangent pas — même raisonnement que pour
+  la feuille de lotus.
+
+  TROIS RÉSERVES, à connaître avant de compter dessus :
+    1. aucune des deux versions ne déclare 1.6 : la première s'arrête à 1.3, la
+       seconde à 1.5, et le LoadFolders de la première ne connaît que v1.2 et v1.3.
+    2. il ne figure pas dans la liste RimSort de 1201 mods : il est souscrit, pas actif.
+    3. sa catégorie DaJianFood descend de FoodMeals, donc ses plats finis pourraient
+       être happés par Flavor Text et rebaptisés. À surveiller si le mod est activé.
+
+  La garde rend l'ensemble inerte tant qu'aucune des deux versions n'est chargée :
+  ce fichier ne coûte rien s'il ne sert pas.
+-->
+<Patch>
+
+	<!-- 青稞 : l'orge de l'Himalaya. Le mod fournit le grain et la farine. -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Barley"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">RawQingKe</li>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedQingKe</li>
+		</value>
+	</Operation>
+
+	<!-- 杂交水稻米 riz hybride, 糯米粉 farine de riz gluant, 精米面 farine de riz raffinée -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Rice"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">RawZaJiaoShuiDao</li>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawRice</li>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedJingMi</li>
+		</value>
+	</Operation>
+
+	<!-- 优质梅菜 : moutarde brune séchée et salée, base du 梅菜扣肉 -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_LeafyVeg"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">MeiCai</li>
+		</value>
+	</Operation>
+
+	<!-- 土豆干 pomme de terre séchée -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Potato"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawPotato</li>
+		</value>
+	</Operation>
+
+	<!-- 玉米干 maïs séché -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Corn"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawMaize</li>
+		</value>
+	</Operation>
+
+	<!-- 混合素食干 : mélange de légumes séchés, sans dominante -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Vegetable"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawMixture</li>
+		</value>
+	</Operation>
+
+	<!-- 狮头柑 : un agrume du Zhejiang, proche du pomelo -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Citrus"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">SZ_ShiTouGan</li>
+		</value>
+	</Operation>
+
+	<!-- 油辣子 : huile de piment -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Chili"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">LaJiao</li>
+		</value>
+	</Operation>
+
+	<!-- 银杏果 : la noix de ginkgo, qu'on grille et qu'on met dans le chawanmushi -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Nut"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">YinXingGuo</li>
+		</value>
+	</Operation>
+
+	<!-- 成熟艾叶 : l'armoise, employée en aromate autant qu'en remède -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Spice"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">AiYe</li>
+		</value>
+	</Operation>
+
+	<!-- 黄酒 vin jaune, 白酒 alcool blanc, 雄黄酒 vin au réalgar, 白果酒 vin de ginkgo -->
+	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
+		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Alcohol"]/thingDefsToAbsorb</xpath>
+		<value>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">HuangJiu</li>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">BaiJiu</li>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">XiongHuangJiu</li>
+			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">BaiGuoJiu</li>
+		</value>
+	</Operation>
+
+</Patch>

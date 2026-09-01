@@ -1,0 +1,51 @@
+defName	label_en	slots	mealKind	contraintes
+FlavorText_Khoresh_2	khoresh	0=MeatRaw/PlantFoodRaw 1=Fruit	MealsSoup	
+FlavorText_MeatRaw_Hotpot	{0_adj} hotpot	0=MeatRaw/Vegetable 1=MeatRaw/Vegetable 2=MeatRaw/Vegetable	MealsSoup	
+FlavorText_MeatRaw_Sukiyaki	{0_adj} sukiyaki	0=MeatRaw/Vegetable 1=MeatRaw/Vegetable 2=MeatRaw/Vegetable	MealsSoup	
+FlavorText_ShabuShabu	shabu shabu	0=MeatRaw/Vegetable 1=MeatRaw/Vegetable 2=MeatRaw/Vegetable	MealsSoup	
+FlavorText_EmaDatshi	ema datshi	0=Milk 1=Onion 2=Chili	MealsSoup	
+FlavorText_SaagChhena	saag chhena	0=Milk 1=Rice 2=LeafyVeg	MealsSoup	
+FlavorText_ShishAndaaz	shish andaaz	0=Nut/Carrot 1=Eggplant/Egg 2=Fruit	MealsSoup	
+FlavorText_Oatmeal	oatmeal	0=Oat	MealsSoup	
+FlavorText_OatmealWith_Ingredients	oatmeal with {1_coll}	0=Oat 1=Ingredients	MealsSoup	
+FlavorText_Caruru	caruru	0=Okra 1=Meat_Shellfish 2=Onion/Nut	MealsSoup	
+FlavorText_FrenchOnionSoup	French onion soup	0=Onion 1=Milk 2=Grain	MealsSoup	
+FlavorText_Snert	snert	0=Pea 1=MeatRaw 2=RootVeg/Onion/Celery	MealsSoup	
+FlavorText_PlantFoodRaw_Fungus_Soup	{0_adj} {1_adj} soup	0=PlantFoodRaw 1=Fungus	MealsSoup	
+FlavorText_PlantFoodRaw_Stew	{0_adj} stew	0=PlantFoodRaw	MealsSoup	
+FlavorText_BinteBilihuta	binte bilihuta	0=PlantFoodRaw 1=Corn 2=Coconut	MealsSoup	
+FlavorText_DalBhat	dal bhat	0=PlantFoodRaw 1=Rice 2=Bean	MealsSoup	
+FlavorText_CaldoVerde	caldo verde	0=Potato 1=LeafyVeg	MealsSoup	
+FlavorText_CaldoVerde_2	caldo verde	0=Potato 1=LeafyVeg 2=MeatRaw	MealsSoup	
+FlavorText_Domoda	domoda	0=Rice 1=Vegetable 2=Tomato	MealsSoup	
+FlavorText_SopSop	sop sop	0=RootVeg 1=Yam 2=Coconut/Meat_Seafood/Pumpkin	MealsSoup	
+FlavorText_Pisto	pisto	0=Squash/Eggplant 1=Tomato/Onion/BellPepper 2=Grain	MealsSoup	
+FlavorText_Pisto_2	pisto	0=Squash/Eggplant 1=Tomato/Onion/BellPepper	MealsSoup	
+FlavorText_Pisto_3	pisto	0=Squash/Eggplant 1=Tomato/Onion/BellPepper 2=Egg/Meat_Pig	MealsSoup	
+FlavorText_Achu	achu	0=Taro 1=MeatRaw 2=Coconut	MealsSoup	
+FlavorText_Gazpacho	gazpacho	0=Tomato 1=Cucumber/BellPepper 2=Grain	MealsSoup	
+FlavorText_Vegetable_Sambar	{0_adj} sambar	0=Vegetable 1=Lentil 2=Spice	MealsSoup	
+FlavorText_Callaloo	callaloo	0=Vegetable 1=Taro/Amaranth	MealsSoup	
+FlavorText_Chakalaka	chakalaka	0=Vegetable 1=Bean 2=Tomato	MealsSoup	
+FlavorText_GroundnutSoup	groundnut soup	0=Vegetable 1=Peanut	MealsSoup	
+FlavorText_FreekehSoup	freekeh soup	0=Wheat 1=MeatRaw 2=Vegetable	MealsSoup	
+FlavorText_TempehOrek	tempeh orek	0=Soybean/Meat_Dryad 1=Bean 2=Chili	MealsStirFry,MealsDumpling	
+FlavorText_Ingredients_Pancit	{0_adj} pancit	0=Ingredients 1=Grain 2=Fruit	MealsStirFry,MealsNoodle	
+FlavorText_Ingredients_PancitBihon	{0_adj} pancit bihon	0=Ingredients 1=Fruit 2=Rice	MealsStirFry,MealsNoodle	
+FlavorText_Ingredients_Ingredients_Curry	{0_adj} {1_adj} curry	0=Ingredients 1=Ingredients 2=Ingredients	MealsStirFry,MealsSoup	
+FlavorText_Thai_Ingredients_Curry	Thai {0_adj} curry	0=Ingredients 1=Coconut 2=Spice	MealsStirFry,MealsSoup	
+FlavorText_Onion_Jalfrezi	{0_adj} jalfrezi	0=Onion 1=Tomato 2=BellPepper	MealsStirFry,MealsSoup	
+FlavorText_MapoTofu	mapo tofu	0=Soy/Meat_Dryad 1=Meat_Cow/Meat_Pig 2=Bean/Garlic/Chili	MealsStirFry,MealsSoup	
+FlavorText_GalamPleePadNamPla	galam plee pad nam pla	0=Cabbage	MealsStirFry	
+FlavorText_Ingredients_PlantFoodRaw_StirFry	{0_adj} {1_adj} stir fry	0=Ingredients 1=PlantFoodRaw	MealsStirFry	
+FlavorText_Ingredients_Ingredients_StirFry	{0_adj} {1_adj} stir fry	0=Ingredients 1=Ingredients	MealsStirFry	
+FlavorText_Ingredients_ChowMein	{0_adj} chow mein	0=Ingredients 1=Grain	MealsStirFry	
+FlavorText_Ingredients_Fried_Rice	{0_adj} fried {2_coll}	0=Ingredients 1=Egg 2=Rice	MealsStirFry	
+FlavorText_Ingredients_DrunkenNoodles	{1_adj} drunken noodles	0=Ingredients 1=Ingredients 2=Rice	MealsStirFry	
+FlavorText_Fried_Ingredients_2	fried {0_coll}	0=Ingredients	MealsStirFry	
+FlavorText_LoMein	lo mein	0=Ingredients 1=Ingredients 2=Grain	MealsStirFry	
+FlavorText_Meat_Cow_ChowFun	{0_adj} chow fun	0=Meat_Cow 1=Ingredients 2=Grain	MealsStirFry	
+FlavorText_KhuaKling	khua kling	0=MeatRaw	MealsStirFry	
+FlavorText_PadPrikKing	pad prik king	0=MeatRaw 1=Bean 2=Chili	MealsStirFry	
+FlavorText_PadPak	pad pak	0=Vegetable 1=Vegetable	MealsStirFry	
+FlavorText_PadPakRuam	pad pak ruam	0=Vegetable 1=Vegetable 2=Vegetable	MealsStirFry	

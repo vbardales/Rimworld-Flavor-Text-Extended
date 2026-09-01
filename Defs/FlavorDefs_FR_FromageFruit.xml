@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Fromage et fruit, fromage et légume — hors gratin.
+
+  L'analyse de couverture désignait ces deux paires comme les plus rentables du mod :
+  Cheese a 65 defs, Fruit et Vegetable une soixantaine chacun, et ils ne se
+  rencontraient dans AUCUNE. Tout le registre des salades, plateaux, farcis et
+  tartines européens n'avait donc aucun nom.
+
+  Note sur les six accords canoniques : poire-roquefort et poire-gorgonzola sont le
+  même couple d'ingrédients. On les sépare par leur support — salade aux noix pour
+  l'un, pizza pour l'autre.
+
+  Le coing est rattaché à FT_Apple par mots-clés (voir Patches/Keywords_FR.xml).
+-->
+<Defs>
+
+	<!-- ==================================================== FROMAGE ET FRUIT -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladePoireRoquefortNoix</defName>
+		<label>salade poire-roquefort aux noix</label>
+		<ingredients>
+			<li><categories><li>FT_Pear</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en lamelles fines, un bleu écrasé à la fourchette et {2_coll} grillées, sur des feuilles amères. L'accord tient parce que le sucre de la poire éteint le sel du fromage.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PizzaPoireGorgonzola</defName>
+		<label>pizza poire-gorgonzola</label>
+		<ingredients>
+			<li><categories><li>FT_Pear</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>une pâte blanche sans tomate, {1_coll} en gouttes et {0_coll} en tranches déposées à mi-cuisson pour ne pas se dessécher, avec un filet de miel à la sortie.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsSandwich</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CrostiniFigueChevre</defName>
+		<label>crostini figue-chèvre</label>
+		<ingredients>
+			<li><categories><li>FT_Fig</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>des tranches de pain grillées, {1_coll} frais écrasé dessus et {0_coll} ouvertes en quatre, passées trente secondes sous le gril. Le miel se verse après, jamais avant.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GrilledCheesePommeCheddar</defName>
+		<label>croque pomme-cheddar</label>
+		<ingredients>
+			<li><categories><li>FT_Apple</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>{1_coll} affiné et {0_coll} en fines lamelles entre deux tranches beurrées, pressées à la poêle. La pomme rend un peu d'eau qui empêche le fromage de figer.</description>
+		<mealKinds>
+			<li>FT_MealsSandwich</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ManchegoConMembrillo</defName>
+		<label>manchego con membrillo</label>
+		<ingredients>
+			<li><categories><li>FT_Apple</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>une pâte de coing cuite {2_plur} jusqu'à se trancher au couteau, posée sur un copeau {1_adj} de brebis. Deux ingrédients, aucun geste de cuisine, et l'un des accords les plus solides d'Europe.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladePastequeFeta</defName>
+		<label>salade pastèque-feta</label>
+		<ingredients>
+			<li><categories><li>FT_Melon</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} en gros cubes glacés, {1_coll} émietté, de la menthe et un tour de moulin. Le sel du fromage fait ressortir le sucre du fruit, qui paraît alors plus mûr qu'il n'est.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladePecheBurrata</defName>
+		<label>salade pêche-burrata</label>
+		<ingredients>
+			<li><categories><li>FT_Peach</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+		</ingredients>
+		<description>{0_coll} bien mûres en quartiers, une burrata ouverte au centre qui se répand, huile {2_adj} et basilic. Rien n'est cuit, rien n'est assaisonné à l'avance.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChevreChaudAuxCerises</defName>
+		<label>chèvre chaud aux cerises</label>
+		<ingredients>
+			<li><categories><li>FT_Cherry</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>un crottin {1_adj} posé sur une tranche de pain et passé au four jusqu'à couler, avec {0_coll} poêlées au vinaigre. L'acidité du fruit tranche le gras du fromage chaud.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PlateauFromageFruitsSecs</defName>
+		<label>plateau de fromages aux fruits secs</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Date</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>trois ou quatre fromages sortis une heure avant, {1_coll} et {2_coll}, servis du plus doux au plus fort dans le sens des aiguilles. On coupe la pointe en dernier.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_RicottaAuMiel</defName>
+		<label>ricotta au miel et aux noix</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>{0_coll} frais battu à la fourchette, arrosé {1_plur} et couvert {2_adj} concassées. Se sert en dessert ou en entrée selon l'humeur, et personne ne trouve à y redire.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<!-- ================================================== FROMAGE ET LÉGUME -->
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BetteravesAuChevre</defName>
+		<label>betteraves au chèvre</label>
+		<ingredients>
+			<li><categories><li>FT_Beet</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
+		</ingredients>
+		<description>{0_coll} rôties en robe puis pelées tièdes, avec {1_coll} frais et {2_coll} grillées. La terre de la betterave et l'acidité du chèvre se répondent exactement.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PoivronsFarcisFeta</defName>
+		<label>poivrons farcis à la feta</label>
+		<ingredients>
+			<li><categories><li>FT_BellPepper</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+		</ingredients>
+		<description>de petits {0_coll} rouges épépinés, remplis {1_plur} et d'herbes, confits dans l'huile {2_adj} jusqu'à ce que la peau se plisse.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChampignonsFarcis</defName>
+		<label>champignons farcis au fromage</label>
+		<ingredients>
+			<li><categories><li>FT_Fungus</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>{0_coll} dépiedés et remplis d'une farce {1_adj} et de chapelure, cuits jusqu'à ce qu'ils rendent leur eau et la reprennent.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Saganaki</defName>
+		<label>saganaki</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Lemon</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>une tranche épaisse {0_adj} dur farinée et saisie dans une petite poêle à deux anses, jusqu'à former une croûte. Arrosée {1_plur} à table, parfois flambée.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FetaRotieAuxTomates</defName>
+		<label>feta rôtie aux tomates</label>
+		<ingredients>
+			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Olive</li></categories></li>
+		</ingredients>
+		<description>un bloc {1_adj} posé au centre d'un plat rempli {0_adj} cerises, noyé d'huile {2_adj} et rôti jusqu'à ce que tout s'affaisse. On écrase et on mélange dans le plat même.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Gnudi</defName>
+		<label>gnudi ricotta-épinards</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>la farce d'un ravioli sans son enveloppe — {0_coll} et {1_coll} liés d'un peu de farine et pochés nus. « Gnudi » veut dire déshabillés.</description>
+		<mealKinds>
+			<li>FT_MealsDumpling</li>
+			<li>FT_MealsNoodle</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_HalloumiGrilleLegumes</defName>
+		<label>halloumi grillé aux légumes</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
+			<li><categories><li>FT_Spice</li></categories></li>
+		</ingredients>
+		<description>{0_coll} tranché épais et grillé jusqu'à quadriller sans fondre — c'est le seul fromage qui tienne sur le gril —, avec {1_coll} rôtis et du zaatar.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

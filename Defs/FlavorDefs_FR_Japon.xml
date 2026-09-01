@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Cuisine japonaise. Flavor Text couvrait déjà miso soup, takoyaki, tamago sushi,
+  tonkatsu et yakisoba-pan — on complète autour.
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Nikuman</defName>
+		<label>nikuman</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+		</ingredients>
+		<description>une brioche {0_adj} cuite à la vapeur, fourrée {1_plur} hachée et {2_plur}, si blanche et si molle qu'on la reconnaît au toucher. Se vend l'hiver au comptoir des épiceries de nuit.</description>
+		<mealKinds>
+			<li>FT_MealsDumpling</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Udon</defName>
+		<label>udon</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Kelp</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>des nouilles épaisses et molles, pétries au pied sous une toile, dans un bouillon clair {1_adj}. La texture compte plus que le goût, et elle est délibérée.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Soba</defName>
+		<label>soba</label>
+		<ingredients>
+			<li><categories><li>FT_Buckwheat</li></categories></li>
+			<li><categories><li>FT_Kelp</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>des nouilles {0_adj} grises, servies froides sur une claie avec une sauce {1_adj} à part. L'eau de cuisson se boit à la fin, allongée dans le reste de sauce.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AgedashiDofu</defName>
+		<label>agedashi dofu</label>
+		<ingredients>
+			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_Kelp</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>des cubes de tofu {0_adj} roulés dans la fécule et frits, posés dans un bouillon tiède {1_adj}. La croûte tient juste le temps d'arriver à table.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Oyakodon</defName>
+		<label>oyakodon</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{1_coll} et {2_coll} liés à peine dans un bouillon sucré-salé, versés sur {0_coll}. Le nom signifie « parent et enfant » ; personne n'a jamais prétendu que c'était délicat.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Gyudon</defName>
+		<label>gyudon</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>{1_coll} tranchée au rasoir et mijotée {2_plur} dans un bouillon sucré, servie sur {0_coll}. Le repas le plus rapide qu'on puisse manger assis.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Katsudon</defName>
+		<label>katsudon</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>une côte {1_adj} panée et frite, retrempée dans un bouillon {2_adj} qui ramollit exprès la panure, posée sur {0_coll}. On en mange la veille d'un examen : « katsu » veut aussi dire vaincre.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Onigiri</defName>
+		<label>onigiri</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Kelp</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+		</ingredients>
+		<description>{0_coll} pressé en triangle à mains salées et mouillées, fourré {2_adj}, ceinturé {1_plur}. Se garde une journée entière dans une poche.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Okonomiyaki</defName>
+		<label>okonomiyaki</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>une galette épaisse où {1_coll} émincés tiennent à peine ensemble {0_plur} et {2_plur}, cuite sur la plaque devant soi. Le nom veut dire « grillé comme il te plaît ».</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Chawanmushi</defName>
+		<label>chawanmushi</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>un flan salé {0_adj} cuit à la vapeur douce, si peu pris qu'on le mange à la cuillère, avec {1_coll} et {2_coll} cachés au fond. Trop chaud, il se crible de bulles et se gâche.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Nikujaga</defName>
+		<label>nikujaga</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} mijotées {2_plur} et au sucre, à couvert tombant, jusqu'à ce qu'il ne reste presque plus de liquide. Le plat qu'on cite quand on parle de cuisine de mère.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Chikuzenni</defName>
+		<label>chikuzenni</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{0_coll} et {1_coll} taillées en biseau, saisies à l'huile puis mijotées à sec avec {2_coll}, jusqu'à ce que le liquide ait entièrement disparu dans les légumes.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Nanbanzuke</defName>
+		<label>nanbanzuke</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_Chili</li></categories></li>
+		</ingredients>
+		<description>{0_coll} frite puis marinée chaude dans un vinaigre sucré {1_plur} et {2_plur}. « Nanban » désigne les Portugais, à qui l'on doit le procédé.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Tonjiru</defName>
+		<label>tonjiru</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+		</ingredients>
+		<description>une soupe {2_adj} fermenté chargée {0_adj} et de racines, {1_coll} comprises. Plus nourrissante que la soupe miso ordinaire, et servie quand il gèle.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Karaage</defName>
+		<label>karaage</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_Ginger</li></categories></li>
+		</ingredients>
+		<description>{0_coll} marinée {1_plur} et {2_plur}, roulée dans la fécule et frite deux fois. La fécule donne une croûte fine et cassante, très différente de la panure.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Korokke</defName>
+		<label>korokke</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>une purée {0_adj} mêlée {2_plur} hachée, panée à la chapelure grossière et frite. Descendante lointaine de la croquette française, arrivée par bateau au siècle dernier.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Chirashi</defName>
+		<label>chirashi</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} vinaigré étalé au fond d'un bol, « éparpillé » {1_plur} crue en tranches et de lanières d'omelette. Toute la difficulté du sushi, sans le geste du sushi.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Ochazuke</defName>
+		<label>ochazuke</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Tea</li></categories></li>
+			<li><categories><li>FT_Kelp</li></categories></li>
+		</ingredients>
+		<description>{1_coll} brûlant versé sur du riz froid, avec {2_coll} émietté. Le repas de fin de soirée, ou de fin de restes — les deux reviennent souvent au même.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Dorayaki</defName>
+		<label>dorayaki</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_RedBean</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>deux petites crêpes épaisses {2_plur} et au miel, refermées sur une pâte sucrée {1_adj}. Le nom vient du gong qu'elles imitent.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_Anmitsu</defName>
+		<label>anmitsu</label>
+		<ingredients>
+			<li><categories><li>FT_RedBean</li></categories></li>
+			<li><categories><li>FT_Kelp</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
+		</ingredients>
+		<description>des cubes de gelée {1_adj} — ferme, à peine sucrée — avec une pâte {0_adj} et un sirop noir {2_adj} versé à table. Le dessert d'été, servi glacé.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>
