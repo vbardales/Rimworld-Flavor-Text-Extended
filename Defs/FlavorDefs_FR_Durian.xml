@@ -26,7 +26,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 		</ingredients>
-		<description>{1_coll} gluant cuit à la vapeur et salé au lait {2_adj}, avec la chair {0_adj} posée dessus sans être mélangée. Le gras du coco et le sel tempèrent le fruit, qui autrement écrase tout.</description>
+		<description>sticky {1_coll} steamed and salted with {2_adj} milk, with the flesh of {0_adj} set on top and not stirred in. The fat of the coconut and the salt temper the fruit, which otherwise crushes everything.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -40,7 +40,7 @@
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_SugarFromPlants</li></categories></li>
 		</ingredients>
-		<description>la chair {0_adj} défaite dans un lait {1_adj} chaud sucré {2_plur} de palme, parfumé au pandan. Se mange tiède à la cuillère, entre la crème et la soupe.</description>
+		<description>the flesh of {0_adj} broken down in a hot {1_adj} milk sweetened with palm {2_plur}, scented with pandan. Eaten warm with a spoon, somewhere between a cream and a soup.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSoup</li>
@@ -55,7 +55,7 @@
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>des vermicelles verts de farine de riz au pandan, de la glace pilée, du lait {1_adj} et une cuillerée de chair {0_adj} par-dessus. On mélange tout avant de manger.</description>
+		<description>green vermicelli of rice flour and pandan, crushed ice, {1_adj} milk and a spoonful of the flesh of {0_adj} over the top. Everything is mixed together before eating.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -69,7 +69,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>de la glace pilée noyée de lait concentré {2_adj}, avec {0_coll} en morceaux et parfois du fromage râpé — l'accord indonésien qui déroute tout le monde et que personne ne remet en question là-bas.</description>
+		<description>crushed ice drowned in {2_adj} condensed milk, with {0_coll} in pieces and sometimes grated cheese — the Indonesian pairing that baffles everyone and that nobody there questions.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -83,7 +83,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_SugarFromPlants</li></categories></li>
 		</ingredients>
-		<description>une pâte de farine {1_adj} gluant, {2_adj} de palme et chair {0_adj}, remuée sans arrêt six heures durant au chaudron jusqu'à devenir presque noire et se détacher des parois.</description>
+		<description>a paste of sticky {1_adj} flour, palm {2_adj} and the flesh of {0_adj}, stirred without stopping for six hours in a cauldron until it turns almost black and pulls away from the sides.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -92,13 +92,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_DurianMochi</defName>
-		<label>mochi au durian</label>
+		<label>durian mochi</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>une peau de pâte {1_adj} gluant fourrée de chair {0_adj} froide. La pâte contient l'odeur jusqu'à la première morsure, ce qui en fait une farce redoutable.</description>
+		<description>a skin of sticky {1_adj} dough filled with cold {0_adj} flesh. The dough holds the smell in until the first bite, which makes it a formidable practical joke.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -115,7 +115,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>un gâteau vietnamien à pâte feuilletée en spirale, fourré de pâte {0_adj} et d'un jaune {2_adj} salé au centre. Les couches se décollent une à une à la découpe.</description>
+		<description>a Vietnamese cake of spiralled puff pastry, filled with a paste of {0_adj} and a salted {2_adj} yolk at the centre. The layers peel apart one by one at the cut.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -124,13 +124,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_DurianMooncake</defName>
-		<label>gâteau de lune au durian</label>
+		<label>durian mooncake</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_RedBean</li></categories></li>
 		</ingredients>
-		<description>une pâte de neige non cuite moulée au sceau, fourrée de chair {0_adj} et d'une pâte {2_adj} sucrés. Se sert glacé, contrairement au gâteau de lune classique.</description>
+		<description>an uncooked snow-skin dough pressed in a seal, filled with the flesh of {0_adj} and a sweetened {2_adj} paste. Served iced, unlike the classic mooncake.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -139,13 +139,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_DurianMilleCrepes</defName>
-		<label>mille-crêpes au durian</label>
+		<label>durian mille crêpes</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>vingt crêpes très fines empilées, chacune séparée d'une couche de chair {0_adj} montée {2_plur}. Se tranche net et se mange glacé.</description>
+		<description>twenty very fine pancakes stacked up, each parted from the next by a layer of {0_adj} flesh folded into whipped {2_plur}. Cut clean, and eaten iced.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -159,7 +159,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>de petits choux garnis d'une crème {0_adj} pure, servis froids. Vendus par boîtes réfrigérées à Singapour, et interdits dans le métro comme tout ce qui contient ce fruit.</description>
+		<description>small choux buns filled with a pure {0_adj} cream, served cold. Sold in refrigerated boxes in Singapore, and banned on the underground like everything else containing that fruit.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -168,13 +168,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_DurianCheesecake</defName>
-		<label>cheesecake au durian</label>
+		<label>durian cheesecake</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>un appareil {1_adj} sans cuisson, chargé de chair {0_adj}, pris au froid une nuit entière. Le fromage arrondit le fruit et le rend abordable aux non-initiés.</description>
+		<description>an uncooked {1_adj} filling loaded with the flesh of {0_adj}, set in the cold a whole night. The cheese rounds off the fruit and makes it approachable to the uninitiated.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -183,13 +183,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GateauAuDurian</defName>
-		<label>gâteau au durian</label>
+		<label>durian cake</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>une génoise très aérée où la chair {0_adj} est incorporée à la pâte crue. L'odeur envahit la cuisine pendant la cuisson et s'y installe pour la journée.</description>
+		<description>a very airy sponge into whose raw batter the flesh of {0_adj} is folded. The smell fills the kitchen while it bakes and settles there for the day.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -198,13 +198,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GlaceAuDurian</defName>
-		<label>glace au durian</label>
+		<label>durian ice cream</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>une base {1_adj} et {2_adj} où le fruit passe cru, sans cuisson qui atténuerait son parfum. Le froid l'assagit un peu ; un peu seulement.</description>
+		<description>a {1_adj} and {2_adj} base in which the fruit goes in raw, with no cooking to soften its scent. The cold tames it a little; a little only.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -220,7 +220,7 @@
 			<li><categories><li>FT_Spice</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>la chair {0_adj} salée et laissée fermenter une semaine en jarre close, jusqu'à devenir acide et crémeuse. Ce n'est plus un fruit à ce stade : c'est un condiment, et il se garde des mois.</description>
+		<description>the flesh of {0_adj} salted and left to ferment a week in a closed jar, until it turns sour and creamy. It is no longer a fruit at that stage: it is a condiment, and it keeps for months.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -234,7 +234,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} fermenté pilé {1_plur} et {2_plur} au mortier, puis frit brièvement. L'acidité de la fermentation remplace le tamarin qu'on mettrait ailleurs.</description>
+		<description>fermented {0_coll} pounded in the mortar with {1_plur} and {2_plur}, then briefly fried. The acidity of the fermentation stands in for the tamarind one would use elsewhere.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -248,7 +248,7 @@
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>un curry jaune monté sur lait {1_adj} et curcuma, acidifié {0_plur} fermenté plutôt qu'au tamarin. La sauce prend une texture épaisse qu'aucun autre acide ne donne.</description>
+		<description>a yellow curry built on {1_adj} milk and turmeric, soured with fermented {0_plur} rather than with tamarind. The sauce takes on a thickness no other acid will give it.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSoup</li>
@@ -263,7 +263,7 @@
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{1_coll} de rivière mijotée dans {0_coll} fermenté et {2_coll}, sans lait de coco. Le plat emblématique de Pahang et de Jambi, et la meilleure démonstration que ce fruit n'est pas qu'un dessert.</description>
+		<description>river {1_coll} stewed in fermented {0_coll} and {2_coll}, with no coconut milk at all. The emblematic dish of Pahang and Jambi, and the best demonstration that this fruit is not only a dessert.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
