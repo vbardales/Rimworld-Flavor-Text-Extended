@@ -18,13 +18,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorcVapeurChataigneDEau</defName>
-		<label>porc vapeur aux châtaignes d'eau</label>
+		<label>steamed pork with water chestnuts</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>{1_coll} hachée au couteau et travaillée dans un seul sens jusqu'à devenir élastique, {0_coll} en petits dés dedans, le tout étalé en galette et cuit à la vapeur sur le riz.</description>
+		<description>{1_coll} chopped by knife and worked in one direction only until it turns elastic, {0_coll} in small dice through it, the whole spread into a cake and steamed over the rice.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -32,13 +32,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_JiaoziPorcChataigneDEau</defName>
-		<label>raviolis porc et châtaignes d'eau</label>
+		<label>pork and water chestnut dumplings</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>une farce {1_adj} où {0_coll} hachées apportent le croquant que la viande seule ne donne jamais, enfermée dans des disques de pâte plissés à la main.</description>
+		<description>a {1_adj} stuffing in which chopped {0_coll} bring the crunch that meat alone never gives, shut inside discs of dough pleated by hand.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 		</mealKinds>
@@ -46,13 +46,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_JiaoziCrevettesChataigneDEau</defName>
-		<label>raviolis crevettes et châtaignes d'eau</label>
+		<label>prawn and water chestnut dumplings</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{1_coll} laissée en gros morceaux plutôt que broyée, mêlée {0_plur} en dés. Deux textures qui craquent, chacune à sa façon.</description>
+		<description>{1_coll} left in large pieces rather than ground down, mixed with {0_plur} in dice. Two textures that crack, each in its own way.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 		</mealKinds>
@@ -60,13 +60,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SiuMaiChataigneDEau</defName>
-		<label>siu mai aux châtaignes d'eau</label>
+		<label>water chestnut siu mai</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 		</ingredients>
-		<description>{1_coll} et {2_coll} ensemble dans une pâte jaune ouverte en corolle, {0_coll} hachées dedans. Cuits en panier de bambou empilé, et servis en premier au dim sum.</description>
+		<description>{1_coll} and {2_coll} together in a yellow wrapper opened into a collar, with {0_coll} chopped through it. Cooked in stacked bamboo baskets, and served first at dim sum.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 		</mealKinds>
@@ -74,13 +74,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RouleauxChataigneDEau</defName>
-		<label>rouleaux de printemps aux châtaignes d'eau</label>
+		<label>water chestnut spring rolls</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 		</ingredients>
-		<description>{2_coll} et {0_coll} émincés, roulés serré dans une feuille de pâte et frits jusqu'au brun doré. Le croquant vient de l'intérieur autant que de la croûte.</description>
+		<description>{2_coll} and {0_coll} finely sliced, rolled tight in a sheet of pastry and fried to a golden brown. The crunch comes from the inside as much as from the crust.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -97,7 +97,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{1_coll} en lamelles blanchies à l'huile tiède, sautée {2_plur} et {0_plur} dans une sauce claire à peine liée. Un plat cantonais devenu l'emblème des restaurants sino-américains.</description>
+		<description>{1_coll} in slivers blanched in warm oil, fried with {2_plur} and {0_plur} in a clear, barely bound sauce. A Cantonese dish that became the emblem of the Chinese-American restaurant.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -105,13 +105,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PouletCajouChataigneDEau</defName>
-		<label>poulet aux noix de cajou et châtaignes d'eau</label>
+		<label>chicken with cashews and water chestnuts</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>{1_coll} en dés sautée à feu maximal avec {2_coll} grillées à part et {0_coll}. Trois croquants de dureté différente dans la même bouchée.</description>
+		<description>{1_coll} in dice fried at the highest flame with {2_coll} toasted apart and {0_coll}. Three different hardnesses of crunch in the same mouthful.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -119,13 +119,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoeufChataigneDEau</defName>
-		<label>bœuf aux châtaignes d'eau</label>
+		<label>beef with water chestnuts</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Broccoli</li></categories></li>
 		</ingredients>
-		<description>{1_coll} tranchée contre le fil et attendrie à la fécule, sautée {2_plur} blanchi et {0_plur} dans une sauce aux huîtres.</description>
+		<description>{1_coll} sliced against the grain and tenderised with starch, fried with blanched {2_plur} and {0_plur} in an oyster sauce.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -133,13 +133,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CrevettesChataigneDEau</defName>
-		<label>crevettes aux châtaignes d'eau</label>
+		<label>prawns with water chestnuts</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{1_coll} saumurée au bicarbonate pour rester ferme, sautée quelques secondes {2_plur} et {0_plur}, dans une sauce à peine liée.</description>
+		<description>{1_coll} brined in bicarbonate so as to stay firm, fried for a few seconds with {2_plur} and {0_plur}, in a barely thickened sauce.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -147,13 +147,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_LegumesSautesChataigneDEau</defName>
-		<label>légumes sautés aux châtaignes d'eau</label>
+		<label>stir-fried vegetables with water chestnuts</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>{1_coll} jetés dans le wok par ordre de fermeté, {0_coll} en dernier pour ne rien perdre de leur croquant, le tout laqué {2_plur}.</description>
+		<description>{1_coll} thrown into the wok in order of firmness, {0_coll} last of all so as to lose none of their crunch, the whole lacquered with {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -161,13 +161,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChapChyeChataigneDEau</defName>
-		<label>chap chye aux châtaignes d'eau</label>
+		<label>chap chye with water chestnuts</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{1_coll} mijoté longuement avec des vermicelles de soja, {2_coll} noirs réhydratés et {0_coll}. Un plat peranakan qu'on refait chaque jour avec ce qui reste.</description>
+		<description>{1_coll} stewed a long while with glass noodles, black {2_coll} soaked back up and {0_coll}. A Peranakan dish remade every day out of whatever is left.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -175,13 +175,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TofuChataigneDEau</defName>
-		<label>tofu aux châtaignes d'eau</label>
+		<label>tofu with water chestnuts</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>des cubes de tofu {1_adj} dorés sur toutes leurs faces, sautés {2_plur} et {0_plur} dans une sauce brune. Le tofu est mou, la châtaigne d'eau croque : c'est tout le principe.</description>
+		<description>cubes of {1_adj} tofu gilded on every face, fried with {2_plur} and {0_plur} in a brown sauce. The tofu is soft, the water chestnut cracks: that is the whole principle.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -191,13 +191,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BaconChataigneDEau</defName>
-		<label>châtaignes d'eau au bacon</label>
+		<label>bacon-wrapped water chestnuts</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} entières enroulées dans une bande {1_adj}, piquées et rôties dans un sirop {2_adj} et de soja jusqu'à ce que le lard croustille. L'amuse-bouche des années soixante, jamais démodé.</description>
+		<description>{0_coll} whole wound in a strip of {1_adj}, pinned and roasted in a {2_adj} and soy syrup until the bacon crisps. The canapé of the nineteen-sixties, and it has never gone out.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsBake</li>
@@ -206,13 +206,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_DipEpinardsChataigneDEau</defName>
-		<label>dip épinards et châtaignes d'eau</label>
+		<label>spinach and water chestnut dip</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{1_coll} hachés et pressés de leur eau, mêlés {2_plur} frais et {0_plur} en dés. Se sert froid, et le croquant est la seule chose qui empêche l'ensemble d'être mou.</description>
+		<description>{1_coll} chopped and pressed of their water, mixed with fresh {2_plur} and {0_plur} in dice. Served cold, and the crunch is the only thing that keeps the whole from being soft.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 			<li>FT_MealsSnack</li>
@@ -221,13 +221,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_WrapsLaitueChataigneDEau</defName>
-		<label>feuilles de laitue au poulet et châtaignes d'eau</label>
+		<label>chicken and water chestnut lettuce cups</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Lettuce</li></categories></li>
 		</ingredients>
-		<description>{1_coll} hachée et sautée {0_plur} et à la sauce hoisin, servie brûlante dans des feuilles {2_adj} glacées qu'on referme à la main.</description>
+		<description>{1_coll} chopped and fried with {0_plur} and hoisin sauce, served scalding in chilled {2_adj} leaves folded shut by hand.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsSandwich</li>
@@ -244,7 +244,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 		</ingredients>
-		<description>une pâte de fécule {0_adj} et de sucre candi, cuite à la vapeur en plaque translucide et ambrée, avec des dés entiers dedans. Se mange tiède, ou retranché et poêlé le lendemain.</description>
+		<description>a paste of {0_adj} starch and rock sugar, steamed into a translucent amber slab with whole dice set in it. Eaten warm, or cut up and fried in the pan the next day.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -259,7 +259,7 @@
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>des dés {0_adj} teints en rouge et enrobés de fécule de tapioca, pochés jusqu'à devenir translucides, servis sur glace pilée dans un lait {1_adj} sucré. « Rubis croquants » : ils en ont l'aspect exact.</description>
+		<description>dice of {0_adj} dyed red and coated in tapioca starch, poached until they turn translucent, served over crushed ice in a sweetened {1_adj} milk. Crisp rubies: they look exactly the part.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -273,7 +273,7 @@
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Lotus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {2_coll} pochées dans un sirop parfumé au pandan, servies tièdes dans un lait {1_adj}. Une soupe sucrée que l'on donne aux malades autant qu'aux enfants.</description>
+		<description>{0_coll} and {2_coll} poached in a syrup scented with pandan, served warm in a {1_adj} milk. A sweet soup given to the sick as readily as to children.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSoup</li>
@@ -282,13 +282,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoupeCanneChataigneDEau</defName>
-		<label>soupe de canne à sucre et châtaignes d'eau</label>
+		<label>sugarcane and water chestnut soup</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_SugarFromPlants</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 		</ingredients>
-		<description>des tronçons de canne, {0_coll} et {2_coll} bouillis une heure, la soupe filtrée et bue tiède. Un remède cantonais contre la chaleur autant qu'un dessert.</description>
+		<description>lengths of cane, {0_coll} and {2_coll} boiled for an hour, the soup strained and drunk warm. A Cantonese remedy against the heat as much as a dessert.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsDrink</li>
@@ -297,13 +297,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoupePorcChataigneDEau</defName>
-		<label>soupe de porc aux châtaignes d'eau</label>
+		<label>pork and water chestnut soup</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 		</ingredients>
-		<description>des côtes {1_adj} blanchies puis mijotées trois heures avec {0_coll} et {2_coll}, sans autre assaisonnement que le sel. Le bouillon reste clair et sucré tout seul.</description>
+		<description>{1_adj} ribs blanched and then simmered three hours with {0_coll} and {2_coll}, with no seasoning but salt. The broth stays clear and turns sweet on its own.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
