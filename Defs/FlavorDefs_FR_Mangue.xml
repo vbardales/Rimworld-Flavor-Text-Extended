@@ -23,7 +23,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>la pulpe {0_adj} pressée à la main plutôt que mixée — le fouet oxyde et ternit la couleur —, à peine {1_plur} et parfumée au cardamome et au safran.</description>
+		<description>the pulp of {0_adj} pressed out by hand rather than blended — the whisk oxidises it and dulls the colour — with barely any {1_plur}, scented with cardamom and saffron.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -37,7 +37,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>la purée {0_adj} servie avec des puri gonflés brûlants, qu'on déchire pour y tremper. Sucré et salé dans la même bouchée : un repas entier au Gujarat pendant la saison.</description>
+		<description>the purée of {0_adj} served with scalding puffed puri, torn open to dip with. Sweet and savoury in the same mouthful: a whole meal in Gujarat while the season lasts.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsNonSpecial</li>
@@ -52,7 +52,7 @@
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} battue {1_plur} et {2_plur} jusqu'à mousser, servie glacée. L'acidité du yaourt empêche le fruit d'écœurer.</description>
+		<description>{0_coll} beaten with {1_plur} and {2_plur} until it foams, served iced. The sharpness of the yoghurt keeps the fruit from cloying.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 			<li>FT_MealsDessert</li>
@@ -67,7 +67,7 @@
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>{1_coll} suspendu une nuit dans une mousseline jusqu'à perdre tout son petit-lait, mêlé à la pulpe {0_adj} et parsemé {2_adj} effilées.</description>
+		<description>{1_coll} hung overnight in muslin until it has given up all its whey, worked together with the pulp of {0_adj} and scattered with slivered {2_adj}.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -81,7 +81,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Pistachio</li></categories></li>
 		</ingredients>
-		<description>{1_coll} réduit de moitié puis chargé de pulpe {0_adj} et {2_adj}, gelé dans des cônes de métal sans être battu. Il fond lentement, ce qui laisse le temps d'en profiter.</description>
+		<description>{1_coll} reduced by half then loaded with the pulp of {0_adj} and with {2_adj}, frozen in metal cones without being churned. It melts slowly, which leaves time to enjoy it.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -95,7 +95,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>{1_coll} broyé grossièrement avant cuisson — c'est ce qui distingue le phirni du kheer — cuit {2_plur} jusqu'à épaissir, puis refroidi en coupelles de terre avec la purée {0_adj}.</description>
+		<description>{1_coll} coarsely broken before cooking — that is what parts phirni from kheer — cooked in {2_plur} until it thickens, then cooled in earthenware cups with the purée of {0_adj}.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -111,7 +111,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 		</ingredients>
-		<description>{1_coll} gluant trempé une nuit, cuit à la vapeur puis noyé de lait {2_adj} salé et sucré, avec {0_coll} tranchée à côté. La crème salée versée par-dessus au dernier moment est ce que les imitations oublient.</description>
+		<description>sticky {1_coll} soaked overnight, steamed and then drowned in {2_adj} milk both salted and sweetened, with {0_coll} sliced alongside. The salted cream poured over at the last moment is what the imitations forget.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -125,7 +125,7 @@
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>des dés {0_adj} dans un lait {1_adj} sucré, avec des perles de tapioca et de la glace pilée. Se boit à la paille large autant qu'il se mange à la cuillère.</description>
+		<description>dice of {0_adj} in a sweetened {1_adj} milk, with tapioca pearls and crushed ice. As much drunk through a wide straw as eaten with a spoon.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsDrink</li>
@@ -140,7 +140,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Citrus</li></categories></li>
 		</ingredients>
-		<description>une purée {0_adj} allongée {1_plur}, avec des perles de sagou et des vésicules {2_adj} détachées une à une. L'amertume du pomélo empêche l'ensemble de tourner au sirop.</description>
+		<description>a purée of {0_adj} let down with {1_plur}, with sago pearls and the vesicles of {2_adj} teased apart one by one. The bitterness of the pomelo keeps the whole thing from turning to syrup.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -154,7 +154,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>une crème prise {2_plur} et {1_plur} évaporé, démoulée tremblante, avec des dés {0_adj} frais dessus. Le dessert de fin de dim sum cantonais.</description>
+		<description>a custard set with {2_plur} and evaporated {1_plur}, turned out still trembling, with fresh dice of {0_adj} over the top. The dessert at the end of a Cantonese dim sum.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -168,7 +168,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>des couches alternées de biscuits graham, {1_adj} fouettée au lait concentré et {0_adj} en lamelles, prises une nuit au froid. Les biscuits ramollissent et deviennent gâteau.</description>
+		<description>alternating layers of graham crackers, {1_adj} whipped with condensed milk and {0_adj} in slivers, left overnight in the cold to set. The biscuits soften and turn into cake.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -182,7 +182,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_RedBean</li></categories></li>
 		</ingredients>
-		<description>une montagne de {1_coll} congelé et rasé en flocons — pas de glace pilée, du lait gelé — couverte {0_plur} et d'une cuillerée de pâte {2_adj} sucrés.</description>
+		<description>a mountain of frozen {1_coll} shaved into flakes — not crushed ice, frozen milk — covered with {0_plur} and a spoonful of sweetened {2_adj} paste.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -192,13 +192,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MangoCheesecake</defName>
-		<label>cheesecake à la mangue</label>
+		<label>mango cheesecake</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>un appareil {1_adj} et {2_adj} sous un miroir {0_adj}. Le fruit doit être très mûr : une mangue ferme rend de l'eau et fait couler le miroir.</description>
+		<description>a {1_adj} and {2_adj} filling under a mirror of {0_adj}. The fruit has to be very ripe: a firm mango gives up water and makes the mirror run.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -207,13 +207,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MangoPavlova</defName>
-		<label>pavlova à la mangue</label>
+		<label>mango pavlova</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>une meringue {1_adj} séchée des heures à four très doux, craquante dehors et guimauve dedans, couverte {2_plur} fouettée et {0_plur}. Se monte à la dernière minute.</description>
+		<description>a {1_adj} meringue dried for hours in a very low oven, crisp outside and marshmallow within, covered with whipped {2_plur} and {0_plur}. Built at the last minute.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -227,7 +227,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>la pulpe {0_adj} montée {1_plur} fouettée, sans gélatine — la fibre du fruit suffit à tenir si la mangue est assez mûre. Se sert en verre, bien froide.</description>
+		<description>the pulp of {0_adj} folded into whipped {1_plur}, with no gelatine — the fibre of the fruit is enough to hold it up if the mango is ripe enough. Served in a glass, very cold.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -243,7 +243,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} glacée, du chamoy acide et salé, {2_coll} vert et une pluie de poudre {1_adj}, avec un bâton de tamarin planté dedans. Sucré, salé, acide et piquant en une seule gorgée.</description>
+		<description>iced {0_coll}, sour salted chamoy, green {2_coll} and a rain of {1_adj} powder, with a tamarind stick planted in it. Sweet, salt, sour and hot in a single mouthful.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 			<li>FT_MealsDessert</li>
@@ -254,13 +254,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MangoChutney</defName>
-		<label>chutney de mangue</label>
+		<label>mango chutney</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{0_coll} vertes confites au vinaigre {1_plur} et {2_plur}, jusqu'à devenir translucides et ambrées. Se garde un an et s'améliore les premiers mois.</description>
+		<description>green {0_coll} candied in vinegar with {1_plur} and {2_plur} until they turn translucent and amber. It keeps a year, and improves over the first months.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -274,7 +274,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>des morceaux {0_adj} verte salés et séchés au soleil, puis noyés dans une huile de moutarde chargée {1_plur} et d'épices. Rien n'est cuit : c'est le soleil et le sel qui font tout, en quelques semaines.</description>
+		<description>pieces of green {0_adj} salted and dried in the sun, then drowned in a mustard oil loaded with {1_plur} and spices. Nothing is cooked: the sun and the salt do all of it, over a few weeks.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -288,7 +288,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} verte en quartiers, secouée dans du sel, {1_coll} écrasés, {2_coll} et du chadon beni. Se mange dans le sachet même, à Trinidad, au bord de la route.</description>
+		<description>green {0_coll} in quarters, shaken up in salt, crushed {1_coll}, {2_coll} and chadon beni. Eaten out of the bag itself, in Trinidad, at the side of the road.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsSnack</li>
@@ -303,7 +303,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} verte râpée pilée {1_plur} et {2_plur} au mortier, avec de la pâte de crevette. L'acidité du fruit remplace le tamarin et rend le sambal plus vif.</description>
+		<description>green {0_coll} grated and pounded in the mortar with {1_plur} and {2_plur}, with shrimp paste. The acidity of the fruit stands in for tamarind and makes the sambal sharper.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -311,13 +311,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RougailMangue</defName>
-		<label>rougail mangue</label>
+		<label>mango rougail</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{0_coll} verte écrasée au sel {1_plur} et {2_plur}, servie crue à côté du cari. À la Réunion, aucun repas n'arrive sans son rougail.</description>
+		<description>green {0_coll} crushed with salt, {1_plur} and {2_plur}, served raw beside the cari. On Réunion no meal arrives without its rougail.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 			<li>FT_MealsSalad</li>
@@ -326,13 +326,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AchardDeMangue</defName>
-		<label>achard de mangue</label>
+		<label>mango achard</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} verte et {1_coll} en fine julienne, blanchies puis marinées {2_plur} au curcuma et à la moutarde. Le condiment mauricien, croquant et jaune vif.</description>
+		<description>green {0_coll} and {1_coll} in fine julienne, blanched and then marinated in {2_plur} with turmeric and mustard. The Mauritian condiment: crisp, and bright yellow.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsPaste</li>
@@ -347,7 +347,7 @@
 			<li><categories><li>FT_Peanut</li></categories></li>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 		</ingredients>
-		<description>{0_coll} verte en julienne, {2_coll} séchée effilochée, {1_coll} concassées et une sauce de poisson au citron vert. Le croquant tient de la mangue, pas de la salade.</description>
+		<description>green {0_coll} in julienne, dried {2_coll} pulled into threads, crushed {1_coll} and a fish sauce with lime. The crunch comes from the mango, not from any salad leaf.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -363,7 +363,7 @@
 			<li><categories><li>FT_Lentil</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{1_coll} cuits jusqu'à se défaire avec {0_coll} verte en morceaux, qui remplace le tamarin comme acide. Un tempérage {2_adj} grillées versé brûlant à la fin.</description>
+		<description>{1_coll} cooked until they fall apart with pieces of green {0_coll}, which stands in for tamarind as the acid. A tempering of toasted {2_adj} poured over scalding at the end.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -372,13 +372,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RawMangoCurry</defName>
-		<label>curry de mangue verte</label>
+		<label>green mango curry</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} verte mijotée dans un lait {1_adj} monté au curcuma et aux graines de moutarde. Le fruit garde sa tenue et son acidité : ce n'est pas un dessert malgré le sucre qu'il contient.</description>
+		<description>green {0_coll} stewed in a {1_adj} milk raised with turmeric and mustard seed. The fruit keeps its shape and its acidity: this is not a dessert, whatever sugar it holds.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -386,13 +386,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MangoChickenCurry</defName>
-		<label>curry de poulet à la mangue</label>
+		<label>chicken and mango curry</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{1_coll} mijotée dans une sauce où {0_coll} mûre fond et sucre le curry, tandis que quelques morceaux verts gardés entiers apportent l'acide.</description>
+		<description>{1_coll} stewed in a sauce where ripe {0_coll} melts away and sweetens the curry, while a few green pieces kept whole supply the acid.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -402,13 +402,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CevicheMangue</defName>
-		<label>ceviche à la mangue</label>
+		<label>mango ceviche</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Meat_Seafood</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{1_coll} crue raidie par l'acide {2_adj}, avec {0_coll} en dés et de la coriandre. Le sucre du fruit arrondit le citron sans l'annuler.</description>
+		<description>{1_coll} raw and stiffened by the acid of {2_adj}, with {0_coll} in dice and coriander. The sugar of the fruit rounds off the citrus without cancelling it.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
@@ -417,13 +417,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TartareThonMangue</defName>
-		<label>tartare de thon à la mangue</label>
+		<label>tuna and mango tartare</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
 		</ingredients>
-		<description>{1_coll} taillée au couteau en dés réguliers, mêlée {0_plur} de la même taille, huile {2_adj} et soja. Coupé au robot, le poisson devient une pâte : c'est tout ce qu'il faut éviter.</description>
+		<description>{1_coll} cut by knife into even dice, mixed with {0_plur} of the same size, {2_adj} oil and soy. Cut in a machine, the fish turns to paste: that is the one thing to avoid.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
@@ -432,13 +432,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PokeSaumonMangue</defName>
-		<label>poke saumon-mangue</label>
+		<label>salmon and mango poke</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 		</ingredients>
-		<description>{2_coll} vinaigré tiède au fond du bol, {1_coll} crue marinée au soja, {0_coll} en cubes et de l'oignon nouveau. Le riz doit être tiède et le poisson froid.</description>
+		<description>warm vinegared {2_coll} in the bottom of the bowl, raw {1_coll} marinated in soy, {0_coll} in cubes and spring onion. The rice has to be warm and the fish cold.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
