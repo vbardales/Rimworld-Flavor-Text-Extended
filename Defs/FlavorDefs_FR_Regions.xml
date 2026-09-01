@@ -394,7 +394,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoupeALOignonGratinee</defName>
-		<label>French onion soup</label>
+		<label>gratinéed onion soup</label>
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
