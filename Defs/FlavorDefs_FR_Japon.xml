@@ -13,7 +13,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 		</ingredients>
-		<description>une brioche {0_adj} cuite à la vapeur, fourrée {1_plur} hachée et {2_plur}, si blanche et si molle qu'on la reconnaît au toucher. Se vend l'hiver au comptoir des épiceries de nuit.</description>
+		<description>a {0_adj} bun steamed soft, filled with minced {1_plur} and {2_plur}, so white and so yielding that you know it by touch. Sold in winter over the counter of the night shops.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 			<li>FT_MealsSnack</li>
@@ -28,7 +28,7 @@
 			<li><categories><li>FT_Kelp</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>des nouilles épaisses et molles, pétries au pied sous une toile, dans un bouillon clair {1_adj}. La texture compte plus que le goût, et elle est délibérée.</description>
+		<description>thick, soft noodles kneaded underfoot beneath a cloth, in a clear {1_adj} broth. The texture matters more than the taste, and it is deliberate.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 		</mealKinds>
@@ -42,7 +42,7 @@
 			<li><categories><li>FT_Kelp</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>des nouilles {0_adj} grises, servies froides sur une claie avec une sauce {1_adj} à part. L'eau de cuisson se boit à la fin, allongée dans le reste de sauce.</description>
+		<description>grey {0_adj} noodles, served cold on a rack with a {1_adj} sauce apart. The cooking water is drunk at the end, let down in what is left of the sauce.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 		</mealKinds>
@@ -56,7 +56,7 @@
 			<li><categories><li>FT_Kelp</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>des cubes de tofu {0_adj} roulés dans la fécule et frits, posés dans un bouillon tiède {1_adj}. La croûte tient juste le temps d'arriver à table.</description>
+		<description>cubes of {0_adj} tofu rolled in starch and fried, set into a warm {1_adj} broth. The crust holds just long enough to reach the table.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 		</mealKinds>
@@ -70,7 +70,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{1_coll} et {2_coll} liés à peine dans un bouillon sucré-salé, versés sur {0_coll}. Le nom signifie « parent et enfant » ; personne n'a jamais prétendu que c'était délicat.</description>
+		<description>{1_coll} and {2_coll} barely set together in a sweet-salt broth and poured over {0_coll}. The name means parent and child; nobody has ever claimed it was delicate.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -84,7 +84,7 @@
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{1_coll} tranchée au rasoir et mijotée {2_plur} dans un bouillon sucré, servie sur {0_coll}. Le repas le plus rapide qu'on puisse manger assis.</description>
+		<description>{1_coll} shaved paper-thin and stewed with {2_plur} in a sweet broth, served over {0_coll}. The fastest meal it is possible to eat sitting down.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -98,7 +98,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>une côte {1_adj} panée et frite, retrempée dans un bouillon {2_adj} qui ramollit exprès la panure, posée sur {0_coll}. On en mange la veille d'un examen : « katsu » veut aussi dire vaincre.</description>
+		<description>a {1_adj} chop crumbed and fried, then dipped back into a {2_adj} broth that softens the coating on purpose, laid over {0_coll}. Eaten the night before an examination: katsu also means to win.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -112,7 +112,7 @@
 			<li><categories><li>FT_Kelp</li></categories></li>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pressé en triangle à mains salées et mouillées, fourré {2_adj}, ceinturé {1_plur}. Se garde une journée entière dans une poche.</description>
+		<description>{0_coll} pressed into a triangle with salted, wetted hands, filled with {2_adj} and belted with {1_plur}. It keeps a whole day in a pocket.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsNonSpecial</li>
@@ -127,7 +127,7 @@
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>une galette épaisse où {1_coll} émincés tiennent à peine ensemble {0_plur} et {2_plur}, cuite sur la plaque devant soi. Le nom veut dire « grillé comme il te plaît ».</description>
+		<description>a thick pancake in which shredded {1_coll} barely holds together with {0_plur} and {2_plur}, cooked on the plate in front of you. The name means grilled as you like it.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -142,7 +142,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>un flan salé {0_adj} cuit à la vapeur douce, si peu pris qu'on le mange à la cuillère, avec {1_coll} et {2_coll} cachés au fond. Trop chaud, il se crible de bulles et se gâche.</description>
+		<description>a savoury {0_adj} custard steamed gently, so barely set that it is eaten with a spoon, with {1_coll} and {2_coll} hidden at the bottom. Too hot and it riddles itself with bubbles and is spoiled.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -156,7 +156,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} mijotées {2_plur} et au sucre, à couvert tombant, jusqu'à ce qu'il ne reste presque plus de liquide. Le plat qu'on cite quand on parle de cuisine de mère.</description>
+		<description>{0_coll} and {1_coll} stewed with {2_plur} and sugar under a dropped lid, until there is almost no liquid left. The dish people name when they talk about their mother's cooking.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -170,7 +170,7 @@
 			<li><categories><li>FT_Carrot</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} taillées en biseau, saisies à l'huile puis mijotées à sec avec {2_coll}, jusqu'à ce que le liquide ait entièrement disparu dans les légumes.</description>
+		<description>{0_coll} and {1_coll} cut on the bias, seared in oil then stewed dry with {2_coll}, until the liquid has vanished entirely into the vegetables.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -184,7 +184,7 @@
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} frite puis marinée chaude dans un vinaigre sucré {1_plur} et {2_plur}. « Nanban » désigne les Portugais, à qui l'on doit le procédé.</description>
+		<description>{0_coll} fried and then marinated hot in a sweetened vinegar with {1_plur} and {2_plur}. Nanban means the Portuguese, to whom the method is owed.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsNonSpecial</li>
@@ -199,7 +199,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>une soupe {2_adj} fermenté chargée {0_adj} et de racines, {1_coll} comprises. Plus nourrissante que la soupe miso ordinaire, et servie quand il gèle.</description>
+		<description>a soup of fermented {2_adj} loaded with {0_adj} and roots, {1_coll} among them. More sustaining than an ordinary miso soup, and served when it freezes.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -213,7 +213,7 @@
 			<li><categories><li>FT_Soy</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{0_coll} marinée {1_plur} et {2_plur}, roulée dans la fécule et frite deux fois. La fécule donne une croûte fine et cassante, très différente de la panure.</description>
+		<description>{0_coll} marinated in {1_plur} and {2_plur}, rolled in starch and fried twice over. The starch gives a thin, brittle crust, very unlike a crumb coating.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 		</mealKinds>
@@ -227,7 +227,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 		</ingredients>
-		<description>une purée {0_adj} mêlée {2_plur} hachée, panée à la chapelure grossière et frite. Descendante lointaine de la croquette française, arrivée par bateau au siècle dernier.</description>
+		<description>a mash of {0_adj} mixed with minced {2_plur}, crumbed in coarse breadcrumbs and fried. A distant descendant of the French croquette, which arrived by boat last century.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -242,7 +242,7 @@
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} vinaigré étalé au fond d'un bol, « éparpillé » {1_plur} crue en tranches et de lanières d'omelette. Toute la difficulté du sushi, sans le geste du sushi.</description>
+		<description>vinegared {0_coll} spread over the bottom of a bowl and scattered — which is what the name says — with raw {1_plur} in slices and ribbons of omelette. All the difficulty of sushi, without the gesture of sushi.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -256,7 +256,7 @@
 			<li><categories><li>FT_Tea</li></categories></li>
 			<li><categories><li>FT_Kelp</li></categories></li>
 		</ingredients>
-		<description>{1_coll} brûlant versé sur du riz froid, avec {2_coll} émietté. Le repas de fin de soirée, ou de fin de restes — les deux reviennent souvent au même.</description>
+		<description>scalding {1_coll} poured over cold rice, with {2_coll} crumbled into it. The meal at the end of an evening, or at the end of the leftovers — the two often come to the same thing.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -271,7 +271,7 @@
 			<li><categories><li>FT_RedBean</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>deux petites crêpes épaisses {2_plur} et au miel, refermées sur une pâte sucrée {1_adj}. Le nom vient du gong qu'elles imitent.</description>
+		<description>two small thick pancakes made with {2_plur} and honey, closed over a sweet {1_adj} paste. The name comes from the gong they imitate.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -286,7 +286,7 @@
 			<li><categories><li>FT_Kelp</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>des cubes de gelée {1_adj} — ferme, à peine sucrée — avec une pâte {0_adj} et un sirop noir {2_adj} versé à table. Le dessert d'été, servi glacé.</description>
+		<description>cubes of {1_adj} jelly — firm, barely sweetened — with a {0_adj} paste and a black {2_adj} syrup poured at the table. The summer dessert, served iced.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
