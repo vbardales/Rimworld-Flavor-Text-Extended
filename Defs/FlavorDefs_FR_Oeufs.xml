@@ -20,11 +20,11 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OeufMollet</defName>
-		<label>{0_coll} mollets</label>
+		<label>medium-boiled {0_coll}</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>six minutes exactement dans l'eau frémissante, puis l'eau glacée. Le blanc est ferme, le jaune encore coulant. C'est la seule des trois cuissons en coquille qui s'écale : elle demande de la patience et des œufs qui ne soient pas de la veille.</description>
+		<description>exactly six minutes in simmering water, then straight into ice. The white is firm, the yolk still runs. It is the only one of the three shell cookings that peels cleanly, and it wants patience and eggs that are not yesterday's.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>

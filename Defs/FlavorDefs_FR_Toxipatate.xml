@@ -25,13 +25,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PureeDeToxipatate</defName>
-		<label>mousseline {0_adj}</label>
+		<label>whipped {0_adj} mash</label>
 		<ingredients>
 			<li><categories><li>FT_Toxipotato</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pelées épais — c'est sous la peau que tout se concentre —, cuites à grande eau qu'on jette, puis écrasées {1_plur} et {2_plur}. La chair reste grise ; le goût, lui, ne trahit rien.</description>
+		<description>{0_coll} peeled thick — everything concentrates just under the skin — boiled in plenty of water that is then thrown out, and mashed with {1_plur} and {2_plur}. The flesh stays grey; the taste gives nothing away.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 			<li>FT_MealsNonSpecial</li>
@@ -40,13 +40,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FritesDeToxipatate</defName>
-		<label>frites {0_adj}</label>
+		<label>{0_adj} fries</label>
 		<ingredients>
 			<li><categories><li>FT_Toxipotato</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>des bâtonnets {0_adj} dégorgés une heure à l'eau claire, égouttés, puis frits deux fois {1_plur}. Le premier bain assainit, le second croustille. Salées {2_plur} à la sortie.</description>
+		<description>batons of {0_adj} left an hour in clear water, drained, then fried twice in {1_plur}. The first bath cleans, the second crisps. Salted with {2_plur} on the way out.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -55,13 +55,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RostiDeToxipatate</defName>
-		<label>rösti {0_adj}</label>
+		<label>{0_adj} rösti</label>
 		<ingredients>
 			<li><categories><li>FT_Toxipotato</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} râpées crues, pressées dans un linge jusqu'à ce que le jus noirci ait fini de couler, mêlées {2_plur} et saisies en galette {1_plur} mousseux. C'est ce jus qu'on chasse, et rien d'autre.</description>
+		<description>raw grated {0_coll}, wrung out in a cloth until the blackened juice stops running, mixed with {2_plur} and seared into a cake in foaming {1_plur}. That juice is the only thing being driven off.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -69,13 +69,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GnocchiDeToxipatate</defName>
-		<label>gnocchi {0_adj}</label>
+		<label>{0_adj} gnocchi</label>
 		<ingredients>
 			<li><categories><li>FT_Toxipotato</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>une purée {0_adj} deux fois bouillie, liée d'une farine {1_adj} et roulée en petits coussins striés à la fourchette. Pochés jusqu'à ce qu'ils remontent, puis nappés {2_plur} fondu.</description>
+		<description>a twice-boiled {0_adj} mash bound with {1_adj} flour and rolled into small ridged pillows. Poached until they float, then coated in melted {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsDumpling</li>
@@ -84,13 +84,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoupeDeToxipatate</defName>
-		<label>soupe {0_adj} aux poireaux</label>
+		<label>{0_adj} and leek soup</label>
 		<ingredients>
 			<li><categories><li>FT_Toxipotato</li></categories></li>
 			<li><categories><li>FT_Leek</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>{0_coll} blanchies dans une première eau qu'on jette, puis remises à cuire avec {1_coll} dans un bouillon propre, et liées {2_plur} hors du feu. Deux eaux : la règle ne souffre pas d'exception.</description>
+		<description>{0_coll} blanched in a first water that is thrown out, then cooked with {1_coll} in clean stock and finished with {2_plur} off the heat. Two waters: the rule allows no exception.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -98,13 +98,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CurryDeToxipatate</defName>
-		<label>curry {0_adj} aux pois chiches</label>
+		<label>{0_adj} and chickpea curry</label>
 		<ingredients>
 			<li><categories><li>FT_Toxipotato</li></categories></li>
 			<li><categories><li>FT_Chickpea</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en cubes précuites à part, ajoutées en fin de course à {1_coll} mijotés dans un masala grillé {2_plur} entières. Elles boivent la sauce et tiennent à la cuillère.</description>
+		<description>{0_coll} cubed and part-cooked apart, added late to {1_coll} simmering in a masala toasted with whole {2_plur}. They drink up the sauce and still hold on a spoon.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -112,13 +112,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ToxipatateAigreDouce</defName>
-		<label>{0_coll} aigres-douces</label>
+		<label>sweet-and-sour {0_coll}</label>
 		<ingredients>
 			<li><categories><li>FT_Toxipotato</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>des rondelles {0_adj} dégorgées au sel, sautées vif puis laquées d'un vinaigre {1_adj} {2_plur} séché. L'acide fait double office : il assainit et il réveille.</description>
+		<description>{0_adj} rounds salted to draw the water out, seared hard, then glazed with a {1_adj} vinegar and dried {2_plur}. The acid does double duty: it cleans and it wakes.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 			<li>FT_MealsNonSpecial</li>
@@ -127,13 +127,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_HachisDeToxipatate</defName>
-		<label>parmentier {0_adj}</label>
+		<label>{0_adj} cottage pie</label>
 		<ingredients>
 			<li><categories><li>FT_Toxipotato</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>{1_coll} hachée étalée au fond du plat, couverte d'une purée {0_adj} montée {2_plur} et gratinée. Le plat des colonies qui n'ont que ça à planter, et qui s'en accommodent très bien.</description>
+		<description>minced {1_coll} spread across the dish, covered with a {0_adj} mash beaten with {2_plur} and browned under the grill. The dish of colonies that can grow nothing else, and manage very well on it.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>

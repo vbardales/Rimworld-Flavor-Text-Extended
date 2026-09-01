@@ -35,7 +35,7 @@
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} mijotée dans une sauce où {2_coll} séchés grillés puis trempés sont broyés avec {1_coll} amer, du pain rassis et des épices. Le chocolat n'y sucre rien : il lie la sauce et lui donne sa profondeur sombre.</description>
+		<description>{0_coll} simmered in a sauce where dried {2_coll}, toasted and then soaked, are ground with bitter {1_coll}, stale bread and spices. The chocolate sweetens nothing: it binds the sauce and gives it its dark depth.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -49,7 +49,7 @@
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>le plus long des sept moles d'Oaxaca : une trentaine d'ingrédients, dont {2_coll} grillés et {1_coll}, et des piments chilhuacle brûlés jusqu'au noir puis rincés. C'est cette brûlure contrôlée qui donne la couleur, et rater la limite gâche la journée entière.</description>
+		<description>the longest of the seven moles of Oaxaca: some thirty ingredients, among them toasted {2_coll} and {1_coll}, and chilhuacle peppers burnt black then rinsed. That controlled burn is what makes the colour, and missing the line ruins the whole day's work.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -57,13 +57,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorcCroutteDeCacao</defName>
-		<label>filet de porc en croûte de cacao</label>
+		<label>cocoa-crusted pork tenderloin</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>un filet {0_adj} frotté d'un mélange {1_adj} amer, {2_adj} et de piment fumé, puis saisi. Le cacao pur se comporte ici comme une épice : amer, terreux, et pas sucré du tout.</description>
+		<description>a {0_adj} tenderloin rubbed with bitter {1_adj}, {2_adj} and smoked chilli, then seared. Pure cocoa behaves here as a spice: bitter, earthy, not sweet at all.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -72,13 +72,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BaconEnrobeDeChocolat</defName>
-		<label>bacon enrobé de chocolat</label>
+		<label>chocolate-covered bacon</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>des tranches {0_adj} cuites au four jusqu'au cassant, caramélisées {2_plur} roux, refroidies puis trempées {1_plur} noir fondu. Le sel du lard et l'amertume du chocolat font le travail que le sucre seul ne ferait pas.</description>
+		<description>{0_adj} rashers baked to snapping point, candied with {2_plur}, cooled, then dipped in melted dark {1_plur}. The salt of the pork and the bitterness of the chocolate do work that sugar alone would not.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsDessert</li>
@@ -87,13 +87,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChiliDePorcAuCacao</defName>
-		<label>chili de porc au cacao</label>
+		<label>pork and cocoa chilli</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Bean</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en gros cubes mijotée avec {2_coll} noirs, une cuillerée {1_adj} non sucré jetée en fin de cuisson. Personne ne le reconnaît dans l'assiette, et tout le monde remarque quand il manque.</description>
+		<description>{0_coll} in large cubes simmered with black {2_coll}, a spoonful of unsweetened {1_adj} thrown in at the end. Nobody names it on the plate, and everybody notices when it is missing.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -101,13 +101,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TraversLaquesChocolat</defName>
-		<label>travers laqués au chocolat</label>
+		<label>chocolate-glazed ribs</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 		</ingredients>
-		<description>un travers {0_adj} cuit lentement, puis laqué d'une sauce barbecue montée {1_plur} amer, {2_plur} et au piment chipotle, et passé sous le gril jusqu'à ce qu'elle cloque.</description>
+		<description>a rack of {0_adj} ribs cooked low and slow, then glazed with a barbecue sauce built on bitter {1_plur}, {2_plur} and chipotle, and passed under the grill until it blisters.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -118,13 +118,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AnpanAuCafe</defName>
-		<label>anpan au café</label>
+		<label>coffee anpan</label>
 		<ingredients>
 			<li><categories><li>FT_Coffee</li></categories></li>
 			<li><categories><li>FT_RedBean</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>une brioche {2_adj} dont la pâte est montée {0_plur} serré, fourrée d'une pâte {1_adj} sucrés. L'amertume du café empêche l'anko de saturer, ce qui est tout le problème de l'anpan classique.</description>
+		<description>a {2_adj} bun whose dough is worked with strong {0_plur}, filled with a sweet {1_adj} paste. The bitterness of the coffee keeps the anko from cloying, which is the whole trouble with plain anpan.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -132,13 +132,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GeleeDeCafeAzuki</defName>
-		<label>gelée de café aux azuki</label>
+		<label>coffee jelly with red bean</label>
 		<ingredients>
 			<li><categories><li>FT_Coffee</li></categories></li>
 			<li><categories><li>FT_RedBean</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} noir pris en gelée à l'agar, coupé en cubes tremblants et servi sur {1_coll} confits {2_plur}. Se mange à la cuillère, glacé, dans les cafés japonais depuis un siècle.</description>
+		<description>black {0_coll} set with agar, cut into trembling cubes and served over {1_coll} candied in {2_plur}. Eaten cold with a spoon, in Japanese cafés, for a century now.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -146,13 +146,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GlaceCafeAzuki</defName>
-		<label>glace café-azuki</label>
+		<label>coffee and red bean ice cream</label>
 		<ingredients>
 			<li><categories><li>FT_Coffee</li></categories></li>
 			<li><categories><li>FT_RedBean</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>une crème glacée {0_plur} dans laquelle on incorpore {1_coll} entiers confits, montée {2_plur} et tournée pendant la prise. Les grains restent fermes au milieu du gras froid.</description>
+		<description>an ice cream built on {0_plur}, with whole candied {1_coll} folded through, enriched with {2_plur} and churned as it freezes. The beans stay firm in the middle of the cold fat.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -160,13 +160,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_DorayakiAuCafe</defName>
-		<label>dorayaki au café</label>
+		<label>coffee dorayaki</label>
 		<ingredients>
 			<li><categories><li>FT_Coffee</li></categories></li>
 			<li><categories><li>FT_RedBean</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>deux petits pancakes épais, montés {2_plur} et parfumés {0_plur}, assemblés sur une couche de pâte {1_adj} sucrés. Le nom vient du gong qu'ils imitent.</description>
+		<description>two thick little pancakes, raised with {2_plur} and flavoured with {0_plur}, closed over a layer of sweet {1_adj} paste. The name comes from the gong they imitate.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
