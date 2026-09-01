@@ -19,13 +19,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladePoireRoquefortNoix</defName>
-		<label>salade poire-roquefort aux noix</label>
+		<label>pear, roquefort and walnut salad</label>
 		<ingredients>
 			<li><categories><li>FT_Pear</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en lamelles fines, un bleu écrasé à la fourchette et {2_coll} grillées, sur des feuilles amères. L'accord tient parce que le sucre de la poire éteint le sel du fromage.</description>
+		<description>{0_coll} in fine slivers, a blue crushed with a fork and toasted {2_coll}, over bitter leaves. The pairing holds because the sugar of the pear puts out the salt of the cheese.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -33,13 +33,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PizzaPoireGorgonzola</defName>
-		<label>pizza poire-gorgonzola</label>
+		<label>pear and gorgonzola pizza</label>
 		<ingredients>
 			<li><categories><li>FT_Pear</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>une pâte blanche sans tomate, {1_coll} en gouttes et {0_coll} en tranches déposées à mi-cuisson pour ne pas se dessécher, avec un filet de miel à la sortie.</description>
+		<description>a white base with no tomato, {1_coll} in drops and {0_coll} in slices laid on halfway through the baking so that they do not dry out, with a thread of honey as it comes out.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsSandwich</li>
@@ -48,13 +48,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CrostiniFigueChevre</defName>
-		<label>crostini figue-chèvre</label>
+		<label>fig and goat's cheese crostini</label>
 		<ingredients>
 			<li><categories><li>FT_Fig</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>des tranches de pain grillées, {1_coll} frais écrasé dessus et {0_coll} ouvertes en quatre, passées trente secondes sous le gril. Le miel se verse après, jamais avant.</description>
+		<description>slices of toasted bread, fresh {1_coll} crushed over them and {0_coll} opened in four, run under the grill for thirty seconds. The honey goes on after, never before.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsBake</li>
@@ -63,13 +63,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GrilledCheesePommeCheddar</defName>
-		<label>croque pomme-cheddar</label>
+		<label>apple and cheddar toastie</label>
 		<ingredients>
 			<li><categories><li>FT_Apple</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{1_coll} affiné et {0_coll} en fines lamelles entre deux tranches beurrées, pressées à la poêle. La pomme rend un peu d'eau qui empêche le fromage de figer.</description>
+		<description>aged {1_coll} and {0_coll} in fine slivers between two buttered slices, pressed in the pan. The apple gives up a little water that keeps the cheese from setting.</description>
 		<mealKinds>
 			<li>FT_MealsSandwich</li>
 		</mealKinds>
@@ -83,7 +83,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>une pâte de coing cuite {2_plur} jusqu'à se trancher au couteau, posée sur un copeau {1_adj} de brebis. Deux ingrédients, aucun geste de cuisine, et l'un des accords les plus solides d'Europe.</description>
+		<description>a quince paste cooked with {2_plur} until it can be cut with a knife, laid over a shaving of {1_adj} sheep's cheese. Two ingredients, not one act of cookery, and one of the soundest pairings in Europe.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsNonSpecial</li>
@@ -92,13 +92,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladePastequeFeta</defName>
-		<label>salade pastèque-feta</label>
+		<label>watermelon and feta salad</label>
 		<ingredients>
 			<li><categories><li>FT_Melon</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en gros cubes glacés, {1_coll} émietté, de la menthe et un tour de moulin. Le sel du fromage fait ressortir le sucre du fruit, qui paraît alors plus mûr qu'il n'est.</description>
+		<description>{0_coll} in large iced cubes, {1_coll} crumbled over, mint and a turn of the mill. The salt of the cheese brings out the sugar of the fruit, which then seems riper than it is.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -106,13 +106,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladePecheBurrata</defName>
-		<label>salade pêche-burrata</label>
+		<label>peach and burrata salad</label>
 		<ingredients>
 			<li><categories><li>FT_Peach</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 		</ingredients>
-		<description>{0_coll} bien mûres en quartiers, une burrata ouverte au centre qui se répand, huile {2_adj} et basilic. Rien n'est cuit, rien n'est assaisonné à l'avance.</description>
+		<description>{0_coll} well ripened and quartered, a burrata split open at the centre so that it runs, {2_adj} oil and basil. Nothing is cooked and nothing is dressed in advance.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -120,13 +120,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChevreChaudAuxCerises</defName>
-		<label>chèvre chaud aux cerises</label>
+		<label>hot goat's cheese with cherries</label>
 		<ingredients>
 			<li><categories><li>FT_Cherry</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>un crottin {1_adj} posé sur une tranche de pain et passé au four jusqu'à couler, avec {0_coll} poêlées au vinaigre. L'acidité du fruit tranche le gras du fromage chaud.</description>
+		<description>a round of {1_adj} set on a slice of bread and put in the oven until it runs, with {0_coll} fried in vinegar. The acidity of the fruit cuts the fat of the hot cheese.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsSalad</li>
@@ -135,13 +135,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PlateauFromageFruitsSecs</defName>
-		<label>plateau de fromages aux fruits secs</label>
+		<label>cheeseboard with dried fruit</label>
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Date</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>trois ou quatre fromages sortis une heure avant, {1_coll} et {2_coll}, servis du plus doux au plus fort dans le sens des aiguilles. On coupe la pointe en dernier.</description>
+		<description>three or four cheeses taken out an hour beforehand, {1_coll} and {2_coll}, served from mildest to strongest going clockwise. The point is cut last.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsNonSpecial</li>
@@ -150,13 +150,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RicottaAuMiel</defName>
-		<label>ricotta au miel et aux noix</label>
+		<label>ricotta with honey and walnuts</label>
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>{0_coll} frais battu à la fourchette, arrosé {1_plur} et couvert {2_adj} concassées. Se sert en dessert ou en entrée selon l'humeur, et personne ne trouve à y redire.</description>
+		<description>fresh {0_coll} beaten with a fork, doused with {1_plur} and covered with crushed {2_adj}. Served as a dessert or as a first course depending on the mood, and nobody objects.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -167,13 +167,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BetteravesAuChevre</defName>
-		<label>betteraves au chèvre</label>
+		<label>beetroot with goat's cheese</label>
 		<ingredients>
 			<li><categories><li>FT_Beet</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>{0_coll} rôties en robe puis pelées tièdes, avec {1_coll} frais et {2_coll} grillées. La terre de la betterave et l'acidité du chèvre se répondent exactement.</description>
+		<description>{0_coll} roasted in their skins and peeled warm, with fresh {1_coll} and toasted {2_coll}. The earth of the beetroot and the acidity of the goat answer each other exactly.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -181,13 +181,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PoivronsFarcisFeta</defName>
-		<label>poivrons farcis à la feta</label>
+		<label>feta-stuffed peppers</label>
 		<ingredients>
 			<li><categories><li>FT_BellPepper</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 		</ingredients>
-		<description>de petits {0_coll} rouges épépinés, remplis {1_plur} et d'herbes, confits dans l'huile {2_adj} jusqu'à ce que la peau se plisse.</description>
+		<description>small red {0_coll} seeded and filled with {1_plur} and herbs, confited in {2_adj} oil until the skin wrinkles.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsSnack</li>
@@ -196,13 +196,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChampignonsFarcis</defName>
-		<label>champignons farcis au fromage</label>
+		<label>cheese-stuffed mushrooms</label>
 		<ingredients>
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} dépiedés et remplis d'une farce {1_adj} et de chapelure, cuits jusqu'à ce qu'ils rendent leur eau et la reprennent.</description>
+		<description>{0_coll} destalked and filled with a {1_adj} stuffing and breadcrumbs, baked until they give up their water and take it back again.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsSnack</li>
@@ -217,7 +217,7 @@
 			<li><categories><li>FT_Lemon</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>une tranche épaisse {0_adj} dur farinée et saisie dans une petite poêle à deux anses, jusqu'à former une croûte. Arrosée {1_plur} à table, parfois flambée.</description>
+		<description>a thick slice of hard {0_adj} floured and seared in a small two-handled pan, until a crust forms. Doused with {1_plur} at the table, and sometimes flamed.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsNonSpecial</li>
@@ -226,13 +226,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FetaRotieAuxTomates</defName>
-		<label>feta rôtie aux tomates</label>
+		<label>baked feta with tomatoes</label>
 		<ingredients>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 		</ingredients>
-		<description>un bloc {1_adj} posé au centre d'un plat rempli {0_adj} cerises, noyé d'huile {2_adj} et rôti jusqu'à ce que tout s'affaisse. On écrase et on mélange dans le plat même.</description>
+		<description>a block of {1_adj} set in the middle of a dish filled with cherry {0_adj}, drowned in {2_adj} oil and roasted until everything collapses. You crush and mix it in the dish itself.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -241,13 +241,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Gnudi</defName>
-		<label>gnudi ricotta-épinards</label>
+		<label>ricotta and spinach gnudi</label>
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>la farce d'un ravioli sans son enveloppe — {0_coll} et {1_coll} liés d'un peu de farine et pochés nus. « Gnudi » veut dire déshabillés.</description>
+		<description>the filling of a ravioli without its wrapper — {0_coll} and {1_coll} bound with a little flour and poached naked. Gnudi means undressed.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 			<li>FT_MealsNoodle</li>
@@ -256,13 +256,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_HalloumiGrilleLegumes</defName>
-		<label>halloumi grillé aux légumes</label>
+		<label>grilled halloumi with vegetables</label>
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} tranché épais et grillé jusqu'à quadriller sans fondre — c'est le seul fromage qui tienne sur le gril —, avec {1_coll} rôtis et du zaatar.</description>
+		<description>{0_coll} sliced thick and grilled until it takes the bars without melting — it is the only cheese that holds on a grill — with roasted {1_coll} and za'atar.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsSalad</li>
