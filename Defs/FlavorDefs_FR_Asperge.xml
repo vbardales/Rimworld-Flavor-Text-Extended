@@ -13,13 +13,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AspergesHollandaise</defName>
-		<label>asperges sauce hollandaise</label>
+		<label>asparagus with hollandaise</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pochées al dente, nappées d'une émulsion de jaunes {1_adj} montée {2_plur} clarifié au bain-marie. La sauce tranche si elle dépasse soixante-cinq degrés : elle se fait au dernier moment ou pas du tout.</description>
+		<description>{0_coll} poached al dente, napped with an emulsion of {1_adj} yolks mounted with clarified {2_plur} over a water bath. The sauce splits above sixty-five degrees: it is made at the last moment or not at all.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -27,13 +27,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AspergesMousseline</defName>
-		<label>asperges sauce mousseline</label>
+		<label>asparagus with sauce mousseline</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>la même hollandaise, allégée d'un tiers {2_adj} fouettée incorporée hors du feu. Elle double de volume et perd son mordant : c'est la version des dimanches.</description>
+		<description>the same hollandaise, lightened by a third with whipped {2_adj} folded in off the heat. It doubles in volume and loses its bite: the Sunday version.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -41,13 +41,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AspergesFlamande</defName>
-		<label>asperges à la flamande</label>
+		<label>asparagus à la flamande</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} blanches servies avec un œuf dur écrasé à la fourchette dans du beurre fondu, du persil et une râpure de muscade. Chacun mélange sa sauce dans son assiette.</description>
+		<description>white {0_coll} served with a hard-boiled egg crushed with a fork into melted butter, parsley and a grating of nutmeg. Everyone mixes their own sauce on their own plate.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -55,13 +55,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_VelouteDAsperges</defName>
-		<label>velouté d'asperges</label>
+		<label>cream of asparagus</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 		</ingredients>
-		<description>les épluchures et les parties fibreuses bouillies à part pour le fond, les pointes réservées et ajoutées entières à la fin. {2_coll} lient sans farine, {1_coll} adoucit l'amertume.</description>
+		<description>the peelings and the fibrous ends boiled apart for the stock, the tips kept back and added whole at the end. {2_coll} binds it without flour, {1_coll} softens the bitterness.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -69,13 +69,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FlanDAsperges</defName>
-		<label>flan d'asperges</label>
+		<label>asparagus flan</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>une purée {0_adj} liée {1_plur} et {2_plur}, cuite au bain-marie en ramequins jusqu'à prendre sans bulles. Se démoule tiède, tremblant.</description>
+		<description>a purée of {0_adj} bound with {1_plur} and {2_plur}, cooked in a water bath in ramekins until it sets without bubbles. Turned out warm, and trembling.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -84,13 +84,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GratinDAsperges</defName>
-		<label>gratin d'asperges</label>
+		<label>asparagus gratin</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} égouttées longuement puis rangées serrées sous une béchamel {1_adj} et {2_plur}, passées au four jusqu'à ce que la surface cloque.</description>
+		<description>{0_coll} drained a long while then packed tight under a {1_adj} béchamel and {2_plur}, put through the oven until the surface blisters.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -98,13 +98,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TarteAuxAsperges</defName>
-		<label>tarte aux asperges</label>
+		<label>asparagus tart</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} rangées en rayons sur un fond précuit, entre elles une crème {2_adj}. Les pointes vers le centre, les talons vers le bord : c'est la seule façon que chaque part en ait une.</description>
+		<description>{0_coll} laid out in spokes over a blind-baked base, with a {2_adj} cream between them. Tips to the centre, ends to the rim: that is the only way every slice gets one.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -112,13 +112,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AspergesJambonGratinees</defName>
-		<label>asperges au jambon gratinées</label>
+		<label>asparagus and ham gratin</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>des bottes {0_adj} roulées deux par deux dans une tranche {1_adj}, nappées et gratinées {2_plur}. Le cousin printanier des endives au jambon.</description>
+		<description>bundles of {0_adj} rolled two at a time in a slice of {1_adj}, napped and browned with {2_plur}. The spring cousin of chicory and ham.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -134,7 +134,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} couchées sous un œuf au plat cuit au beurre noisette, {2_coll} râpé par-dessus. On perce le jaune et on y trempe les pointes.</description>
+		<description>{0_coll} laid down under a fried egg cooked in beurre noisette, with {2_coll} grated over the top. You break the yolk and dip the tips into it.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -148,7 +148,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} rangées en couches alternées {1_plur} râpé et {2_plur} fondu, gratinées jusqu'à ce que le fromage forme une croûte dorée aux bords du plat.</description>
+		<description>{0_coll} laid out in alternating layers with grated {1_plur} and melted {2_plur}, browned until the cheese forms a golden crust at the edges of the dish.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -162,7 +162,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{1_coll} mouillé du bouillon tiré des épluchures {0_adj}, les tiges fondues dedans et les pointes gardées croquantes pour la fin, le tout lié {2_plur}.</description>
+		<description>{1_coll} moistened with the stock drawn from the {0_adj} peelings, the stems melted into it and the tips kept crisp for the end, the whole bound with {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -176,7 +176,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} tronçonnées et poêlées {2_plur} nouveaux, noyées {1_plur} battus et cuites à feu doux jusqu'à ce que le centre soit à peine pris.</description>
+		<description>{0_coll} cut into lengths and fried with new {2_plur}, drowned in beaten {1_plur} and cooked over a low flame until the centre is barely set.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -190,7 +190,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>les tiges {0_adj} fondues {2_plur} jusqu'à se défaire en crème, les pointes ajoutées entières deux minutes avant la fin. L'eau de cuisson lie le tout.</description>
+		<description>the stems of {0_adj} melted down in {2_plur} until they fall into a cream, the tips added whole two minutes before the end. The cooking water binds the whole thing together.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 		</mealKinds>
@@ -206,7 +206,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} blanches épluchées jusqu'au pied et cuites dans une eau sucrée et salée, avec {1_coll} nouvelles et {2_coll} fondu. En Allemagne, la saison ouvre et ferme à date fixe et rien d'autre ne se mange entre les deux.</description>
+		<description>white {0_coll} peeled right down to the foot and cooked in a sweetened, salted water, with new {1_coll} and melted {2_coll}. In Germany the season opens and closes on fixed dates, and nothing else is eaten in between.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -220,7 +220,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>des asperges sauvages, fines et amères, sautées {2_plur} d'olive puis brouillées {1_plur} à peine pris. Se ramassent au bord des chemins andalous au printemps.</description>
+		<description>wild asparagus, thin and bitter, fried in olive {2_plur} then scrambled with {1_plur} barely set. Gathered at the edges of Andalusian paths in spring.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -230,13 +230,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AsparagusTempura</defName>
-		<label>tempura d'asperges</label>
+		<label>asparagus tempura</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} entières trempées dans une pâte {1_adj} glacée et à peine mélangée, frites trente secondes {2_plur}. La pointe reste verte et croquante sous la croûte.</description>
+		<description>{0_coll} whole dipped in an iced {1_adj} batter barely stirred together, fried thirty seconds in {2_plur}. The tip stays green and crisp under the crust.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 		</mealKinds>
@@ -250,7 +250,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>{0_coll} enroulées une à une dans une lamelle {1_adj} très fine, saisies à la poêle jusqu'à ce que la viande scelle, puis laquées {2_plur} et au mirin.</description>
+		<description>{0_coll} rolled one by one in a very thin sliver of {1_adj}, seared in the pan until the meat seals, then lacquered with {2_plur} and mirin.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
