@@ -29,7 +29,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>une soupe de pêcheur : {0_coll} bouillie à gros feu avec {1_coll} et {2_coll}, le bouillon servi d'abord, la chair ensuite.</description>
+		<description>a fisherman's soup: {0_coll} boiled hard with {1_coll} and {2_coll}, the broth served first and the flesh afterwards.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -43,7 +43,7 @@
 			<li><categories><li>FT_Anchovy</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>une tarte niçoise : {0_coll} compotés une heure durant jusqu'à devenir presque une confiture, étalés sur la pâte et quadrillés {1_adj}.</description>
+		<description>a Niçois tart: {0_coll} stewed a whole hour until they are almost a jam, spread over the dough and latticed with {1_adj}.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -57,7 +57,7 @@
 			<li><categories><li>FT_Anchovy</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll}, {1_coll} et {2_coll} écrasés au mortier jusqu'à former une pâte noire et salée. Le nom vient des câpres, qu'on n'a pas.</description>
+		<description>{0_coll}, {1_coll} and {2_coll} crushed in a mortar into a black, salt paste. The name comes from the capers, which we do not have.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 			<li>FT_MealsSnack</li>
@@ -72,7 +72,7 @@
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 		</ingredients>
-		<description>{0_coll} marinée une nuit entière, puis cuite si longtemps et si doucement qu'elle se défait à la cuillère.</description>
+		<description>{0_coll} marinated a whole night, then cooked so long and so gently that it falls apart under the spoon.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -86,7 +86,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>une soupe épaisse {0_adj} et {1_adj}, à laquelle on ajoute hors du feu une pommade {2_adj} pilé à l'huile. La chaleur du bouillon suffit à la réveiller.</description>
+		<description>a thick soup of {0_adj} and {1_adj}, into which, off the heat, goes a paste of {2_adj} pounded with oil. The heat of the broth is enough to wake it up.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -102,7 +102,7 @@
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisée des heures durant {1_plur}, avec {2_coll}, jusqu'à ce que la sauce nappe la cuillère et que la viande cède sans couteau.</description>
+		<description>{0_coll} braised for hours in {1_plur}, with {2_coll}, until the sauce coats the spoon and the meat gives way without a knife.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -116,7 +116,7 @@
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pochés non pas dans l'eau mais dans une sauce réduite {1_plur} et {2_plur}, qui les teinte de violet.</description>
+		<description>{0_coll} poached not in water but in a sauce reduced from {1_plur} and {2_plur}, which stains them violet.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -130,7 +130,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>de la pâte à choux {0_plur}, gonflée au four jusqu'à sonner creux. Se mange tiède, debout, en attendant le reste.</description>
+		<description>choux pastry made with {0_plur}, puffed in the oven until it sounds hollow. Eaten warm, standing up, while waiting for the rest.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsSnack</li>
@@ -147,7 +147,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {2_coll} recouverts {1_adj} coupé dans sa longueur, croûte vers le bas, et passés au four jusqu'à ce que tout se confonde.</description>
+		<description>{0_coll} and {2_coll} covered over with {1_adj} cut along its length, rind downwards, and put in the oven until everything runs into everything else.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -161,7 +161,7 @@
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} fondu {1_plur} dans un caquelon frotté d'ail, tenu au chaud toute la soirée. On y trempe le pain au bout d'une pique ; celui qui le laisse tomber paie sa tournée.</description>
+		<description>{0_coll} melted in {1_plur} in a pot rubbed with garlic, kept hot the whole evening. Bread is dipped in on the end of a fork; whoever drops it buys the next round.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -175,7 +175,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>une purée {0_adj} travaillée {1_plur} à la spatule, longtemps, jusqu'à ce qu'elle file en rubans quand on la soulève. Le bras finit par fatiguer avant la pâte.</description>
+		<description>a mash of {0_adj} worked with {1_plur} and a spatula, for a long time, until it draws into ribbons when it is lifted. The arm gives out before the paste does.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -189,7 +189,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} rissolées {2_plur}, écrasées grossièrement dans la poêle et liées {1_plur} jeune, sans jamais quitter le feu.</description>
+		<description>{0_coll} fried in {2_plur}, crushed roughly in the pan and bound with young {1_plur}, without ever leaving the heat.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -203,7 +203,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 		</ingredients>
-		<description>{1_coll} et {0_coll} au même pot, avec {2_coll}, mijotés une demi-journée. Le bouillon se boit avant, le reste se mange après.</description>
+		<description>{1_coll} and {0_coll} in the same pot, with {2_coll}, stewed half a day. The broth is drunk first, the rest eaten after.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -219,7 +219,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 		</ingredients>
-		<description>{0_coll} salés et laissés fermenter des semaines, puis cuits {1_plur} et servis {2_plur}. L'acidité fait tout le travail que le sel a commencé.</description>
+		<description>{0_coll} salted and left to ferment for weeks, then cooked in {1_plur} and served with {2_plur}. The acidity finishes all the work the salt began.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -233,7 +233,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} empilés en couches, arrosés {2_adj}, la terrine scellée par un cordon de pâte. On la portait chez le boulanger le matin ; elle attendait dans son four jusqu'au soir.</description>
+		<description>{0_coll} and {1_coll} stacked in layers, moistened with {2_adj}, the terrine sealed with a rope of dough. It was carried to the baker in the morning and waited in his oven until evening.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -247,7 +247,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>une pâte étalée à la limite du déchirement, couverte {1_adj} et {2_adj} crus, glissée deux minutes au plus près des braises.</description>
+		<description>a dough rolled out to the very edge of tearing, covered with raw {1_adj} and {2_adj}, slid for two minutes as close to the embers as it will go.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -261,7 +261,7 @@
 			<li><categories><li>FT_Grape</li></categories></li>
 			<li><categories><li>FT_Almond</li></categories></li>
 		</ingredients>
-		<description>une brioche lente, cuite dans un moule cannelé, {1_plur} trempés d'avance et {2_plur} posées au fond pour qu'elles se retrouvent au sommet.</description>
+		<description>a slow brioche baked in a fluted mould, with {1_plur} soaked in advance and {2_plur} set in the bottom so that they end up at the summit.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsDessert</li>
@@ -272,13 +272,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GaletteDeSarrasin</defName>
-		<label>galette de sarrasin</label>
+		<label>buckwheat galette</label>
 		<ingredients>
 			<li><categories><li>FT_Buckwheat</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>une pâte {0_adj} étalée au rozell sur la pierre brûlante, garnie {1_plur} et {2_plur}, les quatre coins rabattus sur le jaune encore coulant.</description>
+		<description>a {0_adj} batter spread with a rozell over the scorching stone, filled with {1_plur} and {2_plur}, the four corners folded over the yolk while it is still running.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -293,7 +293,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>un flan dense {1_plur} et {2_plur}, cuit jusqu'à ce que le dessus brunisse et que le centre tremble encore.</description>
+		<description>a dense custard of {1_plur} and {2_plur}, baked until the top browns and the middle still trembles.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsDessert</li>
@@ -308,7 +308,7 @@
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>une pâte pliée et repliée {1_plur} et {2_plur} jusqu'à ce qu'elle en contienne presque autant que de farine. Le sucre du fond caramélise et colle au moule ; c'est le meilleur morceau.</description>
+		<description>a dough folded and folded again over {1_plur} and {2_plur} until it holds almost as much of them as of flour. The sugar at the bottom caramelises and sticks to the tin; that is the best piece.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsDessert</li>
@@ -323,7 +323,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>la part du marin : {0_coll} qu'on ne vendra pas, cuite {1_plur} et {2_plur}, le bouillon versé sur du pain rassis.</description>
+		<description>the sailor's share: the {0_coll} that will not be sold, cooked with {1_plur} and {2_plur}, the broth poured over stale bread.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -340,7 +340,7 @@
 			<li><categories><li>FT_Bean</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>une soupe si épaisse {0_adj}, {1_adj} et {2_adj} que la cuillère y tient debout. C'est le critère, et il n'est pas négociable.</description>
+		<description>a soup so thick with {0_adj}, {1_adj} and {2_adj} that the spoon stands up in it. That is the test, and it is not open to negotiation.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -348,13 +348,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ConfitDeVolaille</defName>
-		<label>confit {0_adj}</label>
+		<label>{0_adj} confit</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} salée un jour, puis cuite très lentement immergée {1_plur}, et conservée dedans. La peau se croustille au dernier moment, à la poêle.</description>
+		<description>{0_coll} salted for a day, then cooked very slowly submerged in {1_plur}, and kept in it afterwards. The skin is crisped at the last moment, in a pan.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -369,7 +369,7 @@
 			<li><categories><li>FT_Carrot</li></categories></li>
 			<li><categories><li>FT_Turnip</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pochée entière avec {1_coll} et {2_coll}. Henri IV en promettait une par semaine à chaque famille ; l'histoire ne dit pas s'il a tenu.</description>
+		<description>{0_coll} poached whole with {1_coll} and {2_coll}. Henri IV promised one a week to every family; history does not say whether he kept his word.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -380,13 +380,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Blanquette</defName>
-		<label>blanquette {0_adj}</label>
+		<label>{0_adj} blanquette</label>
 		<ingredients>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuite sans coloration — c'est toute la difficulté —, la sauce montée {1_plur} et acidulée au dernier moment.</description>
+		<description>{0_coll} cooked without taking any colour — that is the whole difficulty — the sauce mounted with {1_plur} and sharpened at the very last moment.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -394,13 +394,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoupeALOignonGratinee</defName>
-		<label>soupe à l'oignon gratinée</label>
+		<label>French onion soup</label>
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} roussis très lentement jusqu'au brun profond, mouillés, puis couverts de pain et {1_adj} et passés sous le gril.</description>
+		<description>{0_coll} browned very slowly to a deep colour, moistened, then covered with bread and {1_adj} and run under the grill.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -414,7 +414,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>deux tranches de pain, {2_coll} entre les deux, {1_coll} dessus et dessous, le tout gratiné jusqu'à ce que les bords débordent et brûlent un peu.</description>
+		<description>two slices of bread, {2_coll} between them, {1_coll} above and below, the whole browned until the edges run over and catch a little.</description>
 		<mealKinds>
 			<li>FT_MealsSandwich</li>
 			<li>FT_MealsBake</li>
@@ -429,7 +429,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{0_coll} battus {1_plur} et versés sur {2_coll} revenus, dans une pâte brisée. Il n'y a pas de fromage dedans, quoi qu'on en dise.</description>
+		<description>{0_coll} beaten with {1_plur} and poured over {2_coll} taken in the pan, in a shortcrust case. There is no cheese in it, whatever anyone says.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -443,7 +443,7 @@
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} d'une bête trop vieille pour autre chose, sauvée par une longue cuisson {1_plur}, avec {2_coll}.</description>
+		<description>{0_coll} from a bird too old for anything else, saved by a long cooking in {1_plur}, with {2_coll}.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -451,13 +451,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_LapinALaMoutarde</defName>
-		<label>lapin à la moutarde</label>
+		<label>rabbit with mustard</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Rabbit</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} badigeonnée {2_adj} avant cuisson, la sauce déglacée et liée {1_plur}. La moutarde perd son piquant et ne garde que l'acidité.</description>
+		<description>{0_coll} painted over with {2_adj} before it goes in, the sauce deglazed and bound with {1_plur}. The mustard loses its heat and keeps only its acidity.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -471,7 +471,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en lamelles fines, cuites {1_plur} dans un plat frotté {2_adj}. L'amidon suffit à lier ; il n'y a pas de fromage, et ce n'est pas une omission.</description>
+		<description>{0_coll} in fine slices, cooked in {1_plur} in a dish rubbed with {2_adj}. The starch is enough to bind it; there is no cheese, and that is not an oversight.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -479,13 +479,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BrandadeDeMorue</defName>
-		<label>brandade {0_adj}</label>
+		<label>{0_adj} brandade</label>
 		<ingredients>
 			<li><categories><li>FT_Cod</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} dessalée puis montée à l'huile en pommade, allongée {1_plur} et relevée {2_plur}.</description>
+		<description>{0_coll} soaked out then worked up with oil into a paste, loosened with {1_plur} and lifted with {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsPaste</li>
@@ -500,7 +500,7 @@
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {2_coll} mijotés longuement {1_plur}, adoucis d'un peu de sucre et d'une tranche de pain moutardé qui se dissout dans la sauce.</description>
+		<description>{0_coll} and {2_coll} stewed long in {1_plur}, softened with a little sugar and a slice of mustarded bread that dissolves into the sauce.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -514,7 +514,7 @@
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} ouverte à feu vif {1_plur} et {2_plur}, dans son propre jus. Celles qui restent fermées, on les jette.</description>
+		<description>{0_coll} opened over a high flame with {1_plur} and {2_plur}, in its own liquor. The ones that stay shut are thrown away.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
