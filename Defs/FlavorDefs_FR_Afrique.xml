@@ -13,7 +13,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>{0_coll} farcie d'un hachis d'herbes et frite, mijotée {2_plur} avec des légumes, puis {1_coll} cuit dans ce bouillon rouge. Le plat national du Sénégal, et l'ancêtre du jambalaya.</description>
+		<description>{0_coll} stuffed with a hash of herbs and fried, stewed in {2_plur} with vegetables, then {1_coll} cooked in that red broth. The national dish of Senegal, and the ancestor of jambalaya.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -27,7 +27,7 @@
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>{1_coll} mijotée dans une pâte {0_adj} détendue au bouillon et {2_plur}, jusqu'à ce que l'huile de l'arachide remonte à la surface. C'est le signe que c'est prêt.</description>
+		<description>{1_coll} stewed in a paste of {0_adj} let down with stock and {2_plur}, until the groundnut oil rises to the surface. That is the sign it is ready.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -35,13 +35,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Yassa</defName>
-		<label>yassa {0_adj}</label>
+		<label>{0_adj} yassa</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} marinée une nuit {2_plur} puis grillée, servie sous une masse {1_adj} fondus dans leur propre eau. Il faut deux fois plus d'oignons qu'on ne le croit raisonnable.</description>
+		<description>{0_coll} marinated overnight in {2_plur} and then grilled, served under a mass of {1_adj} melted down in their own water. It takes twice as many onions as anyone thinks reasonable.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -51,13 +51,13 @@
 		<defName>FlavorTextFR_RizJollof</defName>
 		<!-- Flavor Text a déjà « Jollof rice », qu'on traduit par « riz jollof ». Le nôtre
 		     exige un ingrédient de plus : on le distingue par son nom. -->
-		<label>riz jollof aux poivrons</label>
+		<label>jollof rice with peppers</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_BellPepper</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuit à l'étouffée dans une base {1_adj} et {2_adj} réduite jusqu'au fond, si bien qu'il prend un léger goût de fumé au contact de la marmite. Le Nigeria et le Ghana s'en disputent la paternité, sans arbitre en vue.</description>
+		<description>{0_coll} cooked smothered in a base of {1_adj} and {2_adj} reduced right down to the bottom of the pot, so that it takes a faint taste of smoke off the metal. Nigeria and Ghana dispute the paternity, with no referee in sight.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -71,7 +71,7 @@
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} râpé, fermenté, pressé puis cuit à la vapeur en une semoule acidulée, servie {1_plur} braisée et {2_plur} crus au citron.</description>
+		<description>{0_coll} grated, fermented, pressed and then steamed into a sour semolina, served with braised {1_plur} and raw {2_plur} with lemon.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -85,7 +85,7 @@
 			<li><categories><li>FT_Peanut</li></categories></li>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 		</ingredients>
-		<description>{0_coll} amères bouillies et rincées plusieurs fois pour ôter l'amertume, mêlées à une pâte {1_adj} et {2_plur}. Le plat de fête camerounais.</description>
+		<description>bitter {0_coll} boiled and rinsed several times over to draw out the bitterness, worked into a paste of {1_adj} and {2_plur}. The feast dish of Cameroon.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -99,7 +99,7 @@
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{1_coll} cuits à sec une heure entière avant qu'on ajoute la moindre graisse, puis un mélange {2_adj} et d'épices, et {0_coll}. Un œuf dur entier par convive, incisé pour prendre la sauce.</description>
+		<description>{1_coll} cooked dry for a whole hour before any fat goes in at all, then a mixture of {2_adj} and spices, and {0_coll}. One whole hard-boiled egg per guest, scored to take up the sauce.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -113,7 +113,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{0_coll} rouges fondus dans un beurre épicé et un mélange {1_adj}, jusqu'à ne plus former qu'une purée sombre. Se mange sans couverts, pincé dans une galette spongieuse.</description>
+		<description>red {0_coll} melted down in a spiced butter and a mixture of {1_adj}, until they form nothing but a dark purée. Eaten without utensils, pinched up in a spongy flatbread.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -127,7 +127,7 @@
 			<li><categories><li>FT_Bean</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} mijotés des heures dans une purée {2_adj} séchés réhydratés. Au Texas, ajouter les haricots est un sujet de brouille durable.</description>
+		<description>{0_coll} and {1_coll} stewed for hours in a purée of dried {2_adj} soaked back up. In Texas, adding the beans is grounds for a lasting quarrel.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSoup</li>
@@ -142,7 +142,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>{0_coll} ouverte à la vapeur, son eau filtrée et gardée, avec {1_coll} et {2_coll}. Se sert dans une miche creusée, dont on mange les parois à la fin.</description>
+		<description>{0_coll} opened in steam, its liquor strained and kept, with {1_coll} and {2_coll}. Served in a hollowed loaf, whose walls are eaten at the end.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -150,13 +150,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoudinCajun</defName>
-		<label>boudin cajun</label>
+		<label>cajun boudin</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_BellPepper</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et abats cuits puis hachés {1_plur} et {2_plur}, embossés dans un boyau et réchauffés à la vapeur. Se mange en pressant le boyau pour en faire sortir la farce, qu'on ne mâche presque pas.</description>
+		<description>{0_coll} and offal cooked and then chopped with {1_plur} and {2_plur}, cased and reheated in steam. Eaten by squeezing the casing to push the filling out, and it is barely chewed at all.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -170,7 +170,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} cuits dans une eau parfumée {2_plur} fumée. Se mange le premier jour de l'an : chaque grain compte pour une pièce de l'année à venir.</description>
+		<description>{0_coll} and {1_coll} cooked in a water scented with smoked {2_plur}. Eaten on the first day of the year: every grain counts for a coin in the year to come.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

@@ -36,7 +36,7 @@
 			<li><categories><li>FT_Drink</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} trempés une nuit, broyés {1_plur} puis filtrés au linge et portés à ébullition — crus, ils sont indigestes. Se boit brûlant au petit matin, sucré {2_plur} ou au contraire salé au vinaigre.</description>
+		<description>{0_coll} soaked overnight, ground with {1_plur} then strained through cloth and brought to the boil — raw, they cannot be digested. Drunk scalding at first light, sweetened with {2_plur} or else salted with vinegar.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -44,13 +44,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_LaitDeSojaNoir</defName>
-		<label>lait de soja noir</label>
+		<label>black soy milk</label>
 		<ingredients>
 			<li><categories><li>FT_Soybean</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
 		</ingredients>
-		<description>{0_coll} noirs torréfiés avant d'être broyés {1_plur}, ce qui donne une boisson d'un gris violacé, plus ronde que le soja jaune, relevée {2_plur} noir grillé.</description>
+		<description>black {0_coll} toasted before being ground with {1_plur}, which gives a drink of a violet grey, rounder than yellow soy, lifted with toasted black {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -64,7 +64,7 @@
 			<li><categories><li>FT_Drink</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>une farine {0_adj} grillés, délayée {1_plur} froide avec un jus {2_adj}, du sel noir et du cumin. La boisson des étés du Bihar : elle nourrit autant qu'elle désaltère, et ne demande aucune cuisson.</description>
+		<description>a flour of roasted {0_adj}, slaked in cold {1_plur} with the juice of {2_adj}, black salt and cumin. The drink of the Bihar summers: it feeds as much as it quenches, and needs no cooking at all.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -72,13 +72,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoissonHaricotMungo</defName>
-		<label>boisson au haricot mungo</label>
+		<label>mung bean drink</label>
 		<ingredients>
 			<li><categories><li>FT_Bean</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{0_coll} mungo cuits à l'excès puis passés, allongés {1_plur} et parfumés {2_plur} frais. On la boit glacée pendant les canicules, pour ses vertus rafraîchissantes autant que pour son goût.</description>
+		<description>mung {0_coll} cooked past done and passed through a sieve, let down with {1_plur} and scented with fresh {2_plur}. Drunk iced through the heatwaves, for its cooling virtues as much as for its taste.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -94,7 +94,7 @@
 			<li><categories><li>FT_Tea</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
 		</ingredients>
-		<description>une brique {1_adj} bouillie des heures {2_plur}, puis barattée dans un tube de bois avec {0_coll} de yak et beaucoup de sel. Ce n'est pas une infusion mais un bouillon gras : à quatre mille mètres, c'est ce qui tient debout.</description>
+		<description>a brick of {1_adj} boiled for hours with {2_plur}, then churned in a wooden tube with yak {0_coll} and a great deal of salt. It is not an infusion but a fatty broth: at four thousand metres, that is what keeps you upright.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -102,13 +102,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CafeAuBeurre</defName>
-		<label>café au beurre</label>
+		<label>butter coffee</label>
 		<ingredients>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Coffee</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
 		</ingredients>
-		<description>{1_coll} serré allongé {2_plur} chaude, dans lequel on fait fondre une noix {0_adj} en fouettant jusqu'à l'émulsion. Sans le fouet, le gras remonte en flaque et la boisson est immonde.</description>
+		<description>a tight {1_coll} let down with hot {2_plur}, into which a knob of {0_adj} is melted and whisked to an emulsion. Without the whisk the fat rises in a pool and the drink is vile.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -116,13 +116,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GrogAuBeurre</defName>
-		<label>grog au beurre</label>
+		<label>buttered grog</label>
 		<ingredients>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{1_coll} allongé d'eau bouillante sur {2_coll} et des épices, avec une noix {0_adj} qui fond en surface et forme un disque luisant. On le sert dans une chope, jamais dans un verre : la chaleur ne tiendrait pas.</description>
+		<description>{1_coll} let down with boiling water over {2_coll} and spices, with a knob of {0_adj} melting on the surface into a shining disc. Served in a tankard, never in a glass: the heat would not hold.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -130,13 +130,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChocolatChaudAuBeurre</defName>
-		<label>chocolat chaud au beurre</label>
+		<label>buttered hot chocolate</label>
 		<ingredients>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
 		</ingredients>
-		<description>{1_coll} fondu {2_plur} bouillante plutôt qu'au lait, monté d'une noix {0_adj} au fouet. Plus amer et plus dense qu'au lait, et c'est ainsi qu'on le buvait avant que la vache s'en mêle.</description>
+		<description>{1_coll} melted in boiling {2_plur} rather than in milk, and raised with a knob of {0_adj} and a whisk. More bitter and denser than with milk, and this is how it was drunk before the cow got involved.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -146,13 +146,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_EauDeCoco</defName>
-		<label>eau de coco</label>
+		<label>coconut water</label>
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>une noix {0_adj} jeune décalottée à la machette, dont on boit l'eau à la paille avant d'en racler la chair gélatineuse à la cuillère. Allongée {1_plur} glacée et d'un trait {2_adj}.</description>
+		<description>a young {0_adj} topped with a machete, whose water is drunk through a straw before the jellied flesh is scraped out with a spoon. Let down with iced {1_plur} and a thread of {2_adj}.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -166,7 +166,7 @@
 			<li><categories><li>FT_Drink</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>la chair tendre d'une noix {0_adj} jeune, celle qui se racle à la cuillère, passée au mixeur avec sa propre eau, {1_coll} glacée et {2_coll}. Aux Philippines, on la vend au bord de la route dans la coque même.</description>
+		<description>the tender flesh of a young {0_adj}, the kind that is scraped out with a spoon, blended with its own water, iced {1_coll} and {2_coll}. In the Philippines it is sold at the roadside in the shell itself.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -174,13 +174,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CocoAnanas</defName>
-		<label>rafraîchissement coco-ananas</label>
+		<label>coconut and pineapple cooler</label>
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
 			<li><categories><li>FT_Pineapple</li></categories></li>
 		</ingredients>
-		<description>l'eau et la chair d'une noix {0_adj} mixées avec {2_coll} bien mûr et allongées {1_plur}, sur beaucoup de glace pilée. Aucune crème n'y entre : c'est le fruit qui donne l'onctuosité.</description>
+		<description>the water and the flesh of a {0_adj} blended with well-ripened {2_coll} and let down with {1_plur}, over a great deal of crushed ice. No cream goes into it: the fruit supplies the richness.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -188,13 +188,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PunchCocoRhum</defName>
-		<label>punch coco au rhum</label>
+		<label>coconut rum punch</label>
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>l'eau d'une noix {0_adj} versée sur {1_coll} et un sirop {2_adj}, servie dans la coque avec une paille. Se boit trop facilement, ce qui est tout le problème.</description>
+		<description>the water of a {0_adj} poured over {1_coll} and a {2_adj} syrup, served in the shell with a straw. It goes down too easily, which is the whole problem.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
