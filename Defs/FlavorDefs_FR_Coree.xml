@@ -12,7 +12,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
-		<description>{0_coll} surmonté {2_adj} disposés en secteurs, chacun assaisonné à part, et d'un jaune {1_adj} au centre. Le nom veut dire « riz mélangé » : tout ce travail de présentation est détruit d'un coup de cuillère, et c'est prévu.</description>
+		<description>{0_coll} crowned with {2_adj} laid out in sectors, each seasoned apart, and a {1_adj} yolk at the centre. The name means mixed rice: all that arrangement is destroyed with one stroke of the spoon, and it is meant to be.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -26,7 +26,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>des cylindres de pâte {0_adj} mijotés dans une sauce {1_adj} et {2_adj} jusqu'à ce qu'elle les enrobe. La texture élastique surprend plus que le piment.</description>
+		<description>cylinders of {0_adj} dough stewed in a {1_adj} and {2_adj} sauce until it coats them. The elastic texture surprises more than the chilli does.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsNonSpecial</li>
@@ -41,7 +41,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>une volaille entière farcie {1_plur} gluant et {2_plur}, bouillie jusqu'à ce que les os se détachent. On la mange les jours les plus chauds de l'été, pour combattre le feu par le feu.</description>
+		<description>a whole fowl stuffed with sticky {1_plur} and {2_plur}, boiled until the bones come away. Eaten on the hottest days of summer, to fight fire with fire.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -55,7 +55,7 @@
 			<li><categories><li>FT_Soy</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>des côtes {0_adj} taillées en accordéon pour marinier plus vite {1_plur} et {2_plur}, grillées sur la table même. La poire râpée de la marinade attendrit la viande.</description>
+		<description>{0_adj} ribs cut in a concertina so as to marinate faster in {1_plur} and {2_plur}, grilled at the table itself. The grated pear in the marinade tenderises the meat.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -69,7 +69,7 @@
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>un ragoût bouillonnant de pâte {0_adj} fermentée, avec {1_coll} et {2_coll}. Arrive encore en train de cuire dans son pot de terre, et continue dix minutes.</description>
+		<description>a bubbling stew of fermented {0_adj} paste, with {1_coll} and {2_coll}. It arrives still cooking in its earthenware pot, and goes on for ten minutes.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -83,7 +83,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>une crêpe épaisse où {2_coll} tiennent debout dans la pâte, dorée des deux côtés à l'huile généreuse. Se mange les jours de pluie : le bruit de la friture rappelle celui des gouttes.</description>
+		<description>a thick pancake in which {2_coll} stand upright in the batter, gilded on both sides in generous oil. Eaten on rainy days: the sound of the frying recalls the sound of the drops.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -98,7 +98,7 @@
 			<li><categories><li>FT_Kelp</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} assaisonné à l'huile de sésame — pas au vinaigre — roulé {1_plur} avec une bande {2_adj} en omelette, puis tranché. Nourriture de pique-nique et de train.</description>
+		<description>{0_coll} seasoned with sesame oil — not with vinegar — rolled in {1_plur} with a strip of {2_adj} as omelette, then sliced. Picnic and train food.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsNonSpecial</li>
@@ -113,7 +113,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>du tofu si peu pressé qu'il se défait à la cuillère, dans un bouillon rouge {1_adj}, avec {2_coll} cassés dedans au dernier moment.</description>
+		<description>tofu so little pressed that it falls apart under the spoon, in a red {1_adj} broth, with {2_coll} broken into it at the last moment.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -127,7 +127,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} frite deux fois — la seconde chasse l'eau restée sous la croûte — puis laquée {1_plur} et {2_plur}. Reste croustillante sous la sauce, ce qui est tout l'exploit.</description>
+		<description>{0_coll} fried twice — the second frying driving out the water left under the crust — then lacquered with {1_plur} and {2_plur}. It stays crisp under the sauce, which is the whole feat.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 		</mealKinds>
@@ -141,7 +141,7 @@
 			<li><categories><li>FT_Cucumber</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>des nouilles {0_adj} servies dans un bouillon glacé, parfois à moitié pris en glace, avec {1_coll} et un demi-œuf. On les coupe aux ciseaux à table : elles sont trop élastiques pour les dents.</description>
+		<description>{0_adj} noodles served in an iced broth, sometimes half frozen, with {1_coll} and half an egg. They are cut with scissors at the table: they are too elastic for teeth.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 		</mealKinds>
@@ -155,7 +155,7 @@
 			<li><categories><li>FT_Sesame</li></categories></li>
 			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
-		<description>des nouilles de patate douce, translucides et glissantes, sautées {0_plur} et {1_plur} avec {2_coll} cuits chacun séparément pour garder leur couleur.</description>
+		<description>sweet potato noodles, translucent and slippery, fried with {0_plur} and {1_plur} and with {2_coll} each cooked separately so as to keep its own colour.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 			<li>FT_MealsStirFry</li>
@@ -170,7 +170,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} tranchée fin et sautée à feu vif dans une pâte {1_adj}, avec {2_coll}. Le sucre de la marinade caramélise et attache : c'est le but.</description>
+		<description>{0_coll} sliced thin and fried over a high flame in a {1_adj} paste, with {2_coll}. The sugar of the marinade caramelises and catches: that is the object.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -184,7 +184,7 @@
 			<li><categories><li>FT_Sesame</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} battus avec autant d'eau qu'ils pèsent, cuits à la vapeur jusqu'à gonfler par-dessus le bol, parsemés {1_plur} et {2_plur}. Retombe en une minute.</description>
+		<description>{0_coll} beaten with their own weight in water, steamed until they swell up over the rim of the bowl, scattered with {1_plur} and {2_plur}. It falls again within the minute.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -198,7 +198,7 @@
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} bouillie longuement puis tranchée tiède, à envelopper soi-même dans des feuilles {1_adj} avec une gousse crue {2_adj}. Chaque bouchée se construit à la main.</description>
+		<description>{0_coll} boiled a long while and then sliced warm, to be wrapped by hand in {1_adj} leaves with a raw clove of {2_adj}. Every mouthful is built by the eater.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
