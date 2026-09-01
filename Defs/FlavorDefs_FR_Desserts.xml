@@ -12,13 +12,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_IleFlottante</defName>
-		<label>île flottante</label>
+		<label>floating island</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Almond</li></categories></li>
 		</ingredients>
-		<description>des blancs {0_adj} montés et pochés au lait, posés sur une crème anglaise et striés de caramel, avec {2_coll} effilées grillées. L'île flotte parce qu'elle est plus légère que la mer.</description>
+		<description>{0_adj} whites whipped and poached in milk, set on a custard and streaked with caramel, with toasted flaked {2_coll}. The island floats because it is lighter than the sea.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -26,13 +26,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MousseAuChocolat</defName>
-		<label>mousse au chocolat</label>
+		<label>chocolate mousse</label>
 		<ingredients>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>{0_coll} fondu et lié à des jaunes, allégé de blancs montés incorporés en trois fois — le premier tiers pour détendre, les deux autres à la spatule, sans casser l'air.</description>
+		<description>{0_coll} melted and bound with yolks, lightened with whipped whites folded in three goes — the first third to loosen it, the other two with a spatula, without knocking the air out.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -46,7 +46,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>{0_coll} noyées dans un appareil {1_adj} et {2_adj}, cuites jusqu'à ce que la pâte prenne autour. On garde les noyaux : ils parfument à l'amande pendant la cuisson.</description>
+		<description>{0_coll} drowned in a {1_adj} and {2_adj} batter, baked until the batter sets around them. The stones are left in: they scent the whole thing with almond as it cooks.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -55,13 +55,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PoiresBelleHelene</defName>
-		<label>poires Belle-Hélène</label>
+		<label>poires belle Hélène</label>
 		<ingredients>
 			<li><categories><li>FT_Pear</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pelées et pochées dans un sirop {2_adj} vanillé, servies froides sous {1_coll} chaud versé à table. Escoffier l'a nommé d'après une opérette d'Offenbach.</description>
+		<description>{0_coll} peeled and poached in a vanilla {2_adj} syrup, served cold under hot {1_coll} poured at the table. Escoffier named it after an Offenbach operetta.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -69,13 +69,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PecheMelba</defName>
-		<label>pêche Melba</label>
+		<label>peach Melba</label>
 		<ingredients>
 			<li><categories><li>FT_Peach</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pochées sur une glace à la vanille, nappées d'un coulis {1_adj} cru — jamais cuit, il perdrait sa couleur. Créé pour une cantatrice australienne.</description>
+		<description>{0_coll} poached over vanilla ice cream, coated with a raw {1_adj} coulis — never cooked, or it loses its colour. Created for an Australian soprano.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -83,13 +83,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_QuatreQuarts</defName>
-		<label>quatre-quarts</label>
+		<label>pound cake</label>
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>autant de farine que {1_adj}, que de sucre, que {2_adj} — quatre quarts, d'où le nom. On pèse les œufs d'abord et tout le reste se déduit.</description>
+		<description>as much flour as {1_adj}, as sugar, as {2_adj} — four equal quarters, which is what the French name says. You weigh the eggs first and everything else follows.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -98,13 +98,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GateauAuYaourt</defName>
-		<label>gâteau au yaourt</label>
+		<label>yoghurt cake</label>
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>le pot {1_adj} sert de mesure pour tout le reste. Le premier gâteau que l'on apprend à faire, et le seul dont on n'oublie jamais la recette.</description>
+		<description>the {1_adj} pot serves as the measure for everything else. The first cake anyone learns to make, and the only one whose recipe is never forgotten.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -113,13 +113,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FondantAuChocolat</defName>
-		<label>fondant au chocolat</label>
+		<label>molten chocolate cake</label>
 		<ingredients>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} fondus ensemble, à peine liés de farine, et cuits très court pour que le centre reste coulant. Deux minutes de trop et ce n'est plus qu'un gâteau.</description>
+		<description>{0_coll} and {1_coll} melted together, barely bound with flour, and baked very briefly so the centre stays liquid. Two minutes too long and it is only a cake.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -134,7 +134,7 @@
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>une couronne de pâte à choux fendue et garnie d'une crème pralinée {1_adj}. La forme imite une roue de bicyclette : le pâtissier avait son atelier sur le parcours de la course.</description>
+		<description>a ring of choux pastry split and filled with a {1_adj} praline cream. The shape imitates a bicycle wheel: the pastrycook had his shop on the route of the race.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -149,7 +149,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>trois abaisses de feuilletage cuites sous un poids pour rester plates, montées avec une crème pâtissière {2_adj}. Se mange couché sur le flanc : personne n'a jamais réussi autrement.</description>
+		<description>three sheets of puff pastry baked under a weight to stay flat, built up with a {2_adj} pastry cream. Eaten lying on its side: nobody has ever managed it any other way.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -158,13 +158,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_EclairAuCafe</defName>
-		<label>éclair au café</label>
+		<label>coffee éclair</label>
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Coffee</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>un boudin de pâte à choux garni d'une crème {1_adj} et glacé du même parfum. Le nom viendrait de la vitesse à laquelle il se mange.</description>
+		<description>a length of choux pastry filled with a {1_adj} cream and iced in the same flavour. The name is said to come from how fast it is eaten.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -173,13 +173,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TarteCitronMeringuee</defName>
-		<label>tarte au citron meringuée</label>
+		<label>lemon meringue pie</label>
 		<ingredients>
 			<li><categories><li>FT_Lemon</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>une crème {0_adj} acide montée au beurre, sous une meringue {1_adj} pochée en vagues et brûlée au chalumeau. L'acidité doit rester franche, sinon la meringue écrase tout.</description>
+		<description>a sharp {0_adj} curd beaten with butter, under a {1_adj} meringue piped in waves and burnt with a torch. The acidity has to stay frank, or the meringue flattens everything.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -188,13 +188,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BabaAuRhum</defName>
-		<label>baba au rhum</label>
+		<label>rum baba</label>
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>une pâte levée séchée exprès, puis noyée dans un sirop {2_adj} tiède {1_plur} jusqu'à ne plus rien pouvoir absorber. On le presse doucement : il doit rendre du jus.</description>
+		<description>a risen dough dried out on purpose, then drowned in a warm {2_adj} syrup with {1_plur} until it can take up no more. Pressed gently, it should give juice back.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -209,7 +209,7 @@
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>de petits choux garnis de glace {2_adj}, noyés sous {1_coll} chaud versé devant les convives. Le contraste des températures est tout le dessert.</description>
+		<description>small choux buns filled with {2_adj} ice cream, drowned under hot {1_coll} poured in front of the guests. The clash of temperatures is the whole dessert.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -223,7 +223,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>une pâte reposée au froid puis enfournée très chaud : le choc thermique fait la bosse, et une madeleine sans bosse est ratée. Parfumée {2_plur}.</description>
+		<description>a batter rested in the cold then put into a very hot oven: the thermal shock makes the hump, and a madeleine without a hump has failed. Scented with {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -238,7 +238,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>de la poudre {0_adj} et des blancs {1_adj}, liés {2_plur} cuit jusqu'à sentir la noisette. Moulé en lingot, et vendu autrefois aux agents de change du quartier de la Bourse.</description>
+		<description>{0_adj} meal and {1_adj} whites, bound with {2_plur} cooked until it smells of hazelnut. Moulded into ingots, and once sold to the stockbrokers around the Bourse.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -253,7 +253,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>une pâte liquide reposée deux jours, cuite dans des moules cuivrés enduits de cire, jusqu'à obtenir une croûte presque noire autour d'un cœur mou {1_adj} et {2_adj}.</description>
+		<description>a liquid batter rested two days, baked in copper moulds lined with wax, until an almost black crust forms around a soft {1_adj} and {2_adj} heart.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -269,7 +269,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>des disques de meringue {1_adj} chargée de poudre {0_adj}, séchés au four doux et montés avec une crème au beurre. Le biscuit doit rester croquant sous la crème pendant des heures.</description>
+		<description>discs of {1_adj} meringue loaded with {0_adj} meal, dried in a slow oven and built up with buttercream. The biscuit has to stay crisp under the cream for hours.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -278,13 +278,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SableBreton</defName>
-		<label>sablés bretons</label>
+		<label>Breton shortbread</label>
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>presque autant {1_adj} demi-sel que de farine, à peine travaillés pour rester sablonneux. Le sel n'est pas un assaisonnement ici : c'est l'ingrédient principal après le beurre.</description>
+		<description>almost as much salted {1_adj} as flour, barely worked so it stays sandy. The salt is not a seasoning here: it is the main ingredient after the butter.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -299,7 +299,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} cannellés, cuits cinq heures au four du boulanger dans une terrine, jusqu'à former une peau brune et épaisse. Le nom vient de la brûlure qu'elle inflige à qui n'attend pas.</description>
+		<description>{0_coll} and {1_coll} with cinnamon, baked five hours in the baker's oven in an earthenware dish, until a thick brown skin forms. The name comes from the burn it deals to anyone who will not wait.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -314,7 +314,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>des rubans de pâte nouée, parfumés {2_plur} et à la fleur d'oranger, frits et sucrés. Épaisses à Lyon, sèches et craquantes à Saint-Étienne : chacun défend les siennes.</description>
+		<description>ribbons of knotted dough, scented with {2_plur} and orange flower water, fried and sugared. Thick in Lyon, dry and brittle in Saint-Étienne: each city defends its own.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsDeepFry</li>
@@ -329,7 +329,7 @@
 			<li><categories><li>FT_Melon</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>une pâte {0_adj} et {1_adj} confit, posée sur une feuille d'azyme et glacée de blanc. La forme en navette daterait d'un mariage comtal au XVe siècle.</description>
+		<description>a paste of {0_adj} and candied {1_adj}, set on a sheet of wafer and iced white. The shuttle shape is said to date from a fifteenth-century comital wedding.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -344,7 +344,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 		</ingredients>
-		<description>{2_coll} cuit au grand cassé, versé sur des blancs montés et battu une heure, puis chargé {0_adj} grillées. Serré entre deux feuilles d'azyme pour ne pas coller aux doigts.</description>
+		<description>{2_coll} cooked to the hard crack, poured over whipped whites and beaten for an hour, then loaded with toasted {0_adj}. Pressed between two sheets of wafer so it does not stick to the fingers.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -361,7 +361,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 		</ingredients>
-		<description>un biscuit {0_adj} dense, fendu et garni d'une couche de confiture {2_adj}, glacé d'un fondant sombre et lisse. Deux maisons viennoises se sont fait sept ans de procès pour ce gâteau.</description>
+		<description>a dense {0_adj} sponge, split and filled with a layer of {2_adj} jam, glazed with a dark smooth fondant. Two Viennese houses spent seven years in court over this cake.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -376,7 +376,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Grape</li></categories></li>
 		</ingredients>
-		<description>une pâte étirée à la main sur une nappe jusqu'à lire le journal au travers, garnie {0_adj} et {2_adj} secs, puis roulée. Un trou dans la pâte et tout est à recommencer.</description>
+		<description>a dough stretched by hand over a tablecloth until a newspaper can be read through it, filled with {0_adj} and dried {2_adj}, then rolled. One tear in the dough and it all begins again.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -391,7 +391,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Grape</li></categories></li>
 		</ingredients>
-		<description>une crêpe épaisse {1_adj} déchirée en morceaux à la spatule pendant qu'elle cuit, caramélisée au sucre avec {2_coll} secs. « La bouillie de l'Empereur » : le nom dit son peu de manières.</description>
+		<description>a thick {1_adj} pancake torn into pieces with the spatula while it cooks, caramelised in sugar with dried {2_coll}. The Emperor's mess: the name admits its want of manners.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -406,7 +406,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>un fromage blanc polonais passé trois fois au tamis, monté {1_plur} et cuit lentement. Plus dense et moins sucré que ses cousins occidentaux.</description>
+		<description>a Polish curd cheese passed three times through a sieve, beaten with {1_plur} and baked slowly. Denser and less sweet than its western cousins.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -421,7 +421,7 @@
 			<li><categories><li>FT_Seed</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>une brioche roulée sur une masse de graines de pavot moulues et cuites {2_plur}. La spirale noire et blanche apparaît à la coupe.</description>
+		<description>a brioche rolled over a mass of ground poppy seeds cooked with {2_plur}. The black and white spiral shows at the cut.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -436,7 +436,7 @@
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>une douzaine de disques de pâte {1_adj} cuits un par un, empilés avec une crème acidulée, et laissés une nuit pour que tout s'attendrisse et devienne moelleux.</description>
+		<description>a dozen discs of {1_adj} dough baked one at a time, stacked with a soured cream and left overnight so the whole thing softens and turns tender.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -451,7 +451,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 		</ingredients>
-		<description>de petites galettes de fromage frais liées {1_plur}, poêlées au beurre et servies avec de la crème aigre et une confiture {2_adj}.</description>
+		<description>small curd cheese cakes bound with {1_plur}, fried in butter and served with soured cream and a {2_adj} jam.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -468,7 +468,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 		</ingredients>
-		<description>{0_coll} grillés à sec, {1_coll} fouettée au whisky et au miel, {2_coll} écrasées — montés en verre sans les mélanger, pour que chaque cuillerée diffère.</description>
+		<description>{0_coll} toasted dry, {1_coll} whipped with whisky and honey, {2_coll} crushed — layered in a glass without stirring, so that no two spoonfuls are alike.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -482,7 +482,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuites et écrasées dans la pâte, qui la rendent presque noire, sous un caramel {2_adj} versé chaud et absorbé par le gâteau.</description>
+		<description>{0_coll} cooked and mashed into the batter, which turns it almost black, under a {2_adj} caramel poured hot and drunk up by the cake.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -497,7 +497,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>un fond de biscuits écrasés, une couche de lait concentré cuit jusqu'au caramel, {0_coll} en rondelles, et {2_coll} fouettée. Inventé dans un pub du Sussex en 1971.</description>
+		<description>a base of crushed biscuits, a layer of condensed milk boiled to caramel, {0_coll} in rounds, and whipped {2_coll}. Invented in a Sussex pub in 1971.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -511,7 +511,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>de la meringue {1_adj} brisée, {2_coll} fouettée et {0_coll} écrasées, mêlées sans soin. Le désordre est le principe, pas l'accident.</description>
+		<description>broken {1_adj} meringue, whipped {2_coll} and crushed {0_coll}, thrown together carelessly. The disorder is the principle, not an accident.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -525,7 +525,7 @@
 			<li><categories><li>FT_Berry</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>une pâte sablée, une couche de confiture {1_adj}, et une frangipane {0_adj} par-dessus qui gonfle et dore au four.</description>
+		<description>a shortcrust base, a layer of {1_adj} jam, and an {0_adj} frangipane over the top that rises and browns in the oven.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -542,7 +542,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>un biscuit sec exprès, percé de trous et noyé de trois laits différents jusqu'à saturation. Il doit être détrempé sans s'effondrer : tout l'exercice est là.</description>
+		<description>a sponge dried out on purpose, pricked all over and drowned in three different milks until it can take no more. It has to be sodden without collapsing: that is the whole exercise.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -557,7 +557,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 		</ingredients>
-		<description>deux sablés très friables collés par du dulce de leche, les bords roulés {2_plur} râpée. Se défont dès qu'on les prend : c'est le signe qu'ils sont bons.</description>
+		<description>two very short biscuits stuck together with dulce de leche, the edges rolled in grated {2_plur}. They fall apart the moment you pick them up, which is the sign they are good.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -572,7 +572,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>du lait concentré cuit {0_plur} et {2_plur} jusqu'à se décoller de la casserole, roulé en boules et enrobé de vermicelles. Aucun anniversaire brésilien n'en manque.</description>
+		<description>condensed milk cooked with {0_plur} and {2_plur} until it pulls away from the pan, rolled into balls and coated in sprinkles. No Brazilian birthday is without them.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -587,7 +587,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>une crème {0_adj} dans une coque feuilletée, cuite à four brûlant jusqu'à ce que le dessus se tache de noir. Saupoudré {2_adj} à la sortie, jamais avant.</description>
+		<description>an {0_adj} custard in a puff pastry shell, baked in a scorching oven until the top blisters black. Dusted with {2_adj} on the way out, never before.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -602,7 +602,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} noyées dans un appareil {1_adj} et {2_adj} qui prend en cuisant, remontent à la surface et forment une croûte craquante.</description>
+		<description>{0_coll} drowned in a {1_adj} and {2_adj} filling that sets as it bakes; they rise to the surface and form a crackling crust.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -617,7 +617,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>très peu de farine, beaucoup {0_adj}, et {2_coll} concassées. Sorti du four trop tard, ce n'est plus qu'un gâteau ; trop tôt, ce n'est pas encore un brownie.</description>
+		<description>very little flour, a great deal of {0_adj}, and crushed {2_coll}. Out of the oven too late and it is only a cake; too early and it is not yet a brownie.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -632,7 +632,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>un fond de biscuits beurrés sous un appareil {0_adj} et {1_adj}, cuit au bain-marie et refroidi lentement — un choc de température le fend en deux.</description>
+		<description>a base of buttered biscuits under an {0_adj} and {1_adj} filling, baked in a water bath and cooled slowly — a shock of temperature splits it in two.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -647,7 +647,7 @@
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 		</ingredients>
-		<description>des cubes de génoise trempés dans un glaçage {1_adj} liquide puis roulés {2_plur} râpée. Australien, et nommé d'après un gouverneur du Queensland qui n'y était pour rien.</description>
+		<description>cubes of sponge dipped in a runny {1_adj} icing then rolled in grated {2_plur}. Australian, and named after a governor of Queensland who had nothing to do with it.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -662,7 +662,7 @@
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} liés au sirop doré, sans œuf — ils devaient survivre à des semaines de mer avant d'atteindre les tranchées.</description>
+		<description>{0_coll} and {1_coll} bound with golden syrup, no egg — they had to survive weeks at sea before reaching the trenches.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -677,7 +677,7 @@
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>un gâteau sud-africain {1_adj} et à l'abricot, percé à la sortie du four et noyé d'une sauce {2_adj} chaude qu'il absorbe entièrement.</description>
+		<description>a South African {1_adj} and apricot cake, pricked as it leaves the oven and drowned in a hot {2_adj} sauce that it absorbs entirely.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -694,7 +694,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} frais pris entre deux couches de cheveux d'ange, doré des deux côtés puis arrosé de sirop brûlant. Se mange immédiatement : le fromage doit encore filer.</description>
+		<description>fresh {0_coll} caught between two layers of shredded pastry, browned on both sides then doused in scalding syrup. Eaten at once: the cheese must still pull.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -709,7 +709,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} longuement cuit {1_plur}, réparti en ramequins de terre et passé sous le gril jusqu'à ce que la surface brunisse par plaques.</description>
+		<description>{0_coll} cooked long and slow with {1_plur}, divided into earthenware dishes and passed under the grill until the surface browns in patches.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -723,7 +723,7 @@
 			<li><categories><li>FT_Date</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>une semoule travaillée {2_plur} clarifié et reposée une nuit, fourrée {1_plur} et pressée dans un moule de bois gravé. Chaque motif désigne une garniture différente.</description>
+		<description>a semolina worked with clarified {2_plur} and rested overnight, filled with {1_plur} and pressed into a carved wooden mould. Each pattern names a different filling.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -738,7 +738,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>du feuilletage brisé, noyé {1_plur} sucré et couvert {2_adj}, gratiné jusqu'à ce que le dessus croustille sur un dessous détrempé.</description>
+		<description>broken puff pastry drowned in sweetened {1_plur} and covered with {2_adj}, browned until the top crisps over a sodden underside.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -753,7 +753,7 @@
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 		</ingredients>
-		<description>un gâteau de semoule {1_adj} et {2_adj}, coupé en losanges avant cuisson et imbibé de sirop dès la sortie du four, pendant qu'il est encore brûlant.</description>
+		<description>a semolina cake with {1_adj} and {2_adj}, cut into diamonds before baking and soaked with syrup the moment it leaves the oven, while it is still scalding.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -768,7 +768,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} râpées cuites une heure {1_plur} jusqu'à ce que tout le liquide ait disparu, puis confites au ghee. Le légume devient un dessert sans qu'on ajoute rien d'autre.</description>
+		<description>{0_coll} grated and cooked an hour in {1_plur} until every drop of liquid has gone, then candied in ghee. The vegetable becomes a dessert without anything else being added.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -782,7 +782,7 @@
 			<li><categories><li>FT_Pistachio</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} réduit de moitié à feu doux, parfumé au cardamome, chargé {1_adj} et gelé dans des cônes de métal sans être battu. Plus dense qu'une glace, et plus lent à fondre.</description>
+		<description>{0_coll} reduced by half over a low flame, scented with cardamom, loaded with {1_adj} and frozen in metal cones without being churned. Denser than ice cream, and slower to melt.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -796,7 +796,7 @@
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>une pâte fermentée {1_plur} pressée en spirales directement dans l'huile, puis plongée quelques secondes dans un sirop tiède. Croustillante dehors, gorgée dedans.</description>
+		<description>a batter fermented with {1_plur}, piped in spirals straight into the oil, then plunged for a few seconds into warm syrup. Crisp outside, soaked through within.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsDeepFry</li>
@@ -811,7 +811,7 @@
 			<li><categories><li>FT_RedBean</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>une pâte à gaufre cuite dans un moule en forme de daurade, fourrée d'une pâte {1_adj} sucrée. La question de savoir par où le mordre — la tête ou la queue — divise le Japon.</description>
+		<description>a waffle batter cooked in a mould shaped like a sea bream, filled with a sweet {1_adj} paste. Whether to bite the head or the tail first divides Japan.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -826,7 +826,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>une galette levée fourrée {1_plur} de canne et {2_plur} concassées, aplatie sur la plaque brûlante. La garniture devient un sirop bouillant qui brûle la langue à coup sûr.</description>
+		<description>a risen flatbread filled with cane {1_plur} and crushed {2_plur}, flattened on the hot plate. The filling turns into a boiling syrup that burns the tongue without fail.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
