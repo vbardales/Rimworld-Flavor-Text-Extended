@@ -15,7 +15,7 @@
 			<li><categories><li>FT_Pea</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} cuits ensemble, entre la soupe et le risotto — assez liquide pour la cuillère, trop épais pour le bol. Les cosses servent au bouillon, rien ne se perd.</description>
+		<description>{0_coll} and {1_coll} cooked together, somewhere between a soup and a risotto — loose enough for the spoon, too thick for the bowl. The pods go into the stock; nothing is wasted.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -29,7 +29,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} écrasées encore chaudes et liées d'aussi peu de farine que possible, roulées, striées à la fourchette. Ils sont cuits quand ils remontent.</description>
+		<description>{0_coll} crushed while still hot and bound with as little flour as can be managed, rolled, and ridged with a fork. They are done when they rise.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 			<li>FT_MealsNonSpecial</li>
@@ -38,13 +38,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OssoBuco</defName>
-		<label>osso-buco</label>
+		<label>osso buco</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 		</ingredients>
-		<description>des tranches de jarret braisées {1_plur} et {2_plur}, l'os laissé au centre. La moelle qu'il contient est la raison d'être du plat.</description>
+		<description>slices of shin braised in {1_plur} and {2_plur}, the bone left in the middle. The marrow it holds is the whole reason for the dish.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -52,13 +52,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Parmigiana</defName>
-		<label>parmigiana {0_adj}</label>
+		<label>{0_adj} parmigiana</label>
 		<ingredients>
 			<li><categories><li>FT_Eggplant</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en tranches dégorgées au sel puis frites, montées en couches {1_plur} et {2_plur}, et gratinées. Le sel enlève l'amertume ; sans lui le plat est immangeable.</description>
+		<description>{0_coll} sliced, drawn in salt and then fried, built up in layers with {1_plur} and {2_plur}, and browned. The salt takes out the bitterness; without it the dish cannot be eaten.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -72,7 +72,7 @@
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 		</ingredients>
-		<description>{0_coll} frites à part, réunies {1_plur} fondus et {2_plur}, puis aigres-douces au vinaigre et au sucre. Se mange froide, le lendemain, quand l'acidité s'est rangée.</description>
+		<description>{0_coll} fried apart, brought together with {1_plur} melted down and {2_plur}, then made sweet-and-sour with vinegar and sugar. Eaten cold, the next day, once the acidity has settled.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -86,7 +86,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 		</ingredients>
-		<description>une soupe de fond de garde-manger : {0_coll}, {1_coll} et {2_coll} mijotés sans recette fixe. Meilleure le lendemain, ce qui arrange tout le monde.</description>
+		<description>a soup out of the back of the larder: {0_coll}, {1_coll} and {2_coll} stewed with no fixed recipe. Better the next day, which suits everybody.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -100,7 +100,7 @@
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>littéralement « rebouillie » : la soupe {0_adj} et {1_adj} de la veille, épaissie de pain rassis et remise sur le feu jusqu'à ne plus couler.</description>
+		<description>literally reboiled: yesterday's {0_adj} and {1_adj} soup, thickened with stale bread and put back on the heat until it will no longer run.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -114,7 +114,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 		</ingredients>
-		<description>{0_coll} à peine chauffée {1_plur}, prise au froid tout juste assez pour tenir, et nappée d'un coulis {2_adj}. Elle doit trembler quand on pose l'assiette.</description>
+		<description>{0_coll} barely warmed with {1_plur}, set in the cold just enough to hold, and napped with a {2_adj} coulis. It has to tremble when the plate is set down.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -128,7 +128,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 		</ingredients>
-		<description>des tubes de pâte frits autour d'un roseau, garnis {1_plur} sucrée et {2_plur} au dernier moment. Fourrés d'avance, ils ramollissent et ne valent plus rien.</description>
+		<description>tubes of pastry fried around a cane, filled with sweetened {1_plur} and {2_plur} at the last moment. Filled in advance they go soft and are worth nothing.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsDeepFry</li>
@@ -143,7 +143,7 @@
 			<li><categories><li>FT_Olive</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>une pâte très hydratée creusée du bout des doigts, noyée d'huile {1_adj} et salée en gros grains. Les trous retiennent l'huile : ils ne sont pas décoratifs.</description>
+		<description>a very wet dough dimpled with the fingertips, drowned in {1_adj} oil and salted in coarse grains. The holes hold the oil: they are not decorative.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -157,7 +157,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>un reste de risotto froid serré en boule autour d'un cœur {2_adj}, roulé dans une chapelure {1_adj} et frit. Le nom veut dire « petites oranges », d'après la couleur qu'elles prennent en sortant de l'huile.</description>
+		<description>cold leftover risotto packed into a ball around a {2_adj} heart, rolled in a {1_adj} crumb and fried. The name means little oranges, after the colour they take coming out of the oil.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -172,7 +172,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} en tranches alternées, huile, sel, feuilles vertes. Rien d'autre, et surtout pas de vinaigre.</description>
+		<description>{0_coll} and {1_coll} in alternating slices, oil, salt, green leaves. Nothing else, and above all no vinegar.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -186,7 +186,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>une escalope {0_adj} aplatie, une feuille de sauge et une tranche {1_adj} fixées dessus, saisies une minute par face. Le nom dit « saute en bouche ».</description>
+		<description>an escalope of {0_adj} flattened out, a sage leaf and a slice of {1_adj} pinned to it, seared a minute a side. The name says: leaps into the mouth.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -200,7 +200,7 @@
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pochée, refroidie, tranchée au plus fin, et nappée d'une sauce froide {1_adj} montée {2_plur}. L'accord paraît absurde jusqu'à la première bouchée.</description>
+		<description>{0_coll} poached, cooled, sliced as thin as it will go, and napped with a cold {1_adj} sauce mounted with {2_plur}. The pairing seems absurd until the first mouthful.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -214,7 +214,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>du pain dur trempé puis pressé, mêlé {1_plur} et {2_plur}. Un plat inventé pour ne rien jeter, devenu un plat qu'on réclame.</description>
+		<description>hard bread soaked and then pressed out, mixed with {1_plur} and {2_plur}. A dish invented to throw nothing away, and now a dish people ask for.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -222,13 +222,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BagnaCauda</defName>
-		<label>bagna cauda</label>
+		<label>bagna càuda</label>
 		<ingredients>
 			<li><categories><li>FT_Anchovy</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} fondus {2_plur} avec beaucoup {1_adj}, tenus tièdes sur une flamme. On y trempe les légumes crus ; l'odeur tient trois jours dans la pièce.</description>
+		<description>{0_coll} melted down in {2_plur} with a great deal of {1_adj}, kept warm over a flame. Raw vegetables are dipped into it; the smell stays in the room for three days.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -242,7 +242,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} roulée dans la farine, jetée dans l'huile brûlante et sortie aussitôt, servie {2_plur}. Se mange debout, dans du papier, avant d'avoir refroidi.</description>
+		<description>{0_coll} rolled in flour, thrown into scalding oil and lifted straight back out, served with {2_plur}. Eaten standing, out of paper, before it has cooled.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 		</mealKinds>
@@ -256,7 +256,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>{0_coll} hachée et allégée de mie trempée, roulée en boulettes et finie de cuire dans une sauce {2_adj}.</description>
+		<description>{0_coll} minced and lightened with soaked crumb, rolled into balls and finished in a {2_adj} sauce.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -270,7 +270,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>une côte {0_adj} laissée sur son os, passée {2_plur} puis à la chapelure, et cuite au beurre clarifié. Milan et Vienne se disputent l'antériorité depuis deux siècles.</description>
+		<description>a {0_adj} chop left on its bone, taken through {2_plur} and then breadcrumbs, and cooked in clarified butter. Milan and Vienna have argued over which came first for two centuries.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsNonSpecial</li>
@@ -285,7 +285,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{2_coll} rendue lentement jusqu'à devenir translucide, {1_coll} ajoutées à la graisse obtenue, et les pâtes finies dedans.</description>
+		<description>{2_coll} rendered slowly until it turns translucent, {1_coll} added to the fat it gives up, and the pasta finished in it.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 		</mealKinds>
@@ -299,7 +299,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>des jaunes {0_adj} fouettés {1_plur} et {2_plur} au bain-marie, jusqu'à tripler de volume. Une seconde de trop et c'est une omelette sucrée.</description>
+		<description>the yolks of {0_adj} whisked with {1_plur} and {2_plur} over a water bath, until they treble in volume. One second too long and it is a sweet omelette.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
