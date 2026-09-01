@@ -14,13 +14,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TurtleSoupCreole</defName>
-		<label>soupe de tortue à la créole</label>
+		<label>creole turtle soup</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Turtle</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} mijotée dans un roux brun avec la trinité créole, des œufs durs hachés et un trait de xérès versé dans l'assiette au moment de servir. La bouteille reste sur la table.</description>
+		<description>{0_coll} stewed in a brown roux with the Creole trinity, chopped hard-boiled eggs and a splash of sherry poured into the plate as it is served. The bottle stays on the table.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -28,13 +28,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TurtleGumbo</defName>
-		<label>gumbo de tortue</label>
+		<label>turtle gumbo</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Turtle</li></categories></li>
 			<li><categories><li>FT_Okra</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>un roux poussé jusqu'au brun chocolat, {1_coll} pour lier, {2_coll} fumée et {0_coll} qui demande deux heures de plus que tout le reste.</description>
+		<description>a roux pushed to chocolate brown, {1_coll} to bind it, smoked {2_coll} and {0_coll}, which needs two hours more than all the rest.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -42,13 +42,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TortueBraisee</defName>
-		<label>tortue braisée à la chinoise</label>
+		<label>Chinese braised turtle</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Turtle</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>une tortue à carapace molle braisée au vin de riz avec {1_coll} noirs, du gingembre et des baies de goji. Le cartilage du pourtour est la partie recherchée, gélatineuse et fondante.</description>
+		<description>a soft-shelled turtle braised in rice wine with black {1_coll}, ginger and goji berries. The cartilage around the rim is the part sought after, gelatinous and melting.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -56,13 +56,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TurtleCongee</defName>
-		<label>congee de tortue</label>
+		<label>turtle congee</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Turtle</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{1_coll} crevé à petit feu pendant des heures jusqu'à devenir crème, {0_coll} effilochée dedans et beaucoup {2_adj} en fils. Un plat de convalescence dans le sud de la Chine.</description>
+		<description>{1_coll} burst over a low flame for hours until it turns to cream, {0_coll} pulled into threads through it and a great deal of {2_adj} in shreds. A convalescent's dish in southern China.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -78,7 +78,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Corn</li></categories></li>
 		</ingredients>
-		<description>{0_coll} bouillie avec {1_coll}, {2_coll} en épis et de l'épazote. Un bouillon d'Oaxaca et du Michoacán, réputé remettre sur pied.</description>
+		<description>{0_coll} boiled with {1_coll}, {2_coll} on the cob and epazote. A broth of Oaxaca and Michoacán, reputed to set anyone back on their feet.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -92,7 +92,7 @@
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} noyée dans une sauce brun-noir de {2_coll} grillés et {1_adj}, mijotée jusqu'à ce que la chair se détache des petits os.</description>
+		<description>{0_coll} drowned in a black-brown sauce of toasted {2_coll} and {1_adj}, stewed until the flesh comes away from the small bones.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -106,7 +106,7 @@
 			<li><categories><li>FT_Corn</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} effilochée après un long braisage, servie dans des galettes {1_adj} avec {2_coll} cru et de la coriandre. Le goût tient du poulet et du poisson à la fois.</description>
+		<description>{0_coll} pulled apart after a long braise, served in {1_adj} tortillas with raw {2_coll} and coriander. The taste is of chicken and of fish at once.</description>
 		<mealKinds>
 			<li>FT_MealsSandwich</li>
 			<li>FT_MealsNonSpecial</li>
@@ -121,7 +121,7 @@
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} mijotée dans un lait {1_adj} relevé {2_plur} et de gingembre. La version caribéenne, des côtes du Honduras à la Colombie.</description>
+		<description>{0_coll} stewed in a {1_adj} milk lifted with {2_plur} and ginger. The Caribbean version, from the coasts of Honduras down to Colombia.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -137,7 +137,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} de queue en dés, mijotée dans un roux et {1_coll} avec du poivre de Cayenne. Le plat cajun de l'alligator, celui qu'on sert aux fêtes de paroisse.</description>
+		<description>{0_coll} from the tail in dice, stewed in a roux and {1_coll} with cayenne pepper. The Cajun alligator dish, the one served at the parish fairs.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -145,13 +145,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AlligatorGumbo</defName>
-		<label>gumbo d'alligator</label>
+		<label>alligator gumbo</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Alligator</li></categories></li>
 			<li><categories><li>FT_Okra</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et andouille fumée dans un roux sombre lié {1_plur}, servi sur du riz. La queue donne une chair blanche et ferme, les pattes une viande brune plus forte.</description>
+		<description>{0_coll} and smoked andouille in a dark roux bound with {1_plur}, served over rice. The tail gives a white, firm flesh, the legs a browner and stronger meat.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -159,13 +159,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AlligatorJambalaya</defName>
-		<label>jambalaya d'alligator</label>
+		<label>alligator jambalaya</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Alligator</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_BellPepper</li></categories></li>
 		</ingredients>
-		<description>{1_coll} cuit dans le fond de cuisson {0_adj} avec {2_coll}, céleri et oignon. On ne remue plus une fois le riz versé : la croûte du fond fait partie du plat.</description>
+		<description>{1_coll} cooked in the {0_adj} pan juices with {2_coll}, celery and onion. Nothing is stirred once the rice goes in: the crust at the bottom is part of the dish.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -173,13 +173,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BeignetsAlligator</defName>
-		<label>beignets d'alligator cajun</label>
+		<label>cajun alligator bites</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Alligator</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>des dés {0_adj} marinés au babeurre, roulés dans une farine {2_adj} au paprika et à la cayenne, et frits à l'instant. Se mangent au cure-dent, avec une sauce rémoulade.</description>
+		<description>dice of {0_adj} marinated in buttermilk, rolled in a {2_adj} flour with paprika and cayenne, and fried on the spot. Eaten on a toothpick, with a rémoulade.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -188,13 +188,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AlligatorBoudin</defName>
-		<label>boudin d'alligator</label>
+		<label>alligator boudin</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Alligator</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} hachée et mêlée {1_plur} cuit et {2_plur}, embossée puis réchauffée à la vapeur. On presse le boyau pour en faire sortir la farce et on jette la peau.</description>
+		<description>{0_coll} minced and mixed with cooked {1_plur} and {2_plur}, cased and then reheated in steam. You squeeze the casing to push the filling out and throw the skin away.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -202,13 +202,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AlligatorEtouffee</defName>
-		<label>étouffée d'alligator</label>
+		<label>alligator étouffée</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Alligator</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} étouffée à couvert dans un roux blond {1_adj} et {2_plur} fondus, sans jamais bouillir. Plus claire que la sauce piquante, et plus douce.</description>
+		<description>{0_coll} smothered under a lid in a blond {1_adj} roux with {2_plur} melted down, never allowed to boil. Paler than the sauce piquante, and milder.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -218,13 +218,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CuissesGrenouillePersillees</defName>
-		<label>cuisses de grenouille persillées</label>
+		<label>frogs' legs with parsley</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Frog</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} farinée et sautée {2_plur} mousseux, jetée hors du feu dans une persillade {1_adj}. Se mangent avec les doigts, et l'os se suce.</description>
+		<description>{0_coll} floured and fried in foaming {2_plur}, thrown off the heat into a {1_adj} persillade. Eaten with the fingers, and the bone is sucked.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -232,13 +232,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CuissesGrenouilleCreme</defName>
-		<label>cuisses de grenouille à la crème</label>
+		<label>frogs' legs in cream</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Frog</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pochée {2_plur} blanc, la cuisson réduite et montée {1_plur} avec de l'estragon. La version dombiste, servie en cassolette.</description>
+		<description>{0_coll} poached in white {2_plur}, the cooking liquid reduced and mounted with {1_plur} and tarragon. The Dombes version, served in a small dish.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -252,7 +252,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} sautée à sec dans un wok brûlant avec une masse {1_adj} entiers, {2_coll} et du céleri, servie dans son plat métallique posé sur un réchaud qui continue de cuire.</description>
+		<description>{0_coll} fried dry in a scorching wok with a mass of whole {1_adj}, {2_coll} and celery, served in its metal dish set over a burner that goes on cooking it.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 			<li>FT_MealsNonSpecial</li>
@@ -261,13 +261,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GrenouilleSichuan</defName>
-		<label>grenouille au poivre du Sichuan</label>
+		<label>frog in Sichuan pepper</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Frog</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pochée dans une huile rouge chargée {1_adj} séchés et {2_adj} du Sichuan, qui engourdit la bouche avant que le piment ne la brûle.</description>
+		<description>{0_coll} poached in a red oil loaded with dried {1_adj} and Sichuan {2_adj}, which numbs the mouth before the chilli burns it.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -276,13 +276,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CongeeGrenouille</defName>
-		<label>congee de grenouille</label>
+		<label>frog congee</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Frog</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{1_coll} cuit jusqu'à se défaire, {0_coll} ajoutée les dernières minutes pour rester ferme, avec {2_coll} et de l'oignon nouveau. Se mange au petit matin, dans le sud de la Chine.</description>
+		<description>{1_coll} cooked until it falls apart, {0_coll} added in the last minutes so as to stay firm, with {2_coll} and spring onion. Eaten at first light, in southern China.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -292,13 +292,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_VaranAuCoco</defName>
-		<label>varan au lait de coco</label>
+		<label>monitor lizard in coconut milk</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Lizard</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} découpée et mijotée longuement dans un lait {1_adj} épicé — sa chair est ferme et maigre, et ne s'attendrit qu'à petit feu.</description>
+		<description>{0_coll} jointed and stewed a long while in a spiced {1_adj} milk — its flesh is firm and lean, and gives way only over a low flame.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -306,13 +306,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_VaranGrille</defName>
-		<label>varan grillé aux épices</label>
+		<label>spiced grilled monitor</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Lizard</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} frottée {1_plur} pilés et badigeonnée {2_plur}, grillée sur braises. Une viande de brousse, plus proche du poulet que du poisson malgré les apparences.</description>
+		<description>{0_coll} rubbed with pounded {1_plur} and brushed with {2_plur}, grilled over embers. Bush meat, closer to chicken than to fish whatever it may look like.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -322,13 +322,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoupeDeSerpent</defName>
-		<label>soupe de serpent cantonaise</label>
+		<label>Cantonese snake soup</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Snake</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{0_coll} effilochée en fils très fins, mijotée avec {1_coll} noirs, {2_coll} et des écorces d'agrumes, liée à la fécule. Un plat d'hiver, réputé réchauffer le sang.</description>
+		<description>{0_coll} shredded into very fine threads, stewed with black {1_coll}, {2_coll} and citrus peel, bound with starch. A winter dish, reputed to warm the blood.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -336,13 +336,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RattlesnakeChili</defName>
-		<label>chili de crotale</label>
+		<label>rattlesnake chilli</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Snake</li></categories></li>
 			<li><categories><li>FT_Bean</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} désossée avec patience — le squelette n'est que côtes — et mijotée {1_plur} et {2_plur} séchés. Un plat du Sud-Ouest américain, moitié cuisine moitié fanfaronnade.</description>
+		<description>{0_coll} boned with patience — the skeleton is nothing but ribs — and stewed with {1_plur} and dried {2_plur}. A dish of the American Southwest, half cookery and half bravado.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -351,13 +351,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SerpentFrit</defName>
-		<label>serpent frit</label>
+		<label>fried snake</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Snake</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>des tronçons {0_adj} roulés dans une farine assaisonnée et frits {2_plur} jusqu'au doré. On mange autour des côtes, comme un épi de maïs.</description>
+		<description>lengths of {0_adj} rolled in a seasoned flour and fried in {2_plur} to a gold. You eat around the ribs, as you would a corn cob.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 		</mealKinds>
