@@ -34,13 +34,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RizAuxVermicelles</defName>
-		<label>riz aux vermicelles</label>
+		<label>rice with vermicelli</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>des vermicelles {1_adj} cassés court et colorés {2_plur} jusqu'au brun noisette, avant qu'on verse {0_coll} par-dessus et qu'on couvre d'eau. Du Liban à l'Égypte et jusqu'en Turquie, c'est le riz de tous les jours.</description>
+		<description>{1_adj} vermicelli broken short and coloured in {2_plur} to a hazelnut brown, before {0_coll} is poured over the top and the water goes in. From Lebanon to Egypt and on into Turkey, it is the everyday rice.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -54,13 +54,13 @@
 	-->
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TourteAuRiz</defName>
-		<label>tourte au riz</label>
+		<label>rice pie</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuit au bouillon, lié puis enfermé dans une pâte {1_adj} avec une poêlée {2_adj}. Une tourte salée qui tient au corps et se mange froide le lendemain, ce qui était tout son intérêt.</description>
+		<description>{0_coll} cooked in stock, bound and then shut inside a {1_adj} pastry with a panful of {2_adj}. A savoury pie that stays with you and is eaten cold the next day, which was the whole point of it.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -68,13 +68,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TarteAuRiz</defName>
-		<label>tarte au riz</label>
+		<label>rice tart</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>un riz au lait très épais coulé dans un fond de pâte levée {1_adj}, puis passé au four jusqu'à ce que le dessus se craquelle. La spécialité de Verviers, qu'on y mange depuis des siècles.</description>
+		<description>a very thick rice pudding poured into a case of {1_adj} risen dough, then baked until the top crazes over. The speciality of Verviers, eaten there for centuries.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsDessert</li>
@@ -83,13 +83,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CroquettesDeRiz</defName>
-		<label>croquettes de riz</label>
+		<label>rice croquettes</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuit à l'excès pour qu'il colle, lié {2_plur} battus, façonné en bâtonnets, passé à la farine {1_adj} puis frit. Une façon d'écouler le fond de la marmite qui vaut mieux que son origine.</description>
+		<description>{0_coll} cooked past the point of stickiness on purpose, bound with beaten {2_plur}, shaped into fingers, rolled in {1_adj} flour and fried. A way of using up the bottom of the pot that deserves better than its origin.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 		</mealKinds>
@@ -97,13 +97,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RizPilafOrzo</defName>
-		<label>riz pilaf à l'orzo</label>
+		<label>rice pilaf with orzo</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et de petites pâtes {1_adj} en grain de riz, nacrés ensemble avec {2_coll} avant d'être mouillés au bouillon. Deux féculents dans la même casserole, et deux textures à l'arrivée.</description>
+		<description>{0_coll} and small {1_adj} pasta shaped like grains of rice, pearled together with {2_coll} before the stock goes in. Two starches in one pan, and two textures at the end of it.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -113,13 +113,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BrochettesMixtes</defName>
-		<label>brochettes mixtes</label>
+		<label>mixed skewers</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_BellPepper</li></categories></li>
 		</ingredients>
-		<description>des cubes {0_adj} et {1_adj} enfilés en alternance avec {2_coll}, sur des broches séparées : les deux viandes ne cuisent pas au même rythme, et le griller ensemble est la faute du débutant.</description>
+		<description>cubes of {0_adj} and {1_adj} threaded alternately with {2_coll}, on separate rods: the two meats do not cook at the same rate, and grilling them together is the beginner's mistake.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -127,13 +127,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChawarmaMixte</defName>
-		<label>chawarma mixte</label>
+		<label>mixed shawarma</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>deux broches verticales côte à côte, l'une {0_adj}, l'autre {1_adj}, dont on racle les copeaux au fur et à mesure pour les rouler ensemble dans un pain {2_adj}. Le client qui hésite prend les deux.</description>
+		<description>two vertical spits side by side, one of {0_adj}, the other of {1_adj}, shaved off as they cook and rolled together into a {2_adj} bread. The customer who cannot decide takes both.</description>
 		<mealKinds>
 			<li>FT_MealsSandwich</li>
 			<li>FT_MealsGrill</li>
@@ -148,7 +148,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Chickpea</li></categories></li>
 		</ingredients>
-		<description>un pot où {0_coll} et {1_coll} cuisent ensemble des heures avec {2_coll} trempés. On sert le bouillon en premier, les pois et les légumes ensuite, les viandes en dernier — c'est un repas en trois services tiré d'une seule marmite.</description>
+		<description>a pot in which {0_coll} and {1_coll} cook together for hours with soaked {2_coll}. The broth is served first, the peas and the vegetables next, the meats last — a meal in three courses drawn out of a single pot.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -163,7 +163,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
-		<description>un fond {0_adj} déjà clarifié, remis à cuire sur {1_coll} et {2_coll} pour en extraire une seconde fois. Il faut deux marmites de départ pour un bol d'arrivée, et le résultat est limpide comme du thé.</description>
+		<description>a {0_adj} stock already clarified once, set back on the heat over {1_coll} and {2_coll} to draw it a second time. Two potfuls at the start make one bowl at the end, and the result is as clear as tea.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -171,13 +171,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BiryaniMixte</defName>
-		<label>biryani mixte</label>
+		<label>mixed biryani</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 		</ingredients>
-		<description>{2_coll} à moitié cuit posé en couches sur {0_coll} et {1_coll} marinées au yaourt, le tout scellé sous une pâte et fini à l'étouffée. On brise le couvercle à table.</description>
+		<description>{2_coll} half-cooked and laid in layers over {0_coll} and {1_coll} marinated in yoghurt, the whole sealed under a paste and finished smothered. The lid is broken open at the table.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -185,13 +185,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PainDeViandeMixte</defName>
-		<label>pain de viande mixte</label>
+		<label>mixed meatloaf</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pour le goût, {1_coll} pour la tenue, {2_coll} pour lier le tout, façonnés en pain et cuits au four. Le mélange des deux viandes n'est pas une économie : la volaille seule s'assèche, le bœuf seul s'affaisse.</description>
+		<description>{0_coll} for the taste, {1_coll} for the hold, {2_coll} to bind it all together, shaped into a loaf and baked. Mixing the two meats is not thrift: poultry alone dries out, beef alone collapses.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -207,7 +207,7 @@
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières — cannelle, clou, cardamome, laurier — puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</description>
+		<description>basmati {0_coll} turned in clarified {1_coll} with whole spices — cinnamon, clove, cardamom, bay — then swelled in boiling water. Called neychoru in Kerala, where it goes with the feasts.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -221,7 +221,7 @@
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Yogurt</li></categories></li>
 		</ingredients>
-		<description>le fond de la marmite : {0_coll} mêlé {2_plur} et au safran, tassé dans {1_coll} fondu et laissé prendre à feu doux jusqu'à former une croûte dorée qu'on retourne d'un bloc sur le plat. C'est la part qu'on se dispute.</description>
+		<description>the bottom of the pot: {0_coll} mixed with {2_plur} and saffron, packed down into melted {1_coll} and left over a low flame until it forms a golden crust, turned out onto the dish in one piece. That is the part people quarrel over.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -229,13 +229,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RizBeurreSoja</defName>
-		<label>riz au beurre et au soja</label>
+		<label>butter and soy rice</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>une noix {1_adj} qui fond dans {0_coll} brûlant, un filet {2_adj}, rien d'autre. Se fait à une heure du matin, avec ce qui reste du cuiseur.</description>
+		<description>a knob of {1_adj} melting into scalding {0_coll}, a thread of {2_adj}, and nothing else at all. Made at one in the morning, out of whatever is left in the cooker.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -243,13 +243,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RizBeurreAil</defName>
-		<label>riz au beurre et à l'ail</label>
+		<label>butter and garlic rice</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{2_coll} haché blondi dans {1_coll} mousseux, puis {0_coll} sauté dedans grain par grain. L'ail doit colorer sans brûler : passé le blond, il devient amer et le plat est perdu.</description>
+		<description>{2_coll} chopped and turned gold in foaming {1_coll}, then {0_coll} fried in it grain by grain. The garlic has to colour without burning: past gold it turns bitter and the dish is lost.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 			<li>FT_MealsNonSpecial</li>
@@ -266,7 +266,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>un lait {0_adj} infusé de galanga, de citronnelle et de feuilles de combava, dans lequel pochent {1_coll} et {2_coll}. Le galanga n'est pas du gingembre et ne se remplace pas : c'est lui qui fait le plat.</description>
+		<description>a {0_adj} milk infused with galangal, lemongrass and kaffir lime leaves, in which {1_coll} and {2_coll} poach. Galangal is not ginger and cannot be replaced: it is what makes the dish.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -280,7 +280,7 @@
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>un curry blanc du Kerala : {1_coll} pochée dans un lait {0_adj} au curcuma, avec {2_coll} ajoutées en fin de course pour qu'elles gardent leur tenue. Doux, presque pâle — le piment y est vert et discret.</description>
+		<description>a white curry from Kerala: {1_coll} poached in a {0_adj} milk with turmeric, with {2_coll} added at the end so that they keep their shape. Mild, almost pale — the chilli here is green and discreet.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -288,13 +288,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoeufLaitDeCoco</defName>
-		<label>bœuf au lait de coco</label>
+		<label>beef in coconut milk</label>
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{1_coll} braisée très lentement dans un lait {0_adj} et une pâte {2_adj}, jusqu'à ce que le lait se casse et que l'huile remonte. À partir de là, la viande frit dans sa propre sauce.</description>
+		<description>{1_coll} braised very slowly in a {0_adj} milk and a {2_adj} paste, until the milk breaks and the oil rises. From there on, the meat fries in its own sauce.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -308,7 +308,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Flour</li></categories></li>
 		</ingredients>
-		<description>un lait {0_adj} sucré {1_plur} et lié d'un amidon {2_adj}, versé en plaque et laissé prendre au froid, puis découpé en carrés qui se mangent à la main. Le dessert des lūʻau hawaïens.</description>
+		<description>a {0_adj} milk sweetened with {1_plur} and bound with a {2_adj} starch, poured out in a sheet and left to set in the cold, then cut into squares that are eaten with the fingers. The dessert of the Hawaiian lūʻau.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -322,7 +322,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>{0_coll} râpée cuite {1_plur} et {2_plur} jusqu'à ce que la masse se détache du fond de la casserole, puis dressée à la cuillère en petits tas qui durcissent en refroidissant.</description>
+		<description>{0_coll} grated and cooked with {1_plur} and {2_plur} until the mass pulls away from the bottom of the pan, then dropped by the spoonful into little heaps that harden as they cool.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -337,7 +337,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} fraîche râpée, pilée au mortier avec {1_coll} séchés, de l'oignon rouge et un jus {2_adj}. Cinglant, sec, servi à côté de tout au Sri Lanka. Se fait à la minute : râpée la veille, la coco rancit.</description>
+		<description>fresh {0_coll} grated and pounded in the mortar with dried {1_coll}, red onion and the juice of {2_adj}. Cutting, dry, served beside everything in Sri Lanka. Made to the minute: grated the day before, the coconut turns rancid.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 			<li>FT_MealsSalad</li>
@@ -346,13 +346,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChutneyDeCoco</defName>
-		<label>chutney de coco</label>
+		<label>coconut chutney</label>
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Lentil</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} mixée avec {1_coll} grillés et un peu d'eau, puis réveillée d'un tempérage : des graines de moutarde et des feuilles de curry qu'on fait éclater dans l'huile brûlante et qu'on verse par-dessus. Accompagne le dosa.</description>
+		<description>{0_coll} blended with toasted {1_coll} and a little water, then woken up with a tempering: mustard seed and curry leaves burst in scalding oil and poured over the top. It goes with the dosa.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -362,13 +362,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladeAgrumesFenouil</defName>
-		<label>salade d'agrumes au fenouil</label>
+		<label>citrus and fennel salad</label>
 		<ingredients>
 			<li><categories><li>FT_Citrus</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pelés à vif, en rondelles, avec du fenouil coupé à la mandoline, {2_coll} et {1_coll} noires. Une huile, du poivre, rien de plus : l'acidité du fruit tient lieu de vinaigre.</description>
+		<description>{0_coll} cut down to the flesh and sliced into rounds, with fennel shaved on the mandoline, {2_coll} and black {1_coll}. Oil, pepper, nothing more: the acidity of the fruit stands in for vinegar.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -376,13 +376,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CitronConfit</defName>
-		<label>citron confit</label>
+		<label>preserved lemons</label>
 		<ingredients>
 			<li><categories><li>FT_Citrus</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} fendus en croix, bourrés de gros sel et tassés dans un bocal où ils rendent leur jus pendant un mois, {2_plur} et sous une couche d'huile {1_adj}. On n'emploie que l'écorce ; la pulpe se jette.</description>
+		<description>{0_coll} split in a cross, packed with coarse salt and pressed into a jar where they give up their juice over a month, with {2_plur} and under a layer of {1_adj} oil. Only the peel is used; the pulp is thrown away.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -396,7 +396,7 @@
 			<li><categories><li>FT_Soy</li></categories></li>
 			<li><categories><li>FT_Kelp</li></categories></li>
 		</ingredients>
-		<description>un jus {0_adj} mêlé {1_plur}, à du mirin et à un bouillon {2_adj} avec des copeaux de bonite, laissé reposer plusieurs jours avant d'être filtré. Sert à tremper autant qu'à assaisonner.</description>
+		<description>the juice of {0_adj} mixed with {1_plur}, mirin and a {2_adj} broth with bonito shavings, left to stand several days before it is strained. As much for dipping as for seasoning.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -404,13 +404,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_VinaigretteAgrumes</defName>
-		<label>vinaigrette aux agrumes</label>
+		<label>citrus vinaigrette</label>
 		<ingredients>
 			<li><categories><li>FT_Citrus</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
-		<description>un jus {0_adj} monté à l'huile {1_adj} sur une pointe {2_adj} qui empêche l'émulsion de retomber. Trois volumes d'huile pour un de jus, et on rectifie au goût du fruit.</description>
+		<description>the juice of {0_adj} mounted with {1_adj} oil over a point of {2_adj}, which keeps the emulsion from falling. Three volumes of oil to one of juice, corrected to the taste of the fruit.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
@@ -418,13 +418,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PouletLaqueAgrumes</defName>
-		<label>poulet laqué aux agrumes</label>
+		<label>citrus-lacquered chicken</label>
 		<ingredients>
 			<li><categories><li>FT_Citrus</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 		</ingredients>
-		<description>{1_coll} rôtie et badigeonnée en fin de cuisson d'un mélange {2_adj} et de jus {0_adj} réduit, repassé au pinceau trois fois. Le glaçage brûle en un rien de temps : on ne le pose qu'à la toute fin.</description>
+		<description>{1_coll} roasted and brushed at the end of the cooking with a mixture of {2_adj} and reduced juice of {0_adj}, painted on three times over. The glaze burns in no time at all: it goes on only at the very end.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsGrill</li>
