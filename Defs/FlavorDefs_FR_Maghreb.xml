@@ -6,13 +6,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TajinePruneaux</defName>
-		<label>tajine {0_adj} aux pruneaux</label>
+		<label>{0_adj} tagine with prunes</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Plum</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuite des heures dans un plat conique qui renvoie la vapeur vers le fond, avec {1_coll} confits et {2_coll}. Le sucré et le salé ne se disputent pas, ici.</description>
+		<description>{0_coll} cooked for hours in a conical dish that sends the steam back down into it, with candied {1_coll} and {2_coll}. Sweet and savoury do not quarrel here.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -20,13 +20,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TajineOlivesCitron</defName>
-		<label>tajine {0_adj} aux olives et citron confit</label>
+		<label>{0_adj} tagine with olives and preserved lemon</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} mijotée {1_plur} et {2_plur} confit au sel pendant des mois. On n'utilise que l'écorce ; la pulpe est trop amère.</description>
+		<description>{0_coll} stewed with {1_plur} and {2_plur} preserved in salt for months. Only the peel is used; the pulp is too bitter.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -40,7 +40,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Chickpea</li></categories></li>
 		</ingredients>
-		<description>une soupe épaisse {0_adj}, {1_adj} et {2_adj}, liée d'un levain de farine fermentée. C'est elle qui rompt le jeûne, chaque soir du mois.</description>
+		<description>a thick soup of {0_adj}, {1_adj} and {2_adj}, bound with a leaven of fermented flour. This is what breaks the fast, every evening of the month.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -54,7 +54,7 @@
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} effilochée et {1_coll} grillées enfermées dans des feuilles de brick, le tout saupoudré de sucre et de cannelle par-dessus. Un plat salé qui se sert sous une couche sucrée, et personne ne s'en étonne.</description>
+		<description>{0_coll} pulled into threads and toasted {1_coll} shut inside sheets of warqa, the whole dusted over with sugar and cinnamon. A savoury dish served under a sweet layer, and nobody finds it strange.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -62,13 +62,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Mechoui</defName>
-		<label>méchoui</label>
+		<label>mechoui</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>une bête entière badigeonnée {1_adj} et {2_adj}, tournée au-dessus des braises une demi-journée. Se mange à la main ; la première épaule revient à l'invité.</description>
+		<description>a whole beast painted with {1_adj} and {2_adj}, turned over the embers for half a day. Eaten with the hands; the first shoulder goes to the guest.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -82,7 +82,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} brûlées puis pelées, écrasées {1_plur} et {2_plur} jusqu'à ce que l'eau soit entièrement partie. Se sert froid, avec du pain, avant tout le reste.</description>
+		<description>{0_coll} burnt and then peeled, crushed with {1_plur} and {2_plur} until the water has gone entirely. Served cold, with bread, before anything else.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 			<li>FT_MealsSalad</li>
@@ -97,7 +97,7 @@
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>des triangles de brick fourrés {1_plur} pilées, frits puis plongés brûlants dans le miel froid. Le choc des températures fait le croustillant.</description>
+		<description>triangles of warqa filled with pounded {1_plur}, fried and then plunged scalding into cold honey. The shock of temperature is what makes them crisp.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsDeepFry</li>
@@ -112,7 +112,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} réduits en sauce épaisse, dans laquelle on creuse des nids pour {2_coll}, couverts jusqu'à ce que le blanc prenne et pas plus.</description>
+		<description>{0_coll} and {1_coll} reduced to a thick sauce, in which hollows are dug for {2_coll}, covered until the white sets and no longer.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -126,7 +126,7 @@
 			<li><categories><li>FT_Lentil</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} servies sur des crêpes déchirées à la main, qui boivent tout le bouillon {2_adj}. On la prépare pour les jeunes mères.</description>
+		<description>{0_coll} and {1_coll} served over pancakes torn by hand, which drink up all the {2_adj} broth. It is made for new mothers.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -140,7 +140,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} torréfiées et broyées jusqu'à rendre leur huile, mêlées {1_plur} et {2_plur} en une pâte lourde et brune. Se mange à la cuillère, sans honte.</description>
+		<description>{0_coll} toasted and ground until they give up their oil, worked together with {1_plur} and {2_plur} into a heavy brown paste. Eaten by the spoonful, without shame.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 			<li>FT_MealsSnack</li>
@@ -149,13 +149,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TheALaMenthe</defName>
-		<label>thé à la menthe</label>
+		<label>mint tea</label>
 		<ingredients>
 			<li><categories><li>FT_Tea</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} vert, une poignée de menthe, et bien plus {1_adj} qu'on ne veut l'admettre. Versé de haut pour faire la mousse, et trois fois plutôt qu'une.</description>
+		<description>green {0_coll}, a handful of mint, and a great deal more {1_adj} than anyone likes to admit. Poured from a height to raise the foam, and three times rather than once.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -163,13 +163,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CouscousRoyal</defName>
-		<label>couscous royal</label>
+		<label>royal couscous</label>
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Squash</li></categories></li>
 		</ingredients>
-		<description>de la semoule roulée à la main et cuite trois fois à la vapeur du bouillon, servie {1_plur} et {2_plur}. La graine ne touche jamais l'eau.</description>
+		<description>semolina rolled by hand and steamed three times over the broth, served with {1_plur} and {2_plur}. The grain never touches the water.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -183,7 +183,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} blancs mijotés {1_plur}, {2_plur} et beaucoup d'huile, jusqu'à ce que la sauce épaississe d'elle-même. Un plat de rue, mangé debout au bol.</description>
+		<description>white {0_coll} stewed with {1_plur}, {2_plur} and a great deal of oil, until the sauce thickens by itself. A street dish, eaten standing from a bowl.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -197,7 +197,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>des boulettes {0_adj} hachée pochées dans une sauce {1_adj}, avec {2_coll} cassés dessus à la fin. Arrive au tajine, encore en train de cuire.</description>
+		<description>balls of minced {0_adj} poached in a {1_adj} sauce, with {2_coll} broken over them at the end. It arrives in the tagine, still cooking.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -211,7 +211,7 @@
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>de la semoule vapeur montée en cône, striée de cannelle et de sucre glace, couronnée {1_plur} frites, {2_plur} servi à part et froid.</description>
+		<description>steamed semolina heaped into a cone, striped with cinnamon and icing sugar, crowned with fried {1_plur}, with {2_plur} served apart and cold.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -225,7 +225,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>des galettes {0_adj} écrasées, liées {1_plur} et safranées {2_plur}, frites jusqu'au doré. Se glissent dans un pain, avec de la harissa.</description>
+		<description>cakes of crushed {0_adj}, bound with {1_plur} and saffroned with {2_plur}, fried to a gold. They go inside a roll, with harissa.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -242,7 +242,7 @@
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>une pâte étirée jusqu'à la transparence sur un plan huilé, badigeonnée {1_plur} et de semoule, pliée en carré et repliée encore, puis cuite à sec. Les feuillets se comptent à la déchirure.</description>
+		<description>a dough stretched to transparency on an oiled surface, brushed with {1_plur} and semolina, folded into a square and folded again, then cooked dry. The layers are counted when it is torn.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsSnack</li>
