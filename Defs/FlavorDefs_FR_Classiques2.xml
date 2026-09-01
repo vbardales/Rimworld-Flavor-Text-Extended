@@ -8,13 +8,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ParmentierDeCanard</defName>
-		<label>parmentier {0_adj}</label>
+		<label>{0_adj} parmentier</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} confite effilochée sous une purée {1_adj} montée {2_plur}, gratinée jusqu'à ce que la croûte craque sous la cuillère.</description>
+		<description>{0_coll} confit pulled into threads under a {1_adj} mash beaten with {2_plur}, browned until the crust cracks under the spoon.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -23,13 +23,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SteakFrites</defName>
-		<label>steak-frites</label>
+		<label>steak and chips</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} saisie une minute par face, avec {1_coll} taillées en bâtonnets et frites deux fois {2_plur} — une première à basse température pour les cuire, une seconde très chaude pour les dorer.</description>
+		<description>{0_coll} seared one minute a side, with {1_coll} cut into batons and fried twice in {2_plur} — once low, to cook them through, once very hot, to colour them.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -38,13 +38,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoeufCarottes</defName>
-		<label>bœuf carottes</label>
+		<label>beef and carrots</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 			<li><categories><li>FT_Bone</li></categories></li>
 		</ingredients>
-		<description>du jarret {0_adj} et son os mijotés trois heures avec {1_coll} en rondelles épaisses, sans rien d'autre. La moelle fond et lie le jus toute seule.</description>
+		<description>{0_adj} shin and its bone simmered three hours with {1_coll} in thick rounds, and nothing else at all. The marrow melts and thickens the juices on its own.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -52,13 +52,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaucissePuree</defName>
-		<label>saucisse-purée</label>
+		<label>sausage and mash</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>une saucisse pochée puis dorée, sur une purée {1_adj} passée au tamis et détendue {2_plur} chaud. Le plat de cantine dont personne ne se plaint.</description>
+		<description>a sausage poached and then coloured, on a {1_adj} mash passed through a sieve and loosened with hot {2_plur}. The canteen dish nobody complains about.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -66,13 +66,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_JambonALOs</defName>
-		<label>jambon à l'os</label>
+		<label>ham on the bone</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Bone</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>une pièce entière {0_adj} cuite sur son os et tranchée devant vous. La chair au contact de l'os est la meilleure, et c'est la dernière servie.</description>
+		<description>a whole piece of {0_adj} cooked on its bone and carved in front of you. The flesh against the bone is the best of it, and the last to be served.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -80,13 +80,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PouletALaCreme</defName>
-		<label>poulet à la crème</label>
+		<label>chicken in cream</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pochée puis nappée d'une sauce montée {1_plur} et parsemée {2_adj} sautés à part pour qu'ils ne rendent pas leur eau dans la sauce.</description>
+		<description>{0_coll} poached then napped with a sauce mounted with {1_plur} and scattered with {2_adj} fried apart, so that they do not give up their water into the sauce.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -100,7 +100,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} gratinée sous une sauce {1_adj} et {2_adj}. La légende dit que l'épouse du maire de Dijon renversa la boîte de paprika sur le plat et improvisa le reste.</description>
+		<description>{0_coll} browned under a {1_adj} and {2_adj} sauce. The story goes that the wife of the mayor of Dijon knocked the paprika tin over the dish and improvised the rest.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -109,13 +109,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FricasseeDeVolaille</defName>
-		<label>fricassée à l'ancienne {0_adj}</label>
+		<label>old-fashioned {0_adj} fricassee</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} revenue {1_plur} sans coloration, mouillée à hauteur, la sauce liée en fin de cuisson à des jaunes {2_adj} qu'il ne faut plus laisser bouillir.</description>
+		<description>{0_coll} taken in {1_plur} without colour, moistened to the top, the sauce thickened at the last with {2_adj} yolks that must not be allowed to boil again.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -123,13 +123,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MagretDeCanard</defName>
-		<label>magret {0_adj}</label>
+		<label>{0_adj} magret</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 		</ingredients>
-		<description>un filet {0_adj} dont la peau, quadrillée au couteau, est posée à froid dans la poêle et rend {1_coll} lentement avant que la chair ne cuise. Servi rosé, avec une réduction {2_adj}.</description>
+		<description>a fillet of {0_adj} whose skin, scored in a lattice, goes into a cold pan and renders {1_coll} slowly before the flesh cooks at all. Served pink, with a {2_adj} reduction.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -138,13 +138,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SourisDAgneau</defName>
-		<label>souris {0_adj}</label>
+		<label>{0_adj} shank</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>le petit muscle du jarret, braisé si longtemps qu'il se détache de l'os en glissant. Une souris par convive, jamais moins.</description>
+		<description>the small muscle of the shank, braised so long that it slides off the bone. One shank a guest, never fewer.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -152,13 +152,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CotelettesDAgneau</defName>
-		<label>côtelettes {0_adj}</label>
+		<label>{0_adj} chops</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>des côtes premières grillées deux minutes par face, frottées {1_plur} et finies {2_plur}. Se mangent à la main par l'os, une fois la fourchette abandonnée.</description>
+		<description>best-end chops grilled two minutes a side, rubbed with {1_plur} and finished with {2_plur}. Eaten by the bone in the hand, once the fork has been given up.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -166,13 +166,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_LapinChasseur</defName>
-		<label>lapin chasseur</label>
+		<label>rabbit chasseur</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Rabbit</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>{0_coll} découpée aux jointures et sautée, puis mijotée {1_plur} et {2_plur}, déglacée au vin blanc et relevée d'estragon.</description>
+		<description>{0_coll} jointed and fried, then stewed with {1_plur} and {2_plur}, deglazed with white wine and lifted with tarragon.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -180,13 +180,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CivetDeLievre</defName>
-		<label>civet de lièvre</label>
+		<label>jugged hare</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Rabbit</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Blood</li></categories></li>
 		</ingredients>
-		<description>{0_coll} de gibier marinée trois jours, braisée avec {1_coll} entiers, la sauce liée au sang et au foie broyés. Plus noire et plus forte que celle du lapin domestique.</description>
+		<description>game {0_coll} marinated three days, braised with whole {1_coll}, the sauce thickened with the blood and the crushed liver. Blacker and stronger than that of the farmed rabbit.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -194,13 +194,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CivetDeSanglier</defName>
-		<label>civet de sanglier</label>
+		<label>wild boar civet</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Blood</li></categories></li>
 		</ingredients>
-		<description>{0_coll} de bête noire marinée une semaine {1_plur} et au genièvre, braisée jusqu'à s'effilocher, la sauce liée au sang.</description>
+		<description>{0_coll} of black game marinated a week in {1_plur} and juniper, braised until it falls into threads, the sauce bound with blood.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -208,13 +208,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FaisanAuxChoux</defName>
-		<label>faisan aux choux</label>
+		<label>pheasant with cabbage</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>un vieil oiseau, trop coriace pour le rôti, braisé enfoui dans {1_coll} et {2_coll} fumée jusqu'à céder. Le chou prend tout le goût du gibier.</description>
+		<description>an old bird, too tough to roast, braised buried under {1_coll} and smoked {2_coll} until it gives way. The cabbage takes on all the taste of the game.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -228,7 +228,7 @@
 			<li><categories><li>FT_Apple</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>une escalope {0_adj} poêlée, déglacée au cidre, avec {1_coll} revenues au beurre et une sauce {2_adj}.</description>
+		<description>an escalope of {0_adj} fried and deglazed with cider, with {1_coll} taken in butter and a {2_adj} sauce.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -236,13 +236,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_VeauMarengo</defName>
-		<label>veau Marengo</label>
+		<label>veal Marengo</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} en cubes rissolés puis mijotés {1_plur} et {2_plur}. Improvisé, dit-on, le soir de la bataille, avec ce que le cuisinier de Bonaparte put trouver aux alentours.</description>
+		<description>{0_coll} in cubes browned then stewed with {1_plur} and {2_plur}. Improvised, they say, on the evening of the battle, from whatever Bonaparte's cook could find in the fields around.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -250,13 +250,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_VeauOrloff</defName>
-		<label>veau Orloff</label>
+		<label>veal Orloff</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>un rôti {0_adj} tranché puis reconstitué, chaque tranche séparée d'une purée {2_adj} et d'oignon, le tout nappé {1_plur} et gratiné. Créé pour un prince russe en poste à Paris.</description>
+		<description>a roast of {0_adj} sliced and then rebuilt, each slice parted from the next by a {2_adj} and onion purée, the whole napped with {1_plur} and browned. Created for a Russian prince posted to Paris.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -265,13 +265,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PaupiettesDeVeau</defName>
-		<label>paupiettes {0_adj}</label>
+		<label>{0_adj} paupiettes</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 		</ingredients>
-		<description>de fines escalopes {0_adj} roulées sur une farce {1_adj}, ficelées et braisées avec {2_coll}. On les appelait « alouettes sans tête » avant qu'on n'y regarde de plus près.</description>
+		<description>thin escalopes of {0_adj} rolled around a {1_adj} stuffing, tied and braised with {2_coll}. They were called headless larks, until people looked at them a little more closely.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -281,13 +281,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TomatesFarcies</defName>
-		<label>tomates farcies</label>
+		<label>stuffed tomatoes</label>
 		<ingredients>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} évidées, salées et retournées pour dégorger, farcies {1_plur} hachée et {2_plur}, cuites au four sur un lit de riz qui boit le jus.</description>
+		<description>{0_coll} hollowed out, salted and turned over to drain, stuffed with minced {1_plur} and {2_plur}, baked on a bed of rice that drinks up the juices.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -296,13 +296,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CourgettesFarcies</defName>
-		<label>courgettes farcies</label>
+		<label>stuffed courgettes</label>
 		<ingredients>
 			<li><categories><li>FT_Squash</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} fendues et creusées, la chair retirée hachée avec {1_coll} et remise dedans, le tout gratiné {2_plur}.</description>
+		<description>{0_coll} split and hollowed, the flesh taken out and chopped with {1_coll} and put back inside, the whole browned with {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -311,13 +311,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PoivronsFarcis</defName>
-		<label>poivrons farcis</label>
+		<label>stuffed peppers</label>
 		<ingredients>
 			<li><categories><li>FT_BellPepper</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} décapités et vidés de leurs graines, remplis {1_plur} et {2_plur} à moitié cuit — il gonflera au four et tendra la peau.</description>
+		<description>{0_coll} beheaded and emptied of their seeds, filled with {1_plur} and half-cooked {2_plur} — it will swell in the oven and pull the skin tight.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -326,13 +326,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouFarci</defName>
-		<label>chou farci</label>
+		<label>stuffed cabbage</label>
 		<ingredients>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>un chou entier blanchi, ouvert feuille à feuille, garni {1_plur} entre chaque étage puis refermé dans un linge et poché des heures. On le tranche en parts, comme un gâteau.</description>
+		<description>a whole cabbage blanched and opened leaf by leaf, packed with {1_plur} between every layer, then closed up in a cloth and poached for hours. It is cut into wedges, like a cake.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -346,7 +346,7 @@
 			<li><categories><li>FT_BellPepper</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 		</ingredients>
-		<description>un assortiment de petits légumes — {0_coll}, {1_coll} et leurs fleurs — évidés et farcis, serrés dans un plat et cuits ensemble à l'huile d'olive. Se mangent tièdes.</description>
+		<description>an assortment of small vegetables — {0_coll}, {1_coll} and their flowers — hollowed and stuffed, packed tight into a dish and cooked together in olive oil. Eaten warm rather than hot.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -357,13 +357,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GratinDeChouFleur</defName>
-		<label>gratin de chou-fleur</label>
+		<label>cauliflower gratin</label>
 		<ingredients>
 			<li><categories><li>FT_Broccoli</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} blanchis à l'eau salée, égouttés longuement, puis nappés d'une béchamel {1_adj} et gratinés {2_plur}. Mal égoutté, le gratin rend son eau et se défait.</description>
+		<description>{0_coll} blanched in salted water and drained a long while, then napped with a {1_adj} béchamel and browned with {2_plur}. Badly drained, the gratin gives up its water and falls apart.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -371,13 +371,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GratinDePoireaux</defName>
-		<label>gratin de poireaux</label>
+		<label>leek gratin</label>
 		<ingredients>
 			<li><categories><li>FT_Leek</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} fendus en quatre et lavés jusqu'au dernier grain de sable, fondus au beurre puis noyés {1_plur} et gratinés {2_plur}.</description>
+		<description>{0_coll} split in four and washed down to the last grain of sand, melted in butter then drowned in {1_plur} and browned with {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -385,13 +385,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_EndivesAuJambon</defName>
-		<label>endives au jambon</label>
+		<label>chicory and ham gratin</label>
 		<ingredients>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisées au beurre avec une pincée de sucre pour couper l'amertume, roulées {1_plur}, nappées de béchamel et gratinées {2_plur}.</description>
+		<description>{0_coll} braised in butter with a pinch of sugar to cut the bitterness, rolled up in {1_plur}, napped with béchamel and browned with {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -401,13 +401,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OeufsCocotte</defName>
-		<label>œufs cocotte</label>
+		<label>eggs en cocotte</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cassés dans des ramequins beurrés sur un lit {2_adj}, une cuillerée {1_adj} par-dessus, cuits au bain-marie jusqu'à ce que le blanc prenne et que le jaune reste liquide.</description>
+		<description>{0_coll} broken into buttered ramekins on a bed of {2_adj}, a spoonful of {1_adj} over the top, cooked in a water bath until the white sets and the yolk stays liquid.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -416,13 +416,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OmeletteFinesHerbes</defName>
-		<label>omelette aux fines herbes</label>
+		<label>herb omelette</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} battus à peine, versés {2_plur} mousseux et remués vite, roulés baveux au centre. Persil, cerfeuil, ciboulette et estragon : quatre herbes, ni plus ni moins.</description>
+		<description>{0_coll} barely beaten, poured into foaming {2_plur} and stirred fast, rolled while still running in the middle. Parsley, chervil, chives and tarragon: four herbs, no more and no fewer.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -430,13 +430,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OmeletteAuxChampignons</defName>
-		<label>omelette aux champignons</label>
+		<label>mushroom omelette</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{1_coll} sautés à part jusqu'à ce que toute leur eau soit partie, glissés dans {0_coll} au moment de rouler l'omelette.</description>
+		<description>{1_coll} fried apart until every drop of their water has gone, slipped into {0_coll} at the moment of rolling the omelette.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -452,7 +452,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>un croque-monsieur coiffé d'un œuf au plat, dont le jaune percé fait office de sauce. Le chapeau lui vaut son nom.</description>
+		<description>a croque-monsieur crowned with a fried egg, whose broken yolk serves as the sauce. The hat is what earns it the name.</description>
 		<mealKinds>
 			<li>FT_MealsSandwich</li>
 		</mealKinds>
@@ -460,13 +460,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_QuicheAuxPoireaux</defName>
-		<label>quiche aux poireaux</label>
+		<label>leek quiche</label>
 		<ingredients>
 			<li><categories><li>FT_Leek</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>{0_coll} fondus à l'étouffée jusqu'à devenir presque transparents, liés {1_plur} battus {2_plur}, dans une pâte cuite à blanc d'avance.</description>
+		<description>{0_coll} sweated down until they turn almost translucent, bound with {1_plur} beaten with {2_plur}, in a case blind-baked in advance.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -474,13 +474,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TarteALOignon</defName>
-		<label>tarte à l'oignon</label>
+		<label>onion tart</label>
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{0_coll} compotés une heure sans prendre couleur, mêlés {2_plur} fumée et étalés sur une pâte brisée. Alsacienne ou lyonnaise selon la main qui l'a faite.</description>
+		<description>{0_coll} stewed an hour without taking any colour, mixed with smoked {2_plur} and spread over a shortcrust base. Alsatian or Lyonnais, according to the hand that made it.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -494,7 +494,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Offal</li></categories></li>
 		</ingredients>
-		<description>une farce {0_adj} et {2_adj} montée en terrine de pâte, cuite avec une cheminée, puis coulée à la gelée par ce trou une fois refroidie. Se tranche net, froid, jamais tiède.</description>
+		<description>a stuffing of {0_adj} and {2_adj} built into a terrine of pastry, baked with a chimney, then filled with jelly through that hole once it has cooled. Cut clean, cold, never warm.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -509,7 +509,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>une croûte feuilletée si légère qu'elle s'envolerait — d'où le nom —, remplie {1_adj} et {2_adj} en sauce blanche, et recoiffée de son chapeau.</description>
+		<description>a puff pastry case so light it might fly away — hence the name — filled with {1_adj} and {2_adj} in a white sauce, and re-hatted with its own lid.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -518,13 +518,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SouffleAuFromage</defName>
-		<label>soufflé au fromage</label>
+		<label>cheese soufflé</label>
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>une béchamel {2_adj} enrichie {0_plur} et de jaunes, allégée de blancs montés incorporés à la spatule. On n'ouvre pas le four, et on ne fait pas attendre les convives : c'est le soufflé qui commande.</description>
+		<description>a {2_adj} béchamel enriched with {0_plur} and yolks, lightened with whipped whites folded in with a spatula. You do not open the oven, and you do not keep the guests waiting: it is the soufflé that gives the orders.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -538,7 +538,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>une galette {0_adj} garnie {2_plur}, {1_plur} et de fromage, les quatre coins rabattus en carré autour du jaune resté entier.</description>
+		<description>a {0_adj} galette filled with {2_plur}, {1_plur} and cheese, the four corners folded into a square around the yolk left whole.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -553,7 +553,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>une crêpe garnie {1_plur} et d'une duxelles {2_adj}, roulée, nappée de crème et gratinée. Le nom vient de sa forme, longue et fine.</description>
+		<description>a pancake filled with {1_plur} and a {2_adj} duxelles, rolled, napped with cream and browned. The name comes from its shape, long and thin.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
