@@ -23,7 +23,7 @@
 			<li><categories><li>FT_EggFertilized</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>un œuf de cane couvé dix-huit jours, bouilli et mangé dans sa coquille. On boit d'abord le bouillon par le petit bout, puis on sale et on mange le reste. Se vend le soir, aux Philippines, au cri du marchand.</description>
+		<description>a duck egg incubated eighteen days, boiled and eaten in its own shell. You drink the broth first through the narrow end, then salt it and eat the rest. Sold in the evening, in the Philippines, to the cry of the seller.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSnack</li>
@@ -38,7 +38,7 @@
 			<li><categories><li>FT_Soy</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>des baluts écalés puis mijotés dans un adobo {1_adj}, de vinaigre, {2_adj} et de laurier, jusqu'à ce que la sauce les enrobe.</description>
+		<description>baluts shelled and then stewed in an adobo of {1_adj}, vinegar, {2_adj} and bay, until the sauce coats them.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -46,13 +46,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BalutFrit</defName>
-		<label>balut frit</label>
+		<label>fried balut</label>
 		<ingredients>
 			<li><categories><li>FT_EggFertilized</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>des baluts écalés, enrobés d'une pâte {1_adj} orangée et frits {2_plur}. La coque croustille, l'intérieur reste coulant.</description>
+		<description>baluts shelled, coated in an orange {1_adj} batter and fried in {2_plur}. The shell crisps, and the inside stays running.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -67,7 +67,7 @@
 			<li><categories><li>FT_Peanut</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>des œufs couvés sautés dans une sauce au tamarin aigre-douce, avec {1_coll} concassées et {2_coll}. Se mange avec des feuilles de rau răm, dont l'amertume coupe le gras.</description>
+		<description>incubated eggs fried in a sweet-and-sour tamarind sauce, with crushed {1_coll} and {2_coll}. Eaten with rau răm leaves, whose bitterness cuts the fat.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSnack</li>
@@ -82,7 +82,7 @@
 			<li><categories><li>FT_Lemon</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>la version cambodgienne, grillée sur braises plutôt que bouillie, servie avec un trempette {1_adj}, de sel et de poivre de Kampot.</description>
+		<description>the Cambodian version, grilled over embers rather than boiled, served with a dip of {1_adj}, salt and Kampot pepper.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsSnack</li>
@@ -93,13 +93,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CenturyEgg</defName>
-		<label>œuf de cent ans</label>
+		<label>century egg</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{0_coll} enfoui plusieurs semaines dans un mélange alcalin de cendre, de chaux et de sel : le blanc devient une gelée ambrée translucide, le jaune un cœur vert-noir crémeux. Servi en quartiers {2_plur} mariné.</description>
+		<description>{0_coll} buried for weeks in an alkaline mixture of ash, lime and salt: the white turns to a translucent amber jelly, the yolk to a creamy green-black heart. Served in quarters with pickled {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSnack</li>
@@ -108,13 +108,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TeaEggs</defName>
-		<label>œufs au thé</label>
+		<label>tea eggs</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Tea</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>{0_coll} durs dont on fêle la coquille sans la retirer, puis mijotés des heures dans {1_coll} noir, {2_coll} et de la badiane. Le liquide s'infiltre par les fêlures et dessine un marbrage brun.</description>
+		<description>hard-boiled {0_coll} whose shells are cracked but never taken off, then stewed for hours in black {1_coll}, {2_coll} and star anise. The liquid seeps in through the cracks and draws a brown marbling.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsNonSpecial</li>
@@ -129,7 +129,7 @@
 			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>une omelette épaisse chargée {1_adj} et de pousses, frite en galette bombée et noyée d'une sauce brune {2_adj}. Née dans les cuisines sino-américaines, et jamais rentrée en Chine.</description>
+		<description>a thick omelette loaded with {1_adj} and sprouts, fried into a domed cake and drowned in a brown {2_adj} sauce. Born in Chinese-American kitchens, and never carried back to China.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -139,13 +139,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CarpaccioDeBoeuf</defName>
-		<label>carpaccio de bœuf</label>
+		<label>beef carpaccio</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} raidie au froid puis tranchée à la limite du transparent, arrosée d'huile et {2_adj}, couverte de copeaux {1_adj}. Inventé à Venise pour une comtesse à qui l'on avait interdit la viande cuite.</description>
+		<description>{0_coll} stiffened in the cold then sliced to the edge of transparency, dressed with oil and {2_adj}, covered with shavings of {1_adj}. Invented in Venice for a countess who had been forbidden cooked meat.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
@@ -160,7 +160,7 @@
 			<li><categories><li>FT_Soy</li></categories></li>
 			<li><categories><li>FT_Turnip</li></categories></li>
 		</ingredients>
-		<description>{0_coll} crue tranchée d'un seul geste tiré, jamais scié, sur un lit de radis en fils. Le couteau et l'angle de coupe font tout le plat ; il n'y a rien d'autre à faire.</description>
+		<description>{0_coll} raw and sliced in one drawn stroke, never sawn, on a bed of shredded radish. The knife and the angle of the cut make the whole dish; there is nothing else to be done.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>
@@ -175,7 +175,7 @@
 			<li><categories><li>FT_Olive</li></categories></li>
 			<li><categories><li>FT_Citrus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} crue en fines lamelles, huile {1_adj}, sel en flocons et zeste {2_adj}. La version italienne du poisson cru : pas de marinade, juste un assaisonnement au dernier moment.</description>
+		<description>{0_coll} raw in fine slivers, {1_adj} oil, flaked salt and the zest of {2_adj}. The Italian version of raw fish: no marinade, only a seasoning at the last moment.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
@@ -190,7 +190,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} tranchée à la japonaise mais assaisonnée à la péruvienne : une sauce {1_adj} jaune et {2_adj} versée juste avant de servir, sans oignon ni macération.</description>
+		<description>{0_coll} sliced the Japanese way but seasoned the Peruvian way: a yellow {1_adj} and {2_adj} sauce poured over just before serving, with no onion and no steeping.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
@@ -205,7 +205,7 @@
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} hachée au couteau et travaillée tiède dans un niter kibbeh — beurre clarifié aux épices — avec du mitmita {2_adj}. Servi cru, ou juste tiédi si on le demande « leb leb ».</description>
+		<description>{0_coll} chopped by knife and worked while still warm into a niter kibbeh — clarified butter with spices — with {2_adj} mitmita. Served raw, or barely warmed if you ask for it leb leb.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -219,7 +219,7 @@
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} crue en cubes plutôt que hachée, roulée dans un beurre épicé et l'awaze. Le cousin en morceaux du kitfo, et le test de fraîcheur le plus impitoyable qui soit.</description>
+		<description>{0_coll} raw in cubes rather than chopped, rolled in a spiced butter and awaze. The kitfo's cousin in pieces, and the most merciless test of freshness there is.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -233,7 +233,7 @@
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} crue hachée du jour, salée et poivrée, étalée sur du pain avec {1_coll} cru en rondelles. Se vend le matin et ne se garde pas jusqu'au soir.</description>
+		<description>{0_coll} raw and minced the same day, salted and peppered, spread on bread with raw {1_coll} in rounds. Sold in the morning and never kept until evening.</description>
 		<mealKinds>
 			<li>FT_MealsSandwich</li>
 			<li>FT_MealsNonSpecial</li>
@@ -248,7 +248,7 @@
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Kelp</li></categories></li>
 		</ingredients>
-		<description>des œufs {1_adj} détachés de leur poche à l'eau tiède, marinés au soja et au saké, servis en monticule sur du riz ceinturé {2_plur}. Ils éclatent un par un sous la langue.</description>
+		<description>the eggs of {1_adj} teased out of their sac in warm water, marinated in soy and sake, served heaped over rice belted with {2_plur}. They burst one by one under the tongue.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSnack</li>
@@ -262,13 +262,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RagoutViandeTordue</defName>
-		<label>ragoût de viande tordue</label>
+		<label>twisted meat stew</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisée très longuement {1_plur} et {2_plur} : c'est une chair coriace, et rien de plus court ne l'attendrit.</description>
+		<description>{0_coll} braised very long in {1_plur} and {2_plur}: it is a tough flesh, and nothing shorter will tenderise it.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -277,13 +277,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RotiViandeTordue</defName>
-		<label>rôti de viande tordue</label>
+		<label>roast twisted meat</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>une pièce {0_adj} bardée {1_plur} et piquée {2_plur}, rôtie à couvert. Elle rend peu de jus et demande d'être arrosée souvent.</description>
+		<description>a joint of {0_adj} barded with {1_plur} and stuck with {2_plur}, roasted under a lid. It gives up little juice and needs basting often.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -292,13 +292,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BrochettesViandeTordue</defName>
-		<label>brochettes de viande tordue</label>
+		<label>twisted meat skewers</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>des cubes {0_adj} marinés {1_plur} et {2_plur}, enfilés et grillés à feu vif. La marinade couvre l'essentiel de ce qu'il y a à couvrir.</description>
+		<description>cubes of {0_adj} marinated in {1_plur} and {2_plur}, threaded and grilled over a high flame. The marinade covers most of what there is to cover.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -306,13 +306,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaucisseViandeTordue</defName>
-		<label>saucisse de viande tordue</label>
+		<label>twisted meat sausage</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} hachée deux fois, allongée de mie et fortement {2_plur}, embossée puis pochée. Le hachoir règle la question de la texture.</description>
+		<description>{0_coll} minced twice, let down with crumb and heavily {2_plur}, cased and then poached. The mincer settles the question of texture.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -320,13 +320,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TourteViandeTordue</defName>
-		<label>tourte à la viande tordue</label>
+		<label>twisted meat pie</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisée d'avance et enfermée sous une pâte {2_adj}. Ce qui est sous la croûte ne se voit plus, et c'est en partie l'intérêt.</description>
+		<description>{0_coll} braised in advance and shut under a {2_adj} pastry. What is under the crust can no longer be seen, and that is part of the point.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -335,13 +335,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CurryViandeTordue</defName>
-		<label>curry de viande tordue</label>
+		<label>twisted meat curry</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} mijotée dans un lait {1_adj} et une pâte {2_adj}. Les épices tiennent bien sur cette chair, qui en absorbe plus que la normale.</description>
+		<description>{0_coll} stewed in a {1_adj} milk and a {2_adj} paste. The spices hold well on this flesh, which takes up more of them than is usual.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -349,13 +349,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_JerkyViandeTordue</defName>
-		<label>viande tordue séchée</label>
+		<label>dried twisted meat</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>des lanières {0_adj} marinées {2_plur} et {1_plur}, séchées à basse température jusqu'à devenir cassantes. Se garde longtemps, ce qui était la seule question.</description>
+		<description>strips of {0_adj} marinated in {2_plur} and {1_plur}, dried at a low temperature until they turn brittle. It keeps a long time, which was the only question.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsNonSpecial</li>
@@ -364,13 +364,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoulettesViandeTordue</defName>
-		<label>boulettes de viande tordue</label>
+		<label>twisted meatballs</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>{0_coll} hachée liée {1_plur}, roulée et finie de cuire dans une sauce {2_adj}. La forme ronde ne rappelle rien de particulier, et c'est voulu.</description>
+		<description>{0_coll} minced and bound with {1_plur}, rolled and finished in a {2_adj} sauce. The round shape recalls nothing in particular, and that is deliberate.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -378,13 +378,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoupeViandeTordue</defName>
-		<label>soupe de viande tordue</label>
+		<label>twisted meat soup</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 			<li><categories><li>FT_Bone</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et ses os mis à l'eau froide et montés doucement, avec {1_coll}. On écume beaucoup pendant la première heure.</description>
+		<description>{0_coll} and its bones set in cold water and brought up gently, with {1_coll}. It is skimmed a great deal through the first hour.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -396,13 +396,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorcAuSoda</defName>
-		<label>porc laqué au soda</label>
+		<label>soda-glazed pork</label>
 		<ingredients>
 			<li><categories><li>FT_Drink</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>un jambon cuit lentement dans {0_coll} sucré, dont le sucre caramélise et l'acide attendrit. Une recette de cuisine de bidon, et personne n'a jamais expliqué pourquoi elle fonctionne.</description>
+		<description>a ham cooked slowly in sweetened {0_coll}, whose sugar caramelises and whose acid tenderises. A recipe out of a tin-can kitchen, and nobody has ever explained why it works.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -411,13 +411,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SorbetALaLimonade</defName>
-		<label>sorbet à la limonade</label>
+		<label>lemonade sorbet</label>
 		<ingredients>
 			<li><categories><li>FT_Drink</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} turbiné avec {2_coll} pressé et un sirop {1_adj}, jusqu'à une glace granuleuse et mordante. Le plus simple des desserts d'une colonie qui n'a pas de vache.</description>
+		<description>{0_coll} churned with pressed {2_coll} and a {1_adj} syrup, into a grainy, biting ice. The simplest dessert of a colony with no cow.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
