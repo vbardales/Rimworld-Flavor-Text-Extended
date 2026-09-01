@@ -21,13 +21,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorridgeDAmarante</defName>
-		<label>porridge d'amarante</label>
+		<label>amaranth porridge</label>
 		<ingredients>
 			<li><categories><li>FT_Amaranth</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>{0_coll} crevé à petit feu {1_plur} jusqu'à ce que les grains éclatent et libèrent leur mucilage, garni {2_adj} concassés. Il épaissit énormément en refroidissant.</description>
+		<description>{0_coll} burst over a low flame in {1_plur} until the grains split and give up their mucilage, finished with crushed {2_adj}. It thickens enormously as it cools.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -41,7 +41,7 @@
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 			<li><categories><li>FT_Seed</li></categories></li>
 		</ingredients>
-		<description>{0_coll} soufflé grain à grain sur une plaque brûlante, aggloméré {1_plur} chaud avec {2_plur} grillées et pressé en barre. Le nom veut dire « joie », et se vend depuis la Conquête.</description>
+		<description>{0_coll} popped grain by grain on a scorching plate, bound with hot {1_plur} and toasted {2_plur} and pressed into a bar. The name means joy, and it has been sold since the Conquest.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsDessert</li>
@@ -56,7 +56,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>une farine {0_adj}, qui ne contient pas de gluten, liée par {2_coll} et une purée {1_adj} écrasée chaude — sans quoi la galette se déchire au rouleau. Se cuit à sec puis se badigeonne.</description>
+		<description>an {0_adj} flour, which holds no gluten, bound by {2_coll} and a hot mash of {1_adj} — without them the flatbread tears under the pin. Cooked dry, then brushed over.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -64,13 +64,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AtoleDAmarante</defName>
-		<label>atole d'amarante</label>
+		<label>amaranth atole</label>
 		<ingredients>
 			<li><categories><li>FT_Amaranth</li></categories></li>
 			<li><categories><li>FT_Corn</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 		</ingredients>
-		<description>une boisson épaisse {0_adj} et {1_adj} délayés à l'eau, fouettée {2_plur} et à la cannelle jusqu'à mousser. Se boit brûlante, au petit matin, avant le travail aux champs.</description>
+		<description>a thick drink of {0_adj} and {1_adj} slaked in water, whisked with {2_plur} and cinnamon until it foams. Drunk scalding, at first light, before the work in the fields.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>
@@ -78,13 +78,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PilafDAmarante</defName>
-		<label>pilaf d'amarante</label>
+		<label>amaranth pilaf</label>
 		<ingredients>
 			<li><categories><li>FT_Amaranth</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} torréfié à sec avant d'être mouillé au bouillon, avec une fondue {2_adj} et {1_coll} poêlés. Le grain reste minuscule mais craque sous la dent, ce que le riz ne fait pas.</description>
+		<description>{0_coll} toasted dry before it is moistened with stock, with a fondue of {2_adj} and {1_coll} taken in the pan. The grain stays minute but cracks under the tooth, which rice does not.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -98,7 +98,7 @@
 			<li><categories><li>FT_SugarFromPlants</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} soufflé roulé en boules à la main dans un sirop {1_adj} au petit cassé et {2_plur} clarifié. On les forme brûlantes : refroidies, elles ne tiennent plus.</description>
+		<description>popped {0_coll} rolled into balls by hand in a {1_adj} syrup taken to the soft crack with clarified {2_plur}. They are shaped scalding hot: cold, they no longer hold.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsSnack</li>
@@ -109,13 +109,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OrzottoChampignons</defName>
-		<label>orzotto aux champignons</label>
+		<label>mushroom orzotto</label>
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} perlé mouillé louche après louche comme un risotto, lié {2_plur} râpé hors du feu, avec une poêlée {1_adj}. Il tient la cuisson bien mieux que le riz et pardonne les distractions.</description>
+		<description>pearl {0_coll} moistened ladle after ladle like a risotto, bound off the heat with grated {2_plur}, with a panful of {1_adj}. It stands the cooking far better than rice and forgives a wandering mind.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -123,13 +123,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoupeBoeufOrge</defName>
-		<label>soupe bœuf-orge</label>
+		<label>beef and barley soup</label>
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
-		<description>un bouillon tiré {1_adj} à l'os pendant trois heures, épaissi {0_plur} perlé et chargé {2_adj} en gros dés. L'orge continue de gonfler dans la marmite : la soupe du lendemain est une potée.</description>
+		<description>a broth drawn from {1_adj} on the bone for three hours, thickened with pearl {0_plur} and loaded with {2_adj} in large dice. The barley goes on swelling in the pot: the next day's soup is a stew.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -143,7 +143,7 @@
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Turnip</li></categories></li>
 		</ingredients>
-		<description>{1_coll} au collier mijotée avec {0_coll} perlé, {2_coll} jaune et du poireau, écumée souvent. Se mange le premier jour en bouillon, le second à la fourchette.</description>
+		<description>{1_coll} from the neck simmered with pearl {0_coll}, yellow {2_coll} and leek, skimmed often. Eaten as a broth on the first day and with a fork on the second.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -157,7 +157,7 @@
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 		</ingredients>
-		<description>une soupe paysanne {0_adj} perlé, {2_adj} en cubes et {1_adj} séchés réhydratés, dont on garde l'eau de trempage — c'est elle qui porte tout le goût.</description>
+		<description>a peasant soup of pearl {0_adj}, {2_adj} in cubes and dried {1_adj} soaked back up, whose soaking water is kept — it is what carries all the taste.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -165,13 +165,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OrgeAuTheBeurre</defName>
-		<label>orge au thé beurré</label>
+		<label>barley with butter tea</label>
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Tea</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>une farine {0_adj} grillé, pétrie du bout des doigts dans un bol {1_plur} salé battu {2_plur}. Se mange sans couverts, en roulant la pâte contre la paroi. Tient une journée de marche.</description>
+		<description>a flour of roasted {0_adj}, worked with the fingertips in a bowl of salted {1_plur} beaten with {2_plur}. Eaten without utensils, rolling the paste against the side of the bowl. It carries you a day's walk.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -179,13 +179,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladeOrgeFeta</defName>
-		<label>salade d'orge à la feta</label>
+		<label>barley and feta salad</label>
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Cucumber</li></categories></li>
 		</ingredients>
-		<description>{0_coll} perlé cuit puis rafraîchi net, mêlé {2_plur} en dés, {1_plur} émietté et beaucoup d'herbes. Il faut l'assaisonner tiède : froid, il ne prend plus rien.</description>
+		<description>pearl {0_coll} cooked and then cooled straight down, mixed with diced {2_plur}, crumbled {1_plur} and a great deal of herbs. Dress it warm: cold, it takes up nothing at all.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -199,7 +199,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Bean</li></categories></li>
 		</ingredients>
-		<description>{1_coll} cuit avec {0_coll} pressé et {2_coll} trempés, dans la même eau. C'était la nourriture des années maigres, et c'est devenu une commande de restaurant.</description>
+		<description>{1_coll} cooked with pressed {0_coll} and soaked {2_coll}, all in the same water. It was the food of the lean years, and has become a restaurant order.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -207,13 +207,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OrgeAuLait</defName>
-		<label>orge au lait</label>
+		<label>barley in milk</label>
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} mondé cuit une heure {1_plur} avec un bâton de cannelle et à peine {2_adj}. Plus rustique que le riz au lait, et bien plus nourrissant.</description>
+		<description>hulled {0_coll} cooked an hour in {1_plur} with a stick of cinnamon and barely any {2_adj}. Rougher than rice pudding, and a good deal more sustaining.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -221,13 +221,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BannockDOrge</defName>
-		<label>bannock d'orge</label>
+		<label>barley bannock</label>
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>une galette épaisse {0_adj}, cuite sur une pierre chaude ou à même la plaque, pétrie {2_plur} caillé et {1_plur}. Sans levure : elle lève par le lait aigre seul.</description>
+		<description>a thick {0_adj} cake, cooked on a hot stone or straight on the plate, worked with soured {2_plur} and {1_plur}. No yeast: it rises on the sour milk alone.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -235,13 +235,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OrgeAuxPoireaux</defName>
-		<label>orge aux poireaux</label>
+		<label>barley with leeks</label>
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Leek</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} perlé étuvé au bouillon avec une fondue {1_adj} menés très doucement, monté {2_plur} en fin de cuisson. Le blanc et le vert vont ensemble, contrairement à l'habitude.</description>
+		<description>pearl {0_coll} sweated in stock with a fondue of {1_adj} brought on very gently, mounted with {2_plur} at the end. White and green go together here, contrary to the usual rule.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -251,13 +251,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_QuinottoChampignons</defName>
-		<label>quinotto aux champignons</label>
+		<label>mushroom quinotto</label>
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} rincé longuement pour ôter sa saponine amère, puis mené comme un risotto avec {1_coll} et lié {2_plur}. Le germe se détache en anneau : c'est le signe qu'il est cuit.</description>
+		<description>{0_coll} rinsed at length to strip its bitter saponin, then brought on like a risotto with {1_coll} and bound with {2_plur}. The germ unwinds into a ring: that is the sign it is cooked.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -265,13 +265,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladeQuinoaGrenade</defName>
-		<label>salade quinoa-grenade</label>
+		<label>quinoa and pomegranate salad</label>
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Pomegranate</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} refroidi à plat, mêlé aux graines {1_adj} et {2_plur} ciselées, avec un filet de mélasse acidulée. Les grains éclatent au milieu de quelque chose qui ne croque pas : c'est tout l'intérêt.</description>
+		<description>{0_coll} cooled out flat, mixed with the seeds of {1_adj} and shredded {2_plur}, with a thread of sharp molasses. The seeds burst in the middle of something that does not crunch: that is the whole point.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -285,7 +285,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
-		<description>{0_coll} sauté au wok très chaud avec une omelette {1_adj} taillée en lanières, du gingembre et {2_coll}. Le riz sauté cantonais passé aux Andes, avec la céréale du lieu.</description>
+		<description>{0_coll} fried in a very hot wok with an omelette of {1_adj} cut into ribbons, ginger and {2_coll}. Cantonese fried rice carried up into the Andes, with the grain of the place.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>
@@ -293,13 +293,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChiliQuinoaHaricots</defName>
-		<label>chili quinoa-haricots</label>
+		<label>quinoa and bean chilli</label>
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Bean</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{1_coll} noirs et {0_coll} mijotés ensemble une heure {2_plur} et au cumin. Le quinoa épaissit le jus sans qu'on ait besoin de farine ni de réduction.</description>
+		<description>black {1_coll} and {0_coll} stewed together for an hour with {2_plur} and cumin. The quinoa thickens the juices with no need of flour or of reduction.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -307,13 +307,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PoivronsFarcisQuinoa</defName>
-		<label>poivrons farcis au quinoa</label>
+		<label>quinoa-stuffed peppers</label>
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_BellPepper</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>{1_coll} évidés et blanchis, garnis {0_adj} lié d'une concassée {2_adj}, puis passés au four jusqu'à ce que la peau se ride. On les sert dans leur jus de cuisson.</description>
+		<description>{1_coll} hollowed and blanched, filled with {0_adj} bound with a crushed {2_adj}, then baked until the skin wrinkles. Served in their own cooking juices.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -321,13 +321,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_QuinoaAuLait</defName>
-		<label>quinoa au lait</label>
+		<label>quinoa in milk</label>
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuit {1_plur} à la cannelle et à peine {2_adj}, jusqu'à ce que chaque grain déroule son germe. Se mange tiède, au bol, comme on le fait à La Paz au petit jour.</description>
+		<description>{0_coll} cooked in {1_plur} with cinnamon and barely any {2_adj}, until every grain unwinds its germ. Eaten warm, from a bowl, as it is in La Paz at daybreak.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -335,13 +335,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GalettesDeQuinoa</defName>
-		<label>galettes de quinoa</label>
+		<label>quinoa cakes</label>
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuit puis lié {1_plur} battus et {2_plur} râpées, façonné à la cuillère et saisi des deux côtés. Elles se tiennent mal chaudes : on les laisse reposer avant de retourner.</description>
+		<description>{0_coll} cooked then bound with beaten {1_plur} and grated {2_plur}, shaped with a spoon and seared on both sides. They hold together badly while hot: let them settle before turning them.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -349,13 +349,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TaboulehDeQuinoa</defName>
-		<label>tabbouleh de quinoa</label>
+		<label>quinoa tabbouleh</label>
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>beaucoup plus de persil que {0_adj}, avec {2_coll} épépinées en tout petits dés et le jus {1_adj}. La céréale est ici l'assaisonnement de l'herbe, jamais l'inverse.</description>
+		<description>a great deal more parsley than {0_adj}, with {2_coll} seeded and cut into the smallest dice and the juice of {1_adj}. The grain here is the seasoning of the herb, never the other way about.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -363,13 +363,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladeQuinoaAvocat</defName>
-		<label>salade quinoa-avocat</label>
+		<label>quinoa and avocado salad</label>
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Avocado</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} froid, {1_coll} taillé au dernier moment et une vinaigrette {2_plur} vert et à la coriandre. L'avocat s'écrase un peu contre les grains, et c'est ce qui lie la salade.</description>
+		<description>cold {0_coll}, {1_coll} cut at the last moment and a dressing of green {2_plur} and coriander. The avocado crushes a little against the grains, and that is what binds the salad.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -379,13 +379,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ToSauceGombo</defName>
-		<label>tô sauce gombo</label>
+		<label>tô with okra sauce</label>
 		<ingredients>
 			<li><categories><li>FT_Millet</li></categories></li>
 			<li><categories><li>FT_Okra</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>une pâte ferme {0_adj} travaillée à la spatule contre la paroi de la marmite, trempée dans une sauce {1_adj} filante montée {2_plur}. On mange à la main, en creusant la boule.</description>
+		<description>a firm paste of {0_adj} worked with a spatula against the wall of the pot, dipped into a stringing {1_adj} sauce mounted with {2_plur}. Eaten by hand, digging into the ball.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -393,13 +393,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ToSauceArachide</defName>
-		<label>tô sauce arachide</label>
+		<label>tô with groundnut sauce</label>
 		<ingredients>
 			<li><categories><li>FT_Millet</li></categories></li>
 			<li><categories><li>FT_Peanut</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>la même pâte {0_adj}, trempée cette fois dans une sauce {1_adj} pilées longuement cuite {2_plur}, jusqu'à ce que l'huile remonte en surface. C'est le signe qu'elle est prête.</description>
+		<description>the same {0_adj} paste, dipped this time into a sauce of long-pounded {1_adj} cooked in {2_plur} until the oil rises to the surface. That is the sign that it is ready.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -413,7 +413,7 @@
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>une semoule {0_adj} roulée à la main puis cuite à la vapeur trois fois, noyée {1_plur} sucré {2_plur} et à la fleur d'oranger. Se sert glacé, en fin de repas.</description>
+		<description>a semolina of {0_adj} rolled by hand and then steamed three times over, drowned in {1_plur} sweetened with {2_plur} and orange flower water. Served ice-cold, at the end of the meal.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -427,7 +427,7 @@
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>une bouillie {0_adj} concassé laissée aigrir une nuit entière, allongée {1_plur} battu et salée, bue à même le bol avec {2_coll} cru et un piment. Se prend avant le lever du jour, contre la chaleur qui vient.</description>
+		<description>a gruel of cracked {0_adj} left to sour a whole night, let down with beaten {1_plur} and salted, drunk straight from the bowl with raw {2_coll} and a chilli. Taken before daybreak, against the heat to come.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 			<li>FT_MealsNonSpecial</li>
@@ -442,7 +442,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Lentil</li></categories></li>
 		</ingredients>
-		<description>une pâte {0_adj}, {1_adj} et {2_adj} noires trempées, fermentée une nuit puis étalée en voile sur une plaque brûlante. Elle est presque noire, et beaucoup plus fine qu'elle n'en a l'air.</description>
+		<description>a batter of {0_adj}, {1_adj} and soaked black {2_adj}, fermented overnight then spread into a veil over a scorching plate. It comes out almost black, and far finer than it looks.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -456,7 +456,7 @@
 			<li><categories><li>FT_Lentil</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} concassé au mortier et cuit à l'étouffée avec {1_coll} fendues, arrosé {2_plur} clarifié au service. Plat d'hiver du désert, où l'on mange gras parce qu'il gèle la nuit.</description>
+		<description>{0_coll} cracked in a mortar and cooked under a lid with split {1_coll}, doused with clarified {2_plur} as it is served. A winter dish of the desert, where the eating is fat because the nights freeze.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -470,7 +470,7 @@
 			<li><categories><li>FT_Pumpkin</li></categories></li>
 			<li><categories><li>FT_Date</li></categories></li>
 		</ingredients>
-		<description>{0_coll} crevé une heure dans beaucoup d'eau avec {1_coll} en cubes qui se défait, et {2_coll} rouges entières. Une pellicule jaune se forme en surface : c'est la partie qu'on donne aux malades.</description>
+		<description>{0_coll} burst for an hour in a great deal of water with {1_coll} in cubes that falls apart, and whole red {2_coll}. A yellow film forms on the surface: that is the part given to the sick.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -484,7 +484,7 @@
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>une galette épaisse {0_adj}, pétrie à l'eau chaude avec {1_coll} hachées, tapotée entre les paumes faute de pouvoir la rouler, et cuite à même la braise avant d'être frottée {2_plur}.</description>
+		<description>a thick cake of {0_adj}, worked with hot water and chopped {1_coll}, patted out between the palms for want of being able to roll it, and cooked straight on the embers before it is rubbed with {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -492,13 +492,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PilafDeMil</defName>
-		<label>pilaf de mil aux légumes</label>
+		<label>millet and vegetable pilaf</label>
 		<ingredients>
 			<li><categories><li>FT_Millet</li></categories></li>
 			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} grillé à sec jusqu'à sentir la noisette, puis gonflé au bouillon avec {1_coll} taillés menu et une fondue {2_adj}. Il double de volume et boit deux fois son poids.</description>
+		<description>{0_coll} toasted dry until it smells of hazelnut, then swelled in stock with {1_coll} cut small and a fondue of {2_adj}. It doubles in volume and drinks up twice its own weight.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
