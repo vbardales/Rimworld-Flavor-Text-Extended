@@ -11,13 +11,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BacalhauABras</defName>
-		<label>bacalhau à Brás</label>
+		<label>bacalhau à brás</label>
 		<ingredients>
 			<li><categories><li>FT_Cod</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} effeuillée, {1_coll} en allumettes frites, le tout lié {2_plur} battus jetés hors du feu et remués jusqu'à napper sans coaguler.</description>
+		<description>{0_coll} flaked, {1_coll} in fried matchsticks, the whole bound with beaten {2_plur} thrown in off the heat and stirred until they coat without setting.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -31,7 +31,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} dessalée et émiettée, mêlée {2_plur} fondus et noyée {1_plur}, gratinée jusqu'à ce que la surface se craquelle.</description>
+		<description>{0_coll} soaked out and crumbled, folded through melted {2_plur} and drowned in {1_plur}, browned until the surface crazes over.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -45,7 +45,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>un croque-monsieur de Porto poussé jusqu'à l'absurde : quatre viandes empilées, du fromage fondu par-dessus, et une sauce épaisse {2_adj} et à la tomate versée à ras bord de l'assiette.</description>
+		<description>a Porto croque-monsieur pushed to absurdity: four meats stacked, melted cheese over the top, and a thick {2_adj} and tomato sauce poured to the brim of the plate.</description>
 		<mealKinds>
 			<li>FT_MealsSandwich</li>
 			<li>FT_MealsNonSpecial</li>
@@ -60,7 +60,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>de fines escalopes {1_adj} mijotées {2_plur} et au vin blanc, empilées brûlantes dans un pain qui boit la sauce.</description>
+		<description>thin {1_adj} escalopes simmered with {2_plur} and white wine, stacked scalding into a roll that drinks up the sauce.</description>
 		<mealKinds>
 			<li>FT_MealsSandwich</li>
 		</mealKinds>
@@ -74,7 +74,7 @@
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Carrot</li></categories></li>
 		</ingredients>
-		<description>tout ce que la maison possède en viandes et en charcuteries, bouilli avec {1_coll} et {2_coll} et servi sur un plat unique et démesuré.</description>
+		<description>everything the house owns in meats and cured pork, boiled with {1_coll} and {2_coll} and served on one outsized dish.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -88,7 +88,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuit dans le bouillon {1_adj} pochée, la chair effilochée mêlée dedans, des rondelles de chorizo posées dessus, et le tout gratiné au four.</description>
+		<description>{0_coll} cooked in the broth of poached {1_adj}, the shredded flesh stirred through it, rounds of chorizo laid over the top, and the whole browned in the oven.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -103,7 +103,7 @@
 			<li><categories><li>FT_Garlic</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>du pain rassis détrempé dans une eau bouillante {1_plur} et à la coriandre, battu jusqu'à devenir une bouillie, avec {2_coll} pochés dedans. Un plat de pauvreté alentejane devenu emblème.</description>
+		<description>stale bread soaked in boiling water with {1_plur} and coriander, beaten into a porridge, with {2_coll} poached in it. An Alentejo dish of poverty turned emblem.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -117,7 +117,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {2_coll} cuits ensemble dans un chaudron de cuivre à charnière, refermé hermétiquement — la vapeur ne s'échappe pas, et le plat se cuit dans son propre jus.</description>
+		<description>{0_coll} and {2_coll} cooked together in a hinged copper pot clamped shut — no steam escapes, and the dish cooks in its own juices.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -131,7 +131,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} ouverte en crapaudine et grillée au charbon, badigeonnée pendant toute la cuisson d'une huile {1_adj} minuscules et {2_adj}.</description>
+		<description>{0_coll} spatchcocked and grilled over charcoal, basted throughout the cooking with an oil of minute {1_adj} and {2_adj}.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -147,7 +147,7 @@
 			<li><categories><li>FT_Spice</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 		</ingredients>
-		<description>une pièce {0_adj} marinée au vinaigre une semaine entière, braisée, la sauce liée au pain d'épices émietté et adoucie {2_plur} séchées.</description>
+		<description>a joint of {0_adj} marinated in vinegar for a whole week, braised, the sauce thickened with crumbled gingerbread and sweetened with dried {2_plur}.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -161,7 +161,7 @@
 			<li><categories><li>FT_Cucumber</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>de fines tranches {0_adj} tartinées de moutarde, roulées sur un cornichon et {2_coll}, maintenues par un pique et braisées deux heures.</description>
+		<description>thin slices of {0_adj} spread with mustard, rolled around a gherkin and {2_coll}, held shut with a skewer and braised two hours.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -175,7 +175,7 @@
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>un jarret entier rôti des heures, arrosé {2_plur} brune, jusqu'à ce que la couenne devienne une carapace qui craque sous le couteau.</description>
+		<description>a whole knuckle roasted for hours and basted with brown {2_plur}, until the rind becomes a shell that cracks under the knife.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -190,7 +190,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>une escalope {0_adj} battue jusqu'à la transparence, panée sans presser, et frite au beurre en secouant la poêle pour que la panure gonfle et se décolle de la viande.</description>
+		<description>an escalope of {0_adj} beaten until translucent, crumbed without pressing, and fried in butter with the pan shaken so the coating puffs and lifts off the meat.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsNonSpecial</li>
@@ -205,7 +205,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>des boulettes {0_adj} pochées dans un bouillon, servies sous une sauce blanche {1_adj} acidulée {2_plur} et relevée de câpres.</description>
+		<description>dumplings of {0_adj} poached in stock, served under a white {1_adj} sauce sharpened with {2_plur} and lifted with capers.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -219,7 +219,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 		</ingredients>
-		<description>de grands carrés de pâte farcis {1_plur} et {2_plur}. Les moines souabes y cachaient la viande pour la manger en carême : on les appelle encore « les attrape-Dieu ».</description>
+		<description>large squares of pasta stuffed with {1_plur} and {2_plur}. Swabian monks hid the meat inside to eat it through Lent: they are still called the God-cheaters.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 			<li>FT_MealsSoup</li>
@@ -234,7 +234,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>des spätzle râclés dans l'eau bouillante, montés en couches {1_plur} et coiffés {2_adj} frits jusqu'au brun sombre.</description>
+		<description>spätzle scraped into boiling water, built up in layers with {1_plur} and crowned with {2_adj} fried to a dark brown.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 			<li>FT_MealsBake</li>
@@ -249,7 +249,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Apple</li></categories></li>
 		</ingredients>
-		<description>{0_coll} râpées crues et pressées de leur eau, liées {1_plur}, frites en galettes fines et servies avec une compote {2_adj}. Le sucré face au salé, comme souvent en Rhénanie.</description>
+		<description>{0_coll} grated raw and pressed of their water, bound with {1_plur}, fried into thin cakes and served with an {2_adj} compote. Sweet against savoury, as so often in the Rhineland.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsNonSpecial</li>
@@ -264,7 +264,7 @@
 			<li><categories><li>FT_Apple</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>« ciel et terre » : {1_coll} qui poussent en haut, {0_coll} qui poussent en bas, écrasées ensemble, avec du boudin poêlé et des oignons frits.</description>
+		<description>heaven and earth: {1_coll} that grow above, {0_coll} that grow below, mashed together, with fried blood sausage and onions.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -278,7 +278,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Oat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} frisés cueillis après la première gelée — qui les adoucit — mijotés des heures avec une saucisse fumée {2_adj}.</description>
+		<description>curly {0_coll} picked after the first frost — which sweetens it — stewed for hours with a smoked {2_adj} sausage.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -292,7 +292,7 @@
 			<li><categories><li>FT_Turnip</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>une pièce {0_adj} pochée dans un bouillon de racines, servie avec une sauce {2_adj} au raifort et à la pomme. Le plat préféré de François-Joseph, dit-on, qui en mangeait tous les jours.</description>
+		<description>a cut of {0_adj} poached in a broth of roots, served with an {2_adj} sauce of horseradish and apple. Franz Joseph's favourite dish, they say, and he ate it every day.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -307,7 +307,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} de la veille sautées ensemble à la poêle jusqu'à accrocher, coiffées d'un œuf au plat et servies dans la poêle même.</description>
+		<description>yesterday's {0_coll} and {1_coll} fried together until they catch on the pan, crowned with a fried egg and served in the pan itself.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -321,7 +321,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>du pain rassis trempé {1_plur} tiède, mêlé {2_plur} et au persil, roulé en boules et poché à l'eau frémissante. Une boule qui se défait est une boule trop travaillée.</description>
+		<description>stale bread soaked in warm {1_plur}, worked together with {2_plur} and parsley, rolled into balls and poached in barely trembling water. A dumpling that falls apart is a dumpling overworked.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 			<li>FT_MealsNonSpecial</li>
@@ -338,7 +338,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 		</ingredients>
-		<description>de petites boulettes {0_adj} roulées à la main, poêlées puis servies sous une sauce brune {1_adj}, avec une cuillerée de confiture {2_adj} rouges à côté.</description>
+		<description>small {0_adj} balls rolled by hand, fried in the pan and served under a brown {1_adj} sauce, with a spoonful of red {2_adj} jam beside them.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -352,7 +352,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>un filet enfoui deux jours sous du sel, {1_coll} et beaucoup d'aneth, sous un poids. Le nom veut dire « saumon enterré » : on l'enfouissait autrefois vraiment dans le sable.</description>
+		<description>a fillet buried two days under salt, {1_coll} and a great deal of dill, beneath a weight. The name means buried salmon: it really was once put down in the sand.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>
@@ -367,7 +367,7 @@
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>une tranche de pain noir {0_adj} beurrée jusqu'aux bords, chargée de hareng mariné et {2_adj} crus. Se mange à la fourchette, jamais à la main, et jamais refermée.</description>
+		<description>a slice of {0_adj} black bread buttered to the very edges, loaded with pickled herring and raw {2_adj}. Eaten with a fork, never by hand, and never closed over.</description>
 		<mealKinds>
 			<li>FT_MealsSandwich</li>
 		</mealKinds>
@@ -381,7 +381,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>{0_coll} hachée deux fois, allégée de farine et {2_adj}, façonnée à la cuillère en galettes bombées et poêlée longuement au beurre.</description>
+		<description>{0_coll} minced twice, lightened with flour and {2_adj}, shaped with a spoon into domed patties and fried long and slow in butter.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -395,7 +395,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>une soupe finlandaise où {0_coll} n'est ajoutée qu'à la toute fin, dans un bouillon {1_adj} déjà crémé, et pochée hors du feu pour rester juste rosée.</description>
+		<description>a Finnish soup in which {0_coll} goes in only at the very end, into an already creamed {1_adj} broth, and poaches off the heat so as to stay barely pink.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -409,7 +409,7 @@
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 		</ingredients>
-		<description>{0_coll} de renne rabotée en copeaux sur le bloc gelé, jetée dans la graisse brûlante et servie avec une purée et une cuillerée d'airelles. Un plat de Laponie, mangé l'hiver.</description>
+		<description>reindeer {0_coll} planed into shavings off the frozen block, thrown into scalding fat and served with a mash and a spoonful of lingonberries. A dish of Lapland, eaten in winter.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -423,7 +423,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} jaunes cassés trempés une nuit et mijotés avec {1_coll} fumée, parfumés au thym et à la marjolaine. En Suède, on la mange le jeudi ; personne ne sait plus vraiment pourquoi.</description>
+		<description>yellow split {0_coll} soaked overnight and simmered with smoked {1_coll}, scented with thyme and marjoram. In Sweden it is eaten on a Thursday; nobody quite remembers why any more.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -437,7 +437,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>les restes de poisson bouilli écrasés grossièrement avec {1_coll} et {2_coll}, réchauffés à la poêle. Islandais, et fait pour ne rien jeter dans un pays où rien ne pousse.</description>
+		<description>leftover boiled fish roughly crushed together with {1_coll} and {2_coll}, reheated in the pan. Icelandic, and made to throw nothing away in a country where nothing grows.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -451,7 +451,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Turnip</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et les racines cuites si longtemps ensemble qu'on ne distingue plus rien. Un plat de marins, fait de salaisons et de ce qui se conservait à bord.</description>
+		<description>{0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever kept on board.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -466,7 +466,7 @@
 			<li><categories><li>FT_Turnip</li></categories></li>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 		</ingredients>
-		<description>{0_coll} sur l'os bouillie avec {1_coll} et {2_coll}, sans autre assaisonnement que le sel. La soupe islandaise de tous les jours, depuis mille ans.</description>
+		<description>{0_coll} on the bone boiled with {1_coll} and {2_coll}, with no seasoning but salt. The everyday Icelandic soup, for a thousand years.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -482,7 +482,7 @@
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisée {1_plur} brune jusqu'à s'effilocher, enfermée sous un couvercle de pâte qui gonfle et brunit au four.</description>
+		<description>{0_coll} braised in brown {1_plur} until it falls into threads, shut in under a pastry lid that swells and browns in the oven.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -497,7 +497,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {2_coll} en couches sous un toit de fines rondelles {1_adj} qui dorent et croustillent pendant que le dessous mijote.</description>
+		<description>{0_coll} and {2_coll} in layers under a roof of thin {1_adj} rounds that gild and crisp while everything beneath them stews.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -512,7 +512,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>de l'églefin fumé poché {2_plur}, effeuillé, remis dans son lait avec {1_coll} écrasées. Épais au point de tenir la cuillère debout.</description>
+		<description>smoked haddock poached in {2_plur}, flaked, and put back into its milk with crushed {1_coll}. Thick to the point of standing the spoon up in it.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -526,7 +526,7 @@
 			<li><categories><li>FT_Oat</li></categories></li>
 			<li><categories><li>FT_Turnip</li></categories></li>
 		</ingredients>
-		<description>{0_coll} hachée avec {1_coll} et beaucoup de poivre, cuite dans une panse, servie avec des navets et des pommes de terre écrasés séparément. On le tranche d'un coup de couteau devant les convives.</description>
+		<description>{0_coll} chopped with {1_coll} and a great deal of pepper, cooked inside a stomach, served with turnip and potato mashed apart from one another. It is slit open with a single stroke of the knife in front of the guests.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -540,7 +540,7 @@
 			<li><categories><li>FT_Leek</li></categories></li>
 			<li><categories><li>FT_Plum</li></categories></li>
 		</ingredients>
-		<description>une soupe écossaise {0_adj} et {1_adj}, avec des pruneaux entiers dedans. L'accord surprend, mais il est attesté depuis le XVIe siècle.</description>
+		<description>a Scottish soup of {0_adj} and {1_adj}, with whole prunes in it. The pairing surprises, but it has been attested since the sixteenth century.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -554,7 +554,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Bean</li></categories></li>
 		</ingredients>
-		<description>{0_coll}, {1_coll} sous toutes ses formes, {2_coll} à la tomate, champignons et pain frit, tout dans la même assiette. Un petit-déjeuner qui tient lieu de deux repas.</description>
+		<description>{0_coll}, {1_coll} in every form it takes, {2_coll} in tomato sauce, mushrooms and fried bread, all on the one plate. A breakfast that stands in for two meals.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -568,7 +568,7 @@
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} au curry mêlé de poisson fumé effeuillé et d'œufs durs. Un khichdi indien rapporté par les Britanniques, devenu chez eux un plat de petit-déjeuner.</description>
+		<description>curried {0_coll} folded through flaked smoked fish and hard-boiled eggs. An Indian khichdi carried home by the British and turned by them into a breakfast dish.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -576,13 +576,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BeefGuinnessStew</defName>
-		<label>ragoût de bœuf à la Guinness</label>
+		<label>beef and stout stew</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Turnip</li></categories></li>
 		</ingredients>
-		<description>{0_coll} mijotée {1_plur} noire, dont l'amertume torréfiée se transforme en profondeur après trois heures, avec {2_coll} et carottes.</description>
+		<description>{0_coll} stewed in black {1_plur}, whose roasted bitterness turns into depth after three hours, with {2_coll} and carrots.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
