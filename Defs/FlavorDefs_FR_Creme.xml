@@ -101,7 +101,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PouletAuBeurre</defName>
-		<label>butter chicken</label>
+		<label>murgh makhani</label>
 		<ingredients>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>

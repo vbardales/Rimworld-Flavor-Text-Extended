@@ -13,7 +13,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} sautée au wok à feu brutal {2_plur}, déglacée au vinaigre et à la sauce de soja, puis mêlée {1_plur} frites. Un plat chinois passé par les Andes, et resté.</description>
+		<description>{0_coll} fried in the wok over a brutal flame with {2_plur}, deglazed with vinegar and soy, then tossed through fried {1_plur}. A Chinese dish that came through the Andes and stayed.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 			<li>FT_MealsNonSpecial</li>
@@ -28,7 +28,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>{0_coll} bouillie puis effilochée à la main, dans une sauce jaune épaissie de mie et {2_adj} broyées, colorée {1_plur} doux. Le piment est là pour la couleur autant que pour le feu.</description>
+		<description>{0_coll} boiled and then pulled apart by hand, in a yellow sauce thickened with crumb and ground {2_adj}, coloured with mild {1_plur}. The chilli is there for the colour as much as for the fire.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -42,7 +42,7 @@
 			<li><categories><li>FT_Lemon</li></categories></li>
 			<li><categories><li>FT_Avocado</li></categories></li>
 		</ingredients>
-		<description>une purée {0_adj} jaunes, pétrie {1_plur} et au piment jusqu'à devenir malléable comme de la pâte, montée en couches {2_plur}. Se mange froide, tranchée net.</description>
+		<description>a mash of yellow {0_adj}, worked with {1_plur} and chilli until it turns as malleable as dough, built up in layers with {2_plur}. Eaten cold, cut clean.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>
@@ -57,7 +57,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} marinée au vinaigre, {1_plur} et {2_plur}, enfilée sur des broches et grillée au charbon dans la rue. Née de ce que les maîtres ne mangeaient pas.</description>
+		<description>{0_coll} marinated in vinegar, {1_plur} and {2_plur}, threaded onto skewers and grilled over charcoal in the street. Born of what the masters would not eat.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -71,7 +71,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} bouillies et froides, noyées sous une sauce {1_adj} frais et {2_adj} jaune passée jusqu'à devenir soyeuse. Une entrée, jamais un plat.</description>
+		<description>{0_coll} boiled and cold, drowned under a sauce of fresh {1_adj} and yellow {2_adj} passed through a sieve until it turns silken. A first course, never a main.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>
@@ -86,7 +86,7 @@
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} évidés et blanchis trois fois pour ôter l'essentiel du feu, farcis {1_plur} hachée, coiffés {2_plur} et passés au four. Trois fois, et ça pique encore.</description>
+		<description>{0_coll} hollowed and blanched three times over to take out most of the fire, stuffed with minced {1_plur}, capped with {2_plur} and put in the oven. Three times, and it still burns.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -100,7 +100,7 @@
 			<li><categories><li>FT_Corn</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>une soupe épaisse {0_adj}, {1_adj} et {2_adj}, où l'on casse un œuf entier au dernier moment. Les têtes des crevettes font le bouillon et ne se jettent jamais.</description>
+		<description>a thick soup of {0_adj}, {1_adj} and {2_adj}, into which a whole egg is broken at the last moment. The prawn heads make the stock and are never thrown away.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -114,7 +114,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_BellPepper</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuit dans le bouillon {1_adj} et une purée de coriandre qui le teint en vert profond, avec {2_coll}. La couleur déroute d'abord, puis manque quand elle n'y est pas.</description>
+		<description>{0_coll} cooked in {1_adj} stock and a coriander purée that dyes it deep green, with {2_coll}. The colour disconcerts at first, and is then missed when it is not there.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -128,7 +128,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Corn</li></categories></li>
 		</ingredients>
-		<description>{0_coll}, {1_coll} et {2_coll} enfouis dans un trou tapissé de pierres chauffées au feu, recouverts de terre, et laissés cuire des heures. Le nom veut dire « marmite de la terre » ; ce n'est pas une image.</description>
+		<description>{0_coll}, {1_coll} and {2_coll} buried in a pit lined with fire-heated stones, covered over with earth, and left to cook for hours. The name means pot of the earth; it is not a figure of speech.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -142,7 +142,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} rincé longuement — sa saponine est amère — puis mijoté {1_plur} jusqu'à ouvrir ses germes en spirale, {2_plur} fondu dedans.</description>
+		<description>{0_coll} rinsed at length — its saponin is bitter — then stewed with {1_plur} until it opens its germs into spirals, with {2_plur} melted through it.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -156,7 +156,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} et {1_coll} de la veille écrasés ensemble et poêlés en une galette dorée sur les deux faces, {2_plur} revenus dedans. Un plat né des restes, devenu une institution.</description>
+		<description>yesterday's {0_coll} and {1_coll} crushed together and fried into a cake gilded on both faces, with {2_plur} turned in it. A dish born of leftovers, and now an institution.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -164,13 +164,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SecoDeCordero</defName>
-		<label>seco {0_adj}</label>
+		<label>{0_adj} seco</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Cilantro</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisée dans une purée {1_adj} et {2_plur} fermentée, jusqu'à ce que la sauce devienne vert sombre. On l'appelle « sec » alors qu'il baigne : personne ne sait pourquoi.</description>
+		<description>{0_coll} braised in a purée of {1_adj} and fermented {2_plur}, until the sauce turns dark green. It is called dry although it swims: nobody knows why.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -184,7 +184,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>des anneaux de pâte {0_adj} et de patate douce, façonnés à la main d'un geste tournant, frits et noyés d'un sirop {2_adj} roux. Le successeur colonial d'un beignet plus ancien.</description>
+		<description>rings of {0_adj} and sweet potato dough, shaped by hand with a turning gesture, fried and drowned in a dark {2_adj} syrup. The colonial successor of an older fritter.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsDeepFry</li>
@@ -199,7 +199,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} réduit {2_plur} pendant une heure jusqu'au caramel, lié de jaunes {1_adj}, et coiffé d'une meringue au porto. Nommé d'après un soupir, pour sa douceur et sa brièveté.</description>
+		<description>{0_coll} reduced with {2_plur} for an hour to a caramel, bound with {1_adj} yolks, and capped with a port meringue. Named after a sigh, for its sweetness and its brevity.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>

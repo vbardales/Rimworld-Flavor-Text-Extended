@@ -12,7 +12,7 @@
 			<li><categories><li>FT_Spice</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuits jusqu'à se défaire, puis réveillés d'un tempérage : {1_coll} et {2_coll} frits une poignée de secondes dans le beurre brûlant et versés dessus, encore grésillants.</description>
+		<description>{0_coll} cooked until they fall apart, then woken with a tempering: {1_coll} and {2_coll} fried for a handful of seconds in scalding butter and poured over, still hissing.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -27,7 +27,7 @@
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} à moitié cuit et {1_coll} marinée montés en couches, scellés sous un couvercle luté à la pâte, et finis à l'étouffée. On ne remue jamais : chaque couche doit rester distincte à l'ouverture.</description>
+		<description>{0_coll} half-cooked and marinated {1_coll} built up in layers, sealed under a lid luted with dough, and finished smothered. It is never stirred: every layer must still be distinct when it is opened.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -41,7 +41,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} passée d'abord au four brûlant, puis remise dans une sauce {1_adj} montée {2_plur} et à la crème. Inventé pour récupérer les restes de la veille, devenu le plat le plus commandé du pays.</description>
+		<description>{0_coll} put first through a scorching oven, then returned to a {1_adj} sauce mounted with {2_plur} and cream. Invented to use up the previous day's leftovers, and now the most ordered dish in the country.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -55,7 +55,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Pea</li></categories></li>
 		</ingredients>
-		<description>des triangles de pâte {0_adj} fourrés {1_plur} écrasées et {2_plur}, soudés à l'eau et frits doucement pour que la croûte reste bullée plutôt que lisse.</description>
+		<description>triangles of {0_adj} pastry filled with crushed {1_plur} and {2_plur}, sealed with water and fried gently so that the crust stays blistered rather than smooth.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -64,13 +64,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Raita</defName>
-		<label>raïta</label>
+		<label>raita</label>
 		<ingredients>
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Cucumber</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} battu avec {1_coll} râpés et {2_coll} torréfiés au sec. Ce n'est pas un accompagnement : c'est l'extincteur du repas.</description>
+		<description>{0_coll} beaten with grated {1_coll} and {2_coll} toasted dry. It is not a side dish: it is the fire extinguisher of the meal.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsPaste</li>
@@ -85,7 +85,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{0_coll} blanchies puis broyées en une purée verte tenue courte pour ne pas brunir, où l'on pose des cubes {1_adj} frais qui ne fondent pas.</description>
+		<description>{0_coll} blanched then ground into a green purée kept brief so as not to brown, into which are set cubes of fresh {1_adj} that do not melt.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -99,7 +99,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} mijotés dans un fond {2_adj} longuement roussis et {1_adj}, acidulé au tamarin et à l'amchoor. La sauce doit coller aux pois, pas les baigner.</description>
+		<description>{0_coll} stewed in a base of {2_adj} browned at length and {1_adj}, soured with tamarind and amchoor. The sauce should cling to the peas, not bathe them.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -113,7 +113,7 @@
 			<li><categories><li>FT_Chili</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} marinée au vinaigre {2_adj} et {1_plur}, héritage portugais de Goa. Le nom vient de « vinha d'alhos » — vin et ail — et non du mot pomme de terre, malgré les apparences.</description>
+		<description>{0_coll} marinated in {2_adj} vinegar and {1_plur}, a Portuguese inheritance of Goa. The name comes from vinha d'alhos — wine and garlic — and not from the word for potato, whatever it may look like.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -127,7 +127,7 @@
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} braisée {1_plur} et {2_plur} du Cachemire, qui donnent une couleur écarlate sans presque aucun feu. Le rouge et le piquant ne vont pas toujours ensemble.</description>
+		<description>{0_coll} braised with {1_plur} and {2_plur} from Kashmir, which give a scarlet colour with almost no fire at all. Red and hot do not always go together.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -141,7 +141,7 @@
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} incisée jusqu'à l'os, marinée une nuit {1_plur} et {2_plur}, puis plaquée contre la paroi d'un four d'argile chauffé au rouge. Le yaourt tient la marinade collée et attendrit la chair.</description>
+		<description>{0_coll} scored down to the bone, marinated overnight in {1_plur} and {2_plur}, then slapped against the wall of a clay oven heated red. The yoghurt holds the marinade on and tenderises the flesh.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
@@ -155,7 +155,7 @@
 			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{1_coll} enrobés d'une pâte {0_adj} relevée {2_plur} et frits en amas irréguliers. Sans gluten par accident, croustillants par construction.</description>
+		<description>{1_coll} coated in a {0_adj} batter lifted with {2_plur} and fried in irregular clumps. Gluten-free by accident, crisp by design.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -170,7 +170,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
 		</ingredients>
-		<description>{0_coll} réduit des heures jusqu'à devenir une pâte solide, roulé en boules, frit très doucement, et laissé s'imbiber d'un sirop {1_adj} parfumé à la rose. Il faut qu'elles coulent quand on mord.</description>
+		<description>{0_coll} reduced for hours into a solid paste, rolled into balls, fried very gently, and left to drink up a {1_adj} syrup scented with rose. They have to run when you bite them.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsDeepFry</li>
@@ -179,13 +179,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Chutney</defName>
-		<label>chutney {0_adj}</label>
+		<label>{0_adj} chutney</label>
 		<ingredients>
 			<li><categories><li>FT_Fruit</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Ginger</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cuits {1_plur}, au vinaigre et {2_plur} jusqu'à confire. Se garde des mois et s'améliore les premières semaines.</description>
+		<description>{0_coll} cooked with {1_plur}, vinegar and {2_plur} until candied. It keeps for months and improves over the first weeks.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 		</mealKinds>
