@@ -1,81 +1,78 @@
 # Attributions
 
-## Mod requis
+## Required mod
 
 **Flavor Text** (hekmo) — [Workshop 3245374432](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432)
 
-Ce mod est une extension de Flavor Text : il n'en contient aucun fichier, ne le
-redistribue pas, et ne fonctionne pas sans lui. Toute la mécanique — la composition
-des noms de plats, le tirage pondéré par spécificité, les inflexions d'ingrédients —
-est l'œuvre de hekmo. Flavor Text reste soumis à ses propres conditions.
+This mod is an extension of Flavor Text: it contains none of its files, does not
+redistribute it, and does not work without it. All the machinery — how dish names are
+composed, the weighted draw by specificity, ingredient inflection — is hekmo's work.
+Flavor Text remains under its own terms.
 
-Les defs ajoutées héritent de `FlavorDef_Base`, défini par Flavor Text, et les patchs
-XPath modifient ses catégories d'ingrédients au chargement. Rien n'est copié :
-l'héritage de defs se résout globalement dans RimWorld, et un patch ne duplique pas
-ce qu'il vise.
+The added defs inherit from `FlavorDef_Base`, defined by Flavor Text, and the XPath
+patches modify its ingredient categories at load. Nothing is copied: def inheritance
+resolves globally in RimWorld, and a patch does not duplicate what it targets.
 
-L'assembly compilé de Flavor Text a été décompilé une fois, en local, pour comprendre
-comment le moteur choisit un nom parmi les defs candidates. **Cette décompilation
-n'est ni distribuée ni versionnée.** Ce qu'elle a établi est consigné en commentaires
-dans les fichiers concernés : la sélection est un tirage aléatoire pondéré et non un
-« plus spécifique gagne », et un emplacement d'ingrédient accepte récursivement les
-catégories filles — ce qui a corrigé plusieurs conclusions fausses sur la couverture.
+Flavor Text's compiled assembly was decompiled once, locally, to understand how the
+engine picks a name among the candidate defs. **That decompilation is neither
+distributed nor version-controlled.** What it established is recorded as comments in the
+relevant files: selection is a weighted random draw and not a "most specific wins", and
+an ingredient slot recursively accepts child categories — which corrected several wrong
+conclusions about coverage.
 
-## État en cours
+## Work in progress
 
-**Les 896 plats portent encore des noms et des descriptions en français.** Ce mod est
-né de la scission d'un mod français en deux, et la traduction anglaise de son contenu
-n'est pas terminée. Tant qu'elle ne l'est pas, il est jouable mais affiche du français.
+**The 896 dishes still carry French names and descriptions.** This mod came out of
+splitting a French mod in two, and the English translation of its content is not
+finished. Until it is, the mod is playable but displays French.
 
-Le français est déjà en sûreté dans le mod compagnon, sous
-`Languages/French/DefInjected/`, et sera réinjecté de là quand les defs passeront à
-l'anglais.
+The French is already safe in the companion mod, under
+`Languages/French/DefInjected/`, and will be injected back from there once the defs
+switch to English.
 
-## Mod compagnon
+## Companion mod
 
-**Flavor Text Extended - Français** traduit ce mod et Flavor Text lui-même, et
-remplace la table d'inflexions par des formes françaises. Il n'est utile qu'en jeu
-français : sa table s'applique en toutes langues, RimWorld ne sachant pas conditionner
-un patch XML à la langue.
+**Flavor Text Extended - Français** translates this mod and Flavor Text itself, and
+replaces the inflection table with French forms. It is only useful in a French game: its
+table applies in every language, since RimWorld cannot gate an XML patch on language.
 
-## Assistance par IA
+## AI assistance
 
-Le contenu de ce mod a été produit avec l'assistance de Claude (Anthropic), sous
-direction et relecture humaines. Les décisions de conception — quels plats écrire,
-quelles catégories séparer, quels accords combler — ont été prises et validées par
-l'auteur humain.
+The content of this mod was produced with the assistance of Claude (Anthropic), under
+human direction and review. The design decisions — which dishes to write, which
+categories to separate, which agreements to fill in — were made and approved by the human
+author.
 
-Chaque nom de plat a été vérifié comme n'entrant pas en collision avec les 930 defs
-d'origine, et chaque combinaison d'ingrédients contrôlée par les outils de `_tools/`.
+Every dish name was checked against collisions with the 930 original defs, and every
+ingredient combination verified with the tools in `_tools/`.
 
-## Vérification en jeu
+## Verified in game
 
-Le mod a été chargé et observé en partie. Le journal ne rapporte aucune erreur de
-patch XPath, aucune erreur de résolution de def, et le rapport de traduction de
-RimWorld ne signale aucune injection inutile ni aucune clé périmée.
+The mod was loaded and observed in a running colony. The log reports no XPath patch
+error, no def resolution error, and RimWorld's translation report flags no useless
+injection and no stale key.
 
-Un défaut y a été trouvé et corrigé : la table d'inflexions déclarait 24 viandes qui
-ne peuvent pas exister — les petits oiseaux partagent la viande de casoar via
-`useMeatFrom`, et les entités d'Anomaly rendent de la viande tordue. Le générateur
-`_tools/geninflections.js` ne filtre toujours pas ces cas : le relancer les
-réintroduirait.
+One defect was found there and fixed: the inflection table declared 24 meats that cannot
+exist — small birds share cassowary meat through `useMeatFrom`, and Anomaly's entities
+yield twisted meat. The `_tools/geninflections.js` generator still does not filter those
+cases: re-running it would reintroduce them.
 
-## Ingrédients de mods tiers rattachés
+## Third-party mod ingredients wired in
 
-Aucun n'est requis ; chaque opération est neutralisée si son mod est absent.
+None is required; each operation is neutralised if its mod is absent.
 
-- **RimLife Expansion Trading items** (daylight) — viande séchée, deux fromages.
-- **RimLife Cultivation Plus** (daylight) — pak-choï, tomate, oignon, paprika, maïs denté.
+- **RimLife Expansion Trading items** (daylight) — dried meat, two cheeses.
+- **RimLife Cultivation Plus** (daylight) — bok choy, tomato, onion, paprika, dent corn.
 - **Chinese Traditional Cultural Things Expanded** (Diamond.J, DaJian, Frolg, TangWan) —
-  orge de l'Himalaya, riz hybride, farines, moutarde salée, agrume du Zhejiang, huile
-  de piment, noix de ginkgo, armoise, quatre alcools de grain. Les deux versions du mod
-  sont couvertes, leurs `packageId` différant.
-- Divers — miel en rayon, okara, baies composées, arachnides comestibles, fourrages.
+  Himalayan barley, hybrid rice, flours, salted mustard, Zhejiang citrus, chilli oil,
+  ginkgo nuts, mugwort, four grain liquors. Both versions of the mod are covered, their
+  `packageId`s differing.
+- Miscellaneous — honeycomb, okara, mixed berries, edible arachnids, fodder.
 
-Ces rattachements sont fragiles par nature : si l'un de ces mods renomme une def, le
-patch cesse de s'appliquer **sans message d'erreur**.
+These hooks are fragile by nature: if one of those mods renames a def, the patch stops
+applying **with no error message**.
 
 ## Licence
 
-MIT, voir `LICENSE`. Elle couvre les defs ajoutées, les patchs et les outils. Elle ne
-couvre pas Flavor Text.
+MIT, see `LICENSE`. It covers the added defs, the patches and the tools. It does not
+cover Flavor Text.
