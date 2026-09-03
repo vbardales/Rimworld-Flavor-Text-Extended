@@ -31,7 +31,8 @@ are translated. So a French or Japanese name in the list is a choice, not an unt
 
 ## The French companion
 
-**Flavor Text Extended - Français** translates this mod and Flavor Text itself, and replaces the
+[**Flavor Text Extended - Français**](https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais)
+translates this mod and Flavor Text itself, and replaces the
 inflection table with French forms. It is only useful in a French game: its table applies in every
 language, since RimWorld cannot make an XML patch conditional on the current one.
 
