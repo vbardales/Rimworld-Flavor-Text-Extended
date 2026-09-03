@@ -25,13 +25,9 @@ their ingredients. This mod attaches them by name instead: highland barley, hybr
 mustard greens, bok choy, ginkgo nuts, grain wines, dried meat and cheeses, among others. None of
 those mods are required — each operation does nothing when its mod is absent.
 
-## Current state
-
-**The 896 dishes still carry French names and descriptions.** This mod came out of splitting a
-French mod in two, and the English translation of its content is not finished. It is playable as
-it stands, but it displays French. The French text is already safe in the companion mod under
-`Languages/French/DefInjected/`, and will be injected back from there once the defs move to
-English.
+**On the names.** Dishes that English already knows under their own name keep it — `coq au vin`,
+`pissaladière`, `bánh pía sầu riêng`, `tteokbokki`. Only those with a genuine English equivalent
+are translated. So a French or Japanese name in the list is a choice, not an untranslated string.
 
 ## The French companion
 
