@@ -121,7 +121,10 @@ function herite(bloc, champ) {
 // Les catégories d'objets que Flavor Text peut voir arriver dans un repas. Volontairement
 // étroit : ouvrir à <ingestible> attrape les drogues, les médicaments et les repas cuisinés,
 // et gonfle le recensement d'un facteur dix — toute catégorie paraît alors servie.
-const MANGEABLE = /PlantFoodRaw|MeatRaw|AnimalProductRaw|EggsFertilized|EggsUnfertilized|Foods/;
+// « Fish » compte : Odyssey range ses quatorze poissons dans cette catégorie et non
+// dans MeatRaw. L'oublier laissait FT_Meat_Fish pour mort et condamnait quarante plats
+// à tort. « PlantMatter » porte le houblon.
+const MANGEABLE = /PlantFoodRaw|MeatRaw|AnimalProductRaw|EggsFertilized|EggsUnfertilized|Foods|Fish|PlantMatter/;
 const SANS_VIANDE = new Set(['Mechanoid', 'Drone', 'EntityMechanical', 'EntityFlesh', 'Fleshbeast']);
 
 const choses = new Map();               // defName -> label
