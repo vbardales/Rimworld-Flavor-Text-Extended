@@ -56,10 +56,12 @@ _tools/    Node scripts used to generate and check the content
 The Workshop uploader sends the mod folder as it stands, with no filtering, so `_tools/` ships
 with it: a few hundred kilobytes of JavaScript the game never reads.
 
-One caveat on the tooling: `_tools/geninflections.js` does not filter out meats that cannot
-exist — small birds share cassowary meat through `useMeatFrom`, and Anomaly entities yield twisted
-meat. Twenty-four such entries were removed by hand; re-running the generator would bring them
-back.
+`_tools/geninflections.js` regenerates the French mod's inflection table, and reproduces the
+shipped file exactly — nothing in it is hand-edited. Getting there took two rules that are easy
+to miss: `useMeatFrom` is almost always declared on an *abstract* parent def, so small birds
+share cassowary meat and `Meat_Crow` never exists; and mechanoids and Anomaly entities are ruled
+out by their `fleshType`, not by their name. Without both, the generator emits twenty-four meats
+that no def ever defines.
 
 ## Licence
 

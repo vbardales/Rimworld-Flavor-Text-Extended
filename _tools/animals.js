@@ -1,4 +1,15 @@
 // Liste les races animales vanilla + leur label FR, pour générer les inflexions de viande/œufs.
+//
+// Le piège : `useMeatFrom` est presque toujours déclaré sur une def ABSTRAITE, pas sur
+// l'animal. `SmallBirdThingBase` et `WaterBirdThingBase` (Odyssey) portent tous deux
+// <useMeatFrom>Cassowary</useMeatFrom> ; moineau, corbeau, héron, flamant n'ont donc pas
+// de viande propre — Meat_Crow n'existe pas. Une lecture def par def ne le voit pas :
+// les defs abstraites n'ont pas de <defName> et sortaient du balayage.
+//
+// On indexe donc TOUS les ThingDef par leur attribut Name, puis on résout useMeatFrom,
+// meatLabel et IsFlesh en remontant la chaîne des ParentName. L'ordre des attributs
+// varie dans les fichiers du jeu (`Name=` avant ou après `ParentName=`), d'où deux
+// expressions séparées plutôt qu'une capture positionnelle.
 const fs = require('fs');
 const path = require('path');
 
@@ -27,26 +38,74 @@ for (const exp of EXPANSIONS) {
   }
 }
 
-// 2. races animales (ThingDef contenant <race> et <foodType> ou une <race> avec baseBodySize)
-const animals = [];
+// 2. tous les ThingDef, abstraits compris, indexés par leur attribut Name
+//    `undefined` = champ absent de ce bloc, donc à hériter. Une chaîne vide serait
+//    une valeur explicite : la distinction compte pour la remontée.
+const un = (body, tag) => {
+  const m = body.match(new RegExp('<' + tag + '>([^<]*)</' + tag + '>'));
+  return m ? m[1].trim() : undefined;
+};
+
+const byName = {};          // Name -> bloc
+const concrets = [];        // les races à sortir
+
 for (const exp of EXPANSIONS) {
   for (const f of walk(path.join(DATA, exp, 'Defs', 'ThingDefs_Races'))) {
     const xml = fs.readFileSync(f, 'utf8');
-    for (const b of xml.split(/<ThingDef[^>]*>/).slice(1)) {
-      const body = b.split('</ThingDef>')[0];
-      if (!/<race>/.test(body)) continue;
-      const dn = (body.match(/<defName>([^<]*)<\/defName>/) || [])[1];
-      if (!dn) continue;
-      const enLabel = (body.match(/<label>([^<]*)<\/label>/) || [])[1] || '';
-      const meatLabel = (body.match(/<meatLabel>([^<]*)<\/meatLabel>/) || [])[1] || '';
-      const useMeat = !/<useMeatFrom>/.test(body) ? null : (body.match(/<useMeatFrom>([^<]*)<\/useMeatFrom>/) || [])[1];
-      const hasMeat = !/<IsFlesh>false<\/IsFlesh>/.test(body);
-      animals.push({ defName: dn, en: enLabel, fr: frLabel[dn] || '', meatLabel, useMeatFrom: useMeat, hasMeat, exp });
+    for (const m of xml.matchAll(/<ThingDef\b([^>]*)>([\s\S]*?)<\/ThingDef>/g)) {
+      const attrs = m[1], body = m[2];
+      const nom = (attrs.match(/\bName\s*=\s*"([^"]*)"/) || [])[1];
+      const parent = (attrs.match(/\bParentName\s*=\s*"([^"]*)"/) || [])[1];
+      const bloc = {
+        parent,
+        useMeatFrom: un(body, 'useMeatFrom'),
+        meatLabel: un(body, 'meatLabel'),
+        isFlesh: un(body, 'IsFlesh'),
+        // Le fleshType dit si la race donne une viande. Il s'hérite lui aussi :
+        // les cinq bêtes de chair d'Anomaly ne le portent pas, leur base si.
+        fleshType: un(body, 'fleshType'),
+      };
+      if (nom) byName[nom] = bloc;
+
+      const dn = un(body, 'defName');
+      if (!dn || !/<race>/.test(body)) continue;
+      concrets.push({ dn, exp, bloc, en: un(body, 'label') || '' });
     }
   }
 }
 
+// 3. remontée : on prend la première valeur trouvée en montant vers la racine.
+//    La garde `vus` protège d'un cycle de ParentName, qui pendrait le script.
+function herite(bloc, champ) {
+  const vus = new Set();
+  for (let b = bloc; b; b = byName[b.parent]) {
+    if (b[champ] !== undefined) return b[champ];
+    if (!b.parent || vus.has(b.parent)) break;
+    vus.add(b.parent);
+  }
+  return undefined;
+}
+
+const animals = concrets.map(({ dn, exp, bloc, en }) => ({
+  defName: dn,
+  en,
+  fr: frLabel[dn] || '',
+  meatLabel: herite(bloc, 'meatLabel') || '',
+  useMeatFrom: herite(bloc, 'useMeatFrom') || null,
+  hasMeat: herite(bloc, 'isFlesh') !== 'false',
+  fleshType: herite(bloc, 'fleshType') || '',
+  exp,
+}));
+
 const out = animals.filter(a => a.fr || a.en);
 fs.writeFileSync(process.argv[3], JSON.stringify(out, null, 1));
+
+const emprunts = out.filter(a => a.useMeatFrom);
+const chairs = {};
+for (const a of out) (chairs[a.fleshType || '(ordinaire)'] ??= []).push(a.defName);
+
 console.log('races:', out.length, '| avec label FR:', out.filter(a => a.fr).length);
-console.log(out.slice(0, 12).map(a => `${a.defName}: ${a.en} / ${a.fr}`).join('\n'));
+console.log('sans viande propre (useMeatFrom) :', emprunts.length);
+console.log(emprunts.map(a => `  ${a.defName} -> ${a.useMeatFrom}`).join('\n'));
+console.log('\nfleshType résolus :');
+for (const [t, l] of Object.entries(chairs)) console.log(`  ${t.padEnd(18)} ${l.length}`);

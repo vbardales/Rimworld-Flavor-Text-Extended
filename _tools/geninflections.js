@@ -107,7 +107,26 @@ add('Anomaly', 'Meat_Twisted',  'à la viande difforme', 'viande difforme', 'via
 const DEJA = new Set(Object.values(entries).flat().map(e => e.key));
 
 /* ------------------------------------------------------------------ viandes */
-const EXCLUS = /^(Mech_|Drone_)/;
+// Deux races sur trois seulement donnent un ThingDef Meat_X. Les deux exclusions :
+//
+//   useMeatFrom  la race emprunte la viande d'une autre. Presque toujours déclaré sur
+//                une def ABSTRAITE — SmallBirdThingBase et WaterBirdThingBase portent
+//                <useMeatFrom>Cassowary</useMeatFrom>, donc Meat_Crow n'existe pas.
+//                animals.js remonte la chaîne des ParentName pour le résoudre.
+//
+//   fleshType    les mécanoïdes ne rendent rien, et les entités d'Anomaly rendent de
+//                la viande difforme (Meat_Twisted, ajouté à la main plus haut) et non
+//                une viande à leur nom. Le fleshType est le critère du jeu ; filtrer
+//                sur le préfixe du defName marcherait pour Mech_ et Drone_, mais pas
+//                pour Revenant, Noctol ni Dreadmeld.
+//
+// Sans ces deux filtres le générateur produit 24 entrées pour des viandes qui
+// n'existent pas. Elles ne cassent rien — le moteur ne les cherche jamais — mais elles
+// grossissent le patch et donnent à croire que la table couvre ce qu'elle ne couvre pas.
+const SANS_VIANDE = new Set([
+  'Mechanoid', 'Drone',                              // mécanoïdes : rien à boucher
+  'EntityMechanical', 'EntityFlesh', 'Fleshbeast',   // Anomaly : viande difforme
+]);
 const CULINAIRE = {
   Chicken: 'poulet', Duck: 'canard', Turkey: 'dinde', Goose: 'oie', Sheep: 'mouton',
   Goat: 'chèvre', Hare: 'lièvre', Snowhare: 'lièvre', Human: 'humain',
@@ -115,7 +134,7 @@ const CULINAIRE = {
 const PACK_DE = { Biotech: 'Biotech', Anomaly: 'Anomaly', Odyssey: 'Odyssey' };
 
 for (const a of animals) {
-  if (a.useMeatFrom || EXCLUS.test(a.defName) || !a.fr) continue;
+  if (a.useMeatFrom || SANS_VIANDE.has(a.fleshType) || !a.fr) continue;
   const key = 'Meat_' + a.defName;
   if (DEJA.has(key)) continue;
   const officiel = frMeatLabel[a.defName];
