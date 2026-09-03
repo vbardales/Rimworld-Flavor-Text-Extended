@@ -44,23 +44,38 @@ const norm = s => s.toLowerCase()
 // Deux niveaux : nom EXACTEMENT identique = erreur (les deux plats s'afficheraient pareil) ;
 // nom identique une fois les placeholders retirés = simple avertissement, parce que
 // « bortsch » et « bortsch {2_plur} » s'affichent différemment en jeu.
-const exact = new Map(), approx = new Map();
-for (const d of require('./flavordefs.json')) {
-  exact.set(d.label, d.defName);
-  const k = norm(d.label);
-  if (k) approx.set(k, d.defName);
-}
+// `exact` et `approx` portent le texte affiché dans le message ; `exactDe` et `approxDe`
+// portent le defName brut, pour reconnaître une def qui se retrouve elle-même.
+const exact = new Map(), approx = new Map(), exactDe = new Map(), approxDe = new Map();
+const poser = (label, defName, mention) => {
+  exact.set(label, mention); exactDe.set(label, defName);
+  const k = norm(label);
+  if (k) { approx.set(k, mention); approxDe.set(k, defName); }
+};
+for (const d of require('./flavordefs.json')) poser(d.label, d.defName, d.defName);
 
-// Et surtout : contre les labels TRADUITS. Deux plats aux noms anglais différents
-// peuvent parfaitement porter le même nom français — « Jollof rice » et le nôtre.
-const TRAD = './Languages/French/DefInjected/FlavorText.FlavorDef';
-for (const f of (fs.existsSync(TRAD) ? fs.readdirSync(TRAD) : []).filter(x => x.endsWith('.xml'))) {
+// Les labels FRANÇAIS, qui se contrôlent entre eux et à part.
+//
+// Deux plats aux noms anglais différents peuvent parfaitement porter le même nom
+// français, et réciproquement. Ce sont donc DEUX contrôles indépendants : l'anglais
+// contre l'anglais, le français contre le français. Les mélanger n'a pas de sens —
+// un joueur ne voit jamais les deux langues dans la même partie.
+//
+// Depuis la scission en deux mods, ces traductions ne sont plus sous ./Languages mais
+// dans le mod français. Le chemin était resté, existsSync renvoyait false et la boucle
+// ne faisait rien : le contrôle s'était éteint SANS RIEN DIRE, et le compte
+// d'avertissements était tombé de 11 à 9 sans que personne le remarque. D'où l'arrêt
+// franc ci-dessous plutôt qu'un repli discret.
+const TRAD = process.argv[3] || '../FlavorTextExtendedFR/Languages/French/DefInjected/FlavorText.FlavorDef';
+if (!fs.existsSync(TRAD)) {
+  console.error(`ERREUR  traductions introuvables : ${TRAD}`);
+  console.error(`        usage : node _tools/checkdefs.js <Defs de Flavor Text> [DefInjected du mod FR]`);
+  process.exit(2);
+}
+const frLabels = new Map();             // defName -> label français
+for (const f of fs.readdirSync(TRAD).filter(x => x.endsWith('.xml'))) {
   const xml = fs.readFileSync(path.join(TRAD, f), 'utf8');
-  for (const m of xml.matchAll(/<([A-Za-z0-9_\-]+)\.label>([^<]*)<\/\1\.label>/g)) {
-    exact.set(m[2], m[1] + ' (traduit)');
-    const k = norm(m[2]);
-    if (k) approx.set(k, m[1] + ' (traduit)');
-  }
+  for (const m of xml.matchAll(/<([A-Za-z0-9_\-]+)\.label>([^<]*)<\/\1\.label>/g)) frLabels.set(m[1], m[2]);
 }
 
 // Deux plats à nous qui exigent exactement les mêmes catégories se neutralisent aussi.
@@ -117,6 +132,9 @@ for (const f of fs.readdirSync(DIR).filter(x => x.endsWith('.xml'))) {
     } else if (k && approx.has(k)) {
       console.log(`AVERT   ${dn}  « ${label} » proche de ${approx.get(k)} — vérifier que l'affichage diffère`); avert++;
     }
+    // On verse la def dans la table au passage : sans cela deux de NOS plats portant le
+    // même nom anglais ne se voyaient pas — seuls ceux de hekmo étaient comparés.
+    if (label) poser(label, dn, dn);
     for (const [texte, quoi] of [[label, 'label'], [desc, 'description']]) {
       for (const p of texte.matchAll(/\{(\d+)_([a-z]+)\}/g)) {
         if (Number(p[1]) >= slots.length) {
@@ -129,5 +147,43 @@ for (const f of fs.readdirSync(DIR).filter(x => x.endsWith('.xml'))) {
     }
   }
 }
-console.log(`\n${n} plats définis — ${erreurs} erreur(s), ${avert} avertissement(s)`);
+/* --------------------------------------- le même contrôle, côté français ---- */
+// Deux réserves, sans quoi la passe crie quatre-vingt-dix fois pour rien :
+//
+//   - hekmo décline volontiers un même plat en _2 et _3, avec le même nom et des
+//     ingrédients différents. C'est son mécanisme de variété, pas une faute. On ne
+//     signale donc qu'un groupe où l'un des nôtres figure.
+//   - un groupe déjà signalé à l'identique n'a pas besoin d'être resignalé « proche ».
+const notre = d => d.startsWith('FlavorTextFR_');
+const grouper = cle => {
+  const g = new Map();
+  for (const [def, lab] of frLabels) {
+    const k = cle(lab);
+    if (!k) continue;
+    if (!g.has(k)) g.set(k, []);
+    g.get(k).push(def);
+  }
+  return [...g].filter(([, defs]) => defs.length > 1 && defs.some(notre));
+};
+const dejaDit = new Set();
+for (const [lab, defs] of grouper(l => l)) {
+  // Un gabarit identique ne donne un affichage identique que s'il ne contient AUCUN
+  // emplacement : « parmentier {0_adj} » se lit « parmentier de canard » chez l'un et
+  // « parmentier de toxipatate » chez l'autre, puisque leur slot 0 ne tire pas de la
+  // même catégorie. Avec un {N_...}, on ne peut donc pas conclure sans comparer les
+  // ingrédients : c'est un avertissement, pas une erreur.
+  const rendu = !/\{\d+_\w+\}/.test(lab);
+  console.log(`${rendu ? 'ERREUR' : 'AVERT '}  FR  « ${lab} » ${rendu
+    ? "s'affiche à l'identique pour"
+    : 'a le même gabarit chez'} ${defs.join(', ')}`);
+  if (rendu) erreurs++; else avert++;
+  dejaDit.add(defs.join(','));
+}
+for (const [lab, defs] of grouper(norm)) {
+  if (dejaDit.has(defs.join(','))) continue;
+  console.log(`AVERT   FR  « ${lab} » proche entre ${defs.join(', ')} — vérifier que l'affichage diffère`);
+  avert++;
+}
+
+console.log(`\n${n} plats définis, ${frLabels.size} labels français en regard — ${erreurs} erreur(s), ${avert} avertissement(s)`);
 process.exit(erreurs ? 1 : 0);
