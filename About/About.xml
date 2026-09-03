@@ -12,6 +12,12 @@ French and regional cooking first, then the wider repertoire: Italy, the Maghreb
 
 Every dish rests on a distinct combination of ingredients. That combination is what the engine draws on, not the name - so the same dish under five different names would add nothing, and is not here. Where two dishes share a combination it is deliberate: the engine picks at random among matching definitions, weighted by how narrow each one is, so sharing produces variety rather than conflict.
 
+WHAT YOUR COLONY GROWS DECIDES WHAT YOU SEE
+
+Flavor Text names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 896 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; with farming and cooking mods installed, the whole set comes into play.
+
+That is how the engine works rather than a shortcoming: nothing is lost, a dish simply waits for its ingredient. But it is worth knowing before you install.
+
 NEW INGREDIENT CATEGORIES
 
 Leek and shallot, split out of the generic onion. Five reptile meats - turtle, alligator, iguana, lizard, frog - split out of the single herptile category.

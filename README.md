@@ -29,6 +29,29 @@ those mods are required — each operation does nothing when its mod is absent.
 `pissaladière`, `bánh pía sầu riêng`, `tteokbokki`. Only those with a genuine English equivalent
 are translated. So a French or Japanese name in the list is a choice, not an untranslated string.
 
+## What your colony grows decides what you see
+
+Flavor Text names a meal after what went into it, so a dish can only appear if its ingredients
+exist in the game. These 896 lean on a wider pantry than vanilla keeps — wheat, cheese, butter,
+cream, onion, tomato, garlic, chilli — so on a vanilla-only save about forty of them can fire.
+With farming and cooking mods installed, the whole set comes into play.
+
+That is how the engine works rather than a shortcoming: a dish waits for its ingredient, and
+costs nothing while it waits. But it sets what a player should expect.
+
+`_tools/actifs.js` measures it for a given modlist — it reads `ModsConfig.xml`, replays the
+engine's category matching, and reports how many definitions survive, split between this mod and
+Flavor Text's own:
+
+```
+hekmo   611 actives / 930   65.7 %
+nous     44 actives / 896    4.9 %
+TOTAL   655 actives / 1826  35.9 %
+```
+
+Flavor Text itself holds up on vanilla because its dishes are built on vanilla ingredients. The
+gap between those two lines is the whole point of the section above.
+
 ## The French companion
 
 [**Flavor Text Extended - Français**](https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais)
