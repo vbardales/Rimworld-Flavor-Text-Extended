@@ -18,6 +18,18 @@
   d'Odyssey, pas le Rhinella marina toxique — mais rien n'oblige à en faire un civet.
 
   Les formes grammaticales sont héritées de FT_MeatRaw : « viande de tortue », etc.
+
+  QUATRE des six viandes citées par nom viennent d'Odyssey et portent donc un MayRequire :
+  alligator, varan, ouaouaron et tortue de mer. Seules la tortue et l'iguane sont dans Core.
+  Sans la garde, une partie sans Odyssey échoue à résoudre la référence au chargement.
+
+  Les catégories, elles, restent déclarées quelle que soit la liste de mods : leurs mots-clés
+  rattachent encore un crocodile ou un gecko venu d'un autre mod, ce qu'une garde posée sur la
+  def entière ferait perdre.
+
+  Flavor Text garde ces trois mêmes viandes avec MayRequire="RimWorld.Odyssey", à qui il manque
+  le préfixe de l'éditeur. Un packageId mal tapé est muet hors de l'éditeur Unity de Ludeon :
+  chez lui ces lignes tombent même quand Odyssey est là. Ne pas s'en servir de modèle.
 -->
 <Defs>
 
@@ -57,7 +69,7 @@
 			<li>caïman</li>
 		</keywords>
 		<thingDefsToAbsorb>
-			<li>Meat_Alligator</li>
+			<li MayRequire="ludeon.rimworld.odyssey">Meat_Alligator</li>
 		</thingDefsToAbsorb>
 	</FlavorText.FlavorCategoryDef>
 
@@ -91,7 +103,7 @@
 			<li>gecko</li>
 		</keywords>
 		<thingDefsToAbsorb>
-			<li>Meat_MonitorLizard</li>
+			<li MayRequire="ludeon.rimworld.odyssey">Meat_MonitorLizard</li>
 		</thingDefsToAbsorb>
 	</FlavorText.FlavorCategoryDef>
 
@@ -108,7 +120,7 @@
 			<li>ouaouaron</li>
 		</keywords>
 		<thingDefsToAbsorb>
-			<li>Meat_Bullfrog</li>
+			<li MayRequire="ludeon.rimworld.odyssey">Meat_Bullfrog</li>
 		</thingDefsToAbsorb>
 	</FlavorText.FlavorCategoryDef>
 

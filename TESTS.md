@@ -75,10 +75,14 @@ is what a Flavor Text update that renames a category would produce.
 
 **Setup.** Same, with the Odyssey expansion turned off.
 
-**Pass.** Nothing new in the log compared with T1.
+**Pass.** Nothing new in the log compared with T1, and in particular no unresolved reference to
+`Meat_Alligator`, `Meat_MonitorLizard`, `Meat_Bullfrog` or `Meat_SeaTurtle`. Those four animals
+belong to Odyssey and their meats are guarded; only tortoise and iguana come from Core.
 
-**Expected to fail today.** See the known issue at the bottom of this file: three reptile meats are
-referenced without a guard and only exist with Odyssey.
+**What T9 becomes here.** The alligator, monitor lizard and frog categories absorb nothing on this
+list, so no dish written for them can fire. They stay declared on purpose: their keywords still
+attach a crocodile or a gecko coming from some other mod, which a guard on the whole definition
+would throw away.
 
 ### T3 - It loads without any of the optional mods
 
@@ -191,25 +195,26 @@ not redraw it.
 **Failure shape.** A meal renamed after reload is worth reporting upstream rather than here: it
 would be engine behaviour, not a def.
 
-## Known issue, open at the time of writing
+## Where the reptile meats come from
 
-`Mod/Defs/FlavorCategoryDefs_FR_Reptiles.xml` absorbs five meats by name. Three of them exist only
-with the Odyssey expansion, and unlike the sea turtle on the line above them they carry no
-`MayRequire` guard:
+`Mod/Defs/FlavorCategoryDefs_FR_Reptiles.xml` absorbs six meats by name, and only two of the
+animals are in Core. Writing this plan is what turned up the three that were missing their guard;
+they have one now, and T2 is the scenario that keeps them honest.
 
-| reference | where the animal lives |
-|---|---|
-| `Meat_Alligator` | Odyssey |
-| `Meat_MonitorLizard` | Odyssey |
-| `Meat_Bullfrog` | Odyssey |
-| `Meat_Tortoise` | Core |
-| `Meat_Iguana` | Core |
+| reference | where the animal lives | guarded |
+|---|---|---|
+| `Meat_Tortoise` | Core | not needed |
+| `Meat_Iguana` | Core | not needed |
+| `Meat_SeaTurtle` | Odyssey | yes |
+| `Meat_Alligator` | Odyssey | yes |
+| `Meat_MonitorLizard` | Odyssey | yes |
+| `Meat_Bullfrog` | Odyssey | yes |
 
-Without Odyssey those three should fail to resolve at load, which is what T2 is for. Flavor Text
-itself guards the same three meats, which settles that the field takes real def references rather
-than plain names.
+The guards sit on the individual entries rather than on the category definitions, so the five
+categories are declared whatever the modlist. That is deliberate: their keywords go on matching a
+crocodile or a gecko from any other mod, and a guard on the definition itself would lose that.
 
-Worth knowing while fixing it: hekmo's guard reads `RimWorld.Odyssey`, while the expansion's real
-packageId is `Ludeon.RimWorld.Odyssey`. A mistyped packageId in `MayRequire` is silent outside
-Ludeon's own Unity editor, so his three lines are dropped even when Odyssey is present. Ours should
-use the full identifier, as the sea turtle line already does.
+One thing not to copy from upstream. Flavor Text guards the same three meats with
+`MayRequire="RimWorld.Odyssey"`, which is missing the publisher prefix of the real packageId,
+`Ludeon.RimWorld.Odyssey`. A mistyped packageId in `MayRequire` is silent anywhere outside Ludeon's
+own Unity editor, so those three lines of his are dropped even when Odyssey is installed.
