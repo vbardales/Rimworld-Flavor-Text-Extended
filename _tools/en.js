@@ -21,8 +21,8 @@ const slots = t => [...String(t).matchAll(/\{(\d+_\w+)\}/g)].map(m => m[1]).sort
 
 // index : defName -> fichier
 const index = {};
-for (const f of fs.readdirSync('./Defs').filter(x => /^FlavorDefs_/.test(x))) {
-  for (const m of fs.readFileSync(path.join('./Defs', f), 'utf8').matchAll(/<defName>([\w.-]+)<\/defName>/g))
+for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x))) {
+  for (const m of fs.readFileSync(path.join('./Mod/Defs', f), 'utf8').matchAll(/<defName>([\w.-]+)<\/defName>/g))
     index[m[1]] = f;
 }
 
@@ -39,7 +39,7 @@ for (const l of lignes) {
 
 let nb = 0;
 for (const f in parFichier) {
-  let xml = fs.readFileSync(path.join('./Defs', f), 'utf8');
+  let xml = fs.readFileSync(path.join('./Mod/Defs', f), 'utf8');
   for (const { dn, lab, des } of parFichier[f]) {
     const bloc = new RegExp('(<defName>' + dn + '</defName>[\\s\\S]*?)</FlavorText\\.FlavorDef>');
     const m = xml.match(bloc);
@@ -54,7 +54,7 @@ for (const f in parFichier) {
     xml = xml.replace(m[1], neuf);
     nb++;
   }
-  if (!essai) fs.writeFileSync(path.join('./Defs', f), xml, 'utf8');
+  if (!essai) fs.writeFileSync(path.join('./Mod/Defs', f), xml, 'utf8');
 }
 
 for (const e of erreurs) console.log('ERREUR  ' + e);

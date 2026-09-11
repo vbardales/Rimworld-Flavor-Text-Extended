@@ -4,7 +4,7 @@ function catBlocks(xml){return xml.match(/<FlavorText\.FlavorCategoryDef>[\s\S]*
 function load(FT){
   const xml=[
     ...['FT_FlavorCategoryDefBasic.xml','FT_FlavorCategoryDefAdvanced.xml'].map(f=>fs.readFileSync(path.join(FT,f),'utf8')),
-    ...fs.readdirSync('./Defs').filter(f=>/CategoryDef/.test(f)).map(f=>fs.readFileSync(path.join('./Defs',f),'utf8')),
+    ...fs.readdirSync('./Mod/Defs').filter(f=>/CategoryDef/.test(f)).map(f=>fs.readFileSync(path.join('./Mod/Defs',f),'utf8')),
   ].join('\n');
   const parents={},kids={},info={};
   for(const b of catBlocks(xml)){

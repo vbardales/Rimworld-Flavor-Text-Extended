@@ -17,7 +17,7 @@ function defsOf(dir){
   }
   return out;
 }
-const all=[...defsOf('./Defs'),...defsOf(FT)];
+const all=[...defsOf('./Mod/Defs'),...defsOf(FT)];
 
 // expansion vers les ancêtres
 const exp=s=>{const o=new Set();for(const c of s)for(const a of T.anc(c))o.add(a);return o;};

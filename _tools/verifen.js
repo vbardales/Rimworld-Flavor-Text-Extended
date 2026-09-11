@@ -18,8 +18,8 @@ const FR = /\b(jusqu|avec|dans|aux|qui|que|une|leur|elles?|c'est|n'est|ne se|d'u
 
 let defs = 0, erreurs = 0, avert = 0, muets = 0;
 
-for (const f of fs.readdirSync('./Defs').filter(x => /^FlavorDefs_/.test(x)).sort()) {
-  const xml = fs.readFileSync(path.join('./Defs', f), 'utf8');
+for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x)).sort()) {
+  const xml = fs.readFileSync(path.join('./Mod/Defs', f), 'utf8');
   for (const b of xml.match(/<FlavorText\.FlavorDef[\s\S]*?<\/FlavorText\.FlavorDef>/g) || []) {
     const dn = (b.match(/<defName>([\w.-]+)<\/defName>/) || [])[1];
     if (!dn) continue;

@@ -197,7 +197,7 @@ function lireDefs(fichiers, source) {
 }
 const defs = [
   ...lireDefs([path.join(FT, 'FlavorDef.xml')], 'hekmo'),
-  ...lireDefs(fs.readdirSync('./Defs').filter(f => /^FlavorDefs_/.test(f)).map(f => path.join('./Defs', f)), 'nous'),
+  ...lireDefs(fs.readdirSync('./Mod/Defs').filter(f => /^FlavorDefs_/.test(f)).map(f => path.join('./Mod/Defs', f)), 'nous'),
 ];
 
 const inconnues = new Set();

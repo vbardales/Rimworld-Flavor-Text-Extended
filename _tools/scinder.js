@@ -18,8 +18,8 @@ fs.mkdirSync(dest, { recursive: true });
 
 let totalDefs = 0, totalFichiers = 0, sansDescription = [];
 
-for (const f of fs.readdirSync('./Defs').filter(x => /^FlavorDefs_/.test(x)).sort()) {
-  const xml = fs.readFileSync(path.join('./Defs', f), 'utf8');
+for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x)).sort()) {
+  const xml = fs.readFileSync(path.join('./Mod/Defs', f), 'utf8');
   const lignes = [];
   for (const b of xml.match(/<FlavorText\.FlavorDef[\s\S]*?<\/FlavorText\.FlavorDef>/g) || []) {
     const dn = (b.match(/<defName>([\w.-]+)<\/defName>/) || [])[1];

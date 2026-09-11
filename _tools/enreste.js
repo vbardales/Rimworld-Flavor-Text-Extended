@@ -9,7 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const FR = '../FlavorTextExtendedFR/Languages/French/DefInjected/FlavorText.FlavorDef';
+const FR = '../FlavorTextExtendedFR/Mod/Languages/French/DefInjected/FlavorText.FlavorDef';
 const fr = {};
 for (const f of fs.readdirSync(FR).filter(x => /^Ext_/.test(x))) {
   const s = fs.readFileSync(path.join(FR, f), 'utf8');
@@ -21,9 +21,9 @@ for (const f of fs.readdirSync(FR).filter(x => /^Ext_/.test(x))) {
 const cible = process.argv[2];
 let totalFait = 0, totalReste = 0;
 
-for (const f of fs.readdirSync('./Defs').filter(x => /^FlavorDefs_/.test(x)).sort()) {
+for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x)).sort()) {
   if (cible && f !== path.basename(cible)) continue;
-  const xml = fs.readFileSync(path.join('./Defs', f), 'utf8');
+  const xml = fs.readFileSync(path.join('./Mod/Defs', f), 'utf8');
   let fait = 0;
   const reste = [];
   for (const b of xml.match(/<FlavorText\.FlavorDef[\s\S]*?<\/FlavorText\.FlavorDef>/g) || []) {

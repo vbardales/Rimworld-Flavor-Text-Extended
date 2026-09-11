@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const FT = process.argv[2]; // dossier Defs de Flavor Text
-const DIR = './Defs';
+const DIR = './Mod/Defs';
 
 // Les catégories de Flavor Text, PLUS celles que notre mod ajoute.
 const catXml = [
@@ -66,7 +66,7 @@ for (const d of require('./flavordefs.json')) poser(d.label, d.defName, d.defNam
 // ne faisait rien : le contrôle s'était éteint SANS RIEN DIRE, et le compte
 // d'avertissements était tombé de 11 à 9 sans que personne le remarque. D'où l'arrêt
 // franc ci-dessous plutôt qu'un repli discret.
-const TRAD = process.argv[3] || '../FlavorTextExtendedFR/Languages/French/DefInjected/FlavorText.FlavorDef';
+const TRAD = process.argv[3] || '../FlavorTextExtendedFR/Mod/Languages/French/DefInjected/FlavorText.FlavorDef';
 if (!fs.existsSync(TRAD)) {
   console.error(`ERREUR  traductions introuvables : ${TRAD}`);
   console.error(`        usage : node _tools/checkdefs.js <Defs de Flavor Text> [DefInjected du mod FR]`);

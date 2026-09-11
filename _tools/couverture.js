@@ -42,8 +42,8 @@ function slotsDesDefs() {
   const out = [];
   for (const d of require('./flavordefs.json'))
     out.push({ source: 'hekmo', slots: d.slots.map(s => s.cats) });
-  for (const f of fs.readdirSync('./Defs').filter(x => /FlavorDefs/.test(x))) {
-    const xml = fs.readFileSync(path.join('./Defs', f), 'utf8');
+  for (const f of fs.readdirSync('./Mod/Defs').filter(x => /FlavorDefs/.test(x))) {
+    const xml = fs.readFileSync(path.join('./Mod/Defs', f), 'utf8');
     for (const b of xml.match(/<FlavorText\.FlavorDef[\s\S]*?<\/FlavorText\.FlavorDef>/g) || []) {
       const ing = (b.match(/<ingredients>[\s\S]*?<\/ingredients>/) || [''])[0];
       const slots = [...ing.matchAll(/<categories>([\s\S]*?)<\/categories>/g)]
