@@ -25,13 +25,18 @@
 //      japonais peut quand même être rangé par son defName latin. Pour une viande générée,
 //      le label est <meatLabel> s'il existe, sinon « <label de l'animal> meat ».
 //
-// Approximation assumée, et elle se trompe DANS LES DEUX SENS — ce n'est donc ni un
-// plancher ni un plafond :
-//   - vers le bas : sisterCategories n'est pas modélisé, et un mod qui ajoute ses
-//     ingrédients par patch XML plutôt que par def échappe au balayage ;
-//   - vers le haut : mealKinds n'est pas lu, alors que presque tous nos plats en
-//     déclarent un, et MANGEABLE ne retient pas les repas cuisinés.
-// On l'affiche à côté du chiffre du log pour juger de l'écart, qui reste le seul juge.
+//   3. Un plat a besoin d'un TYPE DE REPAS, pas seulement d'ingrédients. Ajouté le
+//      2026-09-12. Un FlavorDef déclare des <mealKinds> et ne peut nommer qu'un repas
+//      appartenant à l'un d'eux. Sans mod de cuisine, seuls les repas du jeu de base, la
+//      pâte nutritive et la nourriture pour bébé existent : soupe, dessert, nouilles et
+//      raviolis sont des catégories vides, et un plat qui ne déclare que celles-là est
+//      incuisinable même si tous ses ingrédients sont là. Sur le profil de 112 mods, 729
+//      plats passent la condition des ingrédients et 222 passent les deux.
+//
+// Approximation assumée : sisterCategories n'est pas modélisé, et un mod qui ajoute ses
+// ingrédients par patch XML plutôt que par def échappe au balayage. Les deux tirent le
+// compte vers le bas. On l'affiche à côté du chiffre du log pour juger de l'écart, qui
+// reste le seul juge.
 
 const fs = require('fs');
 const path = require('path');
@@ -140,6 +145,13 @@ const SANS_VIANDE = new Set(['Mechanoid', 'Drone', 'EntityMechanical', 'EntityFl
 // le même sac gonflerait le recensement — mais un FlavorDef ne nomme un repas que si
 // l'un de ses <mealKinds> est servi, et ces catégories-là ne se remplissent que d'eux.
 const REPAS = /FoodMeals/;
+// Les repas que leur thingCategories ne range PAS avec les repas. Biotech met sa
+// nourriture pour bébé dans Foods, avec les aliments bruts, alors que c'est bien un plat
+// cuisiné et la seule chose qui remplisse FT_MealsBaby. Une exception nommée plutôt qu'un
+// élargissement du motif à Foods : ce motif-là détournerait aussi des ingrédients vers le
+// sac des repas — trois produits au cacao l'ont fait, et trois de nos plats sont tombés
+// avec eux.
+const REPAS_NOMMES = new Set(['BabyFood']);
 const plats = new Map();                // defName -> label, les repas
 const choses = new Map();               // defName -> label, les ingrédients
 for (const b of blocs) {
@@ -153,7 +165,7 @@ for (const b of blocs) {
     continue;
   }
   const cats = herite(b, 'cats') || '';
-  if (REPAS.test(cats)) { plats.set(b.defName, lab); continue; }
+  if (REPAS.test(cats) || REPAS_NOMMES.has(b.defName)) { plats.set(b.defName, lab); continue; }
   if (!MANGEABLE.test(cats)) continue;
   choses.set(b.defName, lab);
 }

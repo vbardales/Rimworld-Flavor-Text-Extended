@@ -6,12 +6,13 @@ nothing to unit-test and three things that can actually break:
 
 1. **Loading.** A patch whose xpath finds nothing, or a `ThingDef` reference that does not resolve,
    logs a red error and can cost a whole def.
-2. **Attachment.** An ingredient reaches a category by keyword match against its label, or by name
-   through `thingDefsToAbsorb`. A category that absorbs nothing is silent: no error, just dishes
-   that never fire.
+2. **Attachment.** An ingredient reaches a category by keyword match, against its defName and its
+   label both, or by name through `thingDefsToAbsorb`. A category that absorbs nothing is silent:
+   no error, just dishes that never fire.
 3. **Firing.** A dish only appears if every one of its ingredient slots accepts something present
-   in the save. Most of the 896 need a pantry wider than vanilla, so "I never see my dishes" is
-   the expected outcome on a light modlist, not a bug.
+   in the save, and if the kind of meal it declares exists. Most of the 896 need a pantry wider
+   than vanilla and a cooking mod for their kind of meal, so "I never see my dishes" is the
+   expected outcome on a light modlist, not a bug.
 
 Every scenario below says what to do, what passes, and what the failure looks like.
 
@@ -53,22 +54,25 @@ node _tools/actifs.js "<path to Flavor Text>/1.6/Defs"
 ```
 
 This replays the engine's own filter against the installed modlist and reports how many dishes
-survive it. On the 112-mod profile current at the time of writing it reports 216 out of 1826, of
+survive it. On the 112-mod profile current at the time of writing it reports 222 out of 1826, of
 which 35 are ours.
 
 **A dish has to pass two conditions, and the second one is what makes that number so much smaller
 than the ingredient count suggests.** Every ingredient slot must accept something installed, and
 the dish must also be able to sit on a kind of meal that exists. 729 dishes pass the first
-condition on this profile and 216 pass both, because no cooking mod is active: there are the base
+condition on this profile and 222 pass both, because no cooking mod is active: there are the base
 game's meals, Biotech's baby food and nutrient paste, and nothing else. Every specialised kind, so
 soup, dessert, noodles, dumplings, is empty, and a dish that only declares one of those cannot be
 cooked at all.
 
 Treat the figure as an estimate rather than a bound. It does not model sister categories and cannot
-see a mod that adds its ingredients by patch rather than by def, which costs dishes. The session
-that holds the French companion counts 222 where this counts 216, on the same profile and the same
-day, from its own implementation of the same two conditions; the gap is small and unexplained. The
+see a mod that adds its ingredients by patch rather than by def, and both of those cost dishes. The
 only number that settles the question is the one Flavor Text prints in the log.
+
+One special case is worth knowing, since it is the sort of thing that silently eats six dishes.
+Biotech files baby food under raw foods rather than under cooked meals, so a scan that trusts the
+category leaves the baby-meal kind empty and calls every dish that needs it impossible. It is
+caught here by name.
 
 ## The scenarios
 

@@ -111,17 +111,16 @@ The fourteen warnings are dishes sharing an ingredient triplet. That is not a co
 draws at random among the definitions that match, weighted by how narrow each one is, so sharing
 makes variety.
 
-**`_tools/actifs.js` reports 216 playable of 1826 on the 112-mod profile, 35 of them ours.** A dish
+**`_tools/actifs.js` reports 222 playable of 1826 on the 112-mod profile, 35 of them ours.** A dish
 has to pass two conditions: every ingredient slot must accept something installed, and the dish must
-be able to sit on a kind of meal that exists. 729 pass the first here and 216 pass both, because no
+be able to sit on a kind of meal that exists. 729 pass the first here and 222 pass both, because no
 cooking mod is active on this profile. There are the base game's meals, Biotech's baby food and
 nutrient paste, and nothing else, so soup, dessert, noodles and every other specialised kind are
 empty categories.
 
 Read it as an estimate, not a bound: sister categories are not modelled and an ingredient a mod adds
-by patch is invisible to the scan. The French companion's session counts 222 where this counts 216,
-same profile, same day, its own implementation; the gap is small and unexplained. Only the figure
-Flavor Text prints in the log settles it.
+by patch is invisible to the scan. Both of those cost dishes. Only the figure Flavor Text prints in
+the log settles it.
 
 Both halves of that measurement were wrong until 2026-09-12, in opposite directions, and the two
 mistakes had been hiding each other.
@@ -132,9 +131,16 @@ mistakes had been hiding each other.
   `CategoryUtility.ExtractNames` loads `Def.defName`, puts it through three regex replacements, and
   only then loads `Def.label`. That correction moved the count up, 629 to 729.
 - The tool never read `mealKinds`, and never inventoried cooked meals, so it could not tell whether
-  a dish had a kind of meal to sit on. Adding the second condition moved the count down, 729 to 216.
+  a dish had a kind of meal to sit on. Adding the second condition moved the count down, 729 to 222.
   This is the one that matters for writing scenarios: a dish whose ingredients all exist can still
   be impossible to cook.
+
+Biotech's baby food is caught by name rather than by category, and that single line is worth six
+dishes. It is filed under raw foods rather than under cooked meals, so a scan that trusts the
+category leaves the baby-meal kind empty. Widening the pattern to raw foods instead would be worse:
+it pulls three cocoa ingredients into the meal side and kills three of our pork and chocolate
+dishes, which is how the French companion's session first reached the right total by the wrong
+route. Named exceptions, not a wider net.
 
 The same mistake is written into the four patch files, which is the defect listed above. Each opens
 by saying that Flavor Text cannot see an ingredient whose label is not Latin, and that name
