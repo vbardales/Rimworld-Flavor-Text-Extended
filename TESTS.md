@@ -53,9 +53,15 @@ node _tools/actifs.js "<path to Flavor Text>/1.6/Defs"
 ```
 
 This replays the engine's own filter against the installed modlist and reports how many dishes
-survive it. On the 112-mod profile current at the time of writing it reports 629 active out of
-1826, of which 31 are ours. Treat its total as a floor: it does not model sister categories, and it
-cannot see a mod that adds its ingredients by patch rather than by def.
+survive it. On the 112-mod profile current at the time of writing it reports 729 active out of
+1826, of which 56 are ours.
+
+Treat that as an estimate rather than a bound, because its error has a sign in both directions. It
+does not model sister categories and cannot see a mod that adds its ingredients by patch rather
+than by def, which costs dishes. It also ignores `mealKinds`, which nearly every dish here declares
+and which narrows when a dish may fire, and its inventory of ingredients does not include cooked
+meals, both of which gain dishes that the engine would not offer. The only number that settles the
+question is the one Flavor Text prints in the log.
 
 ## The scenarios
 

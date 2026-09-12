@@ -16,13 +16,22 @@
 //      chaque race de chair sans useMeatFrom. On les reconstruit ici avec la même règle
 //      que _tools/geninflections.js — fleshType et héritage compris.
 //
-//   2. Le label compte, pas le defName. Flavor Text range un ingrédient en marquant ses
-//      mots-clés contre le LABEL. Pour une viande générée, ce label est <meatLabel> s'il
-//      existe, sinon « <label de l'animal> meat ».
+//   2. Le defName ET le label comptent. Corrigé le 2026-09-12 : ce commentaire disait
+//      « le label, pas le defName », c'était faux. CategoryUtility.ExtractNames lit les
+//      deux champs — vérifié en lisant l'IL de la méthode, deux ldfld, Def.defName puis
+//      Def.label. Le defName passe par trois Regex.Replace qui coupent aux underscores,
+//      aux tirets et au camelCase, puis un ToLower et un Split ; le label ne perd que ses
+//      tirets. Conséquence pratique : un ingrédient dont le label est en chinois ou en
+//      japonais peut quand même être rangé par son defName latin. Pour une viande générée,
+//      le label est <meatLabel> s'il existe, sinon « <label de l'animal> meat ».
 //
-// Approximation assumée : sisterCategories n'est pas modélisé, et un mod qui ajoute ses
-// ingrédients par patch XML plutôt que par def échappe au balayage. Le total obtenu est
-// donc un plancher. On l'affiche à côté du chiffre du log pour juger de l'écart.
+// Approximation assumée, et elle se trompe DANS LES DEUX SENS — ce n'est donc ni un
+// plancher ni un plafond :
+//   - vers le bas : sisterCategories n'est pas modélisé, et un mod qui ajoute ses
+//     ingrédients par patch XML plutôt que par def échappe au balayage ;
+//   - vers le haut : mealKinds n'est pas lu, alors que presque tous nos plats en
+//     déclarent un, et MANGEABLE ne retient pas les repas cuisinés.
+// On l'affiche à côté du chiffre du log pour juger de l'écart, qui reste le seul juge.
 
 const fs = require('fs');
 const path = require('path');
@@ -147,6 +156,15 @@ for (const b of blocs) {
 // Le scoring de Flavor Text : sous-chaîne multi-mots = +6 ; sinon +1 si le token
 // contient le mot-clé, +1 s'il commence ou finit par lui, +1 s'il lui est égal.
 // La liste noire retranche le double de son propre score. Seuil : 3.
+// Les noms sur lesquels le moteur marque ses mots-clés : le defName découpé aux
+// underscores, aux tirets et au camelCase, puis le label découpé aux tirets. Transcrit
+// des trois Regex.Replace de CategoryUtility.ExtractNames, dans leur ordre.
+const noms = (dn, lab) =>
+  dn.replace(/[_-]/g, ' ')
+    .replace(/(?<=[a-zA-Z])([A-Z][a-z]+)/g, ' $1')
+    .replace(/(?<=[a-z])([A-Z]+)/g, ' $1')
+    .toLowerCase() + ' ' + (lab || '').replace(/-/g, ' ');
+
 function score(label, kws) {
   const l = ' ' + label.toLowerCase() + ' ';
   const toks = label.toLowerCase().split(/[^a-z]+/).filter(Boolean);
@@ -170,8 +188,9 @@ for (const [dn, lab] of choses) {
   for (const c of cats) {
     if (c.absorb.has(dn)) { propres[c.name]++; continue; }
     if (!c.kw.length) continue;
-    let s = score(lab, c.kw);
-    if (s >= 3) for (const b of c.bl) s -= 2 * score(lab, [b]);
+    const nom = noms(dn, lab);
+    let s = score(nom, c.kw);
+    if (s >= 3) for (const b of c.bl) s -= 2 * score(nom, [b]);
     if (s >= 3) propres[c.name]++;      // le moteur garde TOUTES les catégories >= 3
   }
 }
