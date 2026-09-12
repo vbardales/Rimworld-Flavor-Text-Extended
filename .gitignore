@@ -20,10 +20,3 @@ node_modules/
 # monorepo so that redoing the decompilation here cannot publish it by accident. What it
 # established is written up in the comments of this mod's files.
 _tools/src/
-
-# STATUS.md, the sheet that says where this mod stands. It is read by a sweep over every mod rather
-# than by asking each session in turn, so it carries working state: what is untested, what is left,
-# and the name of the session that holds the mod. That is project bookkeeping, not part of the mod,
-# and this repository is public. It stays on disk and out of git, as it was when this folder was a
-# directory of the monorepo. Some detached mods track theirs; this one does not.
-STATUS.md
