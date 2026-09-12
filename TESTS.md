@@ -53,15 +53,22 @@ node _tools/actifs.js "<path to Flavor Text>/1.6/Defs"
 ```
 
 This replays the engine's own filter against the installed modlist and reports how many dishes
-survive it. On the 112-mod profile current at the time of writing it reports 729 active out of
-1826, of which 56 are ours.
+survive it. On the 112-mod profile current at the time of writing it reports 216 out of 1826, of
+which 35 are ours.
 
-Treat that as an estimate rather than a bound, because its error has a sign in both directions. It
-does not model sister categories and cannot see a mod that adds its ingredients by patch rather
-than by def, which costs dishes. It also ignores `mealKinds`, which nearly every dish here declares
-and which narrows when a dish may fire, and its inventory of ingredients does not include cooked
-meals, both of which gain dishes that the engine would not offer. The only number that settles the
-question is the one Flavor Text prints in the log.
+**A dish has to pass two conditions, and the second one is what makes that number so much smaller
+than the ingredient count suggests.** Every ingredient slot must accept something installed, and
+the dish must also be able to sit on a kind of meal that exists. 729 dishes pass the first
+condition on this profile and 216 pass both, because no cooking mod is active: there are the base
+game's meals, Biotech's baby food and nutrient paste, and nothing else. Every specialised kind, so
+soup, dessert, noodles, dumplings, is empty, and a dish that only declares one of those cannot be
+cooked at all.
+
+Treat the figure as an estimate rather than a bound. It does not model sister categories and cannot
+see a mod that adds its ingredients by patch rather than by def, which costs dishes. The session
+that holds the French companion counts 222 where this counts 216, on the same profile and the same
+day, from its own implementation of the same two conditions; the gap is small and unexplained. The
+only number that settles the question is the one Flavor Text prints in the log.
 
 ## The scenarios
 
@@ -133,9 +140,11 @@ means the slot was not filled, which is a def bug rather than an engine one.
 the engine collects every matching definition and draws among them weighted by how narrow each one
 is, so hekmo's dishes on the same triplet compete with ours by design. Cook several.
 
-**Alternatives on the same principle.** Rice, egg and any vegetable gives `bibimbap`. Fish, pork and
-potato gives a fish and bacon chowder. The dishes that fire on a light modlist are listed by
-`_tools/actifs.js`.
+**Alternatives on the same principle**, all three cookable with no cooking mod installed. Rice, egg
+and any vegetable gives `bibimbap`. Potato, pork and egg gives `Tiroler Gröstl`. Egg, pork and beans
+gives a `full English breakfast`. Pick from `_tools/actifs.js`, which lists the dishes that pass
+both conditions on the modlist you actually have; do not pick from the def files, where most dishes
+name a kind of meal that a vanilla kitchen cannot produce.
 
 ### T7 - Four ingredients become two dishes
 

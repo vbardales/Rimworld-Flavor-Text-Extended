@@ -111,18 +111,30 @@ The fourteen warnings are dishes sharing an ingredient triplet. That is not a co
 draws at random among the definitions that match, weighted by how narrow each one is, so sharing
 makes variety.
 
-**`_tools/actifs.js` reports 729 active of 1826 on the 112-mod profile, 56 of them ours. Read that
-as an estimate, not a bound.** It ignores `mealKinds`, which almost every dish here declares and
-which narrows when a dish may fire, so it counts dishes the engine would not offer. It also fails
-to inventory cooked meals as ingredients, and it does not model sister categories or ingredients a
-mod adds by patch, which push the other way. The error has a sign in both directions; the only
-number that settles it is the one Flavor Text prints in the log.
+**`_tools/actifs.js` reports 216 playable of 1826 on the 112-mod profile, 35 of them ours.** A dish
+has to pass two conditions: every ingredient slot must accept something installed, and the dish must
+be able to sit on a kind of meal that exists. 729 pass the first here and 216 pass both, because no
+cooking mod is active on this profile. There are the base game's meals, Biotech's baby food and
+nutrient paste, and nothing else, so soup, dessert, noodles and every other specialised kind are
+empty categories.
 
-Those figures were 629 and 31 until 2026-09-12, when the tool was found to match keywords against
-the label alone. The engine reads the defName as well, cut at underscores, hyphens and camelCase,
-which is how an ingredient whose label is Chinese or Japanese still lands in a category. Read out
-of the assembly rather than assumed: `CategoryUtility.ExtractNames` loads `Def.defName`, puts it
-through three regex replacements, and only then loads `Def.label`. The tool now does the same.
+Read it as an estimate, not a bound: sister categories are not modelled and an ingredient a mod adds
+by patch is invisible to the scan. The French companion's session counts 222 where this counts 216,
+same profile, same day, its own implementation; the gap is small and unexplained. Only the figure
+Flavor Text prints in the log settles it.
+
+Both halves of that measurement were wrong until 2026-09-12, in opposite directions, and the two
+mistakes had been hiding each other.
+
+- The tool matched keywords against the label alone. The engine reads the defName as well, cut at
+  underscores, hyphens and camelCase, which is how an ingredient whose label is Chinese or Japanese
+  still lands in a category. Read out of the assembly rather than assumed:
+  `CategoryUtility.ExtractNames` loads `Def.defName`, puts it through three regex replacements, and
+  only then loads `Def.label`. That correction moved the count up, 629 to 729.
+- The tool never read `mealKinds`, and never inventoried cooked meals, so it could not tell whether
+  a dish had a kind of meal to sit on. Adding the second condition moved the count down, 729 to 216.
+  This is the one that matters for writing scenarios: a dish whose ingredients all exist can still
+  be impossible to cook.
 
 The same mistake is written into the four patch files, which is the defect listed above. Each opens
 by saying that Flavor Text cannot see an ingredient whose label is not Latin, and that name

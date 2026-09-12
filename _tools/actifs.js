@@ -136,7 +136,12 @@ function herite(bloc, champ) {
 const MANGEABLE = /PlantFoodRaw|MeatRaw|AnimalProductRaw|EggsFertilized|EggsUnfertilized|Foods|Fish|PlantMatter/;
 const SANS_VIANDE = new Set(['Mechanoid', 'Drone', 'EntityMechanical', 'EntityFlesh', 'Fleshbeast']);
 
-const choses = new Map();               // defName -> label
+// Les repas cuisinés, rangés à part. Ils ne sont PAS des ingrédients — les mettre dans
+// le même sac gonflerait le recensement — mais un FlavorDef ne nomme un repas que si
+// l'un de ses <mealKinds> est servi, et ces catégories-là ne se remplissent que d'eux.
+const REPAS = /FoodMeals/;
+const plats = new Map();                // defName -> label, les repas
+const choses = new Map();               // defName -> label, les ingrédients
 for (const b of blocs) {
   if (!b.defName) continue;
   const lab = b.label || herite(b, 'label');
@@ -148,6 +153,7 @@ for (const b of blocs) {
     continue;
   }
   const cats = herite(b, 'cats') || '';
+  if (REPAS.test(cats)) { plats.set(b.defName, lab); continue; }
   if (!MANGEABLE.test(cats)) continue;
   choses.set(b.defName, lab);
 }
@@ -198,6 +204,24 @@ for (const [dn, lab] of choses) {
 const servie = {};
 for (const c of T.all) servie[c] = [...T.desc(c)].some(d => propres[d] > 0);
 
+// Même rangement pour les repas, dans leur propre compteur : un <mealKinds> ne peut être
+// satisfait que par un repas installé. Sans mod de cuisine il ne reste que ceux du jeu de
+// base, et tous les types spécialisés — soupe, dessert, nouilles — restent vides.
+const propresRepas = {};
+for (const c of cats) propresRepas[c.name] = 0;
+for (const [dn, lab] of plats) {
+  for (const c of cats) {
+    if (c.absorb.has(dn)) { propresRepas[c.name]++; continue; }
+    if (!c.kw.length) continue;
+    const nom = noms(dn, lab);
+    let s = score(nom, c.kw);
+    if (s >= 3) for (const b of c.bl) s -= 2 * score(nom, [b]);
+    if (s >= 3) propresRepas[c.name]++;
+  }
+}
+const servieKind = {};
+for (const c of T.all) servieKind[c] = [...T.desc(c)].some(d => propresRepas[d] > 0);
+
 /* -------------------------------------------- 5. les FlavorDefs, actives ou non */
 function lireDefs(fichiers, source) {
   const out = [];
@@ -209,7 +233,9 @@ function lireDefs(fichiers, source) {
       const ing = (b.match(/<ingredients>[\s\S]*?<\/ingredients>/) || [''])[0];
       const slots = [...ing.matchAll(/<categories>([\s\S]*?)<\/categories>/g)]
         .map(m => [...m[1].matchAll(/<li>([^<]+)<\/li>/g)].map(x => x[1].trim()));
-      out.push({ dn, slots, source, fichier: path.basename(f) });
+      const mk = (b.match(/<mealKinds>[\s\S]*?<\/mealKinds>/) || [''])[0];
+      const kinds = [...mk.matchAll(/<li>([^<]+)<\/li>/g)].map(x => x[1].trim());
+      out.push({ dn, slots, kinds, source, fichier: path.basename(f) });
     }
   }
   return out;
@@ -225,7 +251,12 @@ for (const d of defs) {
     if (!(c in servie)) { inconnues.add(c); return false; }
     return servie[c];
   }));
-  d.actif = d.morts.length === 0;
+  // Deux conditions, pas une : les slots doivent être satisfaisables ET le plat doit
+  // pouvoir se poser sur un type de repas installé. Un plat sans <mealKinds> n'est pas
+  // restreint. Ignorer la seconde condition, ce que faisait ce script jusqu'au
+  // 2026-09-12, fait nommer des plats que personne ne peut cuisiner.
+  d.sansType = d.kinds.length > 0 && !d.kinds.some(k => servieKind[k]);
+  d.actif = d.morts.length === 0 && !d.sansType;
 }
 
 /* -------------------------------------------------------------------- sortie */
