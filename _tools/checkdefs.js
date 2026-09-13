@@ -66,14 +66,15 @@ for (const d of require('./flavordefs.json')) poser(d.label, d.defName, d.defNam
 // ne faisait rien : le contrôle s'était éteint SANS RIEN DIRE, et le compte
 // d'avertissements était tombé de 11 à 9 sans que personne le remarque. D'où l'arrêt
 // franc ci-dessous plutôt qu'un repli discret.
-const TRAD = process.argv[3] || '../FlavorTextExtendedFR/Mod/Languages/French/DefInjected/FlavorText.FlavorDef';
-if (!fs.existsSync(TRAD)) {
+const TRAD = process.argv[3]; // Optional: the companion is a separate repository.
+if (TRAD && !fs.existsSync(TRAD)) {
   console.error(`ERREUR  traductions introuvables : ${TRAD}`);
   console.error(`        usage : node _tools/checkdefs.js <Defs de Flavor Text> [DefInjected du mod FR]`);
   process.exit(2);
 }
 const frLabels = new Map();             // defName -> label français
-for (const f of fs.readdirSync(TRAD).filter(x => x.endsWith('.xml'))) {
+if (!TRAD) console.log('French companion checks not requested (separate mod).');
+for (const f of (TRAD ? fs.readdirSync(TRAD) : []).filter(x => x.endsWith('.xml'))) {
   const xml = fs.readFileSync(path.join(TRAD, f), 'utf8');
   for (const m of xml.matchAll(/<([A-Za-z0-9_\-]+)\.label>([^<]*)<\/\1\.label>/g)) frLabels.set(m[1], m[2]);
 }

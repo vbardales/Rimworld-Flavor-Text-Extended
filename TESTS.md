@@ -45,7 +45,8 @@ node _tools/checkdefs.js "<path to Flavor Text>/1.6/Defs"
 
 Every dish is checked for a defName that collides with one of hekmo's 930, for a placeholder that
 points at a slot the def does not have, and for two dishes that would display the same name. It
-must end on **0 errors**. Fourteen warnings stand today and are deliberate: dishes that share an
+must end on **0 errors**. The standalone baseline is ten warnings; the older fourteen-warning
+baseline also checked the French companion. Dishes that share an
 ingredient triplet are variety, not conflict, because the engine draws at random among matching
 definitions.
 
@@ -75,6 +76,28 @@ category leaves the baby-meal kind empty and calls every dish that needs it impo
 caught here by name.
 
 ## The scenarios
+
+The current French resource/parameter check includes this repository's category labels
+and the companion's dish text without modifying the companion:
+
+```powershell
+./_tools/Test-Localization.ps1 -CompanionMod '../FlavorTextExtendedFR/Mod'
+```
+
+It must report all 1,799 owned fields covered with no missing/duplicate paths, empty text
+or invalid ingredient tokens. This technical check is separate from semantic review and
+the in-game French scenario. Native English Def values provide the English coverage.
+
+Verify optional ingredient references against installed providers with:
+
+```powershell
+./_tools/Test-OptionalIngredients.ps1
+```
+
+This checks actual provider metadata and selected XML folders, including older-version
+fallbacks. Historical Shenzhou hooks resolving in XML do not certify those mods on 1.6.
+Current baseline: 43 provider-reference pairs and no missing reference; four invalid
+leek/shallot references were removed after this check first reported their absence.
 
 ### T1 - It loads at all
 
@@ -117,13 +140,15 @@ arrangement is correct, but it is correct for a reason that is easy to break by 
 
 ### T4 - Without Flavor Text, nothing happens
 
-**Setup.** This mod active, Flavor Text absent.
+**Setup.** In the mod manager, select this extension with Flavor Text absent.
 
-**Pass.** RimWorld's own dependency notice names Flavor Text, and the game either refuses to start
-the list or starts with our defs dropped. Meals keep their vanilla names.
+**Actions.** Inspect the dependency warning without starting this invalid modlist. Enable
+Flavor Text and its required Harmony dependency, place the extension after Flavor Text,
+then restart with the valid list and execute T1.
 
-**Failure shape.** Anything that mentions `FlavorText.FlavorDef` as an unknown type and keeps going
-is worth reporting: it would mean a def of ours survived into a game with no engine to read it.
+**Pass.** The warning identifies Flavor Text; it clears when the dependencies are enabled
+and ordered correctly. The valid list passes T1. A forcibly started invalid list is not
+supported: custom Def types require the dependency and graceful fallback is not promised.
 
 ### T5 - A name appears at all
 
@@ -161,15 +186,17 @@ think a name has been truncated.
 
 ### T8 - Leek and shallot are not onion
 
-**Setup.** A modlist providing leeks and shallots. Any of VV New Harvest, Vanilla Plants Expanded -
-More Plants, or VGP Vegetable Garden will do; the three are attached by name.
+**Setup.** VV New Harvest 1.6 supplies the verified `VV_Leeks` ingredient. For the shallot
+comparison, also supply a real ingredient whose defName or label matches a shallot keyword;
+record its provider and defName. No explicit shallot provider is certified by this mod.
 
 **Pass.** A dish written for leek fires on leek. A dish written for onion still fires on shallot,
 since shallot is a child of onion, but a dish written for shallot does not fire on a plain onion.
 
-**Failure shape.** Leek behaving as a generic vegetable means the category absorbed nothing. Check
-the mod is one of the three named, and remember that the keyword path also works: any ingredient
-whose label contains leek attaches without being listed.
+**Failure shape.** Leek behaving only as a generic vegetable means the specific category did
+not attach. Confirm `VV_Leeks` exists and the extension is active. If no shallot ingredient is
+available, record that part of the scenario as unverified. VGP and VPE More Plants do not
+declare the previously assumed leek/shallot defNames in their installed 1.6 XML.
 
 ### T9 - The five reptile meats are told apart
 
@@ -187,22 +214,28 @@ generic names.
 **Setup.** Only if you run one of the three mods our patches name: RimLife Cultivation Plus, RimLife
 ExTRG, or Chinese Traditional Cultural Things Expanded.
 
-**Pass.** A meal cooked from their tomatoes, onions or peppers gets the same dish names as one
-cooked from Vanilla Cooking Expanded's. That equality is the point: Flavor Text sorts ingredients by
-matching Latin keywords against labels, so a label written in Chinese or Japanese is invisible to
-it, and two identical tomatoes otherwise behave differently.
+**Actions.** With a supported provider enabled, compare the category assigned to an explicitly
+attached ingredient such as RawQingKe with its target category. Where both tomato providers
+exist, cook equivalent ingredient combinations from each and inspect eligible dish names.
 
-**Failure shape.** Silence. These attachments cannot produce an error when they fail, only dishes
-that do not fire, which is why this scenario has to be run deliberately.
+**Pass.** Explicitly attached ingredients reach their declared categories. Equivalent tomato
+ingredients permit the same recipe categories; individual randomly selected names may differ.
+Flavor Text checks both defNames and labels, so a non-Latin label alone does not prove the
+attachment is necessary. Record the actual provider version; old Shenzhou versions without
+declared RimWorld 1.6 support are not a certified integration.
+
+**Failure shape.** A guard may silently omit an entry; a missing active defName may instead
+produce a cross-reference error. Check both category membership and the log.
 
 ### T11 - English stays English
 
 **Setup.** This mod without its French companion, game language English.
 
 **Pass.** Every dish name is in English. The companion mod replaces Flavor Text's inflection table,
-which lives in a def rather than a language file, so it applies in every language: installed by
-mistake on an English game it produces French fragments inside English names. Seeing one here means
-the companion is active.
+but its current compiled wrapper skips the French patches in English. Repeat with the current
+companion enabled to verify that isolation in the game, after a full language/data reload.
+Record the companion revision: earlier versions did not have this guard. French fragments
+in either English run are a failure, not expected behavior.
 
 ### T12 - Names survive a save and reload
 
@@ -213,6 +246,44 @@ not redraw it.
 
 **Failure shape.** A meal renamed after reload is worth reporting upstream rather than here: it
 would be engine behaviour, not a def.
+
+### T13 - French generated text and interface
+
+**Setup.** RimWorld 1.6 in French, Harmony, Flavor Text, this extension and its separate
+French companion after its dependencies. Record the companion revision and enabled DLCs.
+
+**Actions.** Start a disposable new colony; inspect dependency options and the main button bar.
+Cook meals for T5-T9 as available, open their labels/descriptions and inspect ingredient
+inflections. Save, quit, reload and repeat. Check the translation report and Player.log.
+
+**Pass.** Owned dish text is French, including ingredient substitutions, without unresolved
+keys, raw braces, accidental English fallback or clipped descriptions. No empty extension
+settings page or extension shortcut appears. No new translation or cross-reference errors
+are attributable to this extension. Record upstream/companion errors separately.
+
+### T14 - New game and existing save in both languages
+
+**Setup.** Preserve an existing save; test only a copy. Prepare the valid English loadout
+without the companion and the French loadout from T13. Never overwrite the original save.
+
+**Actions.** For each language, start a new colony and run T1, T5, T6 and T12. Then load the
+existing-save copy with the extension enabled, inspect existing meals, cook new meals and
+run T12 again. Capture each run's game version, modlist and Player.log separately.
+
+**Pass.** Both contexts load successfully, newly cooked meals use eligible dish names, and
+names persist through reload. Existing meals remain usable; retroactive renaming is not
+assumed. No new exception, raw token or corrupted save is attributable to the extension.
+
+### Recording manual results
+
+T1-T14 remain **not executed** until a tester records the actions and observations.
+For each run record date, game version, extension and companion revisions, language,
+DLCs, provider versions, new/existing-save context, expected/observed result, pass/fail,
+and saved log or screenshot paths. Mark an unavailable optional scenario unverified with
+its missing prerequisite, not passed. Rerun affected scenarios after any correction.
+
+Settings values, input bounds and MainButtons customization/persistence are not applicable
+to this extension: it adds neither settings nor a shortcut. T13 still checks their absence.
 
 ## Where the reptile meats come from
 
@@ -237,3 +308,25 @@ One thing not to copy from upstream. Flavor Text guards the same three meats wit
 `MayRequire="RimWorld.Odyssey"`, which is missing the publisher prefix of the real packageId,
 `Ludeon.RimWorld.Odyssey`. A mistyped packageId in `MayRequire` is silent anywhere outside Ludeon's
 own Unity editor, so those three lines of his are dropped even when Odyssey is installed.
+
+## Standalone repository audit — 2026-09-13
+
+T1-T12 are planned, not recorded as passed. No in-game execution was performed in this audit.
+The English validator no longer requires the French companion. Pass its DefInjected directory
+as argument 3 only when deliberately checking that separate mod. The standalone result is
+896 dishes, zero errors and 10 warnings; the older 14-warning baseline included French checks.
+
+Additional repeatable XML validation:
+
+```powershell
+./_tools/Test-Xml.ps1 -FlavorTextDefs '<path to Flavor Text>/1.6/Defs'
+```
+
+Result: 49 XML files parsed, 25 PatchOperationAdd targets matched and applied in memory,
+and four Odyssey meat guards verified. Conditional loading and optional-mod reference resolution
+still require the in-game scenarios. No assembly exists to unit-test, but XML validation is
+an automated test and must be rerun after changes to definitions or patches.
+
+Correction to T10's rationale: the engine matches both defNames and labels. A non-Latin label
+alone does not prove an ingredient needs a patch; use unmatched names such as RawQingKe to
+exercise explicit attachment, and tomato as a compatibility comparison.

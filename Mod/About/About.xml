@@ -6,7 +6,7 @@
 	<url>https://github.com/vbardales/Rimworld-Flavor-Text-Extended</url>
 	<description>An add-on for Flavor Text (hekmo). Requires it, contains none of its files, and does nothing without it.
 
-896 NEW DISHES
+901 NEW DISHES
 
 French and regional cooking first, then the wider repertoire: Italy, the Maghreb, Japan, Korea, Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the Caribbean, Polynesia.
 
@@ -14,7 +14,7 @@ Every dish rests on a distinct combination of ingredients. That combination is w
 
 WHAT YOUR COLONY GROWS DECIDES WHAT YOU SEE
 
-Flavor Text names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 896 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; with farming and cooking mods installed, the whole set comes into play.
+Flavor Text names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 901 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; with farming and cooking mods installed, the whole set comes into play.
 
 That is how the engine works rather than a shortcoming: nothing is lost, a dish simply waits for its ingredient. But it is worth knowing before you install.
 
@@ -24,19 +24,21 @@ Leek and shallot, split out of the generic onion. Five reptile meats - turtle, a
 
 THIRD-PARTY INGREDIENTS
 
-Flavor Text sorts ingredients by matching Latin keywords against their labels. Mods whose labels are in Chinese or Japanese are therefore invisible to it, however common their ingredients. This mod attaches them by name instead: highland barley, hybrid rice, salted mustard greens, bok choy, ginkgo nuts, grain wines, dried meat and cheeses, among others.
+Flavor Text matches keywords against both defNames and labels. This mod also attaches selected ingredients explicitly by defName, including ingredients whose names do not match the expected keywords: highland barley, hybrid rice, salted mustard greens, bok choy, ginkgo nuts, grain wines, dried meat and cheeses, among others.
 
 None of those mods are required. Each operation does nothing when its mod is absent.
 
 FRENCH
 
-A companion mod, Flavor Text Extended - Français, translates all of this along with Flavor Text itself. This mod is in English and needs nothing from it.
+This mod contains the English content. For French names, descriptions and ingredient grammar, install the separate [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais]Flavor Text Extended - Français[/url] companion alongside Flavor Text and this mod. The French companion is optional.
 
 CREDITS AND DISCLOSURE
 
 Flavor Text is by hekmo. All of its machinery - how names are composed, how a definition is picked, how ingredients inflect - is his work.
 
-This mod's content was produced with the assistance of Claude (Anthropic), under human direction and review. See ATTRIBUTION.md for the detail.</description>
+This mod's content was produced with the assistance of Claude (Anthropic), under human direction and review. See ATTRIBUTION.md for the detail.
+
+[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]</description>
 	<modVersion>1.0.0</modVersion>
 	<supportedVersions>
 		<li>1.6</li>

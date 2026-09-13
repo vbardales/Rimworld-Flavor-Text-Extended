@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <FlavorText.FlavorDef ParentName="FlavorDef_Base">
+    <defName>FlavorTextExtended_Altang</defName>
+    <label>altang</label>
+    <ingredients>
+      <li>
+        <categories>
+          <li>FT_Meat_Fish</li>
+        </categories>
+      </li>
+      <li>
+        <categories>
+          <li>FT_Egg</li>
+        </categories>
+      </li>
+      <li>
+        <categories>
+          <li>FT_Soy</li>
+        </categories>
+      </li>
+      <li>
+        <categories>
+          <li>FT_Chili</li>
+        </categories>
+      </li>
+    </ingredients>
+    <description>a spicy soup with {0_coll}, {1_coll} and soft {2_adj} curds in a {3_adj} broth. This colony version stands in for the fish roe of the original dish.</description>
+    <mealKinds>
+      <li>FT_MealsSoup</li>
+    </mealKinds>
+  </FlavorText.FlavorDef>
+  <FlavorText.FlavorDef ParentName="FlavorDef_Base">
+    <defName>FlavorTextExtended_Beondegi</defName>
+    <label>beondegi</label>
+    <ingredients>
+      <li>
+        <categories>
+          <li>FT_Meat_Insect</li>
+        </categories>
+      </li>
+    </ingredients>
+    <description>{0_coll} simmered until tender and served in a small cup. A colony adaptation of the silkworm-pupa street snack.</description>
+    <mealKinds>
+      <li>FT_MealsSnack</li>
+    </mealKinds>
+  </FlavorText.FlavorDef>
+  <FlavorText.FlavorDef ParentName="FlavorDef_Base">
+    <defName>FlavorTextExtended_Bungeoppang</defName>
+    <label>bungeoppang</label>
+    <ingredients>
+      <li>
+        <categories>
+          <li>FT_Wheat</li>
+        </categories>
+      </li>
+      <li>
+        <categories>
+          <li>FT_Bean</li>
+        </categories>
+      </li>
+      <li>
+        <categories>
+          <li>FT_Sugar</li>
+        </categories>
+      </li>
+    </ingredients>
+    <description>fish-shaped {0_adj} pastries enclosing a smooth filling of {1_coll} sweetened with {2_coll}. The mould gives them their shape; there is no fish in the filling.</description>
+    <mealKinds>
+      <li>FT_MealsSnack</li>
+    </mealKinds>
+  </FlavorText.FlavorDef>
+  <FlavorText.FlavorDef ParentName="FlavorDef_Base">
+    <defName>FlavorTextExtended_Jjapaghuri</defName>
+    <label>jjapaghuri</label>
+    <ingredients>
+      <li>
+        <categories>
+          <li>FT_Wheat</li>
+        </categories>
+      </li>
+      <li>
+        <categories>
+          <li>FT_MeatRaw</li>
+        </categories>
+      </li>
+      <li>
+        <categories>
+          <li>FT_Soy</li>
+        </categories>
+      </li>
+      <li>
+        <categories>
+          <li>FT_Chili</li>
+        </categories>
+      </li>
+    </ingredients>
+    <description>{0_adj} noodles tossed in a dark {2_adj} sauce with {3_coll}, then topped with seared {1_coll}. A pantry adaptation of a dish combining two kinds of instant noodles.</description>
+    <mealKinds>
+      <li>FT_MealsNoodle</li>
+    </mealKinds>
+  </FlavorText.FlavorDef>
+  <FlavorText.FlavorDef ParentName="FlavorDef_Base">
+    <defName>FlavorTextExtended_Kimchijeon</defName>
+    <label>kimchijeon</label>
+    <ingredients>
+      <li>
+        <categories>
+          <li>FT_Wheat</li>
+        </categories>
+      </li>
+      <li>
+        <categories>
+          <li>FT_Cabbage</li>
+        </categories>
+      </li>
+      <li>
+        <categories>
+          <li>FT_Chili</li>
+        </categories>
+      </li>
+    </ingredients>
+    <description>a thin {0_adj} pancake folded around fermented {1_coll} and {2_coll}, fried until the edges turn crisp. The sour filling seasons the batter as it cooks.</description>
+    <mealKinds>
+      <li>FT_MealsNonSpecial</li>
+    </mealKinds>
+  </FlavorText.FlavorDef>
+</Defs>

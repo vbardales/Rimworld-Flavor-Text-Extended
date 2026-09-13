@@ -1,0 +1,27 @@
+[
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Patches\\Inflections_ExtendedProviders_FR.xml",
+    "Hash": "7153A46F5DF0B42363EE7BCB945A3A7269DAB7B75D023A7083C99F74F47D71F4",
+    "Algorithm": "SHA256"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Cereales.xml",
+    "Hash": "8A70E9049AE558C2E3BE97FFD90E656E5A10B08BEAA98942B033AFE6D79A910F",
+    "Algorithm": "SHA256"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\_tools\\Test-Xml.ps1",
+    "Hash": "2032C1BA9D80E78125160514B33783D947BFDD28E3FD7238AB94F153FB9FBBA5",
+    "Algorithm": "SHA256"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Assemblies\\FlavorTextExtendedFR.dll",
+    "Hash": "CA2326E6E6FCB8DCC64CB7806CF19BF57810B65DFAEA803B2C8911827FE6D48B",
+    "Algorithm": "SHA256"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtended\\Mod\\About\\ModIcon.png",
+    "Hash": "DF187D000B850B446A2DA99B963621684AC2628D68F9D9016BE52C8D631B9292",
+    "Algorithm": "SHA256"
+  }
+]

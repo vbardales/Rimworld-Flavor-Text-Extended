@@ -1,38 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  RimLife Cultivation Plus (daylight.RLEVVCultivationPlus) — packageId relevé dans
-  son About.xml. Il supporte 1.5 et 1.6, contrairement au mod Shenzhou.
-
-  Il ajoute six cultures dont cinq donnent un ThingDef comestible. Le mod ne
-  contient AUCUN dossier Languages : les labels restent 青梗菜, トマト, 玉ねぎ,
-  パプリカ et デントコーン quelle que soit la langue du jeu. Flavor Text, qui
-  compare des mots-clés latins au label, n'en voit donc aucun.
-
-  POURQUOI CE PATCH COMPTE, alors que ces légumes existent déjà par ailleurs :
-
-  Flavor Text connaît déjà des tomates (VCE_RawTomatoes, RC2_RawTomato), des oignons
-  (VCE_RawOnion, RC2_RawOnion) et des poivrons (VCE_RawBellPeppers). Sans ce patch,
-  un repas cuisiné avec les tomates de VCE reçoit les noms de plats à la tomate,
-  et le MÊME repas cuisiné avec celles-ci n'en reçoit aucun. Ce n'est pas un manque
-  d'ingrédient, c'est une incohérence : deux tomates identiques dans le jeu, deux
-  comportements différents dans les noms de plats.
-
-  Le 青梗菜 (bok choy) est le seul réellement nouveau : aucun autre mod installé ne
-  fournit de pak-choï.
-
-  Sur la デントコーン : le mod la destine au fourrage et au biocarburant, ce qui
-  invitait à la ranger dans FT_AnimalFoods. C'est FT_Corn qui est juste. Le maïs
-  denté EST le maïs de la polenta, du gruau et du pain de maïs — le maïs doux est
-  l'exception, pas la règle. Un pion qui en cuisine mérite les noms de plats au maïs.
-
-  Le riz pluvial (VVPlant_Drylandriceplant) n'a pas de produit propre : il rend du
-  riz vanilla, déjà reconnu. Rien à faire.
-
-  Le MayRequire rend l'ensemble inerte si le mod n'est pas chargé.
+  RimLife Cultivation Plus (daylight.RLEVVCultivationPlus): explicit ingredient attachments.
+Flavor Text matches both defNames and labels. Japanese labels alone do not prove a
+keyword failure: names such as VVTomato may already match. These entries make the
+intended categories explicit. Bok choy belongs to leafy vegetables and dent corn
+to corn; dryland rice yields vanilla rice and needs no additional attachment.
+The guards on individual value entries control their inclusion when the provider
+is active. Do not rely only on attributes on the Operation node.
 -->
 <Patch>
 
-	<!-- 青梗菜 : le pak-choï. Aucun autre mod installé n'en fournit. -->
+	<!--
+  Bok choy.
+-->
 	<Operation Class="PatchOperationAdd" MayRequire="daylight.RLEVVCultivationPlus">
 		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_LeafyVeg"]/thingDefsToAbsorb</xpath>
 		<value>
@@ -40,7 +20,9 @@
 		</value>
 	</Operation>
 
-	<!-- トマト -->
+	<!--
+  Tomato.
+-->
 	<Operation Class="PatchOperationAdd" MayRequire="daylight.RLEVVCultivationPlus">
 		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Tomato"]/thingDefsToAbsorb</xpath>
 		<value>
@@ -48,7 +30,9 @@
 		</value>
 	</Operation>
 
-	<!-- 玉ねぎ -->
+	<!--
+  Onion.
+-->
 	<Operation Class="PatchOperationAdd" MayRequire="daylight.RLEVVCultivationPlus">
 		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Onion"]/thingDefsToAbsorb</xpath>
 		<value>
@@ -56,7 +40,9 @@
 		</value>
 	</Operation>
 
-	<!-- パプリカ -->
+	<!--
+  Paprika / bell pepper.
+-->
 	<Operation Class="PatchOperationAdd" MayRequire="daylight.RLEVVCultivationPlus">
 		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_BellPepper"]/thingDefsToAbsorb</xpath>
 		<value>
@@ -64,7 +50,9 @@
 		</value>
 	</Operation>
 
-	<!-- デントコーン : maïs denté, celui de la polenta et du pain de maïs -->
+	<!--
+  Dent corn, used for polenta and cornmeal.
+-->
 	<Operation Class="PatchOperationAdd" MayRequire="daylight.RLEVVCultivationPlus">
 		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Corn"]/thingDefsToAbsorb</xpath>
 		<value>

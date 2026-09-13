@@ -20,3 +20,9 @@ node_modules/
 # monorepo so that redoing the decompilation here cannot publish it by accident. What it
 # established is written up in the comments of this mod's files.
 _tools/src/
+
+# Local rendering profile and intermediate artifacts
+.build/
+
+# Generated local installed-mod inventory; regenerate with _tools/compare_foodcourt.py
+Audit-FoodCourt/comparison.json

@@ -27,8 +27,6 @@
 		</keywords>
 		<thingDefsToAbsorb>
 			<li MayRequire="vvenchov.vvnewharvest">VV_Leeks</li>
-			<li MayRequire="vanillaexpanded.vplantsemore">VCE_RawLeek</li>
-			<li MayRequire="dismarzero.vgp.vgpvegetablegarden">Rawleek</li>
 		</thingDefsToAbsorb>
 	</FlavorText.FlavorCategoryDef>
 
@@ -45,10 +43,7 @@
 			<li>echalote</li>
 			<li>scallion</li>
 		</keywords>
-		<thingDefsToAbsorb>
-			<li MayRequire="vvenchov.vvnewharvest">VV_Shallots</li>
-			<li MayRequire="dismarzero.vgp.vgpvegetablegarden">Rawshallot</li>
-		</thingDefsToAbsorb>
+		<!-- No verified explicit shallot provider. Matching keywords still classify real ingredients. -->
 	</FlavorText.FlavorCategoryDef>
 
 </Defs>

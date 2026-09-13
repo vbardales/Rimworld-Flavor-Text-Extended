@@ -20,21 +20,19 @@ relevant files: selection is a weighted random draw and not a "most specific win
 an ingredient slot recursively accepts child categories — which corrected several wrong
 conclusions about coverage.
 
-## Work in progress
+## Standalone extension
 
-**The 896 dishes still carry French names and descriptions.** This mod came out of
-splitting a French mod in two, and the English translation of its content is not
-finished. Until it is, the mod is playable but displays French.
-
-The French is already safe in the companion mod, under
-`Languages/French/DefInjected/`, and will be injected back from there once the defs
-switch to English.
+This repository contains 896 dishes with English source labels and descriptions,
+seven ingredient categories and ingredient patches. Established culinary names
+retain their original spelling where appropriate. The French dish translations
+are maintained in the separate companion's `Languages/French/DefInjected/` folder.
 
 ## Companion mod
 
-**Flavor Text Extended - Français** translates this mod and Flavor Text itself, and
-replaces the inflection table with French forms. It is only useful in a French game: its
-table applies in every language, since RimWorld cannot gate an XML patch on language.
+**Flavor Text Extended - Français** translates this mod and Flavor Text itself. Its current
+compiled language wrapper limits French inflection and joining-grammar patches to French.
+This wrapper belongs to the companion, not to this extension. Untabled ingredient fallback
+still requires work before full French coverage can be certified.
 
 ## AI assistance
 
@@ -43,23 +41,26 @@ human direction and review. The design decisions — which dishes to write, whic
 categories to separate, which agreements to fill in — were made and approved by the human
 author.
 
+Codex (OpenAI) assisted with documentation, validation and artwork corrections.
+The replacement cooking mascot was edited with OpenAI's built-in image generation tool.
+
 Every dish name was checked against collisions with the 930 original defs, and every
 ingredient combination verified with the tools in `_tools/`.
 
-## Verified in game
+## Verification scope
 
-The mod was loaded and observed in a running colony. The log reports no XPath patch
-error, no def resolution error, and RimWorld's translation report flags no useless
-injection and no stale key.
+An earlier combined-mod attribution recorded a colony test and an inflection-table fix
+for 24 nonexistent meats. That historical result concerns the work before the split;
+it does not certify this standalone revision or its companion. The original audit and
+its results remain in `STATUS.md` and the Git history.
 
-One defect was found there and fixed: the inflection table declared 24 meats that cannot
-exist — small birds share cassowary meat through `useMeatFrom`, and Anomaly's entities
-yield twisted meat. The `_tools/geninflections.js` generator still does not filter those
-cases: re-running it would reintroduce them.
+Current offline results are recorded in `STATUS.md`; manual scenarios and their
+execution status are recorded in `TESTS.md`. No completed in-game validation is claimed
+for the current standalone working tree.
 
 ## Third-party mod ingredients wired in
 
-None is required; each operation is neutralised if its mod is absent.
+None is required; each provider-specific attachment entry is guarded when its mod is absent.
 
 - **RimLife Expansion Trading items** (daylight) — dried meat, two cheeses.
 - **RimLife Cultivation Plus** (daylight) — bok choy, tomato, onion, paprika, dent corn.
@@ -69,8 +70,9 @@ None is required; each operation is neutralised if its mod is absent.
   `packageId`s differing.
 - Miscellaneous — honeycomb, okara, mixed berries, edible arachnids, fodder.
 
-These hooks are fragile by nature: if one of those mods renames a def, the patch stops
-applying **with no error message**.
+These hooks depend on external defNames and package IDs. Inactive guards can silently
+omit an entry; a renamed active reference can instead generate a load error. The test
+plan checks logs and actual categorization separately.
 
 ## Licence
 

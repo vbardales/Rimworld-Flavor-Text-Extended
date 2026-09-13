@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Élargissement de mots-clés sur des catégories de Flavor Text.
-
-  FT_WaterChestnut ne connaît que « water chestnut », c'est-à-dire l'Eleocharis dulcis
-  chinoise. Le water caltrop (Trapa natans, singhara en Inde) est une plante différente
-  mais culinairement voisine, et aucune catégorie ne l'accueillerait. On ajoute ses noms
-  pour qu'un mod qui l'introduirait tombe au bon endroit plutôt que dans FT_Ingredients.
+  Additional ingredient keywords for Flavor Text categories.
+Water caltrop (Trapa natans, singhara) is botanically distinct from Chinese water
+chestnut (Eleocharis dulcis), but shares its culinary category here.
 -->
 <Patch>
 
@@ -22,11 +19,8 @@
 	</Operation>
 
 	<!--
-		Le coing n'a aucune catégorie chez hekmo. C'est un fruit à pépins, cousin
-		botanique et culinaire de la pomme, et il s'emploie aux mêmes endroits :
-		pâte de coing avec le manchego, gelée, tajine, mostarda. On le rattache
-		donc à FT_Apple plutôt que de le laisser tomber dans FT_Fruit.
-	-->
+  Quince and crabapple use the apple category for their related culinary uses.
+-->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Apple"]/keywords</xpath>
 		<value>

@@ -1,0 +1,645 @@
+{
+  "date": "2026-09-13T13:42:28.6587580+02:00",
+  "revision": "c349f360e32ecec2efc754918f4f7a76293199b6",
+  "scope": "Current working tree after optional-reference correction; STATUS and historical manifests excluded",
+  "files": [
+    {
+      "path": "Mod\\ATTRIBUTION.md",
+      "sha256": "B34EBF20C9F1EEAA6ED1EF15FA3DD9B9E78869CDA5CEAF98A9E01988FE0A3E01"
+    },
+    {
+      "path": "Mod\\LICENSE",
+      "sha256": "49891C8BACDD306A32E2A62E7858C416F24D7E88E7EE2E9B7DAFAF0B1FC5CA93"
+    },
+    {
+      "path": "Mod\\About\\About.xml",
+      "sha256": "65685A8059A0C5B089A23F7A52BAB94CFB2CA4D1A0722EB2BF0AF461121CA73F"
+    },
+    {
+      "path": "Mod\\About\\ModIcon.png",
+      "sha256": "DF187D000B850B446A2DA99B963621684AC2628D68F9D9016BE52C8D631B9292"
+    },
+    {
+      "path": "Mod\\About\\Preview.png",
+      "sha256": "49CA1A6E0522E02380E8C87323E2EAB6B7FB209AA38599E3777A4CE4E395A18D"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorCategoryDefs_FR_Reptiles.xml",
+      "sha256": "7D324DD56658B52FC177E5A6792F86DB935A3FE147361A83FF30A97C71A8216A"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorCategoryDefs_FR.xml",
+      "sha256": "6C558872E9634AE20EA4C97B732EEA073F1B550D85FC71205052D6AE7964E00C"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Accords.xml",
+      "sha256": "68CE9F6034EB349D769B48F07D40B1D7D7E0A3C310EA5A61992867E359B779F5"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Accords2.xml",
+      "sha256": "19BA771E696A8B749E43793575BF0801AD164C4F52C82F1D2B9D4709F54E0D9D"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Accords3.xml",
+      "sha256": "DBD34E93E001BBA0D027B3B40C4C8709ABE0F74071FA1A502E8A78978E45E5C4"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Afrique.xml",
+      "sha256": "421E62A4B79B243DFC58FCDD1D55A31B43BB74DC1EAF917AE9772D9F6818F630"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Artichaut.xml",
+      "sha256": "876CEC574E4F8C3893F814ED78B19213DFCCD9275539ABFEB64D69D97E3EC66C"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_AsieSudEst.xml",
+      "sha256": "685C43E874689F9162F01E63DA7678D7BADC00A66A8C7B8E057579800422436C"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Asperge.xml",
+      "sha256": "F72814E9EBF18A6604B5026CF98E72E8A641C1D82DA2AF8B4D0FFCA7B0C8851D"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Boissons.xml",
+      "sha256": "C29C79856ED5761FA86C4E7CD1F83C8A19DEFFC4C0FEC53BF915C0A49BB9348F"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Cereales.xml",
+      "sha256": "656178F9576D2EBD9102BABF9566DF34C459EB987409C57E68A488F47D3DCABD"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_ChataigneDEau.xml",
+      "sha256": "FC25F8A130C7BFA82895BB7CEC473C105A8A2290F019D1DF479237AC63315E95"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Chine.xml",
+      "sha256": "F5C4440854DC34713003D2019F06AFF6BC2D587C650746B78B10A1420456F55E"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_ChouDeBruxelles.xml",
+      "sha256": "9FFC322119B2C6F802DF29AB1738237E321FDD2AEB00447DEC9F81C7B0DEAFE4"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Classiques.xml",
+      "sha256": "EAEB0F1AFA948EB0EB18EF4908D1F430245BEF2B8F8FC7E267B1873FE5D09378"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Classiques2.xml",
+      "sha256": "F5BB8EA7F9D70D6B246EC2FBC7BBF745DC128B82BC056EB550BB69EF9BFFE645"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Coree.xml",
+      "sha256": "CA6FA66848BCF435217739E353C592570EEAAD3DD4E52FFECEFAB0736D5DB0C0"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Creme.xml",
+      "sha256": "A4C1AE5316BA321D948A507E1BC52280F7B991657BCA5ECD0F443BFB160E96A1"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_CruEtOeufs.xml",
+      "sha256": "C1184BB5102F35BCAFA2D7DE947B6116F9B9CB2C7E8CDC81E7E6870871F8F16C"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Desserts.xml",
+      "sha256": "1C0D334D046F78BD3F5D81BE0AF4CBFDAF5AC7E99B7319D48DC36636D18919EF"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Durian.xml",
+      "sha256": "47EAFED5AEC66E23C708914DEC021A88C82945A00FBCE78B6FB5C8A62CB3A033"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Espagne.xml",
+      "sha256": "182908F25E2EE219D1DAB81FCC2EF189DD4A121EAB625AE2F4F83675E71123F3"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Europe.xml",
+      "sha256": "331EB2A72BBE3148E6F3F4D3CC4412ED25547ADC842D2C41CA7F41A1BC8AD812"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_EuropeEst.xml",
+      "sha256": "9C1D55109347B3DF6C1B510549D4C0D445A3D5C5E6F43820352F937204950881"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Figue.xml",
+      "sha256": "26F43D5D09B2C3545573A626F4293DBAFE1F68EBA57DFB5F55B758D7F561C44F"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_FigueDeBarbarie.xml",
+      "sha256": "1AC509C8DAAE9895E434066ECD9AE340517DBC613B97FCC02356CF4B2EFABBDA"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_FromageFruit.xml",
+      "sha256": "DA1F29A5FEF33CB1EE8081F652FA27D75C367854FE138F2CAF9E90A814F284CA"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Grenade.xml",
+      "sha256": "4D74C9C7AD03E9F1E8ACD3E77F776072B3CBF2973ACBEFDBCB32CD671F2B4F92"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Inde.xml",
+      "sha256": "BCF5868D00A4AA06452C3859B1AEC352B1F66D3BA4DA2062D9EBD80F95FF35D3"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Italie.xml",
+      "sha256": "9278E8389E6F5C2547CA6546514F2DFB6E124AA451D1C810CCA08B8E685BA009"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Japon.xml",
+      "sha256": "24B07DD0600ECD02C8544EE717E18D459577DC345F2AE26B1806DD6480E48119"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Levant.xml",
+      "sha256": "8639AEF6E809D8B81584AEA7C9DB777AED367C2C97B8815B3FA54E5D874793CB"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Maghreb.xml",
+      "sha256": "96E183EF7B0189366B8377C2A4D4B847545015498AE8A75E0F0ECA51EAF69724"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Mangue.xml",
+      "sha256": "3C93F8F7934EBB9123D2E936377B8A63F37C360BE341FF55E098D0B68F3CF99A"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Mexique.xml",
+      "sha256": "5CABE34BC3257039A536F1845A4DD33E0B70AA0AEF2A784C326E75A92FC11F54"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Oeufs.xml",
+      "sha256": "2C4E9C0C6377417F6A4BE05574E2DE8841751CF03AD8A739669AB86045899E52"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Perou.xml",
+      "sha256": "333CD5BA361F160C1A48DDD3A35B012DEF719959D550DAD6B79B45D0D1CF2CB6"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Rares.xml",
+      "sha256": "8D588B493F2425E0466065A8CD3DE8265DCE5173D55A0D87D6E4989C48DEBDD6"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Regions.xml",
+      "sha256": "07DA89FBFCAB16929861BBFC82CEC67DE85ABECEA6DFFCA63B6964D356D7FC72"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Regions2.xml",
+      "sha256": "E37884E2488687DC735A7A7DB976E088332E1D5D63D95ADFDF63363A1E551313"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Reptiles.xml",
+      "sha256": "75BC6B97B55E5E90416A24DE4F7D724C54FA676DB1BD72188102F985FD23180A"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Sorgho.xml",
+      "sha256": "B208D2C6060FEBF97A8C4C191629178EDBC63C76A43CC06B965B454900CA33D3"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_SucreSale.xml",
+      "sha256": "8604F7697B74C39C04BFA6B37E2779691509FCE51801268B446DB3FE478E3EAB"
+    },
+    {
+      "path": "Mod\\Defs\\FlavorDefs_FR_Toxipatate.xml",
+      "sha256": "736C07707FC67D3F9B2B80BD32652A13A668DD4E172573499850284CFC603314"
+    },
+    {
+      "path": "Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorCategoryDef\\Categories.xml",
+      "sha256": "D96531B95AED3E96B3D7288D55E132F4A65DFC98AF956ED895539DCAEB94F2B8"
+    },
+    {
+      "path": "Mod\\Patches\\Keywords_Cultivation.xml",
+      "sha256": "58ACAF659318485FC587CD2A30C8FAD60EA0274638B03FB7FEE48C9B2A899090"
+    },
+    {
+      "path": "Mod\\Patches\\Keywords_Ingredients.xml",
+      "sha256": "62519FCA11DB30345D87A8CF3967FEAF81DE0D1AC9EAD4BFC5EF5526ACE96CF8"
+    },
+    {
+      "path": "Mod\\Patches\\Keywords_Mods.xml",
+      "sha256": "CC7BCEDBE7FE32A57EA9D14A5FC26F2D7A91FB0D02D391945F6A0210A1A3C504"
+    },
+    {
+      "path": "Mod\\Patches\\Keywords_Shenzhou.xml",
+      "sha256": "EF5DDF77FC65FD7B78AED8B54E813FF7EE2776FF963701FE2A6C912F668A2F17"
+    },
+    {
+      "path": "Art\\ModIcon-source.png",
+      "sha256": "FC071F7ADFA9E97B23C8E8C3D2480C68B403C6DB55EBD6725B0999D4D5A4AE37"
+    },
+    {
+      "path": "Art\\preview-palette.json",
+      "sha256": "FF123AF3217871948E02F931EB3A6569F2DD857D0765AF2C0F598CFC097029AB"
+    },
+    {
+      "path": "Art\\Preview-source.png",
+      "sha256": "EEF68FF46B5229FBE85A6F376C2EDD3DE76844A61587B685D2B2BD55E1DC9259"
+    },
+    {
+      "path": "Art\\preview.html",
+      "sha256": "34C9BC2B0D50D4285B5B4D372142C4E1B086039FBB9EE3884C59F7C083A009FD"
+    },
+    {
+      "path": "Art\\Preview.png",
+      "sha256": "EEF68FF46B5229FBE85A6F376C2EDD3DE76844A61587B685D2B2BD55E1DC9259"
+    },
+    {
+      "path": "Art\\README.md",
+      "sha256": "FB4A880D35E3EAC7CAFB8A8B1055986705518EA24B048BC70A25CA4C1F9862F4"
+    },
+    {
+      "path": "Art\\render-preview.ps1",
+      "sha256": "701501DC0C585B89D56F848B9D205487A9749D345A1439F8EB23EDA70BA692D5"
+    },
+    {
+      "path": "Art\\archive\\ModIcon-before-fix.png",
+      "sha256": "DF187D000B850B446A2DA99B963621684AC2628D68F9D9016BE52C8D631B9292"
+    },
+    {
+      "path": "Art\\archive\\Preview-before-fix.png",
+      "sha256": "E858B8758D8C4836686CFF1F34BD05B360EA6FE05F251CB035F1F1E78AA35F65"
+    },
+    {
+      "path": "_tools\\checkdefs.js",
+      "sha256": "F71112EF03B50D301D597C6EA60FED6CB8F2F45051F59799391E1FDE4B81FDEB"
+    },
+    {
+      "path": "_tools\\Test-Xml.ps1",
+      "sha256": "755F065CE05EEA102E4A4AB1309CC1D327FE8DD9107234FFAE53A38CF5D3301A"
+    },
+    {
+      "path": "_tools\\Test-Localization.ps1",
+      "sha256": "215990C8D823E8981492A8EA66A7D648EC23794EF6274333EE37B2F96B2BA62F"
+    },
+    {
+      "path": "_tools\\Test-OptionalIngredients.ps1",
+      "sha256": "33D0F50F51F30E617340598906238875355753085A14CDEA615FB503E488F776"
+    },
+    {
+      "path": "_tools\\verifen.js",
+      "sha256": "955017FF150F7105AF00498095B43E229A9F778798780625A795DD5EE327656F"
+    },
+    {
+      "path": "_tools\\flavordefs.json",
+      "sha256": "6955DB4A7829A56FC2A8B9CF47449CEA6A1EDEAAE7C12510B7AA7B4F7A9D7045"
+    },
+    {
+      "path": "TESTS.md",
+      "sha256": "0B87532F866B82AF406780AD51DFFB6E00B151A12F3A6D85009C8A4D215D9E47"
+    },
+    {
+      "path": "README.md",
+      "sha256": "E1B75CC496872F17F17369B7E0EA62EC3E657501F0890F1B6286D7CE655258B5"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "B34EBF20C9F1EEAA6ED1EF15FA3DD9B9E78869CDA5CEAF98A9E01988FE0A3E01"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "49891C8BACDD306A32E2A62E7858C416F24D7E88E7EE2E9B7DAFAF0B1FC5CA93"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "92B14A9A7ED0A8AF5C5936286A2A0901916DECD0DB2B33A90A9C2B8D90008AA5"
+    },
+    {
+      "path": "VALIDATION-2026-09-13.md",
+      "sha256": "1BFD2786D04F79BC6776EFBF626AE49725646ED0F8095CCC3AE1172A5DB2722F"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "30E7283D1841FB2A09068F6D65E9EFE0EA69E58DDECE57D15284BE25AB2AD1F4"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "B548D0C653081BC4FD3C16EB96CC50097139526D263A189C836321DDD334FFFC"
+    }
+  ],
+  "readOnlyInputs": [
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\LoadFolders.xml",
+      "sha256": "A23D6FF67188DF90862027D5B96991477E173CD346B543E6365656787B12EBF5"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\About\\About.xml",
+      "sha256": "5F3C947F9742C0F1EF3E8D2A0E354CF76D2B536EC6F1DBB038D3F4B38480B437"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Assemblies\\FlavorTextExtendedFR.dll",
+      "sha256": "64005E22A1DD3C20B617A4D140E0BFBD42FB79594914EBCEF2B27ADC820FB8BA"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Biotech\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Biotech.xml",
+      "sha256": "EC48FEA33EFAF6AA6D16E60A00010E490029A3D0B591E820D2F6BB971ADFDB70"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Defs\\MainButtonDefs\\Settings.xml",
+      "sha256": "E4094B7A1208B874B8D47CFF874E451632D2C402252690389BE4C40632C766B1"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\English\\Keyed\\Fallback.xml",
+      "sha256": "40ACAB74A5CA00525D00905F050D8BF3580967433F23B265033D9A6459C992BD"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_01.xml",
+      "sha256": "515F308BBD8E7AB19FF263AFA5C7E92F300F25563FEBF9B74193E2995E138282"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_02.xml",
+      "sha256": "8843E298324BC0841856B12A8EB50A44D5AF2C5CD67797AFAAA4301FDA6F12F2"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_03.xml",
+      "sha256": "37E9AA6EE06ACA960083216970F4B4F054699BE4B68496FB36854471332E86E2"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_04.xml",
+      "sha256": "182751583805633AED0E77EA177580E4FF18F264274B5F9855DD68DA3B710B34"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_05.xml",
+      "sha256": "13A17FAA48EA88028FE22A385B393DB60F238141860547CB60029ABE7E51442E"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_06.xml",
+      "sha256": "6C56D6CD27DE400B49E7535BEDFE47DE4CECA2A9D7285EECDF20F1B89B5E60EB"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_07.xml",
+      "sha256": "FE469B07563C8FAD180D5C5A95DCF14DAF39E855C95544BE6651C2ED3FA74843"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_08.xml",
+      "sha256": "1F462E5C41853C2A06CBCF8AE0587EC5C60CC21CE50A6772E3B3E54CD1BB3B61"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_09.xml",
+      "sha256": "C0BF1DDAE4F43A94C0F85F533010A674460B23719837AD28E6329A9D48C54995"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_10.xml",
+      "sha256": "6F85C6CA8CDA09F37B4E37D871E6638CF18B031E2521E4018747B0A92EE36EDD"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_11.xml",
+      "sha256": "4D63CAC6ADC8561591A49F31DC69FC35CA3B24C8460000AB1D18B1AE13FEE1FD"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_12.xml",
+      "sha256": "A55BCF95B10BB89E140B6102787A0809A7D3EE925B1E1A917C635B91243741C9"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_13.xml",
+      "sha256": "AF7F1317E2EDD9D4BE26D3B4E9154E52A65B58B6108A94A71950BF98E0A70BC0"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Accords.xml",
+      "sha256": "FDF0DAC8A6EFE2DAF98B734E824530C8338957A5537C0F376CB517499667629F"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Accords2.xml",
+      "sha256": "673E8FFBF81416C79500BB13236548C5EB1B2CEE964CAD584E58E0A54B31CE62"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Accords3.xml",
+      "sha256": "C45B60B1C01B12E0BF9962641895350311C276CAF486E7A73C399B8CB25C36E5"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Afrique.xml",
+      "sha256": "CFEF3155ECFEE9E3E0185162F8955B9FAA06D43A2211B767041DDF560204EED9"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Artichaut.xml",
+      "sha256": "1329078390582B8AF841820411F4117BB21988EC0F2D6534542FE8719B1B0D0C"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_AsieSudEst.xml",
+      "sha256": "DC955B520BFE0AEDC632B34AE0D40BDF6AAFF2E3C029E6995FD7BDF6016C21FA"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Asperge.xml",
+      "sha256": "564E85C793BAA0FAB98F66183EC735F6F870F33F3DA1A3D25FD73E5A2DF3C5B3"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Boissons.xml",
+      "sha256": "3F2626F47C418FB85A4999FFE228978265D0968F492ADF45A3C178C6009D5BF3"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Cereales.xml",
+      "sha256": "518089FA8E736C6F8A09921E48F9529784E2A8F8D09C256F778C957AA3F6D4CF"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_ChataigneDEau.xml",
+      "sha256": "BEA092355FA93844950D9D5305C7D4F36AD3C2F8BF49309102EFE9DFE00BEBC7"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Chine.xml",
+      "sha256": "DFA6B66CBC05520D8C77ADAD50FF9C95864F4CD99EF3DD5793CE28BCD6AA0E0A"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_ChouDeBruxelles.xml",
+      "sha256": "2D335D8E54C0063571B505759CD597C66F4646C5DCAEF1A4DAEB48145F9CB33C"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Classiques.xml",
+      "sha256": "67B6AA366A8227503BEBC2AC334AAFB38F7D44DED02FF86621190D7ECB0B81C8"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Classiques2.xml",
+      "sha256": "55FD226CF1F91D5628706A9883BEEED14753C8D3C83BD25B3EA6E0B183FD89AB"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Coree.xml",
+      "sha256": "3567EE8AF1CE03AE94D0A4ACE68F9A73D45E0D1342615E571CFDF27CBF588C48"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Creme.xml",
+      "sha256": "7C7E342FF292125F43484CB1CF21E77145055EA2408E322ABAB6F9FA9A0DFACB"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_CruEtOeufs.xml",
+      "sha256": "1D86865D9AE236AC1F64EBCD61CA20195E2F20D0580845C8FB835C9C3BDA68C8"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Desserts.xml",
+      "sha256": "3AC1EB389B933B3A9677BA0C729211DB48A5DD4C11BC741CF0143332B8DD60B3"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Durian.xml",
+      "sha256": "03929A2DC0692A8BC4E3B59FCB3E83B175404616D8E7F4CD76260B8029B10F2C"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Espagne.xml",
+      "sha256": "7E9CAB9C25D71748C68FCDD2D9DD409481B1EB5DAF0D7A8EA5E8D8B450697830"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Europe.xml",
+      "sha256": "6825ED2A6A70FD77983186127E113AA077C31C86C107981E5D9DF5C009A0C824"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_EuropeEst.xml",
+      "sha256": "2F8EBAFAA3EF4D1A8926B4EF8E843069E29B92298C9AD8946FE497A553F98A18"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Figue.xml",
+      "sha256": "83B5E74590FA552CA0D29C5BF4326049754B56B01676F08F18DBDDD7D678BD77"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_FigueDeBarbarie.xml",
+      "sha256": "98A55FF7DBA284DFDC081D8C27A4F29E99767D1F06F5F8B1B4F13B6834AB0E92"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_FromageFruit.xml",
+      "sha256": "51A7594FFD609020DCF321B9155DFE6072372CB0971925846F1528081493526B"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Grenade.xml",
+      "sha256": "EEF5767CD6ADBFC22456B2AB11F17616615CADC0E20A5DB791A30FBD72239D28"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Inde.xml",
+      "sha256": "0AB792E881CE93B2CA6ED3F2852CED1D2832677278AE37A9B0DFBDC29A33D30F"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Italie.xml",
+      "sha256": "A7205631B928C461DE200A6A9D1D08BF3348218CFCE9EF7980F01A391B42AD15"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Japon.xml",
+      "sha256": "D2C2940B043D29AF55D49D3A57DFF6A6F719C334C1C27DFECBDC9AEC1BF85BCA"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Levant.xml",
+      "sha256": "28F1614193C5E73B5CD7188B272FA022C6A96B96824858F38550396B3D59DABF"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Maghreb.xml",
+      "sha256": "4140DA02B34EF10A040216D16E59EE417119A24FA410B9C88338C0FC5DEC2FAC"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Mangue.xml",
+      "sha256": "834BE8DDD7B5DEF17F3C1D1F70463C8D833C79DC0F2D7E96713302D55A7DE755"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Mexique.xml",
+      "sha256": "3126DAAB4CD8B1FFB7330357DE05B42CE8514C6FB3FE06275141E617E65464D3"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Oeufs.xml",
+      "sha256": "85DB0A2C5798F8EA67FAE2A7A4CDC8E4B1983709606AF4E4DD71EC17C73D5270"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Perou.xml",
+      "sha256": "D96A49022123DBB8CC6F8E3E21A2456A7BDAF6C9E72C77AF435B6CC191C43327"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Rares.xml",
+      "sha256": "60C3C3973A8507054312E59ABDB7B7E2728B7557197C2DC098F70F0989D8D074"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Regions.xml",
+      "sha256": "EF158F0D681792BE9E5B5E3983BD1D7240148F99D26A466F48F160ABFD35138C"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Regions2.xml",
+      "sha256": "07ABBE1384A52851E581BCBBA5DD2E78D8495698D4AAADCC151FAE04E17F44A5"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Reptiles.xml",
+      "sha256": "2BECB27D8992EC30F478124F100D17CF267E7C74381901C520F04A0CDF0E8274"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Sorgho.xml",
+      "sha256": "C3B84D9117108E472928CB326C8FFBCD07FC76EDBD047598092E0390E58D03BB"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_SucreSale.xml",
+      "sha256": "829E173A5DBBE4798AFD37A73C77DEE9B9A1DDA72C53785C18A529503182E69D"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Toxipatate.xml",
+      "sha256": "E4A3FD4EF85F3E7471BE8C76627F8ACD490A23B9176EE8797A3BEB3CBC8C2E6C"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_01.xml",
+      "sha256": "05AE859562B442F19EFF7651599801967582AAE54C721DF231646C61876C0440"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_02.xml",
+      "sha256": "8413E27E1A5FB97F579F66FECF50BB52C5FC9C294BBC63291C829103D866894B"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_03.xml",
+      "sha256": "C0E7A2E72D7CD1CFB2D3E702DAFDF1D5057AE0A6817ECEE0DC7491601BC9D035"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_04.xml",
+      "sha256": "8800E5494A65564F7BF3F37CB8E58596A8331AA8B751393C2F6CA2D8A6D6E15B"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_05.xml",
+      "sha256": "DF1405DC9942AF1912D0E306E60D82844884019DCC9B00FDE4F5552C861AB9B7"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_06.xml",
+      "sha256": "996A1D24623DA09ADBCB40CBC41DEB161412046CCBEE4F065E390CF2D90E71C0"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_07.xml",
+      "sha256": "E2A15653EF4D5726E8DAEF673995FFAE9C64AD9E9A87DFD2E92CD930C0BB099B"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_08.xml",
+      "sha256": "F012EF0B5E371BE0066C4FEB853601F8D791A58D7692335AAD3264EBF05BECF0"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_09.xml",
+      "sha256": "716960CA057FF702B39AADC042F1CA2A466E3EC6511D80518A2FE0E3829AE146"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_10.xml",
+      "sha256": "87BCACB322C55EFC87F218FA94C7CC2839DF5BE90F1EB9621C4D5A2FD274998C"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_11.xml",
+      "sha256": "4DD2AA213B5C8C83AFBBE9C06D788CFF92AA8162744FF44898EE9FBB56BA2784"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_12.xml",
+      "sha256": "9A79797FFCFBCAEC0B69E16B2A66349E83ED558E3BC705F7B2C0C1A2BF952846"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\MainButtonDef\\Settings.xml",
+      "sha256": "21081E454EF1E0B545D2ED39A206696492251079ECFE7984D61779DC55D0AF03"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\Keyed\\Fallback.xml",
+      "sha256": "3029DBBF632C086B5A40BF80BF9A83FD1A3CA16018E30C6EAE7DE937E0948BBD"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\Keyed\\Misc.xml",
+      "sha256": "02114DB49872CA6027063453F3282B196DD2CDB4E413A4860C3009A0EFA75230"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Patches\\CategoryInflections_FR.xml",
+      "sha256": "0E802ED5BA39BF7F2CCE23866A7E1834EBAA4EDA5D9C9CB4C4B879D4A1E9C2C9"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Patches\\Inflections_FR.xml",
+      "sha256": "4D8C0FAF79E49D9F1E72D59AF9E6875F9059AD7EA0F16AA7D91906F2A3027361"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Patches\\Inflections_ThirdParty_FR.xml",
+      "sha256": "4D2A65252D8FA1E8F9993B4194E6C27D89AFDF4B06F17E2DC75F3944603BBF35"
+    },
+    {
+      "path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Patches\\SideDishes_FR.xml",
+      "sha256": "55F49370420DD20E97EDD30AC3C3354C5D6BA84DD927ECCD951729917A78C115"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3245374432\\1.6\\Assemblies\\FlavorText.dll",
+      "sha256": "6F6F65F552B76D06B5C677CCB08B8ADDF0C19292A2842B863413E748DAF23130"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\RimWorldWin64_Data\\Managed\\Assembly-CSharp.dll",
+      "sha256": "5CF1B5BE399D5B1C9C56CA72C9D35B4ECF307FEACF5859D04AC5A1AA5926356A"
+    }
+  ]
+}
