@@ -1,8 +1,12 @@
 # Functional test plan
 
-This mod holds no assembly. Every one of its 896 dishes, its seven new ingredient categories and
-its four patch files are XML, applied at load time on top of Flavor Text (hekmo). So there is
-nothing to unit-test and three things that can actually break:
+All in-game scenarios are executed exclusively by the user. Codex checks preparation,
+static prerequisites and automated results. Pending in-game results block only
+done -> tested, not preTest -> done.
+
+This mod holds no assembly. Every one of its 901 dishes, its seven new ingredient categories and
+its five patch files are XML, applied at load time on top of Flavor Text (hekmo). So there is
+no owned assembly to unit-test; XML regression checks cover three things that can break:
 
 1. **Loading.** A patch whose xpath finds nothing, or a `ThingDef` reference that does not resolve,
    logs a red error and can cost a whole def.
@@ -10,7 +14,7 @@ nothing to unit-test and three things that can actually break:
    label both, or by name through `thingDefsToAbsorb`. A category that absorbs nothing is silent:
    no error, just dishes that never fire.
 3. **Firing.** A dish only appears if every one of its ingredient slots accepts something present
-   in the save, and if the kind of meal it declares exists. Most of the 896 need a pantry wider
+   in the save, and if the kind of meal it declares exists. Most of the 901 need a pantry wider
    than vanilla and a cooking mod for their kind of meal, so "I never see my dishes" is the
    expected outcome on a light modlist, not a bug.
 

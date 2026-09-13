@@ -5,7 +5,9 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        options
+stage:        done
+stage_meaning: ready for final in-game validation by the user
+in_game_validation_owner: user
 settings_audit: not_applicable
 localization: complete
 translation_en: complete
@@ -20,10 +22,52 @@ updated:      2026-09-13
 tested_on:
 workshop:
 remaining:
-  - "unverified: Execute and record applicable T1-T14 in-game scenarios; French integration belongs to the separately installed companion."
+  - "unverified: User-only done -> tested validation of applicable T1-T14 scenarios, logs and new/existing saves; French integration uses the separate companion."
 ---
 
 # Flavor Text Extended — status
+
+## Cumulative status correction — 2026-09-13
+
+User clarified that all in-game testing belongs exclusively to the user. The original
+workflow explicitly defines done as ready for that testing. The earlier decision to remain
+at preTest because the game was closed or mods inactive was incorrect and is superseded.
+
+| Reached status | Prerequisite evidence |
+|---|---|
+| horsMonoRepo | Standalone repository, existing public remote and previously pushed base; identity, licence and English distribution documentation audited. Local commit f62b876 contains the corrections. |
+| ModIcon générée | XML-only implementation; compilation not applicable. Original installed 64x64 icon explicitly selected and accepted by user. |
+| Preview générée | Installed 896x504 PNG, 553178 bytes; visual inspection previously recorded. |
+| preOptions | Preview hierarchy corrected and English About description with required final source link; separate FR companion linked. |
+| options | No useful extension-owned settings; source inventory confirms no empty page or shortcut. Engine settings remain in Flavor Text. |
+| l10n | English native Def text and tokens checked; FR belongs exclusively to the separate companion by explicit user instruction. |
+| preTest | Required dependency and optional guards audited; 47 provider-reference pairs checked. Older optional Shenzhou versions are not certified for 1.6. |
+| done | T1-T14 scenarios specify setup/actions/expected results; automated checks pass for 901 dishes, XML checks pass for 51 files and 29 operations. Distributed hashes still match PRETEST-2026-09-13.json. |
+| tested | Not reached. In-game execution and results belong exclusively to the user. |
+
+No fresh game launch, configuration change or in-game pass is claimed. A closed game,
+inactive test loadout or empty Player.log is not a blocker for done. Earlier evidence
+remains valid where delivered files are unchanged. This update changes status/docs only.
+
+## preTest readiness — 2026-09-13
+
+Checked committed content f62b876, with only this status/test-plan documentation updated.
+Settings gate remains justified not_applicable: 901 static dishes, seven categories,
+five patch files, no owned configuration, settings assembly, empty page or shortcut.
+Engine settings remain owned by Flavor Text. The user explicitly places French content
+in its separate companion, so translation_fr remains not_applicable here.
+
+English native fields remain localizable through the dependency's Def fields. Rechecked
+901 dishes: zero English/token errors, zero French-word warnings; category/meal checks
+have zero errors and ten unchanged authored-combination/name warnings. XML: 51 files,
+29 operations, four Odyssey guards pass. All 47 optional provider-reference pairs resolve.
+The five new English descriptions were reviewed, including explicit culinary adaptations.
+No new player-facing UI or hardcoded code strings were introduced.
+
+The localization and offline preparation gates pass; stage advances from options to preTest.
+T1-T14 game scenarios remain unverified: no game launch, UI interaction, cooking,
+load/save round trip or runtime compatibility result is claimed. tested_on stays empty.
+Current evidence is recorded in PRETEST-2026-09-13.json; earlier manifests are historical.
 
 ## Scope correction requested by user — 2026-09-13
 
@@ -392,3 +436,16 @@ Checks: 901 dishes, zero errors, ten unchanged warnings; 47 optional references 
 51 XML files and 29 patch operations pass. No in-game execution. French translation work
 was sent to the companion task with the exact new keys and ingredient indices.
 The historical FoodCourt comparison is the pre-integration snapshot.
+
+## Runtime environment check — 2026-09-13
+
+The installed Mods/FlavorTextExtended directory is a junction to this repository's Mod/;
+all distributed file hashes match, so no installation copy is needed. RimWorld is not
+running. Player.log is empty (last modified 2026-09-11). The current active modlist has
+neither hekmo.FlavorText nor nelim.flavortextextended. No game configuration was changed.
+Interactive cooking/save tests cannot be executed through the available tools: native
+application control is unavailable in this session. Runtime scenarios remain unverified.
+Next manual run: Harmony, Core, Flavor Text, then Flavor Text Extended, English language;
+start a disposable colony, check loading errors, cook meals and save/reload per TESTS.md.
+Do not use an existing modded save with this minimal modlist; existing-save tests use a copy
+with its original dependencies preserved. French integration is a separate companion run.
