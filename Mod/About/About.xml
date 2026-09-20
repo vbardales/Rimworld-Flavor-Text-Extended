@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Flavor Text Extended</name>
-	<author>nelim</author>
+	<author>Nelim</author>
 	<packageId>nelim.flavortextextended</packageId>
 	<url>https://github.com/vbardales/Rimworld-Flavor-Text-Extended</url>
 	<description>An add-on for Flavor Text (hekmo). Requires it, contains none of its files, and does nothing without it.

@@ -335,7 +335,7 @@ The French companion is a separate repository and is not managed by this task.
 
 ## Identity and publication
 
-- Mod name: **Flavor Text Extended**; author: **nelim**.
+- Mod name: **Flavor Text Extended**; author: **Nelim**.
 - Package ID: `nelim.flavortextextended`.
 - Remote: https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 - GitHub visibility: **public**, verified using GitHub's repository API on 2026-09-13
