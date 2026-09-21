@@ -32,11 +32,20 @@ FRENCH
 
 This mod contains the English content. For French names, descriptions and ingredient grammar, install the separate [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais]Flavor Text Extended - Français[/url] companion alongside Flavor Text and this mod. The French companion is optional.
 
-CREDITS AND DISCLOSURE
+IF I GO QUIET
 
-Flavor Text is by hekmo. All of its machinery - how names are composed, how a definition is picked, how ingredients inflect - is his work.
+If I do not answer within a reasonable time after being contacted, anyone may freely update this or any other of my mods, including publishing a continuation of it. All credit must be preserved.
 
-This mod's content was produced with the assistance of Claude (Anthropic), under human direction and review. See ATTRIBUTION.md for the detail.
+AI-GENERATED
+
+The dishes, their descriptions and the ingredient patches were written with Claude (Anthropic), under my direction and review: I chose which dishes to write, which categories to split and which combinations to keep. Codex (OpenAI) helped with documentation, validation and the text laid over the Preview. The mod icon and the Preview illustration are AI-generated images; the tools that made them were not recorded.
+
+THANKS
+
+hekmo, for Flavor Text: how names are composed, how a definition is picked and how ingredients inflect are all his work, and this mod is only new content for it.
+daylight (RimLife Cultivation Plus, RimLife Expansion Trading), Diamond.J, DaJian, Frolg and TangWan (Chinese Traditional Cultural Things Expanded) and the makers of VV New Harvest, whose ingredients this mod recognises when they are installed.
+
+Credits, provenance and licence (MIT) are in ATTRIBUTION.md and LICENSE, shipped with the mod.
 
 [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]</description>
 	<modVersion>1.0.0</modVersion>

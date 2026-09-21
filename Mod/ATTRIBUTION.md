@@ -22,8 +22,10 @@ conclusions about coverage.
 
 ## Standalone extension
 
-This repository contains 896 dishes with English source labels and descriptions,
-seven ingredient categories and ingredient patches. Established culinary names
+This repository contains 901 dishes with English source labels and descriptions,
+seven ingredient categories and ingredient patches. Five of the dishes (Altang, Beondegi,
+Bungeoppang, Jjapaghuri, Kimchijeon) were written after comparing the installed cooking mods
+with Flavor Text's coverage; only the dish ideas were taken, no asset or prose from those mods. Established culinary names
 retain their original spelling where appropriate. The French dish translations
 are maintained in the separate companion's `Languages/French/DefInjected/` folder.
 
@@ -41,8 +43,18 @@ human direction and review. The design decisions — which dishes to write, whic
 categories to separate, which agreements to fill in — were made and approved by the human
 author.
 
-Codex (OpenAI) assisted with documentation, validation and artwork corrections.
-The replacement cooking mascot was edited with OpenAI's built-in image generation tool.
+Codex (OpenAI) assisted with documentation, validation and the text laid over the Preview
+(`Art/render-preview.ps1`, an HTML overlay rendered by Chrome).
+
+Images. Both were made with AI image tools in earlier work; the tool is not recorded.
+
+- `Mod/About/ModIcon.png` is the original mascot icon, ribbon lettering included, enlarged
+  from its 64 x 64 original to 128 x 128 (bicubic) at the author's request. The 64 x 64 file
+  is kept as `Art/archive/ModIcon-before-fix.png`.
+- A ribbon-less variant of that mascot was generated with OpenAI's built-in image generation
+  tool on 2026-09-13. It was not adopted; it stays under `Art/` as `ModIcon-source.png`.
+- `Mod/About/Preview.png` is the illustration `Art/Preview.png` with the title, summary and
+  version badge laid over it. The illustration itself is unchanged.
 
 Every dish name was checked against collisions with the 930 original defs, and every
 ingredient combination verified with the tools in `_tools/`.
@@ -68,6 +80,7 @@ None is required; each provider-specific attachment entry is guarded when its mo
   Himalayan barley, hybrid rice, flours, salted mustard, Zhejiang citrus, chilli oil,
   ginkgo nuts, mugwort, four grain liquors. Both versions of the mod are covered, their
   `packageId`s differing.
+- **VV New Harvest** — leek (`VV_Leeks`).
 - Miscellaneous — honeycomb, okara, mixed berries, edible arachnids, fodder.
 
 These hooks depend on external defNames and package IDs. Inactive guards can silently

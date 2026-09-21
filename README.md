@@ -72,8 +72,8 @@ can produce a load error. Check both logs and actual ingredient categorization.
 ## Repository layout
 
 ```
-Mod/       distributed mod: About, Defs, Patches, Languages, licence and attribution
-Art/       illustration sources and reproducible Preview composition
+Mod/       distributed mod: About, Defs, Patches, licence and attribution
+Art/       illustration source, icon sources and reproducible Preview composition
 _tools/    development and validation scripts; not distributed
 TESTS.md   offline commands and in-game test scenarios
 ```

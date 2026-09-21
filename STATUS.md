@@ -5,8 +5,8 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        done
-stage_meaning: ready for final in-game validation by the user
+stage:        preTest
+stage_meaning: done retracted 2026-09-21 - no Pickle suite written and its absence not justified; every earlier gate holds
 in_game_validation_owner: user
 settings_audit: not_applicable
 localization: complete
@@ -18,14 +18,109 @@ xml_tests: passed
 licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 maintainer:    current Codex task for this repository
-updated:      2026-09-13
+updated:      2026-09-21
 tested_on:
 workshop:
 remaining:
-  - "unverified: User-only done -> tested validation of applicable T1-T14 scenarios, logs and new/existing saves; French integration uses the separate companion."
+  - "defect: preTest -> done. No Pickle (Gherkin) scenario exists in this repository and no text justifies their absence or scope. The workflow asks for them written, or their non-applicability explicitly justified. Load-time checks (T1-T3) can only be shown by a running game and are the natural candidates."
+  - "unverified: done -> tested. Scenarios T1-T14 in game, Pickle suites executed and their @review captures opened, logs, FR/EN interface, new and existing save. Owner of the T1-T14 walk: the user."
+  - "unverified: TESTS.md declares no Pickle passes (without optional mods / with them / one per declared incompatibility). Nothing is declared incompatible, so at most the first two families would apply."
 ---
 
 # Flavor Text Extended — status
+
+## Cumulative audit — 2026-09-21
+
+**Previous stage: `done`. Retained stage: `preTest`.** Seven transitions up to `preTest` hold on
+the current tree. `preTest -> done` is not established, for one reason only (below).
+
+Audited revision: `b79372c705cc574558b0e5538c75ead61e61eab2`, equal to `origin/main`
+(`git ls-remote`, `git fetch`); working tree clean before this update, which changes STATUS.md only.
+No game was launched, no Pickle run started, nothing in the game's configuration touched.
+The workflow read is the current AUDIT.md, which postdates the 2026-09-13 `done` decision.
+
+| Transition | Result | Evidence checked today |
+|---|---|---|
+| dansMonoRepo -> horsMonoRepo | validated | Standalone git root, `origin` = the GitHub repo, public (`gh api`: `private: false`), default branch `main`, remote HEAD = local HEAD. STATUS present. `original` / MIT, `LICENSE` and `ATTRIBUTION.md` byte-identical in root and `Mod/`. `packageId nelim.flavortextextended`, repo `Rimworld-Flavor-Text-Extended`, folder `FlavorTextExtended`: consistent. README, ATTRIBUTION, CHANGELOG, LICENSE in English. Stale content found at audit entry (896 dishes, replaced-icon claims): corrected, see below. |
+| -> ModIcon générée | validated (after correction below) | XML-only, no build applicable, no DLL, no source folder. At audit entry `Mod/About/ModIcon.png` was 64x64, 7,504 bytes; it is now the same mascot **enlarged to 128x128** (bicubic, 32,999 bytes, SHA256 `71EF4B75...3711`), opened and looked at. The ribbon still reads `flavor text`: kept by the user's explicit choice, which departs from the no-text rule of STYLE_RIMWORLD.md and is recorded here as a decision, not verified. |
+| -> Preview générée | validated | `Mod/About/Preview.png` is 896x504, 553,178 bytes (< 1 MB), opened and looked at: dishes on a dark wooden table, title and summary legible, no clipped text, no concrete camera defect. |
+| -> preOptions | validated | `Extended` is a smaller tan suffix beside the white main title, the green rule and `1.6` badge are a third, distinct colour. Description in English. It ends with `[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]`, last in the field and matching the `<url>` field and the remote. The FR companion link resolves (`git ls-remote`). No `(unofficial)` / `(prohibited)` suffix is called for by `original` / public. |
+| -> options | validated, `not_applicable` | Source inventory of `Mod/`: 51 Def/patch XML files, no `.dll`, no `.cs`, no `MainButtonDef`, no `ModSettings`, no `Keyed`, no `LoadFolders`. No settings page and no shortcut can exist. Verified from sources only, which is what this transition asks. |
+| -> l10n | validated | English is the native Def text: 901 `FlavorDef` and 7 `FlavorCategoryDef`, all with source text; no other player-facing text in patches, no code. `_tools/Test-Localization.ps1 -CompanionMod ../FlavorTextExtendedFR/Mod`: PASS, 908 owned defs, 1,809 non-empty English fields with matching French paths, 4,614 valid tokens. `node _tools/verifen.js`: 901 dishes, 0 errors, 0 warnings. French lives in the separate companion by the user's explicit architecture decision: recorded, not a defect here. No in-game language pass exists (it belongs to `done -> tested`). |
+| -> preTest | validated | Only `hekmo.FlavorText` is a hard dependency, declared with its Workshop URL; `loadAfter` names Harmony, Core and Flavor Text. Optional providers (`daylight.RLEVVCultivationPlus`, `Dajian.ChiTeaditional.Expanded`, `daylight.RimLifeExTRGMod`, VV New Harvest) appear only as `MayRequire` on the entries, not as dependencies. `_tools/Test-OptionalIngredients.ps1`: PASS, 47 guarded provider-reference pairs resolve. `_tools/Test-Xml.ps1`: PASS, 51 files, 29 operations applied in memory, four Odyssey guards. No `LoadFolders` and none needed. Installed Flavor Text is 0.3.6, 1.6 supported. |
+| -> done | **not established** | See below. |
+| -> tested | not reached | Nothing executed in game. |
+
+### Why `done` is retracted
+
+Criterion 8 asks for three things beside the scenarios: automated tests green, XML tests green, and
+Pickle (Gherkin) tests **written, with their scope justified** ("only what a running game can show").
+
+- Scenarios: T1-T14 in `TESTS.md`, each with setup, actions, expected result. Present.
+- Automated and XML tests, rerun on the delivered tree: `checkdefs.js` 901 dishes, 0 errors,
+  10 warnings (all shared-combination or similar-label, unchanged); `verifen.js` 0/0;
+  `Check-ConfigErrors.ps1 -ModPath ./Mod -AlsoScan <Flavor Text 1.6 Defs>`: 908 of 908 defs,
+  26 rules, no config error; the three PowerShell tests above. All green.
+- Pickle: **absent.** No `Tests/Pickle`, no `.feature`, no mention of Pickle in `TESTS.md` or here,
+  hence neither scenarios nor a justification of their absence. This is a defect, not a missing check:
+  the file that should carry the answer does not.
+
+Not a case for "not applicable" on its face. The whole risk of this mod is load time under the
+real engine (a patch xpath that finds nothing, a cross-reference that does not resolve, an Odyssey
+guard), and `TESTS.md` T1-T3 say so themselves. The offline tools approximate the loader without
+being it (`Test-Xml.ps1` says so: it does not emulate conditional loading). Comparable XML-only mods
+in this tree write a small load-time suite. Whether to write those scenarios or to argue their
+absence is the owner's call; this audit does neither, since it may not create tests to earn a stage.
+
+### Not counted against the stage
+
+- `TESTS.md` is named `TESTS.md`; the Pickle section of the workflow names `TESTING.md` for the
+  declaration of passes. Nothing to declare yet.
+- The distributed `About.xml` no longer matches `PRETEST-2026-09-13.json`: `b79372c` changed its
+  `<author>` to `Nelim`. At audit entry it was the only one of 55 distributed files that differed; after the corrections below
+  `About.xml`, `ATTRIBUTION.md` and `ModIcon.png` all differ. Today's reruns cover the tree as delivered. The claim "hashes still match" in the 2026-09-13 correction below
+  is historical.
+- The 2026-09-13 statement that in-game work belongs to the user alone predates the WSL Pickle
+  regime. It still governs the T1-T14 walk; it does not stop a session from writing Pickle scenarios.
+
+### Corrections applied after the audit — 2026-09-21
+
+Requested by the user right after the audit. STATUS.md aside, they change the files below and
+nothing else; no Def, patch or dependency was touched.
+
+- `Mod/About/ModIcon.png`: restored 64x64 mascot enlarged to 128x128, original kept as
+  `Art/archive/ModIcon-before-fix.png`.
+- `Mod/About/About.xml`: after the body, the description now carries, in the order of the
+  prepublished checklist, `IF I GO QUIET` (adoption clause verbatim), `AI-GENERATED`, `THANKS`, a line
+  pointing at ATTRIBUTION.md and the licence, then `[url=...]Source code on GitHub[/url]` last.
+  The XML parses and the field still ends on that link. `Preview.png`, `modVersion` and the dependency
+  block are unchanged. The Workshop description is still only sent at creation.
+- `ATTRIBUTION.md` and `Mod/ATTRIBUTION.md` (byte-identical): 901 dishes, the five FoodCourt-derived
+  dishes, VV New Harvest, and an image-provenance list that matches the delivered files.
+- `CHANGELOG.md`: no longer claims a replaced icon, and French category labels are said to live in the
+  companion. `README.md`: layout line. `Art/README.md`: icon flow. `Mod/Languages/` (empty, untracked)
+  removed.
+- Left as written: `TESTS.md` and the README profile snapshot cite 896, in sections dated as historical.
+
+Reruns after the edits: `Test-Xml.ps1` 51 files / 29 operations / four Odyssey guards PASS;
+`Test-Localization.ps1` 908 defs, 1,809 fields, 4,614 tokens PASS; `git diff --check` clean.
+Nothing that carries Def content changed, so the other results above stand.
+
+Two statements in the new text are **not verified** and want the author's confirmation:
+that the icon and the Preview illustration were made with AI image tools (the repository does not
+record it; the wording says the tool is unrecorded), and that Claude and Codex did what the AI
+section says (taken from the earlier ATTRIBUTION, not from a log).
+
+### Next transition, strictly
+
+`preTest -> done`: either write the Pickle scenarios that only a running game can show (at least
+the load-time claim of T1-T3, on the minimal set and on the set with the optional providers),
+run nothing yet, and declare the passes in the test document; or write down why there are none.
+Running them is a `done -> tested` criterion.
+
+### Optional
+
+Decide whether the lettered ribbon on the icon should stay; confirm the two unverified statements above.
 
 ## Cumulative status correction — 2026-09-13
 
