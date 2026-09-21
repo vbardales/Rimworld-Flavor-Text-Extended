@@ -3,11 +3,10 @@
 Load-time scenarios for Flavor Text Extended, played inside a running RimWorld by
 [Pickle](https://github.com/RimWorks/Rimworld-Pickle) (`rimworks.pickle`, Workshop 3791648678).
 
-**Status: written on 2026-09-21, never run.** Nothing here has been observed. Every step is one
-Pickle builds in (found in `RimWorks.Pickle.Core.dll`), and no scenario has met a real game: a
-step that reads the wrong way, or a def that Pickle's lookup cannot find for a custom def type,
-will only show at the first run. See `../../TESTS.md`, "Pickle passes", for what each pass is
-for and what is left out.
+**Status, 2026-09-21: `sans-facultatifs` ran, 5 of 5; `avec-facultatifs` has not run.** The report is
+kept in `results/2026-09-21-sans-facultatifs/` because `pickle-reports/` is overwritten by the next
+run. Every step is one Pickle builds in. See `../../TESTS.md`, "Pickle passes" and "What has run",
+for what each pass is for, what the run shows and what it does not.
 
 ## What is here, and why it needs the game
 

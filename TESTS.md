@@ -292,9 +292,9 @@ to this extension: it adds neither settings nor a shortcut. T13 still checks the
 
 ## Pickle passes
 
-Written 2026-09-21 in `Tests/Pickle/`, **never run**. What follows says how many passes the mod
-needs and what each one is for; it reports no result, because there is none. The suite is a
-companion mod, `Flavor Text Extended - Pickle tests`, never published; its README has the commands.
+Written 2026-09-21 in `Tests/Pickle/`. Run once so far: the pass without the optional mods, see
+"What has run" below; the pass with them has not. What follows says how many passes the mod needs
+and what each one is for. The suite is a companion mod, `Flavor Text Extended - Pickle tests`, never published; its README has the commands.
 
 **What Pickle is for here, and what it is not.** A Pickle run takes over the machine, so nothing
 that an offline tool proves is repeated in Gherkin: `Test-Xml.ps1`, `checkdefs.js`,
@@ -329,11 +329,29 @@ them.
 - The harness looks for `<rimworld>/<Mod>/`, one level above where this repository sits. It cannot
   reach it, and a junction `<rimworld>\FlavorTextExtended` now bridges it (2026-09-21); see
   `Tests/Pickle/README.md`.
-- Every step is Pickle's own and was matched against the patterns found in its assembly, not
-  against a game. Whether `def "X" is defined by mod "Y"` finds a def of the custom type
-  `FlavorText.FlavorDef` is unknown until a run.
+- Every step is Pickle's own. The first run settled the question this line used to leave open:
+  `def "X" is defined by mod "Y"` does find defs of the custom types `FlavorText.FlavorDef` and
+  `FlavorText.FlavorCategoryDef`, and `def "X" was patched by mod "Y"` works on the latter.
 - A run is a `done -> tested` criterion, with the `@review` rule that a green proves the path was
   played and nothing more; these scenarios take no screenshot.
+
+### What has run
+
+- **sans-facultatifs**, 2026-09-21 (game clock 16:49 UTC), headless in the WSL, `-Filter
+  01-alone.feature`: **5 of 5 scenarios, 20 of 20 steps passed, `exitReason: passed`**, exit code 0.
+  Twelve mods staged: Harmony, Core and the five DLCs, RimLogging, Pickle, Flavor Text, this mod and
+  its companion. Report copied to `Tests/Pickle/results/2026-09-21-sans-facultatifs/` (junit,
+  messages, summary, Player.log); the shared `pickle-reports/` is overwritten by the next run.
+  The scenario count matches the five scenarios of the one feature file played.
+- What the log adds: Flavor Text printed `641 active FlavorDefs for the current modlist found out of
+  1831 total FlavorDefs`. 1831 is hekmo's 930 plus our 901, so every dish of this mod reached the
+  engine. No `[ERROR]` line at all, and no `[WARN]` attributed to this mod. The two warnings
+  present are `[Vanilla]`: Steamworks could not initialise (no Steam in the WSL), and the companion
+  test mod's dependency on this mod declares no download URL. The second is the test mod's own
+  About.xml; a `downloadUrl` was added afterwards and is **not** yet confirmed to silence it.
+- **What it does not prove.** It is a load-time result on a bare list. Nothing was cooked, no dish name
+  was drawn, no provider was present, no screenshot was taken, and the DLC-off case is not covered.
+  The **avec-facultatifs** pass has not run: the mod is not yet validated on the rule of two passes.
 
 ## Where the reptile meats come from
 

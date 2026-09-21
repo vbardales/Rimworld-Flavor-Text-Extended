@@ -13,6 +13,7 @@ The scenarios only read defs and the log, so they change nothing in the game and
     <li>
       <packageId>nelim.flavortextextended</packageId>
       <displayName>Flavor Text Extended</displayName>
+      <downloadUrl>https://github.com/vbardales/Rimworld-Flavor-Text-Extended</downloadUrl>
     </li>
     <li>
       <packageId>rimworks.pickle</packageId>

@@ -6,7 +6,7 @@ remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
 stage:        done
-stage_meaning: ready for final in-game validation; Pickle suite written 2026-09-21, never run
+stage_meaning: ready for final in-game validation; Pickle suite written 2026-09-21, bare pass run 5/5, second pass not run
 in_game_validation_owner: user
 settings_audit: not_applicable
 localization: complete
@@ -23,12 +23,31 @@ tested_on:
 workshop:
 remaining:
   - "unverified: done -> tested. Scenarios T1-T14 in game, Pickle suites executed and their @review captures opened, logs, FR/EN interface, new and existing save. Owner of the T1-T14 walk: the user."
-  - "unverified: the two Pickle passes (TESTS.md, Pickle passes) have never run, so no step is confirmed against a real game. In particular, whether Pickle finds a def of the custom type FlavorText.FlavorDef by name is unknown."
+  - "unverified: the Pickle pass WITH the optional providers (avec-facultatifs, 4 scenarios) has never run, so the rule of two passes is not met. The bare pass ran 2026-09-21: 5 of 5, exitReason passed, report kept in Tests/Pickle/results/2026-09-21-sans-facultatifs/."
+  - "unverified: the companion test mod's new downloadUrl (added after the run) is not confirmed to silence the one [Vanilla] warning about its dependency."
   - "note: the run scripts look for <rimworld>/<Mod>/, one level above this repository. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it; stage-pickle-wsl.sh --list names the mod. Never delete it recursively."
   - "unverified: T2 (no Odyssey) has no Pickle form: the staging always activates the five DLCs. It stays a manual scenario."
 ---
 
 # Flavor Text Extended — status
+
+## First Pickle run — 2026-09-21
+
+Bare pass (`sans-facultatifs`, `-Filter 01-alone.feature`), queued through `Run-PickleWsl.ps1` on a ticket
+and played headless in the WSL game once the queue reached it (lock held 18:48:13 to 18:49:44, local time).
+**`exitReason: passed`, 5 scenarios of 5 in the one feature file, 20 steps of 20 PASSED, exit code 0.**
+Twelve mods staged. Report and log copied to `Tests/Pickle/results/2026-09-21-sans-facultatifs/`.
+
+- The engine line read `641 active FlavorDefs ... out of 1831 total FlavorDefs`; 1831 = 930 + 901.
+- No `[ERROR]` line. No `[WARN]` attributed to this mod. Two `[Vanilla]` warnings: Steamworks (no Steam
+  in the WSL) and the test companion's missing dependency download URL (added afterwards, not re-run).
+- Settled: Pickle finds defs of the custom types `FlavorText.FlavorDef` and `FlavorText.FlavorCategoryDef`
+  by name, and attributes patches on the latter to this mod.
+- **Not proved:** anything on a list with the providers (that pass has not run), the DLC-off case, dish
+  names actually drawn while cooking, the French text, any screenshot. A first attempt, the same
+  morning's ticket 34848, died with `Indexation impossible dans un tableau Null` inside the shared
+  `Run-PickleWsl.ps1` before taking the lock; it ran nothing. The re-queued ticket did not reproduce it.
+- Stage unchanged: `done`. `tested` also needs the second pass and the user's T1-T14 walk.
 
 ## preTest -> done — 2026-09-21, later the same day
 
