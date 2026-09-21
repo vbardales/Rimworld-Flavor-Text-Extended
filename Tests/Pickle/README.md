@@ -67,6 +67,14 @@ repository. Reports land in `<rimworld>/pickle-reports`, as for every mod.
   Flavor Text's postfix is real but no tick passes. It also plays T12: meals are put on the map, the game is
   saved and reloaded, and each meal is found again by its id.
 
+## Where the steps come from
+
+- **Ours**, in `Source/` (below): the cooking steps (`a colonist cooks…`, the assertions on the names drawn, the meals put on the
+  map and checked across a reload) and the category-filing steps (`… is filed under …`). They are written for this mod and read
+  as general; PickleTools' README lists them under "Steps that live in a suite", so another mod knows where to find them.
+- **PickleTools**, staged by the pass map: `nelim.pickletools.expansions` (`PickleTools/ExpansionSteps`) gives the two steps
+  `Nelim's Pickle Tools: the expansion … is [not] active` used by `05-sans-odyssey`. They started here and moved on 2026-09-21.
+
 ## The step assembly
 
 `Source/` builds `Mod/Pickle/Assemblies/FlavorTextExtended.PickleSteps.dll`, committed like the other

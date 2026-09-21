@@ -192,22 +192,6 @@ namespace FlavorTextExtended.PickleSteps
                 $"none of the {named.Count} meals named after {dishDefName} is labelled with \"{text}\"; the first reads \"{named[0].Label}\"");
         }
 
-        // ------------------------------------------------------------------ expansions
-
-        // ModsConfig.IsActive, not the mod list of the run: a DLC that a pass leaves out of ModsConfig
-        // must STAY out once the game has loaded, and only the game can say whether it did.
-        [Then("Flavor Text Extended: the expansion {string} is not active")]
-        public void ExpansionNotActive(PickleContext ctx, string packageId)
-        {
-            ctx.Assert(!ModsConfig.IsActive(packageId), $"{packageId} is active, and this pass left it out");
-        }
-
-        [Then("Flavor Text Extended: the expansion {string} is active")]
-        public void ExpansionActive(PickleContext ctx, string packageId)
-        {
-            ctx.Assert(ModsConfig.IsActive(packageId), $"{packageId} is not active");
-        }
-
         // ------------------------------------------------------------------ save and reload
 
         [When("Flavor Text Extended: {int} of the meals are placed on the map")]

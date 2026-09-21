@@ -28,6 +28,7 @@ remaining:
   - "unconfirmed by the owner: that the icon and the Preview illustration are AI-generated (tool unrecorded), and who did what among Claude and Codex. Both are in About.xml and ATTRIBUTION.md, public since the push; About.xml is sent to Steam only at creation."
   - "unidentified: the Korean cuisine mod behind the five dishes Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon; needed for one thanks message."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
+  - "unverified: the two expansion steps moved to PickleTools (ExpansionSteps) after the sans-odyssey pass passed 3/3 with them in this suite's own assembly. The pass must be rerun once to confirm the new wiring (a path: line in its map); ticket to take."
   - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
 ---

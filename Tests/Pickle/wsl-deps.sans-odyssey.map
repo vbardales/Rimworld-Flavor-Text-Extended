@@ -9,3 +9,7 @@
 # Nothing else is staged: this is the bare pass, minus one DLC. Whether the game KEEPS the DLC out
 # of a loaded save is the open question of this pass; 05 asks the game itself, twice.
 !ludeon.rimworld.odyssey
+
+# The two steps that ask ModsConfig whether an expansion is active live in PickleTools, a repository cloned
+# under the collection root; the path is relative to it, and the folder's About.xml packageId must match.
+nelim.pickletools.expansions   path:PickleTools/ExpansionSteps/Mod

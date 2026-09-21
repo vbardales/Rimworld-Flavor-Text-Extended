@@ -6,6 +6,8 @@
 # had no guard (commit 31c4931), and Test-Xml.ps1 checks only that the guards are there, not that the
 # loader honours them: it does not emulate the loader. Only a game without the expansion can say.
 #
+# The two "expansion" steps come from PickleTools (ExpansionSteps), staged by the pass map.
+#
 # Run it with -DepMap wsl-deps.sans-odyssey.map -Filter 05-sans-odyssey.feature, in English. Played in
 # a pass that has Odyssey, its first scenario fails, on purpose: that is what says the pass really
 # left the DLC out.
@@ -16,10 +18,10 @@
 Feature: the mod on a game without Odyssey
 
   Scenario: the game really has no Odyssey
-    Then Flavor Text Extended: the expansion "Ludeon.RimWorld.Odyssey" is not active
+    Then Nelim's Pickle Tools: the expansion "Ludeon.RimWorld.Odyssey" is not active
     And mod "Ludeon.RimWorld.Odyssey" is not loaded
     # Ideology is one of the four the pass leaves ON: this says only Odyssey was dropped.
-    And Flavor Text Extended: the expansion "Ludeon.RimWorld.Ideology" is active
+    And Nelim's Pickle Tools: the expansion "Ludeon.RimWorld.Ideology" is active
     And no def "Meat_Alligator" exists
     And no def "Meat_SeaTurtle" exists
 
