@@ -26,3 +26,7 @@ _tools/src/
 
 # Generated local installed-mod inventory; regenerate with _tools/compare_foodcourt.py
 Audit-FoodCourt/comparison.json
+
+# Manual-scenario logs: large, and they carry the whole modlist. Keep the folder, not its contents.
+Tests/Manual/logs/*
+!Tests/Manual/logs/.gitkeep

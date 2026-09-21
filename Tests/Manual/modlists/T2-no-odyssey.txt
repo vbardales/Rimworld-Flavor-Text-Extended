@@ -1,0 +1,11 @@
+# T2 - loads without Odyssey. Load order, one packageId per line. English.
+# Every other DLC you own may stay on; Odyssey is the one that must be off.
+brrainz.harmony
+Ludeon.RimWorld
+Ludeon.RimWorld.Royalty
+Ludeon.RimWorld.Ideology
+Ludeon.RimWorld.Biotech
+Ludeon.RimWorld.Anomaly
+# Ludeon.RimWorld.Odyssey   <- OFF
+hekmo.FlavorText
+nelim.flavortextextended
