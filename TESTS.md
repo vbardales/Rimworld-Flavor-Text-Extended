@@ -301,12 +301,29 @@ that an offline tool proves is repeated in Gherkin: `Test-Xml.ps1`, `checkdefs.j
 `Test-OptionalIngredients.ps1` and `Check-ConfigErrors.ps1` keep the XML, the 901 dishes and the 47
 provider references. What only a running game can show is T1 and T3 of this plan, made scriptable:
 the two mods loaded in order, the defs reaching the database under this mod, the patches landing
-once every other mod has had its turn, and a load that logs nothing. Five scenarios in the first pass, four in the second.
+once every other mod has had its turn, and a load that logs nothing. Five scenarios in `01-alone`,
+six in `02-avec-facultatifs`.
+
+**Added later the same day, written and never run:** T5 and T6 (a meal gets a name, a three-ingredient
+dish fires), T7 (four ingredients, tagged `@wip`), T8 (leek is not onion), T9 (the reptile meats are told
+apart) and T10 (provider ingredients reach the categories the patches name). They need a step
+assembly, `Tests/Pickle/Source/`, because Pickle has no built-in step that reads a meal's name or a
+category's contents:
+
+- `04-filing` and the two new scenarios of `02` read Flavor Text's category tree
+  (`FlavorCategoryDef.DescendantThingDefs`). Deterministic, no save, no cooking.
+- `03-cooking` calls `GenRecipe.MakeRecipeProducts`, which Flavor Text patches, on a colonist and a stove
+  of the loaded save: its postfix runs and names the meal for real, but **no tick passes**, so the walk to
+  the stove, hauling and ingredient filters are not exercised. Cooking is a weighted random draw with
+  hekmo's dishes competing, so a step cooks the meal 300 times and asserts that a dish *appeared*, never
+  that it always does. It reads an English label, so it is an English pass.
+- The assembly compiles, and every pattern it declares compiles under Pickle's own expression engine and
+  matches the feature lines (`Tests/Pickle/Check-Steps.ps1`, no game). Nothing else about it is checked.
 
 | Family | Passes | What it proves |
 |---|---|---|
-| Without the optional mods | **1**, `sans-facultatifs`, `-Filter 01-alone.feature` | the mod stands on Flavor Text alone: T3, observed rather than assumed |
-| With the optional mods | **1**, `avec-facultatifs`, `-DepMap wsl-deps.avec-facultatifs.map -Filter 02-avec-facultatifs.feature` | the guarded `<li>` entries resolve when VV New Harvest, RimLife Cultivation Plus and RimLife Expansion Trading are there |
+| Without the optional mods | **1**, `sans-facultatifs`, `-Filter 01-alone.feature,03-cooking.feature,04-filing.feature` | the mod stands on Flavor Text alone: T3, observed rather than assumed; meals named; reptile meats told apart |
+| With the optional mods | **1**, `avec-facultatifs`, `-DepMap wsl-deps.avec-facultatifs.map -Filter 02-avec-facultatifs.feature` | the guarded `<li>` entries resolve, and the ingredients they name land in the right categories, when VV New Harvest, RimLife Cultivation Plus and RimLife Expansion Trading are there |
 | One per declared incompatibility | **0** | nothing in `About.xml` or the README declares one |
 
 **Two passes, not more.** The rule asks for one pass per combination of optional mods that cannot
@@ -318,8 +335,8 @@ them.
 
 **Not covered by Pickle, and why.**
 - T2, the load without Odyssey: the staging always activates Core and all five DLCs. It stays manual.
-- T5 to T9 and T12: they need a colony, a cook and a random draw among matching definitions. They
-  are not load-time claims.
+- T12 (names survive a save and reload) and the walk of a real cook to a real stove.
+  The suite plays T5 to T9 as described above, without simulating ticks.
 - What the patches *add* to a category's `thingDefsToAbsorb`: `Test-Xml.ps1` proves it, and Pickle's
   `field` step has no documented form for list elements.
 - `no errors were logged` is global. A red from Flavor Text or from the test mod itself fails it too;
@@ -329,9 +346,16 @@ them.
 - The harness looks for `<rimworld>/<Mod>/`, one level above where this repository sits. It cannot
   reach it, and a junction `<rimworld>\FlavorTextExtended` now bridges it (2026-09-21); see
   `Tests/Pickle/README.md`.
-- Every step is Pickle's own. The first run settled the question this line used to leave open:
-  `def "X" is defined by mod "Y"` does find defs of the custom types `FlavorText.FlavorDef` and
-  `FlavorText.FlavorCategoryDef`, and `def "X" was patched by mod "Y"` works on the latter.
+- The steps of `01` and `02`'s first scenarios are Pickle's own. The first run settled the question this
+  line used to leave open: `def "X" is defined by mod "Y"` does find defs of the custom types
+  `FlavorText.FlavorDef` and `FlavorText.FlavorCategoryDef`, and `def "X" was patched by mod "Y"` works
+  on the latter. The steps of `03`, `04` and the new `02` scenarios are ours (`Tests/Pickle/Source/`)
+  and have never met a game.
+- Names the new scenarios take from the game and never checked in one: `FueledStove`, `CookMealSimple`,
+  `CookMealFine`, `RawRice`, `Meat_Pig`, `EggChickenUnfertilized`, `RawPotatoes`, and the six reptile meats
+  (four of them auto-generated from Odyssey races). A wrong name fails with a message that says so.
+- Whether the fixture map `test-colony` has a clear cell at (140, 155) for the stove is inferred from
+  Pickle's own bill scenarios, which build a bench at that cell.
 - A run is a `done -> tested` criterion, with the `@review` rule that a green proves the path was
   played and nothing more; these scenarios take no screenshot.
 

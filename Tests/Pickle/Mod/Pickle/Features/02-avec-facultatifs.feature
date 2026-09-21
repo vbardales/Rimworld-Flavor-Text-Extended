@@ -32,6 +32,25 @@ Feature: Flavor Text Extended beside its optional ingredient providers
     And def "FT_MeatRaw" was patched by mod "Flavor Text Extended"
     And def "FT_Cheese" was patched by mod "Flavor Text Extended"
 
+  Scenario: the providers' ingredients are filed where the patches send them
+    # T10 of TESTS.md, and the attachment risk the whole guard arrangement exists for. Each line is
+    # one <li MayRequire> of Patches/Keywords_Cultivation.xml or Keywords_Mods.xml, resolved by the
+    # loader and read back from the category tree: a name the provider dropped fails here, in the
+    # attribution, and not only as a red line in the log.
+    Then Flavor Text Extended: "VV_Chingensai" is filed under "FT_LeafyVeg"
+    And Flavor Text Extended: "VVTomato" is filed under "FT_Tomato"
+    And Flavor Text Extended: "VVOnion" is filed under "FT_Onion"
+    And Flavor Text Extended: "VVPaprika" is filed under "FT_BellPepper"
+    And Flavor Text Extended: "RLE_DentCorn" is filed under "FT_Corn"
+    And Flavor Text Extended: "RLE_DriedMeat" is filed under "FT_MeatRaw"
+    And Flavor Text Extended: "RLE_CheesNatureAged" is filed under "FT_Cheese"
+
+  Scenario: leek is not onion
+    # T8 of TESTS.md. VV_Leeks is absorbed by the leek category, whose parent is the generic
+    # vegetable one; a leek that fell under onion would let every onion dish fire on it.
+    Then Flavor Text Extended: "VV_Leeks" is filed under "FT_Leek"
+    And Flavor Text Extended: "VV_Leeks" is not filed under "FT_Onion"
+
   Scenario: the leek category is defined by this mod, with VV_Leeks around
     # FT_Leek absorbs VV_Leeks behind a MayRequire on its <li>. Here that reference is live.
     Then def "FT_Leek" is defined by mod "Flavor Text Extended"

@@ -20,18 +20,22 @@ over the machine, so nothing here restates one of them. What is left:
 | the new categories and dishes are defined by this mod | defs of a custom type (`FlavorText.FlavorDef`) reaching the database under this mod |
 | the unguarded keyword patches landed | patching happens after every other active mod has had its turn |
 | it loads and logs nothing, bare and beside the providers | `Test-Xml.ps1` does not emulate the loader; an unresolved `<li MayRequire>` reference is a load-time error |
+| the reptile meats and the providers' ingredients sit in the categories the patches name (`04`, `02`) | the category tree exists only once the engine has built it; a category that absorbs nothing is silent |
+| a meal is named after a dish (`03`) | Flavor Text's postfix on `GenRecipe.MakeRecipeProducts` runs only in the game |
 
 ## Two passes
 
 | Pass | `-DepMap` | `-Filter` | What it stages |
 |---|---|---|---|
-| **sans-facultatifs** | *(none)* | `01-alone.feature` | Core, DLCs, Harmony, RimLogging, Pickle, Flavor Text, this mod |
+| **sans-facultatifs** | *(none)* | `01-alone.feature,03-cooking.feature,04-filing.feature` | Core, DLCs, Harmony, RimLogging, Pickle, Flavor Text, this mod |
 | **avec-facultatifs** | `wsl-deps.avec-facultatifs.map` | `02-avec-facultatifs.feature` | the above, plus VV New Harvest, RimLife Cultivation Plus, RimLife Expansion Trading and its framework |
 
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -Filter 01-alone.feature
+powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -Filter 01-alone.feature,03-cooking.feature,04-filing.feature
 powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.avec-facultatifs.map -Filter 02-avec-facultatifs.feature
 ```
+
+`@wip` scenarios (the four-ingredient one) are played only with `-IncludeWip`.
 
 The filters differ because 01 asserts that the providers are **absent** and 02 that they are
 present: played in the other pass, each fails for a reason that has nothing to do with the mod.
@@ -57,8 +61,23 @@ repository. Reports land in `<rimworld>/pickle-reports`, as for every mod.
   without one needs a staging option that does not exist. Stays a manual scenario.
 - **Chinese Traditional Cultural Things Expanded.** Both of its versions declare 1.5 or older, so
   a run could certify nothing for 1.6; see the map.
-- **Cooking a meal and reading its name.** T5 to T9 need a colony, a cook and a random draw among
-  matching definitions. Not a load-time claim, and not written here.
+- **A real cook walking to a real stove**, and T12 (names survive a save and reload). `03-cooking` calls
+  `GenRecipe.MakeRecipeProducts` directly, so Flavor Text's postfix is real but no tick passes.
+
+## The step assembly
+
+`Source/` builds `Mod/Pickle/Assemblies/FlavorTextExtended.PickleSteps.dll`, committed like the other
+suites' because the staging copies the folder as it is. Rebuild after editing the `.cs`:
+
+```powershell
+dotnet build Tests/Pickle/Source -c Release
+powershell.exe -ExecutionPolicy Bypass -File Tests/Pickle/Check-Steps.ps1
+```
+
+The build needs NuGet (`Krafs.Rimworld.Ref`, `RimWorks.Pickle.Ref`) and Flavor Text's own `FlavorText.dll`
+from the Workshop folder, compiled against and never copied. `Check-Steps.ps1` needs no game: it compiles every
+pattern with Pickle's expression engine and matches each feature line. A wrong pattern would make a run play
+zero scenarios, so it is worth its two seconds. Rebuilding is not a game action; running the suite is.
 
 ## Companion mod
 
