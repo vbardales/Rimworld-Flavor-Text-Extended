@@ -5,9 +5,9 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        done
-stage_meaning: ready for final in-game validation; Pickle 2026-09-21: all three passes green (sans-facultatifs 10/10, sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun); T7 (@wip) played alone and passed
-in_game_validation_owner: user
+stage:        tested
+stage_meaning: played in a running game (headless Pickle, 2026-09-21) and passed; prepublished not reached
+in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
 translation_en: complete
@@ -19,18 +19,49 @@ licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 maintainer:    current Codex task for this repository
 updated:      2026-09-21
-tested_on:
+tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: sans-facultatifs 10/10 (+ T7 alone 1/1), sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun. Reports in Tests/Pickle/results/."
 workshop:
 remaining:
-  - "unverified: done -> tested needs a decision, not more runs: the three Pickle passes are green (2026-09-21), no @review capture exists in this suite, no manual scenario is left, and the French half is the companion's. What is left between done and tested is not a missing test: each pass passed once, and no cook walked to a stove (no tick passes in 03)."
-  - "T7 (four ingredients become two dishes, @wip) ran alone with -IncludeWip on 2026-09-21 and passed, 1 of 1, exitReason passed. It asserts a meal with two dishes appeared at least once in 50 cooks, not that every four-ingredient meal has two; the docs already say so."
-  - "unverified: 03-cooking @wip (T7, four ingredients) was skipped as intended and has never run. Every other scenario of 01, 03, 04, 05 has passed once; each passed a single time."
-  - "note: the run scripts look for <rimworld>/<Mod>/, one level above this repository. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it; stage-pickle-wsl.sh --list names the mod. Never delete it recursively."
-  - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet (T1, T2, T3) was established by reading each Player.log: zero [ERROR] in the bare and Odyssey passes."
-  - "not this repository: T4 (the game's reaction to a missing dependency is RimWorld's, AUDIT.md 2026-09-21); T11 second half, T13 and the French half of T14 (the French companion, own session and suite). T14 English is covered by the fixture save every 03 scenario loads. No manual scenario is left."
+  - "prepublished: no tag v1.0.0 and no GitHub release yet. CHANGELOG now has a single 1.0.0 section to use as the release body. Publishing the release is the owner's word."
+  - "prepublished: no Workshop capture exists besides Preview.png. PUBLICATION.md proposes three, to be produced by a dedicated Pickle @review scenario, opened and looked at, then ordered. Not made."
+  - "prepublished: PUBLICATION.md is a draft (dependencies and DLC, adult-content answer, Steam release notes, five thanks messages) awaiting the owner's review. Nothing is posted."
+  - "unconfirmed by the owner: that the icon and the Preview illustration are AI-generated (tool unrecorded), and who did what among Claude and Codex. Both are in About.xml and ATTRIBUTION.md, public since the push; About.xml is sent to Steam only at creation."
+  - "unidentified: the Korean cuisine mod behind the five dishes Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon; needed for one thanks message."
+  - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
+  - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
+  - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
 ---
 
 # Flavor Text Extended — status
+
+## Audit done -> tested — 2026-09-21
+
+**Previous stage: `done`. Retained stage: `tested`.** Revision audited: `c828a5d`, pushed; the distributed `Mod/` differs from
+the tree of the passes only in `About.xml`'s description, the icon and ATTRIBUTION.md, never in a Def or a patch. The game was never
+launched by this audit: the runs were queued through `Run-PickleWsl.ps1` and played by the WSL game under the machine lock.
+
+| Criterion of `done -> tested` | Result |
+|---|---|
+| Functional scenarios executed in game and passed | **validated.** T1, T3, T5-T10, T12 and T7 passed as Pickle scenarios; T2 passed in a pass that leaves Odyssey out. The scenario count played matches the features discovered in every pass (11 = 5+3+1+2, 6, 3, 1). |
+| Pickle suites green, `exitReason` read before the numbers, @review captures opened | **validated, capture clause n/a.** All four runs ended `passed`. The suite has no `@review` scenario and takes no screenshot, so there is no capture to open; captures for the Workshop page belong to `prepublished`. |
+| Logs checked | **validated.** Each `Player.log` was read: zero `[ERROR]` in the bare, Odyssey and T7 runs; one Unity/FMOD audio error in the provider pass, naming no def and none of ours, absent when the providers are. |
+| UI verified in FR and EN | **not applicable, justified.** The mod adds no interface; its text is the English of its own Defs, exercised in every run. French is the companion's, with its own suite. |
+| Options, persistence, MainButtons shortcut | **not applicable**: none exists (`settings_audit: not_applicable`). |
+| New game and existing save | **covered as far as it is relevant.** Every cooking scenario loads Pickle's fixture save, made without this mod, and a save/reload round trip keeps meal names. The mod stores no data of its own. |
+| Corrections followed by regression tests | **validated.** The leek assertion was corrected and its pass rerun, green. |
+
+Excluded from the plan and recorded as such, not as failures: T4 (RimWorld's own reaction to a missing dependency, which AUDIT.md
+now says is not tested), and T11's second half, T13 and the French half of T14 (the French companion's, own session and suite).
+
+Reserves, none blocking: each pass passed once, and `03-cooking` calls the recipe method directly so no cook walks to a stove;
+Shenzhou and shallot are uncertified. `in_game_validation_owner` changed from the user to sessions running Pickle: that was
+the owner's own request on 2026-09-21, and no manual scenario is left.
+
+### Next stage, `tested -> prepublished`
+
+Not reached; nothing here was done for the sake of a better status. What is written and what is not is in `remaining` and in
+`PUBLICATION.md`. Strictly needed: the tag and release, the Workshop captures (produced, looked at, ordered), the owner's
+review of the description and of the thanks messages, and the answers to the two open points above.
 
 ## T7 — 2026-09-21, passed
 
