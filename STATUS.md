@@ -24,7 +24,7 @@ workshop:
 remaining:
   - "unverified: done -> tested. Scenarios T1-T14 in game, Pickle suites executed and their @review captures opened, logs, FR/EN interface, new and existing save. Owner of the T1-T14 walk: the user."
   - "unverified: the two Pickle passes (TESTS.md, Pickle passes) have never run, so no step is confirmed against a real game. In particular, whether Pickle finds a def of the custom type FlavorText.FlavorDef by name is unknown."
-  - "blocked: the run scripts cannot reach this repository. They look for <rimworld>/<Mod>/, one level above it. A junction <rimworld>\FlavorTextExtended is needed and has not been made (outside this repository)."
+  - "blocked: the run scripts cannot reach this repository. They look for <rimworld>/<Mod>/, one level above it. A junction <rimworld>/FlavorTextExtended is needed and has not been made (outside this repository)."
   - "unverified: T2 (no Odyssey) has no Pickle form: the staging always activates the five DLCs. It stays a manual scenario."
 ---
 
