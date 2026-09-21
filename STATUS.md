@@ -6,7 +6,7 @@ remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
 stage:        done
-stage_meaning: ready for final in-game validation; Pickle 2026-09-21: sans-facultatifs 10/10 and sans-odyssey 3/3 passed, avec-facultatifs 5/6 (one wrong assertion, fixed, not rerun)
+stage_meaning: ready for final in-game validation; Pickle 2026-09-21: all three passes green (sans-facultatifs 10/10, sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun); T7 (@wip) never run
 in_game_validation_owner: user
 settings_audit: not_applicable
 localization: complete
@@ -22,8 +22,8 @@ updated:      2026-09-21
 tested_on:
 workshop:
 remaining:
-  - "unverified: done -> tested. The three Pickle passes green together (avec-facultatifs to rerun). No @review capture exists in this suite. No manual scenario is left for the owner."
-  - "unverified: the avec-facultatifs pass has not passed. It ran 2026-09-21 and failed 1 of 6 on a wrong assertion of mine (leek is under FT_Onion too, by hekmo's own keyword); the assertion is corrected and the pass must be rerun. Ticket to take."
+  - "unverified: done -> tested needs a decision, not more runs: the three Pickle passes are green (2026-09-21), no @review capture exists in this suite, no manual scenario is left, and the French half is the companion's. What separates done from tested here is T7, and the fact that each pass passed once and no cook walked to a stove."
+  - "T7 (four ingredients become two dishes) is written as @wip and was skipped, never run: either play it with -IncludeWip or drop it, before claiming every scenario the plan lists has been executed."
   - "unverified: 03-cooking @wip (T7, four ingredients) was skipped as intended and has never run. Every other scenario of 01, 03, 04, 05 has passed once; each passed a single time."
   - "note: the run scripts look for <rimworld>/<Mod>/, one level above this repository. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it; stage-pickle-wsl.sh --list names the mod. Never delete it recursively."
   - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet (T1, T2, T3) was established by reading each Player.log: zero [ERROR] in the bare and Odyssey passes."
@@ -31,6 +31,13 @@ remaining:
 ---
 
 # Flavor Text Extended — status
+
+## avec-facultatifs rerun — 2026-09-21, green
+
+After the leek fix the pass ran again on a ticket: **6 of 6, 23 steps of 23, `exitReason: passed`**, report and log in
+`Tests/Pickle/results/2026-09-21-avec-facultatifs-rerun/`. Flavor Text read 1025 active of 1831. The rule of two passes
+is met, plus the DLC-off pass. One `[ERROR]` in that log: a Unity/FMOD audio error naming no def, absent from both
+passes without the providers, so it comes from one of them and not from this mod.
 
 ## Pickle runs — 2026-09-21
 

@@ -396,7 +396,8 @@ Three passes ran on 2026-09-21, queued on tickets, headless in the WSL game. Rep
 |---|---|---|
 | sans-facultatifs (`01`, `03`, `04`, and `03`'s `@wip` skipped) | **10 passed, 0 failed, 1 skipped, `exitReason: passed`**. 01 also ran alone earlier, 5/5. | `2026-09-21-sans-facultatifs-full/` |
 | sans-odyssey (`05`) | **3 of 3, `exitReason: passed`** | `2026-09-21-sans-odyssey/` |
-| avec-facultatifs (`02`) | **5 passed, 1 failed, `exitReason: failed`**: the failure is a wrong assertion of mine, see below | `2026-09-21-avec-facultatifs/` |
+| avec-facultatifs (`02`), first run | 5 passed, 1 failed, `exitReason: failed`: a wrong assertion of mine, see below | `2026-09-21-avec-facultatifs/` |
+| avec-facultatifs (`02`), rerun after the fix | **6 of 6, 23 of 23 steps, `exitReason: passed`**. Flavor Text read `1025 active FlavorDefs ... out of 1831`. One `[ERROR]` in the log, a Unity/FMOD audio error naming no def, present in this pass and absent from the two without providers, so it comes from one of them and not from this mod. | `2026-09-21-avec-facultatifs-rerun/` |
 
 What they show, and what they do not:
 - **T2 is answered.** The game kept Odyssey out (asked twice: `ModsConfig.IsActive` and the mod list; this was the open
@@ -417,7 +418,7 @@ What they show, and what they do not:
 - **T8 found a wrong assumption, in my scenario and in the README/About wording.** `VV_Leeks` is filed under `FT_Onion`
   as well as `FT_Leek`: hekmo's own onion category lists "leek" as a keyword and absorbs `VV_Leeks` by name. The mod gives
   leek a category of its own; it does not take it out of onion. The scenario now asserts what is true, and the README and
-  About description no longer say the leek was "split out of" onion. The pass has not been rerun since the fix.
+  About description no longer say the leek was "split out of" onion. The rerun passed.
 - **Not proved:** the dish names drawn are asserted to appear at least once in 300 cooks, never on every cook; T7
   (`@wip`) was skipped as intended; no screenshot exists; the French text is the companion's.
 
