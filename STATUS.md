@@ -22,15 +22,30 @@ updated:      2026-09-21
 tested_on:
 workshop:
 remaining:
-  - "unverified: done -> tested. Scenarios T1-T14 in game, Pickle suites executed and their @review captures opened, logs, FR/EN interface, new and existing save. Owner of the T1-T14 walk: the user."
+  - "unverified: done -> tested. The three Pickle passes executed and green (only 01-alone has run), their logs read. No @review capture exists in this suite. No manual scenario is left for the owner: see the not-this-repository line below."
   - "unverified: the Pickle pass WITH the optional providers (avec-facultatifs, 6 scenarios) has never run, so the rule of two passes is not met. Of the bare pass only 01-alone ran (2026-09-21, 5 of 5, exitReason passed, Tests/Pickle/results/2026-09-21-sans-facultatifs/)."
   - "unverified: 03-cooking (3 scenarios, T12 included, + 1 @wip), 04-filing (2) and the two new scenarios of 02 use a step assembly (Tests/Pickle/Source) that compiles and whose patterns match the features, but has never met a game. Item and recipe names they assume (FueledStove, CookMealSimple, RawRice, Meat_Pig, EggChickenUnfertilized, the six reptile meats) are unchecked in-game."
   - "unverified: the companion test mod's new downloadUrl (added after the run) is not confirmed to silence the one [Vanilla] warning about its dependency."
   - "note: the run scripts look for <rimworld>/<Mod>/, one level above this repository. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it; stage-pickle-wsl.sh --list names the mod. Never delete it recursively."
-  - "unverified: T2 (no Odyssey) has no Pickle form: the staging always activates the five DLCs. It stays a manual scenario."
+  - "unverified: T2 is now the Pickle pass sans-odyssey (05-sans-odyssey.feature, map wsl-deps.sans-odyssey.map, 3 scenarios), written 2026-09-21, never run. Open question of that pass: whether the game keeps the DLC out of a loaded save; the scenarios ask ModsConfig.IsActive and the mod list, and Player.log names the game's own list."
+  - "not this repository: T4 (the game's reaction to a missing dependency is RimWorld's, AUDIT.md 2026-09-21); T11 second half, T13 and the French half of T14 (the French companion, own session and suite). T14 English is covered by the fixture save every 03 scenario loads. No manual scenario is left."
 ---
 
 # Flavor Text Extended — status
+
+## T2 as a Pickle pass, and what left this repository — 2026-09-21
+
+The Pickle headless-mode session added two staging features (commit `bf996076` in the workspace repository): a
+`!ludeon.rimworld.odyssey` line in a pass map leaves that DLC out of ModsConfig, and a `packageId path:<folder>`
+line stages a local mod. The first is used here: `Tests/Pickle/wsl-deps.sans-odyssey.map` and
+`05-sans-odyssey.feature` (3 scenarios: the game really has no Odyssey, asked twice; the mod loads and the
+four guarded meats raise nothing; the reptile categories stay declared and Core's two meats stay filed).
+Two steps join the assembly (`the expansion ... is [not] active`, via `ModsConfig.IsActive`). Written, never run.
+
+The second feature is **not used**: the French companion has its own session and its own test suite, so
+its scenarios (T11 second half, T13, French T14) are not written here. T4 is dropped: the missing-dependency
+warning is RimWorld's own behaviour, and AUDIT.md now says the game is not tested (a mod answers for what it
+declares, checked in the sources). `Tests/Manual` shrinks to the optional log reader.
 
 ## Cooking, filing and provider scenarios — 2026-09-21, written, not run
 

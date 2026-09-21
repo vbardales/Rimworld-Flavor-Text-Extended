@@ -118,6 +118,10 @@ is what a Flavor Text update that renames a category would produce.
 
 ### T2 - It loads without Odyssey
 
+**Played by Pickle since 2026-09-21** as `05-sans-odyssey.feature`, pass `sans-odyssey` (`-DepMap wsl-deps.sans-odyssey.map`,
+which leaves the DLC out of ModsConfig). Written, never run. The manual version below stays as the
+fallback reading of the same expectation.
+
 **Setup.** Same, with the Odyssey expansion turned off.
 
 **Pass.** Nothing new in the log compared with T1, and in particular no unresolved reference to
@@ -144,6 +148,11 @@ does the work is the same attribute on each `<li>` inside, which the def loader 
 arrangement is correct, but it is correct for a reason that is easy to break by tidying.
 
 ### T4 - Without Flavor Text, nothing happens
+
+**Not tested, decided 2026-09-21.** The warning about a missing hard dependency is RimWorld's own doing,
+from the `modDependencies` block of `About.xml`, and the game's behaviour is not this mod's to test. What
+the mod owns is that the block is correct: Flavor Text declared with its Workshop id, verified by the
+audit's dependency check. The scenario is kept for the record and is not walked.
 
 **Setup.** In the mod manager, select this extension with Flavor Text absent.
 
@@ -234,6 +243,10 @@ produce a cross-reference error. Check both category membership and the log.
 
 ### T11 - English stays English
 
+**Split.** The first half (this mod alone, English) is what every Pickle pass already runs in. The second
+half, with the French companion enabled, belongs to the companion's own session and test suite, not to this
+repository.
+
 **Setup.** This mod without its French companion, game language English.
 
 **Pass.** Every dish name is in English. The companion mod replaces Flavor Text's inflection table,
@@ -254,6 +267,9 @@ would be engine behaviour, not a def.
 
 ### T13 - French generated text and interface
 
+**Not this repository's.** French text is the French companion's, which has its own session and its own test
+suite. Kept here only as the record of what was once planned.
+
 **Setup.** RimWorld 1.6 in French, Harmony, Flavor Text, this extension and its separate
 French companion after its dependencies. Record the companion revision and enabled DLCs.
 
@@ -267,6 +283,10 @@ settings page or extension shortcut appears. No new translation or cross-referen
 are attributable to this extension. Record upstream/companion errors separately.
 
 ### T14 - New game and existing save in both languages
+
+**Split.** The French half is the companion's. The English half is covered without a player's save: every
+scenario of `03-cooking` loads Pickle's fixture save `test-colony`, which was made without this mod, so
+the mod is added to an existing save each time. It is not the owner's real save.
 
 **Setup.** Preserve an existing save; test only a copy. Prepare the valid English loadout
 without the companion and the French loadout from T13. Never overwrite the original save.
@@ -324,23 +344,27 @@ category's contents:
 |---|---|---|
 | Without the optional mods | **1**, `sans-facultatifs`, `-Filter 01-alone.feature,03-cooking.feature,04-filing.feature` | the mod stands on Flavor Text alone: T3, observed rather than assumed; meals named; reptile meats told apart |
 | With the optional mods | **1**, `avec-facultatifs`, `-DepMap wsl-deps.avec-facultatifs.map -Filter 02-avec-facultatifs.feature` | the guarded `<li>` entries resolve, and the ingredients they name land in the right categories, when VV New Harvest, RimLife Cultivation Plus and RimLife Expansion Trading are there |
+| Without one DLC | **1**, `sans-odyssey`, `-DepMap wsl-deps.sans-odyssey.map -Filter 05-sans-odyssey.feature` | T2: the four Odyssey-only reptile meats, guarded by `MayRequire`, raise nothing when the DLC is off |
 | One per declared incompatibility | **0** | nothing in `About.xml` or the README declares one |
 
-**Two passes, not more.** The rule asks for one pass per combination of optional mods that cannot
+**Three passes, not more.** The rule asks for one pass per combination of optional mods that cannot
 meet. The only such pair here is the two versions of Chinese Traditional Cultural Things Expanded
 (`dajian.chiteaditional.expanded` and `...oldmode`, one mod under two package IDs). Neither declares
 RimWorld 1.6, so a run of either could certify nothing for 1.6, and neither is staged. If one
 declares 1.6, it gets a pass of its own. The other providers coexist, so a single pass stages all of
-them.
+them. The third is a DLC left out, not an optional mod, and it is the only case the guards on
+Odyssey meats exist for.
 
 **Not covered by Pickle, and why.**
-- T2, the load without Odyssey: the staging always activates Core and all five DLCs. It stays manual.
+- T2 was here once, for want of a way to leave a DLC out. The staging now takes a `!ludeon.rimworld.odyssey`
+  line in a pass map, and T2 is `05-sans-odyssey`.
 - The walk of a real cook to a real stove. The suite plays T5 to T9 and T12 as described above, without
   simulating ticks; T12 puts meals on the map, saves, reloads and finds each by its id.
-- T4 (no Flavor Text) and T13/T14 (French, new game and existing save): the staging cannot start an
-  invalid list, and the French companion is a local repository with no Workshop id, which the staging
-  resolves by. They stay manual, and so does T11's second half (with the companion enabled).
-- T2, T4, T11, T13 and T14 are therefore the manual scenarios left for the user.
+- **T4: not tested, on purpose.** The game's own reaction to a missing dependency is RimWorld's
+  responsibility, and the game is not what a mod's suite tests.
+- **T11 (second half), T13, T14 (French):** the French companion's, in its own repository and session.
+- **No manual scenario is left in this repository.** Only the optional reading of a real `Player.log`
+  remains, `Tests/Manual/Check-PlayerLog.ps1`.
 - What the patches *add* to a category's `thingDefsToAbsorb`: `Test-Xml.ps1` proves it, and Pickle's
   `field` step has no documented form for list elements.
 - `no errors were logged` is global. A red from Flavor Text or from the test mod itself fails it too;

@@ -3,7 +3,7 @@
 Load-time scenarios for Flavor Text Extended, played inside a running RimWorld by
 [Pickle](https://github.com/RimWorks/Rimworld-Pickle) (`rimworks.pickle`, Workshop 3791648678).
 
-**Status, 2026-09-21: `sans-facultatifs` ran, 5 of 5; `avec-facultatifs` has not run.** The report is
+**Status, 2026-09-21: only `01-alone` of the `sans-facultatifs` pass ran, 5 of 5. Everything else is written and has not run.** The report is
 kept in `results/2026-09-21-sans-facultatifs/` because `pickle-reports/` is overwritten by the next
 run. Every step is one Pickle builds in. See `../../TESTS.md`, "Pickle passes" and "What has run",
 for what each pass is for, what the run shows and what it does not.
@@ -23,15 +23,17 @@ over the machine, so nothing here restates one of them. What is left:
 | the reptile meats and the providers' ingredients sit in the categories the patches name (`04`, `02`) | the category tree exists only once the engine has built it; a category that absorbs nothing is silent |
 | a meal is named after a dish (`03`) | Flavor Text's postfix on `GenRecipe.MakeRecipeProducts` runs only in the game |
 
-## Two passes
+## Three passes
 
 | Pass | `-DepMap` | `-Filter` | What it stages |
 |---|---|---|---|
 | **sans-facultatifs** | *(none)* | `01-alone.feature,03-cooking.feature,04-filing.feature` | Core, DLCs, Harmony, RimLogging, Pickle, Flavor Text, this mod |
+| **sans-odyssey** | `wsl-deps.sans-odyssey.map` | `05-sans-odyssey.feature` | the bare pass with one DLC left out of ModsConfig |
 | **avec-facultatifs** | `wsl-deps.avec-facultatifs.map` | `02-avec-facultatifs.feature` | the above, plus VV New Harvest, RimLife Cultivation Plus, RimLife Expansion Trading and its framework |
 
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -Filter 01-alone.feature,03-cooking.feature,04-filing.feature
+powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.sans-odyssey.map -Filter 05-sans-odyssey.feature
 powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.avec-facultatifs.map -Filter 02-avec-facultatifs.feature
 ```
 
@@ -57,15 +59,13 @@ repository. Reports land in `<rimworld>/pickle-reports`, as for every mod.
 
 ## Not covered, and why
 
-- **Without Odyssey** (TESTS.md T2). The staging always activates Core and all five DLCs; a pass
-  without one needs a staging option that does not exist. Stays a manual scenario.
+- **T4, and everything French.** The game's reaction to a missing dependency is RimWorld's, not tested; the
+  French scenarios are the companion's, in its own suite.
 - **Chinese Traditional Cultural Things Expanded.** Both of its versions declare 1.5 or older, so
   a run could certify nothing for 1.6; see the map.
 - **A real cook walking to a real stove.** `03-cooking` calls `GenRecipe.MakeRecipeProducts` directly, so
   Flavor Text's postfix is real but no tick passes. It also plays T12: meals are put on the map, the game is
   saved and reloaded, and each meal is found again by its id.
-- **T4, T11 (second half), T13, T14.** An invalid list cannot be staged, and the French companion is a local
-  repository with no Workshop id, which is how the staging finds a mod. Manual.
 
 ## The step assembly
 

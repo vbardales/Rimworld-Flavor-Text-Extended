@@ -1,6 +1,0 @@
-# T4 - the extension selected without its dependency. DO NOT START this list: read the warning in the
-# mod manager, then use the valid list in T1 (Harmony, Core, Flavor Text, this mod).
-brrainz.harmony
-Ludeon.RimWorld
-# hekmo.FlavorText          <- ABSENT
-nelim.flavortextextended

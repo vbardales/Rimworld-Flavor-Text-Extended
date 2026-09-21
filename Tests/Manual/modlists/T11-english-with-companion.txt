@@ -1,7 +1,0 @@
-# T11 second half, and the English side of T14. English game, restarted after any language change.
-# With the French companion enabled: it must stay silent in English.
-brrainz.harmony
-Ludeon.RimWorld
-hekmo.FlavorText
-nelim.flavortextextended
-nelim.flavortextextended.fr

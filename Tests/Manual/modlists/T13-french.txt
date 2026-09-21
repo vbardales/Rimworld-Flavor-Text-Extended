@@ -1,7 +1,0 @@
-# T13, and the French side of T14. French game, disposable new colony.
-# Record which DLCs you enable: they change which dishes can fire.
-brrainz.harmony
-Ludeon.RimWorld
-hekmo.FlavorText
-nelim.flavortextextended
-nelim.flavortextextended.fr
