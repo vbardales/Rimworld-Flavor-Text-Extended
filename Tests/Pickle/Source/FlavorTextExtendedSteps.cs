@@ -35,7 +35,18 @@ namespace FlavorTextExtended.PickleSteps
         {
             public List<string> Dishes;
             public string Label;
+            public Thing Thing;
         }
+
+        // A meal put on the map before a save: what it was called, keyed by the id the save keeps.
+        private sealed class Placed
+        {
+            public int Id;
+            public List<string> Dishes;
+            public string Label;
+        }
+
+        private static List<Placed> placed = new List<Placed>();
 
         private static List<Meal> meals = new List<Meal>();
         private static string lastCook = "nothing has been cooked yet";
@@ -131,6 +142,7 @@ namespace FlavorTextExtended.PickleSteps
                     {
                         Dishes = (comp.FinalFlavorDefs ?? new List<FlavorDef>()).Select(d => d.defName).ToList(),
                         Label = product.Label,
+                        Thing = product,
                     });
                 }
             }
@@ -178,6 +190,61 @@ namespace FlavorTextExtended.PickleSteps
             ctx.Assert(named.Count > 0, $"no meal was named after {dishDefName}. {Histogram()}");
             ctx.Assert(named.Any(m => m.Label.IndexOf(text, StringComparison.OrdinalIgnoreCase) >= 0),
                 $"none of the {named.Count} meals named after {dishDefName} is labelled with \"{text}\"; the first reads \"{named[0].Label}\"");
+        }
+
+        // ------------------------------------------------------------------ save and reload
+
+        [When("Flavor Text Extended: {int} of the meals are placed on the map")]
+        public void PlaceMeals(PickleContext ctx, int count)
+        {
+            ctx.Require(Current.Game != null && Find.CurrentMap != null, "load a save first");
+            Map map = Find.CurrentMap;
+            ctx.Assert(meals.Count > 0, "no meal to place: " + lastCook);
+
+            // One meal per distinct set of dishes first, so that several different names are tested.
+            List<Meal> chosen = meals.GroupBy(m => string.Join("+", m.Dishes)).Select(g => g.First()).Take(count).ToList();
+            IntVec3 origin = map.mapPawns.FreeColonists.FirstOrDefault()?.Position ?? map.Center;
+            List<IntVec3> cells = GenRadial.RadialCellsAround(origin, 14f, false)
+                .Where(c => c.InBounds(map) && c.Walkable(map) && c.GetFirstItem(map) == null && c.GetEdifice(map) == null)
+                .Take(chosen.Count).ToList();
+            ctx.Assert(cells.Count == chosen.Count, $"only {cells.Count} free cells near {origin} for {chosen.Count} meals");
+
+            placed = new List<Placed>();
+            for (int i = 0; i < chosen.Count; i++)
+            {
+                // Spawn, never place: placing may merge two meals into one stack and lose a name.
+                GenSpawn.Spawn(chosen[i].Thing, cells[i], map);
+                placed.Add(new Placed { Id = chosen[i].Thing.thingIDNumber, Dishes = chosen[i].Dishes, Label = chosen[i].Label });
+            }
+        }
+
+        [Then("Flavor Text Extended: the placed meals kept their names")]
+        public void PlacedMealsKeptNames(PickleContext ctx)
+        {
+            ctx.Assert(placed.Count > 0, "no meal was placed before the save");
+            ctx.Require(Current.Game != null && Find.CurrentMap != null, "no game after the reload");
+            Map map = Find.CurrentMap;
+            var problems = new List<string>();
+            foreach (Placed p in placed)
+            {
+                Thing thing = map.listerThings.AllThings.FirstOrDefault(t => t.thingIDNumber == p.Id);
+                if (thing == null)
+                {
+                    problems.Add($"meal #{p.Id} (\"{p.Label}\") is gone");
+                    continue;
+                }
+                CompFlavor comp = thing.TryGetComp<CompFlavor>();
+                List<string> dishes = comp == null ? new List<string>() : (comp.FinalFlavorDefs ?? new List<FlavorDef>()).Select(d => d.defName).ToList();
+                if (!dishes.SequenceEqual(p.Dishes))
+                {
+                    problems.Add($"meal #{p.Id} was [{string.Join(", ", p.Dishes)}], is now [{string.Join(", ", dishes)}]");
+                }
+                else if (thing.Label != p.Label)
+                {
+                    problems.Add($"meal #{p.Id} was labelled \"{p.Label}\", is now \"{thing.Label}\"");
+                }
+            }
+            ctx.Assert(problems.Count == 0, $"{problems.Count} of {placed.Count} placed meals changed across the reload: {string.Join("; ", problems)}");
         }
 
         [Then("Flavor Text Extended: a meal was named after {int} dishes at once")]

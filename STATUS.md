@@ -24,7 +24,7 @@ workshop:
 remaining:
   - "unverified: done -> tested. Scenarios T1-T14 in game, Pickle suites executed and their @review captures opened, logs, FR/EN interface, new and existing save. Owner of the T1-T14 walk: the user."
   - "unverified: the Pickle pass WITH the optional providers (avec-facultatifs, 6 scenarios) has never run, so the rule of two passes is not met. Of the bare pass only 01-alone ran (2026-09-21, 5 of 5, exitReason passed, Tests/Pickle/results/2026-09-21-sans-facultatifs/)."
-  - "unverified: 03-cooking (2 scenarios + 1 @wip), 04-filing (2) and the two new scenarios of 02 use a step assembly (Tests/Pickle/Source) that compiles and whose patterns match the features, but has never met a game. Item and recipe names they assume (FueledStove, CookMealSimple, RawRice, Meat_Pig, EggChickenUnfertilized, the six reptile meats) are unchecked in-game."
+  - "unverified: 03-cooking (3 scenarios, T12 included, + 1 @wip), 04-filing (2) and the two new scenarios of 02 use a step assembly (Tests/Pickle/Source) that compiles and whose patterns match the features, but has never met a game. Item and recipe names they assume (FueledStove, CookMealSimple, RawRice, Meat_Pig, EggChickenUnfertilized, the six reptile meats) are unchecked in-game."
   - "unverified: the companion test mod's new downloadUrl (added after the run) is not confirmed to silence the one [Vanilla] warning about its dependency."
   - "note: the run scripts look for <rimworld>/<Mod>/, one level above this repository. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it; stage-pickle-wsl.sh --list names the mod. Never delete it recursively."
   - "unverified: T2 (no Odyssey) has no Pickle form: the staging always activates the five DLCs. It stays a manual scenario."
@@ -40,7 +40,7 @@ meal's name or a category's contents, so there is now a step assembly, `Tests/Pi
 
 - `04-filing.feature` (2 scenarios): the six reptile meats each sit in their own category, and none under
   another reptile's. Reads `FlavorCategoryDef.DescendantThingDefs`; no save, no cooking.
-- `03-cooking.feature` (2 scenarios and one `@wip`): `GenRecipe.MakeRecipeProducts` is called on a colonist
+- `03-cooking.feature` (3 scenarios and one `@wip`; the third is T12, save and reload): `GenRecipe.MakeRecipeProducts` is called on a colonist
   and a stove of the loaded save, 300 times, and the scenario asserts a dish appeared (the egg alone gives
   `FlavorTextFR_OeufMollet`, rice-pork-egg gives `FlavorTextFR_Katsudon`, both with the expected label).
   Flavor Text's postfix is real; no tick passes. The four-ingredient case (T7) is `@wip`: nothing establishes

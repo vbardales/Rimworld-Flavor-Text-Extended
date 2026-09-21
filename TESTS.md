@@ -312,7 +312,7 @@ category's contents:
 
 - `04-filing` and the two new scenarios of `02` read Flavor Text's category tree
   (`FlavorCategoryDef.DescendantThingDefs`). Deterministic, no save, no cooking.
-- `03-cooking` calls `GenRecipe.MakeRecipeProducts`, which Flavor Text patches, on a colonist and a stove
+- `03-cooking` (T5, T6, T12, and T7 as `@wip`) calls `GenRecipe.MakeRecipeProducts`, which Flavor Text patches, on a colonist and a stove
   of the loaded save: its postfix runs and names the meal for real, but **no tick passes**, so the walk to
   the stove, hauling and ingredient filters are not exercised. Cooking is a weighted random draw with
   hekmo's dishes competing, so a step cooks the meal 300 times and asserts that a dish *appeared*, never
@@ -335,8 +335,12 @@ them.
 
 **Not covered by Pickle, and why.**
 - T2, the load without Odyssey: the staging always activates Core and all five DLCs. It stays manual.
-- T12 (names survive a save and reload) and the walk of a real cook to a real stove.
-  The suite plays T5 to T9 as described above, without simulating ticks.
+- The walk of a real cook to a real stove. The suite plays T5 to T9 and T12 as described above, without
+  simulating ticks; T12 puts meals on the map, saves, reloads and finds each by its id.
+- T4 (no Flavor Text) and T13/T14 (French, new game and existing save): the staging cannot start an
+  invalid list, and the French companion is a local repository with no Workshop id, which the staging
+  resolves by. They stay manual, and so does T11's second half (with the companion enabled).
+- T2, T4, T11, T13 and T14 are therefore the manual scenarios left for the user.
 - What the patches *add* to a category's `thingDefsToAbsorb`: `Test-Xml.ps1` proves it, and Pickle's
   `field` step has no documented form for list elements.
 - `no errors were logged` is global. A red from Flavor Text or from the test mod itself fails it too;

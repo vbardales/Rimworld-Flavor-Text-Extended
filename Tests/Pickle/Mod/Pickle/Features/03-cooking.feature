@@ -37,6 +37,17 @@ Feature: cooking a meal names it after a dish
     And Flavor Text Extended: a meal named after "FlavorTextFR_Katsudon" is labelled with "katsudon"
     And no errors were logged
 
+  Scenario: names survive a save and a reload
+    # T12 of TESTS.md. Cooking is where a name is drawn, so a reload must not redraw it. Meals of
+    # several different names are put on the map, the game is saved and loaded again, and each
+    # is looked up by the id the save keeps. A meal renamed after the reload would be Flavor Text's
+    # own behaviour, not this mod's, and worth reporting upstream rather than here.
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
+    And Flavor Text Extended: 6 of the meals are placed on the map
+    And I save and reload
+    Then Flavor Text Extended: the placed meals kept their names
+    And no errors were logged
+
   # Not a claim yet. TESTS.md T7 says four ingredients read as one dish with another alongside, and
   # Flavor Text's source cuts the ingredients into chunks of three. Whether a lone fourth
   # ingredient always finds a dish of its own is what nothing here has established, so this is

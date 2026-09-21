@@ -61,8 +61,11 @@ repository. Reports land in `<rimworld>/pickle-reports`, as for every mod.
   without one needs a staging option that does not exist. Stays a manual scenario.
 - **Chinese Traditional Cultural Things Expanded.** Both of its versions declare 1.5 or older, so
   a run could certify nothing for 1.6; see the map.
-- **A real cook walking to a real stove**, and T12 (names survive a save and reload). `03-cooking` calls
-  `GenRecipe.MakeRecipeProducts` directly, so Flavor Text's postfix is real but no tick passes.
+- **A real cook walking to a real stove.** `03-cooking` calls `GenRecipe.MakeRecipeProducts` directly, so
+  Flavor Text's postfix is real but no tick passes. It also plays T12: meals are put on the map, the game is
+  saved and reloaded, and each meal is found again by its id.
+- **T4, T11 (second half), T13, T14.** An invalid list cannot be staged, and the French companion is a local
+  repository with no Workshop id, which is how the staging finds a mod. Manual.
 
 ## The step assembly
 
