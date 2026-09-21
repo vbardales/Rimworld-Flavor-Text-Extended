@@ -3,7 +3,7 @@
 Load-time scenarios for Flavor Text Extended, played inside a running RimWorld by
 [Pickle](https://github.com/RimWorks/Rimworld-Pickle) (`rimworks.pickle`, Workshop 3791648678).
 
-**Status, 2026-09-21: `sans-facultatifs` 10 passed / 1 skipped (`@wip`), `sans-odyssey` 3 of 3, `avec-facultatifs` 6 of 6 on its rerun (the first run's one failure was a wrong assertion).** Reports are in `results/`. The report is
+**Status, 2026-09-21: `sans-facultatifs` 10 passed / 1 skipped (`@wip`), `sans-odyssey` 3 of 3, `avec-facultatifs` 6 of 6 on its rerun (the first run's one failure was a wrong assertion), and the `@wip` T7 passed alone.** Reports are in `results/`. The report is
 kept in `results/2026-09-21-sans-facultatifs/` because `pickle-reports/` is overwritten by the next
 run. Every step is one Pickle builds in. See `../../TESTS.md`, "Pickle passes" and "What has run",
 for what each pass is for, what the run shows and what it does not.

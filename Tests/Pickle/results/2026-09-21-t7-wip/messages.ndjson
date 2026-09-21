@@ -1,0 +1,22 @@
+{"meta":{"protocolVersion":"22.0.0","implementation":{"name":"Pickle","version":"1.0.0"}}}
+{"source":{"uri":"cooking a meal names it after a dish","data":"","mediaType":"text/x.cucumber.gherkin+plain"}}
+{"gherkinDocument":{"uri":"cooking a meal names it after a dish","feature":{"name":"cooking a meal names it after a dish"}}}
+{"pickle":{"id":"1","uri":"cooking a meal names it after a dish","name":"cooking a meal names it after a dish"}}
+{"testRunStarted":{"timestamp":{"seconds":0,"nanos":0}}}
+{"testCase":{"id":"2","pickleId":"1","testSteps":[{"id":"3","pickleStepId":"3"},{"id":"4","pickleStepId":"4"},{"id":"5","pickleStepId":"5"},{"id":"6","pickleStepId":"6"},{"id":"7","pickleStepId":"7"},{"id":"8","pickleStepId":"8"}]}}
+{"testCaseStarted":{"id":"9","testCaseId":"2","timestamp":{"seconds":0,"nanos":0}}}
+{"testStepStarted":{"testCaseStartedId":"9","testStepId":"3","timestamp":{"seconds":0,"nanos":0}}}
+{"testStepFinished":{"testCaseStartedId":"9","testStepId":"3","testStepResult":{"status":"PASSED","duration":{"seconds":15,"nanos":235000000}},"timestamp":{"seconds":0,"nanos":0}}}
+{"testStepStarted":{"testCaseStartedId":"9","testStepId":"4","timestamp":{"seconds":0,"nanos":0}}}
+{"testStepFinished":{"testCaseStartedId":"9","testStepId":"4","testStepResult":{"status":"PASSED","duration":{"seconds":0,"nanos":191000000}},"timestamp":{"seconds":0,"nanos":0}}}
+{"testStepStarted":{"testCaseStartedId":"9","testStepId":"5","timestamp":{"seconds":0,"nanos":0}}}
+{"testStepFinished":{"testCaseStartedId":"9","testStepId":"5","testStepResult":{"status":"PASSED","duration":{"seconds":0,"nanos":93000000}},"timestamp":{"seconds":0,"nanos":0}}}
+{"testStepStarted":{"testCaseStartedId":"9","testStepId":"6","timestamp":{"seconds":0,"nanos":0}}}
+{"testStepFinished":{"testCaseStartedId":"9","testStepId":"6","testStepResult":{"status":"PASSED","duration":{"seconds":0,"nanos":337000000}},"timestamp":{"seconds":0,"nanos":0}}}
+{"testStepStarted":{"testCaseStartedId":"9","testStepId":"7","timestamp":{"seconds":0,"nanos":0}}}
+{"testStepFinished":{"testCaseStartedId":"9","testStepId":"7","testStepResult":{"status":"PASSED","duration":{"seconds":0,"nanos":187000000}},"timestamp":{"seconds":0,"nanos":0}}}
+{"testStepStarted":{"testCaseStartedId":"9","testStepId":"8","timestamp":{"seconds":0,"nanos":0}}}
+{"testStepFinished":{"testCaseStartedId":"9","testStepId":"8","testStepResult":{"status":"PASSED","duration":{"seconds":0,"nanos":68000000}},"timestamp":{"seconds":0,"nanos":0}}}
+{"attachment":{"testCaseStartedId":"9","body":"smoke test attachment content","mediaType":"text/x.plain","contentEncoding":"IDENTITY"}}
+{"testCaseFinished":{"testCaseStartedId":"9","timestamp":{"seconds":0,"nanos":0}}}
+{"testRunFinished":{"success":true,"timestamp":{"seconds":0,"nanos":0}}}
