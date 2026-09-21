@@ -20,7 +20,7 @@ That is how the engine works rather than a shortcoming: nothing is lost, a dish 
 
 NEW INGREDIENT CATEGORIES
 
-Leek and shallot, split out of the generic onion. Five reptile meats - turtle, alligator, iguana, lizard, frog - split out of the single herptile category.
+Leek and shallot get categories of their own, so a dish can ask for them by name; both still count as onion for Flavor Text's own dishes. Five reptile meats - turtle, alligator, iguana, lizard, frog - split out of the single herptile category.
 
 THIRD-PARTY INGREDIENTS
 

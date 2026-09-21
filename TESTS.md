@@ -198,7 +198,7 @@ groups ingredients three at a time and names each group, which is a feature of F
 something this mod changes. Worth one run because it is the most common report from players who
 think a name has been truncated.
 
-### T8 - Leek and shallot are not onion
+### T8 - Leek and shallot have categories of their own
 
 **Setup.** VV New Harvest 1.6 supplies the verified `VV_Leeks` ingredient. For the shallot
 comparison, also supply a real ingredient whose defName or label matches a shallot keyword;
@@ -325,7 +325,7 @@ once every other mod has had its turn, and a load that logs nothing. Five scenar
 six in `02-avec-facultatifs`.
 
 **Added later the same day, written and never run:** T5 and T6 (a meal gets a name, a three-ingredient
-dish fires), T7 (four ingredients, tagged `@wip`), T8 (leek is not onion), T9 (the reptile meats are told
+dish fires), T7 (four ingredients, tagged `@wip`), T8 (leek has its own category), T9 (the reptile meats are told
 apart) and T10 (provider ingredients reach the categories the patches name). They need a step
 assembly, `Tests/Pickle/Source/`, because Pickle has no built-in step that reads a meal's name or a
 category's contents:
@@ -389,21 +389,37 @@ Odyssey meats exist for.
 
 ### What has run
 
-- **sans-facultatifs**, 2026-09-21 (game clock 16:49 UTC), headless in the WSL, `-Filter
-  01-alone.feature`: **5 of 5 scenarios, 20 of 20 steps passed, `exitReason: passed`**, exit code 0.
-  Twelve mods staged: Harmony, Core and the five DLCs, RimLogging, Pickle, Flavor Text, this mod and
-  its companion. Report copied to `Tests/Pickle/results/2026-09-21-sans-facultatifs/` (junit,
-  messages, summary, Player.log); the shared `pickle-reports/` is overwritten by the next run.
-  The scenario count matches the five scenarios of the one feature file played.
-- What the log adds: Flavor Text printed `641 active FlavorDefs for the current modlist found out of
-  1831 total FlavorDefs`. 1831 is hekmo's 930 plus our 901, so every dish of this mod reached the
-  engine. No `[ERROR]` line at all, and no `[WARN]` attributed to this mod. The two warnings
-  present are `[Vanilla]`: Steamworks could not initialise (no Steam in the WSL), and the companion
-  test mod's dependency on this mod declares no download URL. The second is the test mod's own
-  About.xml; a `downloadUrl` was added afterwards and is **not** yet confirmed to silence it.
-- **What it does not prove.** It is a load-time result on a bare list. Nothing was cooked, no dish name
-  was drawn, no provider was present, no screenshot was taken, and the DLC-off case is not covered.
-  The **avec-facultatifs** pass has not run: the mod is not yet validated on the rule of two passes.
+Three passes ran on 2026-09-21, queued on tickets, headless in the WSL game. Reports and logs are kept under
+`Tests/Pickle/results/`. Read `exitReason` first: all three ended, none was cut.
+
+| Pass | Result | Where |
+|---|---|---|
+| sans-facultatifs (`01`, `03`, `04`, and `03`'s `@wip` skipped) | **10 passed, 0 failed, 1 skipped, `exitReason: passed`**. 01 also ran alone earlier, 5/5. | `2026-09-21-sans-facultatifs-full/` |
+| sans-odyssey (`05`) | **3 of 3, `exitReason: passed`** | `2026-09-21-sans-odyssey/` |
+| avec-facultatifs (`02`) | **5 passed, 1 failed, `exitReason: failed`**: the failure is a wrong assertion of mine, see below | `2026-09-21-avec-facultatifs/` |
+
+What they show, and what they do not:
+- **T2 is answered.** The game kept Odyssey out (asked twice: `ModsConfig.IsActive` and the mod list; this was the open
+  question of the staging), the mod loaded, and the log holds **no `[ERROR]` line at all**. That last fact comes from
+  reading the log, not from a step: see the next point.
+- **`no errors were logged` does not see the load.** Pickle counts errors logged while a scenario runs; the avec log holds
+  a Unity `[ERROR]` at load time that the passing scenario after it never saw, and Pickle says so itself ("errors were
+  logged outside any scenario and failed nothing"). So a green `no errors were logged` here proves quiet during the
+  scenario, and the load-time quiet of T1, T2 and T3 rests on reading each `Player.log`, which was done: bare and Odyssey
+  passes, zero `[ERROR]`; avec pass, one Unity/FMOD audio error naming no def and none of ours.
+- **T5, T6, T12 passed.** A meal cooked from an egg was named `FlavorTextFR_OeufMollet` and labelled "medium-boiled";
+  rice, pork and egg gave `FlavorTextFR_Katsudon`; six meals kept their names across a save and reload. Every name the
+  scenarios assumed (`FueledStove`, `CookMealSimple`, the rice, pork and egg) exists. What they leave out is unchanged:
+  no cook walked, no tick passed.
+- The test companion's `downloadUrl` did silence the `[Vanilla]` warning about its dependency: none in the three new logs.
+- **T9 passed:** each of the six reptile meats is in its own category and in none of another reptile's.
+- **T10 passed:** the eight provider ingredients are filed where the patches send them.
+- **T8 found a wrong assumption, in my scenario and in the README/About wording.** `VV_Leeks` is filed under `FT_Onion`
+  as well as `FT_Leek`: hekmo's own onion category lists "leek" as a keyword and absorbs `VV_Leeks` by name. The mod gives
+  leek a category of its own; it does not take it out of onion. The scenario now asserts what is true, and the README and
+  About description no longer say the leek was "split out of" onion. The pass has not been rerun since the fix.
+- **Not proved:** the dish names drawn are asserted to appear at least once in 300 cooks, never on every cook; T7
+  (`@wip`) was skipped as intended; no screenshot exists; the French text is the companion's.
 
 ## Where the reptile meats come from
 

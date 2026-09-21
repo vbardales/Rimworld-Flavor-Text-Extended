@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="Flavor Text Extended beside its optional ingredient providers" tests="6" failures="1" skipped="0" flakes="0" time="3.313">
+    <testcase name="the providers are really there, so this is not the bare pass under another name" classname="Flavor Text Extended beside its optional ingredient providers" time="1.435">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="the patches aimed at the providers' ingredients land" classname="Flavor Text Extended beside its optional ingredient providers" time="0.955">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="the providers' ingredients are filed where the patches send them" classname="Flavor Text Extended beside its optional ingredient providers" time="0.690">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="leek is not onion" classname="Flavor Text Extended beside its optional ingredient providers" time="0.111">
+      <failure message="VV_Leeks is under FT_Onion, which it must not be; it is under: FT_FoodRaw, FT_Foods, FT_Ingredients, FT_Items, FT_Leek, FT_Onion, FT_PlantFoodRaw, FT_Root, FT_RootVeg, FT_Vegetable, FT_Vegetarian">VV_Leeks is under FT_Onion, which it must not be; it is under: FT_FoodRaw, FT_Foods, FT_Ingredients, FT_Items, FT_Leek, FT_Onion, FT_PlantFoodRaw, FT_Root, FT_RootVeg, FT_Vegetable, FT_Vegetarian</failure>
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+Attachment: screenshot -&gt; /mnt/c/Users/nelim/Documents/rimworld/pickle-reports/screenshots/Flavor-Text-Extended-beside-its-optional-ingredient-providers--leek-is-not-onion--step2.png
+</system-out>
+    </testcase>
+    <testcase name="the leek category is defined by this mod, with VV_Leeks around" classname="Flavor Text Extended beside its optional ingredient providers" time="0.006">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="it loads beside the providers and says nothing" classname="Flavor Text Extended beside its optional ingredient providers" time="0.116">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

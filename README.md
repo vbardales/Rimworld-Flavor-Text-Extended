@@ -16,8 +16,9 @@ here. Where two dishes do share a combination it is deliberate: the engine picks
 matching definitions, weighted by how narrow each one is, so sharing produces variety rather than
 conflict.
 
-**New ingredient categories.** Leek and shallot, split out of the generic onion. Five reptile
-meats — turtle, alligator, iguana, lizard, frog — split out of the single herptile category.
+**New ingredient categories.** Leek and shallot get categories of their own, so a dish can ask for them
+by name; both still count as onion for Flavor Text's own dishes. Five reptile meats — turtle, alligator,
+iguana, lizard, frog — split out of the single herptile category.
 
 **Third-party ingredients.** Flavor Text matches keywords against both defNames and labels.
 This mod also explicitly attaches selected ingredients by defName: highland barley, hybrid

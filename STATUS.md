@@ -6,7 +6,7 @@ remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
 stage:        done
-stage_meaning: ready for final in-game validation; Pickle suite written 2026-09-21; only the first 5 scenarios ever ran (5/5); cooking, filing and avec-facultatifs written, not run
+stage_meaning: ready for final in-game validation; Pickle 2026-09-21: sans-facultatifs 10/10 and sans-odyssey 3/3 passed, avec-facultatifs 5/6 (one wrong assertion, fixed, not rerun)
 in_game_validation_owner: user
 settings_audit: not_applicable
 localization: complete
@@ -22,16 +22,29 @@ updated:      2026-09-21
 tested_on:
 workshop:
 remaining:
-  - "unverified: done -> tested. The three Pickle passes executed and green (only 01-alone has run), their logs read. No @review capture exists in this suite. No manual scenario is left for the owner: see the not-this-repository line below."
-  - "unverified: the Pickle pass WITH the optional providers (avec-facultatifs, 6 scenarios) has never run, so the rule of two passes is not met. Of the bare pass only 01-alone ran (2026-09-21, 5 of 5, exitReason passed, Tests/Pickle/results/2026-09-21-sans-facultatifs/)."
-  - "unverified: 03-cooking (3 scenarios, T12 included, + 1 @wip), 04-filing (2) and the two new scenarios of 02 use a step assembly (Tests/Pickle/Source) that compiles and whose patterns match the features, but has never met a game. Item and recipe names they assume (FueledStove, CookMealSimple, RawRice, Meat_Pig, EggChickenUnfertilized, the six reptile meats) are unchecked in-game."
-  - "unverified: the companion test mod's new downloadUrl (added after the run) is not confirmed to silence the one [Vanilla] warning about its dependency."
+  - "unverified: done -> tested. The three Pickle passes green together (avec-facultatifs to rerun). No @review capture exists in this suite. No manual scenario is left for the owner."
+  - "unverified: the avec-facultatifs pass has not passed. It ran 2026-09-21 and failed 1 of 6 on a wrong assertion of mine (leek is under FT_Onion too, by hekmo's own keyword); the assertion is corrected and the pass must be rerun. Ticket to take."
+  - "unverified: 03-cooking @wip (T7, four ingredients) was skipped as intended and has never run. Every other scenario of 01, 03, 04, 05 has passed once; each passed a single time."
   - "note: the run scripts look for <rimworld>/<Mod>/, one level above this repository. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it; stage-pickle-wsl.sh --list names the mod. Never delete it recursively."
-  - "unverified: T2 is now the Pickle pass sans-odyssey (05-sans-odyssey.feature, map wsl-deps.sans-odyssey.map, 3 scenarios), written 2026-09-21, never run. Open question of that pass: whether the game keeps the DLC out of a loaded save; the scenarios ask ModsConfig.IsActive and the mod list, and Player.log names the game's own list."
+  - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet (T1, T2, T3) was established by reading each Player.log: zero [ERROR] in the bare and Odyssey passes."
   - "not this repository: T4 (the game's reaction to a missing dependency is RimWorld's, AUDIT.md 2026-09-21); T11 second half, T13 and the French half of T14 (the French companion, own session and suite). T14 English is covered by the fixture save every 03 scenario loads. No manual scenario is left."
 ---
 
 # Flavor Text Extended — status
+
+## Pickle runs — 2026-09-21
+
+Three passes ran on tickets, headless in the WSL: **sans-facultatifs 10 passed / 1 skipped (@wip), sans-odyssey 3/3,
+avec-facultatifs 5 passed / 1 failed**, every `exitReason` read before the numbers. Details, what they prove and what they
+do not, are in TESTS.md "What has run"; reports and logs are in `Tests/Pickle/results/`.
+
+- **T2 answered:** the game kept Odyssey out, the mod loaded, zero `[ERROR]` in that log.
+- **T5, T6, T9, T10, T12 passed.** Every name the scenarios assumed exists in the game.
+- **One finding, and it is in the docs, not the code:** `VV_Leeks` is under `FT_Onion` as well as `FT_Leek`, because hekmo's
+  own onion category lists "leek" and absorbs it. My scenario asserted the opposite and failed; the README and About
+  description said the leek was "split out of onion". Both now say it has a category of its own and still counts as onion.
+  `About.xml` changed, in the description only: it has not been published, so nothing on Steam needs correcting.
+- **Limit worth knowing:** Pickle's `no errors were logged` does not see load-time errors. Load-time quiet was read from each log.
 
 ## T2 as a Pickle pass, and what left this repository — 2026-09-21
 

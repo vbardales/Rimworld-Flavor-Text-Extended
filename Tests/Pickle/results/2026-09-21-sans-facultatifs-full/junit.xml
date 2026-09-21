@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="Flavor Text Extended alone on Flavor Text" tests="5" failures="0" skipped="0" flakes="0" time="2.468">
+    <testcase name="both mods are loaded, in the order that matters" classname="Flavor Text Extended alone on Flavor Text" time="0.266">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="no ingredient provider is present, so this really is the bare pass" classname="Flavor Text Extended alone on Flavor Text" time="0.251">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="the new categories and a sample of dishes are defined by this mod" classname="Flavor Text Extended alone on Flavor Text" time="0.667">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="the unguarded keyword patches landed on Flavor Text's categories" classname="Flavor Text Extended alone on Flavor Text" time="1.097">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="it loads without its optional mods and says nothing" classname="Flavor Text Extended alone on Flavor Text" time="0.187">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="cooking a meal names it after a dish" tests="4" failures="0" skipped="1" flakes="0" time="38.578">
+    <testcase name="a name appears at all, from one ingredient" classname="cooking a meal names it after a dish" time="13.590">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="a three-ingredient dish fires" classname="cooking a meal names it after a dish" time="8.997">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="names survive a save and a reload" classname="cooking a meal names it after a dish" time="15.991">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="four ingredients become two dishes" classname="cooking a meal names it after a dish" time="0.000">
+      <skipped />
+    </testcase>
+  </testsuite>
+  <testsuite name="reptile meats are told apart" tests="2" failures="0" skipped="0" flakes="0" time="0.901">
+    <testcase name="each of the reptile meats sits in its own category" classname="reptile meats are told apart" time="0.480">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="a dish written for one reptile does not fire on another" classname="reptile meats are told apart" time="0.421">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

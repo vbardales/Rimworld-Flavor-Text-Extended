@@ -45,11 +45,14 @@ Feature: Flavor Text Extended beside its optional ingredient providers
     And Flavor Text Extended: "RLE_DriedMeat" is filed under "FT_MeatRaw"
     And Flavor Text Extended: "RLE_CheesNatureAged" is filed under "FT_Cheese"
 
-  Scenario: leek is not onion
-    # T8 of TESTS.md. VV_Leeks is absorbed by the leek category, whose parent is the generic
-    # vegetable one; a leek that fell under onion would let every onion dish fire on it.
+  Scenario: leek has a category of its own, and is still an onion for Flavor Text's own dishes
+    # T8 of TESTS.md. The first run of this pass (2026-09-21) asserted the OPPOSITE, that leek was not
+    # under onion, and failed: hekmo's own FT_Onion lists "leek" as a keyword and absorbs VV_Leeks by
+    # name, so a leek is an onion for his dishes whatever this mod adds. What this mod adds is FT_Leek,
+    # so that a dish can ask for a leek by name; it does not take the leek out of onion. The assertion
+    # was wrong, not the mod, and it is kept as it now reads so that a change of upstream shows.
     Then Flavor Text Extended: "VV_Leeks" is filed under "FT_Leek"
-    And Flavor Text Extended: "VV_Leeks" is not filed under "FT_Onion"
+    And Flavor Text Extended: "VV_Leeks" is filed under "FT_Onion"
 
   Scenario: the leek category is defined by this mod, with VV_Leeks around
     # FT_Leek absorbs VV_Leeks behind a MayRequire on its <li>. Here that reference is live.
