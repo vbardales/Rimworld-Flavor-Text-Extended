@@ -192,6 +192,26 @@ namespace FlavorTextExtended.PickleSteps
                 $"none of the {named.Count} meals named after {dishDefName} is labelled with \"{text}\"; the first reads \"{named[0].Label}\"");
         }
 
+        // ------------------------------------------------------------------ what a person reads
+
+        // The card is a window, so it survives the game's capture mode, which hides everything that is not one.
+        // It shows the meal's label and its description, where Flavor Text writes its dish text.
+        [When("Flavor Text Extended: the info card of a meal named after {string} is opened")]
+        public void OpenInfoCardOfDish(PickleContext ctx, string dishDefName)
+        {
+            Meal meal = meals.FirstOrDefault(m => m.Dishes.Contains(dishDefName));
+            ctx.Assert(meal != null, $"no meal was named after {dishDefName}. {Histogram()}");
+            Find.WindowStack.Add(new Dialog_InfoCard(meal.Thing));
+        }
+
+        [When("Flavor Text Extended: the info card of a meal named after {int} dishes at once is opened")]
+        public void OpenInfoCardOfSeveral(PickleContext ctx, int count)
+        {
+            Meal meal = meals.FirstOrDefault(m => m.Dishes.Count == count);
+            ctx.Assert(meal != null, $"no meal carried {count} dishes; {Histogram()}");
+            Find.WindowStack.Add(new Dialog_InfoCard(meal.Thing));
+        }
+
         // ------------------------------------------------------------------ save and reload
 
         [When("Flavor Text Extended: {int} of the meals are placed on the map")]
