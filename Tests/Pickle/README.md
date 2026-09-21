@@ -40,14 +40,17 @@ present: played in the other pass, each fails for a reason that has nothing to d
 `wsl-ids.map` names the one hard dependency the staging script does not know, Flavor Text
 (`hekmo.FlavorText`, 3245374432). It is read in every pass and activates nothing.
 
-## The harness cannot reach this repository yet
+## How the harness reaches this repository
 
 `scripts/Run-PickleWsl.ps1` and `scripts/stage-pickle-wsl.sh` look for `<rimworld>/<Mod>/Mod` and
 `<rimworld>/<Mod>/Tests/Pickle`. This repository sits one level deeper, at
-`<rimworld>/FlavorText/FlavorTextExtended`, so `-Mod FlavorTextExtended` finds nothing, and
-`-Repo <rimworld>\FlavorText` would lose `scripts/`. The clean fix is a directory junction
-`<rimworld>\FlavorTextExtended` -> `FlavorText\FlavorTextExtended`, which is a change outside this
-repository and has not been made. Until it is, nothing here can be played by the script.
+`<rimworld>/FlavorText/FlavorTextExtended`, and `-Repo <rimworld>\FlavorText` would lose
+`scripts/`. Since 2026-09-21 a directory junction `<rimworld>\FlavorTextExtended` ->
+`FlavorText\FlavorTextExtended` provides the way in, ignored by the root `.gitignore`.
+`stage-pickle-wsl.sh --list` (run in the WSL, nothing launched) now names `FlavorTextExtended`.
+It is a second path to the same files, not a copy. If it is ever removed, use
+`[System.IO.Directory]::Delete(path, $false)`: a recursive delete would follow it and erase this
+repository. Reports land in `<rimworld>/pickle-reports`, as for every mod.
 
 ## Not covered, and why
 

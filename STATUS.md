@@ -24,7 +24,7 @@ workshop:
 remaining:
   - "unverified: done -> tested. Scenarios T1-T14 in game, Pickle suites executed and their @review captures opened, logs, FR/EN interface, new and existing save. Owner of the T1-T14 walk: the user."
   - "unverified: the two Pickle passes (TESTS.md, Pickle passes) have never run, so no step is confirmed against a real game. In particular, whether Pickle finds a def of the custom type FlavorText.FlavorDef by name is unknown."
-  - "blocked: the run scripts cannot reach this repository. They look for <rimworld>/<Mod>/, one level above it. A junction <rimworld>/FlavorTextExtended is needed and has not been made (outside this repository)."
+  - "note: the run scripts look for <rimworld>/<Mod>/, one level above this repository. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it; stage-pickle-wsl.sh --list names the mod. Never delete it recursively."
   - "unverified: T2 (no Odyssey) has no Pickle form: the staging always activates the five DLCs. It stays a manual scenario."
 ---
 
@@ -52,7 +52,7 @@ stay as the record of why `done` had been withdrawn.
 launched. The workflow asks for the run at `done -> tested`, with the captures read, and with the
 observation that a green only says the path was played. Two things are open and listed in
 `remaining`: the run scripts cannot reach a repository nested one level deeper than they expect,
-and Pickle's lookup of a custom def type by name is untested.
+and Pickle's lookup of a custom def type by name is untested. The first limit has since been lifted by a junction, see `remaining`.
 
 ## Cumulative audit — 2026-09-21
 

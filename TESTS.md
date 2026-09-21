@@ -327,7 +327,8 @@ them.
 
 **Known limits, all stated before the first run.**
 - The harness looks for `<rimworld>/<Mod>/`, one level above where this repository sits. It cannot
-  reach it until a junction `<rimworld>\FlavorTextExtended` exists; see `Tests/Pickle/README.md`.
+  reach it, and a junction `<rimworld>\FlavorTextExtended` now bridges it (2026-09-21); see
+  `Tests/Pickle/README.md`.
 - Every step is Pickle's own and was matched against the patterns found in its assembly, not
   against a game. Whether `def "X" is defined by mod "Y"` finds a def of the custom type
   `FlavorText.FlavorDef` is unknown until a run.
