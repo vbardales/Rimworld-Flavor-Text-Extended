@@ -5,8 +5,8 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        preTest
-stage_meaning: done retracted 2026-09-21 - no Pickle suite written and its absence not justified; every earlier gate holds
+stage:        done
+stage_meaning: ready for final in-game validation; Pickle suite written 2026-09-21, never run
 in_game_validation_owner: user
 settings_audit: not_applicable
 localization: complete
@@ -22,12 +22,37 @@ updated:      2026-09-21
 tested_on:
 workshop:
 remaining:
-  - "defect: preTest -> done. No Pickle (Gherkin) scenario exists in this repository and no text justifies their absence or scope. The workflow asks for them written, or their non-applicability explicitly justified. Load-time checks (T1-T3) can only be shown by a running game and are the natural candidates."
   - "unverified: done -> tested. Scenarios T1-T14 in game, Pickle suites executed and their @review captures opened, logs, FR/EN interface, new and existing save. Owner of the T1-T14 walk: the user."
-  - "unverified: TESTS.md declares no Pickle passes (without optional mods / with them / one per declared incompatibility). Nothing is declared incompatible, so at most the first two families would apply."
+  - "unverified: the two Pickle passes (TESTS.md, Pickle passes) have never run, so no step is confirmed against a real game. In particular, whether Pickle finds a def of the custom type FlavorText.FlavorDef by name is unknown."
+  - "blocked: the run scripts cannot reach this repository. They look for <rimworld>/<Mod>/, one level above it. A junction <rimworld>\FlavorTextExtended is needed and has not been made (outside this repository)."
+  - "unverified: T2 (no Odyssey) has no Pickle form: the staging always activates the five DLCs. It stays a manual scenario."
 ---
 
 # Flavor Text Extended — status
+
+## preTest -> done — 2026-09-21, later the same day
+
+**Stage: `preTest` -> `done`.** The one defect of the audit below is corrected: the Pickle suite is
+written, and its scope is justified. Nothing else changed in the assessment; the sections below
+stay as the record of why `done` had been withdrawn.
+
+- `Tests/Pickle/`: a companion mod `Flavor Text Extended - Pickle tests` (never published), two
+  feature files (5 + 4 scenarios, 34 steps), `wsl-ids.map` naming Flavor Text's Workshop id, and
+  `wsl-deps.avec-facultatifs.map` for the second pass. Every step is a built-in Pickle step: all 34
+  match a pattern found in `RimWorks.Pickle.Core.dll` (checked by matching the text, not by a game).
+  Nothing uses a custom step assembly.
+- `TESTS.md`, "Pickle passes": what Pickle is for here (T1 and T3 made scriptable, what an offline
+  tool cannot show), **two passes** (without the optional mods, with them), **zero** for
+  incompatibilities because none is declared, why the two Chinese Traditional versions are not staged
+  (neither declares 1.6), and what is deliberately left out (T2, cooking scenarios, list contents).
+- Also fixed in `TESTS.md`: the baseline said 43 provider references (47 since the FoodCourt
+  additions) and "four" patch files (five).
+
+**Written is all this claims.** No scenario has run, no Pickle report exists, nothing here was
+launched. The workflow asks for the run at `done -> tested`, with the captures read, and with the
+observation that a green only says the path was played. Two things are open and listed in
+`remaining`: the run scripts cannot reach a repository nested one level deeper than they expect,
+and Pickle's lookup of a custom def type by name is untested.
 
 ## Cumulative audit — 2026-09-21
 

@@ -1,0 +1,6 @@
+# Workshop ids of the mod's HARD dependencies that the staging script's built-in table does not
+# know. Read in every pass, the bare one included; it resolves and activates nothing.
+#
+# hekmo.FlavorText is the one hard dependency of this mod (Mod/About/About.xml). Without this line
+# the staging stops on "no Workshop id known for hekmo.FlavorText" before it plays a scenario.
+hekmo.FlavorText   3245374432

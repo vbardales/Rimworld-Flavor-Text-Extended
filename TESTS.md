@@ -1,8 +1,9 @@
 # Functional test plan
 
-All in-game scenarios are executed exclusively by the user. Codex checks preparation,
-static prerequisites and automated results. Pending in-game results block only
-done -> tested, not preTest -> done.
+The manual in-game scenarios below are executed exclusively by the user. Codex checks preparation,
+static prerequisites and automated results. The Pickle suite (see "Pickle passes") is a separate
+thing: a session may run it in the WSL game under the machine lock, never in the Windows one.
+Pending in-game results block only done -> tested, not preTest -> done.
 
 This mod holds no assembly. Every one of its 901 dishes, its seven new ingredient categories and
 its five patch files are XML, applied at load time on top of Flavor Text (hekmo). So there is
@@ -100,7 +101,7 @@ Verify optional ingredient references against installed providers with:
 
 This checks actual provider metadata and selected XML folders, including older-version
 fallbacks. Historical Shenzhou hooks resolving in XML do not certify those mods on 1.6.
-Current baseline: 43 provider-reference pairs and no missing reference; four invalid
+Current baseline: 47 provider-reference pairs (43 before the FoodCourt additions) and no missing reference; four invalid
 leek/shallot references were removed after this check first reported their absence.
 
 ### T1 - It loads at all
@@ -109,7 +110,7 @@ leek/shallot references were removed after this check first reported their absen
 
 **Pass.** No red entry in the log naming `FlavorTextFR_`, `FT_Leek`, `FT_Shallot`, `FT_Meat_Turtle`,
 `FT_Meat_Alligator`, `FT_Meat_Iguana`, `FT_Meat_Lizard` or `FT_Meat_Frog`, and none naming one of
-our four files under `Patches/`. The Flavor Text line reports a second number near 1826.
+our five files under `Patches/`. The Flavor Text line reports a second number near 1826.
 
 **Failure shape.** `Could not resolve cross-reference to Verse.ThingDef named ...` points at
 `thingDefsToAbsorb`. `Patch operation ... failed` points at an xpath that no longer matches, which
@@ -288,6 +289,50 @@ its missing prerequisite, not passed. Rerun affected scenarios after any correct
 
 Settings values, input bounds and MainButtons customization/persistence are not applicable
 to this extension: it adds neither settings nor a shortcut. T13 still checks their absence.
+
+## Pickle passes
+
+Written 2026-09-21 in `Tests/Pickle/`, **never run**. What follows says how many passes the mod
+needs and what each one is for; it reports no result, because there is none. The suite is a
+companion mod, `Flavor Text Extended - Pickle tests`, never published; its README has the commands.
+
+**What Pickle is for here, and what it is not.** A Pickle run takes over the machine, so nothing
+that an offline tool proves is repeated in Gherkin: `Test-Xml.ps1`, `checkdefs.js`,
+`Test-OptionalIngredients.ps1` and `Check-ConfigErrors.ps1` keep the XML, the 901 dishes and the 47
+provider references. What only a running game can show is T1 and T3 of this plan, made scriptable:
+the two mods loaded in order, the defs reaching the database under this mod, the patches landing
+once every other mod has had its turn, and a load that logs nothing. Five scenarios in the first pass, four in the second.
+
+| Family | Passes | What it proves |
+|---|---|---|
+| Without the optional mods | **1**, `sans-facultatifs`, `-Filter 01-alone.feature` | the mod stands on Flavor Text alone: T3, observed rather than assumed |
+| With the optional mods | **1**, `avec-facultatifs`, `-DepMap wsl-deps.avec-facultatifs.map -Filter 02-avec-facultatifs.feature` | the guarded `<li>` entries resolve when VV New Harvest, RimLife Cultivation Plus and RimLife Expansion Trading are there |
+| One per declared incompatibility | **0** | nothing in `About.xml` or the README declares one |
+
+**Two passes, not more.** The rule asks for one pass per combination of optional mods that cannot
+meet. The only such pair here is the two versions of Chinese Traditional Cultural Things Expanded
+(`dajian.chiteaditional.expanded` and `...oldmode`, one mod under two package IDs). Neither declares
+RimWorld 1.6, so a run of either could certify nothing for 1.6, and neither is staged. If one
+declares 1.6, it gets a pass of its own. The other providers coexist, so a single pass stages all of
+them.
+
+**Not covered by Pickle, and why.**
+- T2, the load without Odyssey: the staging always activates Core and all five DLCs. It stays manual.
+- T5 to T9 and T12: they need a colony, a cook and a random draw among matching definitions. They
+  are not load-time claims.
+- What the patches *add* to a category's `thingDefsToAbsorb`: `Test-Xml.ps1` proves it, and Pickle's
+  `field` step has no documented form for list elements.
+- `no errors were logged` is global. A red from Flavor Text or from the test mod itself fails it too;
+  read who logged it before concluding anything about this mod.
+
+**Known limits, all stated before the first run.**
+- The harness looks for `<rimworld>/<Mod>/`, one level above where this repository sits. It cannot
+  reach it until a junction `<rimworld>\FlavorTextExtended` exists; see `Tests/Pickle/README.md`.
+- Every step is Pickle's own and was matched against the patterns found in its assembly, not
+  against a game. Whether `def "X" is defined by mod "Y"` finds a def of the custom type
+  `FlavorText.FlavorDef` is unknown until a run.
+- A run is a `done -> tested` criterion, with the `@review` rule that a green proves the path was
+  played and nothing more; these scenarios take no screenshot.
 
 ## Where the reptile meats come from
 

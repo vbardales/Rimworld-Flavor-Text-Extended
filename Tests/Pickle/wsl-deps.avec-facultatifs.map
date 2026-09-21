@@ -1,0 +1,21 @@
+# The pass WITH the optional providers, selected by name:
+#
+#   -DepMap wsl-deps.avec-facultatifs.map
+#
+# Named, not wsl-deps.map, so that the bare pass exists: the staging reads an unnamed wsl-deps.map on
+# EVERY pass, and a suite that kept that name could never prove the mod stands alone.
+#
+# These are not dependencies and must never become any: the mod declares only Flavor Text. Each is
+# a mod whose ingredients the patches attach by defName, behind a MayRequire on the <li>.
+#
+# Only providers that DECLARE 1.6 are staged. Chinese Traditional Cultural Things Expanded
+# (dajian.chiteaditional.expanded, 2877536640; ...oldmode, 2371079000) declares 1.5 and 1.3
+# only, so its hooks are historical and no run of it could certify anything for 1.6. That is a
+# decision, recorded in TESTS.md, not an oversight. If it declares 1.6 one day it gets its own
+# pass: its two packageIds are two versions of one mod and cannot meet.
+#
+# packageId                        workshopId   what the scenarios use it for
+vvenchov.vvnewharvest              3448458106   # VV_Leeks, absorbed by FT_Leek
+daylight.rlevvcultivationplus      3614595617   # VV_Chingensai and four more, absorbed by five categories
+syrchalis.processor.framework      3210544395   # hard dependency of RimLife Expansion Trading below
+daylight.rimlifeextrgmod           2951594887   # RLE_DriedMeat and the cheeses, absorbed by FT_MeatRaw and FT_Cheese
