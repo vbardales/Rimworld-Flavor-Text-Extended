@@ -57,9 +57,10 @@ tree is clean.
 ## Capture-suite completion — 2026-09-22
 
 `06-workshop-captures.feature` now stages the shared development-only package
-`nelim.pickletools.screenshotmode` through `wsl-deps.workshop-captures.map`. It opens each
-asserted meal card, hides the HUD and Pickle-owned windows, waits for three rendered frames inside
-the shared step, takes its screenshot, restores the interface, and closes dialogs. Its
+`nelim.pickletools.screenshotmode` and `nelim.pickletools.screenshotstudio` through
+`wsl-deps.workshop-captures.map`. It loads Nelim's Zen Meadow colony, frames its furnished kitchen,
+opens each asserted meal card, hides the HUD and Pickle-owned windows, waits for three rendered frames
+inside the shared step, takes its screenshot, restores the interface, and closes dialogs. Its
 `AfterScenario` restoration also covers a failed scenario. The three review targets and their
 Workshop order are now identical in the feature, `Tests/Pickle/README.md`, `TESTS.md` and
 `PUBLICATION.md`. T7 is no longer `@wip`: its dedicated 1/1 passing report establishes the

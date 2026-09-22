@@ -52,9 +52,9 @@ captures, if the owner resumes this work, must be produced by the dedicated Pick
 3. the info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
 
 A capture is disqualified if it shows dev tools, another mod's debug overlay, the launcher panel of Pickle, or an empty
-window (STYLE and AUDIT). `06-workshop-captures.feature` uses PickleTools ScreenshotMode to hide the HUD and Pickle
-windows, and restores it after each scenario. The order above becomes final only after the resulting images are opened
-and approved.
+window (STYLE and AUDIT). `06-workshop-captures.feature` loads the Nelim Zen Meadow studio, frames its furnished kitchen,
+then uses PickleTools ScreenshotMode to hide the HUD and Pickle windows while retaining the meal card. It restores the
+interface after each scenario. The order above becomes final only after the resulting images are opened and approved.
 
 ## Adult-content boxes
 
