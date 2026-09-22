@@ -1,9 +1,10 @@
 # Functional test plan
 
-The manual in-game scenarios below are executed exclusively by the user. Codex checks preparation,
-static prerequisites and automated results. The Pickle suite (see "Pickle passes") is a separate
-thing: a session may run it in the WSL game under the machine lock, never in the Windows one.
-Pending in-game results block only done -> tested, not preTest -> done.
+The T1-T14 text below is the historical functional-plan record. It is not a request for a
+manual playthrough: every applicable extension behavior now has a Pickle assertion, and the only
+human review left is opening the three Workshop screenshots produced by `06-workshop-captures`.
+There is no audio in this mod. The Pickle suite runs only in the WSL game through the shared
+launcher; no session launches or drives the owner's Windows game.
 
 This mod holds no assembly. Every one of its 901 dishes, its seven new ingredient categories and
 its five patch files are XML, applied at load time on top of Flavor Text (hekmo). So there is
@@ -299,16 +300,15 @@ run T12 again. Capture each run's game version, modlist and Player.log separatel
 names persist through reload. Existing meals remain usable; retroactive renaming is not
 assumed. No new exception, raw token or corrupted save is attributable to the extension.
 
-### Recording manual results
+### Evidence review
 
-T1-T14 remain **not executed** until a tester records the actions and observations.
-For each run record date, game version, extension and companion revisions, language,
-DLCs, provider versions, new/existing-save context, expected/observed result, pass/fail,
-and saved log or screenshot paths. Mark an unavailable optional scenario unverified with
-its missing prerequisite, not passed. Rerun affected scenarios after any correction.
+The historical manual actions are superseded by the Pickle pass matrix below. The reviewer opens
+only the three screenshots from `06-workshop-captures.feature`, confirms that each card is legible
+and relevant, and records the chosen Workshop display order. No audio is involved. Optional
+providers without a supported 1.6 build remain unverified rather than becoming a manual task.
 
-Settings values, input bounds and MainButtons customization/persistence are not applicable
-to this extension: it adds neither settings nor a shortcut. T13 still checks their absence.
+Settings values, input bounds and MainButtons customization/persistence are not applicable:
+this extension adds neither settings nor a shortcut.
 
 ## Pickle passes
 
@@ -324,15 +324,15 @@ the two mods loaded in order, the defs reaching the database under this mod, the
 once every other mod has had its turn, and a load that logs nothing. Five scenarios in `01-alone`,
 six in `02-avec-facultatifs`.
 
-**Added later the same day, written and never run:** T5 and T6 (a meal gets a name, a three-ingredient
-dish fires), T7 (four ingredients, tagged `@wip`), T8 (leek has its own category), T9 (the reptile meats are told
-apart) and T10 (provider ingredients reach the categories the patches name). They need a step
+**Added later the same day:** T5 and T6 (a meal gets a name, a three-ingredient dish fires),
+T7 (four ingredients), T8 (leek has its own category), T9 (the reptile meats are told apart) and
+T10 (provider ingredients reach the categories the patches name). They need a step
 assembly, `Tests/Pickle/Source/`, because Pickle has no built-in step that reads a meal's name or a
 category's contents:
 
 - `04-filing` and the two new scenarios of `02` read Flavor Text's category tree
   (`FlavorCategoryDef.DescendantThingDefs`). Deterministic, no save, no cooking.
-- `03-cooking` (T5, T6, T12, and T7 as `@wip`) calls `GenRecipe.MakeRecipeProducts`, which Flavor Text patches, on a colonist and a stove
+- `03-cooking` (T5, T6, T7 and T12) calls `GenRecipe.MakeRecipeProducts`, which Flavor Text patches, on a colonist and a stove
   of the loaded save: its postfix runs and names the meal for real, but **no tick passes**, so the walk to
   the stove, hauling and ingredient filters are not exercised. Cooking is a weighted random draw with
   hekmo's dishes competing, so a step cooks the meal 300 times and asserts that a dish *appeared*, never
@@ -345,6 +345,7 @@ category's contents:
 | Without the optional mods | **1**, `sans-facultatifs`, `-Filter 01-alone.feature,03-cooking.feature,04-filing.feature` | the mod stands on Flavor Text alone: T3, observed rather than assumed; meals named; reptile meats told apart |
 | With the optional mods | **1**, `avec-facultatifs`, `-DepMap wsl-deps.avec-facultatifs.map -Filter 02-avec-facultatifs.feature` | the guarded `<li>` entries resolve, and the ingredients they name land in the right categories, when VV New Harvest, RimLife Cultivation Plus and RimLife Expansion Trading are there |
 | Without one DLC | **1**, `sans-odyssey`, `-DepMap wsl-deps.sans-odyssey.map -Filter 05-sans-odyssey.feature` | T2: the four Odyssey-only reptile meats, guarded by `MayRequire`, raise nothing when the DLC is off |
+| Workshop evidence | **1**, `workshop-captures`, `-DepMap wsl-deps.workshop-captures.map -Filter 06-workshop-captures.feature` | produces the three cards that a human opens and orders; PickleTools ScreenshotMode removes HUD and Pickle chrome, and restores it after each scenario |
 | One per declared incompatibility | **0** | nothing in `About.xml` or the README declares one |
 
 **Three passes, not more.** The rule asks for one pass per combination of optional mods that cannot
@@ -363,8 +364,9 @@ Odyssey meats exist for.
 - **T4: not tested, on purpose.** The game's own reaction to a missing dependency is RimWorld's
   responsibility, and the game is not what a mod's suite tests.
 - **T11 (second half), T13, T14 (French):** the French companion's, in its own repository and session.
-- **No manual scenario is left in this repository.** Only the optional reading of a real `Player.log`
-  remains, `Tests/Manual/Check-PlayerLog.ps1`.
+- **No manual scenario is left in this repository.** The only human action is visual review of
+  the three generated Workshop screenshots. `Tests/Manual/Check-PlayerLog.ps1` is optional
+  diagnostics, not a test or a release gate.
 - What the patches *add* to a category's `thingDefsToAbsorb`: `Test-Xml.ps1` proves it, and Pickle's
   `field` step has no documented form for list elements.
 - `no errors were logged` is global. A red from Flavor Text or from the test mod itself fails it too;
@@ -394,9 +396,9 @@ Three passes ran on 2026-09-21, queued on tickets, headless in the WSL game. Rep
 
 | Pass | Result | Where |
 |---|---|---|
-| sans-facultatifs (`01`, `03`, `04`, and `03`'s `@wip` skipped) | **10 passed, 0 failed, 1 skipped, `exitReason: passed`**. 01 also ran alone earlier, 5/5. | `2026-09-21-sans-facultatifs-full/` |
+| sans-facultatifs (`01`, `03`, `04`, with T7 then tagged `@wip` and skipped) | **10 passed, 0 failed, 1 skipped, `exitReason: passed`**. 01 also ran alone earlier, 5/5. | `2026-09-21-sans-facultatifs-full/` |
 | sans-odyssey (`05`) | **3 of 3, `exitReason: passed`** | `2026-09-21-sans-odyssey/` |
-| T7 alone (`03`'s `@wip`, `-IncludeWip`, `-Filter '::four ingredients become two dishes'`) | **1 of 1, 6 steps of 6, `exitReason: passed`**, zero `[ERROR]` in the log. A meal from rice, pork, egg and potato carried two dishes at once, at least once in 50 cooks. | `2026-09-21-t7-wip/` |
+| T7 alone (then tagged `@wip`, `-IncludeWip`, `-Filter '::four ingredients become two dishes'`) | **1 of 1, 6 steps of 6, `exitReason: passed`**, zero `[ERROR]` in the log. A meal from rice, pork, egg and potato carried two dishes at once, at least once in 50 cooks. The tag was removed after this evidence. | `2026-09-21-t7-wip/` |
 | avec-facultatifs (`02`), first run | 5 passed, 1 failed, `exitReason: failed`: a wrong assertion of mine, see below | `2026-09-21-avec-facultatifs/` |
 | avec-facultatifs (`02`), rerun after the fix | **6 of 6, 23 of 23 steps, `exitReason: passed`**. Flavor Text read `1025 active FlavorDefs ... out of 1831`. One `[ERROR]` in the log, a Unity/FMOD audio error naming no def, present in this pass and absent from the two without providers, so it comes from one of them and not from this mod. | `2026-09-21-avec-facultatifs-rerun/` |
 
@@ -420,8 +422,9 @@ What they show, and what they do not:
   as well as `FT_Leek`: hekmo's own onion category lists "leek" as a keyword and absorbs `VV_Leeks` by name. The mod gives
   leek a category of its own; it does not take it out of onion. The scenario now asserts what is true, and the README and
   About description no longer say the leek was "split out of" onion. The rerun passed.
-- **Not proved:** the dish names drawn are asserted to appear at least once in 300 cooks, never on every cook; T7
-  (`@wip`) was skipped in that run and played alone afterwards, passed; no screenshot exists; the French text is the companion's.
+- **Not proved:** the dish names drawn are asserted to appear at least once in 300 cooks, never on every cook;
+  T7 was skipped in that one aggregate run but passed alone afterwards; Workshop screenshots still need a
+  capture run and human review; the French text is the companion's.
 
 ## Where the reptile meats come from
 

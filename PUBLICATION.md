@@ -48,12 +48,14 @@ Decided from the sources, not from intent.
 demonstrative, not the prettiest, and every image must be opened and looked at before it goes up. Candidates, to be
 produced by a dedicated Pickle scenario so they can be redone (the existing scenarios take no screenshot):
 
-1. the info card of a cooked dish, showing its name and its description (katsudon, from rice, pork and egg);
-2. the same for a regional dish that vanilla would not name (a meal with several dishes at once, T7);
-3. the mod list entry with the mascot icon and the dependency on Flavor Text.
+1. the info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the
+   extension names an ordinary meal after a specific dish;
+2. the info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
+3. the info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
 
 A capture is disqualified if it shows dev tools, another mod's debug overlay, the launcher panel of Pickle, or an empty
-window (STYLE and AUDIT). Order to be settled once the images exist.
+window (STYLE and AUDIT). `06-workshop-captures.feature` uses PickleTools ScreenshotMode to hide the HUD and Pickle
+windows, and restores it after each scenario. The order above is final once the resulting images are opened and approved.
 
 ## Adult-content boxes
 

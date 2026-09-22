@@ -5,8 +5,8 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        published
-stage_meaning: item public on Workshop 2026-09-22; the prepublished capture-order criterion was not completed first, see below
+stage:        tested
+stage_meaning: last workflow gate established by current evidence; Workshop item 3806100152 is public, but the required prepublication capture review and current release/tag alignment are not established
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -22,7 +22,8 @@ updated:      2026-09-22
 tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: sans-facultatifs 10/10 (+ T7 alone 1/1), sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun. Reports in Tests/Pickle/results/."
 workshop:     3806100152
 remaining:
-  - "published, not yet done: no Workshop screenshot exists besides Preview.png. Three @review scenarios exist in 06-workshop-captures.feature (6218f89) but have never run; the item's Captures d'écran gallery is empty. Deferred by the owner's own choice, the one open item of this stage."
+  - "blocker for tested -> prepublished: no Workshop screenshot exists besides Preview.png. Three @review scenarios exist in 06-workshop-captures.feature (6218f89) but have never run; no generated capture artifact is in the repository. Produce them, open and inspect each image, then settle and record the display order."
+  - "blocker for tested -> prepublished: v1.0.0 points to 3ad2e74, while current HEAD/origin/main is d4017f3. The live release body is the earlier CHANGELOG text and differs from the current 1.0.0 section, which now records the publication date. Bring the final release metadata, tag and committed repository state back into alignment before treating this version as prepublished."
   - "note: the FRENCH section's link now points at the companion's Workshop item (3806100488), matching what the owner put live. That item returned Steam's private-item error page when checked anonymously on 2026-09-22: the link will not work for visitors until it is switched to public."
   - "note: git history does not cleanly attribute Claude vs ChatGPT/Codex. 34 of 81 commits carry no AI co-author trailer, and the split does not follow date or content (some same-day translation commits have a Claude trailer, some do not). ATTRIBUTION.md says this plainly rather than guessing a boundary."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
@@ -32,6 +33,69 @@ remaining:
 ---
 
 # Flavor Text Extended — status
+
+## Capture-suite completion — 2026-09-22
+
+`06-workshop-captures.feature` now stages the shared development-only package
+`nelim.pickletools.screenshotmode` through `wsl-deps.workshop-captures.map`. It opens each
+asserted meal card, hides the HUD and Pickle-owned windows, waits for three rendered frames inside
+the shared step, takes its screenshot, restores the interface, and closes dialogs. Its
+`AfterScenario` restoration also covers a failed scenario. The three review targets and their
+Workshop order are now identical in the feature, `Tests/Pickle/README.md`, `TESTS.md` and
+`PUBLICATION.md`. T7 is no longer `@wip`: its dedicated 1/1 passing report establishes the
+representative four-ingredient scenario.
+
+No pure manual scenario remains. The historical T1-T14 prose is retained as a plan record; every
+applicable extension behavior is covered by the Pickle matrix or is justified not applicable/
+unverified (French companion, unsupported Shenzhou/shallot provider, or RimWorld behavior).
+The sole human action is to open the three generated captures and approve their legibility and
+order. No audio is involved.
+
+Both step assemblies rebuilt with zero warnings. `Tests/Pickle/Check-Steps.ps1` compiles all 12
+local expressions without duplicates. The new ScreenshotMode assembly and About.xml parse, but
+its capture pass is unverified: `Pickle-Status.ps1` reported another WSL run in progress, so this
+session did not launch, stage, interrupt or queue a game. The workflow stage remains `tested` until
+the three images exist and are inspected; `prepublished` is not claimed by this source change.
+
+
+## Workflow audit — 2026-09-22
+
+**Previous recorded stage: `published`. Retained workflow stage: `tested`.** Audited
+`d4017f3ecfe83773545b8822ad726d1144bcc9be`, equal to `origin/main` after a read-only fetch;
+the working tree was clean before this record. The Workshop item and GitHub release remain
+historical facts, recorded below. They do not satisfy a gate whose required work is absent.
+
+The earlier transitions through `tested` remain established. Re-run today, all outside the
+game: `checkdefs.js` reports 901 dishes, zero errors and ten known warnings; `verifen.js`
+reports zero errors or warnings; `Test-Xml.ps1` parses 51 XML files, applies 29 operations and
+verifies four Odyssey guards; `Test-OptionalIngredients.ps1` resolves all 47 guarded pairs;
+and `Test-Localization.ps1` verifies 908 owned defs, 1,809 English fields/French paths and
+4,614 valid tokens. `Check-Steps.ps1` compiles all 12 locally declared patterns without a
+duplicate. It leaves 59 built-in/PickleTools lines outside its local pattern table and reports
+one unused local pattern; this is a maintenance reserve, not evidence that the recorded game
+runs failed. No RimWorld was launched for this audit.
+
+The stored reports still support `tested`: bare full pass 10 passed / 1 skipped,
+the separate T7 pass 1/1, sans-Odyssey 3/3, and the optional-provider rerun 6/6; every final
+report says `exitReason: passed`. The later move of two expansion steps to PickleTools has not
+been rerun because the launcher correctly refused while the owner's Windows game was running;
+that remains unverified, not a defect in the mod.
+
+`tested -> prepublished` is **not established**. `06-workshop-captures.feature` contains three
+`@review` scenarios but has no result report or image. A green scenario would still not replace
+opening and inspecting every capture; no capture order can therefore be justified. Separately,
+current `HEAD` and `origin/main` are `d4017f3`, while `v1.0.0` points to `3ad2e74`; the GitHub
+release is public and final, but its body is the earlier CHANGELOG text and no longer equals the
+current 1.0.0 section. The metadata and the repository must be aligned before this release is
+reproducible at the claimed version.
+
+The release-ready metadata itself was checked: About.xml parses; it states package ID
+`nelim.flavortextextended`, version 1.0.0, one hard dependency, the adoption clause, named
+Claude/ChatGPT/DALL-E credits, THANKS, and the final GitHub source link. Root/distributed
+LICENSE and attribution copies have identical hashes. Preview and icon dimensions remain
+896x504 (553,178 bytes) and 128x128 (32,999 bytes). `PublishedFileId.txt` is committed and
+contains 3806100152. These results do not remove the two prepublication blockers above.
+
 
 ## Description corrected to match what is live, and credited mods linked — 2026-09-22
 

@@ -3,7 +3,7 @@
 Load-time scenarios for Flavor Text Extended, played inside a running RimWorld by
 [Pickle](https://github.com/RimWorks/Rimworld-Pickle) (`rimworks.pickle`, Workshop 3791648678).
 
-**Status, 2026-09-21: `sans-facultatifs` 10 passed / 1 skipped (`@wip`), `sans-odyssey` 3 of 3, `avec-facultatifs` 6 of 6 on its rerun (the first run's one failure was a wrong assertion), and the `@wip` T7 passed alone.** Reports are in `results/`. The report is
+**Status, 2026-09-21: `sans-facultatifs` 10 passed / 1 skipped (T7 was then opt-in), `sans-odyssey` 3 of 3, `avec-facultatifs` 6 of 6 on its rerun (the first run's one failure was a wrong assertion), and T7 passed alone.** Reports are in `results/`. The report is
 kept in `results/2026-09-21-sans-facultatifs/` because `pickle-reports/` is overwritten by the next
 run. Every step is one Pickle builds in. See `../../TESTS.md`, "Pickle passes" and "What has run",
 for what each pass is for, what the run shows and what it does not.
@@ -30,14 +30,14 @@ over the machine, so nothing here restates one of them. What is left:
 | **sans-facultatifs** | *(none)* | `01-alone.feature,03-cooking.feature,04-filing.feature` | Core, DLCs, Harmony, RimLogging, Pickle, Flavor Text, this mod |
 | **sans-odyssey** | `wsl-deps.sans-odyssey.map` | `05-sans-odyssey.feature` | the bare pass with one DLC left out of ModsConfig |
 | **avec-facultatifs** | `wsl-deps.avec-facultatifs.map` | `02-avec-facultatifs.feature` | the above, plus VV New Harvest, RimLife Cultivation Plus, RimLife Expansion Trading and its framework |
+| **workshop-captures** | `wsl-deps.workshop-captures.map` | `06-workshop-captures.feature` | the minimal pass plus PickleTools ScreenshotMode; produces three review screenshots with the HUD and Pickle panels hidden |
 
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -Filter 01-alone.feature,03-cooking.feature,04-filing.feature
 powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.sans-odyssey.map -Filter 05-sans-odyssey.feature
 powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.avec-facultatifs.map -Filter 02-avec-facultatifs.feature
+powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.workshop-captures.map -Filter 06-workshop-captures.feature
 ```
-
-`@wip` scenarios (the four-ingredient one) are played only with `-IncludeWip`.
 
 The filters differ because 01 asserts that the providers are **absent** and 02 that they are
 present: played in the other pass, each fails for a reason that has nothing to do with the mod.

@@ -48,11 +48,8 @@ Feature: cooking a meal names it after a dish
     Then Flavor Text Extended: the placed meals kept their names
     And no errors were logged
 
-  # Not a claim yet. TESTS.md T7 says four ingredients read as one dish with another alongside, and
-  # Flavor Text's source cuts the ingredients into chunks of three. Whether a lone fourth
-  # ingredient always finds a dish of its own is what nothing here has established, so this is
-  # played only with -IncludeWip, and a red says the assumption was wrong before it says the mod is.
-  @wip
+  # T7 is a representative four-ingredient case. The recorded dedicated run passed; keeping it in
+  # the ordinary suite makes every functional case selectable without an opt-in test tag.
   Scenario: four ingredients become two dishes
     When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     Then Flavor Text Extended: every meal was named after a dish

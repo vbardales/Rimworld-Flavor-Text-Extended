@@ -1,0 +1,4 @@
+# Publication captures use the minimal gameplay set plus the shared screenshot-mode companion.
+# It hides HUD and Pickle-owned panels while retaining the opened meal card; it is development
+# tooling only and must never become a dependency of Mod/About/About.xml.
+nelim.pickletools.screenshotmode   path:PickleTools/ScreenshotMode/Mod

@@ -14,8 +14,9 @@
 # empty window. The game's own capture mode hides the interface but keeps windows, so the card stays and the
 # rest of the screen should not. English only: the run is staged in English.
 #
-# Run it with -Filter 06-workshop-captures.feature, in the bare pass.
-@review
+# Run it with -DepMap wsl-deps.workshop-captures.map -Filter 06-workshop-captures.feature.
+# ScreenshotMode is a PickleTools companion, so the requirement skips safely outside this pass.
+@review @requires:nelim.pickletools.screenshotmode
 Feature: what the Workshop captures show
 
   Background:
@@ -26,20 +27,23 @@ Feature: what the Workshop captures show
   Scenario: the info card of a katsudon
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
-    And I wait 30 ticks
+    And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then I take a screenshot "katsudon - the info card of a meal cooked from rice, pork and egg"
-    When I close all dialogs
+    When Nelim's Pickle Tools: screenshot mode is disabled
+    And I close all dialogs
 
   Scenario: the info card of a meal with two dishes at once
     When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
-    And I wait 30 ticks
+    And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then I take a screenshot "two dishes at once - the info card of a meal cooked from four ingredients"
-    When I close all dialogs
+    When Nelim's Pickle Tools: screenshot mode is disabled
+    And I close all dialogs
 
   Scenario: the info card of a medium-boiled egg
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_OeufMollet" is opened
-    And I wait 30 ticks
+    And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then I take a screenshot "medium-boiled egg - the info card of a meal cooked from one ingredient"
-    When I close all dialogs
+    When Nelim's Pickle Tools: screenshot mode is disabled
+    And I close all dialogs
