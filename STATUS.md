@@ -22,18 +22,34 @@ updated:      2026-09-22
 tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: sans-facultatifs 10/10 (+ T7 alone 1/1), sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun. Reports in Tests/Pickle/results/."
 workshop:
 remaining:
-  - "prepublished: no tag v1.0.0 and no GitHub release yet. CHANGELOG now has a single 1.0.0 section to use as the release body. Publishing the release is the owner's word."
   - "prepublished: no Workshop capture exists besides Preview.png. Three @review scenarios now exist in 06-workshop-captures.feature (6218f89), but no capture result is present. Produce, open, inspect and order the images; PUBLICATION.md still lists a mod-list image where the feature now captures an egg meal."
   - "prepublished: PUBLICATION.md is a draft (dependencies and DLC, adult-content answer, Steam release notes, five thanks messages) awaiting the owner's review. Nothing is posted."
   - "unconfirmed by the owner: that the icon and the Preview illustration are AI-generated (tool unrecorded), and who did what among Claude and Codex. Both are in About.xml and ATTRIBUTION.md, public since the push; About.xml is sent to Steam only at creation."
   - "identified 2026-09-22: [DHM]Korean cuisine, DRILLED_HEAD, Workshop 3723096620. Credits and fifth thanks message prepared; nothing posted."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
-  - "unverified: the two expansion steps moved to PickleTools (ExpansionSteps) after the sans-odyssey pass passed 3/3 with them in this suite's own assembly. The pass must be rerun once to confirm the new wiring (a path: line in its map); ticket to take."
+  - "unverified: the two expansion steps moved to PickleTools (ExpansionSteps) after the sans-odyssey pass passed 3/3 with them in this suite's own assembly. A rerun attempt on 2026-09-22 refused with exit 2 (\"Sa partie Windows tourne\"): the owner's own Windows RimWorld was open, and the script correctly declined rather than queue past it. Not retried; take a ticket once that game is closed."
   - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
 ---
 
 # Flavor Text Extended — status
+
+## Tag and GitHub release — 2026-09-22
+
+On the owner's explicit instruction to finalize everything except the Workshop captures. Revision `67f5b9f` (the
+publication-wording commit above, already pushed) tagged `v1.0.0` and pushed; `git ls-remote` and `git rev-parse`
+confirm the remote tag, `HEAD` and `origin/main` are the same commit. Release published with `gh release create`,
+body taken verbatim from `CHANGELOG.md`'s `## 1.0.0` section:
+https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0 (not a draft, not a prerelease).
+
+Also attempted: requeuing `05-sans-odyssey.feature` to confirm the PickleTools `ExpansionSteps` wiring. The owner's
+own Windows RimWorld was running (pid 39292); `Run-PickleWsl.ps1` refused immediately, exit 2, "Sa partie Windows
+tourne". Correct behaviour, not retried, and not queued to wait: AUDIT.md's absolute rule is that session never
+launches or interrupts that install. The rerun stays open.
+
+Not done, by the owner's own exclusion this session: the Workshop captures (`06-workshop-captures.feature`) and
+everything that depends on them (their order, the Steam upload). Also still open: the owner's confirmation of the
+AI-generation and Claude/Codex attribution, which no session can supply on her behalf.
 
 ## Publication text review — 2026-09-22
 

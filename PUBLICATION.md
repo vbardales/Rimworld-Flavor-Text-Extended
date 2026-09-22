@@ -13,8 +13,9 @@ whoever takes the mod over.
   owner's confirmation before it is frozen: that the icon and the Preview illustration are AI-generated (the repository
   does not record the tool), and who did what among Claude and Codex.
 - **Version.** `modVersion` 1.0.0, `supportedVersions` 1.6 only. No `LoadFolders.xml`, none needed.
-- **Repository.** Public, `origin/main` pushed. Tag `v1.0.0` and its GitHub release, with the CHANGELOG's 1.0.0 section as
-  the body, are **not yet made**: publishing a release is the owner's word.
+- **Repository.** Public, `origin/main` pushed at `67f5b9f`. Tag `v1.0.0` made and pushed, and its GitHub release is published
+  with the CHANGELOG's 1.0.0 section as the body: https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0
+  (2026-09-22, on the owner's explicit word to finalize everything but the captures).
 
 ## Dependencies and DLC
 
