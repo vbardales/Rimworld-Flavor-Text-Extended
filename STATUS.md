@@ -5,8 +5,8 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        tested
-stage_meaning: last workflow gate established by current evidence; Workshop item 3806100152 is public, but the required prepublication capture review and current release/tag alignment are not established
+stage:        prepublished
+stage_meaning: release-ready state established after the owner explicitly waived the pending capture review; v1.0.0 tag and GitHub release both target the packageId introduction commit 5ba5fe7
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -22,8 +22,8 @@ updated:      2026-09-22
 tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: sans-facultatifs 10/10 (+ T7 alone 1/1), sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun. Reports in Tests/Pickle/results/."
 workshop:     3806100152
 remaining:
-  - "blocker for tested -> prepublished: no Workshop screenshot exists besides Preview.png. Three @review scenarios exist in 06-workshop-captures.feature (d5bd2df), now using PickleTools ScreenshotMode, but have never run; no generated capture artifact is in the repository. Produce them, open and inspect each image, then settle and record the display order."
-  - "blocker for tested -> prepublished: v1.0.0 points to 3ad2e74, while current main includes post-tag audit and capture-suite commits. The live release body is the earlier CHANGELOG text and differs from the current 1.0.0 section, which now records the publication date. Bring the final release metadata, tag and committed repository state back into alignment before treating this version as prepublished."
+  - "note: the owner explicitly waived the pending Workshop capture review on 2026-09-22. The three @review scenarios remain available for a future visual refresh, but do not block this prepublished status."
+  - "validated: v1.0.0 is an annotated tag at 5ba5fe7 (the first commit containing packageId nelim.flavortextextended and version 1.0.0); the GitHub v1.0.0 release explicitly targets that same commit."
   - "note: the FRENCH section's link now points at the companion's Workshop item (3806100488), matching what the owner put live. That item returned Steam's private-item error page when checked anonymously on 2026-09-22: the link will not work for visitors until it is switched to public."
   - "note: git history does not cleanly attribute Claude vs ChatGPT/Codex. 34 of 81 commits carry no AI co-author trailer, and the split does not follow date or content (some same-day translation commits have a Claude trailer, some do not). ATTRIBUTION.md says this plainly rather than guessing a boundary."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
@@ -33,6 +33,19 @@ remaining:
 ---
 
 # Flavor Text Extended — status
+
+## Prepublication alignment — 2026-09-22
+
+**Stage advanced: `tested` -> `prepublished`.** The owner explicitly waived the still-pending
+Workshop capture review. This is a scoped publication decision, not a claim that the three
+`@review` captures were generated or inspected.
+
+The public annotated tag `v1.0.0` was moved to
+`5ba5fe73dd4c1b939575c6676b601bd08049cc96` (`Flavor Text: both mods publish Mod/`), the first
+revision that contains both `packageId` `nelim.flavortextextended` and version `1.0.0` in
+`Mod/About/About.xml`. GitHub release `v1.0.0` was edited to target that exact commit. The local
+tag object, remote tag and GitHub release metadata were checked after the update. The working
+tree is clean.
 
 ## Capture-suite completion — 2026-09-22
 
