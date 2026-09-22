@@ -120,8 +120,8 @@ is what a Flavor Text update that renames a category would produce.
 ### T2 - It loads without Odyssey
 
 **Played by Pickle since 2026-09-21** as `05-sans-odyssey.feature`, pass `sans-odyssey` (`-DepMap wsl-deps.sans-odyssey.map`,
-which leaves the DLC out of ModsConfig). Written, never run. The manual version below stays as the
-fallback reading of the same expectation.
+which leaves the DLC out of ModsConfig). Rerun 3/3 on 2026-09-22 with the expansion steps supplied by PickleTools.
+The manual version below stays as the fallback reading of the same expectation.
 
 **Setup.** Same, with the Odyssey expansion turned off.
 
@@ -398,6 +398,7 @@ Three passes ran on 2026-09-21, queued on tickets, headless in the WSL game. Rep
 |---|---|---|
 | sans-facultatifs (`01`, `03`, `04`, with T7 then tagged `@wip` and skipped) | **10 passed, 0 failed, 1 skipped, `exitReason: passed`**. 01 also ran alone earlier, 5/5. | `2026-09-21-sans-facultatifs-full/` |
 | sans-odyssey (`05`) | **3 of 3, `exitReason: passed`** | `2026-09-21-sans-odyssey/` |
+| sans-odyssey (`05`), rerun with PickleTools ExpansionSteps | **3 of 3, `exitReason: passed`**. Odyssey inactive and Ideology active were asserted by the shared steps. | `2026-09-22-sans-odyssey-pickletools/` |
 | T7 alone (then tagged `@wip`, `-IncludeWip`, `-Filter '::four ingredients become two dishes'`) | **1 of 1, 6 steps of 6, `exitReason: passed`**, zero `[ERROR]` in the log. A meal from rice, pork, egg and potato carried two dishes at once, at least once in 50 cooks. The tag was removed after this evidence. | `2026-09-21-t7-wip/` |
 | avec-facultatifs (`02`), first run | 5 passed, 1 failed, `exitReason: failed`: a wrong assertion of mine, see below | `2026-09-21-avec-facultatifs/` |
 | avec-facultatifs (`02`), rerun after the fix | **6 of 6, 23 of 23 steps, `exitReason: passed`**. Flavor Text read `1025 active FlavorDefs ... out of 1831`. One `[ERROR]` in the log, a Unity/FMOD audio error naming no def, present in this pass and absent from the two without providers, so it comes from one of them and not from this mod. | `2026-09-21-avec-facultatifs-rerun/` |
