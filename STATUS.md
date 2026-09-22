@@ -22,8 +22,8 @@ updated:      2026-09-22
 tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: sans-facultatifs 10/10 (+ T7 alone 1/1), sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun. Reports in Tests/Pickle/results/."
 workshop:     3806100152
 remaining:
-  - "blocker for tested -> prepublished: no Workshop screenshot exists besides Preview.png. Three @review scenarios exist in 06-workshop-captures.feature (6218f89) but have never run; no generated capture artifact is in the repository. Produce them, open and inspect each image, then settle and record the display order."
-  - "blocker for tested -> prepublished: v1.0.0 points to 3ad2e74, while current HEAD/origin/main is d4017f3. The live release body is the earlier CHANGELOG text and differs from the current 1.0.0 section, which now records the publication date. Bring the final release metadata, tag and committed repository state back into alignment before treating this version as prepublished."
+  - "blocker for tested -> prepublished: no Workshop screenshot exists besides Preview.png. Three @review scenarios exist in 06-workshop-captures.feature (d5bd2df), now using PickleTools ScreenshotMode, but have never run; no generated capture artifact is in the repository. Produce them, open and inspect each image, then settle and record the display order."
+  - "blocker for tested -> prepublished: v1.0.0 points to 3ad2e74, while current HEAD/origin/main is d5bd2df. The live release body is the earlier CHANGELOG text and differs from the current 1.0.0 section, which now records the publication date. Bring the final release metadata, tag and committed repository state back into alignment before treating this version as prepublished."
   - "note: the FRENCH section's link now points at the companion's Workshop item (3806100488), matching what the owner put live. That item returned Steam's private-item error page when checked anonymously on 2026-09-22: the link will not work for visitors until it is switched to public."
   - "note: git history does not cleanly attribute Claude vs ChatGPT/Codex. 34 of 81 commits carry no AI co-author trailer, and the split does not follow date or content (some same-day translation commits have a Claude trailer, some do not). ATTRIBUTION.md says this plainly rather than guessing a boundary."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
@@ -61,7 +61,7 @@ the three images exist and are inspected; `prepublished` is not claimed by this 
 ## Workflow audit — 2026-09-22
 
 **Previous recorded stage: `published`. Retained workflow stage: `tested`.** Audited
-`d4017f3ecfe83773545b8822ad726d1144bcc9be`, equal to `origin/main` after a read-only fetch;
+`d5bd2df039e6e6a523995a0e065c0e4ea65f5f27`, equal to `origin/main` after the capture-suite push;
 the working tree was clean before this record. The Workshop item and GitHub release remain
 historical facts, recorded below. They do not satisfy a gate whose required work is absent.
 
@@ -84,7 +84,7 @@ that remains unverified, not a defect in the mod.
 `tested -> prepublished` is **not established**. `06-workshop-captures.feature` contains three
 `@review` scenarios but has no result report or image. A green scenario would still not replace
 opening and inspecting every capture; no capture order can therefore be justified. Separately,
-current `HEAD` and `origin/main` are `d4017f3`, while `v1.0.0` points to `3ad2e74`; the GitHub
+current `HEAD` and `origin/main` are `d5bd2df`, while `v1.0.0` points to `3ad2e74`; the GitHub
 release is public and final, but its body is the earlier CHANGELOG text and no longer equals the
 current 1.0.0 section. The metadata and the repository must be aligned before this release is
 reproducible at the claimed version.
