@@ -46,6 +46,7 @@ THANKS
 daylight ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3614595617]RimLife Cultivation Plus[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2951594887]RimLife Expansion Trading items[/url]), Diamond.J, DaJian, Frolg and TangWan ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url]) and VVenchov ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106]VV - New Harvest[/url]), whose ingredients this mod recognises when they are installed.
 DRILLED_HEAD, for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3723096620][DHM]Korean cuisine[/url]: discovering its Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon prompted five independently written dish definitions here.
 RimWorks, for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678]Pickle[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696]RimLogging[/url]: this release was tested headless, in a real running game, through their tools. Development-only, not a dependency of this mod.
+My own PickleTools, a shared testing toolkit across my mods, unpublished: the sans-odyssey pass reads ModsConfig through its ExpansionSteps.
 
 Credits, provenance and licence (MIT) are in ATTRIBUTION.md and LICENSE, shipped with the mod.
 

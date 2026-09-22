@@ -100,6 +100,11 @@ in `TESTS.md`/`Tests/Pickle/` headless, inside a real running game. **RimLogging
 warning or an error to the mod that logged it. Both are development-only: neither is a dependency of the
 distributed mod, and neither is staged or loaded when a player subscribes to it.
 
+**PickleTools** is this author's own shared testing toolkit, a separate unpublished repository used across
+several mods. The `sans-odyssey` pass stages its `ExpansionSteps` (`nelim.pickletools.expansions`,
+`Tests/Pickle/wsl-deps.sans-odyssey.map`) to read `ModsConfig` and confirm an excluded DLC stays excluded.
+Development-only, like Pickle and RimLogging above.
+
 ## Licence
 
 MIT, see `LICENSE`. It covers the added defs, the patches and the tools. It does not
