@@ -5,8 +5,8 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        tested
-stage_meaning: played in a running game (headless Pickle, 2026-09-21) and passed; prepublished not reached
+stage:        published
+stage_meaning: item public on Workshop 2026-09-22; the prepublished capture-order criterion was not completed first, see below
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -20,12 +20,10 @@ licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 maintainer:    current Codex task for this repository
 updated:      2026-09-22
 tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: sans-facultatifs 10/10 (+ T7 alone 1/1), sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun. Reports in Tests/Pickle/results/."
-workshop:
+workshop:     3806100152
 remaining:
-  - "prepublished: no Workshop capture exists besides Preview.png. Three @review scenarios now exist in 06-workshop-captures.feature (6218f89), but no capture result is present. Produce, open, inspect and order the images; PUBLICATION.md still lists a mod-list image where the feature now captures an egg meal."
-  - "prepublished: PUBLICATION.md is a draft (dependencies and DLC, adult-content answer, Steam release notes, five thanks messages) awaiting the owner's review. Nothing is posted."
-  - "unconfirmed by the owner: that the icon and the Preview illustration are AI-generated (tool unrecorded), and who did what among Claude and Codex. Both are in About.xml and ATTRIBUTION.md, public since the push; About.xml is sent to Steam only at creation."
-  - "identified 2026-09-22: [DHM]Korean cuisine, DRILLED_HEAD, Workshop 3723096620. Credits and fifth thanks message prepared; nothing posted."
+  - "published, not yet done: no Workshop screenshot exists besides Preview.png. Three @review scenarios exist in 06-workshop-captures.feature (6218f89) but have never run; the item's Captures d'écran gallery is empty. Deferred by the owner's own choice, the one open item of this stage."
+  - "note: the owner's AI-generation/Claude-Codex attribution in About.xml and ATTRIBUTION.md is her own text, sent to Steam at item creation; no further confirmation was asked of her, and none is owed by a session."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "unverified: the two expansion steps moved to PickleTools (ExpansionSteps) after the sans-odyssey pass passed 3/3 with them in this suite's own assembly. A rerun attempt on 2026-09-22 refused with exit 2 (\"Sa partie Windows tourne\"): the owner's own Windows RimWorld was open, and the script correctly declined rather than queue past it. The owner asked explicitly not to requeue it now: the rerun is deferred to after publication, not treated as a prepublished blocker."
   - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
@@ -33,6 +31,25 @@ remaining:
 ---
 
 # Flavor Text Extended — status
+
+## Published — 2026-09-22
+
+**Retained stage: `published`.** The owner created the Workshop item herself (outside any session's reach: RimWorld's
+own Steam upload, run from her own game) and switched it to public. Confirmed directly, not merely taken on her word:
+
+- `https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152` loads in full for an anonymous browser session
+  (no login), description included and a **Subscribe** button shown — the behaviour of a public item, not a private one.
+- The first thanks comment, to hekmo on Flavor Text's own page, is live under account `nelim17`, timestamped minutes
+  after posting, text matching what was drafted here. The other four were not each individually re-checked; one direct
+  hit stands for the batch, all five having been handed over the same way in the same sitting.
+
+`About/PublishedFileId.txt` (`3806100152`) was committed immediately after the upload, in its own commit, per the rule
+that a missed commit here makes the next upload create a second item. `workshop:` above now carries the id.
+
+**The `prepublished` capture-order criterion was not completed first.** `06-workshop-captures.feature` exists (`6218f89`)
+but has never run, and the item's own Capture d'écran gallery is empty beyond the header `Preview.png`. Real-world
+publishing happened before that step, on the owner's own sequencing, not this audit's. It is not undone and not
+retried out of order; it is recorded as the one open item of the `published` stage, at the owner's own pace.
 
 ## Tag and GitHub release — 2026-09-22
 

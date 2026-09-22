@@ -1,8 +1,12 @@
 # Publication notes — Flavor Text Extended
 
-What the Workshop page asks for and the repository holds nowhere else. Written 2026-09-21 as a **draft** for the
-owner's review: nothing here has been posted, uploaded or tagged. It serves twice: at the first upload, and for
-whoever takes the mod over.
+What the Workshop page asked for and the repository held nowhere else. Written 2026-09-21 as a draft; **published
+2026-09-22**, item [3806100152](https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152), public. The
+sections below are now a record of what was decided and sent, not a proposal. It serves twice: it did at the first
+upload, and it does for whoever takes the mod over.
+
+The one thing this draft asked for that was not done before publishing: the Workshop screenshots (see "Captures for
+the Workshop page"). The owner chose to publish first and produce them afterward; that order is hers, not a defect.
 
 ## Before the upload
 
@@ -67,55 +71,58 @@ again for every capture added.
 
 Release notes go out with every upload and can be corrected freely; the description does not.
 
-## Thanks to post, once the item is public
+## Thanks — posted 2026-09-22
 
-One per recipient, personalised, each under 1000 characters (the Steam comment limit). BBCode works, and a bare item URL
-makes a thumbnail. **Post only after the switch to public**: a link to a private item opens for nobody. `<ITEM>` is this
-mod's Workshop URL, unknown until the first upload.
+Five drafted here in a technical tone; the owner asked for a warmer, fan-toned rewrite instead, each one different, and
+posted those. Kept below as sent, not as the original draft, so this stays the record of what is actually on Steam.
+`<ITEM>` was `https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152` at send time.
 
-**hekmo — Flavor Text** (3245374432)
+**hekmo — Flavor Text** (3245374432) — confirmed live on Flavor Text's own Comments page, account `nelim17`.
 
-> Thank you for Flavor Text. I wrote an add-on for it: 901 more dishes and a few new ingredient categories, all as defs that
-> inherit your FlavorDef_Base plus XML patches on your categories. Nothing of yours is copied, and it does nothing without
-> Flavor Text. I read how names are drawn (a weighted random pick among matching definitions) so as not to fight it, and
-> the dishes share ingredient combinations on purpose to give variety. If any patch on your categories bothers you, tell me
-> and I will change it. <ITEM>
+> Hi hekmo! 🍲 Flavor Text is the reason my colonies stopped eating 'meal, simple' forever, so I went and wrote it 901 more
+> dishes to name. Everything here is built ON your defs (nothing copied, nothing works without your mod), and I made sure
+> to respect how you draw a name so I'm not fighting your engine, just feeding it. If any of my patches ever step on your
+> toes, just say the word and I'll fix it. Thank you for making the base thing so good I wanted 901 more of it. I'll
+> upload a french version too today :) <ITEM>
 
 **daylight — RimLife Cultivation Plus** (3614595617)
 
-> Thanks for RimLife Cultivation Plus. My Flavor Text add-on recognises your Chingensai, tomato, onion, paprika and dent
-> corn as ingredients when your mod is installed (one guarded entry each, nothing required, nothing copied), so meals cooked
-> from them can be named as dishes. Tested on 1.6 with your mod loaded. <ITEM>
+> Your crops made my colonists so much happier, RimLife Cultivation Plus 🌱 Thanks to you, dishes cooked with Chingensai,
+> tomato, onion, paprika or dent corn can now get a proper name instead of a boring "meal". Totally optional on your end,
+> nothing required, nothing copied, just quietly grateful whenever your veggies show up in someone's stew. <ITEM>
 
 **daylight — RimLife Expansion Trading items** (2951594887)
 
-> Thanks for RimLife Expansion Trading items. My Flavor Text add-on files your dried meat and two cheeses under the matching
-> ingredient categories when your mod is installed, so a meal cooked with them can be named as a dish. One guarded entry
-> each, nothing required, nothing copied. Tested on 1.6 with your mod loaded. <ITEM>
+> Hello! Your dried meat and cheeses earned themselves a whole ingredient category in my Flavor Text add-on 🧀 Cook with
+> them and the game can now name the result properly instead of shrugging and calling it "meal". Nothing required on your
+> side, nothing copied, just a little nod every time your stock shows up on someone's plate. Thanks for the tasty
+> ingredients! <ITEM>
 
 **VVenchov — VV - New Harvest** (3448458106)
 
-> Thanks for VV - New Harvest. My Flavor Text add-on gives leek its own category so a dish can ask for it by name, and it
-> attaches your VV_Leeks to it when your mod is installed (a single guarded entry, nothing required, nothing copied). A leek
-> still counts as an onion for Flavor Text's own dishes. Tested on 1.6 with your mod loaded. <ITEM>
-
-**Chinese Traditional Cultural Things Expanded** (2877536640) — *optional; hold this one back.* The mod declares no 1.6
-support, so the message would thank a hook nobody could test here. Post only if that changes.
+> Leek deserved better, and VV - New Harvest gave it to me 🥬 I built leek its very own category in Flavor Text so a dish
+> can finally ask for it by name instead of shrugging and calling it an onion (it still IS one for Flavor Text's own
+> recipes, no hard feelings). Your VV_Leeks slots right in, completely optional, nothing copied. Thanks for growing
+> something so specific! <ITEM>
 
 **DRILLED_HEAD — [DHM]Korean cuisine** ([Workshop 3723096620](https://steamcommunity.com/sharedfiles/filedetails/?id=3723096620))
 
-> Thank you for [DHM]Korean cuisine. Comparing its dishes with Flavor Text helped me discover five additions for my
-> add-on: Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon. I wrote new Flavor Text definitions and descriptions
-> for them; no textures, code or descriptions from your mod are included. Some ingredients are approximations within
-> Flavor Text's categories, identified in the descriptions. Your mod is credited as the source of these discoveries. <ITEM>
+> Okay this one's a fun story 🍢 I was browsing what people cook in RimWorld and your mod is what put Altang, Beondegi,
+> Bungeoppang, Jjapaghuri and Kimchijeon on my radar. I wrote my own definitions and descriptions from scratch for all
+> five (no textures, code or text borrowed, promise!), but the idea to add them at all is 100% thanks to you. Consider
+> this my little shoutout for the inspiration. <ITEM>
 
 Identity checked on 2026-09-22 against FoodCourt's registry and the installed mod's About.xml,
 PublishedFileId.txt and five KFD_ definitions. Package ID: `drilledhead.Koreancuisine`.
 This is an inspiration credit, not a dependency or a claim of integration testing.
 
-## Right after the upload — cannot be redone
+**Held back:** Chinese Traditional Cultural Things Expanded (2877536640). The mod declares no 1.6 support, so a thanks
+message would credit a hook nobody could test here. Post only if that changes.
 
-1. **Commit `About/PublishedFileId.txt` immediately.** Lost, the next upload creates a second item.
-2. Steam creates every item **private**; RimWorld never calls `SetItemVisibility`.
-3. Subscribe to the item, play with it for real, then switch it to public **by hand**.
-4. Post the thanks above. Record the Workshop id in `STATUS.md`.
+## Right after the upload — done
+
+1. ~~Commit `About/PublishedFileId.txt` immediately.~~ Done: `3806100152`, its own commit, pushed.
+2. Steam created the item **private**, as it always does; RimWorld never calls `SetItemVisibility`.
+3. ~~Subscribe, play with it for real, then switch to public by hand.~~ Done by the owner; confirmed from outside
+   (an anonymous browser session sees the full page and a Subscribe button — the shape of a public item).
+4. ~~Post the thanks above.~~ Done, spot-checked live on hekmo's page. ~~Record the Workshop id in `STATUS.md`.~~ Done.
