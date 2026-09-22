@@ -5,10 +5,10 @@
 First release. The mod was developed against Flavor Text (hekmo) for 1.6; nothing had been published before.
 
 - Add 901 dish definitions for Flavor Text: French and regional cooking first, then Italy, the Maghreb, Japan, Korea,
-  Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the Caribbean and Polynesia. Every dish rests on a
-  distinct combination of ingredients.
+  Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the Caribbean and Polynesia. Each dish is defined by a
+  combination of ingredients.
 - Add seven ingredient categories: leek and shallot get categories of their own (both still count as onion for Flavor
-  Text's own dishes), and five reptile meats — turtle, alligator, iguana, lizard, frog — are split out of the single
+  Text's own dishes), and five reptile and amphibian meat categories — turtle, alligator, iguana, lizard, frog — are split out of the single
   herptile category.
 - Extend Flavor Text's ingredient keywords, and attach selected third-party ingredients by defName: RimLife Cultivation
   Plus, RimLife Expansion Trading items, VV - New Harvest, and Chinese Traditional Cultural Things Expanded. Each entry is

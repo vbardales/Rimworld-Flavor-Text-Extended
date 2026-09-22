@@ -10,14 +10,14 @@ RimWorld 1.6.
 Maghreb, Japan, Korea, Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the
 Caribbean, Polynesia.
 
-Every dish rests on a distinct combination of ingredients. That combination is what the engine
+Each dish is defined by a combination of ingredients. That combination is what the engine
 draws on, not the name — so the same dish under five different names would add nothing, and is not
 here. Where two dishes do share a combination it is deliberate: the engine picks at random among
 matching definitions, weighted by how narrow each one is, so sharing produces variety rather than
 conflict.
 
 **New ingredient categories.** Leek and shallot get categories of their own, so a dish can ask for them
-by name; both still count as onion for Flavor Text's own dishes. Five reptile meats — turtle, alligator,
+by name; both still count as onion for Flavor Text's own dishes. Five reptile and amphibian meat categories — turtle, alligator,
 iguana, lizard, frog — split out of the single herptile category.
 
 **Third-party ingredients.** Flavor Text matches keywords against both defNames and labels.
@@ -36,7 +36,7 @@ are translated. So a French or Japanese name in the list is a choice, not an unt
 Flavor Text names a meal after what went into it, so a dish can only appear if its ingredients
 exist in the game. These 901 lean on a wider pantry than vanilla keeps — wheat, cheese, butter,
 cream, onion, tomato, garlic, chilli — so on a vanilla-only save about forty of them can fire.
-With farming and cooking mods installed, the whole set comes into play.
+Farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
 
 That is how the engine works rather than a shortcoming: a dish waits for its ingredient, and
 costs nothing while it waits. But it sets what a player should expect.

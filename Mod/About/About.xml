@@ -10,23 +10,23 @@
 
 French and regional cooking first, then the wider repertoire: Italy, the Maghreb, Japan, Korea, Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the Caribbean, Polynesia.
 
-Every dish rests on a distinct combination of ingredients. That combination is what the engine draws on, not the name - so the same dish under five different names would add nothing, and is not here. Where two dishes share a combination it is deliberate: the engine picks at random among matching definitions, weighted by how narrow each one is, so sharing produces variety rather than conflict.
+Each dish is defined by a combination of ingredients. That combination is what the engine draws on, not the name - so the same dish under five different names would add nothing, and is not here. Where two dishes share a combination it is deliberate: the engine picks at random among matching definitions, weighted by how narrow each one is, so sharing produces variety rather than conflict.
 
 WHAT YOUR COLONY GROWS DECIDES WHAT YOU SEE
 
-Flavor Text names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 901 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; with farming and cooking mods installed, the whole set comes into play.
+Flavor Text names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 901 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
 
 That is how the engine works rather than a shortcoming: nothing is lost, a dish simply waits for its ingredient. But it is worth knowing before you install.
 
 NEW INGREDIENT CATEGORIES
 
-Leek and shallot get categories of their own, so a dish can ask for them by name; both still count as onion for Flavor Text's own dishes. Five reptile meats - turtle, alligator, iguana, lizard, frog - split out of the single herptile category.
+Leek and shallot get categories of their own, so a dish can ask for them by name; both still count as onion for Flavor Text's own dishes. Five reptile and amphibian meat categories - turtle, alligator, iguana, lizard, frog - split out of the single herptile category.
 
 THIRD-PARTY INGREDIENTS
 
 Flavor Text matches keywords against both defNames and labels. This mod also attaches selected ingredients explicitly by defName, including ingredients whose names do not match the expected keywords: highland barley, hybrid rice, salted mustard greens, bok choy, ginkgo nuts, grain wines, dried meat and cheeses, among others.
 
-None of those mods are required. Each operation does nothing when its mod is absent.
+None of those mods are required. Each provider-specific ingredient reference is guarded by its mod's package ID. No DLC is required. The Chinese Traditional Cultural Things Expanded hooks are not certified for RimWorld 1.6.
 
 FRENCH
 
@@ -43,7 +43,8 @@ The dishes, their descriptions and the ingredient patches were written with Clau
 THANKS
 
 hekmo, for Flavor Text: how names are composed, how a definition is picked and how ingredients inflect are all his work, and this mod is only new content for it.
-daylight (RimLife Cultivation Plus, RimLife Expansion Trading), Diamond.J, DaJian, Frolg and TangWan (Chinese Traditional Cultural Things Expanded) and the makers of VV New Harvest, whose ingredients this mod recognises when they are installed.
+daylight (RimLife Cultivation Plus, RimLife Expansion Trading), Diamond.J, DaJian, Frolg and TangWan (Chinese Traditional Cultural Things Expanded) and VVenchov (VV - New Harvest), whose ingredients this mod recognises when they are installed.
+DRILLED_HEAD, for [DHM]Korean cuisine: discovering its Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon prompted five independently written dish definitions here.
 
 Credits, provenance and licence (MIT) are in ATTRIBUTION.md and LICENSE, shipped with the mod.
 

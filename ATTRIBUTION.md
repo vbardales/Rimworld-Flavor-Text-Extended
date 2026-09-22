@@ -25,7 +25,9 @@ conclusions about coverage.
 This repository contains 901 dishes with English source labels and descriptions,
 seven ingredient categories and ingredient patches. Five of the dishes (Altang, Beondegi,
 Bungeoppang, Jjapaghuri, Kimchijeon) were written after comparing the installed cooking mods
-with Flavor Text's coverage; only the dish ideas were taken, no asset or prose from those mods. Established culinary names
+with Flavor Text's coverage. Those discoveries came from **[DHM]Korean cuisine**, by
+DRILLED_HEAD ([Workshop 3723096620](https://steamcommunity.com/sharedfiles/filedetails/?id=3723096620),
+package ID `drilledhead.Koreancuisine`). Only the dish ideas were taken, no asset or prose from that mod. Established culinary names
 retain their original spelling where appropriate. The French dish translations
 are maintained in the separate companion's `Languages/French/DefInjected/` folder.
 
@@ -33,8 +35,8 @@ are maintained in the separate companion's `Languages/French/DefInjected/` folde
 
 **Flavor Text Extended - Français** translates this mod and Flavor Text itself. Its current
 compiled language wrapper limits French inflection and joining-grammar patches to French.
-This wrapper belongs to the companion, not to this extension. Untabled ingredient fallback
-still requires work before full French coverage can be certified.
+This wrapper belongs to the companion, not to this extension. See its own status for
+current coverage and validation results.
 
 ## AI assistance
 
@@ -66,9 +68,11 @@ for 24 nonexistent meats. That historical result concerns the work before the sp
 it does not certify this standalone revision or its companion. The original audit and
 its results remain in `STATUS.md` and the Git history.
 
-Current offline results are recorded in `STATUS.md`; manual scenarios and their
-execution status are recorded in `TESTS.md`. No completed in-game validation is claimed
-for the current standalone working tree.
+Current offline and in-game results are recorded in `STATUS.md` and `TESTS.md`.
+Pickle passed in a running RimWorld 1.6 game on 2026-09-21 with the required mod,
+without Odyssey, and with the tested optional providers. Cooking tests call the recipe
+method directly; they do not exercise a colonist walking to a stove. Workshop captures
+and the moved PickleTools steps remain separate pending checks.
 
 ## Third-party mod ingredients wired in
 
@@ -80,7 +84,7 @@ None is required; each provider-specific attachment entry is guarded when its mo
   Himalayan barley, hybrid rice, flours, salted mustard, Zhejiang citrus, chilli oil,
   ginkgo nuts, mugwort, four grain liquors. Both versions of the mod are covered, their
   `packageId`s differing.
-- **VV New Harvest** — leek (`VV_Leeks`).
+- **VV - New Harvest** (VVenchov) — leek (`VV_Leeks`).
 - Miscellaneous — honeycomb, okara, mixed berries, edible arachnids, fodder.
 
 These hooks depend on external defNames and package IDs. Inactive guards can silently

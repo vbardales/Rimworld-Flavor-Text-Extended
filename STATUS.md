@@ -18,15 +18,15 @@ xml_tests: passed
 licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 maintainer:    current Codex task for this repository
-updated:      2026-09-21
+updated:      2026-09-22
 tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: sans-facultatifs 10/10 (+ T7 alone 1/1), sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun. Reports in Tests/Pickle/results/."
 workshop:
 remaining:
   - "prepublished: no tag v1.0.0 and no GitHub release yet. CHANGELOG now has a single 1.0.0 section to use as the release body. Publishing the release is the owner's word."
-  - "prepublished: no Workshop capture exists besides Preview.png. PUBLICATION.md proposes three, to be produced by a dedicated Pickle @review scenario, opened and looked at, then ordered. Not made."
+  - "prepublished: no Workshop capture exists besides Preview.png. Three @review scenarios now exist in 06-workshop-captures.feature (6218f89), but no capture result is present. Produce, open, inspect and order the images; PUBLICATION.md still lists a mod-list image where the feature now captures an egg meal."
   - "prepublished: PUBLICATION.md is a draft (dependencies and DLC, adult-content answer, Steam release notes, five thanks messages) awaiting the owner's review. Nothing is posted."
   - "unconfirmed by the owner: that the icon and the Preview illustration are AI-generated (tool unrecorded), and who did what among Claude and Codex. Both are in About.xml and ATTRIBUTION.md, public since the push; About.xml is sent to Steam only at creation."
-  - "unidentified: the Korean cuisine mod behind the five dishes Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon; needed for one thanks message."
+  - "identified 2026-09-22: [DHM]Korean cuisine, DRILLED_HEAD, Workshop 3723096620. Credits and fifth thanks message prepared; nothing posted."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "unverified: the two expansion steps moved to PickleTools (ExpansionSteps) after the sans-odyssey pass passed 3/3 with them in this suite's own assembly. The pass must be rerun once to confirm the new wiring (a path: line in its map); ticket to take."
   - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
@@ -34,6 +34,63 @@ remaining:
 ---
 
 # Flavor Text Extended — status
+
+## Publication text review — 2026-09-22
+
+Identified the five Korean dish discoveries from FoodCourt's registry and verified all
+five KFD_ definitions, About.xml and PublishedFileId.txt in the installed mod:
+[DHM]Korean cuisine, DRILLED_HEAD, drilledhead.Koreancuisine, Workshop 3723096620.
+Added its credit to About.xml and both attribution copies, and its personalised thanks
+to PUBLICATION.md. Nothing was sent. Owner confirmation of the original image-generation
+tools and Claude/Codex roles remains pending; the existing attribution is not new evidence.
+
+Reviewed publication wording: removed the promise that farming/cooking mods unlock every
+dish and the claim that all ingredient combinations are distinct; clarified provider guards,
+no required DLC and uncertified Shenzhou support; corrected reptile/amphibian wording.
+README and CHANGELOG agree. Attribution now reflects the recorded Pickle runs and refers
+to the companion's own status. PUBLICATION no longer treats one tested load order as proof
+of every order. No Def or patch changed. About.xml parses; attribution copies match;
+all five drafted thanks fit below 1000 characters, including a placeholder Workshop URL;
+git diff --check passes. No publication or AI-provenance confirmation is claimed.
+
+## Release readiness check — 2026-09-22
+
+**Retained stage: `tested`; `prepublished` is not reached.** Inspected HEAD
+`6218f89a64f861462cae5a1f46c29fddc03225d0`; GitHub HEAD matches (`git ls-remote`).
+No local or remote tag exists, and `gh release list` returns no release. The working tree
+was clean before this status update. No upload, release, tag or new game run was performed.
+
+Rechecked successfully: 901 dishes / zero errors / ten known warnings in `checkdefs.js`;
+English text check zero errors or warnings; 51 XML files / 29 patch operations / four Odyssey
+guards; 47 optional provider-reference pairs; 908 owned defs / 1,809 English fields and French
+paths / 4,614 valid tokens. `Check-Steps.ps1` compiles all 12 local patterns without duplicates;
+it leaves 59 of 106 feature lines to external vocabulary, including PickleTools, so it does
+not validate the new expansion-step wiring. One local pattern is unused.
+
+The stored runtime reports confirm `exitReason: passed`: bare full pass 10 passed / one
+skipped, T7 separately 1/1, without Odyssey 3/3, and providers rerun 6/6. The earlier provider
+failure remains historical. `Mod/` is unchanged since `c828a5d`, so these results remain
+applicable to the distributed content. The moved PickleTools steps still need their rerun.
+
+Release payload: only About assets/metadata, Defs, patches, licence and attribution; no test
+assembly or development sources. Root and distributed LICENSE match byte-for-byte, as do
+ATTRIBUTION.md. Preview (896x504, 553,178 bytes) and icon (128x128, 32,999 bytes) were opened
+and visually inspected again: legible, no clipping, no adult imagery. No PublishedFileId.txt
+exists in Mod/About. Metadata declares version 1.0.0, RimWorld 1.6 and only Flavor Text as a
+hard dependency; the description ends with the correct repository link.
+
+Before the first upload:
+
+1. Run `06-workshop-captures.feature`, inspect its three images and finalize their order.
+   PUBLICATION.md still proposes a mod-list image as number three, while the implemented
+   feature captures a medium-boiled egg. No generated screenshots or capture report were found.
+2. Confirm the AI provenance/roles stated in About.xml and ATTRIBUTION.md; finish the owner's
+   description and thanks review, including the unidentified Korean cuisine inspiration.
+3. Rerun `05-sans-odyssey.feature` with the PickleTools dependency map to close the harness check.
+4. Commit and push the final publication documents, then tag v1.0.0 and publish the GitHub
+   release using the changelog. This audit does not authorize or perform publication.
+5. Upload only Mod/. Immediately preserve and commit Mod/About/PublishedFileId.txt, test the
+   subscribed item before making it public, then record its id and send the reviewed thanks.
 
 ## Audit done -> tested — 2026-09-21
 

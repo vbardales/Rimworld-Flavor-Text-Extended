@@ -34,7 +34,8 @@ Decided from the sources, not from intent.
 - **Not certified for 1.6:** Chinese Traditional Cultural Things Expanded (2877536640). Its hooks are kept, but it declares
   1.5 or older and no run could vouch for it. **Say so on the page if asked.** No shallot provider is certified either.
 - **No `loadAfter` on the optional mods**, on purpose: the patches edit Flavor Text's categories and the references resolve
-  after every def is loaded, so their order does not matter (proved by the passes above).
+  after every def is loaded, so no additional ordering constraint is declared. The passes validate
+  the staged order, not every possible load order.
 
 ## Captures for the Workshop page
 
@@ -100,9 +101,16 @@ mod's Workshop URL, unknown until the first upload.
 **Chinese Traditional Cultural Things Expanded** (2877536640) — *optional; hold this one back.* The mod declares no 1.6
 support, so the message would thank a hook nobody could test here. Post only if that changes.
 
-**Open: the mod behind five dishes.** Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon were written after
-comparing installed cooking mods with Flavor Text's coverage; their ideas came from a Korean cuisine mod that the
-repository names only as a registry entry. The owner needs to say which mod it is, for a message to it.
+**DRILLED_HEAD — [DHM]Korean cuisine** ([Workshop 3723096620](https://steamcommunity.com/sharedfiles/filedetails/?id=3723096620))
+
+> Thank you for [DHM]Korean cuisine. Comparing its dishes with Flavor Text helped me discover five additions for my
+> add-on: Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon. I wrote new Flavor Text definitions and descriptions
+> for them; no textures, code or descriptions from your mod are included. Some ingredients are approximations within
+> Flavor Text's categories, identified in the descriptions. Your mod is credited as the source of these discoveries. <ITEM>
+
+Identity checked on 2026-09-22 against FoodCourt's registry and the installed mod's About.xml,
+PublishedFileId.txt and five KFD_ definitions. Package ID: `drilledhead.Koreancuisine`.
+This is an inspiration credit, not a dependency or a claim of integration testing.
 
 ## Right after the upload — cannot be redone
 
