@@ -30,7 +30,7 @@ None of those mods are required. Each provider-specific ingredient reference is 
 
 FRENCH
 
-This mod contains the English content. For French names, descriptions and ingredient grammar, install the separate [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais]Flavor Text Extended - Français[/url] companion alongside Flavor Text and this mod. The French companion is optional.
+This mod contains the English content. For French names, descriptions and ingredient grammar, install the separate [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488]Flavor Text Extended - Français[/url] companion alongside Flavor Text and this mod. The French companion is optional.
 
 IF I GO QUIET
 
@@ -38,13 +38,13 @@ If I do not answer within a reasonable time after being contacted, anyone may fr
 
 AI-GENERATED
 
-The dishes, their descriptions and the ingredient patches were written with Claude (Anthropic), under my direction and review: I chose which dishes to write, which categories to split and which combinations to keep. Codex (OpenAI) helped with documentation, validation and the text laid over the Preview. The mod icon and the Preview illustration are AI-generated images; the tools that made them were not recorded.
+The dishes, their descriptions and the ingredient patches were written with Claude (Anthropic) and ChatGPT (OpenAI), under my direction and review: I chose which dishes to write, which categories to split and which combinations to keep. The mod icon and the Preview illustration are generated with DALL-E (OpenAI).
 
 THANKS
 
-hekmo, for Flavor Text: how names are composed, how a definition is picked and how ingredients inflect are all his work, and this mod is only new content for it.
-daylight (RimLife Cultivation Plus, RimLife Expansion Trading), Diamond.J, DaJian, Frolg and TangWan (Chinese Traditional Cultural Things Expanded) and VVenchov (VV - New Harvest), whose ingredients this mod recognises when they are installed.
-DRILLED_HEAD, for [DHM]Korean cuisine: discovering its Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon prompted five independently written dish definitions here.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]hekmo, for Flavor Text[/url]: how names are composed, how a definition is picked and how ingredients inflect are all his work, and this mod is only new content for it.
+daylight ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3614595617]RimLife Cultivation Plus[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2951594887]RimLife Expansion Trading items[/url]), Diamond.J, DaJian, Frolg and TangWan ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url]) and VVenchov ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106]VV - New Harvest[/url]), whose ingredients this mod recognises when they are installed.
+DRILLED_HEAD, for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3723096620][DHM]Korean cuisine[/url]: discovering its Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon prompted five independently written dish definitions here.
 
 Credits, provenance and licence (MIT) are in ATTRIBUTION.md and LICENSE, shipped with the mod.
 

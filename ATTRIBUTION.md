@@ -40,21 +40,22 @@ current coverage and validation results.
 
 ## AI assistance
 
-The content of this mod was produced with the assistance of Claude (Anthropic), under
-human direction and review. The design decisions — which dishes to write, which
-categories to separate, which agreements to fill in — were made and approved by the human
-author.
+The content of this mod was produced with the assistance of Claude (Anthropic) and
+ChatGPT (OpenAI), under human direction and review. The design decisions — which dishes
+to write, which categories to separate, which agreements to fill in — were made and
+approved by the human author. ChatGPT also assisted with documentation, validation and the
+text laid over the Preview (`Art/render-preview.ps1`, an HTML overlay rendered by Chrome).
+Git history does not cleanly separate the two: 34 of this repository's 81 commits, spread
+across translation batches and later work alike, carry no AI co-author trailer at all,
+so which tool wrote a given commit is not always established by `git log` alone.
 
-Codex (OpenAI) assisted with documentation, validation and the text laid over the Preview
-(`Art/render-preview.ps1`, an HTML overlay rendered by Chrome).
-
-Images. Both were made with AI image tools in earlier work; the tool is not recorded.
+Images. Both were generated with DALL-E (OpenAI), confirmed by the author 2026-09-22.
 
 - `Mod/About/ModIcon.png` is the original mascot icon, ribbon lettering included, enlarged
   from its 64 x 64 original to 128 x 128 (bicubic) at the author's request. The 64 x 64 file
   is kept as `Art/archive/ModIcon-before-fix.png`.
-- A ribbon-less variant of that mascot was generated with OpenAI's built-in image generation
-  tool on 2026-09-13. It was not adopted; it stays under `Art/` as `ModIcon-source.png`.
+- A ribbon-less variant of that mascot was generated with DALL-E (OpenAI)
+  on 2026-09-13. It was not adopted; it stays under `Art/` as `ModIcon-source.png`.
 - `Mod/About/Preview.png` is the illustration `Art/Preview.png` with the title, summary and
   version badge laid over it. The illustration itself is unchanged.
 

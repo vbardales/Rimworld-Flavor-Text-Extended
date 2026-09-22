@@ -23,7 +23,8 @@ tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), 
 workshop:     3806100152
 remaining:
   - "published, not yet done: no Workshop screenshot exists besides Preview.png. Three @review scenarios exist in 06-workshop-captures.feature (6218f89) but have never run; the item's Captures d'écran gallery is empty. Deferred by the owner's own choice, the one open item of this stage."
-  - "note: the owner's AI-generation/Claude-Codex attribution in About.xml and ATTRIBUTION.md is her own text, sent to Steam at item creation; no further confirmation was asked of her, and none is owed by a session."
+  - "note: the FRENCH section's link now points at the companion's Workshop item (3806100488), matching what the owner put live. That item returned Steam's private-item error page when checked anonymously on 2026-09-22: the link will not work for visitors until it is switched to public."
+  - "note: git history does not cleanly attribute Claude vs ChatGPT/Codex. 34 of 81 commits carry no AI co-author trailer, and the split does not follow date or content (some same-day translation commits have a Claude trailer, some do not). ATTRIBUTION.md says this plainly rather than guessing a boundary."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "unverified: the two expansion steps moved to PickleTools (ExpansionSteps) after the sans-odyssey pass passed 3/3 with them in this suite's own assembly. A rerun attempt on 2026-09-22 refused with exit 2 (\"Sa partie Windows tourne\"): the owner's own Windows RimWorld was open, and the script correctly declined rather than queue past it. The owner asked explicitly not to requeue it now: the rerun is deferred to after publication, not treated as a prepublished blocker."
   - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
@@ -31,6 +32,31 @@ remaining:
 ---
 
 # Flavor Text Extended — status
+
+## Description corrected to match what is live, and credited mods linked — 2026-09-22
+
+The owner posted her own corrected description directly on Steam: the AI-GENERATED paragraph now names Claude
+(Anthropic) and ChatGPT (OpenAI) for the writing, and DALL-E (OpenAI) for the icon and Preview images, replacing
+the earlier "tools not recorded". She also asked why THANKS did not link the credited mods' Workshop pages -
+no technical reason, Steam's description field takes the same `[url=...]` BBCode as comments; it simply followed
+the no-link convention already used by every other mod in this collection (checked: SkillIcons, ArchitectStudio,
+BillAutopilot, AnimaSong). She asked for links from here on, and to document the change rather than leave it a
+silent one-off; `../../PUBLISHING.md` now says both: name the actual AI tools, and link a credited mod's own
+Workshop page when it has one.
+
+`Mod/About/About.xml` (repository copy) and both `ATTRIBUTION.md` copies were updated to match: THANKS entries
+linked, the AI-GENERATED wording matching what is live, and the FRENCH section's link switched from the
+companion's GitHub repository to its Workshop item (3806100488) - which is **not yet public** (Steam's anonymous
+error page, checked directly), so that link will not resolve for a visitor until the owner switches it. The
+repository's `About.xml` does not resync to Steam on its own; matching it here is for accuracy and for whoever
+reads the repository, not a claim that Steam's live page was changed by this session.
+
+Asked to trace which commits ChatGPT/Codex actually touched: git history does not support a clean answer. 34 of
+this repository's 81 commits carry no `Co-Authored-By` trailer at all, and the split does not track date or
+content - some commits from the same day and the same kind of work (English translation batches, 2026-09-01) have
+a Claude trailer and others do not. `STATUS.md`'s own `maintainer` field reads as unchanged boilerplate across
+audits rather than a per-commit signal. ATTRIBUTION.md now says this plainly instead of asserting a boundary the
+history does not show; a precise split would need the owner's own memory of which session ran which tool.
 
 ## Published — 2026-09-22
 
