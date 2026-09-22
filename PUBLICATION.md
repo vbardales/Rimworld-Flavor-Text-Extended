@@ -5,21 +5,19 @@ What the Workshop page asked for and the repository held nowhere else. Written 2
 sections below are now a record of what was decided and sent, not a proposal. It serves twice: it did at the first
 upload, and it does for whoever takes the mod over.
 
-The one thing this draft asked for that was not done before publishing: the Workshop screenshots (see "Captures for
-the Workshop page"). The owner chose to publish first and produce them afterward; that order is hers, not a defect.
+The owner explicitly waived the pending Workshop screenshots on 2026-09-22. They remain a future visual-refresh task,
+not a claim that captures exist or were reviewed.
 
 ## Before the upload
 
 - **Description.** `Mod/About/About.xml` is sent to Steam **only when the item is created**; any later correction is made
-  by hand on the Steam page. It is in English, ends on the adoption clause (`IF I GO QUIET`), the disclosure
-  (`AI-GENERATED`), `THANKS`, a line pointing at ATTRIBUTION.md and the licence, then
-  `[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]`. Two statements in it want the
-  owner's confirmation before it is frozen: that the icon and the Preview illustration are AI-generated (the repository
-  does not record the tool), and who did what among Claude and Codex.
+  by hand on the Steam page. The Steam-ready text is English and ends with the adoption clause (`IF I GO QUIET`), the
+  `AI-GENERATED` disclosure, `THANKS`, the attribution/licence line, then
+  `[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]`.
 - **Version.** `modVersion` 1.0.0, `supportedVersions` 1.6 only. No `LoadFolders.xml`, none needed.
-- **Repository.** Public, `origin/main` pushed at `67f5b9f`. Tag `v1.0.0` made and pushed, and its GitHub release is published
-  with the CHANGELOG's 1.0.0 section as the body: https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0
-  (2026-09-22, on the owner's explicit word to finalize everything but the captures).
+- **Repository.** Public and pushed. Annotated tag `v1.0.0` and its GitHub release both target
+  `5ba5fe7`, the first revision that contains package ID `nelim.flavortextextended` and version `1.0.0`:
+  https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0.
 
 ## Dependencies and DLC
 
@@ -44,9 +42,9 @@ Decided from the sources, not from intent.
 
 ## Captures for the Workshop page
 
-**None exist yet**, apart from the header `Preview.png`. Steam shows the first capture large: it should be the most
-demonstrative, not the prettiest, and every image must be opened and looked at before it goes up. Candidates, to be
-produced by a dedicated Pickle scenario so they can be redone (the existing scenarios take no screenshot):
+**No Workshop gallery capture exists. Do not upload a substitute image.** `Mod/About/Preview.png` is the existing
+Workshop header and `Mod/About/ModIcon.png` is the in-game list icon; neither is a gallery capture. Future gallery
+captures, if the owner resumes this work, must be produced by the dedicated Pickle scenario, then opened before upload:
 
 1. the info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the
    extension names an ordinary meal after a specific dish;
@@ -55,7 +53,8 @@ produced by a dedicated Pickle scenario so they can be redone (the existing scen
 
 A capture is disqualified if it shows dev tools, another mod's debug overlay, the launcher panel of Pickle, or an empty
 window (STYLE and AUDIT). `06-workshop-captures.feature` uses PickleTools ScreenshotMode to hide the HUD and Pickle
-windows, and restores it after each scenario. The order above is final once the resulting images are opened and approved.
+windows, and restores it after each scenario. The order above becomes final only after the resulting images are opened
+and approved.
 
 ## Adult-content boxes
 
@@ -119,7 +118,24 @@ PublishedFileId.txt and five KFD_ definitions. Package ID: `drilledhead.Koreancu
 This is an inspiration credit, not a dependency or a claim of integration testing.
 
 **Held back:** Chinese Traditional Cultural Things Expanded (2877536640). The mod declares no 1.6 support, so a thanks
-message would credit a hook nobody could test here. Post only if that changes.
+message must not claim compatibility. A factual, non-compatibility draft is prepared below.
+
+## Additional Steam comments — drafted, not posted
+
+These cover every public external tool or integration named in `THANKS` that was not covered by the five already-posted
+comments above. Each is below Steam's 1,000-character limit and ends with the public item URL.
+
+**RimWorks — Pickle** ([Workshop 3791648678](https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678))
+
+> Hi RimWorks! 🥒 Pickle let me run Flavor Text Extended through real headless RimWorld passes instead of crossing my fingers at the XML. It made the test path repeatable and caught the kind of mod-list details I would otherwise miss. Thank you for building such a useful dev tool — it is development-only in my mod, never a player dependency. https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152
+
+**RimWorks — RimLogging** ([Workshop 3733484696](https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696))
+
+> Hi RimWorks! ✨ RimLogging made the headless test runs for Flavor Text Extended readable enough to verify what actually happened, rather than just hoping a green number meant the right thing. Thank you for the calm, practical tooling! It is development-only here, never a player dependency. https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152
+
+**Diamond.J, DaJian, Frolg and TangWan — Chinese Traditional Cultural Things Expanded** ([Workshop 2877536640](https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640))
+
+> Hello! 🥢 Your ingredient names inspired a few carefully guarded Flavor Text Extended attachments, so meals can receive more specific names when your mod is present. I do not claim 1.6 compatibility for that integration because your Workshop page does not declare it; the references stay optional and do nothing when the mod is absent. Thank you for the lovely pantry inspiration! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152
 
 ## Right after the upload — done
 
