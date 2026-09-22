@@ -58,7 +58,7 @@ tree is clean.
 
 `06-workshop-captures.feature` now stages the shared development-only package
 `nelim.pickletools.screenshotmode` and `nelim.pickletools.screenshotstudio` through
-`wsl-deps.workshop-captures.map`. It loads Nelim's Zen Meadow colony, frames its furnished kitchen,
+`wsl-deps.workshop-captures.map`. It loads Nelim's Zen Meadow colony, frames its central tiled emblem,
 opens each asserted meal card, hides the HUD and Pickle-owned windows, waits for three rendered frames
 inside the shared step, takes its screenshot, restores the interface, and closes dialogs. Its
 `AfterScenario` restoration also covers a failed scenario. The three review targets and their

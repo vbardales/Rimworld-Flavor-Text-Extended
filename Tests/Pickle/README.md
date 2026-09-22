@@ -30,7 +30,7 @@ over the machine, so nothing here restates one of them. What is left:
 | **sans-facultatifs** | *(none)* | `01-alone.feature,03-cooking.feature,04-filing.feature` | Core, DLCs, Harmony, RimLogging, Pickle, Flavor Text, this mod |
 | **sans-odyssey** | `wsl-deps.sans-odyssey.map` | `05-sans-odyssey.feature` | the bare pass with one DLC left out of ModsConfig |
 | **avec-facultatifs** | `wsl-deps.avec-facultatifs.map` | `02-avec-facultatifs.feature` | the above, plus VV New Harvest, RimLife Cultivation Plus, RimLife Expansion Trading and its framework |
-| **workshop-captures** | `wsl-deps.workshop-captures.map` | `06-workshop-captures.feature` | the minimal pass plus PickleTools ScreenshotMode and ScreenshotStudio; produces three review screenshots of the meal cards in Nelim's framed Zen Meadow kitchen, with the HUD and Pickle panels hidden |
+| **workshop-captures** | `wsl-deps.workshop-captures.map` | `06-workshop-captures.feature` | the minimal pass plus PickleTools ScreenshotMode and ScreenshotStudio; produces three review screenshots of the meal cards over Nelim's central Zen Meadow emblem, with the HUD and Pickle panels hidden |
 
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -Filter 01-alone.feature,03-cooking.feature,04-filing.feature
