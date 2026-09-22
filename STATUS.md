@@ -27,12 +27,20 @@ remaining:
   - "note: the FRENCH section's link now points at the companion's Workshop item (3806100488), matching what the owner put live. That item returned Steam's private-item error page when checked anonymously on 2026-09-22: the link will not work for visitors until it is switched to public."
   - "note: git history does not cleanly attribute Claude vs ChatGPT/Codex. 34 of 81 commits carry no AI co-author trailer, and the split does not follow date or content (some same-day translation commits have a Claude trailer, some do not). ATTRIBUTION.md says this plainly rather than guessing a boundary."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
-  - "unverified: the two expansion steps moved to PickleTools (ExpansionSteps) after the sans-odyssey pass passed 3/3 with them in this suite's own assembly. A rerun attempt on 2026-09-22 refused with exit 2 (\"Sa partie Windows tourne\"): the owner's own Windows RimWorld was open, and the script correctly declined rather than queue past it. The owner asked explicitly not to requeue it now: the rerun is deferred to after publication, not treated as a prepublished blocker."
+  - "validated: the sans-Odyssey rerun on 2026-09-22 passed 3/3 with the two expansion assertions supplied by PickleTools ExpansionSteps. Evidence is in Tests/Pickle/results/2026-09-22-sans-odyssey-pickletools/."
   - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
 ---
 
 # Flavor Text Extended — status
+
+## PickleTools expansion rerun — 2026-09-22
+
+The owner requested the deferred `05-sans-odyssey.feature` rerun after publication. The WSL launcher staged
+`nelim.pickletools.expansions` and excluded Odyssey. Pickle reported 3 passed, 0 failed, 0 skipped and
+`exitReason: passed`. Its first scenario exercised both PickleTools expansion assertions: Odyssey inactive and
+Ideology active. The report, JUnit result, event stream and Player.log are retained in
+`Tests/Pickle/results/2026-09-22-sans-odyssey-pickletools/`. This closes the prior unverified step migration.
 
 ## Workshop capture delivery — 2026-09-22
 
