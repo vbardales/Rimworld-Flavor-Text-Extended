@@ -42,6 +42,20 @@ powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod
 The filters differ because 01 asserts that the providers are **absent** and 02 that they are
 present: played in the other pass, each fails for a reason that has nothing to do with the mod.
 
+## Presentation fixture and framing
+
+Functional scenarios keep `test-colony`: their job is to prove a behavior, not to compose a
+picture. Workshop or other presentation captures instead stage `nelim.pickletools.screenshotstudio`
+and load `nelim-zen-meadow-studio`. This is Nelim's paused, disposable Zen Meadow colony; it makes
+the game world visible behind the subject without turning a test fixture into a survival save.
+
+For Flavor Text Extended's meal-card captures, frame `Nelim's Pickle Tools: I frame the studio
+"emblem"` before opening the card. The central tiled icon should remain visible around the card,
+so the image reads as a RimWorld colony and a Nelim presentation rather than as interface alone.
+Use the kitchen frame only when the stove or cooking setup itself is the subject of the picture.
+Screenshot mode then hides the HUD and Pickle-owned panels while keeping the card. It is not a
+visual verdict: open every generated image before using it on the Workshop page.
+
 `wsl-ids.map` names the one hard dependency the staging script does not know, Flavor Text
 (`hekmo.FlavorText`, 3245374432). It is read in every pass and activates nothing.
 

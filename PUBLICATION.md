@@ -56,6 +56,10 @@ window (STYLE and AUDIT). `06-workshop-captures.feature` loads the Nelim Zen Mea
 then uses PickleTools ScreenshotMode to hide the HUD and Pickle windows while retaining the meal card. It restores the
 interface after each scenario. The order above becomes final only after the resulting images are opened and approved.
 
+Zen is a presentation fixture only: functional tests continue to use `test-colony`. The emblem frame is the default for
+Flavor Text Extended because it leaves the icon visible around a meal card, giving the image a colony setting instead of
+an interface-only background. Use the kitchen frame only where a stove or cooking scene is the actual subject.
+
 ## Adult-content boxes
 
 **No.** Checked on the two images the page will carry, both opened and looked at: `Preview.png` shows dishes on a wooden
