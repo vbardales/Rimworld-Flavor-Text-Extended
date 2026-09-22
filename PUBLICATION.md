@@ -5,9 +5,8 @@ What the Workshop page asked for and the repository held nowhere else. Written 2
 sections below are now a record of what was decided and sent, not a proposal. It serves twice: it did at the first
 upload, and it does for whoever takes the mod over.
 
-The Workshop captures were generated and visually approved on 2026-09-22. They are retained in
-`Art/Workshop-captures/` in their intended Steam order; uploading them to the existing Workshop page remains a manual
-Steam action.
+The Workshop captures were generated, visually approved and uploaded to the Workshop gallery on 2026-09-22. They are
+retained in `Art/Workshop-captures/` in their Steam display order.
 
 ## Before the upload
 
@@ -45,7 +44,7 @@ Decided from the sources, not from intent.
 
 `Mod/About/Preview.png` is the existing Workshop header and `Mod/About/ModIcon.png` is the in-game list icon; neither is
 a gallery capture. The three approved gallery captures are present in `Art/Workshop-captures/` as 1600x900 optimized PNGs,
-each below Steam's 2 MB limit. Upload them in this order:
+each below Steam's 2 MB limit. They were uploaded in this order:
 
 1. `01-katsudon.png` — info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension
    names an ordinary meal after a specific dish;
@@ -58,7 +57,7 @@ archives, not upload candidates.
 A capture is disqualified if it shows dev tools, another mod's debug overlay, the launcher panel of Pickle, or an empty
 window (STYLE and AUDIT). `06-workshop-captures.feature` loads the Nelim Zen Meadow studio, frames its central tiled emblem,
 then uses PickleTools ScreenshotMode to hide the HUD and Pickle windows while retaining the meal card. It restores the
-interface after each scenario. The order above becomes final only after the resulting images are opened and approved.
+interface after each scenario. The resulting images were opened, approved and uploaded in the order above.
 
 Zen is a presentation fixture only: functional tests continue to use `test-colony`. The emblem frame is the default for
 Flavor Text Extended because it keeps the card centered over the emblem's colony setting instead of an interface-only
@@ -129,11 +128,12 @@ This is an inspiration credit, not a dependency or a claim of integration testin
 **Held back:** Chinese Traditional Cultural Things Expanded (2877536640). The mod declares no 1.6 support, so a thanks
 message must not claim compatibility. A factual, non-compatibility draft is prepared below.
 
-## Additional Steam comments — drafted, not posted
+## Additional Steam comment — posted 2026-09-22
 
 Do not repost the five comments above (Flavor Text, RimLife Cultivation Plus, RimLife Expansion Trading items, VV - New
-Harvest and [DHM] Korean cuisine), nor the already-contacted RimWorks pages for Pickle and RimLogging. The sole remaining
-draft below is under Steam's 1,000-character limit and ends with the public item URL.
+Harvest and [DHM] Korean cuisine), nor the already-contacted RimWorks pages for Pickle and RimLogging. The final comment
+below was posted on the Chinese Traditional Cultural Things Expanded page. It is under Steam's 1,000-character limit and
+ends with the public item URL.
 
 **Diamond.J, DaJian, Frolg and TangWan — Chinese Traditional Cultural Things Expanded** ([Workshop 2877536640](https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640))
 
