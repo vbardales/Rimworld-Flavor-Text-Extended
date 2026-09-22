@@ -22,7 +22,7 @@ updated:      2026-09-22
 tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: sans-facultatifs 10/10 (+ T7 alone 1/1), sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun. Reports in Tests/Pickle/results/."
 workshop:     3806100152
 remaining:
-  - "note: the owner explicitly waived the pending Workshop capture review on 2026-09-22. The three @review scenarios remain available for a future visual refresh, but do not block this prepublished status."
+  - "validated: three Workshop gallery captures were generated on 2026-09-22, copied into Art/Workshop-captures/ and visually approved in their documented order. They remain to be uploaded manually to the existing Steam Workshop page."
   - "validated: v1.0.0 is an annotated tag at 5ba5fe7 (the first commit containing packageId nelim.flavortextextended and version 1.0.0); the GitHub v1.0.0 release explicitly targets that same commit."
   - "note: the FRENCH section's link now points at the companion's Workshop item (3806100488), matching what the owner put live. That item returned Steam's private-item error page when checked anonymously on 2026-09-22: the link will not work for visitors until it is switched to public."
   - "note: git history does not cleanly attribute Claude vs ChatGPT/Codex. 34 of 81 commits carry no AI co-author trailer, and the split does not follow date or content (some same-day translation commits have a Claude trailer, some do not). ATTRIBUTION.md says this plainly rather than guessing a boundary."
@@ -33,6 +33,15 @@ remaining:
 ---
 
 # Flavor Text Extended — status
+
+## Workshop capture delivery — 2026-09-22
+
+`06-workshop-captures.feature` generated the three approved presentation images from Nelim's Zen Meadow fixture.
+They were directly inspected and copied into `Art/Workshop-captures/`: `01-katsudon.png`,
+`02-two-dishes-at-once.png` and `03-medium-boiled-egg.png`. Each is a 1920x1080 PNG, shows a meal card over
+the colony set with no HUD or Pickle panel, and is recorded in the intended Steam display order in `PUBLICATION.md`.
+The central emblem sits behind the card by design; the owner reviewed that composition and accepted it. Uploading the
+three files to the existing Workshop gallery is a manual Steam action still outside this repository.
 
 ## Publication confirmation — 2026-09-22
 

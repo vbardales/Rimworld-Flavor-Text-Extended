@@ -5,8 +5,9 @@ What the Workshop page asked for and the repository held nowhere else. Written 2
 sections below are now a record of what was decided and sent, not a proposal. It serves twice: it did at the first
 upload, and it does for whoever takes the mod over.
 
-The owner explicitly waived the pending Workshop screenshots on 2026-09-22. They remain a future visual-refresh task,
-not a claim that captures exist or were reviewed.
+The Workshop captures were generated and visually approved on 2026-09-22. They are retained in
+`Art/Workshop-captures/` in their intended Steam order; uploading them to the existing Workshop page remains a manual
+Steam action.
 
 ## Before the upload
 
@@ -42,14 +43,14 @@ Decided from the sources, not from intent.
 
 ## Captures for the Workshop page
 
-**No Workshop gallery capture exists. Do not upload a substitute image.** `Mod/About/Preview.png` is the existing
-Workshop header and `Mod/About/ModIcon.png` is the in-game list icon; neither is a gallery capture. Future gallery
-captures, if the owner resumes this work, must be produced by the dedicated Pickle scenario, then opened before upload:
+`Mod/About/Preview.png` is the existing Workshop header and `Mod/About/ModIcon.png` is the in-game list icon; neither is
+a gallery capture. The three approved gallery captures are present in `Art/Workshop-captures/` and must be uploaded in
+this order:
 
-1. the info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the
-   extension names an ordinary meal after a specific dish;
-2. the info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
-3. the info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
+1. `01-katsudon.png` — info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension
+   names an ordinary meal after a specific dish;
+2. `02-two-dishes-at-once.png` — info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
+3. `03-medium-boiled-egg.png` — info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
 
 A capture is disqualified if it shows dev tools, another mod's debug overlay, the launcher panel of Pickle, or an empty
 window (STYLE and AUDIT). `06-workshop-captures.feature` loads the Nelim Zen Meadow studio, frames its central tiled emblem,
@@ -57,8 +58,9 @@ then uses PickleTools ScreenshotMode to hide the HUD and Pickle windows while re
 interface after each scenario. The order above becomes final only after the resulting images are opened and approved.
 
 Zen is a presentation fixture only: functional tests continue to use `test-colony`. The emblem frame is the default for
-Flavor Text Extended because it leaves the icon visible around a meal card, giving the image a colony setting instead of
-an interface-only background. Use the kitchen frame only where a stove or cooking scene is the actual subject.
+Flavor Text Extended because it keeps the card centered over the emblem's colony setting instead of an interface-only
+background. The card can cover the emblem itself; that composition was reviewed and accepted. Use the kitchen frame only
+where a stove or cooking scene is the actual subject.
 
 ## Adult-content boxes
 
