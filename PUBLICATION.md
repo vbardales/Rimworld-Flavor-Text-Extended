@@ -122,17 +122,9 @@ message must not claim compatibility. A factual, non-compatibility draft is prep
 
 ## Additional Steam comments — drafted, not posted
 
-These are **only** for public external tools or integrations with no posted comment recorded. Do not repost the five
-comments above (Flavor Text, RimLife Cultivation Plus, RimLife Expansion Trading items, VV - New Harvest and [DHM]
-Korean cuisine). Each draft below is under Steam's 1,000-character limit and ends with the public item URL.
-
-**RimWorks — Pickle** ([Workshop 3791648678](https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678))
-
-> Hi RimWorks! 🥒 Pickle let me run Flavor Text Extended through real headless RimWorld passes instead of crossing my fingers at the XML. It made the test path repeatable and caught the kind of mod-list details I would otherwise miss. Thank you for building such a useful dev tool — it is development-only in my mod, never a player dependency. https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152
-
-**RimWorks — RimLogging** ([Workshop 3733484696](https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696))
-
-> Hi RimWorks! ✨ RimLogging made the headless test runs for Flavor Text Extended readable enough to verify what actually happened, rather than just hoping a green number meant the right thing. Thank you for the calm, practical tooling! It is development-only here, never a player dependency. https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152
+Do not repost the five comments above (Flavor Text, RimLife Cultivation Plus, RimLife Expansion Trading items, VV - New
+Harvest and [DHM] Korean cuisine), nor the already-contacted RimWorks pages for Pickle and RimLogging. The sole remaining
+draft below is under Steam's 1,000-character limit and ends with the public item URL.
 
 **Diamond.J, DaJian, Frolg and TangWan — Chinese Traditional Cultural Things Expanded** ([Workshop 2877536640](https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640))
 
