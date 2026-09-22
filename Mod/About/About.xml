@@ -4,7 +4,7 @@
 	<author>Nelim</author>
 	<packageId>nelim.flavortextextended</packageId>
 	<url>https://github.com/vbardales/Rimworld-Flavor-Text-Extended</url>
-	<description>An add-on for Flavor Text (hekmo). Requires it, contains none of its files, and does nothing without it.
+	<description>An add-on for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] (hekmo). Requires it, contains none of its files, and does nothing without it.
 
 901 NEW DISHES
 
@@ -14,23 +14,23 @@ Each dish is defined by a combination of ingredients. That combination is what t
 
 WHAT YOUR COLONY GROWS DECIDES WHAT YOU SEE
 
-Flavor Text names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 901 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 901 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
 
 That is how the engine works rather than a shortcoming: nothing is lost, a dish simply waits for its ingredient. But it is worth knowing before you install.
 
 NEW INGREDIENT CATEGORIES
 
-Leek and shallot get categories of their own, so a dish can ask for them by name; both still count as onion for Flavor Text's own dishes. Five reptile and amphibian meat categories - turtle, alligator, iguana, lizard, frog - split out of the single herptile category.
+Leek and shallot get categories of their own, so a dish can ask for them by name; both still count as onion for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url]'s own dishes. Five reptile and amphibian meat categories - turtle, alligator, iguana, lizard, frog - split out of the single herptile category.
 
 THIRD-PARTY INGREDIENTS
 
-Flavor Text matches keywords against both defNames and labels. This mod also attaches selected ingredients explicitly by defName, including ingredients whose names do not match the expected keywords: highland barley, hybrid rice, salted mustard greens, bok choy, ginkgo nuts, grain wines, dried meat and cheeses, among others.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] matches keywords against both defNames and labels. This mod also attaches selected ingredients explicitly by defName, including ingredients whose names do not match the expected keywords: highland barley, hybrid rice, salted mustard greens, bok choy, ginkgo nuts, grain wines, dried meat and cheeses, among others.
 
-None of those mods are required. Each provider-specific ingredient reference is guarded by its mod's package ID. No DLC is required. The Chinese Traditional Cultural Things Expanded hooks are not certified for RimWorld 1.6.
+None of those mods are required. Each provider-specific ingredient reference is guarded by its mod's package ID. No DLC is required. The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url] hooks are not certified for RimWorld 1.6.
 
 FRENCH
 
-This mod contains the English content. For French names, descriptions and ingredient grammar, install the separate [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488]Flavor Text Extended - Français[/url] companion alongside Flavor Text and this mod. The French companion is optional.
+This mod contains the English content. For French names, descriptions and ingredient grammar, install the separate [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488]Flavor Text Extended - Français[/url] companion alongside [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] and this mod. The French companion is optional.
 
 IF I GO QUIET
 
@@ -45,6 +45,7 @@ THANKS
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]hekmo, for Flavor Text[/url]: how names are composed, how a definition is picked and how ingredients inflect are all his work, and this mod is only new content for it.
 daylight ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3614595617]RimLife Cultivation Plus[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2951594887]RimLife Expansion Trading items[/url]), Diamond.J, DaJian, Frolg and TangWan ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url]) and VVenchov ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106]VV - New Harvest[/url]), whose ingredients this mod recognises when they are installed.
 DRILLED_HEAD, for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3723096620][DHM]Korean cuisine[/url]: discovering its Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon prompted five independently written dish definitions here.
+RimWorks, for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678]Pickle[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696]RimLogging[/url]: this release was tested headless, in a real running game, through their tools. Development-only, not a dependency of this mod.
 
 Credits, provenance and licence (MIT) are in ATTRIBUTION.md and LICENSE, shipped with the mod.
 

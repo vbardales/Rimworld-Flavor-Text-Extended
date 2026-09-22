@@ -92,6 +92,14 @@ These hooks depend on external defNames and package IDs. Inactive guards can sil
 omit an entry; a renamed active reference can instead generate a load error. The test
 plan checks logs and actual categorization separately.
 
+## Testing tools
+
+**Pickle** ([RimWorks](https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678)) played every scenario
+in `TESTS.md`/`Tests/Pickle/` headless, inside a real running game. **RimLogging**
+([RimWorks](https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696)) is how those scenarios attribute a
+warning or an error to the mod that logged it. Both are development-only: neither is a dependency of the
+distributed mod, and neither is staged or loaded when a player subscribes to it.
+
 ## Licence
 
 MIT, see `LICENSE`. It covers the added defs, the patches and the tools. It does not
