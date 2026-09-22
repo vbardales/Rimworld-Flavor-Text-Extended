@@ -27,7 +27,7 @@ remaining:
   - "unconfirmed by the owner: that the icon and the Preview illustration are AI-generated (tool unrecorded), and who did what among Claude and Codex. Both are in About.xml and ATTRIBUTION.md, public since the push; About.xml is sent to Steam only at creation."
   - "identified 2026-09-22: [DHM]Korean cuisine, DRILLED_HEAD, Workshop 3723096620. Credits and fifth thanks message prepared; nothing posted."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
-  - "unverified: the two expansion steps moved to PickleTools (ExpansionSteps) after the sans-odyssey pass passed 3/3 with them in this suite's own assembly. A rerun attempt on 2026-09-22 refused with exit 2 (\"Sa partie Windows tourne\"): the owner's own Windows RimWorld was open, and the script correctly declined rather than queue past it. Not retried; take a ticket once that game is closed."
+  - "unverified: the two expansion steps moved to PickleTools (ExpansionSteps) after the sans-odyssey pass passed 3/3 with them in this suite's own assembly. A rerun attempt on 2026-09-22 refused with exit 2 (\"Sa partie Windows tourne\"): the owner's own Windows RimWorld was open, and the script correctly declined rather than queue past it. The owner asked explicitly not to requeue it now: the rerun is deferred to after publication, not treated as a prepublished blocker."
   - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
 ---
@@ -44,8 +44,9 @@ https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0 (
 
 Also attempted: requeuing `05-sans-odyssey.feature` to confirm the PickleTools `ExpansionSteps` wiring. The owner's
 own Windows RimWorld was running (pid 39292); `Run-PickleWsl.ps1` refused immediately, exit 2, "Sa partie Windows
-tourne". Correct behaviour, not retried, and not queued to wait: AUDIT.md's absolute rule is that session never
-launches or interrupts that install. The rerun stays open.
+tourne". Correct behaviour, not retried, and not queued to wait: AUDIT.md's absolute rule is that a session never
+launches or interrupts that install. The owner then said explicitly not to requeue it now: the rerun is deferred
+to after publication. It stays a recorded limit, not a `prepublished` blocker.
 
 Not done, by the owner's own exclusion this session: the Workshop captures (`06-workshop-captures.feature`) and
 everything that depends on them (their order, the Steam upload). Also still open: the owner's confirmation of the
