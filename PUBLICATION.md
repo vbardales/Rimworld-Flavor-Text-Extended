@@ -122,8 +122,9 @@ message must not claim compatibility. A factual, non-compatibility draft is prep
 
 ## Additional Steam comments — drafted, not posted
 
-These cover every public external tool or integration named in `THANKS` that was not covered by the five already-posted
-comments above. Each is below Steam's 1,000-character limit and ends with the public item URL.
+These are **only** for public external tools or integrations with no posted comment recorded. Do not repost the five
+comments above (Flavor Text, RimLife Cultivation Plus, RimLife Expansion Trading items, VV - New Harvest and [DHM]
+Korean cuisine). Each draft below is under Steam's 1,000-character limit and ends with the public item URL.
 
 **RimWorks — Pickle** ([Workshop 3791648678](https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678))
 
