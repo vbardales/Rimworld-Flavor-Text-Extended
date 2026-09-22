@@ -38,8 +38,9 @@ remaining:
 
 `06-workshop-captures.feature` generated the three approved presentation images from Nelim's Zen Meadow fixture.
 They were directly inspected and copied into `Art/Workshop-captures/`: `01-katsudon.png`,
-`02-two-dishes-at-once.png` and `03-medium-boiled-egg.png`. Each is a 1920x1080 PNG, shows a meal card over
-the colony set with no HUD or Pickle panel, and is recorded in the intended Steam display order in `PUBLICATION.md`.
+`02-two-dishes-at-once.png` and `03-medium-boiled-egg.png`. Each upload image is a 1600x900 optimized PNG below
+Steam's 2 MB limit; its 1920x1080 source is retained in `Art/Workshop-captures/source/`. They show a meal card over
+the colony set with no HUD or Pickle panel, and are recorded in the intended Steam display order in `PUBLICATION.md`.
 The central emblem sits behind the card by design; the owner reviewed that composition and accepted it. Uploading the
 three files to the existing Workshop gallery is a manual Steam action still outside this repository.
 

@@ -44,13 +44,16 @@ Decided from the sources, not from intent.
 ## Captures for the Workshop page
 
 `Mod/About/Preview.png` is the existing Workshop header and `Mod/About/ModIcon.png` is the in-game list icon; neither is
-a gallery capture. The three approved gallery captures are present in `Art/Workshop-captures/` and must be uploaded in
-this order:
+a gallery capture. The three approved gallery captures are present in `Art/Workshop-captures/` as 1600x900 optimized PNGs,
+each below Steam's 2 MB limit. Upload them in this order:
 
 1. `01-katsudon.png` — info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension
    names an ordinary meal after a specific dish;
 2. `02-two-dishes-at-once.png` — info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
 3. `03-medium-boiled-egg.png` — info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
+
+The corresponding uncompressed 1920x1080 capture files are retained in `Art/Workshop-captures/source/`; they are source
+archives, not upload candidates.
 
 A capture is disqualified if it shows dev tools, another mod's debug overlay, the launcher panel of Pickle, or an empty
 window (STYLE and AUDIT). `06-workshop-captures.feature` loads the Nelim Zen Meadow studio, frames its central tiled emblem,
