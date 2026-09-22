@@ -5,8 +5,8 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        prepublished
-stage_meaning: release-ready state established after the owner explicitly waived the pending capture review; v1.0.0 tag and GitHub release both target the packageId introduction commit 5ba5fe7
+stage:        published
+stage_meaning: public Workshop publication established; v1.0.0 tag and GitHub release both target the packageId introduction commit 5ba5fe7
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -33,6 +33,13 @@ remaining:
 ---
 
 # Flavor Text Extended — status
+
+## Publication confirmation — 2026-09-22
+
+**Stage advanced: `prepublished` -> `published`.** Workshop item `3806100152` is public,
+`Mod/About/PublishedFileId.txt` is committed and pushed, and the five prepared thanks messages
+are recorded as posted in `PUBLICATION.md`. No new Steam action was performed in this status
+update.
 
 ## Prepublication alignment — 2026-09-22
 
