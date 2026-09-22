@@ -267,6 +267,15 @@ namespace FlavorTextExtended.PickleSteps
             ctx.Assert(problems.Count == 0, $"{problems.Count} of {placed.Count} placed meals changed across the reload: {string.Join("; ", problems)}");
         }
 
+        [When("Flavor Text Extended: I save the placed meals as {string}")]
+        public async System.Threading.Tasks.Task SavePlacedMeals(PickleContext ctx, string saveName)
+        {
+            ctx.Require(placed.Count > 0, "no meal was placed before saving the fixture");
+            ctx.Require(!string.IsNullOrWhiteSpace(saveName), "the fixture save name is empty");
+            GameDataSaveLoader.SaveGame(saveName);
+            await ctx.WaitFrames(10);
+        }
+
         [Then("Flavor Text Extended: a meal was named after {int} dishes at once")]
         public void MealWithSeveralDishes(PickleContext ctx, int count)
         {
