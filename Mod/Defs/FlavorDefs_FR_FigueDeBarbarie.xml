@@ -107,7 +107,7 @@
 		<label>prickly pear tart</label>
 		<ingredients>
 			<li><categories><li>FT_CactusFruit</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>a shortcrust base made with {2_plur}, filled with a set {0_adj} jelly whose colour goes from magenta to garnet as it cools.</description>
