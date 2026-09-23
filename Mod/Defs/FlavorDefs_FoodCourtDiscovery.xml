@@ -16,12 +16,12 @@
       </li>
       <li>
         <categories>
-          <li>FT_Soy</li>
+          <li>FT_PlantFoodRaw</li>
         </categories>
       </li>
       <li>
         <categories>
-          <li>FT_Chili</li>
+          <li>FT_Condiment</li>
         </categories>
       </li>
     </ingredients>
@@ -51,7 +51,7 @@
     <ingredients>
       <li>
         <categories>
-          <li>FT_Wheat</li>
+          <li>FT_Grain</li>
         </categories>
       </li>
       <li>
@@ -76,7 +76,7 @@
     <ingredients>
       <li>
         <categories>
-          <li>FT_Wheat</li>
+          <li>FT_Grain</li>
         </categories>
       </li>
       <li>
@@ -106,7 +106,7 @@
     <ingredients>
       <li>
         <categories>
-          <li>FT_Wheat</li>
+          <li>FT_Grain</li>
         </categories>
       </li>
       <li>
