@@ -10,7 +10,7 @@
 		<ingredients>
 			<li><categories><li>FT_Soy</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
-			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
 		</ingredients>
 		<description>cubes of {0_adj} tofu slipped into a red sauce of fermented beans, with minced {2_coll} and Sichuan pepper that numbs the tongue before {1_coll} burns it.</description>
 		<mealKinds>
@@ -24,7 +24,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Garlic</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>strips of {0_adj} lacquered with honey and {2_plur}, hung on hooks over the fire until the edges blacken. The name means cooked on a fork.</description>
 		<mealKinds>
@@ -36,9 +36,9 @@
 		<defName>FlavorTextFR_Xiaolongbao</defName>
 		<label>xiaolongbao</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Ginger</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>dumplings pleated eighteen times, filled with {1_plur} and a jelly of stock that turns back to liquid in the steam. You pierce them before biting, on pain of a burn.</description>
 		<mealKinds>
@@ -80,7 +80,7 @@
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
-			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>noodles served over a pool of {1_adj} paste and {2_adj} oil, to be mixed by the eater. The name comes from the carrying pole of the hawkers who bore them.</description>
 		<mealKinds>
@@ -92,9 +92,9 @@
 		<defName>FlavorTextFR_Wonton</defName>
 		<label>wonton</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Kelp</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>squares of dough so fine that the {1_adj} filling shows through, closed with a pinch and poached in a {2_adj} broth. The tail of dough floats and ripples: that is what gave them their name.</description>
 		<mealKinds>
@@ -109,7 +109,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a bird blown full of air to lift the skin off the flesh, scalded, lacquered with {1_plur} and dried a day in the wind before roasting. The skin is served first, in fine pancakes, and the meat afterwards.</description>
 		<mealKinds>
@@ -124,7 +124,7 @@
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_Pea</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
 		</ingredients>
 		<description>yesterday's {0_coll}, dry and loose grain by grain, fried at the highest flame with {1_plur} and {2_plur}. Fresh rice clumps and turns to porridge: it has to have slept.</description>
 		<mealKinds>
