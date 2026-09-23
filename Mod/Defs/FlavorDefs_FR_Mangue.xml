@@ -21,7 +21,7 @@
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>the pulp of {0_adj} pressed out by hand rather than blended — the whisk oxidises it and dulls the colour — with barely any {1_plur}, scented with cardamom and saffron.</description>
 		<mealKinds>
@@ -34,7 +34,7 @@
 		<label>aamras puri</label>
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
 		<description>the purée of {0_adj} served with scalding puffed puri, torn open to dip with. Sweet and savoury in the same mouthful: a whole meal in Gujarat while the season lasts.</description>
@@ -166,7 +166,7 @@
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>alternating layers of graham crackers, {1_adj} whipped with condensed milk and {0_adj} in slivers, left overnight in the cold to set. The biscuits soften and turn into cake.</description>
 		<mealKinds>
@@ -376,7 +376,7 @@
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>green {0_coll} stewed in a {1_adj} milk raised with turmeric and mustard seed. The fruit keeps its shape and its acidity: this is not a dessert, whatever sugar it holds.</description>
 		<mealKinds>
@@ -390,7 +390,7 @@
 		<ingredients>
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{1_coll} stewed in a sauce where ripe {0_coll} melts away and sweetens the curry, while a few green pieces kept whole supply the acid.</description>
 		<mealKinds>
