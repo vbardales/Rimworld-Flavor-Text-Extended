@@ -33,7 +33,7 @@
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Chestnut</li></categories></li>
-			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
 		<description>{0_coll} blanched then sweated in {2_plur} with whole {1_coll} already cooked, which half fall apart and sweeten the dish. The side of the year-end table.</description>
 		<mealKinds>
@@ -47,7 +47,7 @@
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} part-cooked and well drained under a {1_adj} béchamel with nutmeg, browned with {2_plur}. Badly drained, they give up their water and wash the sauce out.</description>
 		<mealKinds>
@@ -75,7 +75,7 @@
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>the outer leaves of {0_adj} pulled off and fried apart for the crunch, the hearts sliced and melted into {1_coll}, and {2_coll} to bind it.</description>
 		<mealKinds>
@@ -104,7 +104,7 @@
 		<label>brussels sprout Caesar salad</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 			<li><categories><li>FT_Anchovy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} raw and shaved into ribbons, dressed with a Caesar mounted on {2_plur} and garlic, with {1_coll} grated over and croutons. Raw, they are nutty rather than bitter.</description>
@@ -118,7 +118,7 @@
 		<label>brussels sprout slaw</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
-			<li><categories><li>FT_Apple</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
 		<description>{0_coll} sliced on the razor, {1_coll} in matchsticks and toasted {2_coll}, bound with a sharp dressing. Made an hour ahead so that the ribbons soften.</description>
@@ -148,7 +148,7 @@
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
-			<li><categories><li>FT_Lemon</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
 		</ingredients>
 		<description>{0_coll} thrown in whole to scalding oil: the outer leaves explode into blackened petals while the heart stays tender. A thread of {2_adj} on the way out, and nothing else.</description>
 		<mealKinds>
@@ -163,7 +163,7 @@
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
-			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
 		<description>{0_coll} fried and then shaken in a {1_adj} vinegar sauce emulsified with {2_plur}. The chicken-wing recipe, applied to a vegetable nobody used to like.</description>
 		<mealKinds>
@@ -209,7 +209,7 @@
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} quartered and stewed in a {1_adj} milk built on cumin, turmeric and mustard seeds burst in hot oil.</description>
 		<mealKinds>
