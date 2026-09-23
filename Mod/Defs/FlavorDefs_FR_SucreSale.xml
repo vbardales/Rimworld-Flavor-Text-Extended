@@ -39,7 +39,7 @@
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>{0_coll} halved and set cut side down in a {1_adj} caramel with vinegar, covered over with pastry and turned out after baking. The principle of the apple tart, applied to the savoury.</description>
 		<mealKinds>
@@ -53,7 +53,7 @@
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>small whole {0_coll} glazed in balsamic vinegar and {1_plur}, with bay. Eaten cold, and they keep a week, gaining by the day.</description>
 		<mealKinds>
@@ -246,7 +246,7 @@
 		<ingredients>
 			<li><categories><li>FT_Beet</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cooked in their skins then marinated in a {1_adj} vinegar with mustard seed and dill. They take a week to come into balance and keep for months.</description>
 		<mealKinds>
@@ -259,7 +259,7 @@
 		<defName>FlavorTextFR_DaigakuImo</defName>
 		<label>daigaku imo</label>
 		<ingredients>
-			<li><categories><li>FT_Yam</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
 		</ingredients>
@@ -289,9 +289,9 @@
 		<defName>FlavorTextFR_Takuan</defName>
 		<label>takuan</label>
 		<ingredients>
-			<li><categories><li>FT_Turnip</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a daikon dried in the sun for weeks until it will bend, then buried in rice bran with {1_plur} and salt. Bright yellow, crisp, and loud to chew.</description>
 		<mealKinds>
@@ -344,7 +344,7 @@
 		<ingredients>
 			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cut into fine julienne, blanched then drowned in an oil with turmeric, ginger and vinegar, with just enough {1_adj} to round off the acid. They improve over three days.</description>
 		<mealKinds>
@@ -432,7 +432,7 @@
 		<label>khoresh-e beh</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
-			<li><categories><li>FT_Apple</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
 		<description>{0_coll} braised with quinces in quarters, whose hard flesh melts within the hour and scents everything, sharpened with verjuice and sweetened with a little honey.</description>
