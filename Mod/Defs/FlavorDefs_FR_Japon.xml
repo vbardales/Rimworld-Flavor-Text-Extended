@@ -24,9 +24,9 @@
 		<defName>FlavorTextFR_Udon</defName>
 		<label>udon</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Kelp</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>thick, soft noodles kneaded underfoot beneath a cloth, in a clear {1_adj} broth. The texture matters more than the taste, and it is deliberate.</description>
 		<mealKinds>
@@ -40,7 +40,7 @@
 		<ingredients>
 			<li><categories><li>FT_Buckwheat</li></categories></li>
 			<li><categories><li>FT_Kelp</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>grey {0_adj} noodles, served cold on a rack with a {1_adj} sauce apart. The cooking water is drunk at the end, let down in what is left of the sauce.</description>
 		<mealKinds>
@@ -54,7 +54,7 @@
 		<ingredients>
 			<li><categories><li>FT_Soy</li></categories></li>
 			<li><categories><li>FT_Kelp</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>cubes of {0_adj} tofu rolled in starch and fried, set into a warm {1_adj} broth. The crust holds just long enough to reach the table.</description>
 		<mealKinds>
@@ -224,7 +224,7 @@
 		<label>korokke</label>
 		<ingredients>
 			<li><categories><li>FT_Potato</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 		</ingredients>
 		<description>a mash of {0_adj} mixed with minced {2_plur}, crumbed in coarse breadcrumbs and fried. A distant descendant of the French croquette, which arrived by boat last century.</description>
@@ -267,7 +267,7 @@
 		<defName>FlavorTextFR_Dorayaki</defName>
 		<label>dorayaki</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_RedBean</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
