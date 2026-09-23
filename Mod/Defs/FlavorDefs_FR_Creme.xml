@@ -225,7 +225,7 @@
 		<ingredients>
 			<li><categories><li>FT_Cucumber</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} sliced on the mandoline, drawn in coarse salt then drowned in sharp {1_plur}, {2_plur} and a great deal of dill. Eaten ice-cold, in summer, with warm potatoes.</description>
 		<mealKinds>
@@ -239,7 +239,7 @@
 		<ingredients>
 			<li><categories><li>FT_Lentil</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>black {0_coll} cooked a whole night over a dying fire, mounted with butter and {1_plur}, whole {2_plur} lifted out as it is served. The black comes from the time, not from any ingredient.</description>
 		<mealKinds>
@@ -281,7 +281,7 @@
 		<ingredients>
 			<li><categories><li>FT_Squash</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} roasted in halves face down on the tray, scraped out with a spoon when it collapses, blended with {1_plur} and lifted with {2_plur} and nutmeg grated over at the last moment.</description>
 		<mealKinds>
