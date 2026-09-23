@@ -45,7 +45,7 @@
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>white {0_coll} served with a hard-boiled egg crushed with a fork into melted butter, parsley and a grating of nutmeg. Everyone mixes their own sauce on their own plate.</description>
 		<mealKinds>
@@ -88,7 +88,7 @@
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} drained a long while then packed tight under a {1_adj} béchamel and {2_plur}, put through the oven until the surface blisters.</description>
 		<mealKinds>
@@ -101,7 +101,7 @@
 		<label>asparagus tart</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
 		<description>{0_coll} laid out in spokes over a blind-baked base, with a {2_adj} cream between them. Tips to the centre, ends to the rim: that is the only way every slice gets one.</description>
@@ -116,7 +116,7 @@
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>bundles of {0_adj} rolled two at a time in a slice of {1_adj}, napped and browned with {2_plur}. The spring cousin of chicory and ham.</description>
 		<mealKinds>
@@ -160,7 +160,7 @@
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{1_coll} moistened with the stock drawn from the {0_adj} peelings, the stems melted into it and the tips kept crisp for the end, the whole bound with {2_plur}.</description>
 		<mealKinds>
@@ -174,7 +174,7 @@
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cut into lengths and fried with new {2_plur}, drowned in beaten {1_plur} and cooked over a low flame until the centre is barely set.</description>
 		<mealKinds>
@@ -233,7 +233,7 @@
 		<label>asparagus tempura</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
 		<description>{0_coll} whole dipped in an iced {1_adj} batter barely stirred together, fried thirty seconds in {2_plur}. The tip stays green and crisp under the crust.</description>
@@ -247,7 +247,7 @@
 		<label>asparagus nikumaki</label>
 		<ingredients>
 			<li><categories><li>FT_Asparagus</li></categories></li>
-			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} rolled one by one in a very thin sliver of {1_adj}, seared in the pan until the meat seals, then lacquered with {2_plur} and mirin.</description>
