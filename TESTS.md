@@ -34,7 +34,7 @@ Flavor Text announces itself with one line, which is the single most useful thin
 ```
 
 The second number is every dish definition loaded, hekmo's and ours together. The first is how many
-the engine kept for this modlist. Both are predicted offline by `_tools/actifs.js`, so a gap between
+the engine kept for this modlist. Both are predicted offline by `_tools/active.js`, so a gap between
 the tool and the log is itself a finding.
 
 Our defs are all prefixed `FlavorTextFR_`, a leftover from when this mod and its French companion
@@ -57,7 +57,7 @@ ingredient triplet are variety, not conflict, because the engine draws at random
 definitions.
 
 ```bash
-node _tools/actifs.js "<path to Flavor Text>/1.6/Defs"
+node _tools/active.js "<path to Flavor Text>/1.6/Defs"
 ```
 
 This replays the engine's own filter against the installed modlist and reports how many dishes
@@ -186,7 +186,7 @@ is, so hekmo's dishes on the same triplet compete with ours by design. Cook seve
 
 **Alternatives on the same principle**, all three cookable with no cooking mod installed. Rice, egg
 and any vegetable gives `bibimbap`. Potato, pork and egg gives `Tiroler Gröstl`. Egg, pork and beans
-gives a `full English breakfast`. Pick from `_tools/actifs.js`, which lists the dishes that pass
+gives a `full English breakfast`. Pick from `_tools/active.js`, which lists the dishes that pass
 both conditions on the modlist you actually have; do not pick from the def files, where most dishes
 name a kind of meal that a vanilla kitchen cannot produce.
 

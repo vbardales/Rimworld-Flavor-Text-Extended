@@ -1,5 +1,5 @@
 // Tests a list of candidate dish names against the 930 Flavor Text defs.
-// Usage: node _tools/candidats.js "mole" "pozole" "samosa" ...
+// Usage: node _tools/candidates.js "mole" "pozole" "samosa" ...
 const defs = require('./flavordefs.json');
 const norm = s => s.toLowerCase()
   .normalize('NFD').replace(/[̀-ͯ]/g, '')

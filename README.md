@@ -41,7 +41,7 @@ Farming and cooking mods can make more dishes available, depending on their ingr
 That is how the engine works rather than a shortcoming: a dish waits for its ingredient, and
 costs nothing while it waits. But it sets what a player should expect.
 
-`_tools/actifs.js` estimates it for a given modlist — it reads `ModsConfig.xml`, replays the
+`_tools/active.js` estimates it for a given modlist — it reads `ModsConfig.xml`, replays the
 engine's category matching, and reports how many definitions survive, split between this mod and
 Flavor Text's own. The following is a historical profile snapshot, not a result for your
 current modlist:

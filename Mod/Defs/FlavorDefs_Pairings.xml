@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  The five missing pairings that the corrected couverture.js surfaced, once the
+  The five missing pairings that the corrected coverage.js surfaced, once the
   tree was taken into account and the ranking switched back to "assise" (foundation):
 
       Rice + Wheat               149 dishes speak for the less established of the two
@@ -14,7 +14,7 @@
 
   Be careful NOT to add Citrus + Olive: the pair is already covered by the
   crudo and by the tajine with olives and preserved lemon. It never appeared in the
-  couverture.js output - that was a proofreading mistake, not a gap.
+  coverage.js output - that was a proofreading mistake, not a gap.
 
   Deduplication, following the usual rule - what counts is the ingredient triplet,
   not the name:

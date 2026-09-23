@@ -1,6 +1,6 @@
 // Final check of the English translation of the mod's defs.
 //
-//   node _tools/verifen.js
+//   node _tools/verify-en.js
 //
 // Three faults that proofreading does not reveal:
 //   - a {N_...} pointing to a nonexistent ingredient slot -> placeholder displayed raw

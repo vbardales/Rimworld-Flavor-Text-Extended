@@ -1,8 +1,8 @@
 // Applies to the Defs the English translations supplied as TSV, and checks that nothing
 // is lost along the way.
 //
-//   node _tools/en.js <file.tsv>          applies
-//   node _tools/en.js <file.tsv> --essai  shows what would be done, without writing
+//   node _tools/english.js <file.tsv>          applies
+//   node _tools/english.js <file.tsv> --dry-run  shows what would be done, without writing
 //
 // TSV format, one line per dish, real tab characters:
 //   defName <TAB> English label <TAB> English description
@@ -14,8 +14,8 @@ const fs = require('fs');
 const path = require('path');
 
 const tsv = process.argv[2];
-const essai = process.argv.includes('--essai');
-if (!tsv) { console.error('usage: node _tools/en.js <file.tsv> [--essai]'); process.exit(1); }
+const essai = process.argv.includes('--dry-run');
+if (!tsv) { console.error('usage: node _tools/english.js <file.tsv> [--dry-run]'); process.exit(1); }
 
 const slots = t => [...String(t).matchAll(/\{(\d+_\w+)\}/g)].map(m => m[1]).sort().join(',');
 

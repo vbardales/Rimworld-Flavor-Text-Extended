@@ -1,6 +1,6 @@
 // Extracts the French from the Defs into the French mod's DefInjected.
 //
-//   node _tools/scinder.js <French mod folder>
+//   node _tools/split.js <French mod folder>
 //
 // RUN BEFORE translating the Defs into English: this script is what preserves
 // the 896 French labels and descriptions currently hard-coded in the defs.
@@ -12,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 
 const OUT = process.argv[2];
-if (!OUT) { console.error('usage: node _tools/scinder.js <French mod folder>'); process.exit(1); }
+if (!OUT) { console.error('usage: node _tools/split.js <French mod folder>'); process.exit(1); }
 const dest = path.join(OUT, 'Languages', 'French', 'DefInjected', 'FlavorText.FlavorDef');
 fs.mkdirSync(dest, { recursive: true });
 
@@ -38,7 +38,7 @@ for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x))
   const entete = `<?xml version="1.0" encoding="utf-8" ?>
 <!--
   French translation of the dishes added by Flavor Text Extended.
-  Generated from ${f} by _tools/scinder.js -- do not edit by hand.
+  Generated from ${f} by _tools/split.js -- do not edit by hand.
 
   These texts used to be hard-coded in the defs, which displayed them
   in French whatever the game language. They now live here, and the

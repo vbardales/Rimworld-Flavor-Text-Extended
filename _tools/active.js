@@ -1,6 +1,6 @@
 // How many of our dishes does the engine really retain, on the active mod list?
 //
-//   node _tools/actifs.js <Flavor Text Defs folder>
+//   node _tools/active.js <Flavor Text Defs folder>
 //
 // At startup Flavor Text writes "N active FlavorDefs for the current modlist found out
 // of M total". It does not say how N splits between its defs and ours. This
@@ -42,14 +42,14 @@ const fs = require('fs');
 const path = require('path');
 
 const FT = process.argv[2];
-if (!FT) { console.error('usage: node _tools/actifs.js <Flavor Text Defs folder>'); process.exit(1); }
+if (!FT) { console.error('usage: node _tools/active.js <Flavor Text Defs folder>'); process.exit(1); }
 
 const RW = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld';
 const WS = 'C:/Program Files (x86)/Steam/steamapps/workshop/content/294100';
 const CFG = process.env.LOCALAPPDATA.replace(/Local$/, 'LocalLow') +
   '/Ludeon Studios/RimWorld by Ludeon Studios/Config/ModsConfig.xml';
 
-const T = require('./arbre.js').load(FT);
+const T = require('./tree.js').load(FT);
 
 /* ------------------------------------------------------------------- helpers */
 function walk(dir, out = []) {

@@ -50,5 +50,5 @@ for (const f of (fs.existsSync(DIR) ? fs.readdirSync(DIR) : []).filter(x => x.en
 
 const manquants = defs.filter(d => !seen.has(d.defName));
 console.log(`\n${seen.size}/${defs.length} labels translated — ${erreurs} error(s), ${avert} warning(s)`);
-if (process.argv[2] === '--manquants') console.log(manquants.map(d => d.defName).join('\n'));
+if (process.argv[2] === '--missing') console.log(manquants.map(d => d.defName).join('\n'));
 process.exit(erreurs ? 1 : 0);

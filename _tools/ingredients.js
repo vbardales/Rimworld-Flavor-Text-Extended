@@ -2,7 +2,7 @@
 // a SPECIFIC Flavor Text category, or only into a catch-all.
 const fs=require('fs'),path=require('path');
 const FT=process.argv[2], WS=process.argv[3];
-const T=require('./arbre.js').load(FT);
+const T=require('./tree.js').load(FT);
 
 // keywords per category, using FlavorText's scoring (multi-word = +6)
 const cats=[];

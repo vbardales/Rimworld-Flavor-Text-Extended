@@ -21,7 +21,7 @@ Its accepted size/design override the general artwork convention for this mod.
   fields. English is supplied through native Def labels/descriptions, not duplicate keys.
 - `_tools/Test-Localization.ps1 -CompanionMod ../FlavorTextExtendedFR/Mod` passes:
   1,799 matching French paths, 4,584 valid ingredient tokens, no duplicate/missing owned path.
-- `node _tools/verifen.js` passes on 896 dishes: zero errors and zero French-word warnings.
+- `node _tools/verify-en.js` passes on 896 dishes: zero errors and zero French-word warnings.
   It reports 417 uncited slots, which filter eligibility and need not appear in text.
 - Reviewed one English dish label/description from each of the 42 dish files, including
   regional culinary names, shell eggs, raw foods, desserts, meat and vegetable recipes.
@@ -120,7 +120,7 @@ loading. The four guarded Odyssey meats remain covered by the XML regression che
 - `Test-Xml.ps1`: pass, 50 XML files, 25 operations, four Odyssey guards.
 - `Test-Localization.ps1`: pass, 903 defs, 1,799 bilingual fields, 4,584 tokens.
 - `checkdefs.js`: 896 dishes, zero errors, ten unchanged warnings.
-- `verifen.js`: 896 dishes, zero errors, zero warnings.
+- `verify-en.js`: 896 dishes, zero errors, zero warnings.
 - Shared `Check-ConfigErrors.ps1` with installed Flavor Text 1.6: 903/903 defs,
   26 rules, no config error, exit 0.
 

@@ -2,7 +2,7 @@
 // also serves the Cheese × Fruit pair, since FT_Fruit is an ancestor of FT_Pear.
 const fs=require('fs'),path=require('path');
 const FT=process.argv[2], CIBLE=process.argv[3];
-const T=require('./arbre.js').load(FT);
+const T=require('./tree.js').load(FT);
 
 function defsOf(dir){
   const out=[];

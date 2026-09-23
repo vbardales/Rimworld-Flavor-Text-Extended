@@ -1,6 +1,6 @@
 // Outputs description batch NN to translate, aligned on the split of Labels_NN.xml
 // (same order, same groups) so that the two files can be read side by side.
-//   node _tools/lotsdesc.js 01
+//   node _tools/batchdesc.js 01
 const fs = require('fs');
 const defs = require('./flavordefs.json');
 const byName = Object.fromEntries(defs.map(d => [d.defName, d]));

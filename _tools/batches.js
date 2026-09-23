@@ -4,7 +4,7 @@ const fs = require('fs');
 const defs = require('./flavordefs.json');
 
 const SIZE = Number(process.argv[2] || 80);
-const OUTDIR = './_tools/lots';
+const OUTDIR = './_tools/batch-data';
 fs.mkdirSync(OUTDIR, { recursive: true });
 
 const short = c => c.replace(/^FT_/, '');
@@ -26,7 +26,7 @@ const lines = defs.map(d => {
 let n = 0;
 for (let i = 0; i < lines.length; i += SIZE) {
   n++;
-  const f = `${OUTDIR}/lot${String(n).padStart(2, '0')}.tsv`;
+  const f = `${OUTDIR}/batch${String(n).padStart(2, '0')}.tsv`;
   fs.writeFileSync(f, 'defName\tlabel_en\tslots\tmealKind\tconstraints\n' +
     lines.slice(i, i + SIZE).join('\n') + '\n', 'utf8');
 }

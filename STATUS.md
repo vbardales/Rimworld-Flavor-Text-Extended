@@ -106,7 +106,7 @@ the working tree was clean before this record. The Workshop item and GitHub rele
 historical facts, recorded below. They do not satisfy a gate whose required work is absent.
 
 The earlier transitions through `tested` remain established. Re-run today, all outside the
-game: `checkdefs.js` reports 901 dishes, zero errors and ten known warnings; `verifen.js`
+game: `checkdefs.js` reports 901 dishes, zero errors and ten known warnings; `verify-en.js`
 reports zero errors or warnings; `Test-Xml.ps1` parses 51 XML files, applies 29 operations and
 verifies four Odyssey guards; `Test-OptionalIngredients.ps1` resolves all 47 guarded pairs;
 and `Test-Localization.ps1` verifies 908 owned defs, 1,809 English fields/French paths and
@@ -410,7 +410,7 @@ The workflow read is the current AUDIT.md, which postdates the 2026-09-13 `done`
 | -> Preview générée | validated | `Mod/About/Preview.png` is 896x504, 553,178 bytes (< 1 MB), opened and looked at: dishes on a dark wooden table, title and summary legible, no clipped text, no concrete camera defect. |
 | -> preOptions | validated | `Extended` is a smaller tan suffix beside the white main title, the green rule and `1.6` badge are a third, distinct colour. Description in English. It ends with `[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]`, last in the field and matching the `<url>` field and the remote. The FR companion link resolves (`git ls-remote`). No `(unofficial)` / `(prohibited)` suffix is called for by `original` / public. |
 | -> options | validated, `not_applicable` | Source inventory of `Mod/`: 51 Def/patch XML files, no `.dll`, no `.cs`, no `MainButtonDef`, no `ModSettings`, no `Keyed`, no `LoadFolders`. No settings page and no shortcut can exist. Verified from sources only, which is what this transition asks. |
-| -> l10n | validated | English is the native Def text: 901 `FlavorDef` and 7 `FlavorCategoryDef`, all with source text; no other player-facing text in patches, no code. `_tools/Test-Localization.ps1 -CompanionMod ../FlavorTextExtendedFR/Mod`: PASS, 908 owned defs, 1,809 non-empty English fields with matching French paths, 4,614 valid tokens. `node _tools/verifen.js`: 901 dishes, 0 errors, 0 warnings. French lives in the separate companion by the user's explicit architecture decision: recorded, not a defect here. No in-game language pass exists (it belongs to `done -> tested`). |
+| -> l10n | validated | English is the native Def text: 901 `FlavorDef` and 7 `FlavorCategoryDef`, all with source text; no other player-facing text in patches, no code. `_tools/Test-Localization.ps1 -CompanionMod ../FlavorTextExtendedFR/Mod`: PASS, 908 owned defs, 1,809 non-empty English fields with matching French paths, 4,614 valid tokens. `node _tools/verify-en.js`: 901 dishes, 0 errors, 0 warnings. French lives in the separate companion by the user's explicit architecture decision: recorded, not a defect here. No in-game language pass exists (it belongs to `done -> tested`). |
 | -> preTest | validated | Only `hekmo.FlavorText` is a hard dependency, declared with its Workshop URL; `loadAfter` names Harmony, Core and Flavor Text. Optional providers (`daylight.RLEVVCultivationPlus`, `Dajian.ChiTeaditional.Expanded`, `daylight.RimLifeExTRGMod`, VV New Harvest) appear only as `MayRequire` on the entries, not as dependencies. `_tools/Test-OptionalIngredients.ps1`: PASS, 47 guarded provider-reference pairs resolve. `_tools/Test-Xml.ps1`: PASS, 51 files, 29 operations applied in memory, four Odyssey guards. No `LoadFolders` and none needed. Installed Flavor Text is 0.3.6, 1.6 supported. |
 | -> done | **not established** | See below. |
 | -> tested | not reached | Nothing executed in game. |
@@ -422,7 +422,7 @@ Pickle (Gherkin) tests **written, with their scope justified** ("only what a run
 
 - Scenarios: T1-T14 in `TESTS.md`, each with setup, actions, expected result. Present.
 - Automated and XML tests, rerun on the delivered tree: `checkdefs.js` 901 dishes, 0 errors,
-  10 warnings (all shared-combination or similar-label, unchanged); `verifen.js` 0/0;
+  10 warnings (all shared-combination or similar-label, unchanged); `verify-en.js` 0/0;
   `Check-ConfigErrors.ps1 -ModPath ./Mod -AlsoScan <Flavor Text 1.6 Defs>`: 908 of 908 defs,
   26 rules, no config error; the three PowerShell tests above. All green.
 - Pickle: **absent.** No `Tests/Pickle`, no `.feature`, no mention of Pickle in `TESTS.md` or here,
@@ -650,7 +650,7 @@ manifest; `AUDIT-2026-09-13-fixed.json` identifies the corrected files and valid
   **50 XML files, 25 patch operations, four Odyssey guards**.
 - `node _tools/checkdefs.js <installed Flavor Text 1.6 Defs>`: **0 errors, 10 warnings**,
   unchanged shared-combination/similar-label warnings across 896 dishes.
-- `node _tools/verifen.js`: **0 errors, 0 warnings**, 417 deliberately uncited slots.
+- `node _tools/verify-en.js`: **0 errors, 0 warnings**, 417 deliberately uncited slots.
 - Shared `Check-DefInjected.ps1` against the French companion, this mod and installed
   Flavor Text 1.6, with FlavorText.dll supplied: **3,652 keys, 0 errors**. Six warnings
   concern upstream Biotech dish descriptions in the companion, not this extension's
@@ -738,7 +738,7 @@ not missing translations. Native English Def values are valid EN resources; no r
 English DefInjected files are required. Representative dish descriptions are English;
 proper culinary names are not automatically translation defects.
 
-`node _tools/verifen.js` checked all 896 dishes: **0 errors, 0 warnings**, 417 ingredient
+`node _tools/verify-en.js` checked all 896 dishes: **0 errors, 0 warnings**, 417 ingredient
 slots intentionally not cited by text. This checks slot indices and French-word heuristics,
 not complete translation semantics. `translation_en: partial` records that limit.
 Read-only comparison with `../FlavorTextExtendedFR/Mod/Languages/French/DefInjected/FlavorText.FlavorDef`
@@ -760,7 +760,7 @@ Upstream Defs argument used below:
   25 operations matched and applied in memory, four Odyssey guards verified**.
   Reviewed test implementation: applies all operations against upstream XML without
   simulating game conditional loading. It does not prove optional ThingDefs resolve.
-- `node _tools/verifen.js`: exit 0 with the results above (the script reports counts;
+- `node _tools/verify-en.js`: exit 0 with the results above (the script reports counts;
   counts, not exit code alone, were checked).
 - `../../scripts/Check-ConfigErrors.ps1 -ModPath ./Mod -AlsoScan
   <upstream 1.6 folder> -Brief`: exit 0; **903 of 903 defs, 26 rules, no config error**.
