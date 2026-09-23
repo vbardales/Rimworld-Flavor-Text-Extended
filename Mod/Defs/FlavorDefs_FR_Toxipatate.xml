@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  La toxipatate.
+  The toxipotato.
 
-  Mise au point importante : FT_Toxipotato a pour parent FT_Potato, et le moteur
-  descend récursivement dans les catégories filles. Toute def qui déclare FT_Potato
-  accepte donc déjà la toxipatate — elle est servie par 432 plats, pas par un seul.
-  Elle n'a jamais été une catégorie orpheline.
+  Important clarification: FT_Toxipotato has FT_Potato as its parent, and the engine
+  recurses into child categories. Any def that declares FT_Potato
+  therefore already accepts the toxipotato - it is served by 432 dishes, not by just one.
+  It was never an orphan category.
 
-  Ces huit defs ne comblent donc aucun vide. Elles ont une autre valeur : leur
-  spécificité est très haute (FT_Toxipotato n'accepte qu'une poignée de ThingDefs,
-  et Specificity = 10000 / nombre de ThingDefs acceptés), si bien qu'elles gagnent
-  souvent le tirage pondéré quand la toxipatate est réellement l'ingrédient. Elles
-  ajoutent de la variété ciblée, pas de la couverture.
+  These eight defs therefore fill no gap. They have another value: their
+  specificity is very high (FT_Toxipotato accepts only a handful of ThingDefs,
+  and Specificity = 10000 / number of accepted ThingDefs), so they often win
+  the weighted draw when the toxipotato really is the ingredient. They
+  add targeted variety, not coverage.
 
-  C'est aussi pourquoi elles sont huit et non vingt : écrire « toxipatate bouillie »,
-  « toxipatate vapeur » et « toxipatate rôtie » aurait produit trois defs de plus pour
-  un seul et même couple d'ingrédients, alors que les plats de pomme de terre du mod
-  couvrent déjà ces préparations.
+  That is also why there are eight and not twenty: writing "boiled toxipotato",
+  "steamed toxipotato" and "roast toxipotato" would have produced three more defs for
+  one and the same pair of ingredients, while the mod's potato dishes
+  already cover those preparations.
 
-  Registre : la toxicité est traitée comme une contrainte de cuisine, pas comme un
-  ressort dramatique. Chaque description porte la manipulation qui la rend mangeable.
+  Register: toxicity is treated as a kitchen constraint, not as a dramatic
+  device. Each description carries the handling that makes it edible.
 -->
 <Defs>
 

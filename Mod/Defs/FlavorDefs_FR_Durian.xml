@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Durian — catégorie FT_Durian, orpheline.
-  Dix-sept plats, dix-sept combinaisons distinctes.
+  Durian — FT_Durian category, orphaned.
+  Seventeen dishes, seventeen distinct combinations.
 
-  Le durian est la plus riche des orphelines parce qu'il possède une branche salée :
-  le tempoyak, chair fermentée au sel, sert de condiment et de base de curry en
-  Indonésie et en Malaisie. Quatre defs en sortent, là où les autres fruits n'en
-  donnaient aucune.
+  Durian is the richest of the orphans because it has a savoury branch:
+  tempoyak, flesh fermented with salt, serves as a condiment and curry base in
+  Indonesia and Malaysia. Four defs come out of it, where other fruits gave
+  none.
 
-  « pulut durian », « ketan durian », « khao niao durian », « durian sticky rice » et
-  « xôi sầu riêng » sont un seul et même plat en cinq langues : un seul triplet.
+  "pulut durian", "ketan durian", "khao niao durian", "durian sticky rice" and
+  "xôi sầu riêng" are one and the same dish in five languages: a single triplet.
 
-  « Pengat durian » et « dodol durian » utilisent le sucre de palme, qui relève de
-  FT_SugarFromPlants — la catégorie que le sirop d'érable avait ouverte.
+  "Pengat durian" and "dodol durian" use palm sugar, which falls under
+  FT_SugarFromPlants — the category that maple syrup had opened.
 -->
 <Defs>
 
-	<!-- ============================================== ASIE DU SUD-EST, SUCRÉ -->
+	<!-- =============================================== SOUTHEAST ASIA, SWEET -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PulutDurian</defName>
@@ -105,7 +105,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================= PÂTISSERIE ET GLACES -->
+	<!-- =============================================== PASTRIES AND ICE CREAM -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BanhPiaSauRieng</defName>
@@ -210,7 +210,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================== TEMPOYAK, LE SALÉ -->
+	<!-- ================================================== TEMPOYAK, SAVOURY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Tempoyak</defName>

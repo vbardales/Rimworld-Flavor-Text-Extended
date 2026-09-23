@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Mangue — catégorie FT_Mango, orpheline.
-  Vingt-neuf plats, vingt-neuf combinaisons distinctes : la plus riche rencontrée.
+  Mango — FT_Mango category, orphaned.
+  Twenty-nine dishes, twenty-nine distinct combinations: the richest encountered.
 
-  Elle le doit à sa double nature. Mûre, c'est un fruit de dessert ; verte, c'est
-  un légume acide qui entre dans les saumures, les currys, les sambals et les salades.
-  Les deux usages ne partagent presque aucun accord, d'où le nombre de triplets.
+  It owes this to its dual nature. Ripe, it is a dessert fruit; green, it is
+  a sour vegetable that goes into pickles, curries, sambals and salads.
+  The two uses share almost no pairings, hence the number of triplets.
 
-  Fusions opérées : mango sticky rice = khao niao mamuang = xôi xoài (trois langues) ;
-  mango float = mango graham cake ; mango pickle = aam ka achar = avakaya = kuchela ;
-  green mango salad = gỏi xoài ; mangonada = mango loco.
+  Merges performed: mango sticky rice = khao niao mamuang = xôi xoài (three languages);
+  mango float = mango graham cake; mango pickle = aam ka achar = avakaya = kuchela;
+  green mango salad = gỏi xoài; mangonada = mango loco.
 -->
 <Defs>
 
-	<!-- ================================================= INDE, MANGUE MÛRE -->
+	<!-- ================================================= INDIA, RIPE MANGO -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Aamras</defName>
@@ -101,7 +101,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================= ASIE DU SUD-EST ET CHINE -->
+	<!-- ============================================= SOUTHEAST ASIA AND CHINA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MangoStickyRice</defName>
@@ -188,7 +188,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================= PÂTISSERIE OCCIDENTALE -->
+	<!-- ======================================================= WESTERN PASTRIES -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MangoCheesecake</defName>
@@ -233,7 +233,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ====================================================== MEXIQUE ET RUE -->
+	<!-- ============================================== MEXICO AND STREET FOOD -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Mangonada</defName>
@@ -250,7 +250,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================ MANGUE VERTE, SAUMURES -->
+	<!-- ============================================== GREEN MANGO, PICKLES -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MangoChutney</defName>
@@ -353,7 +353,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================ MANGUE VERTE, PLATS CUITS -->
+	<!-- =========================================== GREEN MANGO, COOKED DISHES -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MangoDal</defName>
@@ -398,7 +398,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ======================================================= CRU ET MARIN -->
+	<!-- ==================================================== RAW AND SEAFOOD -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CevicheMangue</defName>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Desserts du monde, première série.
+  World desserts, first series.
 
-  Sélection guidée par les combinaisons d'ingrédients plutôt que par les noms : le
-  garde-manger sucré de RimWorld est étroit, et deux desserts qui exigent le même
-  triplet ne se distinguent jamais en jeu. On couvre donc les triplets, pas les listes.
+  Selection driven by ingredient combinations rather than by names: the
+  sweet pantry of RimWorld is narrow, and two desserts that require the same
+  triplet are never told apart in game. So we cover triplets, not lists.
 -->
 <Defs>
 
@@ -261,7 +261,7 @@
 	</FlavorText.FlavorDef>
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
-		<!-- Flavor Text couvre déjà « macarons », avec exactement ces ingrédients. -->
+		<!-- Flavor Text already covers "macarons", with exactly these ingredients. -->
 		<defName>FlavorTextFR_Dacquoise</defName>
 		<label>dacquoise</label>
 		<ingredients>
@@ -351,7 +351,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================ EUROPE CENTRALE ET EST -->
+	<!-- ======================================== CENTRAL AND EASTERN EUROPE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Sachertorte</defName>
@@ -458,7 +458,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================== ÎLES BRITANNIQUES -->
+	<!-- ====================================================== BRITISH ISLES -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Cranachan</defName>
@@ -532,7 +532,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================== AMÉRIQUES ET AILLEURS -->
+	<!-- ============================================= AMERICAS AND ELSEWHERE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TresLeches</defName>
@@ -684,7 +684,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================ ORIENT ET ASIE -->
+	<!-- ========================================== MIDDLE EAST AND ASIA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Kunefe</defName>

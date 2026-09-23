@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Deuxième vague d'accords, sur la nouvelle tête de liste de couverture.js :
+  Second wave of pairings, from the new top of the couverture.js list:
 
-      Meat_Poultry + Meat_Seafood   108 plats parlent du moins installé des deux
+      Meat_Poultry + Meat_Seafood   108 dishes speak for the less established of the two
       Butter + Meat_Pig              69
       Butter + Corn                  66
       Meat_Fish + Meat_Pig           60
 
-  Plus cinq plats de coco râpée, voir la note plus bas.
+  Plus five grated-coconut dishes, see the note further down.
 
-  Deux vérifications faites avant d'écrire, et deux réponses négatives :
+  Two checks made before writing, and two negative answers:
 
-  — Romy_CoconutSyrup n'a besoin d'aucun patch. Son label « coconut syrup » marque
-    déjà 3 points sur FT_Sugar, 3 sur FT_SugarFromPlants et 5 sur FT_Coconut, et le
-    moteur conserve toutes les catégories qui atteignent 3. Il est donc déjà traité
-    comme un sucrant en même temps que comme une coco.
+  - Romy_CoconutSyrup needs no patch. Its label "coconut syrup" already scores
+    3 points on FT_Sugar, 3 on FT_SugarFromPlants and 5 on FT_Coconut, and the
+    engine keeps every category that reaches 3. So it is already treated
+    as a sweetener and as a coconut at the same time.
 
-  — Aucun ThingDef de cœur de palmier n'existe dans les 1201 mods installés : ni
-    « palmito », ni « heart of palm », ni « palm heart ». Des plats de palmito
-    seraient écartés au chargement, comme l'auraient été ceux de FT_CoconutMilk.
+  - No palm heart ThingDef exists among the 1,201 mods installed on the development machine: neither
+    "palmito", nor "heart of palm", nor "palm heart". Palmito dishes
+    would be discarded at load, as those of FT_CoconutMilk would have been.
 
-  Sur le lait de coco : les plats déjà écrits qui en demandent — tom kha, moilee,
-  bœuf au lait de coco, haupia — sont conservés. Ils ciblent FT_Coconut, c'est-à-dire
-  la noix brute, et non un objet « lait » qui n'existe pas. Or presser le lait d'une
-  noix fraîche (râper, infuser à l'eau chaude, tordre dans un linge) est une étape de
-  cuisine au même titre que la râper : c'est même la méthode d'origine, antérieure à
-  la conserve. Une colonie qui récolte des cocos peut faire un tom kha.
+  On coconut milk: the dishes already written that call for it - tom kha, moilee,
+  beef in coconut milk, haupia - are kept. They target FT_Coconut, that is
+  the raw nut, and not a "milk" object that does not exist. Now pressing the milk from a
+  fresh nut (grating, steeping in hot water, wringing in a cloth) is a cooking step
+  just like grating it: it is even the original method, older than
+  canning. A colony that harvests coconuts can make a tom kha.
 
-  Les cinq plats ajoutés ici emploient la noix râpée directement, sans passer par le
-  lait : ils élargissent la coco vers un autre registre plutôt qu'ils ne corrigent
-  les premiers.
+  The five dishes added here use the grated nut directly, without going through
+  milk: they widen coconut toward another register rather than correcting
+  the first ones.
 -->
 <Defs>
 
-	<!-- ======================================== VOLAILLE ET FRUITS DE MER (108) -->
+	<!-- ============================================== POULTRY AND SEAFOOD (108) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PaellaMixta</defName>
@@ -121,7 +121,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================== BEURRE ET PORC (69) -->
+	<!-- ============================================= BUTTER AND PORK (69) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_JambonBeurre</defName>
@@ -194,7 +194,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =============================================== BEURRE ET MAÏS (66) -->
+	<!-- ============================================== BUTTER AND CORN (66) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_EpiDeMaisAuBeurre</defName>
@@ -268,7 +268,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================= POISSON ET PORC (60) -->
+	<!-- =============================================== FISH AND PORK (60) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TruiteBardeeDeLard</defName>
@@ -341,9 +341,9 @@
 	</FlavorText.FlavorDef>
 
 	<!--
-		Coco râpée : ces cinq-là n'emploient que la noix brute, sans extraction de lait.
-		Ils élargissent la coco vers le condiment et la confiserie, là où les premiers
-		plats de coco l'avaient tirée vers le curry et la soupe.
+		Grated coconut: these five use only the raw nut, with no milk extraction.
+		They widen coconut toward the condiment and the confection, where the first
+		coconut dishes had pulled it toward curry and soup.
 	-->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">

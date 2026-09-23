@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Sorgho — catégorie FT_Sorghum, dernière orpheline céréalière.
-  Vingt plats, vingt combinaisons distinctes.
+  Sorghum - category FT_Sorghum, the last orphan cereal.
+  Twenty dishes, twenty distinct combinations.
 
-  Le sorgho est un féculent de base, pas un ingrédient d'accent : tô, tuwo, ugali,
-  sadza, pap, ting, motoho, asida, kisra, genfo, uji et ogi sont tous de la farine
-  bouillie en pâte, sous douze noms. Ce n'est pas de la traduction, c'est douze
-  cultures qui ont nommé le même geste.
+  Sorghum is a staple starch, not an accent ingredient: tô, tuwo, ugali,
+  sadza, pap, ting, motoho, asida, kisra, genfo, uji and ogi are all flour
+  boiled into a paste, under twelve names. This is not translation, it is twelve
+  cultures that named the same gesture.
 
-  Ce qui les distingue réellement est la SAUCE qui les accompagne — et cela, le moteur
-  le voit. Chaque pâte est donc appariée à son accompagnement caractéristique.
+  What really tells them apart is the SAUCE that accompanies them - and that, the engine
+  can see. Each paste is therefore paired with its characteristic accompaniment.
 
-  Le sirop de sorgho n'est pas repris ici : il relève de FT_SugarFromPlants, dont les
-  mots-clés incluent « syrup ». Les pâtisseries du Sud américain croisent les deux.
+  Sorghum syrup is not covered here: it falls under FT_SugarFromPlants, whose
+  keywords include "syrup". The pastries of the American South cross the two.
 -->
 <Defs>
 
-	<!-- ================================================== AFRIQUE DE L'OUEST -->
+	<!-- ========================================================= WEST AFRICA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ToDeSorgho</defName>
@@ -76,7 +76,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================ SOUDAN ET CORNE DE L'AFRIQUE -->
+	<!-- ============================================ SUDAN AND THE HORN OF AFRICA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Kisra</defName>
@@ -137,7 +137,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ===================================================== AFRIQUE AUSTRALE -->
+	<!-- ====================================================== SOUTHERN AFRICA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TingYaMabele</defName>
@@ -154,7 +154,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================================ INDE -->
+	<!-- =============================================================== INDIA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_JowarBhakri</defName>
@@ -216,7 +216,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================== CORÉE -->
+	<!-- ============================================================== KOREA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SusuBap</defName>
@@ -247,7 +247,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================ AMÉRIQUE DU NORD -->
+	<!-- =================================================== NORTH AMERICA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SorghumGrainBowl</defName>

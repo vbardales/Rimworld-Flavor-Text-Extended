@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  France — grands classiques, deuxième série : farcis, gratins, œufs, tourtes.
+  France - great classics, second series: stuffed dishes, gratins, eggs, pies.
 -->
 <Defs>
 
-	<!-- ====================================================== VIANDES (suite) -->
+	<!-- =================================================== MEATS (continued) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ParmentierDeCanard</defName>
@@ -277,7 +277,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================= FARCIS -->
+	<!-- ====================================================== STUFFED DISHES -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TomatesFarcies</defName>
@@ -397,7 +397,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =============================================================== ŒUFS -->
+	<!-- =============================================================== EGGS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OeufsCocotte</defName>
@@ -442,7 +442,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =================================================== TOURTES ET TARTES -->
+	<!-- ====================================================== PIES AND TARTS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CroqueMadame</defName>

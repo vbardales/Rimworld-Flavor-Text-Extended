@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Les cinq accords manquants que le couverture.js corrigé a fait remonter, une fois
-  l'arbre pris en compte et le classement rebasculé sur « assise » :
+  The five missing pairings that the corrected couverture.js surfaced, once the
+  tree was taken into account and the ranking switched back to "assise" (foundation):
 
-      Rice + Wheat               149 plats parlent du moins installé des deux
+      Rice + Wheat               149 dishes speak for the less established of the two
       Meat_Cow + Meat_Poultry     83
       Butter + Rice               64
       Coconut × (Butter, Cheese, Fungus, Tomato, Meat_Cow, Drink)   52
       Citrus × (LeafyVeg, Coconut, Butter, Alcohol)                 51
 
-  Vérifiés un par un par requête directe avant d'écrire : riz+blé, bœuf+volaille et
-  beurre+riz sont réellement à zéro def.
+  Checked one by one with a direct query before writing: rice+wheat, beef+poultry and
+  butter+rice really are at zero defs.
 
-  Attention à ne PAS y ajouter Citrus + Olive : la paire est déjà couverte par le
-  crudo et par le tajine aux olives et citron confit. Elle n'a jamais figuré dans la
-  sortie de couverture.js — c'est une erreur de relecture, pas un manque.
+  Be careful NOT to add Citrus + Olive: the pair is already covered by the
+  crudo and by the tajine with olives and preserved lemon. It never appeared in the
+  couverture.js output - that was a proofreading mistake, not a gap.
 
-  Dédoublonnage, en suivant la règle habituelle — ce qui compte est le triplet
-  d'ingrédients, pas le nom :
-    riz aux vermicelles libanais = égyptien = şehriyeli pilav turc  → 1 def
-    arancini siciliens = supplì romains                            → 1 def
-    tarte au riz = rijstevlaai = Belgian rice tart                 → 1 def
+  Deduplication, following the usual rule - what counts is the ingredient triplet,
+  not the name:
+    Lebanese vermicelli rice = Egyptian = Turkish şehriyeli pilav  → 1 def
+    Sicilian arancini = Roman supplì                               → 1 def
+    rice tart = rijstevlaai = Belgian rice tart                    → 1 def
     ghee rice = neychoru = nei choru = ghee pulao                  → 1 def
 
-  Pas de séparation de FT_Coconut : les seuls ThingDefs de coco installés sont
-  VCE_RawCoconut, Romy_RawCoconuts, CK_Coconuts et Romy_CoconutSyrup. Aucun lait ni
-  crème de coco n'existe en tant que ThingDef, donc FT_CoconutMilk resterait vide et
-  ses plats seraient écartés au chargement.
+  No split of FT_Coconut: the only coconut ThingDefs installed are
+  VCE_RawCoconut, Romy_RawCoconuts, CK_Coconuts and Romy_CoconutSyrup. No coconut milk or
+  cream exists as a ThingDef, so FT_CoconutMilk would stay empty and
+  its dishes would be discarded at load.
 -->
 <Defs>
 
-	<!-- ===================================================== RIZ ET BLÉ (149) -->
+	<!-- ================================================= RICE AND WHEAT (149) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RizAuxVermicelles</defName>
@@ -47,10 +47,10 @@
 	</FlavorText.FlavorDef>
 
 	<!--
-		Les arancini existaient déjà dans le lot italien, en riz + fromage + œuf. Plutôt
-		que d'en écrire un second, on a corrigé l'original : la chapelure de blé est plus
-		définitoire que l'œuf dans un plat dont le nom vient de sa panure. L'accord
-		Riz + Blé y gagne, et le corpus perd un doublon au lieu d'en gagner un.
+		The arancini already existed in the Italian batch, as rice + cheese + egg. Rather
+		than write a second one, we fixed the original: wheat breadcrumbs are more
+		defining than egg in a dish whose name comes from its breading. The
+		Rice + Wheat pairing gains from it, and the corpus loses a duplicate instead of gaining one.
 	-->
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TourteAuRiz</defName>
@@ -109,7 +109,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================== BŒUF ET VOLAILLE (83) -->
+	<!-- ============================================== BEEF AND POULTRY (83) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BrochettesMixtes</defName>
@@ -197,7 +197,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================ BEURRE ET RIZ (64) -->
+	<!-- ============================================== BUTTER AND RICE (64) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GheeRice</defName>
@@ -256,7 +256,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================================= COCO (52) -->
+	<!-- ====================================================== COCONUT (52) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TomKha</defName>
@@ -358,7 +358,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ====================================================== AGRUMES (51) -->
+	<!-- ======================================================= CITRUS (51) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladeAgrumesFenouil</defName>

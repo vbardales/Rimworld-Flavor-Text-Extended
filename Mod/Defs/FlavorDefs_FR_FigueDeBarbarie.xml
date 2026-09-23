@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Figue de Barbarie — catégorie FT_CactusFruit, orpheline.
-  Quinze plats, quinze combinaisons distinctes.
+  Prickly pear — FT_CactusFruit category, orphaned.
+  Fifteen dishes, fifteen distinct combinations.
 
-  Confiture, gelée, marmelade, ate, dulce, queso de tuna et pâte de fruit sont toutes
-  « fruit + sucre » : elles ne se distinguent que par le procédé, invisible au moteur.
-  On en garde une par tournure réellement différente et on ouvre le reste sur les
-  accords salés et lactés, que la catégorie permet et que rien ne couvrait.
+  Jam, jelly, marmalade, ate, dulce, queso de tuna and fruit paste are all
+  "fruit + sugar": they differ only by process, which is invisible to the engine.
+  We keep one per genuinely different twist and open up the rest on the
+  savoury and dairy pairings, which the category allows and nothing covered.
 -->
 <Defs>
 
-	<!-- ===================================================== CONFISERIES -->
+	<!-- =================================================== CONFECTIONERY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ConfitureFigueBarbarie</defName>
@@ -56,7 +56,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================== DESSERTS GLACÉS -->
+	<!-- ================================================== FROZEN DESSERTS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GranitaFichiIndia</defName>
@@ -100,7 +100,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ======================================================= PÂTISSERIE -->
+	<!-- ========================================================= PASTRIES -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TarteFigueBarbarie</defName>
@@ -146,7 +146,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================ BOISSON -->
+	<!-- ============================================================== DRINK -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Colonche</defName>
@@ -162,7 +162,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================= SALÉ -->
+	<!-- ========================================================== SAVOURY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SalsaDeTuna</defName>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  France — régions, deuxième série : Nord, Normandie, Bretagne, Loire, Berry,
+  France - regions, second series: North, Normandy, Brittany, Loire, Berry,
   Jura, Lorraine, Lyonnais.
 -->
 <Defs>
 
-	<!-- ====================================== NORD, PICARDIE, CHAMPAGNE -->
+	<!-- ======================================== NORTH, PICARDY, CHAMPAGNE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Potjevleesch</defName>
@@ -136,7 +136,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================================= NORMANDIE -->
+	<!-- ========================================================== NORMANDY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoleNormande</defName>
@@ -237,7 +237,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================================== BRETAGNE -->
+	<!-- ========================================================== BRITTANY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_HomardALArmoricaine</defName>
@@ -312,7 +312,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================= LOIRE ET BERRY -->
+	<!-- ================================================ LOIRE AND BERRY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SandreAuBeurreBlanc</defName>
@@ -386,7 +386,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =================================================== JURA ET LORRAINE -->
+	<!-- ================================================== JURA AND LORRAINE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PouletAuxMorilles</defName>

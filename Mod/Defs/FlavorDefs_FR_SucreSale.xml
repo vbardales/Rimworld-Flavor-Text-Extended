@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Sucré-salé : confits, chutneys, laquages, aigres-doux, mijotés aux fruits.
+  Sweet-savory: confits, chutneys, glazes, sweet-and-sour, fruit stews.
 
-  L'analyse de couverture désignait quatre paires absentes malgré des catégories
-  très servies de part et d'autre :
-    Onion + Sugar        134 defs chacun, zéro rencontre
+  The coverage analysis flagged four missing pairs despite heavily served
+  categories on both sides:
+    Onion + Sugar        134 defs each, zero overlap
     Sugar + Tomato       106
     Meat_Cow + Sugar      74
     Sugar + Vegetable     60
-  Tout le registre du sucre en salé — confire, laquer, aigre-doucir, mijoter aux
-  fruits secs — n'avait donc aucun nom, alors qu'il traverse la moitié des cuisines
-  du monde.
+  The whole register of sugar in savory cooking - confiting, glazing, sweet-and-souring,
+  stewing with dried fruit - therefore had no names, even though it runs through half
+  the world's cuisines.
 
-  Quelques defs servent en plus des catégories rares : l'orange, le potiron, la datte,
-  la prune et le coing (rattaché à FT_Apple par mots-clés).
+  A few defs also serve rare categories: orange, pumpkin, date,
+  plum and quince (attached to FT_Apple by keywords).
 -->
 <Defs>
 
-	<!-- ======================================================= OIGNON ET SUCRE -->
+	<!-- ======================================================= ONION AND SUGAR -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ConfitDOignons</defName>
@@ -76,7 +76,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ======================================================= TOMATE ET SUCRE -->
+	<!-- ====================================================== TOMATO AND SUGAR -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ConfitureTomatesVertes</defName>
@@ -135,7 +135,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================================= BŒUF ET SUCRE -->
+	<!-- ======================================================== BEEF AND SUGAR -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoeufTeriyaki</defName>
@@ -210,7 +210,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ====================================================== LÉGUMES ET SUCRE -->
+	<!-- ================================================== VEGETABLES AND SUGAR -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CarottesVichy</defName>
@@ -315,7 +315,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =============================================== LAQUAGES ET AIGRES-DOUX -->
+	<!-- ============================================= GLAZES AND SWEET-AND-SOUR -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorcAigreDoux</defName>
@@ -333,10 +333,10 @@
 	</FlavorText.FlavorDef>
 
 	<!--
-		FT_Vegetable est le fourre-tout parent : il attrape les légumes qui n'ont
-		aucune catégorie propre, y compris ceux des mods. Les sept plats légume-sucre
-		ci-dessus passent tous par des catégories filles, si bien que la paire
-		générique Sugar + Vegetable restait vide. Ce plat la couvre.
+		FT_Vegetable is the catch-all parent: it catches vegetables that have
+		no category of their own, including those from mods. The seven vegetable-sugar dishes
+		above all go through child categories, so the generic
+		Sugar + Vegetable pair stayed empty. This dish covers it.
 	-->
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AchardsDeLegumes</defName>
@@ -397,7 +397,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================= MIJOTÉS VIANDE ET FRUITS -->
+	<!-- ================================================= MEAT AND FRUIT STEWS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TajineTfaya</defName>

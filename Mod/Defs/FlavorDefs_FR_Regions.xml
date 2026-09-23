@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Cuisine régionale française — nouveaux plats ajoutés à Flavor Text.
+  Regional French cuisine - new dishes added to Flavor Text.
 
-  Ces defs héritent de FlavorDef_Base, défini par le mod de hekmo : notre mod se charge
-  après le sien, l'héritage se résout globalement.
+  These defs inherit from FlavorDef_Base, defined by hekmo's mod: our mod loads
+  after theirs, so inheritance resolves globally.
 
-  Trois règles de conception :
+  Three design rules:
 
-  1. Un plat ne se déclenche que si TOUS ses ingrédients sont présents dans le repas. Un
-     plat dont un ingrédient n'existe pas dans la partie ne se déclenche simplement jamais —
-     le définir ne coûte donc rien. On vise large.
-  2. Plus une def est spécifique, plus elle l'emporte sur les noms génériques. Un plat
-     régional à trois ingrédients précis gagne presque toujours : c'est voulu.
-  3. Les labels suivent la convention d'inflexion française (voir Patches/Inflections_FR.xml).
-     La plupart des plats régionaux portent un nom fixe, sans substitution : c'est le cas
-     le plus simple et le plus sûr.
+  1. A dish only triggers if ALL its ingredients are present in the meal. A
+     dish with an ingredient that does not exist in the game simply never triggers -
+     so defining it costs nothing. We aim wide.
+  2. The more specific a def is, the more it wins over generic names. A regional
+     dish with three precise ingredients almost always wins: this is intended.
+  3. Labels follow the French inflection convention (see Patches/Inflections_FR.xml).
+     Most regional dishes have a fixed name, with no substitution: this is the
+     simplest and safest case.
 -->
 <Defs>
 
@@ -92,7 +92,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =========================================================== BOURGOGNE -->
+	<!-- ============================================================ BURGUNDY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoeufBourguignon</defName>
@@ -137,7 +137,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ====================================================== SAVOIE, AUVERGNE -->
+	<!-- ======================================================= SAVOY, AUVERGNE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Tartiflette</defName>
@@ -268,7 +268,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================ BRETAGNE -->
+	<!-- ============================================================ BRITTANY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GaletteDeSarrasin</defName>
@@ -329,7 +329,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================================== SUD-OUEST -->
+	<!-- ========================================================= SOUTH-WEST -->
 
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
@@ -375,7 +375,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =================================================== GRANDS CLASSIQUES -->
+	<!-- ====================================================== GREAT CLASSICS -->
 
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">

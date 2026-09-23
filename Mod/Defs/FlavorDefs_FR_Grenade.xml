@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Grenade — catégorie FT_Pomegranate, orpheline.
-  Vingt-cinq plats, vingt-cinq combinaisons distinctes.
+  Pomegranate — FT_Pomegranate category, orphaned.
+  Twenty-five dishes, twenty-five distinct combinations.
 
-  La grenade est le fruit acide de l'axe Levant-Anatolie-Iran-Caucase : sa mélasse y
-  tient le rôle que le citron tient ailleurs. D'où une majorité de plats salés.
+  The pomegranate is the sour fruit of the Levant-Anatolia-Iran-Caucasus axis: its molasses
+  plays there the role that lemon plays elsewhere. Hence a majority of savoury dishes.
 
-  « Muhammara » n'est pas repris : Flavor Text le possède déjà.
-  « Nar ekşisi » et « dibs rumman » sont la même mélasse en turc et en arabe — une
-  seule def ; le narsharab azéri, épicé, en garde une à part.
+  "Muhammara" is not included: Flavor Text already has it.
+  "Nar ekşisi" and "dibs rumman" are the same molasses in Turkish and Arabic — a
+  single def; the spiced Azeri narsharab keeps a separate one.
 -->
 <Defs>
 
@@ -70,7 +70,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =========================================== CAUCASE ET MÉLASSES -->
+	<!-- ========================================= CAUCASUS AND MOLASSES -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MelasseDeGrenade</defName>
@@ -143,7 +143,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================ LEVANT ET ANATOLIE -->
+	<!-- =========================================== LEVANT AND ANATOLIA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FattoushGrenade</defName>
@@ -260,7 +260,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================== INDE, ANARDANA -->
+	<!-- ================================================= INDIA, ANARDANA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AnardanaChutney</defName>
@@ -305,7 +305,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================= POISSON ET DESSERTS -->
+	<!-- =============================================== FISH AND DESSERTS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaumonGlaceGrenade</defName>

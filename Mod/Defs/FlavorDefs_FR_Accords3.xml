@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Chocolate + Meat_Pig et Coffee + RedBean.
+  Chocolate + Meat_Pig and Coffee + RedBean.
 
-  J'avais cité ces deux paires comme exemples d'accords que la cuisine réelle ne
-  fait pas. C'était vrai pour l'une et faux pour l'autre.
+  An earlier coverage note cited these two pairs as examples of pairings that real
+  cooking does not make. That held for one and not for the other.
 
-  Le mole au porc est parfaitement canonique : puerco en mole, mole negro con cerdo,
-  costillas en mole sont des plats du répertoire mexicain, pas des inventions de
-  fusion. J'avais jugé sur le couple d'ingrédients sans regarder la cuisine — la
-  faute que je passe mon temps à corriger ailleurs.
+  Pork mole is perfectly canonical: puerco en mole, mole negro con cerdo,
+  costillas en mole are dishes of the Mexican repertoire, not fusion
+  inventions. The earlier note judged the ingredient pair without looking at the
+  cuisine.
 
-  Réserve reprise de la remarque qui l'accompagnait : tous les moles ne contiennent
-  pas de chocolat. Ceux écrits ici en portent réellement — le poblano et le negro
-  en ont, le verde n'en a pas et n'apparaît donc pas.
+  Caveat from the same note: not all moles contain
+  chocolate. The ones written here really do carry it - the poblano and the negro
+  have it, the verde does not and therefore does not appear.
 
-  Coffee + RedBean, en revanche, reste marginal : c'est de la pâtisserie asiatique
-  contemporaine, pas une tradition ancienne, et l'accord canonique de l'azuki est
-  le matcha, pas le café. D'où quatre plats seulement, sur les branches qui tiennent
-  vraiment — la boulangerie fourrée à l'anko, la gelée, la glace.
+  Coffee + RedBean, on the other hand, remains marginal: it is contemporary
+  Asian pastry, not an old tradition, and the canonical pairing for azuki is
+  matcha, not coffee. Hence only four dishes, on the branches that really hold
+  up - the anko-filled bakery item, the jelly, the ice cream.
 
-  Le mole poblano existant est en dinde (Chili + Chocolate + Meat_Poultry) et
-  l'iguana en mole en Meat_Iguana : les versions au porc sont des triplets distincts.
-  Le dorayaki existant est en Wheat + RedBean + Egg, celui au café en diffère.
+  The existing mole poblano is made with turkey (Chili + Chocolate + Meat_Poultry) and
+  the iguana in mole with Meat_Iguana: the pork versions are distinct triplets.
+  The existing dorayaki is Wheat + RedBean + Egg, the coffee one differs.
 -->
 <Defs>
 
-	<!-- ================================== CHOCOLAT ET PORC — les moles -->
+	<!-- ================================ CHOCOLATE AND PORK - the moles -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PuercoEnMole</defName>
@@ -114,7 +114,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================ CAFÉ ET AZUKI — branche restreinte -->
+	<!-- ============================== COFFEE AND AZUKI - restricted branch -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AnpanAuCafe</defName>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  La crème.
+  Cream.
 
-  FT_Cream apparaît dans 66 defs et rencontre déjà soixante catégories. L'analyse
-  par ARBRE — celle qui tient compte du fait qu'un emplacement déclarant FT_Fruit
-  accepte aussi FT_Pear, parce que le moteur descend récursivement dans les
-  catégories filles — montre que les manques réels sont ailleurs :
+  FT_Cream appears in 66 defs and already meets sixty categories. The TREE
+  analysis — the one that takes into account that a slot declaring FT_Fruit
+  also accepts FT_Pear, because the engine descends recursively into the
+  child categories — shows that the real gaps are elsewhere:
 
-      Rice        136 defs, jamais avec la crème
+      Rice        136 defs, never with cream
       Bean        128
       Tomato      112
       Chili        91
@@ -17,15 +17,15 @@
       Meat_Mutton  29
       Eggplant     23   Lentil 19   Cucumber 18   Squash 18   Artichoke 16
 
-  Les dix-huit plats ci-dessous couvrent treize de ces catégories.
+  The eighteen dishes below cover thirteen of these categories.
 
-  Convention d'écriture des descriptions : on privilégie {N_adj} (« de X », avec
-  élision) et {N_plur} (« à la X ») à l'intérieur d'un groupe nominal dont le nom
-  de tête est écrit en dur. Cela évite tout accord en genre sur un mot inconnu.
+  Description writing convention: prefer {N_adj} ("of X", with
+  elision) and {N_plur} ("in the X style") inside a noun phrase whose head noun
+  is hard-coded. This avoids any gender agreement on an unknown word.
 -->
 <Defs>
 
-	<!-- ============================================================== RIZ -->
+	<!-- ============================================================= RICE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RizAuLait</defName>
@@ -69,7 +69,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =========================================================== TOMATE -->
+	<!-- =========================================================== TOMATO -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_VelouteDeTomate</defName>
@@ -113,7 +113,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =========================================================== PIMENT -->
+	<!-- ============================================================ CHILI -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RajasConCrema</defName>
@@ -143,7 +143,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================= MAÏS -->
+	<!-- ============================================================= CORN -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChowderDeMais</defName>
@@ -159,7 +159,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================================= HARICOTS -->
+	<!-- ============================================================ BEANS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_HaricotsVertsCreme</defName>
@@ -189,7 +189,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =============================================== LÉGUMES ET AUTRES -->
+	<!-- ============================================= VEGETABLES AND OTHERS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_KormaDAgneau</defName>

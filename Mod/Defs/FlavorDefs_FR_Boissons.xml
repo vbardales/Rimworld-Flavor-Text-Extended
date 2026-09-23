@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  La famille FT_Drink : Bean + Drink, Butter + Drink, Coconut + Drink (55 chacune).
+  The FT_Drink family: Bean + Drink, Butter + Drink, Coconut + Drink (55 each).
 
-  Trois points de structure vérifiés dans l'arbre avant d'écrire, dont deux qui ont
-  changé la liste des plats :
+  Three structural points checked in the tree before writing, two of which
+  changed the list of dishes:
 
-  — FT_Coffee n'est PAS sous FT_Bean : hekmo l'a rangé sous FT_SugarFromPlants. Le
-    grain de café ne peut donc pas être confondu avec un haricot, et il n'y avait
-    rien à séparer.
+  - FT_Coffee is NOT under FT_Bean: hekmo filed it under FT_SugarFromPlants. The
+    coffee bean therefore cannot be mistaken for a bean, and there was
+    nothing to separate.
 
-  — FT_RedBean n'est pas sous FT_Bean non plus, il est lui aussi sous
-    FT_SugarFromPlants — l'anko est traité comme une pâte sucrée. Aucune boisson
-    azuki ne servirait donc la paire Bean + Drink. Restent le soja (FT_Soybean),
-    le pois chiche (FT_Chickpea) et le haricot générique.
+  - FT_RedBean is not under FT_Bean either, it too sits under
+    FT_SugarFromPlants - anko is treated as a sweet paste. No azuki drink
+    would therefore serve the Bean + Drink pair. What remains is soy (FT_Soybean),
+    chickpea (FT_Chickpea) and the generic bean.
 
-  — FT_Tea est sous FT_LeafyVeg, pas sous FT_Drink. Un thé au beurre écrit en
-    Butter + Tea ne fermerait pas Butter + Drink : il faut un emplacement FT_Drink
-    explicite. Ce qui tombe juste, le po cha étant de l'eau autant que du thé.
+  - FT_Tea is under FT_LeafyVeg, not under FT_Drink. A butter tea written as
+    Butter + Tea would not close Butter + Drink: an explicit FT_Drink slot is
+    needed. Which fits well, po cha being as much water as tea.
 
-  FT_Alcohol, lui, est bien une fille de FT_Drink : les grogs comptent pour la paire.
+  FT_Alcohol, on the other hand, is indeed a child of FT_Drink: grogs count for the pair.
 
-  Sur la coco, la contrainte tient : rien ici ne suppose un objet lait ou crème.
-  L'eau et la chair d'une noix fraîche suffisent, et le sirop de coco est déjà
-  reconnu par FT_Coconut comme par FT_Sugar.
+  On coconut, the constraint holds: nothing here assumes a milk or cream object.
+  The water and flesh of a fresh nut are enough, and coconut syrup is already
+  recognized by FT_Coconut as well as by FT_Sugar.
 -->
 <Defs>
 
-	<!-- ==================================== LÉGUMINEUSES ET BOISSONS (55) -->
+	<!-- ========================================== LEGUMES AND DRINKS (55) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Doujiang</defName>
@@ -84,7 +84,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ======================================== BEURRE ET BOISSONS (55) -->
+	<!-- ========================================= BUTTER AND DRINKS (55) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PoCha</defName>
@@ -142,7 +142,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================== COCO ET BOISSONS (55) -->
+	<!-- ======================================== COCONUT AND DRINKS (55) -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_EauDeCoco</defName>

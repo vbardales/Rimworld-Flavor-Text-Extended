@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Cuisine italienne. Flavor Text ne couvrait que carbonara, polenta et tiramisu.
+  Italian cuisine. Flavor Text covered only carbonara, polenta and tiramisu.
 
-  Les noms restent en italien : c'est ainsi qu'on les dit en français, et traduire
-  « cacio e pepe » par « fromage et poivre » serait une trahison plus qu'une traduction.
+  Names stay in Italian: that is how they are said in practice, and translating
+  "cacio e pepe" as "cheese and pepper" would be more a betrayal than a translation.
 -->
 <Defs>
 

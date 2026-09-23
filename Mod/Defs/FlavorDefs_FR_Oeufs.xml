@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  L'œuf mollet.
+  The "mollet" egg (medium-boiled egg).
 
-  Le français distingue trois cuissons en coquille, séparées par le seul temps de
-  cuisson : à la coque (3 min, blanc à peine pris, jaune liquide), mollet (6 min,
-  blanc ferme, jaune coulant, œuf écalé), dur (9 min, tout est pris).
+  French distinguishes three in-shell cookings, separated only by cooking time:
+  "a la coque" (3 min, white barely set, liquid yolk), "mollet" (6 min, firm
+  white, runny yolk, peeled egg), hard (9 min, everything set).
 
-  Flavor Text a Soft-Boiled et Hard-Boiled, mais rien entre les deux. Le mollet
-  n'est pas un intermédiaire flou : c'est une préparation à part entière, la seule
-  qui s'écale et se serve dans une assiette plutôt que dans un coquetier — sur une
-  salade, dans un bouillon, en meurette.
+  Flavor Text has Soft-Boiled and Hard-Boiled, but nothing in between. The mollet
+  is not a fuzzy middle ground: it is a preparation in its own right, the only
+  one that is peeled and served on a plate rather than in an egg cup - on a
+  salad, in a broth, in a red wine sauce (en meurette).
 
-  Il partage sa signature (FT_Egg seul) avec les deux autres, ce qui est sans
-  conséquence : le moteur tire au sort parmi les defs qui correspondent, pondéré
-  par leur spécificité. Trois defs pour un même œuf produisent de la variété,
-  pas un conflit.
+  It shares its signature (FT_Egg alone) with the other two, which is
+  harmless: the engine draws at random among the matching defs, weighted
+  by their specificity. Three defs for the same egg produce variety,
+  not a conflict.
 -->
 <Defs>
 

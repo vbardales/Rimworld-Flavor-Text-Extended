@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Sous-catégories de FT_Meat_Herp.
+  Subcategories of FT_Meat_Herp.
 
-  Flavor Text range tortue, iguane, alligator, varan, ouaouaron et crapaud colosse
-  dans une seule catégorie. Impossible dans ces conditions d'écrire une soupe de
-  tortue qui se déclenche sur la tortue : elle sortirait aussi bien sur l'iguane.
+  Flavor Text lumps tortoise, iguana, alligator, monitor lizard, bullfrog and giant toad
+  into a single category. Under those conditions it is impossible to write a turtle
+  soup that triggers on the tortoise: it would just as well come out for the iguana.
 
-  On scinde donc en cinq branches, sur le modèle reptiles / amphibiens :
-    FT_Meat_Turtle    tortue, tortue de mer
-    FT_Meat_Alligator alligator, et par mots-clés crocodile et caïman
-    FT_Meat_Iguana    iguane
-    FT_Meat_Lizard    varan et lézards
-    FT_Meat_Frog      ouaouaron et grenouilles (amphibien, pas reptile)
+  So we split it into five branches, following a reptiles / amphibians model:
+    FT_Meat_Turtle    tortoise, sea turtle
+    FT_Meat_Alligator alligator, and by keywords crocodile and caiman
+    FT_Meat_Iguana    iguana
+    FT_Meat_Lizard    monitor lizard and lizards
+    FT_Meat_Frog      bullfrog and frogs (amphibian, not reptile)
 
-  Le crapaud colosse reste volontairement dans FT_Meat_Herp seul : il ne matchera
-  que les plats génériques, jamais une recette nommée. Celui du jeu est une créature
-  d'Odyssey, pas le Rhinella marina toxique — mais rien n'oblige à en faire un civet.
+  The giant toad deliberately stays alone in FT_Meat_Herp: it will only match
+  generic dishes, never a named recipe. The in-game one is an Odyssey creature,
+  not the toxic Rhinella marina - but nothing requires making a stew out of it.
 
-  Les formes grammaticales sont héritées de FT_MeatRaw : « viande de tortue », etc.
+  Grammatical forms are inherited from FT_MeatRaw: "turtle meat", etc.
 
-  QUATRE des six viandes citées par nom viennent d'Odyssey et portent donc un MayRequire :
-  alligator, varan, ouaouaron et tortue de mer. Seules la tortue et l'iguane sont dans Core.
-  Sans la garde, une partie sans Odyssey échoue à résoudre la référence au chargement.
+  FOUR of the six meats cited by name come from Odyssey and therefore carry a MayRequire:
+  alligator, monitor lizard, bullfrog and sea turtle. Only the tortoise and the iguana are in Core.
+  Without the guard, a game without Odyssey fails to resolve the reference on load.
 
-  Les catégories, elles, restent déclarées quelle que soit la liste de mods : leurs mots-clés
-  rattachent encore un crocodile ou un gecko venu d'un autre mod, ce qu'une garde posée sur la
-  def entière ferait perdre.
+  The categories themselves stay declared whatever the mod list: their keywords still
+  attach a crocodile or a gecko coming from another mod, which a guard placed on the
+  whole def would lose.
 
-  Flavor Text garde ces trois mêmes viandes avec MayRequire="RimWorld.Odyssey", à qui il manque
-  le préfixe de l'éditeur. Un packageId mal tapé est muet hors de l'éditeur Unity de Ludeon :
-  chez lui ces lignes tombent même quand Odyssey est là. Ne pas s'en servir de modèle.
+  Flavor Text keeps these same three meats with MayRequire="RimWorld.Odyssey", which lacks
+  the publisher prefix. A mistyped packageId is silent outside Ludeon's Unity editor:
+  on their side those lines drop out even when Odyssey is present. Do not use it as a model.
 -->
 <Defs>
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Portugal, pays germaniques, Scandinavie, îles Britanniques.
+  Portugal, Germanic countries, Scandinavia, British Isles.
 
-  Sélection guidée par les combinaisons d'ingrédients : on privilégie les plats qui
-  ouvrent un triplet qu'aucune def existante ne couvre.
+  Selection driven by ingredient combinations: we favour dishes that
+  open a triplet that no existing def covers.
 -->
 <Defs>
 
@@ -137,7 +137,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================ ALLEMAGNE ET AUTRICHE -->
+	<!-- ============================================== GERMANY AND AUSTRIA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Sauerbraten</defName>
@@ -328,7 +328,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ======================================================= SCANDINAVIE -->
+	<!-- ======================================================= SCANDINAVIA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Kottbullar</defName>
@@ -472,7 +472,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================== ÎLES BRITANNIQUES -->
+	<!-- ====================================================== BRITISH ISLES -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SteakAndAlePie</defName>

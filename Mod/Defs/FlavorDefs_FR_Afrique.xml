@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Afrique de l'Ouest, Corne de l'Afrique, et Louisiane créole — que Flavor Text
-  ne couvrait que par gumbo et jambalaya.
+  West Africa, the Horn of Africa, and Creole Louisiana - which Flavor Text
+  covered only through gumbo and jambalaya.
 -->
 <Defs>
 
@@ -49,8 +49,8 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RizJollof</defName>
-		<!-- Flavor Text a déjà « Jollof rice », qu'on traduit par « riz jollof ». Le nôtre
-		     exige un ingrédient de plus : on le distingue par son nom. -->
+		<!-- Flavor Text already has "Jollof rice", which gets translated as "riz jollof". Ours
+		     requires one more ingredient: we tell it apart by its name. -->
 		<label>jollof rice with peppers</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>

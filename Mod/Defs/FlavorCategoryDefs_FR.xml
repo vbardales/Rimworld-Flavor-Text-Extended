@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Catégories d'ingrédients absentes de Flavor Text mais indispensables à la cuisine française.
+  Ingredient categories missing from Flavor Text but essential to French cooking.
 
-  La catégorisation compare le defName ET le label de chaque ThingDef aux mots-clés. Le
-  defName reste anglais quelle que soit la langue, le label est traduit : on donne donc
-  les mots-clés dans les deux langues.
+  Categorization compares each ThingDef's defName AND label against the keywords. The
+  defName stays in English whatever the language, while the label is translated: so the
+  keywords are given in both languages.
 
-  Les formes grammaticales (singularCollective, inflectionsOverride) sont héritées du
-  parent — rien à redéfinir ici.
+  Grammatical forms (singularCollective, inflectionsOverride) are inherited from the
+  parent - nothing to redefine here.
 -->
 <Defs>
 

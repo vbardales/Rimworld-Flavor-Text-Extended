@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Châtaigne d'eau — catégorie FT_WaterChestnut, dernière orpheline végétale.
-  Dix-neuf plats, dix-neuf combinaisons distinctes.
+  Water chestnut - category FT_WaterChestnut, the last plant orphan.
+  Nineteen dishes, nineteen distinct combinations.
 
-  Sa raison d'être en cuisine est une texture, pas un goût : elle reste croquante à
-  la cuisson, ce qui explique qu'on la hache dans les farces plutôt qu'on ne la serve
-  seule. D'où le poids des raviolis, boulettes et rouleaux dans cette liste.
+  Its reason for being in cooking is a texture, not a taste: it stays crunchy when
+  cooked, which explains why it is chopped into stuffings rather than served
+  alone. Hence the weight of dumplings, meatballs and rolls in this list.
 
-  Trois de ces plats servent aussi FT_Lotus et FT_Lettuce, qui n'avaient qu'une def.
+  Three of these dishes also serve FT_Lotus and FT_Lettuce, which had only one def.
 
-  Fusions : les rouleaux de printemps et le lumpiang Shanghai sont le même rouleau
-  frit ; le siu mai est le ravioli porc ET crevette, donc distinct des deux autres.
+  Merges: spring rolls and lumpiang Shanghai are the same fried
+  roll; the siu mai is the pork AND shrimp dumpling, hence distinct from the other two.
 -->
 <Defs>
 
-	<!-- =========================================== FARCES ET BOUCHÉES VAPEUR -->
+	<!-- ======================================== STUFFINGS AND STEAMED BITES -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorcVapeurChataigneDEau</defName>
@@ -87,7 +87,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =============================================== SAUTÉS ET PLATS DE WOK -->
+	<!-- ============================================ STIR-FRIES AND WOK DISHES -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MooGooGaiPan</defName>
@@ -187,7 +187,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =============================================== APÉRITIF OCCIDENTAL -->
+	<!-- ================================================ WESTERN APPETIZERS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BaconChataigneDEau</defName>
@@ -234,7 +234,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ====================================================== SUCRÉ ET SOUPES -->
+	<!-- ===================================================== SWEETS AND SOUPS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MaTaiGo</defName>

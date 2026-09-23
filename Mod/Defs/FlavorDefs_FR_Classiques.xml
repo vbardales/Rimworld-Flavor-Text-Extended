@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  France — grands classiques, première série : viandes, abats, volailles.
+  France - great classics, first series: meats, offal, poultry.
 
-  Chaque plat reçoit une combinaison d'ingrédients distincte quand la recette réelle le
-  permet. Quand deux plats partagent la même combinaison, ils se partagent le tirage,
-  ce qui fait de la variété plutôt qu'un conflit.
+  Each dish gets a distinct ingredient combination when the real recipe
+  allows it. When two dishes share the same combination, they share the draw,
+  which makes for variety rather than a conflict.
 -->
 <Defs>
 
-	<!-- ============================================================== BŒUF -->
+	<!-- ============================================================== BEEF -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SteakAuPoivre</defName>
@@ -97,7 +97,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================== ABATS -->
+	<!-- ============================================================== OFFAL -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_LangueSaucePiquante</defName>
@@ -212,7 +212,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =============================================================== PORC -->
+	<!-- =============================================================== PORK -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AndouilletteFrites</defName>
@@ -273,7 +273,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================ VOLAILLE -->
+	<!-- ============================================================= POULTRY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PouletRoti</defName>
@@ -402,7 +402,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================= AGNEAU -->
+	<!-- =============================================================== LAMB -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_NavarinDAgneau</defName>
@@ -447,7 +447,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =============================================================== GIBIER -->
+	<!-- ================================================================= GAME -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CivetDeLapin</defName>

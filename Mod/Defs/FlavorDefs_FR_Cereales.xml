@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Céréales peu servies : amarante (2 defs), orge (2), quinoa (2), millet (3).
+  Under-served cereals: amaranth (2 defs), barley (2), quinoa (2), millet (3).
 
-  Aucune nouvelle catégorie n'est créée ici, et c'est délibéré. Le moteur écarte
-  toute def dont un emplacement n'a aucun ThingDef (FlavorText.cs : la sélection
-  ne retient que les defs dont Ingredients.All(slot => slot.AllowedThingDefs.Any())).
-  Or les seuls ThingDefs d'amarante existants sont VV_AmaranthGrain et GAB_RawAmaranth,
-  tous deux du grain : une catégorie FT_AmaranthGreens resterait vide et tous les
-  plats de feuilles d'amarante seraient inertes. Les préparations de feuilles passent
-  donc par FT_LeafyVeg, ce qui est de toute façon juste en cuisine — le chaulai saag
-  se fait aussi bien aux épinards.
+  No new category is created here, and that is deliberate. The engine discards
+  any def with a slot that has no ThingDef (FlavorText.cs: the selection
+  only keeps defs for which Ingredients.All(slot => slot.AllowedThingDefs.Any())).
+  Now the only existing amaranth ThingDefs are VV_AmaranthGrain and GAB_RawAmaranth,
+  both grain: an FT_AmaranthGreens category would stay empty and all the
+  amaranth-leaf dishes would be inert. Leaf preparations therefore go
+  through FT_LeafyVeg, which is right in cooking anyway - chaulai saag
+  is just as well made with spinach.
 
-  Le millet n'est pas non plus subdivisé : bajra, ragi, foxtail et proso donnent les
-  mêmes trois familles de préparations (galette, bouillie, couscous). Séparer
-  fragmenterait la catégorie sans produire un seul plat de plus.
+  Millet is not subdivided either: bajra, ragi, foxtail and proso give the
+  same three families of preparations (flatbread, porridge, couscous). Splitting
+  would fragment the category without producing a single extra dish.
 -->
 <Defs>
 
-	<!-- ======================================================== AMARANTE -->
+	<!-- ======================================================= AMARANTH -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorridgeDAmarante</defName>
@@ -105,7 +105,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================ ORGE -->
+	<!-- ========================================================== BARLEY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OrzottoChampignons</defName>

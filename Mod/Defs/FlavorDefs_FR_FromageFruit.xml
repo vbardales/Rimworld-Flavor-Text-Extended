@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Fromage et fruit, fromage et légume — hors gratin.
+  Cheese and fruit, cheese and vegetable — gratins excluded.
 
-  L'analyse de couverture désignait ces deux paires comme les plus rentables du mod :
-  Cheese a 65 defs, Fruit et Vegetable une soixantaine chacun, et ils ne se
-  rencontraient dans AUCUNE. Tout le registre des salades, plateaux, farcis et
-  tartines européens n'avait donc aucun nom.
+  The coverage analysis singled out these two pairs as the most profitable in the mod:
+  Cheese has 65 defs, Fruit and Vegetable about sixty each, and they never
+  met in ANY def. The whole register of salads, platters, stuffed dishes and
+  European open sandwiches therefore had no name.
 
-  Note sur les six accords canoniques : poire-roquefort et poire-gorgonzola sont le
-  même couple d'ingrédients. On les sépare par leur support — salade aux noix pour
-  l'un, pizza pour l'autre.
+  Note on the six canonical pairings: pear-roquefort and pear-gorgonzola are the
+  same pair of ingredients. We separate them by their base — walnut salad for
+  one, pizza for the other.
 
-  Le coing est rattaché à FT_Apple par mots-clés (voir Patches/Keywords_FR.xml).
+  Quince is attached to FT_Apple by keywords (see Patches/Keywords_Ingredients.xml).
 -->
 <Defs>
 
-	<!-- ==================================================== FROMAGE ET FRUIT -->
+	<!-- ==================================================== CHEESE AND FRUIT -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladePoireRoquefortNoix</defName>
@@ -163,7 +163,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================== FROMAGE ET LÉGUME -->
+	<!-- =============================================== CHEESE AND VEGETABLE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BetteravesAuChevre</defName>

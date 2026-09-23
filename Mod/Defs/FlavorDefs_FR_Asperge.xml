@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Asperge — catégorie FT_Asparagus, orpheline elle aussi.
-  Dix-sept plats, dix-sept combinaisons distinctes.
+  Asparagus - category FT_Asparagus, an orphan as well.
+  Seventeen dishes, seventeen distinct combinations.
 
-  Note : « asperges sauce hollandaise » et « Spargel mit Sauce Hollandaise » sont le même
-  plat sous deux langues, donc le même triplet. On garde le premier et on prend à la place
-  le classique allemand des asperges blanches aux pommes de terre nouvelles.
+  Note: "asperges sauce hollandaise" and "Spargel mit Sauce Hollandaise" are the same
+  dish in two languages, hence the same triplet. We keep the first and take instead
+  the German classic of white asparagus with new potatoes.
 -->
 <Defs>
 
-	<!-- ============================================= FRANCE ET PAYS-BAS -->
+	<!-- ===================================== FRANCE AND THE NETHERLANDS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AspergesHollandaise</defName>
@@ -124,7 +124,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================= ITALIE -->
+	<!-- ============================================================== ITALY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AsparagiAllaMilanese</defName>
@@ -196,7 +196,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================ ALLEMAGNE ET ESPAGNE -->
+	<!-- =============================================== GERMANY AND SPAIN -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SpargelMitKartoffeln</defName>
@@ -226,7 +226,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================== JAPON -->
+	<!-- ============================================================== JAPAN -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AsparagusTempura</defName>

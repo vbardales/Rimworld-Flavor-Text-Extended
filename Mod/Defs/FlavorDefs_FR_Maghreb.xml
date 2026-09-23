@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Cuisine marocaine et maghrébine. Flavor Text ne connaissait que « couscous ».
+  Moroccan and Maghrebi cuisine. Flavor Text knew only "couscous".
 -->
 <Defs>
 
@@ -232,8 +232,8 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- Mêmes ingrédients que le kouign-amann : les deux se partageront le tirage,
-	     ce qui fait de la variété plutôt qu'un conflit. -->
+	<!-- Same ingredients as the kouign-amann: the two will share the draw,
+	     which makes for variety rather than a conflict. -->
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Msemen</defName>
 		<label>msemen</label>

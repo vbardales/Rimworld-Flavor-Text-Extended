@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Chou de Bruxelles — catégorie FT_BrusselsSprout, orpheline.
-  Quatorze plats, quatorze combinaisons distinctes.
+  Brussels sprout - category FT_BrusselsSprout, an orphan.
+  Fourteen dishes, fourteen distinct combinations.
 
-  « Choux de Bruxelles aux lardons », « Rosenkohl mit Speck » et « Spruitjes met spek »
-  sont le même plat en trois langues : un seul triplet, donc une seule def.
+  "Choux de Bruxelles aux lardons", "Rosenkohl mit Speck" and "Spruitjes met spek"
+  are the same dish in three languages: a single triplet, hence a single def.
 
-  « Maple-bacon » ouvre au passage FT_SugarFromPlants, jusqu'ici jamais citée par
-  aucune def — l'agave du jeu de base y tombe aussi.
+  "Maple-bacon" incidentally opens up FT_SugarFromPlants, never cited so far by
+  any def - the base game's agave falls into it too.
 -->
 <Defs>
 
@@ -97,7 +97,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ====================================================== AMÉRIQUE DU NORD -->
+	<!-- ========================================================= NORTH AMERICA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesCesar</defName>
@@ -186,7 +186,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================================ ASIE -->
+	<!-- ================================================================ ASIA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesMiso</defName>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Figue — catégorie FT_Fig, orpheline.
-  Vingt-trois plats, vingt-trois combinaisons distinctes.
+  Fig — FT_Fig category, orphaned.
+  Twenty-three dishes, twenty-three distinct combinations.
 
-  La plus riche des orphelines : la figue tient le sucré et le salé avec la même
-  aisance, et s'accorde avec les fromages, les charcuteries, les gibiers et les vins.
+  The richest of the orphans: the fig handles sweet and savoury with the same
+  ease, and pairs with cheeses, cured meats, game and wines.
 
-  « Pain de figues » et « pan de higo » sont le même bloc de figues sèches pilées aux
-  amandes, en deux langues : un seul triplet.
+  "Fig loaf" and "pan de higo" are the same block of dried figs pounded with
+  almonds, in two languages: a single triplet.
 
-  « Fig Newtons » n'est pas repris : Flavor Text possède déjà une def générique
-  « {0_adj} Newtons » qui produira « biscuits fourrés aux figues » toute seule.
+  "Fig Newtons" is not included: Flavor Text already has a generic def
+  "{0_adj} Newtons" that will produce "fig-filled biscuits" on its own.
 -->
 <Defs>
 
-	<!-- ==================================================== SUCRÉ, CLASSIQUES -->
+	<!-- ====================================================== SWEET, CLASSICS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TarteAuxFigues</defName>
@@ -105,7 +105,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =================================================== TURQUIE ET INDE -->
+	<!-- ================================================== TURKEY AND INDIA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_IncirTatlisi</defName>
@@ -164,7 +164,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================ CRÈMES ET GLACES -->
+	<!-- ============================================ CREAMS AND ICE CREAM -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CheesecakeAuxFigues</defName>
@@ -195,7 +195,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================= PAINS ET SALÉ ITALIEN -->
+	<!-- ============================================ BREADS AND ITALIAN SAVOURY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FocacciaAuxFigues</defName>
@@ -241,7 +241,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ==================================================== FIGUE ET FROMAGE -->
+	<!-- ====================================================== FIG AND CHEESE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladeFiguesChevre</defName>
@@ -272,7 +272,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ======================================================= FIGUE ET VIANDE -->
+	<!-- ========================================================== FIG AND MEAT -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FoieGrasAuxFigues</defName>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Préparations crues, œufs fécondés, viande difforme et boissons manufacturées.
+  Raw preparations, fertilized eggs, twisted meat and manufactured drinks.
 
-  Deux des catégories proposées ne peuvent PAS recevoir de plats, et le code décompilé
-  le confirme :
-    - FT_Vegetarian est un filtre de RÉGIME. Le moteur calcule allowedDiets à partir
-      des ingrédients d'une def (ligne 4525) ; la mettre en slot serait une erreur.
-    - FT_FoodRaw n'apparaît nulle part dans le code : pur parent taxonomique.
-  Leurs plats sont donc routés vers les vraies catégories d'ingrédients.
+  Two of the proposed categories can NOT receive dishes, and the decompiled code
+  confirms it:
+    - FT_Vegetarian is a DIET filter. The engine computes allowedDiets from
+      a def's ingredients (line 4525); putting it in a slot would be an error.
+    - FT_FoodRaw appears nowhere in the code: a pure taxonomic parent.
+  Their dishes are therefore routed to the real ingredient categories.
 
-  En revanche FT_EggFertilized a un usage exact et unique : le balut EXIGE l'œuf
-  fécondé. C'est le seul cas au monde où ce slot est le bon plutôt que FT_Egg.
+  By contrast FT_EggFertilized has one exact, unique use: balut REQUIRES the
+  fertilized egg. It is the only case anywhere where this slot is right rather than FT_Egg.
 -->
 <Defs>
 
-	<!-- ================================================ ŒUFS FÉCONDÉS -->
+	<!-- ============================================== FERTILIZED EGGS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Balut</defName>
@@ -89,7 +89,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================== ŒUFS DE CONSERVE -->
+	<!-- ================================================ PRESERVED EGGS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CenturyEgg</defName>
@@ -135,7 +135,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================== PRÉPARATIONS CRUES -->
+	<!-- ============================================ RAW PREPARATIONS -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CarpaccioDeBoeuf</defName>
@@ -255,10 +255,10 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================= VIANDE DIFFORME -->
-	<!-- Aucune cuisine réelle ici : c'est une viande d'Anomaly. Registre volontairement
-	     sobre et fonctionnel — le mod nomme des plats, il ne raconte pas d'histoire
-	     d'épouvante. On décrit ce qu'on en fait, pas ce qu'elle inspire. -->
+	<!-- ================================================ TWISTED MEAT -->
+	<!-- No real cuisine here: this is Anomaly meat. Deliberately sober and
+	     functional register — the mod names dishes, it does not tell horror
+	     stories. We describe what is done with it, not what it inspires. -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RagoutViandeTordue</defName>
@@ -390,9 +390,9 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================ BOISSONS MANUFACTURÉES -->
-	<!-- FT_Drink couvre les sodas et limonades de Vanilla Brewing Expanded, qui
-	     sont de vrais ThingDefs utilisables comme ingrédients. -->
+	<!-- =============================================== MANUFACTURED DRINKS -->
+	<!-- FT_Drink covers the sodas and lemonades of Vanilla Brewing Expanded, which
+	     are real ThingDefs usable as ingredients. -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorcAuSoda</defName>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Catégories rares : fruit à pain (1 def), oseille (1), châtaigne (2), lotus (2),
-  laitue (12 mais peu de plats où elle est le sujet), viande humaine (2).
+  Rare categories: breadfruit (1 def), sorrel (1), chestnut (2), lotus (2),
+  lettuce (12 but few dishes where it is the star), human meat (2).
 
-  Sur le lotus : FT_Lotus a pour parent FT_Seed, si bien que le rhizome est rangé
-  comme une graine — ce qui est faux en cuisine. La séparation LotusRoot / LotusSeed
-  n'est pourtant pas faite ici : le seul ThingDef de lotus existant est VCE_RawLotus,
-  dont le nom ne contient pas « lotus root ». Une catégorie FT_LotusRoot resterait
-  vide, et le moteur écarterait tous les plats la visant. Les préparations de rhizome
-  et de graines passent donc toutes par FT_Lotus, distinguées par leurs accompagnements.
+  On lotus: FT_Lotus has FT_Seed as its parent, so the rhizome is filed
+  as a seed - which is wrong in cooking. The LotusRoot / LotusSeed split
+  is nonetheless not done here: the only existing lotus ThingDef is VCE_RawLotus,
+  whose name does not contain "lotus root". An FT_LotusRoot category would stay
+  empty, and the engine would discard every dish targeting it. Rhizome and seed
+  preparations therefore all go through FT_Lotus, distinguished by their accompaniments.
 
-  Sur la viande humaine : noms délibérément sobres et fonctionnels, descriptions
-  tenues à la note de cuisine. Pas de spécialité régionale, pas de gastronomie.
+  On human meat: deliberately sober, functional names, descriptions
+  kept to the tone of a kitchen note. No regional specialty, no gastronomy.
 -->
 <Defs>
 
-	<!-- =================================================== FRUIT À PAIN -->
+	<!-- ===================================================== BREADFRUIT -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_OilDown</defName>
@@ -159,7 +159,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================================= OSEILLE -->
+	<!-- ========================================================== SORREL -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoupeALOseille</defName>
@@ -287,7 +287,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ======================================================= CHÂTAIGNE -->
+	<!-- ======================================================== CHESTNUT -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_DindeAuxMarrons</defName>
@@ -445,7 +445,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================================== LAITUE -->
+	<!-- ========================================================= LETTUCE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SaladeCesar</defName>
@@ -662,7 +662,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =================================================== VIANDE HUMAINE -->
+	<!-- ======================================================= HUMAN MEAT -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ViandeHumaineSechee</defName>

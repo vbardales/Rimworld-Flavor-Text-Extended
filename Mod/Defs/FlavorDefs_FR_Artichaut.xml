@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Artichaut — catégorie FT_Artichoke, qui n'était citée par AUCUNE def, ni chez hekmo
-  ni chez nous. Un colon qui en cultivait ne voyait jamais un seul nom de plat.
+  Artichoke - category FT_Artichoke, which was cited by NO def, neither in hekmo's
+  mod nor in ours. A colonist who grew some never saw a single dish name.
 
-  Seize plats, seize combinaisons d'ingrédients distinctes. Chacun est le représentant
-  d'une tradition : au-delà, les variantes se rabattraient sur les mêmes triplets et
-  n'ajouteraient rien que le moteur puisse distinguer.
+  Sixteen dishes, sixteen distinct ingredient combinations. Each is the representative
+  of a tradition: beyond that, the variants would fall back onto the same triplets and
+  would add nothing the engine could tell apart.
 -->
 <Defs>
 
@@ -55,7 +55,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================= ITALIE -->
+	<!-- ============================================================== ITALY -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CarciofiAllaRomana</defName>
@@ -157,7 +157,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ================================================ ESPAGNE ET GRÈCE -->
+	<!-- ================================================ SPAIN AND GREECE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AlcachofasConJamon</defName>
@@ -187,7 +187,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =========================================== TURQUIE, LEVANT, MAGHREB -->
+	<!-- ============================================ TURKEY, LEVANT, MAGHREB -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ZeytinyagliEnginar</defName>
@@ -232,7 +232,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================================= AMÉRIQUE -->
+	<!-- ========================================================== AMERICA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SpinachArtichokeDip</defName>

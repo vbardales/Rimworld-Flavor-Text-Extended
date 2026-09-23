@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Reptiles et amphibiens — dernière branche orpheline.
-  Vingt-quatre plats sur les cinq sous-catégories créées, plus trois qui sortent
-  FT_Meat_Snake de sa def unique.
+  Reptiles and amphibians - the last orphan branch.
+  Twenty-four dishes across the five subcategories created, plus three that take
+  FT_Meat_Snake out of its single def.
 
-  Le varan reste sur des préparations génériques : la consommation existe en Asie,
-  en Afrique et en Océanie, mais sans plat portant un nom canonique. Inventer des
-  « spécialités » ici serait de la fiction, pas de la cuisine.
+  The monitor lizard stays on generic preparations: it is eaten in Asia,
+  Africa and Oceania, but with no dish bearing a canonical name. Inventing
+  "specialties" here would be fiction, not cooking.
 -->
 <Defs>
 
-	<!-- ============================================================= TORTUE -->
+	<!-- ============================================================= TURTLE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TurtleSoupCreole</defName>
@@ -68,7 +68,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================= IGUANE -->
+	<!-- ============================================================= IGUANA -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CaldoDeIguana</defName>
@@ -214,7 +214,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ========================================================== GRENOUILLE -->
+	<!-- ================================================================ FROG -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CuissesGrenouillePersillees</defName>
@@ -288,7 +288,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- =============================================================== VARAN -->
+	<!-- ====================================================== MONITOR LIZARD -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_VaranAuCoco</defName>
@@ -318,7 +318,7 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
-	<!-- ============================================================= SERPENT -->
+	<!-- =============================================================== SNAKE -->
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_SoupeDeSerpent</defName>
