@@ -40,7 +40,7 @@
 		<ingredients>
 			<li><categories><li>FT_Cephalopod</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} dipped three times into boiling water before it is left there — otherwise the skin comes away — cut with scissors over rounds of {1_adj}, oil and smoked paprika.</description>
 		<mealKinds>
@@ -54,7 +54,7 @@
 		<ingredients>
 			<li><categories><li>FT_Bean</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>large white beans stewed with smoked {1_plur}, never stirred with a spoon: the pot is shaken with a turn of the wrist so as not to break them.</description>
 		<mealKinds>
@@ -112,7 +112,7 @@
 		<label>salmorejo</label>
 		<ingredients>
 			<li><categories><li>FT_Tomato</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} ground with crumb and mounted with oil into an orange cream thick enough to stand up, served iced with hard-boiled {2_coll} crumbled over. Denser than gazpacho, of which it is the Córdoban cousin.</description>
@@ -128,7 +128,7 @@
 		<ingredients>
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
-			<li><categories><li>FT_Garlic</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>short hollow pasta toasted dry then cooked in a {1_adj} fumet, which they drink up while standing on end. Born of a ship's boy hiding the rice from a captain who ate too much of it.</description>
 		<mealKinds>
