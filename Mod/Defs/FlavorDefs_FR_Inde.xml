@@ -25,7 +25,7 @@
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} half-cooked and marinated {1_coll} built up in layers, sealed under a lid luted with dough, and finished smothered. It is never stirred: every layer must still be distinct when it is opened.</description>
 		<mealKinds>
@@ -83,7 +83,7 @@
 		<ingredients>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Ginger</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} blanched then ground into a green purée kept brief so as not to brown, into which are set cubes of fresh {1_adj} that do not melt.</description>
 		<mealKinds>
@@ -168,7 +168,7 @@
 		<ingredients>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>{0_coll} reduced for hours into a solid paste, rolled into balls, fried very gently, and left to drink up a {1_adj} syrup scented with rose. They have to run when you bite them.</description>
 		<mealKinds>
