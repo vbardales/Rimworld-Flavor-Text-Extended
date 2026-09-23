@@ -112,7 +112,7 @@
 		<label>bánh pía sầu riêng</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
 		<description>a Vietnamese cake of spiralled puff pastry, filled with a paste of {0_adj} and a salted {2_adj} yolk at the centre. The layers peel apart one by one at the cut.</description>
@@ -127,7 +127,7 @@
 		<label>durian mooncake</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_RedBean</li></categories></li>
 		</ingredients>
 		<description>an uncooked snow-skin dough pressed in a seal, filled with the flesh of {0_adj} and a sweetened {2_adj} paste. Served iced, unlike the classic mooncake.</description>
@@ -142,7 +142,7 @@
 		<label>durian mille crêpes</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
 		<description>twenty very fine pancakes stacked up, each parted from the next by a layer of {0_adj} flesh folded into whipped {2_plur}. Cut clean, and eaten iced.</description>
@@ -156,7 +156,7 @@
 		<label>durian puff</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>small choux buns filled with a pure {0_adj} cream, served cold. Sold in refrigerated boxes in Singapore, and banned on the underground like everything else containing that fruit.</description>
@@ -186,7 +186,7 @@
 		<label>durian cake</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
 		<description>a very airy sponge into whose raw batter the flesh of {0_adj} is folded. The smell fills the kitchen while it bakes and settles there for the day.</description>
@@ -217,7 +217,7 @@
 		<label>tempoyak</label>
 		<ingredients>
 			<li><categories><li>FT_Durian</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
 		<description>the flesh of {0_adj} salted and left to ferment a week in a closed jar, until it turns sour and creamy. It is no longer a fruit at that stage: it is a condiment, and it keeps for months.</description>
