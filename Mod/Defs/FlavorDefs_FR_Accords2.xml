@@ -113,7 +113,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Meat_Seafood</li></categories></li>
-			<li><categories><li>FT_Vegetable</li></categories></li>
+			<li><categories><li>FT_Kelp</li></categories></li>
 		</ingredients>
 		<description>a clarified {0_adj} stock, into which {1_coll} goes at the last moment, with {2_coll} for the iodine. The two broths marry only if one of them is made in advance.</description>
 		<mealKinds>
@@ -153,13 +153,13 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PorcBeurreSauge</defName>
-		<label>pork chop in sage butter</label>
+		<label>pork chop in {2_adj} butter</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>a {0_adj} chop grilled and napped with a {1_coll} cooked to hazelnut, into which sage leaves have been thrown and turned crisp. Beurre noisette goes from hazelnut to burnt in ten seconds.</description>
+		<description>a {0_adj} chop grilled and napped with a {1_coll} cooked to hazelnut, into which {2_coll} has been thrown and turned crisp. Beurre noisette goes from hazelnut to burnt in ten seconds.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
@@ -332,7 +332,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} whole set over stems of spring onion, covered with minced {1_adj} seasoned with {2_plur}, and steamed hard for eight minutes. A smoking oil poured over at the table makes the skin hiss.</description>
 		<mealKinds>
@@ -409,7 +409,7 @@
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
-			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+			<li><categories><li>FT_Lentil</li></categories></li>
 		</ingredients>
 		<description>{1_coll} cooked plain, into which is folded freshly grated {0_coll} turned in oil with shelled {2_coll}, mustard seed and curry leaves. The thengai sadam of Tamil Nadu, made without a drop of milk.</description>
 		<mealKinds>
