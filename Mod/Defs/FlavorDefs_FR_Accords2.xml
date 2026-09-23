@@ -99,7 +99,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a stuffing of {0_adj} chopped by knife and whole {1_adj}, in a {2_adj} wrapper pinched into an open collar. Steamed in a basket, with a whole prawn set on top.</description>
 		<mealKinds>
@@ -113,7 +113,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Meat_Seafood</li></categories></li>
-			<li><categories><li>FT_Kelp</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>a clarified {0_adj} stock, into which {1_coll} goes at the last moment, with {2_coll} for the iodine. The two broths marry only if one of them is made in advance.</description>
 		<mealKinds>
@@ -260,7 +260,7 @@
 		<ingredients>
 			<li><categories><li>FT_Corn</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>grains of {0_adj} popped under a lid, doused with a clarified {1_coll} — the water in whole butter would sog the lot — and shaken with {2_plur} in a large bowl.</description>
 		<mealKinds>
@@ -290,7 +290,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a loin of {0_adj} poached in the red oil that a paprika {1_adj} chorizo has given up in the pan, with sweet {2_plur}. It is the coloured fat that makes the dish, not the sausage itself.</description>
 		<mealKinds>
@@ -332,7 +332,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
 		</ingredients>
 		<description>{0_coll} whole set over stems of spring onion, covered with minced {1_adj} seasoned with {2_plur}, and steamed hard for eight minutes. A smoking oil poured over at the table makes the skin hiss.</description>
 		<mealKinds>
@@ -352,7 +352,7 @@
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
-			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a {1_adj} flour worked with a great deal of freshly grated {0_adj}, green {2_coll} and onion, barely bound with water, then cooked thick on a dry plate. Torn by hand, never cut with a knife.</description>
 		<mealKinds>
@@ -366,7 +366,7 @@
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} grated and toasted dry for a very long time, with palm {1_coll}, {2_coll} and garlic, to a golden brown. It keeps for weeks and is sown over rice the way one would dust on parmesan.</description>
 		<mealKinds>
@@ -381,7 +381,7 @@
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
-			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{1_coll} blanched and wrung out, mixed with freshly grated {0_adj} seasoned with {2_plur}, garlic and galangal. Eaten warm, the same day: grated coconut turns rancid fast.</description>
 		<mealKinds>
@@ -409,7 +409,7 @@
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
-			<li><categories><li>FT_Lentil</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
 		</ingredients>
 		<description>{1_coll} cooked plain, into which is folded freshly grated {0_coll} turned in oil with shelled {2_coll}, mustard seed and curry leaves. The thengai sadam of Tamil Nadu, made without a drop of milk.</description>
 		<mealKinds>
