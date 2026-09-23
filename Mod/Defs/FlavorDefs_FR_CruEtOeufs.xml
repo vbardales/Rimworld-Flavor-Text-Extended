@@ -21,7 +21,7 @@
 		<label>balut</label>
 		<ingredients>
 			<li><categories><li>FT_EggFertilized</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a duck egg incubated eighteen days, boiled and eaten in its own shell. You drink the broth first through the narrow end, then salt it and eat the rest. Sold in the evening, in the Philippines, to the cry of the seller.</description>
 		<mealKinds>
@@ -49,7 +49,7 @@
 		<label>fried balut</label>
 		<ingredients>
 			<li><categories><li>FT_EggFertilized</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
 		<description>baluts shelled, coated in an orange {1_adj} batter and fried in {2_plur}. The shell crisps, and the inside stays running.</description>
@@ -157,7 +157,7 @@
 		<label>sashimi</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
-			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
 			<li><categories><li>FT_Turnip</li></categories></li>
 		</ingredients>
 		<description>{0_coll} raw and sliced in one drawn stroke, never sawn, on a bed of shredded radish. The knife and the angle of the cut make the whole dish; there is nothing else to be done.</description>
@@ -217,7 +217,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} raw in cubes rather than chopped, rolled in a spiced butter and awaze. The kitfo's cousin in pieces, and the most merciless test of freshness there is.</description>
 		<mealKinds>
@@ -296,7 +296,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>cubes of {0_adj} marinated in {1_plur} and {2_plur}, threaded and grilled over a high flame. The marinade covers most of what there is to cover.</description>
 		<mealKinds>
@@ -309,7 +309,7 @@
 		<label>twisted meat sausage</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
 		<description>{0_coll} minced twice, let down with crumb and heavily {2_plur}, cased and then poached. The mincer settles the question of texture.</description>
@@ -323,7 +323,7 @@
 		<label>twisted meat pie</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>{0_coll} braised in advance and shut under a {2_adj} pastry. What is under the crust can no longer be seen, and that is part of the point.</description>
@@ -381,7 +381,7 @@
 		<label>twisted meat soup</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
-			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 			<li><categories><li>FT_Bone</li></categories></li>
 		</ingredients>
 		<description>{0_coll} and its bones set in cold water and brought up gently, with {1_coll}. It is skimmed a great deal through the first hour.</description>
@@ -400,7 +400,7 @@
 		<ingredients>
 			<li><categories><li>FT_Drink</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a ham cooked slowly in sweetened {0_coll}, whose sugar caramelises and whose acid tenderises. A recipe out of a tin-can kitchen, and nobody has ever explained why it works.</description>
 		<mealKinds>
