@@ -85,7 +85,7 @@
 		<defName>FlavorTextFR_QuatreQuarts</defName>
 		<label>pound cake</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
@@ -100,7 +100,7 @@
 		<defName>FlavorTextFR_GateauAuYaourt</defName>
 		<label>yoghurt cake</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
@@ -130,7 +130,7 @@
 		<defName>FlavorTextFR_ParisBrest</defName>
 		<label>paris-brest</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
@@ -145,7 +145,7 @@
 		<defName>FlavorTextFR_MilleFeuille</defName>
 		<label>mille-feuille</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
@@ -160,7 +160,7 @@
 		<defName>FlavorTextFR_EclairAuCafe</defName>
 		<label>coffee éclair</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Coffee</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
@@ -190,7 +190,7 @@
 		<defName>FlavorTextFR_BabaAuRhum</defName>
 		<label>rum baba</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
@@ -205,7 +205,7 @@
 		<defName>FlavorTextFR_Profiteroles</defName>
 		<label>profiteroles</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
@@ -219,7 +219,7 @@
 		<defName>FlavorTextFR_Madeleine</defName>
 		<label>madeleines</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
@@ -249,7 +249,7 @@
 		<defName>FlavorTextFR_Canele</defName>
 		<label>canelés</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
@@ -280,7 +280,7 @@
 		<defName>FlavorTextFR_SableBreton</defName>
 		<label>Breton shortbread</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
@@ -297,7 +297,7 @@
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} and {1_coll} with cinnamon, baked five hours in the baker's oven in an earthenware dish, until a thick brown skin forms. The name comes from the burn it deals to anyone who will not wait.</description>
 		<mealKinds>
@@ -310,7 +310,7 @@
 		<defName>FlavorTextFR_Bugnes</defName>
 		<label>bugnes</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
@@ -358,7 +358,7 @@
 		<label>sachertorte</label>
 		<ingredients>
 			<li><categories><li>FT_Chocolate</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 		</ingredients>
 		<description>a dense {0_adj} sponge, split and filled with a layer of {2_adj} jam, glazed with a dark smooth fondant. Two Viennese houses spent seven years in court over this cake.</description>
@@ -373,7 +373,7 @@
 		<label>apfelstrudel</label>
 		<ingredients>
 			<li><categories><li>FT_Apple</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Grape</li></categories></li>
 		</ingredients>
 		<description>a dough stretched by hand over a tablecloth until a newspaper can be read through it, filled with {0_adj} and dried {2_adj}, then rolled. One tear in the dough and it all begins again.</description>
@@ -387,7 +387,7 @@
 		<defName>FlavorTextFR_Kaiserschmarrn</defName>
 		<label>kaiserschmarrn</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Grape</li></categories></li>
 		</ingredients>
@@ -417,7 +417,7 @@
 		<defName>FlavorTextFR_Makowiec</defName>
 		<label>makowiec</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Seed</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
@@ -432,7 +432,7 @@
 		<defName>FlavorTextFR_Medovik</defName>
 		<label>medovik</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
@@ -523,7 +523,7 @@
 		<ingredients>
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a shortcrust base, a layer of {1_adj} jam, and an {0_adj} frangipane over the top that rises and browns in the oven.</description>
 		<mealKinds>
@@ -540,7 +540,7 @@
 		<ingredients>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a sponge dried out on purpose, pricked all over and drowned in three different milks until it can take no more. It has to be sodden without collapsing: that is the whole exercise.</description>
 		<mealKinds>
@@ -553,7 +553,7 @@
 		<defName>FlavorTextFR_Alfajores</defName>
 		<label>alfajores</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 		</ingredients>
@@ -614,7 +614,7 @@
 		<label>brownie</label>
 		<ingredients>
 			<li><categories><li>FT_Chocolate</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
 		<description>very little flour, a great deal of {0_adj}, and crushed {2_coll}. Out of the oven too late and it is only a cake; too early and it is not yet a brownie.</description>
@@ -630,7 +630,7 @@
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a base of buttered biscuits under an {0_adj} and {1_adj} filling, baked in a water bath and cooled slowly — a shock of temperature splits it in two.</description>
 		<mealKinds>
@@ -643,7 +643,7 @@
 		<defName>FlavorTextFR_Lamington</defName>
 		<label>lamington</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 		</ingredients>
@@ -673,7 +673,7 @@
 		<defName>FlavorTextFR_MalvaPudding</defName>
 		<label>malva pudding</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
@@ -691,7 +691,7 @@
 		<label>künefe</label>
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
 		<description>fresh {0_coll} caught between two layers of shredded pastry, browned on both sides then doused in scalding syrup. Eaten at once: the cheese must still pull.</description>
@@ -719,7 +719,7 @@
 		<defName>FlavorTextFR_Maamoul</defName>
 		<label>maamoul</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Date</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
@@ -734,7 +734,7 @@
 		<defName>FlavorTextFR_OmAli</defName>
 		<label>om ali</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
@@ -749,7 +749,7 @@
 		<defName>FlavorTextFR_Basbousa</defName>
 		<label>basbousa</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
 		</ingredients>
@@ -807,7 +807,7 @@
 		<defName>FlavorTextFR_Taiyaki</defName>
 		<label>taiyaki</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_RedBean</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
@@ -822,7 +822,7 @@
 		<defName>FlavorTextFR_Hotteok</defName>
 		<label>hotteok</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
