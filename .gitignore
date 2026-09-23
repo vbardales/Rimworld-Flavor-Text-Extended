@@ -30,3 +30,12 @@ Audit-FoodCourt/comparison.json
 # Manual-scenario logs: large, and they carry the whole modlist. Keep the folder, not its contents.
 Tests/Manual/logs/*
 !Tests/Manual/logs/.gitkeep
+
+# Pickle evidence: screenshots, videos and the HTML report stay on disk, never in git. A text summary
+# of each such run goes in docs/runs/. Older runs kept their small text files under
+# Tests/Pickle/results/; a run with captures is ignored whole.
+*.dds
+*.webm
+Tests/Pickle/results/**/screenshots/
+Tests/Pickle/results/**/report.html
+Tests/Pickle/results/f13-fixture-generation-2026-09-22/
