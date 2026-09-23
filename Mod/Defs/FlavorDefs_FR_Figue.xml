@@ -21,7 +21,7 @@
 		<label>fig tart</label>
 		<ingredients>
 			<li><categories><li>FT_Fig</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Almond</li></categories></li>
 		</ingredients>
 		<description>{0_coll} split in a cross and stood upright on a {2_adj} cream, which drinks up their juice as it bakes and keeps the pastry from going soft.</description>
@@ -36,7 +36,7 @@
 		<label>crostata di fichi</label>
 		<ingredients>
 			<li><categories><li>FT_Fig</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>a shortcrust made with {2_plur}, crossed into a lattice over a thick layer of {0_adj} jam. Eaten cold, the next day, once the pastry has drunk a little of the fruit.</description>
@@ -202,7 +202,7 @@
 		<label>fig focaccia</label>
 		<ingredients>
 			<li><categories><li>FT_Fig</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 		</ingredients>
 		<description>{0_coll} pushed down into dough dimpled with the fingers, with rosemary, {2_adj} oil and coarse salt. The sugar of the fruit caramelises where it touches the tray.</description>
@@ -216,7 +216,7 @@
 		<label>fig and prosciutto pizza</label>
 		<ingredients>
 			<li><categories><li>FT_Fig</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
 		<description>a white base with no tomato, {0_coll} roasted on it, and raw {2_coll} laid on only as it leaves the oven — cooked, it hardens and loses everything.</description>
@@ -322,7 +322,7 @@
 		<ingredients>
 			<li><categories><li>FT_Fig</li></categories></li>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{1_coll} stewed with saffron, ginger and cinnamon, dried {0_coll} swelled back up and added at the end with toasted almonds.</description>
 		<mealKinds>
