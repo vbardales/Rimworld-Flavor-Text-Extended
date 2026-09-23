@@ -37,7 +37,7 @@
 		<ingredients>
 			<li><categories><li>FT_Pear</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a white base with no tomato, {1_coll} in drops and {0_coll} in slices laid on halfway through the baking so that they do not dry out, with a thread of honey as it comes out.</description>
 		<mealKinds>
@@ -52,7 +52,7 @@
 		<ingredients>
 			<li><categories><li>FT_Fig</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>slices of toasted bread, fresh {1_coll} crushed over them and {0_coll} opened in four, run under the grill for thirty seconds. The honey goes on after, never before.</description>
 		<mealKinds>
@@ -67,7 +67,7 @@
 		<ingredients>
 			<li><categories><li>FT_Apple</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>aged {1_coll} and {0_coll} in fine slivers between two buttered slices, pressed in the pan. The apple gives up a little water that keeps the cheese from setting.</description>
 		<mealKinds>
@@ -124,7 +124,7 @@
 		<ingredients>
 			<li><categories><li>FT_Cherry</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a round of {1_adj} set on a slice of bread and put in the oven until it runs, with {0_coll} fried in vinegar. The acidity of the fruit cuts the fat of the hot cheese.</description>
 		<mealKinds>
@@ -200,7 +200,7 @@
 		<ingredients>
 			<li><categories><li>FT_Fungus</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>{0_coll} destalked and filled with a {1_adj} stuffing and breadcrumbs, baked until they give up their water and take it back again.</description>
 		<mealKinds>
@@ -215,7 +215,7 @@
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a thick slice of hard {0_adj} floured and seared in a small two-handled pan, until a crust forms. Doused with {1_plur} at the table, and sometimes flamed.</description>
 		<mealKinds>
@@ -245,7 +245,7 @@
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>the filling of a ravioli without its wrapper — {0_coll} and {1_coll} bound with a little flour and poached naked. Gnudi means undressed.</description>
 		<mealKinds>
@@ -260,7 +260,7 @@
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Vegetable</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} sliced thick and grilled until it takes the bars without melting — it is the only cheese that holds on a grill — with roasted {1_coll} and za'atar.</description>
 		<mealKinds>
