@@ -41,7 +41,7 @@
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Anchovy</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a Niçois tart: {0_coll} stewed a whole hour until they are almost a jam, spread over the dough and latticed with {1_adj}.</description>
 		<mealKinds>
@@ -159,7 +159,7 @@
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>{0_coll} melted in {1_plur} in a pot rubbed with garlic, kept hot the whole evening. Bread is dipped in on the end of a fork; whoever drops it buys the next round.</description>
 		<mealKinds>
@@ -173,7 +173,7 @@
 		<ingredients>
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Garlic</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a mash of {0_adj} worked with {1_plur} and a spatula, for a long time, until it draws into ribbons when it is lifted. The arm gives out before the paste does.</description>
 		<mealKinds>
@@ -243,7 +243,7 @@
 		<defName>FlavorTextFR_Flammekueche</defName>
 		<label>flammekueche</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
@@ -257,7 +257,7 @@
 		<defName>FlavorTextFR_Kougelhopf</defName>
 		<label>kougelhopf</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Grape</li></categories></li>
 			<li><categories><li>FT_Almond</li></categories></li>
 		</ingredients>
@@ -289,7 +289,7 @@
 		<defName>FlavorTextFR_FarBreton</defName>
 		<label>far breton</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
@@ -352,7 +352,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
-			<li><categories><li>FT_Garlic</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} salted for a day, then cooked very slowly submerged in {1_plur}, and kept in it afterwards. The skin is crisped at the last moment, in a pan.</description>
 		<mealKinds>
@@ -384,7 +384,7 @@
 		<ingredients>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
-			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cooked without taking any colour — that is the whole difficulty — the sauce mounted with {1_plur} and sharpened at the very last moment.</description>
 		<mealKinds>
@@ -398,7 +398,7 @@
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>{0_coll} browned very slowly to a deep colour, moistened, then covered with bread and {1_adj} and run under the grill.</description>
 		<mealKinds>
@@ -410,7 +410,7 @@
 		<defName>FlavorTextFR_CroqueMonsieur</defName>
 		<label>croque-monsieur</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
