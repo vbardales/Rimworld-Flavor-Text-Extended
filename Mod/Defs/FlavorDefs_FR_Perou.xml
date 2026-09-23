@@ -181,7 +181,7 @@
 		<label>picarones</label>
 		<ingredients>
 			<li><categories><li>FT_Squash</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
 		<description>rings of {0_adj} and sweet potato dough, shaped by hand with a turning gesture, fried and drowned in a dark {2_adj} syrup. The colonial successor of an older fritter.</description>
