@@ -1,6 +1,6 @@
 # T2 of TESTS.md: the mod loads on a game WITHOUT Odyssey.
 #
-# Why it exists. Four of the six reptile meats named by Defs/FlavorCategoryDefs_FR_Reptiles.xml come
+# Why it exists. Four of the six reptile meats named by Defs/FlavorCategoryDefs_Reptiles.xml come
 # from Odyssey animals (alligator, monitor lizard, bullfrog, sea turtle), and they are referenced
 # by name, each behind a MayRequire="ludeon.rimworld.odyssey" on its own <li>. Three of the four once
 # had no guard (commit 31c4931), and Test-Xml.ps1 checks only that the guards are there, not that the

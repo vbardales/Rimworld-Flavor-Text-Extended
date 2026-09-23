@@ -88,7 +88,7 @@ names in unconditional selected folders. Its first run failed on four nonexisten
 Checked patch text and the VGP/VPE assembly type inventories for an alternative provider.
 VGP's assembly contains bee-sprout incident behavior; VPE contains growing-zone/plant
 behavior and Harmony registration, with no identified source for these supposed ingredients.
-Removed the four entries from `Mod/Defs/FlavorCategoryDefs_FR.xml`. Kept verified VV_Leeks
+Removed the four entries from `Mod/Defs/FlavorCategoryDefs_Extended.xml`. Kept verified VV_Leeks
 and the categories' keyword matching; no substitute ingredient name was invented.
 T8 now distinguishes the verified leek provider from an unverified shallot setup.
 

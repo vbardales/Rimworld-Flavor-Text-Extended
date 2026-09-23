@@ -7,7 +7,7 @@
 // Once the Defs are switched to English, the French source exists nowhere else.
 //
 // One output file per defs file, so that the correspondence stays readable:
-//   Defs/FlavorDefs_FR_Regions.xml  ->  DefInjected/FlavorText.FlavorDef/Ext_Regions.xml
+//   Defs/FlavorDefs_FrenchRegions.xml  ->  DefInjected/FlavorText.FlavorDef/Ext_FrenchRegions.xml (the companion's existing files kept the pre-rename names, e.g. Ext_Regions.xml)
 const fs = require('fs');
 const path = require('path');
 

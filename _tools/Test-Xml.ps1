@@ -29,7 +29,7 @@ foreach ($file in Get-ChildItem (Join-Path $mod 'Patches') -Filter *.xml) {
         $operations++
     }
 }
-$reptiles = [xml](Get-Content (Join-Path $mod 'Defs/FlavorCategoryDefs_FR_Reptiles.xml') -Raw)
+$reptiles = [xml](Get-Content (Join-Path $mod 'Defs/FlavorCategoryDefs_Reptiles.xml') -Raw)
 foreach ($meat in 'Meat_SeaTurtle','Meat_Alligator','Meat_MonitorLizard','Meat_Bullfrog') {
     $nodes = $reptiles.SelectNodes("//thingDefsToAbsorb/li[text()='$meat']")
     if ($nodes.Count -eq 0) { throw "Missing meat: $meat" }

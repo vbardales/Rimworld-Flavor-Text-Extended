@@ -3,7 +3,7 @@
 # dishes just never fire). No save and no cooking: the categories are settled at the main menu.
 #
 # T9 of TESTS.md, and the reptile file's promise that the meats are told apart. Flavor Text keeps
-# them all in one category; splitting them is the whole point of Defs/FlavorCategoryDefs_FR_Reptiles.xml.
+# them all in one category; splitting them is the whole point of Defs/FlavorCategoryDefs_Reptiles.xml.
 # The assertions read the category tree, so they hold without any dish, cooking mod or colony.
 #
 # The staging always activates Odyssey, so the four guarded meats are present here. Without Odyssey

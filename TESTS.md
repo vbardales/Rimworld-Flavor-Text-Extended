@@ -456,7 +456,7 @@ What they show, and what they do not:
 
 ## Where the reptile meats come from
 
-`Mod/Defs/FlavorCategoryDefs_FR_Reptiles.xml` absorbs six meats by name, and only two of the
+`Mod/Defs/FlavorCategoryDefs_Reptiles.xml` absorbs six meats by name, and only two of the
 animals are in Core. Writing this plan is what turned up the three that were missing their guard;
 they have one now, and T2 is the scenario that keeps them honest.
 
