@@ -62,7 +62,7 @@
 		<ingredients>
 			<li><categories><li>FT_Chickpea</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
-			<li><categories><li>FT_Lemon</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
 		</ingredients>
 		<description>a flour of roasted {0_adj}, slaked in cold {1_plur} with the juice of {2_adj}, black salt and cumin. The drink of the Bihar summers: it feeds as much as it quenches, and needs no cooking at all.</description>
 		<mealKinds>
@@ -76,7 +76,7 @@
 		<ingredients>
 			<li><categories><li>FT_Bean</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
-			<li><categories><li>FT_Ginger</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>mung {0_coll} cooked past done and passed through a sieve, let down with {1_plur} and scented with fresh {2_plur}. Drunk iced through the heatwaves, for its cooling virtues as much as for its taste.</description>
 		<mealKinds>
@@ -150,7 +150,7 @@
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
-			<li><categories><li>FT_Lemon</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
 		</ingredients>
 		<description>a young {0_adj} topped with a machete, whose water is drunk through a straw before the jellied flesh is scraped out with a spoon. Let down with iced {1_plur} and a thread of {2_adj}.</description>
 		<mealKinds>
