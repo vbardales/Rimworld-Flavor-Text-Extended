@@ -355,7 +355,7 @@ fails with that name in the message, which would be a finding, not necessarily a
 Bare pass (`sans-facultatifs`, `-Filter 01-alone.feature`), queued through `Run-PickleWsl.ps1` on a ticket
 and played headless in the WSL game once the queue reached it (lock held 18:48:13 to 18:49:44, local time).
 **`exitReason: passed`, 5 scenarios of 5 in the one feature file, 20 steps of 20 PASSED, exit code 0.**
-Twelve mods staged. Report and log copied to `Tests/Pickle/results/2026-09-21-sans-facultatifs/`.
+Twelve mods staged. That first report was pruned once the full-suite run replaced it: see `Tests/Pickle/results/2026-09-21-sans-facultatifs-full/` and the one-line history in `docs/runs/2026-09-21-pruned-runs.md`.
 
 - The engine line read `641 active FlavorDefs ... out of 1831 total FlavorDefs`; 1831 = 930 + 901.
 - No `[ERROR]` line. No `[WARN]` attributed to this mod. Two `[Vanilla]` warnings: Steamworks (no Steam
