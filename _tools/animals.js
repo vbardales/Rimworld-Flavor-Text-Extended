@@ -1,20 +1,20 @@
-// Liste les races animales vanilla + leur label FR, pour générer les inflexions de viande/œufs.
+// Lists the vanilla animal races + their FR label, to generate the meat/egg inflections.
 //
-// Le piège : `useMeatFrom` est presque toujours déclaré sur une def ABSTRAITE, pas sur
-// l'animal. `SmallBirdThingBase` et `WaterBirdThingBase` (Odyssey) portent tous deux
-// <useMeatFrom>Cassowary</useMeatFrom> ; moineau, corbeau, héron, flamant n'ont donc pas
-// de viande propre — Meat_Crow n'existe pas. Une lecture def par def ne le voit pas :
-// les defs abstraites n'ont pas de <defName> et sortaient du balayage.
+// The trap: `useMeatFrom` is almost always declared on an ABSTRACT def, not on the
+// animal. `SmallBirdThingBase` and `WaterBirdThingBase` (Odyssey) both carry
+// <useMeatFrom>Cassowary</useMeatFrom>; sparrow, crow, heron and flamingo therefore have
+// no meat of their own -- Meat_Crow does not exist. Reading def by def does not see this:
+// abstract defs have no <defName> and dropped out of the scan.
 //
-// On indexe donc TOUS les ThingDef par leur attribut Name, puis on résout useMeatFrom,
-// meatLabel et IsFlesh en remontant la chaîne des ParentName. L'ordre des attributs
-// varie dans les fichiers du jeu (`Name=` avant ou après `ParentName=`), d'où deux
-// expressions séparées plutôt qu'une capture positionnelle.
+// So we index ALL ThingDefs by their Name attribute, then resolve useMeatFrom,
+// meatLabel and IsFlesh by walking up the ParentName chain. The attribute order
+// varies across the game's files (`Name=` before or after `ParentName=`), hence two
+// separate expressions rather than a positional capture.
 const fs = require('fs');
 const path = require('path');
 
 const DATA = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Data';
-const FR = process.argv[2]; // dossier des langues FR extraites
+const FR = process.argv[2]; // folder of the extracted FR languages
 const EXPANSIONS = ['Core', 'Royalty', 'Ideology', 'Biotech', 'Anomaly', 'Odyssey'];
 
 function walk(dir, out = []) {
@@ -27,7 +27,7 @@ function walk(dir, out = []) {
   return out;
 }
 
-// 1. labels FR de tous les ThingDef
+// 1. FR labels of all ThingDefs
 const frLabel = {};
 for (const exp of EXPANSIONS) {
   for (const f of walk(path.join(FR, exp, 'DefInjected', 'ThingDef'))) {
@@ -38,16 +38,16 @@ for (const exp of EXPANSIONS) {
   }
 }
 
-// 2. tous les ThingDef, abstraits compris, indexés par leur attribut Name
-//    `undefined` = champ absent de ce bloc, donc à hériter. Une chaîne vide serait
-//    une valeur explicite : la distinction compte pour la remontée.
+// 2. all ThingDefs, abstract ones included, indexed by their Name attribute
+//    `undefined` = field absent from this block, so it is inherited. An empty string would
+//    be an explicit value: the distinction matters for the walk up the chain.
 const un = (body, tag) => {
   const m = body.match(new RegExp('<' + tag + '>([^<]*)</' + tag + '>'));
   return m ? m[1].trim() : undefined;
 };
 
-const byName = {};          // Name -> bloc
-const concrets = [];        // les races à sortir
+const byName = {};          // Name -> block
+const concrets = [];        // the races to output
 
 for (const exp of EXPANSIONS) {
   for (const f of walk(path.join(DATA, exp, 'Defs', 'ThingDefs_Races'))) {
@@ -61,8 +61,8 @@ for (const exp of EXPANSIONS) {
         useMeatFrom: un(body, 'useMeatFrom'),
         meatLabel: un(body, 'meatLabel'),
         isFlesh: un(body, 'IsFlesh'),
-        // Le fleshType dit si la race donne une viande. Il s'hérite lui aussi :
-        // les cinq bêtes de chair d'Anomaly ne le portent pas, leur base si.
+        // The fleshType says whether the race yields meat. It is inherited too:
+        // the five Anomaly flesh beasts do not carry it, their base does.
         fleshType: un(body, 'fleshType'),
       };
       if (nom) byName[nom] = bloc;
@@ -74,8 +74,8 @@ for (const exp of EXPANSIONS) {
   }
 }
 
-// 3. remontée : on prend la première valeur trouvée en montant vers la racine.
-//    La garde `vus` protège d'un cycle de ParentName, qui pendrait le script.
+// 3. walk up: take the first value found while climbing toward the root.
+//    The `vus` guard protects against a ParentName cycle, which would hang the script.
 function herite(bloc, champ) {
   const vus = new Set();
   for (let b = bloc; b; b = byName[b.parent]) {
@@ -102,10 +102,10 @@ fs.writeFileSync(process.argv[3], JSON.stringify(out, null, 1));
 
 const emprunts = out.filter(a => a.useMeatFrom);
 const chairs = {};
-for (const a of out) (chairs[a.fleshType || '(ordinaire)'] ??= []).push(a.defName);
+for (const a of out) (chairs[a.fleshType || '(ordinary)'] ??= []).push(a.defName);
 
-console.log('races:', out.length, '| avec label FR:', out.filter(a => a.fr).length);
-console.log('sans viande propre (useMeatFrom) :', emprunts.length);
+console.log('races:', out.length, '| with FR label:', out.filter(a => a.fr).length);
+console.log('without own meat (useMeatFrom):', emprunts.length);
 console.log(emprunts.map(a => `  ${a.defName} -> ${a.useMeatFrom}`).join('\n'));
-console.log('\nfleshType résolus :');
+console.log('\nresolved fleshType:');
 for (const [t, l] of Object.entries(chairs)) console.log(`  ${t.padEnd(18)} ${l.length}`);

@@ -1,11 +1,11 @@
-// Ce qu'il reste à traduire en anglais, et ce qui est fait.
+// What is left to translate into English, and what is done.
 //
-//   node _tools/enreste.js                    récapitulatif par fichier
-//   node _tools/enreste.js <fichier.xml>      sort le TSV à remplir pour ce fichier
+//   node _tools/enreste.js                    summary per file
+//   node _tools/enreste.js <file.xml>         outputs the TSV to fill in for that file
 //
-// Le test est exact et non heuristique : le DefInjected du mod français conserve le
-// texte français d'origine. Tant que le label de la def lui est identique, la def
-// n'a pas été traduite. Aucune détection de langue n'est nécessaire.
+// The test is exact, not heuristic: the French mod's DefInjected keeps the original
+// French text. As long as the def's label is identical to it, the def
+// has not been translated. No language detection is needed.
 const fs = require('fs');
 const path = require('path');
 
@@ -31,9 +31,9 @@ for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x))
     if (!dn || !fr[dn]) continue;
     const lab = (b.match(/<label>([\s\S]*?)<\/label>/) || [])[1];
     const des = (b.match(/<description>([\s\S]*?)<\/description>/) || [])[1];
-    // On compare AUSSI la description : certains labels sont des noms propres
-    // identiques dans les deux langues — « puerco en mole », « tom kha », « arancini » —
-    // et le seul label ne permet pas de les distinguer d'une def non traduite.
+    // We compare the description TOO: some labels are proper names
+    // identical in both languages -- "puerco en mole", "tom kha", "arancini" --
+    // and the label alone cannot tell them apart from an untranslated def.
     if (lab !== fr[dn].label || des !== fr[dn].description) { fait++; continue; }
     reste.push({ dn, lab, des });
   }
@@ -42,13 +42,13 @@ for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x))
   if (cible) {
     for (const r of reste) {
       console.log(`# ${r.dn}`);
-      console.log(`#   fr label : ${r.lab}`);
-      console.log(`#   fr desc  : ${r.des}`);
+      console.log(`#   fr label: ${r.lab}`);
+      console.log(`#   fr desc : ${r.des}`);
       console.log('');
     }
   } else if (reste.length || fait) {
-    console.log(`  ${String(fait).padStart(3)} faits  ${String(reste.length).padStart(3)} restants   ${f}`);
+    console.log(`  ${String(fait).padStart(3)} done  ${String(reste.length).padStart(3)} remaining   ${f}`);
   }
 }
 
-if (!cible) console.log(`\n  TOTAL : ${totalFait} traduits, ${totalReste} restants sur ${totalFait + totalReste}`);
+if (!cible) console.log(`\n  TOTAL: ${totalFait} translated, ${totalReste} remaining out of ${totalFait + totalReste}`);

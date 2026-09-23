@@ -1,5 +1,5 @@
-// Teste une liste de noms de plats candidats contre les 930 defs de Flavor Text.
-// Usage : node _tools/candidats.js "mole" "pozole" "samosa" ...
+// Tests a list of candidate dish names against the 930 Flavor Text defs.
+// Usage: node _tools/candidats.js "mole" "pozole" "samosa" ...
 const defs = require('./flavordefs.json');
 const norm = s => s.toLowerCase()
   .normalize('NFD').replace(/[̀-ͯ]/g, '')
@@ -13,7 +13,7 @@ for (const c of process.argv.slice(2)) {
   const k = norm(c);
   if (pris.has(k)) occupes.push(`${c}  <- ${pris.get(k)}`); else libres.push(c);
 }
-console.log('DÉJÀ PRIS (' + occupes.length + ') :');
-console.log(occupes.map(x => '  ' + x).join('\n') || '  aucun');
-console.log('\nLIBRES (' + libres.length + ') :');
+console.log('ALREADY TAKEN (' + occupes.length + '):');
+console.log(occupes.map(x => '  ' + x).join('\n') || '  none');
+console.log('\nFREE (' + libres.length + '):');
 console.log('  ' + libres.join(', '));

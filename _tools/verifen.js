@@ -1,16 +1,16 @@
-// Contrôle final de la traduction anglaise des defs du mod.
+// Final check of the English translation of the mod's defs.
 //
 //   node _tools/verifen.js
 //
-// Trois fautes que la relecture ne voit pas :
-//   - un {N_...} qui pointe vers un slot d'ingrédient inexistant -> placeholder affiché brut
-//   - un slot déclaré et jamais cité (simple compteur : ce n'est pas une faute)
-//   - du français resté dans un label ou une description
+// Three faults that proofreading does not reveal:
+//   - a {N_...} pointing to a nonexistent ingredient slot -> placeholder displayed raw
+//   - a slot declared and never cited (a simple counter: this is not a fault)
+//   - French left over in a label or a description
 //
-// Le test du français ne porte que sur la description : les labels gardent
-// volontairement leur nom d'origine (« coq au vin », « papa a la huancaína »).
-// La liste ne retient que des mots-outils qui ne sont pas aussi des mots anglais —
-// « pour » en est exclu, sans quoi « poured » déclenche à chaque ligne.
+// The French test applies to the description only: labels deliberately keep
+// their original name ("coq au vin", "papa a la huancaína").
+// The list keeps only function words that are not also English words --
+// "pour" is excluded, otherwise "poured" would trigger on every line.
 const fs = require('fs');
 const path = require('path');
 
@@ -27,7 +27,7 @@ for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x))
     const lab = (b.match(/<label>([\s\S]*?)<\/label>/) || [])[1] || '';
     const des = (b.match(/<description>([\s\S]*?)<\/description>/) || [])[1] || '';
     const ing = (b.match(/<ingredients>[\s\S]*?<\/ingredients>/) || [])[0] || '';
-    // un slot par <li> de premier niveau : on les compte via les blocs <categories>
+    // one slot per top-level <li>: we count them via the <categories> blocks
     const nSlots = (ing.match(/<categories>/g) || []).length;
 
     const cites = new Set();
@@ -35,19 +35,19 @@ for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x))
 
     for (const i of cites) {
       if (i >= nSlots) {
-        console.log(`ERREUR  ${dn}  {${i}_...} mais seulement ${nSlots} slot(s) d'ingrédients`);
+        console.log(`ERROR   ${dn}  {${i}_...} but only ${nSlots} ingredient slot(s)`);
         erreurs++;
       }
     }
-    // Un slot non cité n'est pas une faute : il sert à sélectionner le plat, pas à
-    // l'écrire. hekmo en laisse aussi. On le compte pour l'ordre de grandeur.
+    // A slot that is not cited is not a fault: it is used to select the dish, not to
+    // write it. hekmo leaves some too. We count them for the order of magnitude.
     for (let i = 0; i < nSlots; i++) if (!cites.has(i)) muets++;
     const nu = des.replace(/\{\d+_\w+\}/g, ' ');
     if (FR.test(nu)) {
-      console.log(`AVERT   ${dn}  description : reste de français ? « ${des.slice(0, 70)} »`);
+      console.log(`WARN    ${dn}  description: leftover French? "${des.slice(0, 70)}"`);
       avert++;
     }
   }
 }
 
-console.log(`\n${defs} plats vérifiés — ${erreurs} erreur(s), ${avert} avertissement(s), ${muets} slot(s) non cités`);
+console.log(`\n${defs} dishes checked — ${erreurs} error(s), ${avert} warning(s), ${muets} slot(s) not cited`);

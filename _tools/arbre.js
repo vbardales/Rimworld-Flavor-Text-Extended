@@ -1,4 +1,4 @@
-// Construit l'arbre des FlavorCategoryDef (hekmo + le nôtre) et l'expose.
+// Builds the FlavorCategoryDef tree (hekmo's + ours) and exposes it.
 const fs=require('fs'),path=require('path');
 function catBlocks(xml){return xml.match(/<FlavorText\.FlavorCategoryDef>[\s\S]*?<\/FlavorText\.FlavorCategoryDef>/g)||[];}
 function load(FT){

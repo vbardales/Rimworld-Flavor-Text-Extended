@@ -1,18 +1,18 @@
-// Extrait le français des Defs vers le DefInjected du mod français.
+// Extracts the French from the Defs into the French mod's DefInjected.
 //
-//   node _tools/scinder.js <dossier du mod francais>
+//   node _tools/scinder.js <French mod folder>
 //
-// À LANCER AVANT de traduire les Defs en anglais : c'est ce script qui met à l'abri
-// les 896 labels et descriptions français actuellement écrits en dur dans les defs.
-// Une fois les Defs passées à l'anglais, la source française n'existe plus ailleurs.
+// RUN BEFORE translating the Defs into English: this script is what preserves
+// the 896 French labels and descriptions currently hard-coded in the defs.
+// Once the Defs are switched to English, the French source exists nowhere else.
 //
-// Un fichier de sortie par fichier de defs, pour que la correspondance reste lisible :
+// One output file per defs file, so that the correspondence stays readable:
 //   Defs/FlavorDefs_FR_Regions.xml  ->  DefInjected/FlavorText.FlavorDef/Ext_Regions.xml
 const fs = require('fs');
 const path = require('path');
 
 const OUT = process.argv[2];
-if (!OUT) { console.error('usage : node _tools/scinder.js <dossier du mod francais>'); process.exit(1); }
+if (!OUT) { console.error('usage: node _tools/scinder.js <French mod folder>'); process.exit(1); }
 const dest = path.join(OUT, 'Languages', 'French', 'DefInjected', 'FlavorText.FlavorDef');
 fs.mkdirSync(dest, { recursive: true });
 
@@ -37,12 +37,12 @@ for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x))
   const nom = 'Ext_' + f.replace(/^FlavorDefs_FR_/, '').replace(/^FlavorDefs_/, '');
   const entete = `<?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Traduction française des plats ajoutés par Flavor Text Extended.
-  Généré depuis ${f} par _tools/scinder.js — ne pas éditer à la main.
+  French translation of the dishes added by Flavor Text Extended.
+  Generated from ${f} by _tools/scinder.js -- do not edit by hand.
 
-  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
-  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
-  defs portent l'anglais.
+  These texts used to be hard-coded in the defs, which displayed them
+  in French whatever the game language. They now live here, and the
+  defs carry the English.
 -->
 <LanguageData>
 
@@ -54,5 +54,5 @@ ${lignes.join('\n')}
   totalFichiers++;
 }
 
-console.log(`${totalDefs} defs extraites vers ${totalFichiers} fichiers`);
-if (sansDescription.length) console.log(`  sans description (${sansDescription.length}) : ${sansDescription.slice(0, 5).join(', ')}`);
+console.log(`${totalDefs} defs extracted to ${totalFichiers} files`);
+if (sansDescription.length) console.log(`  without description (${sansDescription.length}):${sansDescription.slice(0, 5).join(', ')}`);

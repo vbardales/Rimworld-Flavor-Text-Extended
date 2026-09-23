@@ -1,25 +1,25 @@
-// Applique aux Defs les traductions anglaises fournies en TSV, et vérifie que rien
-// n'est perdu au passage.
+// Applies to the Defs the English translations supplied as TSV, and checks that nothing
+// is lost along the way.
 //
-//   node _tools/en.js <fichier.tsv>          applique
-//   node _tools/en.js <fichier.tsv> --essai  montre ce qui serait fait, sans écrire
+//   node _tools/en.js <file.tsv>          applies
+//   node _tools/en.js <file.tsv> --essai  shows what would be done, without writing
 //
-// Format TSV, une ligne par plat, tabulations réelles :
-//   defName <TAB> label anglais <TAB> description anglaise
+// TSV format, one line per dish, real tab characters:
+//   defName <TAB> English label <TAB> English description
 //
-// Les emplacements {N_form} doivent être IDENTIQUES à ceux du français : même index,
-// même suffixe. Le script refuse la ligne sinon — c'est la seule erreur qui casse
-// silencieusement l'affichage en jeu, donc elle est bloquante et non signalée.
+// The {N_form} slots must be IDENTICAL to those of the French: same index,
+// same suffix. The script rejects the line otherwise -- it is the only error that silently
+// breaks the in-game display, so it is blocking rather than merely reported.
 const fs = require('fs');
 const path = require('path');
 
 const tsv = process.argv[2];
 const essai = process.argv.includes('--essai');
-if (!tsv) { console.error('usage : node _tools/en.js <fichier.tsv> [--essai]'); process.exit(1); }
+if (!tsv) { console.error('usage: node _tools/en.js <file.tsv> [--essai]'); process.exit(1); }
 
 const slots = t => [...String(t).matchAll(/\{(\d+_\w+)\}/g)].map(m => m[1]).sort().join(',');
 
-// index : defName -> fichier
+// index: defName -> file
 const index = {};
 for (const f of fs.readdirSync('./Mod/Defs').filter(x => /^FlavorDefs_/.test(x))) {
   for (const m of fs.readFileSync(path.join('./Mod/Defs', f), 'utf8').matchAll(/<defName>([\w.-]+)<\/defName>/g))
@@ -31,9 +31,9 @@ const parFichier = {}, erreurs = [];
 
 for (const l of lignes) {
   const [dn, lab, des] = l.split('\t');
-  if (!dn || !lab || !des) { erreurs.push(`${dn || '?'} : ligne mal formée (3 colonnes attendues)`); continue; }
+  if (!dn || !lab || !des) { erreurs.push(`${dn || '?'}: malformed line (3 columns expected)`); continue; }
   const f = index[dn];
-  if (!f) { erreurs.push(`${dn} : defName inconnu`); continue; }
+  if (!f) { erreurs.push(`${dn}: unknown defName`); continue; }
   (parFichier[f] = parFichier[f] || []).push({ dn, lab, des });
 }
 
@@ -43,12 +43,12 @@ for (const f in parFichier) {
   for (const { dn, lab, des } of parFichier[f]) {
     const bloc = new RegExp('(<defName>' + dn + '</defName>[\\s\\S]*?)</FlavorText\\.FlavorDef>');
     const m = xml.match(bloc);
-    if (!m) { erreurs.push(`${dn} : bloc introuvable dans ${f}`); continue; }
+    if (!m) { erreurs.push(`${dn}: block not found in ${f}`); continue; }
     const frLab = (m[1].match(/<label>([\s\S]*?)<\/label>/) || [])[1];
     const frDes = (m[1].match(/<description>([\s\S]*?)<\/description>/) || [])[1];
-    if (frLab === undefined || frDes === undefined) { erreurs.push(`${dn} : label ou description absent`); continue; }
-    if (slots(frLab) !== slots(lab)) { erreurs.push(`${dn} : emplacements du label différents — fr [${slots(frLab)}] en [${slots(lab)}]`); continue; }
-    if (slots(frDes) !== slots(des)) { erreurs.push(`${dn} : emplacements de la description différents — fr [${slots(frDes)}] en [${slots(des)}]`); continue; }
+    if (frLab === undefined || frDes === undefined) { erreurs.push(`${dn}: label or description missing`); continue; }
+    if (slots(frLab) !== slots(lab)) { erreurs.push(`${dn}: label slots differ — fr [${slots(frLab)}] en [${slots(lab)}]`); continue; }
+    if (slots(frDes) !== slots(des)) { erreurs.push(`${dn}: description slots differ — fr [${slots(frDes)}] en [${slots(des)}]`); continue; }
     const neuf = m[1].replace(/<label>[\s\S]*?<\/label>/, '<label>' + lab + '</label>')
                      .replace(/<description>[\s\S]*?<\/description>/, '<description>' + des + '</description>');
     xml = xml.replace(m[1], neuf);
@@ -57,5 +57,5 @@ for (const f in parFichier) {
   if (!essai) fs.writeFileSync(path.join('./Mod/Defs', f), xml, 'utf8');
 }
 
-for (const e of erreurs) console.log('ERREUR  ' + e);
-console.log(`${nb}/${lignes.length} plats traduits${essai ? ' (essai, rien écrit)' : ''} — ${erreurs.length} erreur(s)`);
+for (const e of erreurs) console.log('ERROR   ' + e);
+console.log(`${nb}/${lignes.length} dishes translated${essai ? ' (dry run, nothing written)' : ''} — ${erreurs.length} error(s)`);

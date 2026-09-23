@@ -1,5 +1,5 @@
-// Couverture des paires en tenant compte de l'ARBRE : une def qui déclare FT_Pear
-// sert aussi la paire Cheese × Fruit, puisque FT_Fruit est un ancêtre de FT_Pear.
+// Pair coverage taking the TREE into account: a def that declares FT_Pear
+// also serves the Cheese × Fruit pair, since FT_Fruit is an ancestor of FT_Pear.
 const fs=require('fs'),path=require('path');
 const FT=process.argv[2], CIBLE=process.argv[3];
 const T=require('./arbre.js').load(FT);
@@ -19,7 +19,7 @@ function defsOf(dir){
 }
 const all=[...defsOf('./Mod/Defs'),...defsOf(FT)];
 
-// expansion vers les ancêtres
+// expansion to the ancestors
 const exp=s=>{const o=new Set();for(const c of s)for(const a of T.anc(c))o.add(a);return o;};
 const served=new Map(); // "A|B" -> [labels]
 for(const d of all){
@@ -31,13 +31,13 @@ for(const d of all){
       if(served.get(k).length<4 && !served.get(k).includes(d.label))served.get(k).push(d.label);
     }
 }
-// combien de defs mentionnent chaque catégorie (descendance comprise)
+// how many defs mention each category (descendants included)
 const pop={};
 for(const d of all){const e=exp(d.slots.flat());for(const c of e)pop[c]=(pop[c]||0)+1;}
 
 const cible=CIBLE;
-console.log(`\n=== ${cible} : ancêtres = ${[...T.anc(cible)].join(' > ')}`);
-console.log(`=== présent dans ${pop[cible]||0} defs\n`);
+console.log(`\n=== ${cible}: ancestors = ${[...T.anc(cible)].join(' > ')}`);
+console.log(`=== present in ${pop[cible]||0} defs\n`);
 const rencontres=[],manques=[];
 for(const c of T.all){
   if(c===cible||T.anc(cible).has(c)||T.desc(cible).has(c))continue;
@@ -45,7 +45,7 @@ for(const c of T.all){
   if(served.has(k)) rencontres.push([c,served.get(k)]);
   else if((pop[c]||0)>=6) manques.push([c,pop[c]||0]);
 }
-console.log(`— RENCONTRE DÉJÀ (${rencontres.length}) :`);
+console.log(`— ALREADY MEETS (${rencontres.length}):`);
 console.log('  '+rencontres.map(([c,l])=>c.replace(/^FT_/,'')).sort().join(', '));
-console.log(`\n— NE RENCONTRE JAMAIS, alors que la catégorie est servie ≥6 fois (${manques.length}) :`);
+console.log(`\n— NEVER MEETS, although the category is served >=6 times (${manques.length}):`);
 for(const [c,n] of manques.sort((a,b)=>b[1]-a[1])) console.log(`  ${String(n).padStart(4)}  ${c.replace(/^FT_/,'')}`);

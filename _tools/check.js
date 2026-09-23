@@ -1,8 +1,8 @@
-// Contrôle les labels traduits contre les defs d'origine.
-// Attrape les trois fautes qui ne se voient pas à la relecture :
-//   - un defName qui n'existe pas (faute de frappe -> traduction silencieusement ignorée)
-//   - un {N_...} qui pointe vers un slot d'ingrédient inexistant -> placeholder affiché brut
-//   - un slot obligatoire jamais utilisé, alors que l'anglais s'en servait
+// Checks the translated labels against the original defs.
+// Catches the three faults that proofreading does not reveal:
+//   - a defName that does not exist (typo -> translation silently ignored)
+//   - a {N_...} pointing to a nonexistent ingredient slot -> placeholder displayed raw
+//   - a required slot that is never used, while the English used it
 const fs = require('fs');
 const path = require('path');
 
@@ -18,37 +18,37 @@ for (const f of (fs.existsSync(DIR) ? fs.readdirSync(DIR) : []).filter(x => x.en
   for (const m of xml.matchAll(/<([A-Za-z0-9_\-]+)\.label>([^<]*)<\/\1\.label>/g)) {
     const [, name, fr] = m;
     const d = byName[name];
-    if (!d) { console.log(`ERREUR  ${f}  defName inconnu : ${name}`); erreurs++; continue; }
-    if (seen.has(name)) { console.log(`ERREUR  ${f}  doublon : ${name}`); erreurs++; }
+    if (!d) { console.log(`ERROR   ${f}  unknown defName: ${name}`); erreurs++; continue; }
+    if (seen.has(name)) { console.log(`ERROR   ${f}  duplicate: ${name}`); erreurs++; }
     seen.add(name);
 
     const used = new Set();
     for (const p of fr.matchAll(/\{(\d+)_([a-z]+)\}/g)) {
       const i = Number(p[1]);
       used.add(i);
-      if (!SUFFIXES.has(p[2])) { console.log(`ERREUR  ${name}  suffixe inconnu : {${p[1]}_${p[2]}}`); erreurs++; }
+      if (!SUFFIXES.has(p[2])) { console.log(`ERROR   ${name}  unknown suffix: {${p[1]}_${p[2]}}`); erreurs++; }
       if (i >= d.slots.length) {
-        console.log(`ERREUR  ${name}  slot ${i} inexistant (la def n'a que ${d.slots.length} ingrédient(s))`);
+        console.log(`ERROR   ${name}  slot ${i} does not exist (the def has only ${d.slots.length} ingredient(s))`);
         console.log(`        en: ${d.label}`);
         console.log(`        fr: ${fr}`);
         erreurs++;
       }
     }
-    // L'anglais citait un slot que le français ignore : perte d'information, pas forcément une faute.
+    // The English cited a slot that the French ignores: information loss, not necessarily a fault.
     const enUsed = new Set([...d.label.matchAll(/\{(\d+)_/g)].map(x => Number(x[1])));
     for (const i of enUsed) if (!used.has(i)) {
-      console.log(`AVERT   ${name}  slot ${i} présent en anglais, absent en français`);
+      console.log(`WARN    ${name}  slot ${i} present in English, absent in French`);
       console.log(`        en: ${d.label}`);
       console.log(`        fr: ${fr}`);
       avert++;
     }
     if (/\{[^}]*\}/.test(fr.replace(/\{\d+_[a-z]+\}/g, ''))) {
-      console.log(`ERREUR  ${name}  accolade mal formée : ${fr}`); erreurs++;
+      console.log(`ERROR   ${name}  malformed brace: ${fr}`); erreurs++;
     }
   }
 }
 
 const manquants = defs.filter(d => !seen.has(d.defName));
-console.log(`\n${seen.size}/${defs.length} labels traduits — ${erreurs} erreur(s), ${avert} avertissement(s)`);
+console.log(`\n${seen.size}/${defs.length} labels translated — ${erreurs} error(s), ${avert} warning(s)`);
 if (process.argv[2] === '--manquants') console.log(manquants.map(d => d.defName).join('\n'));
 process.exit(erreurs ? 1 : 0);
