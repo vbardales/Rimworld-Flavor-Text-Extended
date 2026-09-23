@@ -127,7 +127,7 @@
 		<label>eel in green sauce</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
-			<li><categories><li>FT_Vegetable</li></categories></li>
+			<li><categories><li>FT_LeafyVeg</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
 		<description>lengths of eel poached in white {2_plur} in a mass of green herbs — sorrel, watercress, spinach — until the sauce takes their colour. Served cold.</description>

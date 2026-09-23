@@ -259,7 +259,7 @@
 		<defName>FlavorTextFR_DaigakuImo</defName>
 		<label>daigaku imo</label>
 		<ingredients>
-			<li><categories><li>FT_RootVeg</li></categories></li>
+			<li><categories><li>FT_Yam</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
 		</ingredients>
@@ -289,7 +289,7 @@
 		<defName>FlavorTextFR_Takuan</defName>
 		<label>takuan</label>
 		<ingredients>
-			<li><categories><li>FT_RootVeg</li></categories></li>
+			<li><categories><li>FT_Turnip</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
