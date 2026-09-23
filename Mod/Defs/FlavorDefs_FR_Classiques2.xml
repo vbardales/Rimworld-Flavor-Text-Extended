@@ -70,7 +70,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Bone</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a whole piece of {0_adj} cooked on its bone and carved in front of you. The flesh against the bone is the best of it, and the last to be served.</description>
 		<mealKinds>
@@ -97,7 +97,7 @@
 		<label>poulet Gaston Gérard</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
 		<description>{0_coll} browned under a {1_adj} and {2_adj} sauce. The story goes that the wife of the mayor of Dijon knocked the paprika tin over the dish and improvised the rest.</description>
@@ -141,8 +141,8 @@
 		<label>{0_adj} shank</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>the small muscle of the shank, braised so long that it slides off the bone. One shank a guest, never fewer.</description>
 		<mealKinds>
@@ -155,7 +155,7 @@
 		<label>{0_adj} chops</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>best-end chops grilled two minutes a side, rubbed with {1_plur} and finished with {2_plur}. Eaten by the bone in the hand, once the fork has been given up.</description>
@@ -170,7 +170,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Rabbit</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
-			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>{0_coll} jointed and fried, then stewed with {1_plur} and {2_plur}, deglazed with white wine and lifted with tarragon.</description>
 		<mealKinds>
@@ -183,7 +183,7 @@
 		<label>jugged hare</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Rabbit</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 			<li><categories><li>FT_Blood</li></categories></li>
 		</ingredients>
 		<description>game {0_coll} marinated three days, braised with whole {1_coll}, the sauce thickened with the blood and the crushed liver. Blacker and stronger than that of the farmed rabbit.</description>
@@ -253,7 +253,7 @@
 		<label>veal Orloff</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
 		<description>a roast of {0_adj} sliced and then rebuilt, each slice parted from the next by a {2_adj} and onion purée, the whole napped with {1_plur} and browned. Created for a Russian prince posted to Paris.</description>
@@ -269,7 +269,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>thin escalopes of {0_adj} rolled around a {1_adj} stuffing, tied and braised with {2_coll}. They were called headless larks, until people looked at them a little more closely.</description>
 		<mealKinds>
@@ -285,7 +285,7 @@
 		<ingredients>
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} hollowed out, salted and turned over to drain, stuffed with minced {1_plur} and {2_plur}, baked on a bed of rice that drinks up the juices.</description>
 		<mealKinds>
@@ -300,7 +300,7 @@
 		<ingredients>
 			<li><categories><li>FT_Squash</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} split and hollowed, the flesh taken out and chopped with {1_coll} and put back inside, the whole browned with {2_plur}.</description>
 		<mealKinds>
@@ -330,7 +330,7 @@
 		<ingredients>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>a whole cabbage blanched and opened leaf by leaf, packed with {1_plur} between every layer, then closed up in a cloth and poached for hours. It is cut into wedges, like a cake.</description>
 		<mealKinds>
@@ -361,7 +361,7 @@
 		<ingredients>
 			<li><categories><li>FT_Broccoli</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} blanched in salted water and drained a long while, then napped with a {1_adj} béchamel and browned with {2_plur}. Badly drained, the gratin gives up its water and falls apart.</description>
 		<mealKinds>
@@ -375,7 +375,7 @@
 		<ingredients>
 			<li><categories><li>FT_Leek</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} split in four and washed down to the last grain of sand, melted in butter then drowned in {1_plur} and browned with {2_plur}.</description>
 		<mealKinds>
@@ -389,7 +389,7 @@
 		<ingredients>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} braised in butter with a pinch of sugar to cut the bitterness, rolled up in {1_plur}, napped with béchamel and browned with {2_plur}.</description>
 		<mealKinds>
@@ -448,7 +448,7 @@
 		<defName>FlavorTextFR_CroqueMadame</defName>
 		<label>croque-madame</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
@@ -477,7 +477,7 @@
 		<label>onion tart</label>
 		<ingredients>
 			<li><categories><li>FT_Onion</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
 		<description>{0_coll} stewed an hour without taking any colour, mixed with smoked {2_plur} and spread over a shortcrust base. Alsatian or Lyonnais, according to the hand that made it.</description>
@@ -491,7 +491,7 @@
 		<label>pâté en croûte</label>
 		<ingredients>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Offal</li></categories></li>
 		</ingredients>
 		<description>a stuffing of {0_adj} and {2_adj} built into a terrine of pastry, baked with a chimney, then filled with jelly through that hole once it has cooled. Cut clean, cold, never warm.</description>
@@ -505,7 +505,7 @@
 		<defName>FlavorTextFR_VolAuVent</defName>
 		<label>vol-au-vent</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
