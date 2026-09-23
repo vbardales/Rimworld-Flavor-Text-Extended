@@ -52,7 +52,7 @@
 		<defName>FlavorTextFR_Fattouche</defName>
 		<label>fattoush</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cucumber</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
@@ -80,9 +80,9 @@
 		<defName>FlavorTextFR_Taboule</defName>
 		<label>tabbouleh</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
-			<li><categories><li>FT_Cilantro</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a mountain of herbs chopped by knife, {1_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere.</description>
 		<mealKinds>
