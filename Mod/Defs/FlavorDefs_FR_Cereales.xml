@@ -25,7 +25,7 @@
 		<ingredients>
 			<li><categories><li>FT_Amaranth</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
-			<li><categories><li>FT_Nut</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
 		</ingredients>
 		<description>{0_coll} burst over a low flame in {1_plur} until the grains split and give up their mucilage, finished with crushed {2_adj}. It thickens enormously as it cools.</description>
 		<mealKinds>
@@ -38,7 +38,7 @@
 		<label>alegría</label>
 		<ingredients>
 			<li><categories><li>FT_Amaranth</li></categories></li>
-			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Seed</li></categories></li>
 		</ingredients>
 		<description>{0_coll} popped grain by grain on a scorching plate, bound with hot {1_plur} and toasted {2_plur} and pressed into a bar. The name means joy, and it has been sold since the Conquest.</description>
@@ -82,7 +82,7 @@
 		<ingredients>
 			<li><categories><li>FT_Amaranth</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} toasted dry before it is moistened with stock, with a fondue of {2_adj} and {1_coll} taken in the pan. The grain stays minute but cracks under the tooth, which rice does not.</description>
 		<mealKinds>
@@ -95,7 +95,7 @@
 		<label>rajgira ladoo</label>
 		<ingredients>
 			<li><categories><li>FT_Amaranth</li></categories></li>
-			<li><categories><li>FT_SugarFromPlants</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>popped {0_coll} rolled into balls by hand in a {1_adj} syrup taken to the soft crack with clarified {2_plur}. They are shaped scalding hot: cold, they no longer hold.</description>
@@ -113,7 +113,7 @@
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>pearl {0_coll} moistened ladle after ladle like a risotto, bound off the heat with grated {2_plur}, with a panful of {1_adj}. It stands the cooking far better than rice and forgives a wandering mind.</description>
 		<mealKinds>
@@ -141,7 +141,7 @@
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
-			<li><categories><li>FT_Turnip</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{1_coll} from the neck simmered with pearl {0_coll}, yellow {2_coll} and leek, skimmed often. Eaten as a broth on the first day and with a fork on the second.</description>
 		<mealKinds>
@@ -183,7 +183,7 @@
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Cucumber</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>pearl {0_coll} cooked and then cooled straight down, mixed with diced {2_plur}, crumbled {1_plur} and a great deal of herbs. Dress it warm: cold, it takes up nothing at all.</description>
 		<mealKinds>
@@ -197,7 +197,7 @@
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
-			<li><categories><li>FT_Bean</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
 		</ingredients>
 		<description>{1_coll} cooked with pressed {0_coll} and soaked {2_coll}, all in the same water. It was the food of the lean years, and has become a restaurant order.</description>
 		<mealKinds>
@@ -239,7 +239,7 @@
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Leek</li></categories></li>
-			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
 		<description>pearl {0_coll} sweated in stock with a fondue of {1_adj} brought on very gently, mounted with {2_plur} at the end. White and green go together here, contrary to the usual rule.</description>
 		<mealKinds>
@@ -255,7 +255,7 @@
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} rinsed at length to strip its bitter saponin, then brought on like a risotto with {1_coll} and bound with {2_plur}. The germ unwinds into a ring: that is the sign it is cooked.</description>
 		<mealKinds>
@@ -269,7 +269,7 @@
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Pomegranate</li></categories></li>
-			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cooled out flat, mixed with the seeds of {1_adj} and shredded {2_plur}, with a thread of sharp molasses. The seeds burst in the middle of something that does not crunch: that is the whole point.</description>
 		<mealKinds>
@@ -283,7 +283,7 @@
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
 		</ingredients>
 		<description>{0_coll} fried in a very hot wok with an omelette of {1_adj} cut into ribbons, ginger and {2_coll}. Cantonese fried rice carried up into the Andes, with the grain of the place.</description>
 		<mealKinds>
@@ -311,7 +311,7 @@
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_BellPepper</li></categories></li>
-			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>{1_coll} hollowed and blanched, filled with {0_adj} bound with a crushed {2_adj}, then baked until the skin wrinkles. Served in their own cooking juices.</description>
 		<mealKinds>
@@ -339,7 +339,7 @@
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cooked then bound with beaten {1_plur} and grated {2_plur}, shaped with a spoon and seared on both sides. They hold together badly while hot: let them settle before turning them.</description>
 		<mealKinds>
@@ -352,7 +352,7 @@
 		<label>quinoa tabbouleh</label>
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
-			<li><categories><li>FT_Lemon</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
 		<description>a great deal more parsley than {0_adj}, with {2_coll} seeded and cut into the smallest dice and the juice of {1_adj}. The grain here is the seasoning of the herb, never the other way about.</description>
@@ -367,7 +367,7 @@
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Avocado</li></categories></li>
-			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>cold {0_coll}, {1_coll} cut at the last moment and a dressing of green {2_plur} and coriander. The avocado crushes a little against the grains, and that is what binds the salad.</description>
 		<mealKinds>
@@ -397,7 +397,7 @@
 		<ingredients>
 			<li><categories><li>FT_Millet</li></categories></li>
 			<li><categories><li>FT_Peanut</li></categories></li>
-			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>the same {0_adj} paste, dipped this time into a sauce of long-pounded {1_adj} cooked in {2_plur} until the oil rises to the surface. That is the sign that it is ready.</description>
 		<mealKinds>
@@ -425,7 +425,7 @@
 		<ingredients>
 			<li><categories><li>FT_Millet</li></categories></li>
 			<li><categories><li>FT_Yogurt</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>a gruel of cracked {0_adj} left to sour a whole night, let down with beaten {1_plur} and salted, drunk straight from the bowl with raw {2_coll} and a chilli. Taken before daybreak, against the heat to come.</description>
 		<mealKinds>
@@ -454,7 +454,7 @@
 		<ingredients>
 			<li><categories><li>FT_Millet</li></categories></li>
 			<li><categories><li>FT_Lentil</li></categories></li>
-			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cracked in a mortar and cooked under a lid with split {1_coll}, doused with clarified {2_plur} as it is served. A winter dish of the desert, where the eating is fat because the nights freeze.</description>
 		<mealKinds>
@@ -468,7 +468,7 @@
 		<ingredients>
 			<li><categories><li>FT_Millet</li></categories></li>
 			<li><categories><li>FT_Pumpkin</li></categories></li>
-			<li><categories><li>FT_Date</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
 		</ingredients>
 		<description>{0_coll} burst for an hour in a great deal of water with {1_coll} in cubes that falls apart, and whole red {2_coll}. A yellow film forms on the surface: that is the part given to the sick.</description>
 		<mealKinds>
@@ -481,7 +481,7 @@
 		<label>bajra roti</label>
 		<ingredients>
 			<li><categories><li>FT_Millet</li></categories></li>
-			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
 		<description>a thick cake of {0_adj}, worked with hot water and chopped {1_coll}, patted out between the palms for want of being able to roll it, and cooked straight on the embers before it is rubbed with {2_plur}.</description>
@@ -496,7 +496,7 @@
 		<ingredients>
 			<li><categories><li>FT_Millet</li></categories></li>
 			<li><categories><li>FT_Vegetable</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} toasted dry until it smells of hazelnut, then swelled in stock with {1_coll} cut small and a fondue of {2_adj}. It doubles in volume and drinks up twice its own weight.</description>
 		<mealKinds>
