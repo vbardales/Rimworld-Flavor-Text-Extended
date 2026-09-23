@@ -33,7 +33,7 @@
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Chestnut</li></categories></li>
-			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>{0_coll} blanched then sweated in {2_plur} with whole {1_coll} already cooked, which half fall apart and sweeten the dish. The side of the year-end table.</description>
 		<mealKinds>
@@ -163,7 +163,7 @@
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
-			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>{0_coll} fried and then shaken in a {1_adj} vinegar sauce emulsified with {2_plur}. The chicken-wing recipe, applied to a vegetable nobody used to like.</description>
 		<mealKinds>

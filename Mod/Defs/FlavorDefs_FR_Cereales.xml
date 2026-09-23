@@ -25,7 +25,7 @@
 		<ingredients>
 			<li><categories><li>FT_Amaranth</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
-			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
 		<description>{0_coll} burst over a low flame in {1_plur} until the grains split and give up their mucilage, finished with crushed {2_adj}. It thickens enormously as it cools.</description>
 		<mealKinds>
@@ -197,7 +197,7 @@
 		<ingredients>
 			<li><categories><li>FT_Barley</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
-			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+			<li><categories><li>FT_Bean</li></categories></li>
 		</ingredients>
 		<description>{1_coll} cooked with pressed {0_coll} and soaked {2_coll}, all in the same water. It was the food of the lean years, and has become a restaurant order.</description>
 		<mealKinds>
@@ -283,7 +283,7 @@
 		<ingredients>
 			<li><categories><li>FT_Quinoa</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+			<li><categories><li>FT_Soy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} fried in a very hot wok with an omelette of {1_adj} cut into ribbons, ginger and {2_coll}. Cantonese fried rice carried up into the Andes, with the grain of the place.</description>
 		<mealKinds>
@@ -454,7 +454,7 @@
 		<ingredients>
 			<li><categories><li>FT_Millet</li></categories></li>
 			<li><categories><li>FT_Lentil</li></categories></li>
-			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cracked in a mortar and cooked under a lid with split {1_coll}, doused with clarified {2_plur} as it is served. A winter dish of the desert, where the eating is fat because the nights freeze.</description>
 		<mealKinds>
