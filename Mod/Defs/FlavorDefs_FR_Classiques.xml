@@ -74,7 +74,7 @@
 		<label>bœuf à la mode</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
-			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
 		<description>a cut of {0_adj} larded and barded, braised whole with {1_coll} and {2_coll} and a calf's foot that sets the juices to jelly once cold.</description>
@@ -89,7 +89,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>the {0_adj} left over from the pot-au-feu, sliced and reheated in a {1_adj} sauce with vinegar and mustard. A dish born of thrift and kept on for the taste of it.</description>
 		<mealKinds>
@@ -105,7 +105,7 @@
 		<ingredients>
 			<li><categories><li>FT_Offal</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} poached for hours then peeled while still hot — cold, the skin will not come away — served under a {1_adj} sauce with vinegar and gherkins.</description>
 		<mealKinds>
@@ -119,7 +119,7 @@
 		<ingredients>
 			<li><categories><li>FT_Offal</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} rolled and poached in a white broth, served warm under a sauce built on hard-boiled {1_adj} yolks, lifted with capers and herbs. You either eat it or you do not; there is no middle ground.</description>
 		<mealKinds>
@@ -132,7 +132,7 @@
 		<label>tripes à la mode de Caen</label>
 		<ingredients>
 			<li><categories><li>FT_Offal</li></categories></li>
-			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
 		<description>{0_coll} and an ox foot shut into a tripe pot sealed with pastry, with {1_coll} and {2_coll}, and left in the oven for ten hours.</description>
@@ -147,7 +147,7 @@
 		<ingredients>
 			<li><categories><li>FT_Offal</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a piece of {0_adj} marinated in white wine, crumbed with {1_plur} and breadcrumbs, then grilled. The name comes from a marshal of Lyon who had been a sapper in his youth.</description>
 		<mealKinds>
@@ -161,7 +161,7 @@
 		<label>pieds et paquets</label>
 		<ingredients>
 			<li><categories><li>FT_Offal</li></categories></li>
-			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
 		<description>squares of {0_adj} stuffed with {2_plur}, garlic and parsley, sewn shut one by one, and stewed in {1_plur} with lamb's trotters. Marseille and Sisteron each claim it as their own.</description>
@@ -189,7 +189,7 @@
 		<label>calf's liver with parsley</label>
 		<ingredients>
 			<li><categories><li>FT_Offal</li></categories></li>
-			<li><categories><li>FT_Garlic</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>a slice of {0_adj} fried in {2_plur} cooked to hazelnut, one minute a side, then thrown into finely chopped {1_plur} and parsley.</description>
@@ -220,7 +220,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>an andouillette grilled until the skin splits open, with {1_coll} in batons and a spoonful of mustard. You either love it or you leave the table.</description>
 		<mealKinds>
@@ -235,7 +235,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Lentil</li></categories></li>
-			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} salted in coarse salt and then soaked out overnight, stewed with {1_coll} and {2_coll}. The lentils are never salted before the end, or they stay hard.</description>
 		<mealKinds>
@@ -249,7 +249,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>smoked {0_coll} poached, painted over with {1_plur} and breadcrumbs, then run under the grill until it crusts. À la diable means only this: mustarded and scalding.</description>
 		<mealKinds>
@@ -281,7 +281,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a whole bird rubbed with {1_plur} and {2_plur}, roasted turned onto each thigh in turn before it finishes on its back. The juice that runs from the carcass at carving is worth any sauce.</description>
 		<mealKinds>
@@ -310,7 +310,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
-			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>{0_coll} fried and then stewed with {1_plur}, {2_plur} and tarragon, in a sauce deglazed with white wine.</description>
 		<mealKinds>
@@ -380,7 +380,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Turnip</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} braised with {1_coll} glazed in the rendered fat and whole {2_coll}. The turnip drinks up the fat of the duck: that is the whole pairing.</description>
 		<mealKinds>
@@ -394,7 +394,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
-			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>{0_coll} braised in a {2_adj} stock, with {1_coll} blanched to draw out their salt before they go in.</description>
 		<mealKinds>
@@ -410,7 +410,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Turnip</li></categories></li>
-			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} seared then dusted with a little flour, braised with {1_coll} and {2_coll} cut into cloves. The name is said to come from the turnip, or from the battle — both versions circulate.</description>
 		<mealKinds>
