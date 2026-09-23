@@ -24,7 +24,7 @@
 		<defName>FlavorTextFR_Udon</defName>
 		<label>udon</label>
 		<ingredients>
-			<li><categories><li>FT_Grain</li></categories></li>
+			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Kelp</li></categories></li>
 			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
