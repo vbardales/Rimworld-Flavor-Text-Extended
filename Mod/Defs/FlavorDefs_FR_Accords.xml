@@ -101,7 +101,7 @@
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} and small {1_adj} pasta shaped like grains of rice, pearled together with {2_coll} before the stock goes in. Two starches in one pan, and two textures at the end of it.</description>
 		<mealKinds>
@@ -117,7 +117,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
-			<li><categories><li>FT_BellPepper</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>cubes of {0_adj} and {1_adj} threaded alternately with {2_coll}, on separate rods: the two meats do not cook at the same rate, and grilling them together is the beginner's mistake.</description>
 		<mealKinds>
@@ -131,7 +131,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>two vertical spits side by side, one of {0_adj}, the other of {1_adj}, shaved off as they cook and rolled together into a {2_adj} bread. The customer who cannot decide takes both.</description>
 		<mealKinds>
@@ -205,7 +205,7 @@
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>basmati {0_coll} turned in clarified {1_coll} with whole spices — cinnamon, clove, cardamom, bay — then swelled in boiling water. Called neychoru in Kerala, where it goes with the feasts.</description>
 		<mealKinds>
@@ -219,7 +219,7 @@
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
-			<li><categories><li>FT_Yogurt</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
 		<description>the bottom of the pot: {0_coll} mixed with {2_plur} and saffron, packed down into melted {1_coll} and left over a low flame until it forms a golden crust, turned out onto the dish in one piece. That is the part people quarrel over.</description>
 		<mealKinds>
@@ -263,7 +263,7 @@
 		<label>tom kha</label>
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
-			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
 		<description>a {0_adj} milk infused with galangal, lemongrass and kaffir lime leaves, in which {1_coll} and {2_coll} poach. Galangal is not ginger and cannot be replaced: it is what makes the dish.</description>
@@ -292,7 +292,7 @@
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
-			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{1_coll} braised very slowly in a {0_adj} milk and a {2_adj} paste, until the milk breaks and the oil rises. From there on, the meat fries in its own sauce.</description>
 		<mealKinds>
@@ -306,7 +306,7 @@
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Flour</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a {0_adj} milk sweetened with {1_plur} and bound with a {2_adj} starch, poured out in a sheet and left to set in the cold, then cut into squares that are eaten with the fingers. The dessert of the Hawaiian lūʻau.</description>
 		<mealKinds>
@@ -350,7 +350,7 @@
 		<ingredients>
 			<li><categories><li>FT_Coconut</li></categories></li>
 			<li><categories><li>FT_Lentil</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} blended with toasted {1_coll} and a little water, then woken up with a tempering: mustard seed and curry leaves burst in scalding oil and poured over the top. It goes with the dosa.</description>
 		<mealKinds>
@@ -365,7 +365,7 @@
 		<label>citrus and fennel salad</label>
 		<ingredients>
 			<li><categories><li>FT_Citrus</li></categories></li>
-			<li><categories><li>FT_Olive</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cut down to the flesh and sliced into rounds, with fennel shaved on the mandoline, {2_coll} and black {1_coll}. Oil, pepper, nothing more: the acidity of the fruit stands in for vinegar.</description>
@@ -379,8 +379,8 @@
 		<label>preserved lemons</label>
 		<ingredients>
 			<li><categories><li>FT_Citrus</li></categories></li>
-			<li><categories><li>FT_Olive</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} split in a cross, packed with coarse salt and pressed into a jar where they give up their juice over a month, with {2_plur} and under a layer of {1_adj} oil. Only the peel is used; the pulp is thrown away.</description>
 		<mealKinds>
@@ -422,7 +422,7 @@
 		<ingredients>
 			<li><categories><li>FT_Citrus</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
-			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
 		<description>{1_coll} roasted and brushed at the end of the cooking with a mixture of {2_adj} and reduced juice of {0_adj}, painted on three times over. The glaze burns in no time at all: it goes on only at the very end.</description>
 		<mealKinds>
