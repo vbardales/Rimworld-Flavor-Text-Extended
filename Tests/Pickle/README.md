@@ -3,7 +3,7 @@
 Load-time scenarios for Flavor Text Extended, played inside a running RimWorld by
 [Pickle](https://github.com/RimWorks/Rimworld-Pickle) (`rimworks.pickle`, Workshop 3791648678).
 
-**Status, 2026-09-22: `sans-facultatifs` 10 passed / 1 skipped (T7 was then opt-in), `sans-odyssey` 3 of 3 again with PickleTools ExpansionSteps, `avec-facultatifs` 6 of 6 on its rerun (the first run's one failure was a wrong assertion), and T7 passed alone.** Reports are preserved in `results/` because the shared `pickle-reports/` directory is overwritten by the next run. See `../../TESTS.md`, "Pickle passes" and "What has run", for what each pass shows and does not show. Step ownership is described below.
+**Status, 2026-09-22: `without-optionals` 10 passed / 1 skipped (T7 was then opt-in), `without-odyssey` 3 of 3 again with PickleTools ExpansionSteps, `with-optionals` 6 of 6 on its rerun (the first run's one failure was a wrong assertion), and T7 passed alone.** Reports are preserved in `results/` because the shared `pickle-reports/` directory is overwritten by the next run. See `../../TESTS.md`, "Pickle passes" and "What has run", for what each pass shows and does not show. Step ownership is described below.
 
 ## What is here, and why it needs the game
 
@@ -24,15 +24,15 @@ over the machine, so nothing here restates one of them. What is left:
 
 | Pass | `-DepMap` | `-Filter` | What it stages |
 |---|---|---|---|
-| **sans-facultatifs** | *(none)* | `01-alone.feature,03-cooking.feature,04-filing.feature` | Core, DLCs, Harmony, RimLogging, Pickle, Flavor Text, this mod |
-| **sans-odyssey** | `wsl-deps.sans-odyssey.map` | `05-sans-odyssey.feature` | the bare pass with one DLC left out of ModsConfig |
-| **avec-facultatifs** | `wsl-deps.avec-facultatifs.map` | `02-avec-facultatifs.feature` | the above, plus VV New Harvest, RimLife Cultivation Plus, RimLife Expansion Trading and its framework |
+| **without-optionals** | *(none)* | `01-alone.feature,03-cooking.feature,04-filing.feature` | Core, DLCs, Harmony, RimLogging, Pickle, Flavor Text, this mod |
+| **without-odyssey** | `wsl-deps.without-odyssey.map` | `05-without-odyssey.feature` | the bare pass with one DLC left out of ModsConfig |
+| **with-optionals** | `wsl-deps.with-optionals.map` | `02-with-optionals.feature` | the above, plus VV New Harvest, RimLife Cultivation Plus, RimLife Expansion Trading and its framework |
 | **workshop-captures** | `wsl-deps.workshop-captures.map` | `06-workshop-captures.feature` | the minimal pass plus PickleTools ScreenshotMode and ScreenshotStudio; produces three review screenshots of the meal cards over Nelim's central Zen Meadow emblem, with the HUD and Pickle panels hidden |
 
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -Filter 01-alone.feature,03-cooking.feature,04-filing.feature
-powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.sans-odyssey.map -Filter 05-sans-odyssey.feature
-powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.avec-facultatifs.map -Filter 02-avec-facultatifs.feature
+powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.without-odyssey.map -Filter 05-without-odyssey.feature
+powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.with-optionals.map -Filter 02-with-optionals.feature
 powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.workshop-captures.map -Filter 06-workshop-captures.feature
 ```
 
@@ -84,7 +84,7 @@ repository. Reports land in `<rimworld>/pickle-reports`, as for every mod.
   map and checked across a reload) and the category-filing steps (`… is filed under …`). They are written for this mod and read
   as general; PickleTools' README lists them under "Steps that live in a suite", so another mod knows where to find them.
 - **PickleTools**, staged by the pass map: `nelim.pickletools.expansions` (`PickleTools/ExpansionSteps`) gives the two steps
-  `Nelim's Pickle Tools: the expansion … is [not] active` used by `05-sans-odyssey`. They started here and moved on 2026-09-21.
+  `Nelim's Pickle Tools: the expansion … is [not] active` used by `05-without-odyssey`. They started here and moved on 2026-09-21.
 
 ## The step assembly
 

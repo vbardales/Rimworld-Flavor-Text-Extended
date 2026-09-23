@@ -19,7 +19,7 @@ licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 maintainer:    current Codex task for this repository
 updated:      2026-09-23
-tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: sans-facultatifs 10/10 (+ T7 alone 1/1), sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun. Reports in Tests/Pickle/results/."
+tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: without-optionals 10/10 (+ T7 alone 1/1), without-odyssey 3/3, with-optionals 6/6 on its rerun. Reports in Tests/Pickle/results/."
 workshop:     3806100152
 remaining:
   - "pending: after hekmo's report, all 901 dishes were reviewed and 295 ingredient slots widened offline (2026-09-23, commits Triage: ... on main, not pushed; CHANGELOG Unreleased). checkdefs 0 errors, verifen 0/0, config check 908/908 all pass, but no Pickle pass has run on this revision: the evidence above is about the v1.0.0 build. Needs the owner's go for a ticket, then a full pass (all scenarios, no @wip left, conditional scenarios run)."
@@ -28,7 +28,7 @@ remaining:
   - "note: the FRENCH section's link now points at the companion's Workshop item (3806100488), matching what the owner put live. That item returned Steam's private-item error page when checked anonymously on 2026-09-22: the link will not work for visitors until it is switched to public."
   - "note: git history does not cleanly attribute Claude vs ChatGPT/Codex. 34 of 81 commits carry no AI co-author trailer, and the split does not follow date or content (some same-day translation commits have a Claude trailer, some do not). ATTRIBUTION.md says this plainly rather than guessing a boundary."
   - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
-  - "validated: the sans-Odyssey rerun on 2026-09-22 passed 3/3 with the two expansion assertions supplied by PickleTools ExpansionSteps. Evidence is in Tests/Pickle/results/2026-09-22-sans-odyssey-pickletools/."
+  - "validated: the sans-Odyssey rerun on 2026-09-22 passed 3/3 with the two expansion assertions supplied by PickleTools ExpansionSteps. Evidence is in Tests/Pickle/results/2026-09-22-without-odyssey-pickletools/."
   - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
 ---
@@ -37,11 +37,11 @@ remaining:
 
 ## PickleTools expansion rerun — 2026-09-22
 
-The owner requested the deferred `05-sans-odyssey.feature` rerun after publication. The WSL launcher staged
+The owner requested the deferred `05-without-odyssey.feature` rerun after publication. The WSL launcher staged
 `nelim.pickletools.expansions` and excluded Odyssey. Pickle reported 3 passed, 0 failed, 0 skipped and
 `exitReason: passed`. Its first scenario exercised both PickleTools expansion assertions: Odyssey inactive and
 Ideology active. The report, JUnit result, event stream and Player.log are retained in
-`Tests/Pickle/results/2026-09-22-sans-odyssey-pickletools/`. This closes the prior unverified step migration.
+`Tests/Pickle/results/2026-09-22-without-odyssey-pickletools/`. This closes the prior unverified step migration.
 
 ## Workshop capture delivery — 2026-09-22
 
@@ -189,7 +189,7 @@ confirm the remote tag, `HEAD` and `origin/main` are the same commit. Release pu
 body taken verbatim from `CHANGELOG.md`'s `## 1.0.0` section:
 https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0 (not a draft, not a prerelease).
 
-Also attempted: requeuing `05-sans-odyssey.feature` to confirm the PickleTools `ExpansionSteps` wiring. The owner's
+Also attempted: requeuing `05-without-odyssey.feature` to confirm the PickleTools `ExpansionSteps` wiring. The owner's
 own Windows RimWorld was running (pid 39292); `Run-PickleWsl.ps1` refused immediately, exit 2, "Sa partie Windows
 tourne" (the launcher's own message, "her Windows game is running"). Correct behaviour, not retried, and not queued to wait: AUDIT.md's absolute rule is that a session never
 launches or interrupts that install. The owner then said explicitly not to requeue it now: the rerun is deferred
@@ -250,7 +250,7 @@ Before the first upload:
    feature captures a medium-boiled egg. No generated screenshots or capture report were found.
 2. Confirm the AI provenance/roles stated in About.xml and ATTRIBUTION.md; finish the owner's
    description and thanks review, including the unidentified Korean cuisine inspiration.
-3. Rerun `05-sans-odyssey.feature` with the PickleTools dependency map to close the harness check.
+3. Rerun `05-without-odyssey.feature` with the PickleTools dependency map to close the harness check.
 4. Commit and push the final publication documents, then tag v1.0.0 and publish the GitHub
    release using the changelog. This audit does not authorize or perform publication.
 5. Upload only Mod/. Immediately preserve and commit Mod/About/PublishedFileId.txt, test the
@@ -292,17 +292,17 @@ The `@wip` scenario (four ingredients become two dishes) ran alone on a ticket w
 `Tests/Pickle/results/2026-09-21-t7-wip/`. The Pickle session confirmed beforehand that the flag works in the staged
 Pickle, so nothing had to be integrated first. Every scenario of the suite has now run and passed once.
 
-## avec-facultatifs rerun — 2026-09-21, green
+## with-optionals rerun — 2026-09-21, green
 
 After the leek fix the pass ran again on a ticket: **6 of 6, 23 steps of 23, `exitReason: passed`**, report and log in
-`Tests/Pickle/results/2026-09-21-avec-facultatifs-rerun/`. Flavor Text read 1025 active of 1831. The rule of two passes
+`Tests/Pickle/results/2026-09-21-with-optionals-rerun/`. Flavor Text read 1025 active of 1831. The rule of two passes
 is met, plus the DLC-off pass. One `[ERROR]` in that log: a Unity/FMOD audio error naming no def, absent from both
 passes without the providers, so it comes from one of them and not from this mod.
 
 ## Pickle runs — 2026-09-21
 
-Three passes ran on tickets, headless in the WSL: **sans-facultatifs 10 passed / 1 skipped (@wip), sans-odyssey 3/3,
-avec-facultatifs 5 passed / 1 failed**, every `exitReason` read before the numbers. Details, what they prove and what they
+Three passes ran on tickets, headless in the WSL: **without-optionals 10 passed / 1 skipped (@wip), without-odyssey 3/3,
+with-optionals 5 passed / 1 failed**, every `exitReason` read before the numbers. Details, what they prove and what they
 do not, are in TESTS.md "What has run"; reports and logs are in `Tests/Pickle/results/`.
 
 - **T2 answered:** the game kept Odyssey out, the mod loaded, zero `[ERROR]` in that log.
@@ -317,8 +317,8 @@ do not, are in TESTS.md "What has run"; reports and logs are in `Tests/Pickle/re
 
 The Pickle headless-mode session added two staging features (commit `bf996076` in the workspace repository): a
 `!ludeon.rimworld.odyssey` line in a pass map leaves that DLC out of ModsConfig, and a `packageId path:<folder>`
-line stages a local mod. The first is used here: `Tests/Pickle/wsl-deps.sans-odyssey.map` and
-`05-sans-odyssey.feature` (3 scenarios: the game really has no Odyssey, asked twice; the mod loads and the
+line stages a local mod. The first is used here: `Tests/Pickle/wsl-deps.without-odyssey.map` and
+`05-without-odyssey.feature` (3 scenarios: the game really has no Odyssey, asked twice; the mod loads and the
 four guarded meats raise nothing; the reptile categories stay declared and Core's two meats stay filed).
 Two steps join the assembly (`the expansion ... is [not] active`, via `ModsConfig.IsActive`). Written, never run.
 
@@ -340,7 +340,7 @@ meal's name or a category's contents, so there is now a step assembly, `Tests/Pi
   `FlavorTextFR_OeufMollet`, rice-pork-egg gives `FlavorTextFR_Katsudon`, both with the expected label).
   Flavor Text's postfix is real; no tick passes. The four-ingredient case (T7) is `@wip`: nothing establishes
   that a lone fourth ingredient always finds a dish.
-- `02-avec-facultatifs.feature` gains two scenarios: the eight provider ingredients named by the patches
+- `02-with-optionals.feature` gains two scenarios: the eight provider ingredients named by the patches
   are filed where the patches send them (T10), and leek is filed under leek and not under onion (T8).
 - `Tests/Pickle/Check-Steps.ps1` (copied from Bill Autopilot's): all patterns compile under Pickle's own
   expression engine, none declared twice, every feature line resolves. No game.
@@ -353,10 +353,10 @@ fails with that name in the message, which would be a finding, not necessarily a
 
 ## First Pickle run — 2026-09-21
 
-Bare pass (`sans-facultatifs`, `-Filter 01-alone.feature`), queued through `Run-PickleWsl.ps1` on a ticket
+Bare pass (`without-optionals`, `-Filter 01-alone.feature`), queued through `Run-PickleWsl.ps1` on a ticket
 and played headless in the WSL game once the queue reached it (lock held 18:48:13 to 18:49:44, local time).
 **`exitReason: passed`, 5 scenarios of 5 in the one feature file, 20 steps of 20 PASSED, exit code 0.**
-Twelve mods staged. That first report was pruned once the full-suite run replaced it: see `Tests/Pickle/results/2026-09-21-sans-facultatifs-full/` and the one-line history in `docs/runs/2026-09-21-pruned-runs.md`.
+Twelve mods staged. That first report was pruned once the full-suite run replaced it: see `Tests/Pickle/results/2026-09-21-without-optionals-full/` and the one-line history in `docs/runs/2026-09-21-pruned-runs.md`.
 
 - The engine line read `641 active FlavorDefs ... out of 1831 total FlavorDefs`; 1831 = 930 + 901.
 - No `[ERROR]` line. No `[WARN]` attributed to this mod. Two `[Vanilla]` warnings: Steamworks (no Steam
@@ -377,7 +377,7 @@ stay as the record of why `done` had been withdrawn.
 
 - `Tests/Pickle/`: a companion mod `Flavor Text Extended - Pickle tests` (never published), two
   feature files (5 + 4 scenarios, 34 steps), `wsl-ids.map` naming Flavor Text's Workshop id, and
-  `wsl-deps.avec-facultatifs.map` for the second pass. Every step is a built-in Pickle step: all 34
+  `wsl-deps.with-optionals.map` for the second pass. Every step is a built-in Pickle step: all 34
   match a pattern found in `RimWorks.Pickle.Core.dll` (checked by matching the text, not by a game).
   Nothing uses a custom step assembly.
 - `TESTS.md`, "Pickle passes": what Pickle is for here (T1 and T3 made scriptable, what an offline

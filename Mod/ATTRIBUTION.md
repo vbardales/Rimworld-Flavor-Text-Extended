@@ -101,8 +101,8 @@ warning or an error to the mod that logged it. Both are development-only: neithe
 distributed mod, and neither is staged or loaded when a player subscribes to it.
 
 **PickleTools** is this author's own shared testing toolkit, a separate unpublished repository used across
-several mods. The `sans-odyssey` pass stages its `ExpansionSteps` (`nelim.pickletools.expansions`,
-`Tests/Pickle/wsl-deps.sans-odyssey.map`) to read `ModsConfig` and confirm an excluded DLC stays excluded.
+several mods. The `without-odyssey` pass stages its `ExpansionSteps` (`nelim.pickletools.expansions`,
+`Tests/Pickle/wsl-deps.without-odyssey.map`) to read `ModsConfig` and confirm an excluded DLC stays excluded.
 Development-only, like Pickle and RimLogging above.
 
 ## Licence

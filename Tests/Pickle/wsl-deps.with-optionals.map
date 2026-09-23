@@ -1,6 +1,6 @@
 # The pass WITH the optional providers, selected by name:
 #
-#   -DepMap wsl-deps.avec-facultatifs.map
+#   -DepMap wsl-deps.with-optionals.map
 #
 # Named, not wsl-deps.map, so that the bare pass exists: the staging reads an unnamed wsl-deps.map on
 # EVERY pass, and a suite that kept that name could never prove the mod stands alone.

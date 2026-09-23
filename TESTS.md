@@ -119,7 +119,7 @@ is what a Flavor Text update that renames a category would produce.
 
 ### T2 - It loads without Odyssey
 
-**Played by Pickle since 2026-09-21** as `05-sans-odyssey.feature`, pass `sans-odyssey` (`-DepMap wsl-deps.sans-odyssey.map`,
+**Played by Pickle since 2026-09-21** as `05-without-odyssey.feature`, pass `without-odyssey` (`-DepMap wsl-deps.without-odyssey.map`,
 which leaves the DLC out of ModsConfig). Rerun 3/3 on 2026-09-22 with the expansion steps supplied by PickleTools.
 The manual version below stays as the fallback reading of the same expectation.
 
@@ -349,7 +349,7 @@ that an offline tool proves is repeated in Gherkin: `Test-Xml.ps1`, `checkdefs.j
 provider references. What only a running game can show is T1 and T3 of this plan, made scriptable:
 the two mods loaded in order, the defs reaching the database under this mod, the patches landing
 once every other mod has had its turn, and a load that logs nothing. Five scenarios in `01-alone`,
-six in `02-avec-facultatifs`.
+six in `02-with-optionals`.
 
 **Added later the same day:** T5 and T6 (a meal gets a name, a three-ingredient dish fires),
 T7 (four ingredients), T8 (leek has its own category), T9 (the reptile meats are told apart) and
@@ -369,9 +369,9 @@ category's contents:
 
 | Family | Passes | What it proves |
 |---|---|---|
-| Without the optional mods | **1**, `sans-facultatifs`, `-Filter 01-alone.feature,03-cooking.feature,04-filing.feature` | the mod stands on Flavor Text alone: T3, observed rather than assumed; meals named; reptile meats told apart |
-| With the optional mods | **1**, `avec-facultatifs`, `-DepMap wsl-deps.avec-facultatifs.map -Filter 02-avec-facultatifs.feature` | the guarded `<li>` entries resolve, and the ingredients they name land in the right categories, when VV New Harvest, RimLife Cultivation Plus and RimLife Expansion Trading are there |
-| Without one DLC | **1**, `sans-odyssey`, `-DepMap wsl-deps.sans-odyssey.map -Filter 05-sans-odyssey.feature` | T2: the four Odyssey-only reptile meats, guarded by `MayRequire`, raise nothing when the DLC is off |
+| Without the optional mods | **1**, `without-optionals`, `-Filter 01-alone.feature,03-cooking.feature,04-filing.feature` | the mod stands on Flavor Text alone: T3, observed rather than assumed; meals named; reptile meats told apart |
+| With the optional mods | **1**, `with-optionals`, `-DepMap wsl-deps.with-optionals.map -Filter 02-with-optionals.feature` | the guarded `<li>` entries resolve, and the ingredients they name land in the right categories, when VV New Harvest, RimLife Cultivation Plus and RimLife Expansion Trading are there |
+| Without one DLC | **1**, `without-odyssey`, `-DepMap wsl-deps.without-odyssey.map -Filter 05-without-odyssey.feature` | T2: the four Odyssey-only reptile meats, guarded by `MayRequire`, raise nothing when the DLC is off |
 | Workshop evidence | **1**, `workshop-captures`, `-DepMap wsl-deps.workshop-captures.map -Filter 06-workshop-captures.feature` | produces the three cards that a human opens and orders; PickleTools ScreenshotMode removes HUD and Pickle chrome, and restores it after each scenario |
 | One per declared incompatibility | **0** | nothing in `About.xml` or the README declares one |
 
@@ -385,7 +385,7 @@ Odyssey meats exist for.
 
 **Not covered by Pickle, and why.**
 - T2 was here once, for want of a way to leave a DLC out. The staging now takes a `!ludeon.rimworld.odyssey`
-  line in a pass map, and T2 is `05-sans-odyssey`.
+  line in a pass map, and T2 is `05-without-odyssey`.
 - The walk of a real cook to a real stove. The suite plays T5 to T9 and T12 as described above, without
   simulating ticks; T12 puts meals on the map, saves, reloads and finds each by its id.
 - **T4: not tested, on purpose.** The game's own reaction to a missing dependency is RimWorld's
@@ -423,12 +423,12 @@ Three passes ran on 2026-09-21, queued on tickets, headless in the WSL game. Rep
 
 | Pass | Result | Where |
 |---|---|---|
-| sans-facultatifs (`01`, `03`, `04`, with T7 then tagged `@wip` and skipped) | **10 passed, 0 failed, 1 skipped, `exitReason: passed`**. 01 also ran alone earlier, 5/5. | `2026-09-21-sans-facultatifs-full/` |
-| sans-odyssey (`05`) | **3 of 3, `exitReason: passed`** | `2026-09-21-sans-odyssey/` |
-| sans-odyssey (`05`), rerun with PickleTools ExpansionSteps | **3 of 3, `exitReason: passed`**. Odyssey inactive and Ideology active were asserted by the shared steps. | `2026-09-22-sans-odyssey-pickletools/` |
+| without-optionals (`01`, `03`, `04`, with T7 then tagged `@wip` and skipped) | **10 passed, 0 failed, 1 skipped, `exitReason: passed`**. 01 also ran alone earlier, 5/5. | `2026-09-21-without-optionals-full/` |
+| without-odyssey (`05`) | **3 of 3, `exitReason: passed`** | `2026-09-21-without-odyssey/` |
+| without-odyssey (`05`), rerun with PickleTools ExpansionSteps | **3 of 3, `exitReason: passed`**. Odyssey inactive and Ideology active were asserted by the shared steps. | `2026-09-22-without-odyssey-pickletools/` |
 | T7 alone (then tagged `@wip`, `-IncludeWip`, `-Filter '::four ingredients become two dishes'`) | **1 of 1, 6 steps of 6, `exitReason: passed`**, zero `[ERROR]` in the log. A meal from rice, pork, egg and potato carried two dishes at once, at least once in 50 cooks. The tag was removed after this evidence. | `2026-09-21-t7-wip/` |
-| avec-facultatifs (`02`), first run | 5 passed, 1 failed, `exitReason: failed`: a wrong assertion of mine, see below | `2026-09-21-avec-facultatifs/` |
-| avec-facultatifs (`02`), rerun after the fix | **6 of 6, 23 of 23 steps, `exitReason: passed`**. Flavor Text read `1025 active FlavorDefs ... out of 1831`. One `[ERROR]` in the log, a Unity/FMOD audio error naming no def, present in this pass and absent from the two without providers, so it comes from one of them and not from this mod. | `2026-09-21-avec-facultatifs-rerun/` |
+| with-optionals (`02`), first run | 5 passed, 1 failed, `exitReason: failed`: a wrong assertion of mine, see below | `2026-09-21-with-optionals/` |
+| with-optionals (`02`), rerun after the fix | **6 of 6, 23 of 23 steps, `exitReason: passed`**. Flavor Text read `1025 active FlavorDefs ... out of 1831`. One `[ERROR]` in the log, a Unity/FMOD audio error naming no def, present in this pass and absent from the two without providers, so it comes from one of them and not from this mod. | `2026-09-21-with-optionals-rerun/` |
 
 What they show, and what they do not:
 - **T2 is answered.** The game kept Odyssey out (asked twice: `ModsConfig.IsActive` and the mod list; this was the open

@@ -1,7 +1,7 @@
-# The pass WITH the optional providers, staged from Tests/Pickle/wsl-deps.avec-facultatifs.map:
+# The pass WITH the optional providers, staged from Tests/Pickle/wsl-deps.with-optionals.map:
 # VV New Harvest, RimLife Cultivation Plus and RimLife Expansion Trading (with its own framework).
 #
-# Run in the pass named `avec-facultatifs` only, with `-Filter 02-avec-facultatifs.feature`: its
+# Run in the pass named `with-optionals` only, with `-Filter 02-with-optionals.feature`: its
 # first scenario asserts that the providers are present, and 01 asserts the opposite. Its point is the opposite of 01: with the mods
 # present, the guarded <li> entries stop being dropped and have to RESOLVE. A name that no longer
 # exists in a provider is the failure this mod is exposed to, and it shows as a red line at load:

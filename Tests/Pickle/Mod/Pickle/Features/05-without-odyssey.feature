@@ -8,7 +8,7 @@
 #
 # The two "expansion" steps come from PickleTools (ExpansionSteps), staged by the pass map.
 #
-# Run it with -DepMap wsl-deps.sans-odyssey.map -Filter 05-sans-odyssey.feature, in English. Played in
+# Run it with -DepMap wsl-deps.without-odyssey.map -Filter 05-without-odyssey.feature, in English. Played in
 # a pass that has Odyssey, its first scenario fails, on purpose: that is what says the pass really
 # left the DLC out.
 #

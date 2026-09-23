@@ -27,7 +27,7 @@ Decided from the sources, not from intent.
   `FlavorText.FlavorCategoryDef`, the patches edit Flavor Text's own categories, and Flavor Text declares Harmony itself, so
   this mod declares none. It is listed in `modDependencies` with its Workshop URL.
 - **No DLC is required.** Four of the six reptile meats belong to Odyssey and are referenced only behind
-  `MayRequire="ludeon.rimworld.odyssey"` on each entry. The pass without Odyssey (`Tests/Pickle`, `05-sans-odyssey`)
+  `MayRequire="ludeon.rimworld.odyssey"` on each entry. The pass without Odyssey (`Tests/Pickle`, `05-without-odyssey`)
   loaded the mod with zero errors, and the game kept the DLC out. Making Odyssey required would exclude everyone without it
   for 13 dishes out of 901, so it stays optional.
 - **Optional, deliberately not declared** (each is a `MayRequire` on a list entry, the mod does nothing for it when absent):

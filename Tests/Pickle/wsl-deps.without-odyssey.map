@@ -1,10 +1,10 @@
 # The pass WITHOUT Odyssey (TESTS.md T2), selected by name:
 #
-#   -DepMap wsl-deps.sans-odyssey.map -Filter 05-sans-odyssey.feature
+#   -DepMap wsl-deps.without-odyssey.map -Filter 05-without-odyssey.feature
 #
 # A line starting with '!' leaves that DLC out of ModsConfig for this pass. Its Data folder stays,
 # so what is switched off is the activation, nothing else. Core and typos are refused by the staging.
-# The report carries the pass name, taken from this file name: sans-odyssey.
+# The report carries the pass name, taken from this file name: without-odyssey.
 #
 # Nothing else is staged: this is the bare pass, minus one DLC. Whether the game KEEPS the DLC out
 # of a loaded save is the open question of this pass; 05 asks the game itself, twice.
