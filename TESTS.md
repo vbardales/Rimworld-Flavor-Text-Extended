@@ -310,6 +310,33 @@ providers without a supported 1.6 build remain unverified rather than becoming a
 Settings values, input bounds and MainButtons customization/persistence are not applicable:
 this extension adds neither settings nor a shortcut.
 
+### Evidence to keep
+
+Root `AGENTS.md`, "Test evidence", governs. In short, for this mod:
+
+- **Per scenario, keep the latest report for the revision now in the repository.** A report about a
+  superseded build proves nothing about the current one: delete it as soon as a newer run replaces
+  it. Keep an older report only when it is the sole proof of a check the latest run did not repeat
+  (today: `2026-09-21-t7-wip`, the only run of the `@wip` T7).
+- **What a kept report holds:** `summary.md`, `summary.json`, `junit.xml`, `Player.log` and
+  `messages.ndjson`, a few kilobytes in all. `report.html` is optional. These sit in
+  `Tests/Pickle/results/<date>-<pass>/`; the text files of the older runs are tracked, a run with
+  captures is not.
+- **Screenshots and films stay on disk, ignored by git** (`*.dds`, `*.webm`, `screenshots/`,
+  `report.html` are in `.gitignore`), and only for scenarios that actually take captures here
+  (`06-workshop-captures.feature`). Copying Pickle's shared report folder drags in every other
+  mod's screenshots: strip them from the copy, they prove nothing about this mod.
+- **History is one text line per run in `docs/runs/`, never a folder.** Pruning a run adds its line
+  there (`docs/runs/2026-09-21-pruned-runs.md`); a run kept as a folder gets a short summary file
+  (`docs/runs/2026-09-22-f13-fixture-generation.md`).
+- **Never delete a report a `STATUS.md` field still points to:** repoint the field first.
+- **Before deleting, list what goes and what stays.** The disk fills up: a Pickle run can reach a
+  gigabyte.
+
+Conditions to move this mod to `tested`: no scenario left `@wip` (`07-f13-fixture.feature` still is: it
+generates a fixture rather than testing, so it has to leave the suite or lose the tag), every conditional scenario
+(`@requires`, `@review`) has run, no manual test left to validate, all green.
+
 ## Pickle passes
 
 Written 2026-09-21 in `Tests/Pickle/`. Run once so far: the pass without the optional mods, see
