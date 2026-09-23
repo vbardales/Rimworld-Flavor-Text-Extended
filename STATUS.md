@@ -5,8 +5,8 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        published
-stage_meaning: public Workshop publication established; v1.0.0 tag and GitHub release both target the packageId introduction commit 5ba5fe7
+stage:        preTest
+stage_meaning: v1.0.0 is published on the Workshop (tag and GitHub release at packageId introduction commit 5ba5fe7); the unreleased FlavorDef narrowness review (2026-09-23, 295 slots widened, offline checks green) is in preTest and needs its in-game Pickle pass before the next upload
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -177,7 +177,7 @@ own Steam upload, run from her own game) and switched it to public. Confirmed di
 that a missed commit here makes the next upload create a second item. `workshop:` above now carries the id.
 
 **The `prepublished` capture-order criterion was not completed first.** `06-workshop-captures.feature` exists (`6218f89`)
-but has never run, and the item's own Capture d'écran gallery is empty beyond the header `Preview.png`. Real-world
+but has never run, and the item's own Screenshots gallery is empty beyond the header `Preview.png`. Real-world
 publishing happened before that step, on the owner's own sequencing, not this audit's. It is not undone and not
 retried out of order; it is recorded as the one open item of the `published` stage, at the owner's own pace.
 
@@ -191,7 +191,7 @@ https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0 (
 
 Also attempted: requeuing `05-sans-odyssey.feature` to confirm the PickleTools `ExpansionSteps` wiring. The owner's
 own Windows RimWorld was running (pid 39292); `Run-PickleWsl.ps1` refused immediately, exit 2, "Sa partie Windows
-tourne". Correct behaviour, not retried, and not queued to wait: AUDIT.md's absolute rule is that a session never
+tourne" (the launcher's own message, "her Windows game is running"). Correct behaviour, not retried, and not queued to wait: AUDIT.md's absolute rule is that a session never
 launches or interrupts that install. The owner then said explicitly not to requeue it now: the rerun is deferred
 to after publication. It stays a recorded limit, not a `prepublished` blocker.
 
@@ -365,7 +365,7 @@ Twelve mods staged. That first report was pruned once the full-suite run replace
   by name, and attributes patches on the latter to this mod.
 - **Not proved:** anything on a list with the providers (that pass has not run), the DLC-off case, dish
   names actually drawn while cooking, the French text, any screenshot. A first attempt, the same
-  morning's ticket 34848, died with `Indexation impossible dans un tableau Null` inside the shared
+  morning's ticket 34848, died with `Indexation impossible dans un tableau Null` (PowerShell's localized "cannot index into a null array") inside the shared
   `Run-PickleWsl.ps1` before taking the lock; it ran nothing. The re-queued ticket did not reproduce it.
 - Stage unchanged: `done`. `tested` also needs the second pass and the user's T1-T14 walk.
 

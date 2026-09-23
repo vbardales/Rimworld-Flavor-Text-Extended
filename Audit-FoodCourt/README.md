@@ -1,55 +1,55 @@
-# Comparaison avec le registre FoodCourt — 2026-09-13
+# Comparison with the FoodCourt registry — 2026-09-13
 
-Le registre révèle des pistes supplémentaires. Il ne démontre pas que toutes ses entrées
-doivent devenir des plats Flavor Text : les ThingDef alimentaires et les FlavorDef de noms
-générés sont deux objets différents.
+The registry reveals additional leads. It does not show that all of its entries should
+become Flavor Text dishes: food ThingDefs and the FlavorDefs for generated names are two
+different objects.
 
-## Résultats
+## Results
 
-- Registre du 2026-09-13 à 13:02:45 : **11 339 entrées**, **10 989 couples packageId/defName**.
-- Référence comparée : **930 plats Flavor Text + 896 plats Extended**, **177 catégories**.
-- **663 entrées** ont une référence explicite dans les catégories examinées.
-- **9 507 entrées** ont au moins une piste lexicale ; ce chiffre chevauche le précédent.
-- **1 794 entrées** n'ont ni référence explicite ni piste lexicale, dont **294 ingrédients bruts**.
-- Parmi **2 880 entrées de plats préparés**, **98** ont un libellé identique après normalisation
-  à un plat Flavor Text/Extended. Les autres ne sont pas automatiquement des recettes absentes :
-  variantes, synonymes, ingrédients paramétrés et copies ne sont pas résolus par ce test.
+- Registry of 2026-09-13 at 13:02:45: **11,339 entries**, **10,989 packageId/defName pairs**.
+- Reference compared: **930 Flavor Text dishes + 896 Extended dishes**, **177 categories**.
+- **663 entries** have an explicit reference in the categories examined.
+- **9,507 entries** have at least one lexical lead; this figure overlaps with the previous one.
+- **1,794 entries** have neither an explicit reference nor a lexical lead, including **294 raw ingredients**.
+- Of **2,880 prepared-dish entries**, **98** have a label identical to a Flavor Text/Extended
+  dish after normalization. The others are not automatically missing recipes:
+  variants, synonyms, parameterized ingredients and copies are not resolved by this test.
 
-## Priorités identifiées
+## Identified priorities
 
-| Ingrédient | Fournisseur | Piste à vérifier | Besoin FR |
+| Ingredient | Provider | Lead to check | FR need |
 |---|---|---|---|
-| RawDaBaiCai — 白菜 | Shenzhou actuel | FT_Cabbage : chou chinois | Formes explicites absentes du snapshot FR |
-| RawLianOu — 莲藕 | Shenzhou actuel | FT_Lotus : rhizome de lotus | Idem |
-| RawLvDou — 绿豆 | Shenzhou actuel | Catégorie haricot : haricot mungo | Idem |
-| WorkedFenTiao — 粉条 | Shenzhou et copie FoodCourt | Vérifier catégorie et comportement des vermicelles | Idem |
-| RawZongYe — 粽叶 | Shenzhou, copies locales | Feuilles d'enveloppe des zongzi ; ne pas assimiler sans revue à un légume | Idem |
+| RawDaBaiCai — 白菜 | Current Shenzhou | FT_Cabbage: Chinese cabbage | Explicit forms missing from the FR snapshot |
+| RawLianOu — 莲藕 | Current Shenzhou | FT_Lotus: lotus rhizome | Same |
+| RawLvDou — 绿豆 | Current Shenzhou | Bean category: mung bean | Same |
+| WorkedFenTiao — 粉条 | Shenzhou and FoodCourt copy | Check category and behavior of vermicelli | Same |
+| RawZongYe — 粽叶 | Shenzhou, local copies | Zongzi wrapping leaves; do not treat as a vegetable without review | Same |
 
-Ces lignes n'ont pas de correspondance lexicale/explicite dans les sources examinées.
-Leurs catégories génériques peuvent néanmoins fournir un repli. Les copies EdenGarden du
-chou et du lotus ont des labels anglais reconnus lexicalement : le fournisseur et la langue
-comptent, même lorsque le defName est identique. Les versions Shenzhou du registre sont
-anciennes (1.3/1.5), pas certifiées pour 1.6.
+These rows have no lexical/explicit match in the sources examined.
+Their generic categories can nevertheless provide a fallback. The EdenGarden copies of
+cabbage and lotus have English labels recognized lexically: the provider and the language
+matter, even when the defName is identical. The Shenzhou versions in the registry are
+old (1.3/1.5), not certified for 1.6.
 
-Pour les plats, **Altang, Beondegi, Bungeoppang, Jjapaghuri et Kimchijeon** du registre Korean
-Cuisine n'apparaissent pas sous ces graphies dans les sources Flavor Text/Extended examinées.
-Ce sont des candidats de répertoire : vérifier leurs combinaisons d'ingrédients et les plats
-équivalents avant d'écrire de nouvelles définitions. Aucun contenu tiers n'a été copié dans Mod/.
+For dishes, **Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon** from the Korean
+Cuisine registry do not appear under these spellings in the Flavor Text/Extended sources examined.
+They are repertoire candidates: check their ingredient combinations and the equivalent dishes
+before writing new definitions. No third-party content was copied into Mod/.
 
-## Méthode et limites
+## Method and limits
 
-`../_tools/compare_foodcourt.py` lit le registre, les Defs du Flavor Text installé et les
-Defs/patches Extended. Il exporte `comparison.json` avec provenance, conditions, statut actif,
-catégories explicites, pistes lexicales, catégories de repli et présence de formes FR.
-Le snapshot est identifié par SHA256
+`../_tools/compare_foodcourt.py` reads the registry, the installed Flavor Text Defs and the
+Extended Defs/patches. It exports `comparison.json` with provenance, conditions, active status,
+explicit categories, lexical leads, fallback categories and presence of FR forms.
+The snapshot is identified by SHA256
 `1d43194596ed51375ce0ccde3bccbf8b0fc16d536a74ed66623badc3d14976ea`.
 
-La recherche lexicale est volontairement un filtre de découverte, **pas une simulation du
-moteur** : elle n'exécute ni scores, exclusions héritées, ordre de chargement, traductions,
-ni admissibilité effective d'un ingrédient. Les références gardées sont recensées sans activer
-toutes leurs conditions. Le contrôle FR recense les clés, pas leur activation par package.
-Les sous-chaînes peuvent donner des faux positifs. Le registre inclut copies, mods inactifs,
-intrants non comestibles, et 82 erreurs XML ; les aliments générés par C# peuvent manquer.
+The lexical search is deliberately a discovery filter, **not a simulation of the
+engine**: it runs no scores, inherited exclusions, load order, translations,
+or effective eligibility of an ingredient. Guarded references are counted without activating
+all of their conditions. The FR check counts keys, not their activation per package.
+Substrings can give false positives. The registry includes copies, inactive mods,
+non-edible inputs, and 82 XML errors; foods generated by C# may be missing.
 
-La comparaison n'a modifié ni les plats ni les traductions. Le rapport est transmis à la tâche
-du compagnon FR pour que l'intégration et les formes grammaticales soient coordonnées.
+The comparison changed neither the dishes nor the translations. The report is passed on to the
+FR companion's task so that integration and grammatical forms are coordinated.
