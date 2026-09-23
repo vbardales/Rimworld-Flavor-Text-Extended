@@ -91,7 +91,7 @@
 		<label>narsharab</label>
 		<ingredients>
 			<li><categories><li>FT_Pomegranate</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
 		<description>the Azerbaijani molasses, mounted with {2_plur} and scented with cinnamon, clove and bay. Served with grilled sturgeon, and nothing else will stand in for it.</description>
@@ -150,7 +150,7 @@
 		<label>pomegranate fattoush</label>
 		<ingredients>
 			<li><categories><li>FT_Pomegranate</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cucumber</li></categories></li>
 		</ingredients>
 		<description>flatbread fried and broken up, {2_coll} and herbs, with a dressing of sumac and {0_adj} molasses. The bread must still crack when it reaches the table.</description>
@@ -178,7 +178,7 @@
 		<label>kısır with pomegranate</label>
 		<ingredients>
 			<li><categories><li>FT_Pomegranate</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
 		<description>fine bulgur swelled in hot water and worked by hand with {2_adj} concentrate, mild pepper and {0_adj} molasses. Served in leaves of lettuce.</description>
@@ -252,7 +252,7 @@
 		<ingredients>
 			<li><categories><li>FT_Pomegranate</li></categories></li>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{1_coll} stewed with saffron and cinnamon, the sauce sharpened with the juice of {0_adj} and the fresh seeds sown on only as it is served — cooked, they lose everything.</description>
 		<mealKinds>
@@ -268,7 +268,7 @@
 		<ingredients>
 			<li><categories><li>FT_Pomegranate</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>the dried and ground seeds of wild {0_adj}, pounded with green {1_plur} and coriander. Anardana stands in for tamarind across the whole of northern India.</description>
 		<mealKinds>
@@ -282,7 +282,7 @@
 		<ingredients>
 			<li><categories><li>FT_Pomegranate</li></categories></li>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{1_coll} marinated in the ground seeds of {0_adj}, whose acidity tenderises the flesh, then stewed with dry spices, with neither tomato nor yoghurt.</description>
 		<mealKinds>
