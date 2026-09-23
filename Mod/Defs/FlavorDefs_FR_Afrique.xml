@@ -11,7 +11,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
-			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>{0_coll} stuffed with a hash of herbs and fried, stewed in {2_plur} with vegetables, then {1_coll} cooked in that red broth. The national dish of Senegal, and the ancestor of jambalaya.</description>
 		<mealKinds>
@@ -25,7 +25,7 @@
 		<ingredients>
 			<li><categories><li>FT_Peanut</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
-			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>{1_coll} stewed in a paste of {0_adj} let down with stock and {2_plur}, until the groundnut oil rises to the surface. That is the sign it is ready.</description>
 		<mealKinds>
@@ -37,7 +37,7 @@
 		<defName>FlavorTextFR_Yassa</defName>
 		<label>{0_adj} yassa</label>
 		<ingredients>
-			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
@@ -55,7 +55,7 @@
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
-			<li><categories><li>FT_BellPepper</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cooked smothered in a base of {1_adj} and {2_adj} reduced right down to the bottom of the pot, so that it takes a faint taste of smoke off the metal. Nigeria and Ghana dispute the paternity, with no referee in sight.</description>
 		<mealKinds>
@@ -68,7 +68,7 @@
 		<label>attiéké</label>
 		<ingredients>
 			<li><categories><li>FT_Cassava</li></categories></li>
-			<li><categories><li>FT_Meat_Fish</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
 		<description>{0_coll} grated, fermented, pressed and then steamed into a sour semolina, served with braised {1_plur} and raw {2_plur} with lemon.</description>
@@ -83,7 +83,7 @@
 		<ingredients>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 			<li><categories><li>FT_Peanut</li></categories></li>
-			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
 		</ingredients>
 		<description>bitter {0_coll} boiled and rinsed several times over to draw out the bitterness, worked into a paste of {1_adj} and {2_plur}. The feast dish of Cameroon.</description>
 		<mealKinds>
@@ -97,7 +97,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
-			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{1_coll} cooked dry for a whole hour before any fat goes in at all, then a mixture of {2_adj} and spices, and {0_coll}. One whole hard-boiled egg per guest, scored to take up the sauce.</description>
 		<mealKinds>
@@ -111,7 +111,7 @@
 		<ingredients>
 			<li><categories><li>FT_Lentil</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
-			<li><categories><li>FT_Ginger</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>red {0_coll} melted down in a spiced butter and a mixture of {1_adj}, until they form nothing but a dark purée. Eaten without utensils, pinched up in a spongy flatbread.</description>
 		<mealKinds>
@@ -140,7 +140,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
-			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
 		<description>{0_coll} opened in steam, its liquor strained and kept, with {1_coll} and {2_coll}. Served in a hollowed loaf, whose walls are eaten at the end.</description>
 		<mealKinds>
@@ -154,7 +154,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
-			<li><categories><li>FT_BellPepper</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>{0_coll} and offal cooked and then chopped with {1_plur} and {2_plur}, cased and reheated in steam. Eaten by squeezing the casing to push the filling out, and it is barely chewed at all.</description>
 		<mealKinds>
