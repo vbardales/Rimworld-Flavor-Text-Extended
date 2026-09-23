@@ -41,7 +41,7 @@
 		<defName>FlavorTextFR_Francesinha</defName>
 		<label>francesinha</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
@@ -56,7 +56,7 @@
 		<defName>FlavorTextFR_Bifana</defName>
 		<label>bifana</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
@@ -114,7 +114,7 @@
 		<label>cataplana de marisco</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
-			<li><categories><li>FT_Tomato</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
 		<description>{0_coll} and {2_coll} cooked together in a hinged copper pot clamped shut — no steam escapes, and the dish cooks in its own juices.</description>
@@ -144,7 +144,7 @@
 		<label>sauerbraten</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
 		</ingredients>
 		<description>a joint of {0_adj} marinated in vinegar for a whole week, braised, the sauce thickened with crumbled gingerbread and sweetened with dried {2_plur}.</description>
@@ -172,7 +172,7 @@
 		<label>schweinshaxe</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Cabbage</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
 		<description>a whole knuckle roasted for hours and basted with brown {2_plur}, until the rind becomes a shell that cracks under the knife.</description>
@@ -187,7 +187,7 @@
 		<label>wiener schnitzel</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
 		<description>an escalope of {0_adj} beaten until translucent, crumbed without pressing, and fried in butter with the pan shaken so the coating puffs and lifts off the meat.</description>
@@ -289,7 +289,7 @@
 		<label>tafelspitz</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
-			<li><categories><li>FT_Turnip</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
 		<description>a cut of {0_adj} poached in a broth of roots, served with an {2_adj} sauce of horseradish and apple. Franz Joseph's favourite dish, they say, and he ate it every day.</description>
@@ -378,7 +378,7 @@
 		<label>frikadeller</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
 		<description>{0_coll} minced twice, lightened with flour and {2_adj}, shaped with a spoon into domed patties and fried long and slow in butter.</description>
@@ -449,7 +449,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
-			<li><categories><li>FT_Turnip</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever kept on board.</description>
 		<mealKinds>
@@ -480,7 +480,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>{0_coll} braised in brown {1_plur} until it falls into threads, shut in under a pastry lid that swells and browns in the oven.</description>
 		<mealKinds>
@@ -566,7 +566,7 @@
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>curried {0_coll} folded through flaked smoked fish and hard-boiled eggs. An Indian khichdi carried home by the British and turned by them into a breakfast dish.</description>
 		<mealKinds>
