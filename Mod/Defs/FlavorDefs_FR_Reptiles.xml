@@ -135,7 +135,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Alligator</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
-			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} from the tail in dice, stewed in a roux and {1_coll} with cayenne pepper. The Cajun alligator dish, the one served at the parish fairs.</description>
 		<mealKinds>
@@ -176,7 +176,7 @@
 		<label>cajun alligator bites</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Alligator</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
 		<description>dice of {0_adj} marinated in buttermilk, rolled in a {2_adj} flour with paprika and cayenne, and fried on the spot. Eaten on a toothpick, with a rémoulade.</description>
@@ -296,7 +296,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Lizard</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} jointed and stewed a long while in a spiced {1_adj} milk — its flesh is firm and lean, and gives way only over a low flame.</description>
 		<mealKinds>
@@ -354,7 +354,7 @@
 		<label>fried snake</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Snake</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
 		<description>lengths of {0_adj} rolled in a seasoned flour and fried in {2_plur} to a gold. You eat around the ribs, as you would a corn cob.</description>
