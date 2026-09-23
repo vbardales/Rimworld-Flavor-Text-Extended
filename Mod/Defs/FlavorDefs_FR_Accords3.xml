@@ -61,7 +61,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a {0_adj} tenderloin rubbed with bitter {1_adj}, {2_adj} and smoked chilli, then seared. Pure cocoa behaves here as a spice: bitter, earthy, not sweet at all.</description>
 		<mealKinds>
@@ -122,7 +122,7 @@
 		<ingredients>
 			<li><categories><li>FT_Coffee</li></categories></li>
 			<li><categories><li>FT_RedBean</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a {2_adj} bun whose dough is worked with strong {0_plur}, filled with a sweet {1_adj} paste. The bitterness of the coffee keeps the anko from cloying, which is the whole trouble with plain anpan.</description>
 		<mealKinds>
