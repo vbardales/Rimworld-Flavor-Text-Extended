@@ -53,7 +53,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
-			<li><categories><li>FT_Garlic</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_adj} ribs cut in a concertina so as to marinate faster in {1_plur} and {2_plur}, grilled at the table itself. The grated pear in the marinade tenderises the meat.</description>
 		<mealKinds>
@@ -67,7 +67,7 @@
 		<ingredients>
 			<li><categories><li>FT_Soy</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
-			<li><categories><li>FT_Chili</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a bubbling stew of fermented {0_adj} paste, with {1_coll} and {2_coll}. It arrives still cooking in its earthenware pot, and goes on for ten minutes.</description>
 		<mealKinds>
@@ -79,7 +79,7 @@
 		<defName>FlavorTextFR_Pajeon</defName>
 		<label>pajeon</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
@@ -138,7 +138,7 @@
 		<label>naengmyeon</label>
 		<ingredients>
 			<li><categories><li>FT_Buckwheat</li></categories></li>
-			<li><categories><li>FT_Cucumber</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
 		<description>{0_adj} noodles served in an iced broth, sometimes half frozen, with {1_coll} and half an egg. They are cut with scissors at the table: they are too elastic for teeth.</description>
@@ -168,7 +168,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} sliced thin and fried over a high flame in a {1_adj} paste, with {2_coll}. The sugar of the marinade caramelises and catches: that is the object.</description>
 		<mealKinds>
