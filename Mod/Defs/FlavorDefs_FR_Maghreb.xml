@@ -6,11 +6,11 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TajinePruneaux</defName>
-		<label>{0_adj} tagine with prunes</label>
+		<label>{0_adj} tagine with {1_coll}</label>
 		<ingredients>
-			<li><categories><li>FT_Meat_Mutton</li></categories></li>
-			<li><categories><li>FT_Plum</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cooked for hours in a conical dish that sends the steam back down into it, with candied {1_coll} and {2_coll}. Sweet and savoury do not quarrel here.</description>
 		<mealKinds>
@@ -52,7 +52,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Almond</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>{0_coll} pulled into threads and toasted {1_coll} shut inside sheets of warqa, the whole dusted over with sugar and cinnamon. A savoury dish served under a sweet layer, and nobody finds it strange.</description>
 		<mealKinds>
@@ -93,7 +93,7 @@
 		<defName>FlavorTextFR_Briouates</defName>
 		<label>briouates</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
@@ -153,7 +153,7 @@
 		<ingredients>
 			<li><categories><li>FT_Tea</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>green {0_coll}, a handful of mint, and a great deal more {1_adj} than anyone likes to admit. Poured from a height to raise the foam, and three times rather than once.</description>
 		<mealKinds>
@@ -165,7 +165,7 @@
 		<defName>FlavorTextFR_CouscousRoyal</defName>
 		<label>royal couscous</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Squash</li></categories></li>
 		</ingredients>
@@ -207,7 +207,7 @@
 		<defName>FlavorTextFR_Seffa</defName>
 		<label>seffa</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
@@ -238,7 +238,7 @@
 		<defName>FlavorTextFR_Msemen</defName>
 		<label>msemen</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
