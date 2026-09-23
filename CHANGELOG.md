@@ -1,5 +1,22 @@
 # Changelog
 
+## Unreleased
+
+Dishes now fire much more often. hekmo, the author of Flavor Text, pointed out that a dish only fires when every one of
+its ingredient slots matches something in the cooked meal, and that many of ours asked for very specific ingredients
+(the plum tagine wanted mutton *and* plums *and* a spice). All 901 dishes were reviewed one by one.
+
+- Widen 295 ingredient slots to the broad category they belong to: pastry and bread wheat to grain, spices, garlic,
+  ginger and herbs to condiment, onions, carrots and turnips to root vegetable, cheese to dairy, butter and cream to
+  milk, and so on. Dishes with three specific slots fall from 439 to 268; dishes with at most one rise from 98 to 204.
+- Keep a slot specific when it defines the dish (the meat of a stew, the fruit a chapter of recipes is about, the
+  ingredient in the dish's name) or when the description names it. A broader slot there would have produced a text
+  like "seasoned with potatoes".
+- The plum tagine (`FlavorTextFR_TajinePruneaux`) now takes any raw meat, any fruit and any condiment, and its name
+  follows the fruit actually used instead of always saying "prunes".
+- Fix the sage butter pork chop, whose name and description said sage whatever spice was in the meal.
+- No dish was added or removed, and no def name changed, so existing saves keep their meal names.
+
 ## 1.0.0
 
 First release. The mod was developed against Flavor Text (hekmo) for 1.6; nothing had been published before.

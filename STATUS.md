@@ -18,10 +18,11 @@ xml_tests: passed
 licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 maintainer:    current Codex task for this repository
-updated:      2026-09-22
+updated:      2026-09-23
 tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: sans-facultatifs 10/10 (+ T7 alone 1/1), sans-odyssey 3/3, avec-facultatifs 6/6 on its rerun. Reports in Tests/Pickle/results/."
 workshop:     3806100152
 remaining:
+  - "pending: after hekmo's report, all 901 dishes were reviewed and 295 ingredient slots widened offline (2026-09-23, commits Triage: ... on main, not pushed; CHANGELOG Unreleased). checkdefs 0 errors, verifen 0/0, config check 908/908 all pass, but no Pickle pass has run on this revision: the evidence above is about the v1.0.0 build. Needs the owner's go for a ticket, then a full pass (all scenarios, no @wip left, conditional scenarios run)."
   - "validated: three Workshop gallery captures were generated on 2026-09-22, copied into Art/Workshop-captures/, visually approved and uploaded to the existing Steam Workshop page in their documented order."
   - "validated: v1.0.0 is an annotated tag at 5ba5fe7 (the first commit containing packageId nelim.flavortextextended and version 1.0.0); the GitHub v1.0.0 release explicitly targets that same commit."
   - "note: the FRENCH section's link now points at the companion's Workshop item (3806100488), matching what the owner put live. That item returned Steam's private-item error page when checked anonymously on 2026-09-22: the link will not work for visitors until it is switched to public."
