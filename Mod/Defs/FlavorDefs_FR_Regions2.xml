@@ -55,7 +55,7 @@
 		<label>leek flamiche</label>
 		<ingredients>
 			<li><categories><li>FT_Leek</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>{0_coll} melted in {2_plur} without colour, shut between two sheets of pastry and baked until the top gilds. Picard, and with no cream at all in the original.</description>
@@ -113,7 +113,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Bone</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>trotters poached for forty hours, until the bones turn tender and are eaten along with the rest, then crumbed and grilled. Louis XVI is said to have stopped for them during his flight, which delayed him.</description>
 		<mealKinds>
@@ -127,7 +127,7 @@
 		<label>eel in green sauce</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
-			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
 		<description>lengths of eel poached in white {2_plur} in a mass of green herbs — sorrel, watercress, spinach — until the sauce takes their colour. Served cold.</description>
@@ -213,7 +213,7 @@
 		<label>baked camembert</label>
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
 		<description>a whole box of {0_adj} scored in a cross, stuck with {2_plur} and put into the oven in its own wood until it runs. Bread is dipped into it until there is nothing left.</description>
@@ -229,7 +229,7 @@
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
-			<li><categories><li>FT_Cream</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
 		<description>{0_coll} beaten very long with a whisk, until they foam like a soufflé, and cooked in {1_plur} in a long-handled pan over a wood fire. The exact recipe was never given away.</description>
 		<mealKinds>
@@ -258,7 +258,7 @@
 		<label>scallops à la bretonne</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
 		<description>{0_coll} put back into its shell under garlic and parsley and breadcrumbs in {2_plur}, run under the grill for two minutes. Any longer and it turns to rubber.</description>
@@ -274,7 +274,7 @@
 		<ingredients>
 			<li><categories><li>FT_Buckwheat</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>a grilled sausage rolled in a cold {0_adj} galette, and nothing else — mustard is tolerated, ketchup is disputed. Eaten standing, at the match or at the market.</description>
 		<mealKinds>
@@ -289,7 +289,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
-			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
 		<description>{0_coll} opened and covered with a butter worked with {1_plur} and parsley, put into the oven until the butter bubbles up and runs over the edge.</description>
 		<mealKinds>
@@ -304,7 +304,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} picked out patiently, mixed with its own coral and the yolks of hard-boiled {1_adj}, then packed back into the emptied shell. An hour of work for ten minutes of eating.</description>
 		<mealKinds>
@@ -348,7 +348,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cooked five hours in {1_coll} until it falls apart, pulled with a fork and never ground, then pressed into a pot under a layer of fat that keeps it.</description>
 		<mealKinds>
@@ -363,7 +363,7 @@
 		<ingredients>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a stuffing of {0_adj} shut inside a pastry, with whole hard-boiled eggs lined up down the middle so that a yellow disc appears in every slice.</description>
 		<mealKinds>
@@ -378,7 +378,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Blood</li></categories></li>
-			<li><categories><li>FT_Onion</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} stewed in wine, the sauce thickened with the bird's own blood and liver. Barbouille, for what it leaves on the chin of whoever eats it.</description>
 		<mealKinds>
@@ -452,7 +452,7 @@
 		<ingredients>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Turnip</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{0_coll} and the roots of winter stewed together with smoked and salted {1_coll}. The broth is served first, over bread; the meats come afterwards.</description>
 		<mealKinds>
@@ -495,7 +495,7 @@
 		<defName>FlavorTextFR_SaladeLyonnaise</defName>
 		<label>salade lyonnaise</label>
 		<ingredients>
-			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
