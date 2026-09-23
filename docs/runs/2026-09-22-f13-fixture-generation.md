@@ -9,5 +9,7 @@ Flavor Text Extended but not the French companion, so the saved meals predate it
   `legacy-meals-before-ftfr`.
 - Report preserved before the lock was released at 2026-09-22T23:36:21.
 
-Evidence (about 1.1 GB: 365 screenshots, Player.log, junit.xml, messages.ndjson, report.html) is on
-disk only, in `Tests/Pickle/results/f13-fixture-generation-2026-09-22/`, and ignored by git.
+Evidence kept on disk only, ignored by git: `Tests/Pickle/results/f13-fixture-generation-2026-09-22/`
+(summary, junit, Player.log, messages, report.html; about 1.7 MB). The scenario takes no screenshot: the
+365 screenshots and 31 films that came with the copied report belonged to other mods' scenarios from the
+shared Pickle output folder, proved nothing about this mod, and were deleted from this copy (about 1.1 GB).
