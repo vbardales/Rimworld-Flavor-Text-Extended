@@ -16,7 +16,7 @@
 		<label>artichokes à la barigoule</label>
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
-			<li><categories><li>FT_Meat_Pig</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
 		<description>small violet artichokes turned and split, sweated in {1_plur} with a mirepoix, moistened with white {2_plur} and left to reduce dry. The name comes from a mushroom nobody has put in for two centuries.</description>
@@ -31,7 +31,7 @@
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} boiled whole and head down, served warm with a mustard vinaigrette. You pull the leaves off one by one and scrape the base of each between your teeth; the heart is kept for last.</description>
 		<mealKinds>
@@ -46,7 +46,7 @@
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>{0_coll} cleared of their choke, filled with a {1_adj} stuffing bound with crumb, and braised upright in a little stock until the leaves open of their own accord.</description>
 		<mealKinds>
@@ -63,7 +63,7 @@
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} trimmed down to the tender heart, stuffed with {1_plur} and Roman mint, planted stem upwards in a narrow pan and sweated in oil and water.</description>
 		<mealKinds>
@@ -77,7 +77,7 @@
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
-			<li><categories><li>FT_Lemon</li></categories></li>
+			<li><categories><li>FT_Fruit</li></categories></li>
 		</ingredients>
 		<description>{0_coll} whole fried twice over, crushed between the two fryings so that the leaves open into a flower and turn as brittle as crisps. An invention of the Roman ghetto.</description>
 		<mealKinds>
@@ -92,7 +92,7 @@
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{1_coll} pearled and moistened ladle by ladle, {0_coll} cut into slivers and added in two goes — the first at the start to melt away, the rest at the end to stay firm — then bound with {2_plur}.</description>
 		<mealKinds>
@@ -120,7 +120,7 @@
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{0_coll} fried until they gild, drowned in {1_plur} beaten with {2_plur}, cooked over a very low flame then turned over with a plate. Eaten cold, cut into wedges.</description>
 		<mealKinds>
@@ -147,7 +147,7 @@
 		<label>artichoke pizza</label>
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
 		<description>{0_coll} marinated in oil and laid on the base at the last moment, with {2_coll} — one of the four quarters of a capricciosa, promoted to a whole dish.</description>
@@ -223,7 +223,7 @@
 		<label>artichoke tagine</label>
 		<ingredients>
 			<li><categories><li>FT_Artichoke</li></categories></li>
-			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
 		<description>{1_coll} stewed with saffron and ginger, {0_coll} added halfway through so as not to fall apart, and preserved {2_coll} at the very end.</description>
