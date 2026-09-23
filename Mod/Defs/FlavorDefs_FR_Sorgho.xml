@@ -37,7 +37,7 @@
 		<label>tuwo dawa</label>
 		<ingredients>
 			<li><categories><li>FT_Sorghum</li></categories></li>
-			<li><categories><li>FT_LeafyVeg</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 			<li><categories><li>FT_Peanut</li></categories></li>
 		</ingredients>
 		<description>the Hausa version: a {0_adj} ball moulded with a ladle, with a miyan kuka of pounded baobab leaves and a {2_adj} sauce. Baobab thickens without any flour at all.</description>
@@ -128,7 +128,7 @@
 		<label>sorghum genfo</label>
 		<ingredients>
 			<li><categories><li>FT_Sorghum</li></categories></li>
-			<li><categories><li>FT_Butter</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
 		<description>a very thick {0_adj} porridge moulded into a dome, hollowed at the centre and filled with niter kibbeh — a clarified butter with spices — and {2_adj} berbere. The lunch of young Ethiopian mothers.</description>
@@ -270,7 +270,7 @@
 		<ingredients>
 			<li><categories><li>FT_Sorghum</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
-			<li><categories><li>FT_Spice</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{0_coll} thrown by the handful into a scorching pan: the grains burst into minute white balls, ten times smaller than popcorn, and a great deal more tender.</description>
 		<mealKinds>
