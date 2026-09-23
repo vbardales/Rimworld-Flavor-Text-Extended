@@ -22,7 +22,7 @@
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Soy</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
 		</ingredients>
 		<description>{1_coll} chopped by knife and worked in one direction only until it turns elastic, {0_coll} in small dice through it, the whole spread into a cake and steamed over the rice.</description>
 		<mealKinds>
@@ -36,7 +36,7 @@
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>a {1_adj} stuffing in which chopped {0_coll} bring the crunch that meat alone never gives, shut inside discs of dough pleated by hand.</description>
 		<mealKinds>
@@ -50,7 +50,7 @@
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
 		<description>{1_coll} left in large pieces rather than ground down, mixed with {0_plur} in dice. Two textures that crack, each in its own way.</description>
 		<mealKinds>
@@ -77,7 +77,7 @@
 		<label>water chestnut spring rolls</label>
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 		</ingredients>
 		<description>{2_coll} and {0_coll} finely sliced, rolled tight in a sheet of pastry and fried to a golden brown. The crunch comes from the inside as much as from the crust.</description>
@@ -123,7 +123,7 @@
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
-			<li><categories><li>FT_Broccoli</li></categories></li>
+			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
 		<description>{1_coll} sliced against the grain and tenderised with starch, fried with blanched {2_plur} and {0_plur} in an oyster sauce.</description>
 		<mealKinds>
@@ -137,7 +137,7 @@
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
-			<li><categories><li>FT_Ginger</li></categories></li>
+			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
 		<description>{1_coll} brined in bicarbonate so as to stay firm, fried for a few seconds with {2_plur} and {0_plur}, in a barely thickened sauce.</description>
 		<mealKinds>
@@ -210,7 +210,7 @@
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
-			<li><categories><li>FT_Cheese</li></categories></li>
+			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
 		<description>{1_coll} chopped and pressed of their water, mixed with fresh {2_plur} and {0_plur} in dice. Served cold, and the crunch is the only thing that keeps the whole from being soft.</description>
 		<mealKinds>
@@ -301,7 +301,7 @@
 		<ingredients>
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
-			<li><categories><li>FT_Carrot</li></categories></li>
+			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
 		<description>{1_adj} ribs blanched and then simmered three hours with {0_coll} and {2_coll}, with no seasoning but salt. The broth stays clear and turns sweet on its own.</description>
 		<mealKinds>
