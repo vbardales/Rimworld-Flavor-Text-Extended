@@ -80,7 +80,7 @@
 		<defName>FlavorTextFR_Vareniki</defName>
 		<label>vareniki</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
@@ -94,7 +94,7 @@
 		<defName>FlavorTextFR_Khatchapouri</defName>
 		<label>khachapuri</label>
 		<ingredients>
-			<li><categories><li>FT_Wheat</li></categories></li>
+			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
