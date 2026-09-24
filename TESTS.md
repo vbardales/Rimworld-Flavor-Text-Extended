@@ -318,7 +318,7 @@ Root `AGENTS.md`, "Test evidence", governs. In short, for this mod:
 - **Per scenario, keep the latest report for the revision now in the repository.** A report about a
   superseded build proves nothing about the current one: delete it as soon as a newer run replaces
   it. Keep an older report only when it is the sole proof of a check the latest run did not repeat
-  (today: `2026-09-21-t7-wip`, the only run of the `@wip` T7).
+  (none today: T7's dedicated run was replaced when T7 joined the `without-optionals` pass).
 - **What a kept report holds:** `summary.md`, `summary.json`, `junit.xml`, `Player.log` and
   `messages.ndjson`, a few kilobytes in all. `report.html` is optional. These sit in
   `Tests/Pickle/results/<date>-<pass>/`; the text files of the older runs are tracked, a run with
@@ -334,8 +334,8 @@ Root `AGENTS.md`, "Test evidence", governs. In short, for this mod:
 - **Before deleting, list what goes and what stays.** The disk fills up: a Pickle run can reach a
   gigabyte.
 
-Conditions to move this mod to `tested`: no scenario left `@wip` (`07-f13-fixture.feature` still is: it
-generates a fixture rather than testing, so it has to leave the suite or lose the tag), every conditional scenario
+Conditions to move this mod to `tested`: no scenario left `@wip` (none is: `07-f13-fixture.feature` is tagged `@fixture`: it
+produces an input for the French companion instead of testing, and belongs to no pass), every conditional scenario
 (`@requires`, `@review`) has run, no manual test left to validate, all green.
 
 ## Pickle passes

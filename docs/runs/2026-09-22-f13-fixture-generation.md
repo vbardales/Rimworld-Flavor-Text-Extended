@@ -1,6 +1,6 @@
 # F13 fixture generation - 2026-09-22
 
-Pass with `07-f13-fixture.feature` (`@wip`, run with `-IncludeWip`): it stages Flavor Text and
+Pass with `07-f13-fixture.feature` (tagged `@wip` and run with `-IncludeWip` that day; it is now `@fixture` and is played by naming it with `-Filter`): it stages Flavor Text and
 Flavor Text Extended but not the French companion, so the saved meals predate its installation.
 
 - Result: 1 scenario, 1 passed, 0 failed, 0 skipped (17.4 s, 1 attempt).
