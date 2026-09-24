@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.0
+## [1.1.0] - 2026-09-24
 
 Dishes now fire much more often. hekmo, the author of Flavor Text, pointed out that a dish only fires when every one of
 its ingredient slots matches something in the cooked meal, and that many of ours asked for very specific ingredients
@@ -21,9 +21,7 @@ Tested in game on this revision, headless through Pickle: the mod alone (11 scen
 ingredient providers (6) and the meal-card captures (3) all pass, with no error naming this mod. Flavor Text now reports more active
 dishes for the same modlists (696 instead of 641 on the bare list, 1072 instead of 1025 with the providers).
 
-Not yet tagged or uploaded: tag `v1.1.0`, the GitHub release and the Workshop upload are pending.
-
-## 1.0.0
+## [1.0.0] - 2026-09-22
 
 First release. The mod was developed against Flavor Text (hekmo) for 1.6; nothing had been published before.
 

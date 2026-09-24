@@ -98,7 +98,7 @@ Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]
 Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
 ```
 
-### 1.1.0, filled in
+### 1.1.0
 
 ```
 [h1]1.1.0[/h1]
