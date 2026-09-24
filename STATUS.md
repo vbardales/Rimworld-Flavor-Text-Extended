@@ -5,8 +5,8 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        preTest
-stage_meaning: v1.0.0 is published on the Workshop (tag and GitHub release at packageId introduction commit 5ba5fe7); the unreleased FlavorDef narrowness review (2026-09-23, 295 slots widened, offline checks green) is in preTest and needs its in-game Pickle pass before the next upload
+stage:        tested
+stage_meaning: 1.1.0 (the FlavorDef narrowness review) is tested: all four Pickle passes green on the current revision, no @wip left, every conditional scenario run, the three Workshop captures approved by the owner (2026-09-24); v1.0.0 is the published build (tag and GitHub release at 5ba5fe7). Tag v1.1.0, the GitHub release and the Workshop upload are still to do
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete

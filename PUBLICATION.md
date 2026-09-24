@@ -14,7 +14,7 @@ retained in `Art/Workshop-captures/` in their Steam display order.
   by hand on the Steam page. The Steam-ready text is English and ends with the adoption clause (`IF I GO QUIET`), the
   `AI-GENERATED` disclosure, `THANKS`, the attribution/licence line, then
   `[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]`.
-- **Version.** `modVersion` 1.0.0, `supportedVersions` 1.6 only. No `LoadFolders.xml`, none needed.
+- **Version.** `modVersion` 1.1.0 (1.0.0 was the first upload, 2026-09-22), `supportedVersions` 1.6 only. No `LoadFolders.xml`, none needed.
 - **Repository.** Public and pushed. Annotated tag `v1.0.0` and its GitHub release both target
   `5ba5fe7`, the first revision that contains package ID `nelim.flavortextextended` and version `1.0.0`:
   https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0.
@@ -79,6 +79,39 @@ again for every capture added.
 > recognised when those mods are installed. English only; the French translation is a separate companion.
 
 Release notes go out with every upload and can be corrected freely; the description does not.
+
+## Steam release notes (updates) — template
+
+Steam's change note accepts BBCode. Every mod name links to its Workshop page (the same rule as the description). Fill the
+angle brackets, drop a bullet that does not apply, keep it short: one line of "what a player sees" per bullet.
+
+```
+[h1]<version>[/h1]
+<One sentence: what changes for the player.>
+[list]
+[*] <Visible change 1, in the player's terms.>
+[*] <Visible change 2.>
+[*] <Fixes: name what was wrong, not the def.>
+[*] <Compatibility: saves, the French companion, Odyssey, optional mods.>
+[/list]
+Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] (hekmo). <Thanks line, if someone reported or helped.>
+Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
+```
+
+### 1.1.0, filled in
+
+```
+[h1]1.1.0[/h1]
+Many more of the 901 dishes can now appear in your colony.
+[list]
+[*] A dish only fires when every one of its ingredients is in the meal, and many of ours asked for very specific ones. About 300 ingredient slots now accept the broader kind they stand for (any pastry grain instead of only wheat, any spice or herb instead of one, any root vegetable or any cheese instead of a single one), while the ingredient that makes a dish what it is stays required. On the same list of mods, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] now keeps 5 to 9% more dishes active, depending on the list.
+[*] The plum tagine takes any meat, any fruit and any condiment, and its name follows the fruit actually used.
+[*] Fixed the sage butter pork chop, which said sage whatever spice was in the meal, and the typo in "gratinée onion soup".
+[*] Nothing was added or removed and no dish was renamed behind the scenes: your saves and the French companion are unaffected.
+[/list]
+Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] (hekmo). Thank you hekmo for pointing out that the dishes were written too narrowly.
+Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
+```
 
 ## Thanks — posted 2026-09-22
 

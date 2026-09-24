@@ -51,7 +51,7 @@ My own PickleTools, a shared testing toolkit across my mods, unpublished: the wi
 Credits, provenance and licence (MIT) are in ATTRIBUTION.md and LICENSE, shipped with the mod.
 
 [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]</description>
-	<modVersion>1.0.0</modVersion>
+	<modVersion>1.1.0</modVersion>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
