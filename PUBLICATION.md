@@ -43,7 +43,7 @@ Decided from the sources, not from intent.
 ## Captures for the Workshop page
 
 `Mod/About/Preview.png` is the existing Workshop header and `Mod/About/ModIcon.png` is the in-game list icon; neither is
-a gallery capture. The three approved gallery captures are present in `Art/Workshop-captures/` as 1600x900 optimized PNGs,
+a gallery capture. The three approved gallery captures are present in `Art/Workshop-captures/` as 1000x810 PNGs, each the capture cropped tight around the card window (regenerated and approved on 2026-09-24),
 each below Steam's 2 MB limit. They were uploaded in this order:
 
 1. `01-katsudon.png` — info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension

@@ -428,7 +428,7 @@ abandoned in the queue, exit 7, without ever running). Read `exitReason` first: 
 | without-optionals (`01`, `03`, `04`) | **11 of 11, `exitReason: passed`**. T7 now runs in this pass and passes. | 696 (641 before the review) | `2026-09-24-without-optionals/` |
 | without-odyssey (`05`) | **3 of 3, `exitReason: passed`** | 653 (607 before) | `2026-09-23-without-odyssey/` |
 | with-optionals (`02`) | **6 of 6, `exitReason: passed`** | 1072 (1025 before) | `2026-09-24-with-optionals/` |
-| workshop-captures (`06`) | **3 of 3, `exitReason: passed`**; the three images are a review item, not a verdict | 696 | `2026-09-23-workshop-captures/` (images on disk, ignored by git) |
+| workshop-captures (`06`) | **3 of 3, `exitReason: passed`**; the three images were reviewed one by one and approved by the owner on 2026-09-24 | 696 | `2026-09-23-workshop-captures/` (images on disk, ignored by git) |
 
 No `[ERROR]` line in any of the four `Player.log` files names a def, category or patch of this mod. The "active" figures
 are Flavor Text's own startup line and count every dish it keeps for the modlist, its own and ours: the review widened
