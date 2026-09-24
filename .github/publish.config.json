@@ -1,0 +1,14 @@
+{
+  "templateStamp": "eba6b3fdf670",
+  "workshopId": "3806100152",
+  "packageId": "nelim.flavortextextended",
+  "releaseTitle": "Flavor Text Extended {version}",
+  "requirePaths": [
+    "Defs"
+  ],
+  "forbidPaths": [
+    "Assemblies"
+  ],
+  "previewFile": "About/Preview.png",
+  "galleryDir": "Art/Workshop-captures"
+}
