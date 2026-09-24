@@ -14,7 +14,7 @@ retained in `Art/Workshop-captures/` in their Steam display order.
   by hand on the Steam page. The Steam-ready text is English and ends with the adoption clause (`IF I GO QUIET`), the
   `AI-GENERATED` disclosure, `THANKS`, the attribution/licence line, then
   `[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]`.
-- **Version.** `modVersion` 1.1.0 (1.0.0 was the first upload, 2026-09-22), `supportedVersions` 1.6 only. No `LoadFolders.xml`, none needed.
+- **Version.** `modVersion` 1.1.0 (published 2026-09-24 through GitHub Actions, run 36001072152 on `9bd7fd3`, tag `v1.1.0` and release created by the workflow; 1.0.0 was the first upload, 2026-09-22), `supportedVersions` 1.6 only. No `LoadFolders.xml`, none needed.
 - **Repository.** Public and pushed. Annotated tag `v1.0.0` and its GitHub release both target
   `5ba5fe7`, the first revision that contains package ID `nelim.flavortextextended` and version `1.0.0`:
   https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0.
