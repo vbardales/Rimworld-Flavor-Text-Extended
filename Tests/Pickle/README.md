@@ -39,6 +39,12 @@ powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod
 The filters differ because 01 asserts that the providers are **absent** and 02 that they are
 present: played in the other pass, each fails for a reason that has nothing to do with the mod.
 
+**Running the passes.** Each pass has its own `-DepMap`, so each takes its own ticket: chain them in one background
+process with one log and one notification instead of one watcher per ticket, and pass `-MaxWaitMinutes 600` (the default
+90 made two passes exit 7 on 2026-09-24 with 21 and 16 tickets ahead, having played nothing; requeue them, they proved
+neither way). Add `-EvidenceDir Tests/Pickle/results/<date>-<pass>` and keep only what `../../TESTS.md`, "Evidence to
+keep", says. Ask the owner before taking any ticket.
+
 ## Presentation fixture and framing
 
 Functional scenarios keep `test-colony`: their job is to prove a behavior, not to compose a
