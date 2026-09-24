@@ -18,17 +18,17 @@ _ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness 
 RB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ATI_blend
 _equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_clock GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_image_load_formatted GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT
 _texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_shader_atomic_float_minmax GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_float GL_NV_texture_barrier GL_OES_EGL_image GL_OVR_multiview GL_OVR_multiview2 GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 923161600
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 433380528
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.371 seconds
-- Finished resetting the current domain, in  0.006 seconds
+- Loaded All Assemblies, in  0.152 seconds
+- Finished resetting the current domain, in  0.002 seconds
 Default vsync count 1
 requesting resize 1920 x 1080
 resizing window to 1920 x 1080
 Desktop is 1920 x 1080 @ 0 Hz
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-UnloadTime: 2.490349 ms
-Command line arguments: -pickle-run=05-sans-odyssey.feature -pickle-no-browser -pickle-http-port=27750 -pickle-run-timeout=45 -pickle-set-name=sans-odyssey -pickle-report-dir=/mnt/c/Users/nelim/Documents/rimworld/pickle-reports -logfile /mnt/c/Users/nelim/Documents/rimworld/pickle-reports/Player.log
+UnloadTime: 1.726301 ms
+Command line arguments: -pickle-run=06-workshop-captures.feature -pickle-no-browser -pickle-http-port=27750 -pickle-run-timeout=45 -pickle-set-name=workshop-captures -pickle-report-dir=/mnt/c/Users/nelim/Documents/rimworld/pickle-reports -logfile /mnt/c/Users/nelim/Documents/rimworld/pickle-reports/Player.log
 [S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.
 dlopen failed trying to load:
 /home/nelim/.steam/sdk64/steamclient.so
@@ -37,29 +37,29 @@ with error:
 [S_API] SteamAPI_Init(): Sys_LoadModule failed to load: /home/nelim/.steam/sdk64/steamclient.so
 [Steamworks.NET] SteamAPI.Init() failed. Possible causes: Steam client not running, launched from outside Steam without steam_appid.txt in place, running with different privileges than Steam client (e.g. "as administrator")
 RimWorld 1.6.4871 rev600
-Fallback handler could not load library /home/nelim/rimworld/RimWorldLinux_Data/MonoBleedingEdge/x86_64/data-0x7ea08c7f78a0.so
-Fallback handler could not load library /home/nelim/rimworld/RimWorldLinux_Data/MonoBleedingEdge/x86_64/data-0x7ea08c9784a0.so
-<color=#B2B2B2>[2026-09-22 20:05:02.621] [INFO] [Vanilla] </color>Command line arguments: -pickle-run=05-sans-odyssey.feature -pickle-no-browser -pickle-http-port=27750 -pickle-run-timeout=45 -pickle-set-name=sans-odyssey -pickle-report-dir=/mnt/c/Users/nelim/Documents/rimworld/pickle-reports -logfile /mnt/c/Users/nelim/Documents/rimworld/pickle-reports/Player.log
+Fallback handler could not load library /home/nelim/rimworld/RimWorldLinux_Data/MonoBleedingEdge/x86_64/data-0x790bcc7e2920.so
+Fallback handler could not load library /home/nelim/rimworld/RimWorldLinux_Data/MonoBleedingEdge/x86_64/data-0x790bcc838a50.so
+<color=#B2B2B2>[2026-09-24 05:37:17.001] [INFO] [Vanilla] </color>Command line arguments: -pickle-run=06-workshop-captures.feature -pickle-no-browser -pickle-http-port=27750 -pickle-run-timeout=45 -pickle-set-name=workshop-captures -pickle-report-dir=/mnt/c/Users/nelim/Documents/rimworld/pickle-reports -logfile /mnt/c/Users/nelim/Documents/rimworld/pickle-reports/Player.log
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 Verse.Root:CheckGlobalInit ()
 Verse.Root:Start ()
 Verse.Root_Entry:Start ()
-<color=#B2B2B2>[2026-09-22 20:05:02.624] [WARN] [Vanilla] </color>[Steamworks.NET] SteamAPI.Init() failed. Possible causes: Steam client not running, launched from outside Steam without steam_appid.txt in place, running with different privileges than Steam client (e.g. "as administrator")
+<color=#B2B2B2>[2026-09-24 05:37:17.004] [WARN] [Vanilla] </color>[Steamworks.NET] SteamAPI.Init() failed. Possible causes: Steam client not running, launched from outside Steam without steam_appid.txt in place, running with different privileges than Steam client (e.g. "as administrator")
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 Verse.Steam.SteamManager:InitIfNeeded ()
 Verse.Root:CheckGlobalInit ()
 Verse.Root:Start ()
 Verse.Root_Entry:Start ()
-<color=#B2B2B2>[2026-09-22 20:05:02.624] [INFO] [Vanilla] </color>RimWorld 1.6.4871 rev600
+<color=#B2B2B2>[2026-09-24 05:37:17.004] [INFO] [Vanilla] </color>RimWorld 1.6.4871 rev600
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RimWorld.VersionControl:LogVersionNumber ()
 Verse.Root:CheckGlobalInit ()
 Verse.Root:Start ()
 Verse.Root_Entry:Start ()
-<color=#A5C2A5>[2026-09-22 20:05:03.224] [INFO] [RimWorks.RimLogging] [Patching/PatchBackends:49] </color>patched via Harmony {mod_id=rimworks.rimlogging}
+<color=#A5C2A5>[2026-09-24 05:37:17.410] [INFO] [RimWorks.RimLogging] [Patching/PatchBackends:49] </color>patched via Harmony {mod_id=rimworks.rimlogging}
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
 at System.Reflection.RuntimeConstructorInfo.DoInvoke
@@ -79,7 +79,7 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:03.229] [INFO] [RimWorks.RimLogging] [Bootstrap/EarlyInit:28] </color>RimLogging initialized {mod_id=rimworks.rimlogging}
+<color=#A5C2A5>[2026-09-24 05:37:17.415] [INFO] [RimWorks.RimLogging] [Bootstrap/EarlyInit:28] </color>RimLogging initialized {mod_id=rimworks.rimlogging}
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
 at System.Reflection.RuntimeConstructorInfo.DoInvoke
@@ -99,7 +99,7 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:03.251] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/PickleMod:21] </color>loaded {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:37:17.430] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/PickleMod:21] </color>loaded {mod_id=rimworks.pickle}
 at RimWorks.Pickle.PickleMod..ctor (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/PickleMod:21)
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
@@ -120,8 +120,8 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:03.594] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Patching/PatchBackends:66] </color>early hooks applied via Harmony {mod_id=rimworks.pickle}
-at RimWorks.Pickle.Patching.PatchBackends.ApplyEarliest (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Patching/PatchBackends:66)
+<color=#A5C2A5>[2026-09-24 05:37:17.551] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Patching/PatchBackends:69] </color>early hooks applied via Harmony {mod_id=rimworks.pickle}
+at RimWorks.Pickle.Patching.PatchBackends.ApplyEarliest (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Patching/PatchBackends:69)
 at RimWorks.Pickle.PickleMod..ctor (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/PickleMod:25)
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
@@ -142,7 +142,7 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:03.654] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46] </color>suite Pickle: 27 features [bill-steps.feature, construction-steps.feature, debug-menu.feature, def-steps.feature, devmode-steps.feature, dlc-steps.feature, engine-smoke.feature, entry-flow.feature, gear-steps.feature, map-steps.feature, mod-steps.feature, notification-steps.feature, patch-attribution.feature, pawn-steps.feature, save-reload.feature, sim-steps.feature, stat-steps.feature, storyteller-steps.feature, surgery-steps.feature, thought-steps.feature, ui-steps.feature, vanilla-smoke.feature, warning-steps.feature, watch-steps.feature, wip-tag.feature, world-condition-steps.feature, world-steps.feature] 1 fixture(s) 0 steps dll(s) {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:37:17.587] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46] </color>suite Pickle: 27 features [bill-steps.feature, construction-steps.feature, debug-menu.feature, def-steps.feature, devmode-steps.feature, dlc-steps.feature, engine-smoke.feature, entry-flow.feature, gear-steps.feature, map-steps.feature, mod-steps.feature, notification-steps.feature, patch-attribution.feature, pawn-steps.feature, save-reload.feature, sim-steps.feature, stat-steps.feature, storyteller-steps.feature, surgery-steps.feature, thought-steps.feature, ui-steps.feature, vanilla-smoke.feature, warning-steps.feature, watch-steps.feature, wip-tag.feature, world-condition-steps.feature, world-steps.feature] 1 fixture(s) 0 steps dll(s) {mod_id=rimworks.pickle}
 at RimWorks.Pickle.SuiteScanner.LogSuites (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46)
 at RimWorks.Pickle.PickleMod..ctor (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/PickleMod:28)
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
@@ -164,7 +164,7 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:03.659] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46] </color>suite Nelim's Pickle Tools - Expansions: 0 features [] 0 fixture(s) 1 steps dll(s) {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:37:17.591] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46] </color>suite Nelim's Pickle Tools - Screenshot mode: 0 features [] 0 fixture(s) 1 steps dll(s) {mod_id=rimworks.pickle}
 at RimWorks.Pickle.SuiteScanner.LogSuites (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46)
 at RimWorks.Pickle.PickleMod..ctor (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/PickleMod:28)
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
@@ -186,7 +186,7 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:03.660] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46] </color>suite Flavor Text Extended - Pickle tests: 7 features [01-alone.feature, 02-avec-facultatifs.feature, 03-cooking.feature, 04-filing.feature, 05-sans-odyssey.feature, 06-workshop-captures.feature, 07-f13-fixture.feature] 0 fixture(s) 1 steps dll(s) {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:37:17.592] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46] </color>suite Nelim's Pickle Tools - Screenshot Studio: 0 features [] 2 fixture(s) 1 steps dll(s) {mod_id=rimworks.pickle}
 at RimWorks.Pickle.SuiteScanner.LogSuites (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46)
 at RimWorks.Pickle.PickleMod..ctor (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/PickleMod:28)
 at System.Reflection.RuntimeConstructorInfo.InternalInvoke
@@ -208,7 +208,29 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:03.841] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Web/PickleHttpServer:100] </color>dashboard on http://0.0.0.0:27750/ {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:37:17.593] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46] </color>suite Flavor Text Extended - Pickle tests: 7 features [01-alone.feature, 02-with-optionals.feature, 03-cooking.feature, 04-filing.feature, 05-without-odyssey.feature, 06-workshop-captures.feature, 07-f13-fixture.feature] 0 fixture(s) 1 steps dll(s) {mod_id=rimworks.pickle}
+at RimWorks.Pickle.SuiteScanner.LogSuites (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/SuiteScanner:46)
+at RimWorks.Pickle.PickleMod..ctor (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/PickleMod:28)
+at System.Reflection.RuntimeConstructorInfo.InternalInvoke
+at System.Reflection.RuntimeConstructorInfo.InternalInvoke
+at System.Reflection.RuntimeConstructorInfo.DoInvoke
+at System.Reflection.RuntimeConstructorInfo.Invoke
+at System.RuntimeType.CreateInstanceImpl
+at System.Activator.CreateInstance
+at System.Activator.CreateInstance
+at Verse.LoadedModManager.CreateModClasses
+at Verse.LoadedModManager.LoadAllActiveMods
+at Verse.PlayDataLoader.DoPlayLoad
+at Verse.PlayDataLoader.LoadAllPlayData
+at Verse.Root+<>c.<Start>b__10_1
+at Verse.LongEventHandler.RunEventFromAnotherThread
+at Verse.LongEventHandler+<>c.<UpdateCurrentAsynchronousEvent>b__28_0
+at System.Threading.ThreadHelper.ThreadStart_Context
+at System.Threading.ExecutionContext.RunInternal
+at System.Threading.ExecutionContext.Run
+at System.Threading.ExecutionContext.Run
+at System.Threading.ThreadHelper.ThreadStart
+<color=#A5C2A5>[2026-09-24 05:37:17.730] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Web/PickleHttpServer:100] </color>dashboard on http://0.0.0.0:27750/ {mod_id=rimworks.pickle}
 at RimWorks.Pickle.Web.PickleHttpServer.Start (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Web/PickleHttpServer:100)
 at RimWorks.Pickle.Web.PickleHttpServer.StartUnlessDisabled (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Web/PickleHttpServer:80)
 at RimWorks.Pickle.PickleMod..ctor (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/PickleMod:30)
@@ -231,14 +253,30 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:16.588] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Patching/PatchBackends:102] </color>patched via Harmony {mod_id=rimworks.pickle}
-at RimWorks.Pickle.Patching.PatchBackends.ApplyBest (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Patching/PatchBackends:102)
+<color=#B2B2B2>[2026-09-24 05:37:33.313] [ERROR] [Vanilla] </color>Mod Nelim's Pickle Tools - Screenshot mode did not load any content. Following load folders were used:
+  - /home/nelim/rimworld/Mods/local-nelim.pickletools.screenshotmode
+at Verse.LoadedModManager+<>c.<LoadModContent>b__13_1
 at Verse.LongEventHandler.ExecuteToExecuteWhenFinished
 at Verse.LongEventHandler.UpdateCurrentAsynchronousEvent
 at Verse.LongEventHandler.LongEventsUpdate
 at Verse.Root.Update
 at Verse.Root_Entry.Update
-<color=#A5C2A5>[2026-09-22 20:05:22.756] [INFO] [RimWorks.RimLogging] [Viewer/LogViewerBoot:35] </color>Log viewer sink registered {mod_id=rimworks.rimlogging}
+<color=#B2B2B2>[2026-09-24 05:37:33.314] [ERROR] [Vanilla] </color>Mod Nelim's Pickle Tools - Screenshot Studio did not load any content. Following load folders were used:
+  - /home/nelim/rimworld/Mods/local-nelim.pickletools.screenshotstudio
+at Verse.LoadedModManager+<>c.<LoadModContent>b__13_1
+at Verse.LongEventHandler.ExecuteToExecuteWhenFinished
+at Verse.LongEventHandler.UpdateCurrentAsynchronousEvent
+at Verse.LongEventHandler.LongEventsUpdate
+at Verse.Root.Update
+at Verse.Root_Entry.Update
+<color=#A5C2A5>[2026-09-24 05:37:33.399] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Patching/PatchBackends:105] </color>patched via Harmony {mod_id=rimworks.pickle}
+at RimWorks.Pickle.Patching.PatchBackends.ApplyBest (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Patching/PatchBackends:105)
+at Verse.LongEventHandler.ExecuteToExecuteWhenFinished
+at Verse.LongEventHandler.UpdateCurrentAsynchronousEvent
+at Verse.LongEventHandler.LongEventsUpdate
+at Verse.Root.Update
+at Verse.Root_Entry.Update
+<color=#A5C2A5>[2026-09-24 05:37:37.746] [INFO] [RimWorks.RimLogging] [Viewer/LogViewerBoot:35] </color>Log viewer sink registered {mod_id=rimworks.rimlogging}
 at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor
 at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor
 at Verse.StaticConstructorOnStartupUtility.CallAll
@@ -248,7 +286,7 @@ at Verse.LongEventHandler.UpdateCurrentAsynchronousEvent
 at Verse.LongEventHandler.LongEventsUpdate
 at Verse.Root.Update
 at Verse.Root_Entry.Update
-<color=#D8C36C>[2026-09-22 20:05:23.306] [WARN] [Mod.hekmo.flavortext] </color>[Flavor Text] mod is now active: 607 active FlavorDefs for the current modlist found out of 1831 total FlavorDefs {mod_id=hekmo.flavortext}
+<color=#D8C36C>[2026-09-24 05:37:38.266] [WARN] [Mod.hekmo.flavortext] </color>[Flavor Text] mod is now active: 696 active FlavorDefs for the current modlist found out of 1831 total FlavorDefs {mod_id=hekmo.flavortext}
 at FlavorText.CategoryUtility.Initialize
 at FlavorText.CategoryUtility..cctor
 at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor
@@ -260,7 +298,7 @@ at Verse.LongEventHandler.UpdateCurrentAsynchronousEvent
 at Verse.LongEventHandler.LongEventsUpdate
 at Verse.Root.Update
 at Verse.Root_Entry.Update
-<color=#D8C36C>[2026-09-22 20:05:23.311] [WARN] [Mod.hekmo.flavortext] </color>[Flavor Text] FlavorCategoryDefUtility ran in 00.34433 seconds {mod_id=hekmo.flavortext}
+<color=#D8C36C>[2026-09-24 05:37:38.269] [WARN] [Mod.hekmo.flavortext] </color>[Flavor Text] FlavorCategoryDefUtility ran in 00.39955 seconds {mod_id=hekmo.flavortext}
 at FlavorText.CategoryUtility..cctor
 at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor
 at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor
@@ -271,11 +309,11 @@ at Verse.LongEventHandler.UpdateCurrentAsynchronousEvent
 at Verse.LongEventHandler.LongEventsUpdate
 at Verse.Root.Update
 at Verse.Root_Entry.Update
-Unloading 5 Unused Serialized files (Serialized files now loaded: 4)
-Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 23364.
-Total: 578.035426 ms (FindLiveObjects: 106.149493 ms CreateObjectMapping: 3.354928 ms MarkObjects: 467.675345 ms  DeleteObjects: 0.854058 ms)
+Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
+Unloading 97 unused Assets to reduce memory usage. Loaded Objects now: 26497.
+Total: 355.371613 ms (FindLiveObjects: 18.802017 ms CreateObjectMapping: 3.548334 ms MarkObjects: 332.340182 ms  DeleteObjects: 0.679999 ms)
 
-<color=#A5C2A5>[2026-09-22 20:05:28.321] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:82] </color>autorun report dir = /mnt/c/Users/nelim/Documents/rimworld/pickle-reports {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:37:41.352] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:82] </color>autorun report dir = /mnt/c/Users/nelim/Documents/rimworld/pickle-reports {mod_id=rimworks.pickle}
 at RimWorks.Pickle.Autorun.AutorunBootstrap+<RunAutorun>d__4.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:82)
 at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start
 at RimWorks.Pickle.Autorun.AutorunBootstrap.RunAutorun
@@ -287,7 +325,7 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:28.321] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:83] </color>autorun seed = 42 {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:37:41.352] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:83] </color>autorun seed = 42 {mod_id=rimworks.pickle}
 at RimWorks.Pickle.Autorun.AutorunBootstrap+<RunAutorun>d__4.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:83)
 at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start
 at RimWorks.Pickle.Autorun.AutorunBootstrap.RunAutorun
@@ -299,7 +337,7 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:28.321] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:84] </color>autorun retries = 0 {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:37:41.353] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:84] </color>autorun retries = 0 {mod_id=rimworks.pickle}
 at RimWorks.Pickle.Autorun.AutorunBootstrap+<RunAutorun>d__4.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:84)
 at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start
 at RimWorks.Pickle.Autorun.AutorunBootstrap.RunAutorun
@@ -311,7 +349,44 @@ at System.Threading.ExecutionContext.RunInternal
 at System.Threading.ExecutionContext.Run
 at System.Threading.ExecutionContext.Run
 at System.Threading.ThreadHelper.ThreadStart
-<color=#A5C2A5>[2026-09-22 20:05:29.403] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:264] </color>passed in 394ms: the mod on a game without Odyssey: the game really has no Odyssey {mod_id=rimworks.pickle}
+Unloading 3 Unused Serialized files (Serialized files now loaded: 5)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 3.537502 ms
+requesting resize 1920 x 1080
+resizing window to 1920 x 1080
+Desktop is 1920 x 1080 @ 0 Hz
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 26692.
+Total: 222.580124 ms (FindLiveObjects: 1.817675 ms CreateObjectMapping: 0.846093 ms MarkObjects: 219.849900 ms  DeleteObjects: 0.065154 ms)
+
+<color=#B2B2B2>[2026-09-24 05:37:42.892] [INFO] [Vanilla] </color>Loading game from file __pickle_fixture with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - RimWorks.RimLogging
+  - rimworks.pickle
+  - hekmo.FlavorText
+  - nelim.pickletools.screenshotmode
+  - nelim.pickletools.screenshotstudio
+  - nelim.flavortextextended
+  - nelim.flavortextextended.pickletests
+at Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow
+at Verse.Root_Play+<>c.<Start>b__1_1
+at Verse.LongEventHandler.RunEventFromAnotherThread
+at Verse.LongEventHandler+<>c.<UpdateCurrentAsynchronousEvent>b__28_0
+at System.Threading.ThreadHelper.ThreadStart_Context
+at System.Threading.ExecutionContext.RunInternal
+at System.Threading.ExecutionContext.Run
+at System.Threading.ExecutionContext.Run
+at System.Threading.ThreadHelper.ThreadStart
+Unloading 0 Unused Serialized files (Serialized files now loaded: 5)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 31633.
+Total: 387.829023 ms (FindLiveObjects: 2.004097 ms CreateObjectMapping: 2.614905 ms MarkObjects: 383.092838 ms  DeleteObjects: 0.115960 ms)
+
+<color=#A5C2A5>[2026-09-24 05:37:57.979] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:264] </color>passed in 15414ms: what the Workshop captures show: the info card of a katsudon {mod_id=rimworks.pickle}
 at RimWorks.Pickle.Run.RunSession.LogScenarioProgress (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:264)
 at RimWorks.Pickle.Run.RunSession+<RunFeature>d__78.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:229)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
@@ -323,8 +398,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunWithRetries>d__85.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:350)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -335,8 +410,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunScenario>d__86.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:498)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -347,8 +422,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunStep>d__87.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:604)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -357,7 +432,48 @@ at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run
 at RimWorks.Pickle.Runtime.PickleDriver.Resolve (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:406)
 at RimWorks.Pickle.Runtime.PickleDriver.ScanWaits (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:387)
 at RimWorks.Pickle.Runtime.PickleDriver.Update (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:359)
-<color=#A5C2A5>[2026-09-22 20:05:29.716] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:264] </color>passed in 309ms: the mod on a game without Odyssey: it loads, and the four guarded meats raise nothing {mod_id=rimworks.pickle}
+Unloading 2 Unused Serialized files (Serialized files now loaded: 5)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 28048.
+Total: 436.448219 ms (FindLiveObjects: 25.854693 ms CreateObjectMapping: 2.461986 ms MarkObjects: 408.098678 ms  DeleteObjects: 0.031389 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 5)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 5.291236 ms
+requesting resize 1920 x 1080
+resizing window to 1920 x 1080
+Desktop is 1920 x 1080 @ 0 Hz
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 27784.
+Total: 281.118836 ms (FindLiveObjects: 8.731305 ms CreateObjectMapping: 2.041990 ms MarkObjects: 270.208622 ms  DeleteObjects: 0.135286 ms)
+
+<color=#B2B2B2>[2026-09-24 05:37:59.669] [INFO] [Vanilla] </color>Loading game from file __pickle_fixture with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - RimWorks.RimLogging
+  - rimworks.pickle
+  - hekmo.FlavorText
+  - nelim.pickletools.screenshotmode
+  - nelim.pickletools.screenshotstudio
+  - nelim.flavortextextended
+  - nelim.flavortextextended.pickletests
+at Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow
+at Verse.Root_Play+<>c.<Start>b__1_1
+at Verse.LongEventHandler.RunEventFromAnotherThread
+at Verse.LongEventHandler+<>c.<UpdateCurrentAsynchronousEvent>b__28_0
+at System.Threading.ThreadHelper.ThreadStart_Context
+at System.Threading.ExecutionContext.RunInternal
+at System.Threading.ExecutionContext.Run
+at System.Threading.ExecutionContext.Run
+at System.Threading.ThreadHelper.ThreadStart
+Unloading 0 Unused Serialized files (Serialized files now loaded: 5)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 32575.
+Total: 361.566999 ms (FindLiveObjects: 21.238090 ms CreateObjectMapping: 3.355499 ms MarkObjects: 336.943053 ms  DeleteObjects: 0.029405 ms)
+
+<color=#A5C2A5>[2026-09-24 05:38:14.324] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:264] </color>passed in 14776ms: what the Workshop captures show: the info card of a meal with two dishes at once {mod_id=rimworks.pickle}
 at RimWorks.Pickle.Run.RunSession.LogScenarioProgress (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:264)
 at RimWorks.Pickle.Run.RunSession+<RunFeature>d__78.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:229)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
@@ -369,8 +485,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunWithRetries>d__85.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:350)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -381,8 +497,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunScenario>d__86.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:498)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -393,8 +509,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunStep>d__87.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:604)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -403,7 +519,48 @@ at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run
 at RimWorks.Pickle.Runtime.PickleDriver.Resolve (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:406)
 at RimWorks.Pickle.Runtime.PickleDriver.ScanWaits (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:387)
 at RimWorks.Pickle.Runtime.PickleDriver.Update (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:359)
-<color=#A5C2A5>[2026-09-22 20:05:30.157] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:264] </color>passed in 437ms: the mod on a game without Odyssey: the reptile categories stay declared, and Core's two meats stay filed {mod_id=rimworks.pickle}
+Unloading 1 Unused Serialized files (Serialized files now loaded: 5)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 28063.
+Total: 323.597720 ms (FindLiveObjects: 19.691013 ms CreateObjectMapping: 2.483867 ms MarkObjects: 301.396381 ms  DeleteObjects: 0.025538 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 5)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 3.427174 ms
+requesting resize 1920 x 1080
+resizing window to 1920 x 1080
+Desktop is 1920 x 1080 @ 0 Hz
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 27799.
+Total: 222.891170 ms (FindLiveObjects: 2.098584 ms CreateObjectMapping: 1.418438 ms MarkObjects: 219.269801 ms  DeleteObjects: 0.102985 ms)
+
+<color=#B2B2B2>[2026-09-24 05:38:15.665] [INFO] [Vanilla] </color>Loading game from file __pickle_fixture with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - RimWorks.RimLogging
+  - rimworks.pickle
+  - hekmo.FlavorText
+  - nelim.pickletools.screenshotmode
+  - nelim.pickletools.screenshotstudio
+  - nelim.flavortextextended
+  - nelim.flavortextextended.pickletests
+at Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow
+at Verse.Root_Play+<>c.<Start>b__1_1
+at Verse.LongEventHandler.RunEventFromAnotherThread
+at Verse.LongEventHandler+<>c.<UpdateCurrentAsynchronousEvent>b__28_0
+at System.Threading.ThreadHelper.ThreadStart_Context
+at System.Threading.ExecutionContext.RunInternal
+at System.Threading.ExecutionContext.Run
+at System.Threading.ExecutionContext.Run
+at System.Threading.ThreadHelper.ThreadStart
+Unloading 0 Unused Serialized files (Serialized files now loaded: 5)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 32598.
+Total: 386.749494 ms (FindLiveObjects: 15.871876 ms CreateObjectMapping: 3.377550 ms MarkObjects: 367.464550 ms  DeleteObjects: 0.034356 ms)
+
+<color=#A5C2A5>[2026-09-24 05:38:32.504] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:264] </color>passed in 16254ms: what the Workshop captures show: the info card of a medium-boiled egg {mod_id=rimworks.pickle}
 at RimWorks.Pickle.Run.RunSession.LogScenarioProgress (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:264)
 at RimWorks.Pickle.Run.RunSession+<RunFeature>d__78.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:229)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
@@ -415,8 +572,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunWithRetries>d__85.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:350)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -427,8 +584,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunScenario>d__86.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:498)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -439,8 +596,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunStep>d__87.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:604)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -449,7 +606,7 @@ at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run
 at RimWorks.Pickle.Runtime.PickleDriver.Resolve (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:406)
 at RimWorks.Pickle.Runtime.PickleDriver.ScanWaits (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:387)
 at RimWorks.Pickle.Runtime.PickleDriver.Update (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:359)
-<color=#A5C2A5>[2026-09-22 20:05:30.162] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:246] </color>run finished: 3 passed, 0 failed, 0 skipped {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:38:32.506] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:246] </color>run finished: 3 passed, 0 failed, 0 skipped {mod_id=rimworks.pickle}
 at RimWorks.Pickle.Run.RunSession+<RunFeature>d__78.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:246)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -460,8 +617,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunWithRetries>d__85.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:350)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -472,8 +629,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunScenario>d__86.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:498)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -484,8 +641,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunStep>d__87.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:604)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -494,7 +651,7 @@ at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run
 at RimWorks.Pickle.Runtime.PickleDriver.Resolve (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:406)
 at RimWorks.Pickle.Runtime.PickleDriver.ScanWaits (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:387)
 at RimWorks.Pickle.Runtime.PickleDriver.Update (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:359)
-<color=#A5C2A5>[2026-09-22 20:05:30.167] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/SuiteRunner:81] </color>suite passed {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:38:32.511] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/SuiteRunner:81] </color>suite passed {mod_id=rimworks.pickle}
 at RimWorks.Pickle.Runtime.SuiteRunner+<Run>d__0.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/SuiteRunner:81)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -505,8 +662,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].SetResult
+at System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunFeature>d__78.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:251)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -517,8 +674,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunWithRetries>d__85.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:350)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -529,8 +686,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunScenario>d__86.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:498)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -541,8 +698,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunStep>d__87.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:604)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -551,7 +708,7 @@ at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run
 at RimWorks.Pickle.Runtime.PickleDriver.Resolve (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:406)
 at RimWorks.Pickle.Runtime.PickleDriver.ScanWaits (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:387)
 at RimWorks.Pickle.Runtime.PickleDriver.Update (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/PickleDriver:359)
-<color=#A5C2A5>[2026-09-22 20:05:30.503] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:147] </color>autorun exit code = 0 {mod_id=rimworks.pickle}
+<color=#A5C2A5>[2026-09-24 05:38:34.442] [INFO] [Pickle] [home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:147] </color>autorun exit code = 0 {mod_id=rimworks.pickle}
 at RimWorks.Pickle.Autorun.AutorunBootstrap+<RunAutorun>d__4.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Autorun/AutorunBootstrap:147)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -562,8 +719,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].SetResult
+at System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].SetResult
 at RimWorks.Pickle.Runtime.SuiteRunner+<Run>d__0.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Runtime/SuiteRunner:97)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -574,8 +731,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].SetResult
+at System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[System.Collections.Generic.List`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunFeature>d__78.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:251)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -586,8 +743,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunWithRetries>d__85.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:350)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -598,8 +755,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.ScenarioResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunScenario>d__86.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:498)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -610,8 +767,8 @@ at System.Threading.Tasks.AwaitTaskContinuation.RunCallback
 at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.Run
 at System.Threading.Tasks.Task.FinishContinuations
 at System.Threading.Tasks.Task.FinishStageThree
-at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
-at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.8.3.0, Culture=neutral, PublicKeyToken=null]].SetResult
+at System.Threading.Tasks.Task`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].TrySetResult
+at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[[RimWorks.Pickle.Core.Run.StepResult, RimWorks.Pickle.Core, Version=4.9.1.0, Culture=neutral, PublicKeyToken=null]].SetResult
 at RimWorks.Pickle.Run.RunSession+<RunStep>d__87.MoveNext (home/runner/work/Rimworld-Pickle/Rimworld-Pickle/Source/Pickle/Run/RunSession:604)
 at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.InvokeMoveNext
 at System.Threading.ExecutionContext.RunInternal
@@ -624,21 +781,21 @@ Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 168 frames, [1.0 KB-2.0 KB]: 3 frames, [2.0 KB-4.0 KB]: 1 frames, [32.0 KB-64.0 KB]: 1 frames, [128.0 KB-256.0 KB]: 1 frames, [256.0 KB-0.5 MB]: 1 frames, [2.0 MB-4.0 MB]: 2 frames
+      Peak usage frame count: [0-1.0 KB]: 362 frames, [1.0 KB-2.0 KB]: 11 frames, [2.0 KB-4.0 KB]: 60 frames, [4.0 KB-8.0 KB]: 2 frames, [8.0 KB-16.0 KB]: 4 frames, [32.0 KB-64.0 KB]: 4 frames, [128.0 KB-256.0 KB]: 1 frames, [256.0 KB-0.5 MB]: 1 frames, [2.0 MB-4.0 MB]: 10 frames, [4.0 MB-8.0 MB]: 3 frames
       Initial Block Size 4.0 MB
-      Current Block Size 4.0 MB
-      Peak Allocated Bytes 3.6 MB
+      Current Block Size 4.4 MB
+      Peak Allocated Bytes 4.4 MB
       Overflow Count 3
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
-      Current Block Size 116.0 KB
-      Peak Allocated Bytes 114.1 KB
+      Current Block Size 120.0 KB
+      Peak Allocated Bytes 117.2 KB
       Overflow Count 0
     [ALLOC_TEMP_Loading.PreloadManager]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 3.6 KB
-      Overflow Count 4
+      Peak Allocated Bytes 6.4 KB
+      Overflow Count 16
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -732,7 +889,7 @@ Memory Statistics:
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 32.0 KB
+      Peak Allocated Bytes 64.0 KB
       Overflow Count 6
     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
       Initial Block Size 64.0 KB
@@ -772,7 +929,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 0 B
+      Peak Allocated Bytes 218 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
@@ -815,31 +972,31 @@ Memory Statistics:
       Peak Allocated Bytes 0 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 11990
+  Peak main deferred allocation count 12295
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 16261
-        32B: 30 Subsections = 15360 buckets. Failed count: 33288
-        48B: 34 Subsections = 11605 buckets. Failed count: 36352
-        64B: 89 Subsections = 22784 buckets. Failed count: 42744
-        80B: 82 Subsections = 16793 buckets. Failed count: 11984
-        96B: 6 Subsections = 1024 buckets. Failed count: 34314
-        112B: 7 Subsections = 1024 buckets. Failed count: 4958
-        128B: 4 Subsections = 512 buckets. Failed count: 6783
+        16B: 4 Subsections = 4096 buckets. Failed count: 25718
+        32B: 30 Subsections = 15360 buckets. Failed count: 44691
+        48B: 34 Subsections = 11605 buckets. Failed count: 48608
+        64B: 89 Subsections = 22784 buckets. Failed count: 61079
+        80B: 82 Subsections = 16793 buckets. Failed count: 18950
+        96B: 6 Subsections = 1024 buckets. Failed count: 57808
+        112B: 7 Subsections = 1024 buckets. Failed count: 6488
+        128B: 4 Subsections = 512 buckets. Failed count: 8437
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 158 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 18 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 155 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 302 frames
       Requested Block Size 16.0 MB
-      Peak Block count 10
-      Peak Allocated memory 184.4 MB
+      Peak Block count 12
+      Peak Allocated memory 198.5 MB
       Peak Large allocation bytes 47.2 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 174 frames, [8.0 MB-16.0 MB]: 2 frames, [16.0 MB-32.0 MB]: 1 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 182 frames, [8.0 MB-16.0 MB]: 53 frames, [16.0 MB-32.0 MB]: 21 frames, [32.0 MB-64.0 MB]: 52 frames, [64.0 MB-128.0 MB]: 150 frames
       Requested Block Size 16.0 MB
-      Peak Block count 1
-      Peak Allocated memory 22.3 MB
+      Peak Block count 6
+      Peak Allocated memory 83.9 MB
       Peak Large allocation bytes 16.0 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
@@ -862,58 +1019,58 @@ Memory Statistics:
   Overflow Count (too large) 6
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 5
+  Peak main deferred allocation count 10
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 16261
-        32B: 30 Subsections = 15360 buckets. Failed count: 33288
-        48B: 34 Subsections = 11605 buckets. Failed count: 36352
-        64B: 89 Subsections = 22784 buckets. Failed count: 42744
-        80B: 82 Subsections = 16793 buckets. Failed count: 11984
-        96B: 6 Subsections = 1024 buckets. Failed count: 34314
-        112B: 7 Subsections = 1024 buckets. Failed count: 4958
-        128B: 4 Subsections = 512 buckets. Failed count: 6783
+        16B: 4 Subsections = 4096 buckets. Failed count: 25718
+        32B: 30 Subsections = 15360 buckets. Failed count: 44691
+        48B: 34 Subsections = 11605 buckets. Failed count: 48608
+        64B: 89 Subsections = 22784 buckets. Failed count: 61079
+        80B: 82 Subsections = 16793 buckets. Failed count: 18950
+        96B: 6 Subsections = 1024 buckets. Failed count: 57808
+        112B: 7 Subsections = 1024 buckets. Failed count: 6488
+        128B: 4 Subsections = 512 buckets. Failed count: 8437
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 175 frames, [256.0 MB-0.50 GB]: 1 frames
+      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 161 frames, [4.0 MB-8.0 MB]: 233 frames, [64.0 MB-128.0 MB]: 62 frames, [256.0 MB-0.50 GB]: 1 frames
       Requested Block Size 16.0 MB
-      Peak Block count 1
-      Peak Allocated memory 365.6 MB
-      Peak Large allocation bytes 362.3 MB
+      Peak Block count 6
+      Peak Allocated memory 344.4 MB
+      Peak Large allocation bytes 341.0 MB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 177 frames
+      Peak usage frame count: [0-1.0 KB]: 164 frames, [1.0 KB-2.0 KB]: 3 frames, [2.0 KB-4.0 KB]: 222 frames, [4.0 KB-8.0 KB]: 6 frames, [8.0 KB-16.0 KB]: 4 frames, [32.0 KB-64.0 KB]: 59 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 0.9 KB
+      Peak Allocated memory 43.9 KB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 88
+  Peak main deferred allocation count 94
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 16261
-        32B: 30 Subsections = 15360 buckets. Failed count: 33288
-        48B: 34 Subsections = 11605 buckets. Failed count: 36352
-        64B: 89 Subsections = 22784 buckets. Failed count: 42744
-        80B: 82 Subsections = 16793 buckets. Failed count: 11984
-        96B: 6 Subsections = 1024 buckets. Failed count: 34314
-        112B: 7 Subsections = 1024 buckets. Failed count: 4958
-        128B: 4 Subsections = 512 buckets. Failed count: 6783
+        16B: 4 Subsections = 4096 buckets. Failed count: 25718
+        32B: 30 Subsections = 15360 buckets. Failed count: 44691
+        48B: 34 Subsections = 11605 buckets. Failed count: 48608
+        64B: 89 Subsections = 22784 buckets. Failed count: 61079
+        80B: 82 Subsections = 16793 buckets. Failed count: 18950
+        96B: 6 Subsections = 1024 buckets. Failed count: 57808
+        112B: 7 Subsections = 1024 buckets. Failed count: 6488
+        128B: 4 Subsections = 512 buckets. Failed count: 8437
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 158 frames, [16.0 MB-32.0 MB]: 18 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 155 frames, [16.0 MB-32.0 MB]: 302 frames
       Requested Block Size 4.0 MB
       Peak Block count 5
-      Peak Allocated memory 16.4 MB
+      Peak Allocated memory 18.1 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 175 frames, [32.0 KB-64.0 KB]: 1 frames, [256.0 KB-0.5 MB]: 1 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 162 frames, [32.0 KB-64.0 KB]: 286 frames, [64.0 KB-128.0 KB]: 6 frames, [256.0 KB-0.5 MB]: 3 frames, [0.5 MB-1.0 MB]: 1 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
-      Peak Allocated memory 470.5 KB
+      Peak Allocated memory 0.6 MB
       Peak Large allocation bytes 0 B
 [ALLOC_TYPETREE] Dual Thread Allocator
   Peak main deferred allocation count 0
@@ -922,22 +1079,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 16261
-        32B: 30 Subsections = 15360 buckets. Failed count: 33288
-        48B: 34 Subsections = 11605 buckets. Failed count: 36352
-        64B: 89 Subsections = 22784 buckets. Failed count: 42744
-        80B: 82 Subsections = 16793 buckets. Failed count: 11984
-        96B: 6 Subsections = 1024 buckets. Failed count: 34314
-        112B: 7 Subsections = 1024 buckets. Failed count: 4958
-        128B: 4 Subsections = 512 buckets. Failed count: 6783
+        16B: 4 Subsections = 4096 buckets. Failed count: 25718
+        32B: 30 Subsections = 15360 buckets. Failed count: 44691
+        48B: 34 Subsections = 11605 buckets. Failed count: 48608
+        64B: 89 Subsections = 22784 buckets. Failed count: 61079
+        80B: 82 Subsections = 16793 buckets. Failed count: 18950
+        96B: 6 Subsections = 1024 buckets. Failed count: 57808
+        112B: 7 Subsections = 1024 buckets. Failed count: 6488
+        128B: 4 Subsections = 512 buckets. Failed count: 8437
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 1 frames, [4.0 KB-8.0 KB]: 158 frames, [32.0 KB-64.0 KB]: 18 frames
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [4.0 KB-8.0 KB]: 155 frames, [32.0 KB-64.0 KB]: 302 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 40.0 KB
+      Peak Allocated memory 46.3 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 177 frames
+      Peak usage frame count: [0-1.0 KB]: 458 frames
       Requested Block Size 2.0 MB
       Peak Block count 0
       Peak Allocated memory 0 B

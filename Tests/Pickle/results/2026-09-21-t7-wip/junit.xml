@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<testsuites>
-  <testsuite name="cooking a meal names it after a dish" tests="1" failures="0" skipped="0" flakes="0" time="16.141">
-    <testcase name="four ingredients become two dishes" classname="cooking a meal names it after a dish" time="16.141">
-      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
-</system-out>
-    </testcase>
-  </testsuite>
-</testsuites>

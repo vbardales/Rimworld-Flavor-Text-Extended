@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="Flavor Text Extended beside its optional ingredient providers" tests="6" failures="0" skipped="0" flakes="0" time="3.709">
+    <testcase name="the providers are really there, so this is not the bare pass under another name" classname="Flavor Text Extended beside its optional ingredient providers" time="0.989">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="the patches aimed at the providers' ingredients land" classname="Flavor Text Extended beside its optional ingredient providers" time="1.098">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="the providers' ingredients are filed where the patches send them" classname="Flavor Text Extended beside its optional ingredient providers" time="1.055">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="leek has a category of its own, and is still an onion for Flavor Text's own dishes" classname="Flavor Text Extended beside its optional ingredient providers" time="0.237">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="the leek category is defined by this mod, with VV_Leeks around" classname="Flavor Text Extended beside its optional ingredient providers" time="0.106">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="it loads beside the providers and says nothing" classname="Flavor Text Extended beside its optional ingredient providers" time="0.224">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

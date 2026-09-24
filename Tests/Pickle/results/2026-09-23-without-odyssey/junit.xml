@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="the mod on a game without Odyssey" tests="3" failures="0" skipped="0" flakes="0" time="1.692">
+    <testcase name="the game really has no Odyssey" classname="the mod on a game without Odyssey" time="0.565">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="it loads, and the four guarded meats raise nothing" classname="the mod on a game without Odyssey" time="0.532">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="the reptile categories stay declared, and Core's two meats stay filed" classname="the mod on a game without Odyssey" time="0.595">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

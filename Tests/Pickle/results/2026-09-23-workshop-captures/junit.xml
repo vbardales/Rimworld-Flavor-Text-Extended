@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="what the Workshop captures show" tests="3" failures="0" skipped="0" flakes="0" time="46.444">
+    <testcase name="the info card of a katsudon" classname="what the Workshop captures show" time="15.414">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+Attachment: katsudon - the info card of a meal cooked from rice, pork and egg -&gt; /mnt/c/Users/nelim/Documents/rimworld/pickle-reports/screenshots/manual--katsudon---the-info-card-of-a-meal-cooked-from-rice--pork-and-egg--step0.png
+</system-out>
+    </testcase>
+    <testcase name="the info card of a meal with two dishes at once" classname="what the Workshop captures show" time="14.776">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+Attachment: two dishes at once - the info card of a meal cooked from four ingredients -&gt; /mnt/c/Users/nelim/Documents/rimworld/pickle-reports/screenshots/manual--two-dishes-at-once---the-info-card-of-a-meal-cooked-from-four-ingredients--step0.png
+</system-out>
+    </testcase>
+    <testcase name="the info card of a medium-boiled egg" classname="what the Workshop captures show" time="16.254">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+Attachment: medium-boiled egg - the info card of a meal cooked from one ingredient -&gt; /mnt/c/Users/nelim/Documents/rimworld/pickle-reports/screenshots/manual--medium-boiled-egg---the-info-card-of-a-meal-cooked-from-one-ingredient--step0.png
+</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

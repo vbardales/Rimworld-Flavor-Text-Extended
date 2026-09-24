@@ -19,16 +19,16 @@ licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 maintainer:    current Codex task for this repository
 updated:      2026-09-23
-tested_on:    "2026-09-21, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, all five DLCs except in the Odyssey pass. Pickle passes: without-optionals 10/10 (+ T7 alone 1/1), without-odyssey 3/3, with-optionals 6/6 on its rerun. Reports in Tests/Pickle/results/."
+tested_on:    "2026-09-23/24, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, on the unreleased FlavorDef narrowness revision. All four passes green: without-optionals 11/11 (696 active FlavorDefs of 1831), without-odyssey 3/3 (653), with-optionals 6/6 (1072), workshop-captures 3/3 (696). Reports in Tests/Pickle/results/2026-09-23-* and 2026-09-24-*; history in docs/runs/."
 workshop:     3806100152
 remaining:
-  - "pending: after hekmo's report, all 901 dishes were reviewed and 295 ingredient slots widened offline (2026-09-23, commits Triage: ... on main, not pushed; CHANGELOG Unreleased). checkdefs 0 errors, verifen 0/0, config check 908/908 all pass, but no Pickle pass has run on this revision: the evidence above is about the v1.0.0 build. Needs the owner's go for a ticket, then a full pass (all scenarios, no @wip left, conditional scenarios run)."
+  - "validated: after hekmo's report, all 901 dishes were reviewed and 295 ingredient slots widened (2026-09-23, on main, pushed; CHANGELOG Unreleased). Offline: checkdefs 0 errors, verify-en 0/0, config check 908/908. In game: the four Pickle passes above all passed on this revision, zero [ERROR] naming this mod, and Flavor Text reports more active dishes for the same modlists (bare 641 to 696, without Odyssey 607 to 653, with providers 1025 to 1072). Still open before `tested`: 07-f13-fixture.feature is still @wip (a fixture generator that has to leave the suite or lose the tag), and the owner has not yet reviewed the three new capture images."
   - "validated: three Workshop gallery captures were generated on 2026-09-22, copied into Art/Workshop-captures/, visually approved and uploaded to the existing Steam Workshop page in their documented order."
   - "validated: v1.0.0 is an annotated tag at 5ba5fe7 (the first commit containing packageId nelim.flavortextextended and version 1.0.0); the GitHub v1.0.0 release explicitly targets that same commit."
   - "note: the FRENCH section's link now points at the companion's Workshop item (3806100488), matching what the owner put live. That item returned Steam's private-item error page when checked anonymously on 2026-09-22: the link will not work for visitors until it is switched to public."
   - "note: git history does not cleanly attribute Claude vs ChatGPT/Codex. 34 of 81 commits carry no AI co-author trailer, and the split does not follow date or content (some same-day translation commits have a Claude trailer, some do not). ATTRIBUTION.md says this plainly rather than guessing a boundary."
-  - "limits, not blockers: each Pickle pass passed once; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
-  - "validated: the sans-Odyssey rerun on 2026-09-22 passed 3/3 with the two expansion assertions supplied by PickleTools ExpansionSteps. Evidence is in Tests/Pickle/results/2026-09-22-without-odyssey-pickletools/."
+  - "limits, not blockers: each Pickle pass passed once on this revision; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
+  - "validated: the without-Odyssey pass passed 3/3 again on 2026-09-23 on the current revision, with the two expansion assertions supplied by PickleTools ExpansionSteps. Evidence is in Tests/Pickle/results/2026-09-23-without-odyssey/."
   - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
 ---
@@ -41,7 +41,7 @@ The owner requested the deferred `05-without-odyssey.feature` rerun after public
 `nelim.pickletools.expansions` and excluded Odyssey. Pickle reported 3 passed, 0 failed, 0 skipped and
 `exitReason: passed`. Its first scenario exercised both PickleTools expansion assertions: Odyssey inactive and
 Ideology active. The report, JUnit result, event stream and Player.log are retained in
-`Tests/Pickle/results/2026-09-22-without-odyssey-pickletools/`. This closes the prior unverified step migration.
+`Tests/Pickle/results/2026-09-22-without-odyssey-pickletools/` (pruned 2026-09-24, replaced by `Tests/Pickle/results/2026-09-23-without-odyssey/`). This closes the prior unverified step migration.
 
 ## Workshop capture delivery — 2026-09-22
 
@@ -289,13 +289,13 @@ review of the description and of the thanks messages, and the answers to the two
 
 The `@wip` scenario (four ingredients become two dishes) ran alone on a ticket with `-IncludeWip` and
 `-Filter '::four ingredients become two dishes'`: **1 of 1, 6 steps of 6, `exitReason: passed`**, zero `[ERROR]`, in
-`Tests/Pickle/results/2026-09-21-t7-wip/`. The Pickle session confirmed beforehand that the flag works in the staged
+`Tests/Pickle/results/2026-09-21-t7-wip/` (pruned 2026-09-24, replaced by `Tests/Pickle/results/2026-09-24-without-optionals/`). The Pickle session confirmed beforehand that the flag works in the staged
 Pickle, so nothing had to be integrated first. Every scenario of the suite has now run and passed once.
 
 ## with-optionals rerun — 2026-09-21, green
 
 After the leek fix the pass ran again on a ticket: **6 of 6, 23 steps of 23, `exitReason: passed`**, report and log in
-`Tests/Pickle/results/2026-09-21-with-optionals-rerun/`. Flavor Text read 1025 active of 1831. The rule of two passes
+`Tests/Pickle/results/2026-09-21-with-optionals-rerun/` (pruned 2026-09-24, replaced by `Tests/Pickle/results/2026-09-24-with-optionals/`). Flavor Text read 1025 active of 1831. The rule of two passes
 is met, plus the DLC-off pass. One `[ERROR]` in that log: a Unity/FMOD audio error naming no def, absent from both
 passes without the providers, so it comes from one of them and not from this mod.
 
@@ -356,7 +356,7 @@ fails with that name in the message, which would be a finding, not necessarily a
 Bare pass (`without-optionals`, `-Filter 01-alone.feature`), queued through `Run-PickleWsl.ps1` on a ticket
 and played headless in the WSL game once the queue reached it (lock held 18:48:13 to 18:49:44, local time).
 **`exitReason: passed`, 5 scenarios of 5 in the one feature file, 20 steps of 20 PASSED, exit code 0.**
-Twelve mods staged. That first report was pruned once the full-suite run replaced it: see `Tests/Pickle/results/2026-09-21-without-optionals-full/` and the one-line history in `docs/runs/2026-09-21-pruned-runs.md`.
+Twelve mods staged. That first report was pruned once the full-suite run replaced it: see `Tests/Pickle/results/2026-09-21-without-optionals-full/` (pruned 2026-09-24, replaced by `Tests/Pickle/results/2026-09-24-without-optionals/`) and the one-line history in `docs/runs/2026-09-21-pruned-runs.md`.
 
 - The engine line read `641 active FlavorDefs ... out of 1831 total FlavorDefs`; 1831 = 930 + 901.
 - No `[ERROR]` line. No `[WARN]` attributed to this mod. Two `[Vanilla]` warnings: Steamworks (no Steam

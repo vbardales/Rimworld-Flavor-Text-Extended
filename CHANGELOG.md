@@ -17,6 +17,10 @@ its ingredient slots matches something in the cooked meal, and that many of ours
 - Fix the sage butter pork chop, whose name and description said sage whatever spice was in the meal.
 - No dish was added or removed, and no def name changed, so existing saves keep their meal names.
 
+Tested in game on this revision, headless through Pickle: the mod alone (11 scenarios), without Odyssey (3), beside the three
+ingredient providers (6) and the meal-card captures (3) all pass, with no error naming this mod. Flavor Text now reports more active
+dishes for the same modlists (696 instead of 641 on the bare list, 1072 instead of 1025 with the providers).
+
 ## 1.0.0
 
 First release. The mod was developed against Flavor Text (hekmo) for 1.6; nothing had been published before.

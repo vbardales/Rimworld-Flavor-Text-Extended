@@ -417,19 +417,40 @@ Odyssey meats exist for.
 - A run is a `done -> tested` criterion, with the `@review` rule that a green proves the path was
   played and nothing more; these scenarios take no screenshot.
 
-### What has run
+### What has run on the current revision
+
+After the 2026-09-23 FlavorDef narrowness review the four passes were played again, queued on tickets, headless in the WSL
+game (`without-odyssey` and `workshop-captures` on 2026-09-23, the other two on 2026-09-24 after their first tickets were
+abandoned in the queue, exit 7, without ever running). Read `exitReason` first: all four ended, none was cut.
+
+| Pass | Result | Active FlavorDefs | Where |
+|---|---|---|---|
+| without-optionals (`01`, `03`, `04`) | **11 of 11, `exitReason: passed`**. T7 now runs in this pass and passes. | 696 (641 before the review) | `2026-09-24-without-optionals/` |
+| without-odyssey (`05`) | **3 of 3, `exitReason: passed`** | 653 (607 before) | `2026-09-23-without-odyssey/` |
+| with-optionals (`02`) | **6 of 6, `exitReason: passed`** | 1072 (1025 before) | `2026-09-24-with-optionals/` |
+| workshop-captures (`06`) | **3 of 3, `exitReason: passed`**; the three images are a review item, not a verdict | 696 | `2026-09-23-workshop-captures/` (images on disk, ignored by git) |
+
+No `[ERROR]` line in any of the four `Player.log` files names a def, category or patch of this mod. The "active" figures
+are Flavor Text's own startup line and count every dish it keeps for the modlist, its own and ours: the review widened
+slots, so more of the 901 pass the ingredient test. Not measured: how often a dish is actually drawn in play.
+
+### What ran on the v1.0.0 build (history)
+
+The reports below were pruned on 2026-09-24 once the runs above replaced them (root `AGENTS.md`, "Test evidence"); the
+numbers stay as history and each pruned run has a line in `docs/runs/`.
+
 
 Three passes ran on 2026-09-21, queued on tickets, headless in the WSL game. Reports and logs are kept under
 `Tests/Pickle/results/`. Read `exitReason` first: all three ended, none was cut.
 
 | Pass | Result | Where |
 |---|---|---|
-| without-optionals (`01`, `03`, `04`, with T7 then tagged `@wip` and skipped) | **10 passed, 0 failed, 1 skipped, `exitReason: passed`**. 01 also ran alone earlier, 5/5. | `2026-09-21-without-optionals-full/` |
+| without-optionals (`01`, `03`, `04`, with T7 then tagged `@wip` and skipped) | **10 passed, 0 failed, 1 skipped, `exitReason: passed`**. 01 also ran alone earlier, 5/5. | `2026-09-21-without-optionals-full/` (pruned 2026-09-24, replaced by `2026-09-24-without-optionals/`) |
 | without-odyssey (`05`) | **3 of 3, `exitReason: passed`** | `2026-09-21-without-odyssey/` |
-| without-odyssey (`05`), rerun with PickleTools ExpansionSteps | **3 of 3, `exitReason: passed`**. Odyssey inactive and Ideology active were asserted by the shared steps. | `2026-09-22-without-odyssey-pickletools/` |
-| T7 alone (then tagged `@wip`, `-IncludeWip`, `-Filter '::four ingredients become two dishes'`) | **1 of 1, 6 steps of 6, `exitReason: passed`**, zero `[ERROR]` in the log. A meal from rice, pork, egg and potato carried two dishes at once, at least once in 50 cooks. The tag was removed after this evidence. | `2026-09-21-t7-wip/` |
+| without-odyssey (`05`), rerun with PickleTools ExpansionSteps | **3 of 3, `exitReason: passed`**. Odyssey inactive and Ideology active were asserted by the shared steps. | `2026-09-22-without-odyssey-pickletools/` (pruned 2026-09-24, replaced by `2026-09-23-without-odyssey/`) |
+| T7 alone (then tagged `@wip`, `-IncludeWip`, `-Filter '::four ingredients become two dishes'`) | **1 of 1, 6 steps of 6, `exitReason: passed`**, zero `[ERROR]` in the log. A meal from rice, pork, egg and potato carried two dishes at once, at least once in 50 cooks. The tag was removed after this evidence. | `2026-09-21-t7-wip/` (pruned 2026-09-24, replaced by `2026-09-24-without-optionals/`) |
 | with-optionals (`02`), first run | 5 passed, 1 failed, `exitReason: failed`: a wrong assertion of mine, see below | `2026-09-21-with-optionals/` |
-| with-optionals (`02`), rerun after the fix | **6 of 6, 23 of 23 steps, `exitReason: passed`**. Flavor Text read `1025 active FlavorDefs ... out of 1831`. One `[ERROR]` in the log, a Unity/FMOD audio error naming no def, present in this pass and absent from the two without providers, so it comes from one of them and not from this mod. | `2026-09-21-with-optionals-rerun/` |
+| with-optionals (`02`), rerun after the fix | **6 of 6, 23 of 23 steps, `exitReason: passed`**. Flavor Text read `1025 active FlavorDefs ... out of 1831`. One `[ERROR]` in the log, a Unity/FMOD audio error naming no def, present in this pass and absent from the two without providers, so it comes from one of them and not from this mod. | `2026-09-21-with-optionals-rerun/` (pruned 2026-09-24, replaced by `2026-09-24-with-optionals/`) |
 
 What they show, and what they do not:
 - **T2 is answered.** The game kept Odyssey out (asked twice: `ModsConfig.IsActive` and the mod list; this was the open
