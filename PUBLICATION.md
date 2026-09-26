@@ -113,6 +113,23 @@ Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]
 Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
 ```
 
+### 1.2.0 (draft, not sent: the version is not bumped and the shorter forms are not tested in game yet)
+
+Publish only once the French companion has its entries for the new forms (`_tools/variants-french.js`), or say on the page that
+the French text of the new forms is coming.
+
+```
+[h1]1.2.0[/h1]
+Meals of one or two ingredients can now get a dish of this mod, not only meals of exactly three.
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] names a meal in chunks of up to three ingredients, and a dish only fits a chunk with exactly as many ingredients as it has slots. Almost all of ours had three, so a lone potato or a two-ingredient meal could only be named by Flavor Text's own dishes. 233 shorter forms of existing dishes fix that: the same dish, the same name, minus an ingredient it never needed (176 for two ingredients, 57 for one).
+[*] Fixed two dishes that could never appear, altang and jjapaghuri: they asked for four ingredients, more than a chunk holds.
+[*] Nothing was removed and no dish was renamed: your saves are unaffected.
+[/list]
+Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] (hekmo). Thank you hekmo for testing it and telling me the dishes were not showing up.
+Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
+```
+
 ## Thanks — posted 2026-09-22
 
 Five drafted here in a technical tone; the owner asked for a warmer, fan-toned rewrite instead, each one different, and
