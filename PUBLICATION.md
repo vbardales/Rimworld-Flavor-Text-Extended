@@ -127,7 +127,7 @@ The dishes, their descriptions and the ingredient patches were written with Clau
 
 daylight ([RimLife Cultivation Plus](https://steamcommunity.com/sharedfiles/filedetails/?id=3614595617), [RimLife Expansion Trading items](https://steamcommunity.com/sharedfiles/filedetails/?id=2951594887)), Diamond.J, DaJian, Frolg and TangWan ([Chinese Traditional Cultural Things Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640)) and VVenchov ([VV - New Harvest](https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106)), whose ingredients this mod recognises when they are installed.
 
-DRILLED_HEAD, for [[DHM]Korean cuisine](https://steamcommunity.com/sharedfiles/filedetails/?id=3723096620): discovering its Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon prompted five independently written dish definitions here.
+DRILLED_HEAD, for [DHM Korean cuisine](https://steamcommunity.com/sharedfiles/filedetails/?id=3723096620): discovering its Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon prompted five independently written dish definitions here.
 
 RimWorks, for [Pickle](https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678) and [RimLogging](https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696): this release was tested headless, in a real running game, through their tools. Development-only, not a dependency of this mod.
 
