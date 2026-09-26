@@ -130,6 +130,17 @@ Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]
 Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
 ```
 
+### Steam page description, 1.2.0 (by hand: the CI does not send it)
+
+The description is sent to Steam only when the item is created; a change is made by hand on the page. Add this section after
+the paragraph that ends "variety rather than conflict." It is the same text as in `Mod/About/About.xml`.
+
+```
+SHORTER FORMS
+
+Flavor Text names a meal in chunks of up to three ingredients, and a dish only fits a chunk with exactly as many ingredients as it has slots. So many of these dishes also come in a shorter form, the same dish under the same name minus an ingredient it never needed, to name meals of one or two ingredients.
+```
+
 ## Thanks — posted 2026-09-22
 
 Five drafted here in a technical tone; the owner asked for a warmer, fan-toned rewrite instead, each one different, and
