@@ -179,3 +179,15 @@ ends with the public item URL.
 3. ~~Subscribe, play with it for real, then switch to public by hand.~~ Done by the owner; confirmed from outside
    (an anonymous browser session sees the full page and a Subscribe button — the shape of a public item).
 4. ~~Post the thanks above.~~ Done, spot-checked live on hekmo's page. ~~Record the Workshop id in `STATUS.md`.~~ Done.
+
+## Reply to hekmo, 2026-09-26 (draft, not posted)
+
+hekmo saw no dish of this mod in a hundred spawned meals with random ingredients. The cause is Flavor Text's own matching rule
+(a dish only names a chunk with exactly as many ingredients as it has slots), which this reply explains. Only post it once the
+owner agrees; it promises nothing that is not being done (the shorter forms are on branch `arity`, untested in game).
+
+```
+Found it, and it's not your test, it's my mod :) Your engine only pairs a dish with a chunk of ingredients that has exactly as many items as the dish has slots. 896 of my 901 dishes have 3 slots, so they could only name meals of exactly 3 ingredients. Spawn meals of 1 or 2 and you can only ever see your own dishes, which is what your screenshot shows. Sorry for the wild goose chase! (Your medium-boiled egg is one of my two 1-slot dishes, that's why it worked.)
+
+I'm adding shorter forms of the dishes so they can name 1 and 2 ingredient meals too. Not out yet, I want it tested in game first. Thank you for digging into this, it would have taken me much longer alone.
+```
