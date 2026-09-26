@@ -71,6 +71,73 @@ table, `ModIcon.png` a cartoon mascot with a food-labelled ribbon. Nothing in th
 alcohol, insects or reptiles as ingredients, which the Workshop's categories do not treat as mature content. To be answered
 again for every capture added.
 
+## Steam description
+
+The single source of the Steam description, in Markdown (standard chosen by the owner on 2026-09-25, see
+`Rimworld-Release-Admin/docs/OPERATIONS.md`, "Changing where the Steam description comes from"). Once this repository's publish
+workflow is generated with `--description-markdown PUBLICATION.md --description-heading '^## Steam description$'
+--about-from-description`, the CI converts this block to Steam BBCode when `update_description` is ticked, and generates the plain-text
+`<description>` of `Mod/About/About.xml` from it. Until that migration this block is only the draft of the 1.2.0 description; the
+headings are bold instead of plain capitals, the SHORTER FORMS section is new, the rest is the page as it stands.
+
+```markdown
+An add-on for [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) (hekmo). Requires it, contains none of its files, and does nothing without it.
+
+901 NEW DISHES
+
+French and regional cooking first, then the wider repertoire: Italy, the Maghreb, Japan, Korea, Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the Caribbean, Polynesia.
+
+Each dish is defined by a combination of ingredients. That combination is what the engine draws on, not the name - so the same dish under five different names would add nothing, and is not here. Where two dishes share a combination it is deliberate: the engine picks at random among matching definitions, weighted by how narrow each one is, so sharing produces variety rather than conflict.
+
+**SHORTER FORMS**
+
+Flavor Text names a meal in chunks of up to three ingredients, and a dish only fits a chunk with exactly as many ingredients as it has slots. So many of these dishes also come in a shorter form, the same dish under the same name minus an ingredient it never needed, to name meals of one or two ingredients.
+
+**WHAT YOUR COLONY GROWS DECIDES WHAT YOU SEE**
+
+[Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 901 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
+
+That is how the engine works rather than a shortcoming: nothing is lost, a dish simply waits for its ingredient. But it is worth knowing before you install.
+
+**NEW INGREDIENT CATEGORIES**
+
+Leek and shallot get categories of their own, so a dish can ask for them by name; both still count as onion for [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432)'s own dishes. Five reptile and amphibian meat categories - turtle, alligator, iguana, lizard, frog - split out of the single herptile category.
+
+**THIRD-PARTY INGREDIENTS**
+
+[Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) matches keywords against both defNames and labels. This mod also attaches selected ingredients explicitly by defName, including ingredients whose names do not match the expected keywords: highland barley, hybrid rice, salted mustard greens, bok choy, ginkgo nuts, grain wines, dried meat and cheeses, among others.
+
+None of those mods are required. Each provider-specific ingredient reference is guarded by its mod's package ID. No DLC is required. The [Chinese Traditional Cultural Things Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640) hooks are not certified for RimWorld 1.6.
+
+**FRENCH**
+
+This mod contains the English content. For French names, descriptions and ingredient grammar, install the separate [Flavor Text Extended - Français](https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488) companion alongside [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) and this mod. The French companion is optional.
+
+**IF I GO QUIET**
+
+If I do not answer within a reasonable time after being contacted, anyone may freely update this or any other of my mods, including publishing a continuation of it. All credit must be preserved.
+
+**AI-GENERATED**
+
+The dishes, their descriptions and the ingredient patches were written with Claude (Anthropic) and ChatGPT (OpenAI), under my direction and review: I chose which dishes to write, which categories to split and which combinations to keep. The mod icon and the Preview illustration are generated with DALL-E (OpenAI).
+
+**THANKS**
+
+[hekmo, for Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432): how names are composed, how a definition is picked and how ingredients inflect are all his work, and this mod is only new content for it.
+
+daylight ([RimLife Cultivation Plus](https://steamcommunity.com/sharedfiles/filedetails/?id=3614595617), [RimLife Expansion Trading items](https://steamcommunity.com/sharedfiles/filedetails/?id=2951594887)), Diamond.J, DaJian, Frolg and TangWan ([Chinese Traditional Cultural Things Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640)) and VVenchov ([VV - New Harvest](https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106)), whose ingredients this mod recognises when they are installed.
+
+DRILLED_HEAD, for [[DHM]Korean cuisine](https://steamcommunity.com/sharedfiles/filedetails/?id=3723096620): discovering its Altang, Beondegi, Bungeoppang, Jjapaghuri and Kimchijeon prompted five independently written dish definitions here.
+
+RimWorks, for [Pickle](https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678) and [RimLogging](https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696): this release was tested headless, in a real running game, through their tools. Development-only, not a dependency of this mod.
+
+My own PickleTools, a shared testing toolkit across my mods, unpublished: the without-odyssey pass reads ModsConfig through its ExpansionSteps.
+
+Credits, provenance and licence (MIT) are in ATTRIBUTION.md and LICENSE, shipped with the mod.
+
+[Source code on GitHub](https://github.com/vbardales/Rimworld-Flavor-Text-Extended)
+```
+
 ## Steam release notes (first upload)
 
 > First release. Adds 901 dishes to Flavor Text, mostly French and regional cooking, and two families of new ingredient
