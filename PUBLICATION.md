@@ -83,7 +83,7 @@ headings are bold instead of plain capitals, the SHORTER FORMS section is new, t
 ```markdown
 An add-on for [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) (hekmo). Requires it, contains none of its files, and does nothing without it.
 
-**926 NEW DISHES**
+**932 NEW DISHES**
 
 French and regional cooking first, then the wider repertoire: Italy, the Maghreb, Japan, Korea, Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the Caribbean, Polynesia.
 
@@ -95,11 +95,11 @@ Flavor Text names a meal in chunks of up to three ingredients, and a dish only f
 
 **EVERYDAY COMBINATIONS**
 
-Twenty-five of the dishes are written for what a colony really cooks with what it has on hand: two meats in a pot, meat in cream, meat with berries or mushrooms. Their slots are broad (any raw meat, any berry), so they name common meals without crowding out the specific dishes.
+Thirty-one of the dishes are written for what a colony really cooks with what it has on hand: two meats in a pot, meat in cream, meat with berries or mushrooms, and a few meat-free pots. Their slots are broad (any raw meat, any berry), so they name common meals without crowding out the specific dishes.
 
 **WHAT YOUR COLONY GROWS DECIDES WHAT YOU SEE**
 
-[Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 926 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save (the base game and its DLC) about eighty of them can fire, plus their shorter forms; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
+[Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 932 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save (the base game and its DLC) about eighty of them can fire, plus their shorter forms; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
 
 That is how the engine works rather than a shortcoming: nothing is lost, a dish simply waits for its ingredient. But it is worth knowing before you install.
 
@@ -208,7 +208,7 @@ the French text of the new forms is coming.
 Meals of one or two ingredients can now get a dish of this mod, not only meals of exactly three.
 [list]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] names a meal in chunks of up to three ingredients, and a dish only fits a chunk with exactly as many ingredients as it has slots. Almost all of ours had three, so a lone potato or a two-ingredient meal could only be named by Flavor Text's own dishes. 233 shorter forms of existing dishes fix that: the same dish, the same name, minus an ingredient it never needed (176 for two ingredients, 57 for one).
-[*] 25 new dishes for the combinations a colony really cooks: two meats in a pot, meat in cream, meat with berries, mushrooms or potatoes. In a test kitchen of twelve everyday ingredients, the share of three-ingredient meals that one of our dishes can name goes from about a fifth to more than four fifths.
+[*] 31 new dishes for the combinations a colony really cooks: two meats in a pot, meat in cream, meat with berries, mushrooms or potatoes, and a few meat-free pots. In a test kitchen of twelve everyday ingredients, the share of three-ingredient meals that one of our dishes can name goes from about a fifth to more than nine tenths.
 [*] Fixed two dishes that could never appear, altang and jjapaghuri: they asked for four ingredients, more than a chunk holds.
 [*] Nothing was removed and no dish was renamed: your saves are unaffected.
 [/list]

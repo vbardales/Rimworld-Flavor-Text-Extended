@@ -290,6 +290,8 @@ const CHUNK = opt('chunk', '');
 if (CHUNK) {
   const chunk = CHUNK.split(',').map(n => ingList.find(i => i.dn === n.trim()));
   if (chunk.some(x => !x)) { console.error('unknown ingredient in --chunk (not in the pool of this mod list)'); process.exit(1); }
+  const why = opt('why', '');
+  if (why) for (const d of live.filter(x => x.dn === why)) console.log(`${d.dn}: slots ${JSON.stringify(d.slots)}, diets ${[...d.diets]}, chunk diet ${chunkDiet(chunk)}, slot counts ${d.slots.map(s => allowed(s))}, matches ${matches(chunk, d)}`);
   const hits = (byArity[chunk.length] || []).filter(d => matches(chunk, d));
   const sum = hits.reduce((a, d) => a + d.weight, 0);
   for (const d of hits.sort((a, b) => b.weight - a.weight)) console.log(`${(100 * d.weight / sum).toFixed(1).padStart(5)} %  ${d.source.padEnd(5)} ${d.dn}`);

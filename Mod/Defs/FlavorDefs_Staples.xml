@@ -375,4 +375,89 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_HarvestPot</defName>
+		<label>harvest pot</label>
+		<ingredients>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+		</ingredients>
+		<description>{0_coll}, {1_coll} and {2_coll} tipped into the same pot and cooked together for as long as it takes. There is no meat in it and nobody at the table asks where it is.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_VegetableScramble</defName>
+		<label>vegetable scramble</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+		</ingredients>
+		<description>{0_coll} scrambled in the pan with {1_coll} and {2_coll}, stirred until the whole thing is barely set. A meal made in ten minutes from whatever the garden gave that day.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_CreamedVegetables</defName>
+		<label>creamed vegetables</label>
+		<ingredients>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
+		</ingredients>
+		<description>{1_coll} and {2_coll} cooked soft, then folded into {0_coll} over a low heat until the sauce clings to everything in the pan.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MushroomRisotto</defName>
+		<label>mushroom risotto</label>
+		<ingredients>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+		</ingredients>
+		<description>{2_coll} stirred with a ladle of hot stock at a time, {1_coll} added when the grains are half done and {0_coll} beaten in at the very end. It must be served at once, and it must still move on the plate.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_RicePuddingWithBerries</defName>
+		<label>rice pudding with berries</label>
+		<ingredients>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+		</ingredients>
+		<description>{1_coll} simmered in {0_coll} for an hour until it turns thick and creamy, with a spoonful of {2_coll} pressed into the middle of each bowl.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MushroomPotatoGratin</defName>
+		<label>mushroom and potato gratin</label>
+		<ingredients>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{1_coll} sliced thin and layered with {2_coll}, covered with {0_coll} and baked until the top is spotted brown and the knife goes through without a sound.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
 </Defs>
