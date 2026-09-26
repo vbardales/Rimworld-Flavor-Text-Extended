@@ -2,6 +2,11 @@
 //
 //   node _tools/frequency.js <Flavor Text Defs folder> [--vanilla] [--defs=<folder of FlavorDefs_*.xml>]
 //                            [--n=20000] [--seed=1] [--cooked=MealSimple] [--ghost=0] [--chunk=RawRice,Meat_Pig]
+//                            [--pool=RawRice,RawPotatoes,...] [--triples]
+//
+// With --pool the ingredients drawn are only those (a realistic kitchen instead of every ingredient of the mod
+// list). With --triples, every combination of three ingredients of the pool is tried once and the ones that no
+// dish of this mod can name are listed, most common categories first: the gaps a new dish would fill.
 //
 // With --chunk it prints instead the dishes that would match that exact list of ingredients (a chunk of one
 // to three ThingDef names), each with its weight and share of the draw, and stops.
@@ -42,6 +47,8 @@ const N = +opt('n', 20000);
 const SEED = +opt('seed', 1);
 const COOKED = opt('cooked', 'MealSimple');
 const OURS_DIR = opt('defs', './Mod/Defs');
+const POOL = opt('pool', '');
+const TRIPLES = args.includes('--triples');
 const GHOST = +opt('ghost', 0);
 
 const RW = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld';
@@ -158,6 +165,13 @@ function memberships(dn, lab) {
   return out;
 }
 const ingList = [...ingredients].map(([dn, lab]) => ({ dn, cats: memberships(dn, lab) })).filter(i => i.cats.size > 0);
+if (POOL) {
+  const keep = new Set(POOL.split(',').map(s => s.trim()));
+  const before = ingList.length;
+  for (let i = ingList.length - 1; i >= 0; i--) if (!keep.has(ingList[i].dn)) ingList.splice(i, 1);
+  const missing = [...keep].filter(k => !ingList.some(i => i.dn === k));
+  console.log(`pool restricted from ${before} to ${ingList.length} ingredients` + (missing.length ? `; not found: ${missing.join(', ')}` : ''));
+}
 const mealCats = new Map([...meals].map(([dn, lab]) => [dn, memberships(dn, lab)]));
 const cookedCats = mealCats.get(COOKED);
 if (!cookedCats) { console.error(`no meal named ${COOKED} among the meals of the mod list (${[...meals.keys()].slice(0, 12).join(', ')}...)`); process.exit(1); }
@@ -251,6 +265,25 @@ function matches(chunk, d) {
     left.splice(i, 1);
   }
   return true;
+}
+if (TRIPLES) {
+  const pc = (a, b) => (b ? (100 * a / b).toFixed(1) + " %" : "-");
+  let total = 0, named = 0, withOurs = 0, oursShare = 0;
+  const gaps = [];
+  const n = ingList.length;
+  for (let a = 0; a < n; a++) for (let b = a + 1; b < n; b++) for (let c = b + 1; c < n; c++) {
+    const chunk = [ingList[a], ingList[b], ingList[c]];
+    let wAll = 0, wOurs = 0;
+    for (const d of byArity[3] || []) { if (!matches(chunk, d)) continue; wAll += d.weight; if (d.source === 'nous') wOurs += d.weight; }
+    total++;
+    if (wAll > 0) named++;
+    if (wOurs > 0) withOurs++; else gaps.push(chunk.map(i => i.dn).join(', '));
+    if (wAll > 0) oursShare += wOurs / wAll;
+  }
+  console.log(`\nall ${total} triples of the pool: named ${pc(named, total)}, one of ours possible for ${pc(withOurs, total)}, share of the draw that is ours ${pc(oursShare, named)}`);
+  console.log(`triples no dish of ours can name: ${gaps.length}`);
+  for (const g of gaps.slice(0, 40)) console.log('  ' + g);
+  process.exit(0);
 }
 const CHUNK = opt('chunk', '');
 if (CHUNK) {
