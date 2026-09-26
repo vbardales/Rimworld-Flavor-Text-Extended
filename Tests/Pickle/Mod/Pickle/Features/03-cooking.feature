@@ -64,3 +64,12 @@ Feature: cooking a meal names it after a dish
     And Flavor Text Extended: a meal was named after "FlavorTextFR_BiryaniDuo"
     And Flavor Text Extended: a meal named after "FlavorTextFR_BiryaniDuo" is labelled with "biryani"
     And no errors were logged
+
+  # A meal of one ingredient is named only by a dish with a single slot. FlavorTextFR_GnocchiSolo is the one-slot form of
+  # the gnocchi (a potato); it takes about a third of the draw for a lone potato, so 300 cooks show it.
+  Scenario: a one-ingredient dish fires
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawPotatoes", 300 times
+    Then Flavor Text Extended: every meal was named after a dish
+    And Flavor Text Extended: a meal was named after "FlavorTextFR_GnocchiSolo"
+    And Flavor Text Extended: a meal named after "FlavorTextFR_GnocchiSolo" is labelled with "gnocchi"
+    And no errors were logged

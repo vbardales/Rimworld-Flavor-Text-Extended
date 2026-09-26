@@ -61,15 +61,19 @@ function renumber(text, map) {
   return text.replace(/\{(\d+)_/g, (all, i) => (i in map ? `{${map[i]}_` : all));
 }
 
-function variant(block, keep, suffix) {
+function variant(block, keep, suffix, replace = {}) {
   const { start, end, slots } = slotsOf(block);
   const map = {};
   keep.forEach((old, i) => { map[old] = i; });
   const body = '\n\t\t\t' + keep.map(i => slots[i].trim()).join('\n\t\t\t') + '\n\t\t';
   let out = block.slice(0, start) + body + block.slice(end);
   out = out.replace(/<defName>([^<]*)<\/defName>/, (all, n) => `<defName>${n}${suffix}</defName>`);
-  out = out.replace(/<label>([^<]*)<\/label>/, (all, t) => `<label>${renumber(t, map)}</label>`);
-  out = out.replace(/<description>([\s\S]*?)<\/description>/, (all, t) => `<description>${renumber(t, map)}</description>`);
+  // A dropped slot the text cites is replaced by the plain word given for it; any other token is renumbered.
+  const fix = t => renumber(t.replace(/\{(\d+)_[a-z]+\}/g, (all, i) => (i in replace ? replace[i] : all)), map);
+  out = out.replace(/<label>([^<]*)<\/label>/, (all, t) => `<label>${fix(t)}</label>`);
+  out = out.replace(/<description>([\s\S]*?)<\/description>/, (all, t) => `<description>${fix(t)}</description>`);
+  const left = [...out.matchAll(/\{(\d+)_/g)].map(m => +m[1]).filter(i => i >= keep.length);
+  if (left.length) throw new Error(`${block.match(/<defName>([^<]*)/)[1]}${suffix}: the text still cites a slot the form dropped (${left})`);
   return { xml: out, map };
 }
 
@@ -86,13 +90,14 @@ for (const p of listing.filter(x => /\/FlavorDefs_[^/]*\.xml$/.test(x))) {
 }
 
 const files = fs.readdirSync(DEFS).filter(f => /^FlavorDefs_/.test(f) && f !== 'FlavorDefs_Variants.xml').sort();
-const variants = [], mapOut = {};
+const variants = [], mapOut = {}, blocks = new Map();
 let dishes = 0;
 for (const f of files) {
   const xml = fs.readFileSync(path.join(DEFS, f), 'utf8');
   for (const block of xml.match(/<FlavorText\.FlavorDef[\s\S]*?<\/FlavorText\.FlavorDef>/g) || []) {
     dishes++;
     const dn = block.match(/<defName>([^<]*)<\/defName>/)[1];
+    blocks.set(dn, { block, f });
     const { slots } = slotsOf(block);
     if (slots.length !== 3) continue;
     const oldSlots = baseSlots.get(dn) || [];
@@ -113,6 +118,18 @@ for (const f of files) {
       make(citedList, 'Solo');
     }
   }
+}
+
+// The one-ingredient forms chosen by hand: _tools/solo-forms.json says which slot stands alone and what replaces a
+// dropped ingredient that the text names.
+const solo = JSON.parse(fs.readFileSync(path.join(__dirname, 'solo-forms.json'), 'utf8'));
+for (const [dn, spec] of Object.entries(solo)) {
+  if (dn.startsWith('_') || mapOut[dn + 'Solo']) continue;      // a comment, or a form the rule above already made
+  const src = blocks.get(dn);
+  if (!src) throw new Error(`solo-forms.json names ${dn}, which is not a dish`);
+  const v = variant(src.block, [spec.keep], 'Solo', spec.replace || {});
+  variants.push(v.xml);
+  mapOut[dn + 'Solo'] = { copies: dn, file: src.f, slots: 1, tokens: v.map, curated: true, replaced: spec.replace || {} };
 }
 
 const header = `<?xml version="1.0" encoding="utf-8" ?>

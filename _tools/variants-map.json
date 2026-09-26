@@ -1606,5 +1606,589 @@
    "0": 0,
    "2": 1
   }
+ },
+ "FlavorTextFR_ArtichautsVinaigretteSolo": {
+  "copies": "FlavorTextFR_ArtichautsVinaigrette",
+  "file": "FlavorDefs_Artichoke.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_CarciofiAllaGiudiaSolo": {
+  "copies": "FlavorTextFR_CarciofiAllaGiudia",
+  "file": "FlavorDefs_Artichoke.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_AspergesFlamandeSolo": {
+  "copies": "FlavorTextFR_AspergesFlamande",
+  "file": "FlavorDefs_Asparagus.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_AspergesMousselineSolo": {
+  "copies": "FlavorTextFR_AspergesMousseline",
+  "file": "FlavorDefs_Asparagus.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "2": "cream"
+  }
+ },
+ "FlavorTextFR_JambonALOsSolo": {
+  "copies": "FlavorTextFR_JambonALOs",
+  "file": "FlavorDefs_Classics2.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_MousseAuChocolatSolo": {
+  "copies": "FlavorTextFR_MousseAuChocolat",
+  "file": "FlavorDefs_Desserts.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_KunefeSolo": {
+  "copies": "FlavorTextFR_Kunefe",
+  "file": "FlavorDefs_Desserts.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_DurianPuffSolo": {
+  "copies": "FlavorTextFR_DurianPuff",
+  "file": "FlavorDefs_Durian.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_GateauAuDurianSolo": {
+  "copies": "FlavorTextFR_GateauAuDurian",
+  "file": "FlavorDefs_Durian.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_TempoyakSolo": {
+  "copies": "FlavorTextFR_Tempoyak",
+  "file": "FlavorDefs_Durian.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_WienerSchnitzelSolo": {
+  "copies": "FlavorTextFR_WienerSchnitzel",
+  "file": "FlavorDefs_Europe.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_PoronkaristysSolo": {
+  "copies": "FlavorTextFR_Poronkaristys",
+  "file": "FlavorDefs_Europe.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_LapskausSolo": {
+  "copies": "FlavorTextFR_Lapskaus",
+  "file": "FlavorDefs_Europe.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_KedgereeSolo": {
+  "copies": "FlavorTextFR_Kedgeree",
+  "file": "FlavorDefs_Europe.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_DaubeProvencaleSolo": {
+  "copies": "FlavorTextFR_DaubeProvencale",
+  "file": "FlavorDefs_FrenchRegions.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_GougeresSolo": {
+  "copies": "FlavorTextFR_Gougeres",
+  "file": "FlavorDefs_FrenchRegions.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_PateDePaquesSolo": {
+  "copies": "FlavorTextFR_PateDePaques",
+  "file": "FlavorDefs_FrenchRegions2.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_PouletEnBarbouilleSolo": {
+  "copies": "FlavorTextFR_PouletEnBarbouille",
+  "file": "FlavorDefs_FrenchRegions2.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_GnocchiSolo": {
+  "copies": "FlavorTextFR_Gnocchi",
+  "file": "FlavorDefs_Italy.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_AamrasPuriSolo": {
+  "copies": "FlavorTextFR_AamrasPuri",
+  "file": "FlavorDefs_Mango.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_MelasseDeGrenadeSolo": {
+  "copies": "FlavorTextFR_MelasseDeGrenade",
+  "file": "FlavorDefs_Pomegranate.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_ColoncheSolo": {
+  "copies": "FlavorTextFR_Colonche",
+  "file": "FlavorDefs_PricklyPear.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_SashimiSolo": {
+  "copies": "FlavorTextFR_Sashimi",
+  "file": "FlavorDefs_RawAndEggs.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_GoredGoredSolo": {
+  "copies": "FlavorTextFR_GoredGored",
+  "file": "FlavorDefs_RawAndEggs.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_TurtleSoupCreoleSolo": {
+  "copies": "FlavorTextFR_TurtleSoupCreole",
+  "file": "FlavorDefs_Reptiles.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_PoppedSorghumSolo": {
+  "copies": "FlavorTextFR_PoppedSorghum",
+  "file": "FlavorDefs_Sorghum.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_KhoreshBehSolo": {
+  "copies": "FlavorTextFR_KhoreshBeh",
+  "file": "FlavorDefs_SweetAndSavory.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_MaTaiGoSolo": {
+  "copies": "FlavorTextFR_MaTaiGo",
+  "file": "FlavorDefs_WaterChestnut.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_GateauAuYaourtSolo": {
+  "copies": "FlavorTextFR_GateauAuYaourt",
+  "file": "FlavorDefs_Desserts.xml",
+  "slots": 1,
+  "tokens": {
+   "1": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_MedovikSolo": {
+  "copies": "FlavorTextFR_Medovik",
+  "file": "FlavorDefs_Desserts.xml",
+  "slots": 1,
+  "tokens": {
+   "1": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_TaiyakiSolo": {
+  "copies": "FlavorTextFR_Taiyaki",
+  "file": "FlavorDefs_Desserts.xml",
+  "slots": 1,
+  "tokens": {
+   "1": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_BriouatesSolo": {
+  "copies": "FlavorTextFR_Briouates",
+  "file": "FlavorDefs_Maghreb.xml",
+  "slots": 1,
+  "tokens": {
+   "1": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_PajeonSolo": {
+  "copies": "FlavorTextFR_Pajeon",
+  "file": "FlavorDefs_Korea.xml",
+  "slots": 1,
+  "tokens": {
+   "2": 0
+  },
+  "curated": true,
+  "replaced": {}
+ },
+ "FlavorTextFR_CanardLaqueSolo": {
+  "copies": "FlavorTextFR_CanardLaque",
+  "file": "FlavorDefs_China.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "syrup"
+  }
+ },
+ "FlavorTextFR_ChouFarciSolo": {
+  "copies": "FlavorTextFR_ChouFarci",
+  "file": "FlavorDefs_Classics2.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "meat"
+  }
+ },
+ "FlavorTextFR_SernikSolo": {
+  "copies": "FlavorTextFR_Sernik",
+  "file": "FlavorDefs_Desserts.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "eggs"
+  }
+ },
+ "FlavorTextFR_GravlaxSolo": {
+  "copies": "FlavorTextFR_Gravlax",
+  "file": "FlavorDefs_Europe.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "sugar"
+  }
+ },
+ "FlavorTextFR_AnguilleAuVertSolo": {
+  "copies": "FlavorTextFR_AnguilleAuVert",
+  "file": "FlavorDefs_FrenchRegions2.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "2": "wine"
+  }
+ },
+ "FlavorTextFR_MarmiteDieppoiseSolo": {
+  "copies": "FlavorTextFR_MarmiteDieppoise",
+  "file": "FlavorDefs_FrenchRegions2.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "shellfish"
+  }
+ },
+ "FlavorTextFR_CanardALaRouennaiseSolo": {
+  "copies": "FlavorTextFR_CanardALaRouennaise",
+  "file": "FlavorDefs_FrenchRegions2.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "2": "wine"
+  }
+ },
+ "FlavorTextFR_BoudinNoirAuxPommesSolo": {
+  "copies": "FlavorTextFR_BoudinNoirAuxPommes",
+  "file": "FlavorDefs_FrenchRegions2.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "2": "apples"
+  }
+ },
+ "FlavorTextFR_SaladeLyonnaiseSolo": {
+  "copies": "FlavorTextFR_SaladeLyonnaise",
+  "file": "FlavorDefs_FrenchRegions2.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "2": "lardons"
+  }
+ },
+ "FlavorTextFR_PoulardeDemiDeuilSolo": {
+  "copies": "FlavorTextFR_PoulardeDemiDeuil",
+  "file": "FlavorDefs_FrenchRegions2.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "truffle"
+  }
+ },
+ "FlavorTextFR_FocacciaSolo": {
+  "copies": "FlavorTextFR_Focaccia",
+  "file": "FlavorDefs_Italy.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "olive"
+  }
+ },
+ "FlavorTextFR_UdonSolo": {
+  "copies": "FlavorTextFR_Udon",
+  "file": "FlavorDefs_Japan.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "kombu"
+  }
+ },
+ "FlavorTextFR_MsemenSolo": {
+  "copies": "FlavorTextFR_Msemen",
+  "file": "FlavorDefs_Maghreb.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "butter"
+  }
+ },
+ "FlavorTextFR_TarteAuRizSolo": {
+  "copies": "FlavorTextFR_TarteAuRiz",
+  "file": "FlavorDefs_Pairings.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "plain"
+  }
+ },
+ "FlavorTextFR_NarsharabSolo": {
+  "copies": "FlavorTextFR_Narsharab",
+  "file": "FlavorDefs_Pomegranate.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "2": "sugar"
+  }
+ },
+ "FlavorTextFR_PongTiaKoonSolo": {
+  "copies": "FlavorTextFR_PongTiaKoon",
+  "file": "FlavorDefs_RawAndEggs.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "lime"
+  }
+ },
+ "FlavorTextFR_TortueBraiseeSolo": {
+  "copies": "FlavorTextFR_TortueBraisee",
+  "file": "FlavorDefs_Reptiles.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "mushrooms"
+  }
+ },
+ "FlavorTextFR_FabadaSolo": {
+  "copies": "FlavorTextFR_Fabada",
+  "file": "FlavorDefs_Spain.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "pork"
+  }
+ },
+ "FlavorTextFR_FideuaSolo": {
+  "copies": "FlavorTextFR_Fideua",
+  "file": "FlavorDefs_Spain.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "fish"
+  }
+ },
+ "FlavorTextFR_TakuanSolo": {
+  "copies": "FlavorTextFR_Takuan",
+  "file": "FlavorDefs_SweetAndSavory.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "1": "sugar"
+  }
+ },
+ "FlavorTextFR_SchweinshaxeSolo": {
+  "copies": "FlavorTextFR_Schweinshaxe",
+  "file": "FlavorDefs_Europe.xml",
+  "slots": 1,
+  "tokens": {
+   "0": 0
+  },
+  "curated": true,
+  "replaced": {
+   "2": "beer"
+  }
  }
 }

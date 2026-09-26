@@ -7,9 +7,12 @@ three and names each chunk with a dish that has exactly as many ingredient slots
 our 901 dishes had three slots, so they could only name a meal of exactly three ingredients, while a meal of one or two
 was named by Flavor Text's own dishes alone (hekmo reported seeing none of ours in a hundred spawned meals).
 
-- Add 179 shorter forms of existing dishes (`FlavorDefs_Variants.xml`, `_tools/make-variants.js`): the same dish, with the
-  same name and text, minus an ingredient it never needed (one that the 1.1.0 review had widened and that its text
-  never cites). 176 take two ingredients and 3 take one. A form and its original never compete: their slot counts differ.
+- Add 233 shorter forms of existing dishes (`FlavorDefs_Variants.xml`, made by `_tools/make-variants.js`): the same dish,
+  with the same name and text, minus an ingredient it never needed. 176 take two ingredients: they drop an ingredient
+  that the 1.1.0 review had widened and that the text never cites. 57 take one: 3 by that rule and 54 chosen by hand
+  (`_tools/solo-forms.json`), each the dish's subject alone (an artichoke for the artichokes vinaigrette, a potato for the
+  gnocchi), with a plain word in the text where it named a dropped ingredient. A form and its original never compete:
+  their slot counts differ.
 - Fix the two dishes that could never appear because they asked for four ingredients (`FlavorTextExtended_Altang` and
   `FlavorTextExtended_Jjapaghuri`, a chunk holds at most three): they now take three, and their text no longer
   names the dropped ingredient.

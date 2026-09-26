@@ -2429,4 +2429,680 @@
 		</mealKinds>
 	</FlavorText.FlavorDef>
 
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ArtichautsVinaigretteSolo</defName>
+		<label>artichokes vinaigrette</label>
+		<ingredients>
+			<li><categories><li>FT_Artichoke</li></categories></li>
+		</ingredients>
+		<description>{0_coll} boiled whole and head down, served warm with a mustard vinaigrette. You pull the leaves off one by one and scrape the base of each between your teeth; the heart is kept for last.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CarciofiAllaGiudiaSolo</defName>
+		<label>carciofi alla giudia</label>
+		<ingredients>
+			<li><categories><li>FT_Artichoke</li></categories></li>
+		</ingredients>
+		<description>{0_coll} whole fried twice over, crushed between the two fryings so that the leaves open into a flower and turn as brittle as crisps. An invention of the Roman ghetto.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AspergesFlamandeSolo</defName>
+		<label>asparagus à la flamande</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+		</ingredients>
+		<description>white {0_coll} served with a hard-boiled egg crushed with a fork into melted butter, parsley and a grating of nutmeg. Everyone mixes their own sauce on their own plate.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AspergesMousselineSolo</defName>
+		<label>asparagus with sauce mousseline</label>
+		<ingredients>
+			<li><categories><li>FT_Asparagus</li></categories></li>
+		</ingredients>
+		<description>the same hollandaise, lightened by a third with whipped cream folded in off the heat. It doubles in volume and loses its bite: the Sunday version.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_JambonALOsSolo</defName>
+		<label>ham on the bone</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>a whole piece of {0_adj} cooked on its bone and carved in front of you. The flesh against the bone is the best of it, and the last to be served.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MousseAuChocolatSolo</defName>
+		<label>chocolate mousse</label>
+		<ingredients>
+			<li><categories><li>FT_Chocolate</li></categories></li>
+		</ingredients>
+		<description>{0_coll} melted and bound with yolks, lightened with whipped whites folded in three goes — the first third to loosen it, the other two with a spatula, without knocking the air out.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_KunefeSolo</defName>
+		<label>künefe</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>fresh {0_coll} caught between two layers of shredded pastry, browned on both sides then doused in scalding syrup. Eaten at once: the cheese must still pull.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DurianPuffSolo</defName>
+		<label>durian puff</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+		</ingredients>
+		<description>small choux buns filled with a pure {0_adj} cream, served cold. Sold in refrigerated boxes in Singapore, and banned on the underground like everything else containing that fruit.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GateauAuDurianSolo</defName>
+		<label>durian cake</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+		</ingredients>
+		<description>a very airy sponge into whose raw batter the flesh of {0_adj} is folded. The smell fills the kitchen while it bakes and settles there for the day.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TempoyakSolo</defName>
+		<label>tempoyak</label>
+		<ingredients>
+			<li><categories><li>FT_Durian</li></categories></li>
+		</ingredients>
+		<description>the flesh of {0_adj} salted and left to ferment a week in a closed jar, until it turns sour and creamy. It is no longer a fruit at that stage: it is a condiment, and it keeps for months.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_WienerSchnitzelSolo</defName>
+		<label>wiener schnitzel</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+		</ingredients>
+		<description>an escalope of {0_adj} beaten until translucent, crumbed without pressing, and fried in butter with the pan shaken so the coating puffs and lifts off the meat.</description>
+		<mealKinds>
+			<li>FT_MealsDeepFry</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PoronkaristysSolo</defName>
+		<label>poronkäristys</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Hoofed</li></categories></li>
+		</ingredients>
+		<description>reindeer {0_coll} planed into shavings off the frozen block, thrown into scalding fat and served with a mash and a spoonful of lingonberries. A dish of Lapland, eaten in winter.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_LapskausSolo</defName>
+		<label>lapskaus</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+		</ingredients>
+		<description>{0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever kept on board.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_KedgereeSolo</defName>
+		<label>kedgeree</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+		</ingredients>
+		<description>curried {0_coll} folded through flaked smoked fish and hard-boiled eggs. An Indian khichdi carried home by the British and turned by them into a breakfast dish.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_DaubeProvencaleSolo</defName>
+		<label>daube provençale</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+		</ingredients>
+		<description>{0_coll} marinated a whole night, then cooked so long and so gently that it falls apart under the spoon.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GougeresSolo</defName>
+		<label>gougères</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>choux pastry made with {0_plur}, puffed in the oven until it sounds hollow. Eaten warm, standing up, while waiting for the rest.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PateDePaquesSolo</defName>
+		<label>Easter pâté</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>a stuffing of {0_adj} shut inside a pastry, with whole hard-boiled eggs lined up down the middle so that a yellow disc appears in every slice.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PouletEnBarbouilleSolo</defName>
+		<label>poulet en barbouille</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+		</ingredients>
+		<description>{0_coll} stewed in wine, the sauce thickened with the bird's own blood and liver. Barbouille, for what it leaves on the chin of whoever eats it.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GnocchiSolo</defName>
+		<label>gnocchi</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+		</ingredients>
+		<description>{0_coll} crushed while still hot and bound with as little flour as can be managed, rolled, and ridged with a fork. They are done when they rise.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AamrasPuriSolo</defName>
+		<label>aamras puri</label>
+		<ingredients>
+			<li><categories><li>FT_Mango</li></categories></li>
+		</ingredients>
+		<description>the purée of {0_adj} served with scalding puffed puri, torn open to dip with. Sweet and savoury in the same mouthful: a whole meal in Gujarat while the season lasts.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MelasseDeGrenadeSolo</defName>
+		<label>pomegranate molasses</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+		</ingredients>
+		<description>the juice of {0_adj} reduced for hours to a tenth of its volume: thick, black and frankly sour. Dibs rumman in Arabic, nar ekşisi in Turkish — the lemon of the Levant.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ColoncheSolo</defName>
+		<label>colonche</label>
+		<ingredients>
+			<li><categories><li>FT_CactusFruit</li></categories></li>
+		</ingredients>
+		<description>the juice of red {0_adj} left to ferment a few days in an earthenware jar. A pre-Hispanic drink, still sold in the markets of central Mexico.</description>
+		<mealKinds>
+			<li>FT_MealsDrink</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SashimiSolo</defName>
+		<label>sashimi</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+		</ingredients>
+		<description>{0_coll} raw and sliced in one drawn stroke, never sawn, on a bed of shredded radish. The knife and the angle of the cut make the whole dish; there is nothing else to be done.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GoredGoredSolo</defName>
+		<label>gored gored</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Cow</li></categories></li>
+		</ingredients>
+		<description>{0_coll} raw in cubes rather than chopped, rolled in a spiced butter and awaze. The kitfo's cousin in pieces, and the most merciless test of freshness there is.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TurtleSoupCreoleSolo</defName>
+		<label>creole turtle soup</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Turtle</li></categories></li>
+		</ingredients>
+		<description>{0_coll} stewed in a brown roux with the Creole trinity, chopped hard-boiled eggs and a splash of sherry poured into the plate as it is served. The bottle stays on the table.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PoppedSorghumSolo</defName>
+		<label>popped sorghum</label>
+		<ingredients>
+			<li><categories><li>FT_Sorghum</li></categories></li>
+		</ingredients>
+		<description>{0_coll} thrown by the handful into a scorching pan: the grains burst into minute white balls, ten times smaller than popcorn, and a great deal more tender.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_KhoreshBehSolo</defName>
+		<label>khoresh-e beh</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Mutton</li></categories></li>
+		</ingredients>
+		<description>{0_coll} braised with quinces in quarters, whose hard flesh melts within the hour and scents everything, sharpened with verjuice and sweetened with a little honey.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MaTaiGoSolo</defName>
+		<label>ma tai go</label>
+		<ingredients>
+			<li><categories><li>FT_WaterChestnut</li></categories></li>
+		</ingredients>
+		<description>a paste of {0_adj} starch and rock sugar, steamed into a translucent amber slab with whole dice set in it. Eaten warm, or cut up and fried in the pan the next day.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GateauAuYaourtSolo</defName>
+		<label>yoghurt cake</label>
+		<ingredients>
+			<li><categories><li>FT_Yogurt</li></categories></li>
+		</ingredients>
+		<description>the {0_adj} pot serves as the measure for everything else. The first cake anyone learns to make, and the only one whose recipe is never forgotten.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MedovikSolo</defName>
+		<label>medovik</label>
+		<ingredients>
+			<li><categories><li>FT_SugarFromAnimals</li></categories></li>
+		</ingredients>
+		<description>a dozen discs of {0_adj} dough baked one at a time, stacked with a soured cream and left overnight so the whole thing softens and turns tender.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TaiyakiSolo</defName>
+		<label>taiyaki</label>
+		<ingredients>
+			<li><categories><li>FT_RedBean</li></categories></li>
+		</ingredients>
+		<description>a waffle batter cooked in a mould shaped like a sea bream, filled with a sweet {0_adj} paste. Whether to bite the head or the tail first divides Japan.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BriouatesSolo</defName>
+		<label>briouates</label>
+		<ingredients>
+			<li><categories><li>FT_Almond</li></categories></li>
+		</ingredients>
+		<description>triangles of warqa filled with pounded {0_plur}, fried and then plunged scalding into cold honey. The shock of temperature is what makes them crisp.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsDeepFry</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PajeonSolo</defName>
+		<label>pajeon</label>
+		<ingredients>
+			<li><categories><li>FT_Onion</li></categories></li>
+		</ingredients>
+		<description>a thick pancake in which {0_coll} stand upright in the batter, gilded on both sides in generous oil. Eaten on rainy days: the sound of the frying recalls the sound of the drops.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CanardLaqueSolo</defName>
+		<label>peking duck</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+		</ingredients>
+		<description>a bird blown full of air to lift the skin off the flesh, scalded, lacquered with syrup and dried a day in the wind before roasting. The skin is served first, in fine pancakes, and the meat afterwards.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_ChouFarciSolo</defName>
+		<label>stuffed cabbage</label>
+		<ingredients>
+			<li><categories><li>FT_Cabbage</li></categories></li>
+		</ingredients>
+		<description>a whole cabbage blanched and opened leaf by leaf, packed with meat between every layer, then closed up in a cloth and poached for hours. It is cut into wedges, like a cake.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SernikSolo</defName>
+		<label>sernik</label>
+		<ingredients>
+			<li><categories><li>FT_Cheese</li></categories></li>
+		</ingredients>
+		<description>a Polish curd cheese passed three times through a sieve, beaten with eggs and baked slowly. Denser and less sweet than its western cousins.</description>
+		<mealKinds>
+			<li>FT_MealsDessert</li>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_GravlaxSolo</defName>
+		<label>gravlax</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+		</ingredients>
+		<description>a fillet buried two days under salt, sugar and a great deal of dill, beneath a weight. The name means buried salmon: it really was once put down in the sand.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_AnguilleAuVertSolo</defName>
+		<label>eel in green sauce</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+		</ingredients>
+		<description>lengths of eel poached in white wine in a mass of green herbs — sorrel, watercress, spinach — until the sauce takes their colour. Served cold.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MarmiteDieppoiseSolo</defName>
+		<label>marmite dieppoise</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Fish</li></categories></li>
+		</ingredients>
+		<description>several fish and shellfish poached separately and only then brought together in a broth creamed with cider. Every flesh has its own cooking time: put them all in at once and the whole thing is lost.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_CanardALaRouennaiseSolo</defName>
+		<label>duck à la rouennaise</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+		</ingredients>
+		<description>a bird smothered rather than bled, so as to keep its blood, roasted rare; the carcass is then pressed and the juice bound with the liver and red wine.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_BoudinNoirAuxPommesSolo</defName>
+		<label>black pudding with apples</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>a black pudding pricked with a fork and fried gently — too fierce a heat and it bursts — with apples caramelised in butter. The sugar of the fruit cuts the iron of the blood.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SaladeLyonnaiseSolo</defName>
+		<label>salade lyonnaise</label>
+		<ingredients>
+			<li><categories><li>FT_Vegetable</li></categories></li>
+		</ingredients>
+		<description>bitter frisée, lardons fried in the pan, croutons rubbed with garlic and a poached egg set over the top. You break the yolk and it becomes the dressing.</description>
+		<mealKinds>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PoulardeDemiDeuilSolo</defName>
+		<label>poularde demi-deuil</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Poultry</li></categories></li>
+		</ingredients>
+		<description>a fowl under whose skin black slivers of truffle have been slid, poached whole in a broth of bones. The black on the white is what earns it its name: half-mourning.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FocacciaSolo</defName>
+		<label>focaccia</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>a very wet dough dimpled with the fingertips, drowned in olive oil and salted in coarse grains. The holes hold the oil: they are not decorative.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_UdonSolo</defName>
+		<label>udon</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>thick, soft noodles kneaded underfoot beneath a cloth, in a clear kombu broth. The texture matters more than the taste, and it is deliberate.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_MsemenSolo</defName>
+		<label>msemen</label>
+		<ingredients>
+			<li><categories><li>FT_Grain</li></categories></li>
+		</ingredients>
+		<description>a dough stretched to transparency on an oiled surface, brushed with butter and semolina, folded into a square and folded again, then cooked dry. The layers are counted when it is torn.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TarteAuRizSolo</defName>
+		<label>rice tart</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+		</ingredients>
+		<description>a very thick rice pudding poured into a case of plain risen dough, then baked until the top crazes over. The speciality of Verviers, eaten there for centuries.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsDessert</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_NarsharabSolo</defName>
+		<label>narsharab</label>
+		<ingredients>
+			<li><categories><li>FT_Pomegranate</li></categories></li>
+		</ingredients>
+		<description>the Azerbaijani molasses, mounted with sugar and scented with cinnamon, clove and bay. Served with grilled sturgeon, and nothing else will stand in for it.</description>
+		<mealKinds>
+			<li>FT_MealsPaste</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_PongTiaKoonSolo</defName>
+		<label>pong tia koon</label>
+		<ingredients>
+			<li><categories><li>FT_EggFertilized</li></categories></li>
+		</ingredients>
+		<description>the Cambodian version, grilled over embers rather than boiled, served with a dip of lime, salt and Kampot pepper.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsSnack</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TortueBraiseeSolo</defName>
+		<label>Chinese braised turtle</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Turtle</li></categories></li>
+		</ingredients>
+		<description>a soft-shelled turtle braised in rice wine with black mushrooms, ginger and goji berries. The cartilage around the rim is the part sought after, gelatinous and melting.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FabadaSolo</defName>
+		<label>fabada</label>
+		<ingredients>
+			<li><categories><li>FT_Bean</li></categories></li>
+		</ingredients>
+		<description>large white beans stewed with smoked pork, never stirred with a spoon: the pot is shaken with a turn of the wrist so as not to break them.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+			<li>FT_MealsSoup</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_FideuaSolo</defName>
+		<label>fideuà</label>
+		<ingredients>
+			<li><categories><li>FT_Wheat</li></categories></li>
+		</ingredients>
+		<description>short hollow pasta toasted dry then cooked in a fish fumet, which they drink up while standing on end. Born of a ship's boy hiding the rice from a captain who ate too much of it.</description>
+		<mealKinds>
+			<li>FT_MealsNoodle</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_TakuanSolo</defName>
+		<label>takuan</label>
+		<ingredients>
+			<li><categories><li>FT_Turnip</li></categories></li>
+		</ingredients>
+		<description>a daikon dried in the sun for weeks until it will bend, then buried in rice bran with sugar and salt. Bright yellow, crisp, and loud to chew.</description>
+		<mealKinds>
+			<li>FT_MealsSnack</li>
+			<li>FT_MealsSalad</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextFR_SchweinshaxeSolo</defName>
+		<label>schweinshaxe</label>
+		<ingredients>
+			<li><categories><li>FT_Meat_Pig</li></categories></li>
+		</ingredients>
+		<description>a whole knuckle roasted for hours and basted with brown beer, until the rind becomes a shell that cracks under the knife.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
 </Defs>

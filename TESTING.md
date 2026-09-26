@@ -51,7 +51,7 @@ node _tools/checkdefs.js "<path to Flavor Text>/1.6/Defs"
 
 Every dish is checked for a defName that collides with one of hekmo's 930, for a placeholder that
 points at a slot the def does not have, and for two dishes that would display the same name. It
-must end on **0 errors**. The standalone baseline is 11 warnings since the shorter forms (two before them; ten before the 2026-09-23 narrowness review, which widened slots
+must end on **0 errors**. The standalone baseline is 35 warnings since the shorter forms (two before them; ten before the 2026-09-23 narrowness review, which widened slots
 and so separated most dishes that shared an ingredient triplet); the older fourteen-warning baseline also checked
 the French companion. Dishes that share an
 ingredient triplet are variety, not conflict, because the engine draws at random among matching

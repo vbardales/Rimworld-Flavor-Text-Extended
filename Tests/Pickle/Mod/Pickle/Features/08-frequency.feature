@@ -9,10 +9,10 @@
 # makes a run repeatable, so a change to the dishes can be compared with the run before it.
 #
 # Baseline, measured on 2026-09-26 on the published 1.1.0 defs (seeds 1, 2, 3; docs/runs/2026-09-26-frequency.md): 0.0 percent
-# of the two-ingredient meals, 0.8 of the three, 2.3 of the four carried a dish of this mod. The floors below sit under
-# what the shorter forms of the dishes are expected to give (about 8 percent for two ingredients on the offline model,
-# _tools/frequency.js) and stay at 1 percent where the shorter forms change nothing. They are not targets: read the
-# logged number in Player.log.
+# of the two-ingredient meals, 0.8 of the three, 2.3 of the four carried a dish of this mod. The floors below sit under what
+# the shorter forms of the dishes (FlavorDefs_Variants.xml) are expected to give on the offline model (_tools/frequency.js:
+# about 35 percent of the one-ingredient meals, 9 of the two, 1.5 of the three, 19 of the four) and are deliberately loose,
+# since the model leaves out cooking stations and hours of day. They are not targets: read the logged number in Player.log.
 #
 # English only, like 03-cooking.
 Feature: how often this mod's dishes name a meal
@@ -21,6 +21,11 @@ Feature: how often this mod's dishes name a meal
     Given the save "test-colony" is loaded
     And a colonist "Cook" exists
     And I spawn a "FueledStove" at (140, 155)
+
+  Scenario: one random ingredient
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from 1 random ingredients, 400 times, seed 4
+    Then Flavor Text Extended: at least 10 percent of the named meals carry a dish of this mod
+    And no errors were logged
 
   Scenario: two random ingredients
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from 2 random ingredients, 400 times, seed 1
@@ -34,5 +39,5 @@ Feature: how often this mod's dishes name a meal
 
   Scenario: four random ingredients
     When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from 4 random ingredients, 400 times, seed 3
-    Then Flavor Text Extended: at least 1 percent of the named meals carry a dish of this mod
+    Then Flavor Text Extended: at least 5 percent of the named meals carry a dish of this mod
     And no errors were logged

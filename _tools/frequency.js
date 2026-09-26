@@ -1,7 +1,7 @@
 // How often would a meal carry a dish of this mod, rather than one of Flavor Text's own?
 //
 //   node _tools/frequency.js <Flavor Text Defs folder> [--vanilla] [--defs=<folder of FlavorDefs_*.xml>]
-//                            [--n=20000] [--seed=1] [--cooked=MealSimple] [--chunk=RawRice,Meat_Pig]
+//                            [--n=20000] [--seed=1] [--cooked=MealSimple] [--ghost=0] [--chunk=RawRice,Meat_Pig]
 //
 // With --chunk it prints instead the dishes that would match that exact list of ingredients (a chunk of one
 // to three ThingDef names), each with its weight and share of the draw, and stops.
@@ -20,9 +20,14 @@
 //     Specificity = 10000 / (sum over the slots of the number of things the slot accepts,
 //     scaled by how many meals its kinds cover). A BROADER dish has a SMALLER weight.
 //
+//   * the diet filter is modeled (a chunk of meat only is not offered a dish that needs a plant), and
+//     `--ghost=N` models Flavor Text's option "allowed missing ingredients": with a cap of N, a meal of fewer than
+//     N ingredients gets, for each missing one, a random extra ingredient with probability one half. The default
+//     of that option is 0, which is what the game uses unless the player raises it.
+//
 // Not modeled, all of them on the safe side for the comparison and none of them for the absolute
-// numbers: the diet filter, cooking stations and hours of day, ghost ingredients, sister categories,
-// the keyword patches this mod applies to Flavor Text's categories, and the `quickSearch` setting.
+// numbers: cooking stations and hours of day, which recipe a ghost ingredient comes from, sister categories,
+// the keyword patches this mod applies to Flavor Text's categories, and the `quickSearch` setting (off by default).
 // Treat the output as a ratio between two sets of dishes, not as a frequency to quote.
 
 const fs = require('fs');
@@ -37,6 +42,7 @@ const N = +opt('n', 20000);
 const SEED = +opt('seed', 1);
 const COOKED = opt('cooked', 'MealSimple');
 const OURS_DIR = opt('defs', './Mod/Defs');
+const GHOST = +opt('ghost', 0);
 
 const RW = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld';
 const WS = 'C:/Program Files (x86)/Steam/steamapps/workshop/content/294100';
@@ -184,6 +190,39 @@ const allowed = slot => {
   if (!slotCount.has(key)) slotCount.set(key, ingList.filter(i => accepts(slot, i)).length);
   return slotCount.get(key);
 };
+// FlavorDef.SetDiets: for each slot, which of the three raw-food categories it can hold; a dish allows a diet when its
+// slots fit it. The chunk's own diet is CompFlavor.CalculateIngredientDiet.
+const MEAT = 'FT_MeatRaw', ANIMAL = 'FT_AnimalProductRaw', PLANT = 'FT_PlantFoodRaw';
+const NORMAL = [MEAT, ANIMAL, PLANT];
+const slotDiet = slot => {
+  const out = new Set();
+  let flag = false;
+  for (const c of slot) {
+    for (const n of NORMAL) {
+      if (T.desc(n).has(c) || T.desc(c).has(n)) { flag = true; out.add(n); }
+    }
+    if (!flag) return new Set(NORMAL);
+  }
+  return out;
+};
+const dishDiets = slots => {
+  const l = slots.map(slotDiet), any = c => l.some(s => s.has(c)), all = c => l.every(s => s.has(c));
+  const out = new Set();
+  if (all(MEAT)) out.add('hyperCarnivore');
+  if (all(ANIMAL)) out.add('animalProduct');
+  if (all(PLANT)) out.add('vegan');
+  if (any(MEAT) && any(ANIMAL) && l.every(s => s.has(MEAT) || s.has(ANIMAL))) out.add('carnivore');
+  if (any(PLANT) && any(ANIMAL) && l.every(s => s.has(PLANT) || s.has(ANIMAL))) out.add('vegetarian');
+  if (any(MEAT) && any(PLANT) && l.every(s => s.has(MEAT) || s.has(PLANT))) out.add('animalFree');
+  if (any(MEAT) && any(ANIMAL) && any(PLANT)) out.add('omnivore');
+  return out;
+};
+const chunkDiet = chunk => {
+  const m = chunk.some(i => i.cats.has(MEAT)), a = chunk.some(i => i.cats.has(ANIMAL)), p = chunk.some(i => i.cats.has(PLANT));
+  if (!m) return !a ? 'vegan' : (p ? 'vegetarian' : 'animalProduct');
+  if (!a) return p ? 'animalFree' : 'hyperCarnivore';
+  return p ? 'omnivore' : 'carnivore';
+};
 const live = [];
 for (const d of defs) {
   if (d.slots.length === 0) continue;
@@ -192,6 +231,7 @@ for (const d of defs) {
   let n3 = d.slots.reduce((a, s) => a + allowed(s), 0);
   if (d.kinds.length) n3 = n3 * (d.kinds.reduce((a, k) => a + kindCount(k), 0) / totalMeals + 1) / 2;
   d.weight = n3 > 0 ? 10000 / n3 : 0;
+  d.diets = dishDiets(d.slots);
   d.slots = d.slots.map((s, i) => ({ s, a: allowed(s), i })).sort((x, y) => x.a - y.a).map(x => x.s);
   live.push(d);
 }
@@ -203,6 +243,7 @@ function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = a + 0x6D2B79
 const rand = rng(SEED);
 function matches(chunk, d) {
   if (chunk.length !== d.slots.length) return false;
+  if (!d.diets.has(chunkDiet(chunk))) return false;
   const left = chunk.slice();
   for (const s of d.slots) {
     const i = left.findIndex(x => accepts(s, x));
@@ -223,7 +264,7 @@ ${hits.length} dishes match; ours: ${(100 * hits.filter(d => d.source === 'nous'
   process.exit(0);
 }
 const pct = (a, b) => b ? (100 * a / b).toFixed(1) + ' %' : '-';
-console.log(`mod list: ${VANILLA ? 'vanilla (Core and the five DLC)' : 'ModsConfig.xml'}; pool ${ingList.length} ingredients; cooked meal ${COOKED}`);
+console.log(`mod list: ${VANILLA ? 'vanilla (Core and the five DLC)' : 'ModsConfig.xml'}; pool ${ingList.length} ingredients; cooked meal ${COOKED}; allowed missing ingredients ${GHOST}`);
 console.log(`dishes that can fire on ${COOKED}: hekmo ${live.filter(d => d.source === 'hekmo').length}, ours ${live.filter(d => d.source === 'nous').length}; by number of slots:`);
 for (const k of Object.keys(byArity)) {
   const l = byArity[k];
@@ -236,6 +277,9 @@ for (const k of [1, 2, 3, 4, 5]) {
   for (let n = 0; n < N; n++) {
     const pick = [];
     while (pick.length < k) { const c = ingList[Math.floor(rand() * ingList.length)]; if (!pick.includes(c)) pick.push(c); }
+    for (let g = k; g < GHOST; g++) {
+      if (rand() < 0.5) { const c = ingList[Math.floor(rand() * ingList.length)]; if (!pick.includes(c)) pick.push(c); }
+    }
     for (let i = 0; i < pick.length; i += 3) {
       const chunk = pick.slice(i, i + 3);
       chunks++;

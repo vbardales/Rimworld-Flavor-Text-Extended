@@ -38,7 +38,8 @@ ingredient slots as the chunk has ingredients**: a three-slot dish never names a
 come in all three sizes. Most of this mod's are three-slot dishes, so they name meals of three ingredients, and a
 shorter form of many of them (the same dish minus an ingredient it never needed) names meals of two. When several
 dishes match, one is drawn at random, weighted so that a dish that accepts fewer ingredients is drawn more often.
-`_tools/frequency.js` models this for a modlist; `Tests/Pickle/.../08-frequency.feature` measures it in a game.
+Flavor Text has an option for it, "allowed missing ingredients" (off by default): with it a small meal gets random extra
+ingredients up to that number, which lets bigger dishes match. `_tools/frequency.js` models this for a modlist; `Tests/Pickle/.../08-frequency.feature` measures it in a game.
 
 ## What your colony grows decides what you see
 
