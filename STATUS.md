@@ -5,8 +5,8 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        published
-stage_meaning: public Workshop publication established. v1.0.0 (first upload, 2026-09-22) then v1.1.0 (the FlavorDef narrowness review), uploaded by the CI workflow on 2026-09-24 and verified on the public page; the tag v1.1.0 and the GitHub release were created by that workflow at 9bd7fd3
+stage:        preTest
+stage_meaning: sent back from `published` on 2026-09-26 at the owner's word, while a defect is investigated. hekmo, the author of Flavor Text, reports (2026-09-25 and 26) that with v1.1.0 no dish of this mod ever appears when she spawns hundreds of meals from random ingredients, only Flavor Text's own; the mod itself works (egg-only meals give the medium-boiled egg). v1.0.0 and v1.1.0 stay published on the Workshop (item 3806100152, tag v1.1.0 at 9bd7fd3); what is reopened is the claim that the dishes fire often enough. Gates before `preTest` (settings, localization, dependencies) still hold; `done` is not claimed until the frequency of this mod's dishes is measured and understood (scenario 08-frequency, request 20260926-104509-110-78fc)
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -18,10 +18,11 @@ xml_tests: passed
 licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 maintainer:    current Codex task for this repository
-updated:      2026-09-24
+updated:      2026-09-26
 tested_on:    "2026-09-23/24, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, on the unreleased FlavorDef narrowness revision. All four passes green: without-optionals 11/11 (696 active FlavorDefs of 1831), without-odyssey 3/3 (653), with-optionals 6/6 (1072), workshop-captures 3/3 (696). Reports in Tests/Pickle/results/2026-09-23-* and 2026-09-24-*; history in docs/runs/."
 workshop:     3806100152
 remaining:
+  - "defect (open, 2026-09-26): hekmo reports no dish of this mod appears in game with v1.1.0 when spawning hundreds of meals from random ingredients (her screenshot: only Flavor Text's own dishes). Not yet measured: how often a meal carries a dish of this mod. unverified: Tests/Pickle 08-frequency.feature (400 seeded random-ingredient meals per scenario, logs `[FTE frequency]`), filed as request 20260926-104509-110-78fc on f8ac657, waiting in the queue. Also open: `TESTS.md` was renamed `TESTING.md` on 2026-09-26; references in Tests/Pickle and the two ATTRIBUTION.md copies are updated after that run."
   - "validated: v1.1.0 was published through GitHub Actions on 2026-09-24. Dry-run https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/runs/36000918644 (green, commit 9bd7fd3b08958ca88731d3fa93118429b6d61b4e, 56 files, 1.21 MB, nothing sent to Steam). Publish run https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/runs/36001072152 on the same SHA, steam-production approved by the owner; steamcmd reported Success. Public page checked afterwards: item 3806100152 public, title unchanged, time_updated 2026-09-24T13:25:22Z, file_size 1,212,742 bytes, and the change notes page shows the 1.1.0 entry with its BBCode rendered. The tag v1.1.0 and the GitHub release (https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.1.0, target 9bd7fd3) were created by the workflow, not by hand. The description, title, tags and preview were not sent; the owner updated the gallery by hand with the three approved captures."
   - "validated: after hekmo's report, all 901 dishes were reviewed and 295 ingredient slots widened (2026-09-23, on main, pushed; CHANGELOG Unreleased). Offline: checkdefs 0 errors, verify-en 0/0, config check 908/908. In game: the four Pickle passes above all passed on this revision, zero [ERROR] naming this mod, and Flavor Text reports more active dishes for the same modlists (bare 641 to 696, without Odyssey 607 to 653, with providers 1025 to 1072). Still open before `tested`: the owner has not yet reviewed the three new capture images. 07-f13-fixture.feature, a fixture generator, is tagged @fixture (it was @wip, wrongly: it is not work in progress) and belongs to no pass, so no scenario is left @wip."
   - "validated: on 2026-09-24 the three Workshop gallery captures were regenerated on the current revision (2026-09-23 run), reviewed image by image by the owner, approved, cropped tight to 1000x810 and copied over Art/Workshop-captures/ (the 1920x1080 originals in source/). Uploading them to the Steam page is the owner's."
