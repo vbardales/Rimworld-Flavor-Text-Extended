@@ -45,7 +45,7 @@ ingredients up to that number, which lets bigger dishes match. `_tools/frequency
 
 Flavor Text names a meal after what went into it, so a dish can only appear if its ingredients
 exist in the game. These 926 lean on a wider pantry than vanilla keeps — wheat, cheese, butter,
-cream, onion, tomato, garlic, chilli — so on a vanilla-only save about forty of them can fire.
+cream, onion, tomato, garlic, chilli — so on a vanilla-only save (the base game and its DLC) about eighty of them can fire, by the count of _tools/frequency.js, plus their shorter forms.
 Farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
 
 That is how the engine works rather than a shortcoming: a dish waits for its ingredient, and

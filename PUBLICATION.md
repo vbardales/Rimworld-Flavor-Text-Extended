@@ -99,7 +99,7 @@ Twenty-five of the dishes are written for what a colony really cooks with what i
 
 **WHAT YOUR COLONY GROWS DECIDES WHAT YOU SEE**
 
-[Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 926 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
+[Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 926 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save (the base game and its DLC) about eighty of them can fire, plus their shorter forms; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
 
 That is how the engine works rather than a shortcoming: nothing is lost, a dish simply waits for its ingredient. But it is worth knowing before you install.
 

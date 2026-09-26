@@ -300,6 +300,7 @@ ${hits.length} dishes match; ours: ${(100 * hits.filter(d => d.source === 'nous'
 const pct = (a, b) => b ? (100 * a / b).toFixed(1) + ' %' : '-';
 console.log(`mod list: ${VANILLA ? 'vanilla (Core and the five DLC)' : 'ModsConfig.xml'}; pool ${ingList.length} ingredients; cooked meal ${COOKED}; allowed missing ingredients ${GHOST}`);
 console.log(`dishes that can fire on ${COOKED}: hekmo ${live.filter(d => d.source === 'hekmo').length}, ours ${live.filter(d => d.source === 'nous').length}; by number of slots:`);
+console.log(`  of ours, dishes as written: ${live.filter(d => d.source === 'nous' && !/(Duo|Solo)$/.test(d.dn)).length}, shorter forms: ${live.filter(d => d.source === 'nous' && /(Duo|Solo)$/.test(d.dn)).length}`);
 for (const k of Object.keys(byArity)) {
   const l = byArity[k];
   console.log(`   ${k} slot(s): hekmo ${l.filter(d => d.source === 'hekmo').length}, ours ${l.filter(d => d.source === 'nous').length}`);
