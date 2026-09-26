@@ -48,6 +48,9 @@ Feature: Flavor Text Extended alone on Flavor Text
     And def "FlavorTextFR_OeufMollet" is defined by mod "Flavor Text Extended"
     And def "FlavorTextFR_Katsudon" is defined by mod "Flavor Text Extended"
     And def "FlavorTextExtended_Altang" is defined by mod "Flavor Text Extended"
+    # The shorter forms live in their own file: one of two ingredients and one of a single ingredient.
+    And def "FlavorTextFR_BiryaniDuo" is defined by mod "Flavor Text Extended"
+    And def "FlavorTextFR_GnocchiSolo" is defined by mod "Flavor Text Extended"
 
   Scenario: the unguarded keyword patches landed on Flavor Text's categories
     # Only the operations with no MayRequire at all. A guarded operation may or may not run

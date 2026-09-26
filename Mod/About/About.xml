@@ -12,6 +12,10 @@ French and regional cooking first, then the wider repertoire: Italy, the Maghreb
 
 Each dish is defined by a combination of ingredients. That combination is what the engine draws on, not the name - so the same dish under five different names would add nothing, and is not here. Where two dishes share a combination it is deliberate: the engine picks at random among matching definitions, weighted by how narrow each one is, so sharing produces variety rather than conflict.
 
+SHORTER FORMS
+
+Flavor Text names a meal in chunks of up to three ingredients, and a dish only fits a chunk with exactly as many ingredients as it has slots. So many of these dishes also come in a shorter form, the same dish under the same name minus an ingredient it never needed, to name meals of one or two ingredients.
+
 WHAT YOUR COLONY GROWS DECIDES WHAT YOU SEE
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 901 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
@@ -51,7 +55,7 @@ My own PickleTools, a shared testing toolkit across my mods, unpublished: the wi
 Credits, provenance and licence (MIT) are in ATTRIBUTION.md and LICENSE, shipped with the mod.
 
 [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]</description>
-	<modVersion>1.1.0</modVersion>
+	<modVersion>1.2.0</modVersion>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
