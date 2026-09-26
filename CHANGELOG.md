@@ -1,5 +1,22 @@
 # Changelog
 
+## [Unreleased]
+
+Meals of one or two ingredients can now be named by this mod too. Flavor Text cuts a meal's ingredients into chunks of
+three and names each chunk with a dish that has exactly as many ingredient slots as the chunk has ingredients. 896 of
+our 901 dishes had three slots, so they could only name a meal of exactly three ingredients, while a meal of one or two
+was named by Flavor Text's own dishes alone (hekmo reported seeing none of ours in a hundred spawned meals).
+
+- Add 179 shorter forms of existing dishes (`FlavorDefs_Variants.xml`, `_tools/make-variants.js`): the same dish, with the
+  same name and text, minus an ingredient it never needed (one that the 1.1.0 review had widened and that its text
+  never cites). 176 take two ingredients and 3 take one. A form and its original never compete: their slot counts differ.
+- Fix the two dishes that could never appear because they asked for four ingredients (`FlavorTextExtended_Altang` and
+  `FlavorTextExtended_Jjapaghuri`, a chunk holds at most three): they now take three, and their text no longer
+  names the dropped ingredient.
+- Offline estimate for a vanilla-only game (`_tools/frequency.js`, a model of Flavor Text's own draw, not a game
+  measure): the share of two-ingredient meals named by this mod goes from 0.6 to 8.6 percent, and of five-ingredient
+  meals from 1.0 to 5.0.
+
 ## [1.1.0] - 2026-09-24
 
 Dishes now fire much more often. hekmo, the author of Flavor Text, pointed out that a dish only fires when every one of

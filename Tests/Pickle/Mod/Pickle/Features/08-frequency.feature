@@ -10,7 +10,7 @@
 #
 # The floor is 1 percent, only to tell "nothing ever fires" from "something does". It is not a
 # target: read the logged number in Player.log and in the report. Raise the floor once a baseline
-# is recorded in TESTS.md.
+# is recorded in TESTING.md.
 #
 # English only, like 03-cooking.
 Feature: how often this mod's dishes name a meal

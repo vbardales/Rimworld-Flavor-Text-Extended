@@ -11,7 +11,7 @@
 # Only providers that DECLARE 1.6 are staged. Chinese Traditional Cultural Things Expanded
 # (dajian.chiteaditional.expanded, 2877536640; ...oldmode, 2371079000) declares 1.5 and 1.3
 # only, so its hooks are historical and no run of it could certify anything for 1.6. That is a
-# decision, recorded in TESTS.md, not an oversight. If it declares 1.6 one day it gets its own
+# decision, recorded in TESTING.md, not an oversight. If it declares 1.6 one day it gets its own
 # pass: its two packageIds are two versions of one mod and cannot meet.
 #
 # packageId                        workshopId   what the scenarios use it for

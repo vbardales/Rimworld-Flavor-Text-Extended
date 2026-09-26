@@ -31,6 +31,15 @@ are optional: their individual attachment entries are guarded by package ID.
 `pissaladière`, `bánh pía sầu riêng`, `tteokbokki`. Only those with a genuine English equivalent
 are translated. So a French or Japanese name in the list is a choice, not an untranslated string.
 
+## How many ingredients a meal has decides what you see
+
+Flavor Text cuts a meal's ingredients into chunks of three and names each chunk with a dish that has **exactly as many
+ingredient slots as the chunk has ingredients**: a three-slot dish never names a meal of two. Flavor Text's own dishes
+come in all three sizes. Most of this mod's are three-slot dishes, so they name meals of three ingredients, and a
+shorter form of many of them (the same dish minus an ingredient it never needed) names meals of two. When several
+dishes match, one is drawn at random, weighted so that a dish that accepts fewer ingredients is drawn more often.
+`_tools/frequency.js` models this for a modlist; `Tests/Pickle/.../08-frequency.feature` measures it in a game.
+
 ## What your colony grows decides what you see
 
 Flavor Text names a meal after what went into it, so a dish can only appear if its ingredients

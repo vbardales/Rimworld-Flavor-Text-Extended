@@ -1,4 +1,4 @@
-# Meals named while cooked: T5, T6 and T7 of TESTS.md, in the bare pass (Flavor Text, this mod, and
+# Meals named while cooked: T5, T6 and T7 of TESTING.md, in the bare pass (Flavor Text, this mod, and
 # vanilla ingredients only).
 #
 # What is real and what is not, since both matter when a scenario is green. The step calls
@@ -38,7 +38,7 @@ Feature: cooking a meal names it after a dish
     And no errors were logged
 
   Scenario: names survive a save and a reload
-    # T12 of TESTS.md. Cooking is where a name is drawn, so a reload must not redraw it. Meals of
+    # T12 of TESTING.md. Cooking is where a name is drawn, so a reload must not redraw it. Meals of
     # several different names are put on the map, the game is saved and loaded again, and each
     # is looked up by the id the save keeps. A meal renamed after the reload would be Flavor Text's
     # own behaviour, not this mod's, and worth reporting upstream rather than here.
@@ -54,3 +54,13 @@ Feature: cooking a meal names it after a dish
     When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     Then Flavor Text Extended: every meal was named after a dish
     And Flavor Text Extended: a meal was named after 2 dishes at once
+
+  # A meal of two ingredients is named only by a dish that has exactly two slots (Flavor Text matches a dish to a
+  # chunk with as many ingredients as the dish has slots). FlavorTextFR_BiryaniDuo is the two-slot form of the
+  # biryani (rice and any meat); it takes about a quarter of the draw for this pair, so 300 cooks show it.
+  Scenario: a two-ingredient dish fires
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Chicken", 300 times
+    Then Flavor Text Extended: every meal was named after a dish
+    And Flavor Text Extended: a meal was named after "FlavorTextFR_BiryaniDuo"
+    And Flavor Text Extended: a meal named after "FlavorTextFR_BiryaniDuo" is labelled with "biryani"
+    And no errors were logged
