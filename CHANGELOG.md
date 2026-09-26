@@ -13,9 +13,10 @@ was named by Flavor Text's own dishes alone (hekmo reported seeing none of ours 
 - Fix the two dishes that could never appear because they asked for four ingredients (`FlavorTextExtended_Altang` and
   `FlavorTextExtended_Jjapaghuri`, a chunk holds at most three): they now take three, and their text no longer
   names the dropped ingredient.
-- Offline estimate for a vanilla-only game (`_tools/frequency.js`, a model of Flavor Text's own draw, not a game
-  measure): the share of two-ingredient meals named by this mod goes from 0.6 to 8.6 percent, and of five-ingredient
-  meals from 1.0 to 5.0.
+- Measured in game on 1.1.0 (Pickle, vanilla ingredients, 400 cooks each): 0.0 % of two-ingredient meals, 0.8 % of
+  three and 2.3 % of four carried a dish of this mod. Offline estimate for the new forms (`_tools/frequency.js`, a model
+  of Flavor Text's own draw that matched those figures in order of magnitude): two-ingredient meals from 0.6 to 8.6
+  percent, five-ingredient meals from 1.0 to 5.0.
 
 ## [1.1.0] - 2026-09-24
 

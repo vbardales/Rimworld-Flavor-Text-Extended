@@ -1,0 +1,1 @@
+{"total":3,"passed":1,"failed":2,"skipped":0,"flaky":0,"exitReason":"failed","setName":"sans-facultatifs","scenarios":[{"name":"two random ingredients","outcome":"Failed","durationMs":15498,"attempts":1},{"name":"three random ingredients","outcome":"Failed","durationMs":10285,"attempts":1},{"name":"four random ingredients","outcome":"Passed","durationMs":13931,"attempts":1}]}

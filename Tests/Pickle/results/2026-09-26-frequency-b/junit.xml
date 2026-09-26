@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="how often this mod's dishes name a meal" tests="3" failures="2" skipped="0" flakes="0" time="39.714">
+    <testcase name="two random ingredients" classname="how often this mod's dishes name a meal" time="15.498">
+      <failure message="0 of 400 named meals (0.0 %) carry a dish of this mod, under the 1 % asked for">0 of 400 named meals (0.0 %) carry a dish of this mod, under the 1 % asked for</failure>
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+Attachment: screenshot -&gt; /mnt/c/Users/nelim/Documents/rimworld/pickle-reports/screenshots/how-often-this-mod-s-dishes-name-a-meal--two-random-ingredients--step5.png
+</system-out>
+    </testcase>
+    <testcase name="three random ingredients" classname="how often this mod's dishes name a meal" time="10.285">
+      <failure message="3 of 400 named meals (0.8 %) carry a dish of this mod, under the 1 % asked for">3 of 400 named meals (0.8 %) carry a dish of this mod, under the 1 % asked for</failure>
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+Attachment: screenshot -&gt; /mnt/c/Users/nelim/Documents/rimworld/pickle-reports/screenshots/how-often-this-mod-s-dishes-name-a-meal--three-random-ingredients--step5.png
+</system-out>
+    </testcase>
+    <testcase name="four random ingredients" classname="how often this mod's dishes name a meal" time="13.931">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

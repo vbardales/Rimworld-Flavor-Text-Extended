@@ -51,7 +51,7 @@ node _tools/checkdefs.js "<path to Flavor Text>/1.6/Defs"
 
 Every dish is checked for a defName that collides with one of hekmo's 930, for a placeholder that
 points at a slot the def does not have, and for two dishes that would display the same name. It
-must end on **0 errors**. The standalone baseline is two warnings (ten before the 2026-09-23 narrowness review, which widened slots
+must end on **0 errors**. The standalone baseline is 11 warnings since the shorter forms (two before them; ten before the 2026-09-23 narrowness review, which widened slots
 and so separated most dishes that shared an ingredient triplet); the older fourteen-warning baseline also checked
 the French companion. Dishes that share an
 ingredient triplet are variety, not conflict, because the engine draws at random among matching
@@ -429,6 +429,8 @@ abandoned in the queue, exit 7, without ever running). Read `exitReason` first: 
 | without-odyssey (`05`) | **3 of 3, `exitReason: passed`** | 653 (607 before) | `2026-09-23-without-odyssey/` |
 | with-optionals (`02`) | **6 of 6, `exitReason: passed`** | 1072 (1025 before) | `2026-09-24-with-optionals/` |
 | workshop-captures (`06`) | **3 of 3, `exitReason: passed`**; the three images were reviewed one by one and approved by the owner on 2026-09-24 | 696 | `2026-09-23-workshop-captures/` (images on disk, ignored by git) |
+
+**Frequency, measured 2026-09-26 on the 1.1.0 defs** (`08-frequency`, 400 seeded cooks per row, 160 vanilla ingredients): the share of named meals that carry a dish of this mod is 0.0 % for two ingredients, 0.8 % for three and 2.3 % for four (`docs/runs/2026-09-26-frequency.md`). Flavor Text only matches a dish to a chunk of exactly as many ingredients as the dish has slots, and 896 of the 901 dishes had three; the shorter forms added afterwards (`FlavorDefs_Variants.xml`) are what this measure is meant to see move.
 
 No `[ERROR]` line in any of the four `Player.log` files names a def, category or patch of this mod. The "active" figures
 are Flavor Text's own startup line and count every dish it keeps for the modlist, its own and ours: the review widened
