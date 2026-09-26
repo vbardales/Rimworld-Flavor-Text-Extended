@@ -180,6 +180,18 @@ Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]
 Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
 ```
 
+## Second reply to hekmo, 2026-09-26 (draft, not posted)
+
+hekmo answered that most meals of her screenshot use three-ingredient dishes, that meals of more than three ingredients are split into
+chunks of three, and asked whether the dishes show up in the owner's own tests. She is right, and the first reply only explains meals of
+one or two ingredients: for three or more, the cause is that our dishes are specific combinations that a random triple seldom matches
+(measured in game on 1.1.0: 0.0 percent of two-ingredient meals, 0.8 of three, 2.3 of four). This reply corrects it and answers her
+question. It says only what was measured (docs/runs/2026-09-26-frequency.md).
+
+```
+You're right about the chunks, and my first answer was too quick: it only explains meals of 1 or 2 ingredients. For 3 or more it is simpler and less flattering: my dishes are specific combinations (rice + pork + egg is katsudon), so a random triple rarely lands on one. To answer your question, yes, they show up in my in-game tests. I measured it with Pickle in a real game (400 seeded meals of random vanilla ingredients): my dishes name 0% of the 2-ingredient meals, 0.8% of the 3, 2.3% of the 4. Rice + pork + egg gives katsudon, eggs alone give the medium-boiled egg. So very rarely on random ingredients, which matches your screenshot. I'm adding shorter forms for small meals, and I'll test it in game before it goes out. Thanks for pushing back!
+```
+
 ### 1.2.0 (draft, not sent: the version is not bumped and the shorter forms are not tested in game yet)
 
 Publish only once the French companion has its entries for the new forms (`_tools/variants-french.js`), or say on the page that

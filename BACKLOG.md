@@ -8,7 +8,7 @@ State is `open` unless written otherwise.
 Background: Flavor Text matches a dish only to a chunk of at most three ingredients with exactly as many items as the dish has slots,
 and draws among the matches weighted by `10000 / (sum of the things each slot accepts)`. See `STATUS.md` and `TESTING.md`.
 
-- **More three-slot dishes that match a random triple.** In the 1.2.0 model only about 1 to 2 percent of random three-ingredient meals are
+- **More three-slot dishes that match a random triple** (the cause for meals of three or more ingredients, which hekmo pointed out; the slot-count rule only explains one and two). Flavor Text's own generic dishes cover almost every triple while ours cover about 2 percent, so a random meal is mostly named by hers. In the 1.2.0 model only about 1 to 2 percent of random three-ingredient meals are
   named by a dish of this mod, because a triple must land on one of the dish's exact category combinations. The 1.1.0 review already
   widened the slots that were never cited; what is left is small. Worth a look only if the game measure of the three-ingredient row
   (`08-frequency`) stays low after 1.2.0. Method: `node _tools/frequency.js <Flavor Text Defs> --chunk=<a,b,c>` lists what a given triple can
