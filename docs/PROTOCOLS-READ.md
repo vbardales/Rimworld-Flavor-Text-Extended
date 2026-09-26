@@ -48,7 +48,7 @@ Everything below was read in full, except where stated. No document had uncommit
 | `Mod/About/About.xml` | `efb257d` (2026-09-24) | 1.1.0, one hard dependency |
 | `docs/runs/` | 3 files, latest `2026-09-24-pickle-runs.md` | |
 | `Tests/Pickle/` | `f8ac657` | README and the two feature files read this session; the rest known |
-| `BACKLOG.md`, `NOTES.md`, `BUGS.md` | none exist | not created: nothing to put in them |
+| `BACKLOG.md` | created 2026-09-26 | the leads from hekmo's report and what waits on the CI. `NOTES.md` and `BUGS.md` | not created: nothing to put in them |
 
 ## What changed my way of working
 
