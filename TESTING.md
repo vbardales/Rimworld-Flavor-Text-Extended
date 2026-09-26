@@ -419,22 +419,25 @@ Odyssey meats exist for.
 
 ### What has run on the current revision
 
-After the 2026-09-23 FlavorDef narrowness review the four passes were played again, queued on tickets, headless in the WSL
-game (`without-odyssey` and `workshop-captures` on 2026-09-23, the other two on 2026-09-24 after their first tickets were
-abandoned in the queue, exit 7, without ever running). Read `exitReason` first: all four ended, none was cut.
+The 1.2.0 tree (the shorter forms of the dishes and the everyday dishes added after hekmo's report) was played on 2026-09-26, queued on
+tickets, headless in the WSL game. Read `exitReason` first: all three ended, none was cut.
 
 | Pass | Result | Active FlavorDefs | Where |
 |---|---|---|---|
-| without-optionals (`01`, `03`, `04`) | **11 of 11, `exitReason: passed`**. T7 now runs in this pass and passes. | 696 (641 before the review) | `2026-09-24-without-optionals/` |
-| without-odyssey (`05`) | **3 of 3, `exitReason: passed`** | 653 (607 before) | `2026-09-23-without-odyssey/` |
-| with-optionals (`02`) | **6 of 6, `exitReason: passed`** | 1072 (1025 before) | `2026-09-24-with-optionals/` |
-| workshop-captures (`06`) | **3 of 3, `exitReason: passed`**; the three images were reviewed one by one and approved by the owner on 2026-09-24 | 696 | `2026-09-23-workshop-captures/` (images on disk, ignored by git) |
+| without-optionals (`01`, `03`, `04`, `08`) | **18 of 18, `exitReason: passed`**, 0 `[ERROR]` line. The one-ingredient, two-ingredient and everyday three-ingredient scenarios pass. | 791 of 2095 (696 of 1831 before) | `2026-09-26-bare-b14150e/` |
+| without-odyssey (`05`) | **3 of 3, `exitReason: passed`** | 740 of 2095 | `2026-09-26-without-odyssey-b14150e/` |
+| with-optionals (`02`) | **6 of 6, `exitReason: passed`**; one Unity/FMOD audio `[ERROR]` that names no mod, as in earlier runs of this pass | 1236 of 2095 | `2026-09-26-with-optionals-b14150e/` |
+| workshop-captures (`06`) | not replayed: the dishes it shows are unchanged; the three images approved on 2026-09-24 stand | | `2026-09-23-workshop-captures/` (images on disk, ignored by git) |
 
-**Frequency, measured 2026-09-26 on the 1.1.0 defs** (`08-frequency`, 400 seeded cooks per row, 160 vanilla ingredients): the share of named meals that carry a dish of this mod is 0.0 % for two ingredients, 0.8 % for three and 2.3 % for four (`docs/runs/2026-09-26-frequency.md`). Flavor Text only matches a dish to a chunk of exactly as many ingredients as the dish has slots, and 896 of the 901 dishes had three; the shorter forms added afterwards (`FlavorDefs_Variants.xml`) are what this measure is meant to see move.
+The directory names carry the label of the request (b14150e), which was still queued when the tree moved on; the tree played is e283f89, as the
+2095 total of Flavor Text's startup line shows (930 of hers, 1165 of ours). The frequency of our dishes among named meals, measured by
+`08-frequency`: 21.0 % for one ingredient, 4.3 % for two, 5.8 % for three, 23.0 % for four, against 0.0 %, 0.8 % and 2.3 % for two, three and four
+on the published 1.1.0 (`2026-09-26-frequency-b/`); see `docs/runs/2026-09-26-frequency.md`.
 
-No `[ERROR]` line in any of the four `Player.log` files names a def, category or patch of this mod. The "active" figures
-are Flavor Text's own startup line and count every dish it keeps for the modlist, its own and ours: the review widened
-slots, so more of the 901 pass the ingredient test. Not measured: how often a dish is actually drawn in play.
+### What ran on the 1.1.0 revision (history)
+
+The four passes of 2026-09-23 and 24 were 11 of 11, 3 of 3, 6 of 6 and 3 of 3 (696, 653, 1072 and 696 active of 1831); their reports were pruned on
+2026-09-26, replaced by the ones above, and each has a line in `docs/runs/`.
 
 ### What ran on the v1.0.0 build (history)
 

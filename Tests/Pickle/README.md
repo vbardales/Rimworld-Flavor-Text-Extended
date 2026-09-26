@@ -3,7 +3,7 @@
 Load-time scenarios for Flavor Text Extended, played inside a running RimWorld by
 [Pickle](https://github.com/RimWorks/Rimworld-Pickle) (`rimworks.pickle`, Workshop 3791648678).
 
-**Status, 2026-09-24: all four passes green on the current revision (`without-optionals` 11 of 11, `without-odyssey` 3 of 3, `with-optionals` 6 of 6, `workshop-captures` 3 of 3).** Reports are preserved in `results/` because the shared `pickle-reports/` directory is overwritten by the next run. See `../../TESTING.md`, "Pickle passes" and "What has run", for what each pass shows and does not show. Step ownership is described below.
+**Status, 2026-09-26: the three passes of the 1.2.0 tree are green (`without-optionals` 18 of 18 with `01`, `03`, `04` and `08`, `without-odyssey` 3 of 3, `with-optionals` 6 of 6); `workshop-captures` was not replayed, its dishes are unchanged.** Reports are preserved in `results/` because the shared `pickle-reports/` directory is overwritten by the next run. See `../../TESTING.md`, "Pickle passes" and "What has run", for what each pass shows and does not show. Step ownership is described below.
 
 ## What is here, and why it needs the game
 
