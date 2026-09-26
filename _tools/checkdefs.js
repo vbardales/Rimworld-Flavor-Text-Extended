@@ -41,18 +41,23 @@ const estRepas = dn => {
 const norm = s => s.toLowerCase()
   .normalize('NFD').replace(/[̀-ͯ]/g, '')
   .replace(/\{[^}]*\}/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+// A dish only ever names a chunk with exactly as many ingredients as it has slots (Flavor Text,
+// CompFlavor.GetMatchIndices), so two dishes can only be confused with each other when their slot
+// counts are equal: the key of every comparison below starts with the slot count. The shorter variants
+// (_tools/make-variants.js) rely on this, since they share the label of the dish they copy.
 // Two levels: EXACTLY identical name = error (both dishes would display the same);
 // name identical once the placeholders are removed = mere warning, because
 // "bortsch" and "bortsch {2_plur}" display differently in game.
 // `exact` and `approx` hold the text shown in the message; `exactDe` and `approxDe`
 // hold the raw defName, to recognize a def that finds itself.
 const exact = new Map(), approx = new Map(), exactDe = new Map(), approxDe = new Map();
-const poser = (label, defName, mention) => {
-  exact.set(label, mention); exactDe.set(label, defName);
-  const k = norm(label);
+const poser = (label, defName, mention, arity) => {
+  const key = arity + '|' + label;
+  exact.set(key, mention); exactDe.set(key, defName);
+  const k = arity + '|' + norm(label);
   if (k) { approx.set(k, mention); approxDe.set(k, defName); }
 };
-for (const d of require('./flavordefs.json')) poser(d.label, d.defName, d.defName);
+for (const d of require('./flavordefs.json')) poser(d.label, d.defName, d.defName, (d.slots || []).length);
 
 // The FRENCH labels, which are checked against each other and separately.
 //
@@ -127,15 +132,15 @@ for (const f of fs.readdirSync(DIR).filter(x => x.endsWith('.xml'))) {
     const desc = (body.match(/<description>([^<]*)<\/description>/) || [])[1] || '';
     if (!label) { console.log(`ERROR   ${dn}  missing label`); erreurs++; }
     if (!desc) { console.log(`ERROR   ${dn}  missing description`); erreurs++; }
-    const k = norm(label);
-    if (exact.has(label)) {
-      console.log(`ERROR   ${dn}  "${label}" already displays identically (${exact.get(label)})`); erreurs++;
-    } else if (k && approx.has(k)) {
+    const k = slots.length + '|' + norm(label);
+    if (exact.has(slots.length + '|' + label)) {
+      console.log(`ERROR   ${dn}  "${label}" already displays identically (${exact.get(slots.length + '|' + label)})`); erreurs++;
+    } else if (norm(label) && approx.has(k)) {
       console.log(`WARN    ${dn}  "${label}" close to ${approx.get(k)} — check that the display differs`); avert++;
     }
     // We add the def to the table on the way: without this, two of OUR dishes bearing the
     // same English name did not see each other -- only hekmo's were compared.
-    if (label) poser(label, dn, dn);
+    if (label) poser(label, dn, dn, slots.length);
     for (const [texte, quoi] of [[label, 'label'], [desc, 'description']]) {
       for (const p of texte.matchAll(/\{(\d+)_([a-z]+)\}/g)) {
         if (Number(p[1]) >= slots.length) {
