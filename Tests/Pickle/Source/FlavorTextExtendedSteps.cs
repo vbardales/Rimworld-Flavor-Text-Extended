@@ -151,6 +151,98 @@ namespace FlavorTextExtended.PickleSteps
                 $"the recipe produced no meal that carries a Flavor Text comp ({lastCook}): the product is not a meal Flavor Text names");
         }
 
+        // ------------------------------------------------------------------ frequency
+
+        private const string OurPackageId = "nelim.flavortextextended";
+
+        private static bool IsOurs(string dishDefName)
+        {
+            FlavorDef def = DefDatabase<FlavorDef>.GetNamedSilentFail(dishDefName);
+            return def?.modContentPack != null
+                && string.Equals(def.modContentPack.PackageId, OurPackageId, StringComparison.OrdinalIgnoreCase);
+        }
+
+        // Every edible raw thing that Flavor Text files under some category: what a player's kitchen
+        // can hand the naming engine. Meals are left out, a dish is not an ingredient of another.
+        private static List<ThingDef> IngredientPool()
+        {
+            var seen = new HashSet<ThingDef>();
+            foreach (FlavorCategoryDef cat in DefDatabase<FlavorCategoryDef>.AllDefs)
+            {
+                if (cat.DescendantThingDefs == null)
+                {
+                    continue;
+                }
+                foreach (ThingDef def in cat.DescendantThingDefs)
+                {
+                    if (def != null && def.category == ThingCategory.Item && def.ingestible != null
+                        && !def.IsDrug && (def.ingestible.foodType & FoodTypeFlags.Meal) == 0)
+                    {
+                        seen.Add(def);
+                    }
+                }
+            }
+            return seen.OrderBy(d => d.defName).ToList();
+        }
+
+        // The question hekmo asked on the Workshop: in a game, how often does a meal carry one of this
+        // mod's dishes rather than one of Flavor Text's own? Ingredients are drawn at random from the
+        // whole pool, each meal gets distinct ones, and the seed makes a run repeatable. The numbers go
+        // to the log under "[FTE frequency]" whatever the outcome, so a green run is still a measure.
+        [When("Flavor Text Extended: a colonist cooks {string} at the {string} from {int} random ingredients, {int} times, seed {int}")]
+        public void CookRandom(PickleContext ctx, string recipeDefName, string stationDefName, int ingredientCount, int times, int seed)
+        {
+            List<ThingDef> pool = IngredientPool();
+            ctx.Assert(pool.Count >= ingredientCount, $"only {pool.Count} ingredients are filed under a Flavor Text category");
+            var rng = new Random(seed);
+            var pick = new List<string>();
+            var log = new List<string>();
+            int named = 0, withOurs = 0, ourAppearances = 0, baseAppearances = 0;
+
+            for (int i = 0; i < times; i++)
+            {
+                pick = pool.OrderBy(_ => rng.Next()).Take(ingredientCount).Select(d => d.defName).ToList();
+                Cook(ctx, recipeDefName, stationDefName, string.Join(", ", pick), 1);
+                foreach (Meal m in meals)
+                {
+                    if (m.Dishes.Count == 0)
+                    {
+                        continue;
+                    }
+                    named++;
+                    int ours = m.Dishes.Count(IsOurs);
+                    ourAppearances += ours;
+                    baseAppearances += m.Dishes.Count - ours;
+                    if (ours > 0)
+                    {
+                        withOurs++;
+                        if (log.Count < 15)
+                        {
+                            log.Add($"[{string.Join(", ", pick)}] -> {string.Join(", ", m.Dishes.Where(IsOurs))}");
+                        }
+                    }
+                }
+            }
+
+            frequencyNamed = named;
+            frequencyWithOurs = withOurs;
+            Log.Message($"[FTE frequency] {ingredientCount} random ingredients, {times} cooks, seed {seed}, pool {pool.Count}: " +
+                $"{named} named meals, {withOurs} carry a dish of this mod ({(named == 0 ? 0 : 100.0 * withOurs / named):F1} %); " +
+                $"dishes drawn: {ourAppearances} of this mod, {baseAppearances} of Flavor Text. First hits: {string.Join(" | ", log)}");
+        }
+
+        private static int frequencyNamed;
+        private static int frequencyWithOurs;
+
+        [Then("Flavor Text Extended: at least {int} percent of the named meals carry a dish of this mod")]
+        public void AtLeastPercentOurs(PickleContext ctx, int percent)
+        {
+            ctx.Assert(frequencyNamed > 0, "no meal was named after any dish at all");
+            double share = 100.0 * frequencyWithOurs / frequencyNamed;
+            ctx.Assert(share >= percent,
+                $"{frequencyWithOurs} of {frequencyNamed} named meals ({share:F1} %) carry a dish of this mod, under the {percent} % asked for");
+        }
+
         private static string Histogram()
         {
             var counts = meals.SelectMany(m => m.Dishes.DefaultIfEmpty("(no dish)"))

@@ -45,6 +45,12 @@ process with one log and one notification instead of one watcher per ticket, and
 neither way). Add `-EvidenceDir Tests/Pickle/results/<date>-<pass>` and keep only what `../../TESTS.md`, "Evidence to
 keep", says. Ask the owner before taking any ticket.
 
+**Frequency measure (`08-frequency.feature`, bare pass, `-Filter 08-frequency.feature`).** Not a regression
+test but a measurement: it cooks 400 meals per scenario from random ingredients (seeded, so repeatable) and logs
+`[FTE frequency] ...` with the share of meals carrying a dish of this mod versus Flavor Text's own. The 1 percent floor
+only separates "nothing fires" from "something does"; read the number in `Player.log`. It answers the question hekmo
+raised on 2026-09-25. Rerun it after any change to the dishes and compare with the previous run.
+
 ## Presentation fixture and framing
 
 Functional scenarios keep `test-colony`: their job is to prove a behavior, not to compose a
