@@ -21,7 +21,7 @@ Everything below was read in full, except where stated. No document had uncommit
 | `TRANSLATIONS.md` | `f5c2d9d` (2026-09-25) | no: `translation_fr` is `not_applicable` here (the French text is the companion's) and this mod adds no keyed text. Reread only if player-facing text changes |
 | `MOD_SETTINGS.md` | `b83933b` (2026-09-23) | no: `settings_audit: not_applicable`, this mod has no settings page and no shortcut. Reread only if an option is ever added |
 | `STYLE_RIMWORLD.md` | `7311308` (2026-09-25) | no: it concerns the Preview illustration and its overlay, both finished and published |
-| `scripts/SEARCHING.md` | `372c447` (2026-09-23) | no: it is about searching the Workshop corpus, which this mod never does. Standing rule from the owner: never `grep`; use the Read/Glob tools, Node scripts, or the corpus tool |
+| `scripts/SEARCHING.md` | `372c447` (2026-09-23) | **yes, as the source of the owner's no-grep rule.** Corrected 2026-09-26: it had been marked useless because this mod never searches the Workshop, which was too narrow a reading. The document forbids a hand-rolled `grep -r` on the corpus (use `scripts/Search-Workshop.sh`); the owner's rule is stricter: no grep at all, not the Grep tool and not `grep` in a pipe. Filter my own files with Read, Glob or a Node script. Slips of 2026-09-26: the Grep tool once, `grep -v` and `grep -c` in shell commands |
 
 ### Tools
 
