@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-  Reads a RimWorld Player.log and prints what the manual scenarios of TESTS.md look for.
+  Reads a RimWorld Player.log and prints what the manual scenarios of TESTING.md look for.
 
 .DESCRIPTION
   It REPORTS; it does not decide. A clean output means no red line named this mod in the log, which
@@ -42,7 +42,7 @@ if (((Get-Date) - $info.LastWriteTime).TotalMinutes -lt 2) {
 }
 Write-Host ''
 
-# What names this mod. The prefixes are ours; the defNames are the ones TESTS.md T1 and T2 list.
+# What names this mod. The prefixes are ours; the defNames are the ones TESTING.md T1 and T2 list.
 $ours = @(
     'FlavorTextFR_', 'FlavorTextExtended_', 'nelim.flavortextextended',
     'FT_Leek', 'FT_Shallot', 'FT_Meat_Turtle', 'FT_Meat_Alligator', 'FT_Meat_Iguana', 'FT_Meat_Lizard', 'FT_Meat_Frog',

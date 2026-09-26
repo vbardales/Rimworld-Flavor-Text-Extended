@@ -76,7 +76,7 @@ can produce a load error. Check both logs and actual ingredient categorization.
 Mod/       distributed mod: About, Defs, Patches, licence and attribution
 Art/       illustration source, icon sources and reproducible Preview composition
 _tools/    development and validation scripts; not distributed
-TESTS.md   offline commands and in-game test scenarios
+TESTING.md   offline commands and in-game test scenarios
 ```
 
 Install or upload **Mod/**, not the repository root. RimWorld sends that folder unchanged;
@@ -88,7 +88,7 @@ that repository has its own validation scope.
 
 ## Validation
 
-See `TESTS.md` for repeatable checks and manual scenarios, and `STATUS.md` for results
+See `TESTING.md` for repeatable checks and manual scenarios, and `STATUS.md` for results
 against the current working tree. Offline validation does not certify in-game behavior.
 
 ## Licence

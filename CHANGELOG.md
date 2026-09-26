@@ -42,5 +42,5 @@ First release. The mod was developed against Flavor Text (hekmo) for 1.6; nothin
 
 Tagged and released on GitHub 2026-09-22 (`v1.0.0`); published to the Workshop the same day, item 3806100152.
 
-Tested before release, all headless in a running game through Pickle (see `TESTS.md`): the mod alone on Flavor Text, without
+Tested before release, all headless in a running game through Pickle (see `TESTING.md`): the mod alone on Flavor Text, without
 Odyssey, and beside the three 1.6 ingredient providers.

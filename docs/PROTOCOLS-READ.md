@@ -44,11 +44,11 @@ Everything below was read in full, except where stated. No document had uncommit
 | `ATTRIBUTION.md` | `85bf074` (2026-09-23) | no "official" claim anywhere, on purpose |
 | `LICENSE` | `f62b876` (2026-09-13) | MIT; not reread, unchanged |
 | `PUBLICATION.md` | `7d1926f` (2026-09-24) | release note template and the 1.1.0 block |
-| `TESTS.md` | `94c6d10` (2026-09-24) | this mod's test plan (there is no `TESTING.md`) |
+| `TESTING.md` | `94c6d10` (2026-09-24, as `TESTS.md`) | this mod's test plan; renamed from `TESTS.md` on 2026-09-26 because the protocols name it `TESTING.md` |
 | `Mod/About/About.xml` | `efb257d` (2026-09-24) | 1.1.0, one hard dependency |
 | `docs/runs/` | 3 files, latest `2026-09-24-pickle-runs.md` | |
 | `Tests/Pickle/` | `f8ac657` | README and the two feature files read this session; the rest known |
-| `BACKLOG.md`, `NOTES.md`, `BUGS.md`, `TESTING.md` | none exist | not created: nothing to put in them |
+| `BACKLOG.md`, `NOTES.md`, `BUGS.md` | none exist | not created: nothing to put in them |
 
 ## What changed my way of working
 

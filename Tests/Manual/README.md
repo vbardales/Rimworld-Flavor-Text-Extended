@@ -2,7 +2,7 @@
 
 No manual scenario is left in this repository. T2 became a Pickle pass, T4 is RimWorld's own behaviour
 and is not tested, and the French scenarios (T11 second half, T13, T14) belong to the French companion,
-which has its own session and its own suite. See `../../TESTS.md`.
+which has its own session and its own suite. See `../../TESTING.md`.
 
 What remains is one optional tool, for when you play with your real modlist and want the log read for you:
 

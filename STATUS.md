@@ -83,7 +83,7 @@ tree is clean.
 opens each asserted meal card, hides the HUD and Pickle-owned windows, waits for three rendered frames
 inside the shared step, takes its screenshot, restores the interface, and closes dialogs. Its
 `AfterScenario` restoration also covers a failed scenario. The three review targets and their
-Workshop order are now identical in the feature, `Tests/Pickle/README.md`, `TESTS.md` and
+Workshop order are now identical in the feature, `Tests/Pickle/README.md`, `TESTING.md` and
 `PUBLICATION.md`. T7 is no longer `@wip`: its dedicated 1/1 passing report establishes the
 representative four-ingredient scenario.
 
@@ -305,7 +305,7 @@ passes without the providers, so it comes from one of them and not from this mod
 
 Three passes ran on tickets, headless in the WSL: **without-optionals 10 passed / 1 skipped (@wip), without-odyssey 3/3,
 with-optionals 5 passed / 1 failed**, every `exitReason` read before the numbers. Details, what they prove and what they
-do not, are in TESTS.md "What has run"; reports and logs are in `Tests/Pickle/results/`.
+do not, are in TESTING.md "What has run"; reports and logs are in `Tests/Pickle/results/`.
 
 - **T2 answered:** the game kept Odyssey out, the mod loaded, zero `[ERROR]` in that log.
 - **T5, T6, T9, T10, T12 passed.** Every name the scenarios assumed exists in the game.
@@ -382,11 +382,11 @@ stay as the record of why `done` had been withdrawn.
   `wsl-deps.with-optionals.map` for the second pass. Every step is a built-in Pickle step: all 34
   match a pattern found in `RimWorks.Pickle.Core.dll` (checked by matching the text, not by a game).
   Nothing uses a custom step assembly.
-- `TESTS.md`, "Pickle passes": what Pickle is for here (T1 and T3 made scriptable, what an offline
+- `TESTING.md`, "Pickle passes": what Pickle is for here (T1 and T3 made scriptable, what an offline
   tool cannot show), **two passes** (without the optional mods, with them), **zero** for
   incompatibilities because none is declared, why the two Chinese Traditional versions are not staged
   (neither declares 1.6), and what is deliberately left out (T2, cooking scenarios, list contents).
-- Also fixed in `TESTS.md`: the baseline said 43 provider references (47 since the FoodCourt
+- Also fixed in `TESTING.md`: the baseline said 43 provider references (47 since the FoodCourt
   additions) and "four" patch files (five).
 
 **Written is all this claims.** No scenario has run, no Pickle report exists, nothing here was
@@ -422,25 +422,25 @@ The workflow read is the current AUDIT.md, which postdates the 2026-09-13 `done`
 Criterion 8 asks for three things beside the scenarios: automated tests green, XML tests green, and
 Pickle (Gherkin) tests **written, with their scope justified** ("only what a running game can show").
 
-- Scenarios: T1-T14 in `TESTS.md`, each with setup, actions, expected result. Present.
+- Scenarios: T1-T14 in `TESTING.md`, each with setup, actions, expected result. Present.
 - Automated and XML tests, rerun on the delivered tree: `checkdefs.js` 901 dishes, 0 errors,
   10 warnings (all shared-combination or similar-label, unchanged); `verify-en.js` 0/0;
   `Check-ConfigErrors.ps1 -ModPath ./Mod -AlsoScan <Flavor Text 1.6 Defs>`: 908 of 908 defs,
   26 rules, no config error; the three PowerShell tests above. All green.
-- Pickle: **absent.** No `Tests/Pickle`, no `.feature`, no mention of Pickle in `TESTS.md` or here,
+- Pickle: **absent.** No `Tests/Pickle`, no `.feature`, no mention of Pickle in `TESTING.md` or here,
   hence neither scenarios nor a justification of their absence. This is a defect, not a missing check:
   the file that should carry the answer does not.
 
 Not a case for "not applicable" on its face. The whole risk of this mod is load time under the
 real engine (a patch xpath that finds nothing, a cross-reference that does not resolve, an Odyssey
-guard), and `TESTS.md` T1-T3 say so themselves. The offline tools approximate the loader without
+guard), and `TESTING.md` T1-T3 say so themselves. The offline tools approximate the loader without
 being it (`Test-Xml.ps1` says so: it does not emulate conditional loading). Comparable XML-only mods
 in this tree write a small load-time suite. Whether to write those scenarios or to argue their
 absence is the owner's call; this audit does neither, since it may not create tests to earn a stage.
 
 ### Not counted against the stage
 
-- `TESTS.md` is named `TESTS.md`; the Pickle section of the workflow names `TESTING.md` for the
+- `TESTING.md` is named `TESTING.md`; the Pickle section of the workflow names `TESTING.md` for the
   declaration of passes. Nothing to declare yet.
 - The distributed `About.xml` no longer matches `PRETEST-2026-09-13.json`: `b79372c` changed its
   `<author>` to `Nelim`. At audit entry it was the only one of 55 distributed files that differed; after the corrections below
@@ -466,7 +466,7 @@ nothing else; no Def, patch or dependency was touched.
 - `CHANGELOG.md`: no longer claims a replaced icon, and French category labels are said to live in the
   companion. `README.md`: layout line. `Art/README.md`: icon flow. `Mod/Languages/` (empty, untracked)
   removed.
-- Left as written: `TESTS.md` and the README profile snapshot cite 896, in sections dated as historical.
+- Left as written: `TESTING.md` and the README profile snapshot cite 896, in sections dated as historical.
 
 Reruns after the edits: `Test-Xml.ps1` 51 files / 29 operations / four Odyssey guards PASS;
 `Test-Localization.ps1` 908 defs, 1,809 fields, 4,614 tokens PASS; `git diff --check` clean.
@@ -694,7 +694,7 @@ is required. Subsequent labels map literally to the supplied workflow:
 - Independent root: `C:\Users\nelim\Documents\rimworld\FlavorText\FlavorTextExtended`.
   Distributed folder: `Mod/`; `_tools/` and `Art/` are outside that folder.
 - Audited HEAD: `c349f360e32ecec2efc754918f4f7a76293199b6`, plus the working tree.
-  At entry, modified tracked files were `Mod/About/About.xml`, `STATUS.md`, `TESTS.md`,
+  At entry, modified tracked files were `Mod/About/About.xml`, `STATUS.md`, `TESTING.md`,
   `_tools/checkdefs.js`; `_tools/Test-Xml.ps1` was untracked. These changes were preserved.
   This audit changes only STATUS.md and adds the hash manifest `AUDIT-2026-09-13.json`.
 - Read `../../AGENTS.md`, `../../PUBLISHING.md`, `../../STYLE_RIMWORLD.md`,
@@ -825,7 +825,7 @@ Upstream Flavor Text remains subject to its own terms.
 
 ## Verification on 2026-09-13
 
-- Manual functional scenarios: **12 present**, T1-T12 in TESTS.md, with setups and
+- Manual functional scenarios: **12 present**, T1-T12 in TESTING.md, with setups and
   expected results. **Not executed or attested for this standalone mod**; `tested_on`
   remains empty. A missing ModsConfig entry would not prove the mod was never loaded.
 - `node _tools/checkdefs.js <Flavor Text 1.6 Defs>`: **896 dishes, 0 errors,
@@ -907,6 +907,6 @@ neither hekmo.FlavorText nor nelim.flavortextextended. No game configuration was
 Interactive cooking/save tests cannot be executed through the available tools: native
 application control is unavailable in this session. Runtime scenarios remain unverified.
 Next manual run: Harmony, Core, Flavor Text, then Flavor Text Extended, English language;
-start a disposable colony, check loading errors, cook meals and save/reload per TESTS.md.
+start a disposable colony, check loading errors, cook meals and save/reload per TESTING.md.
 Do not use an existing modded save with this minimal modlist; existing-save tests use a copy
 with its original dependencies preserved. French integration is a separate companion run.
