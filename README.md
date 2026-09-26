@@ -6,7 +6,7 @@ RimWorld 1.6.
 
 ## What it adds
 
-**901 new dishes.** French and regional cooking first, then the wider repertoire: Italy, the
+**926 new dishes.** French and regional cooking first, then the wider repertoire: Italy, the
 Maghreb, Japan, Korea, Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the
 Caribbean, Polynesia.
 
@@ -44,7 +44,7 @@ ingredients up to that number, which lets bigger dishes match. `_tools/frequency
 ## What your colony grows decides what you see
 
 Flavor Text names a meal after what went into it, so a dish can only appear if its ingredients
-exist in the game. These 901 lean on a wider pantry than vanilla keeps — wheat, cheese, butter,
+exist in the game. These 926 lean on a wider pantry than vanilla keeps — wheat, cheese, butter,
 cream, onion, tomato, garlic, chilli — so on a vanilla-only save about forty of them can fire.
 Farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
 

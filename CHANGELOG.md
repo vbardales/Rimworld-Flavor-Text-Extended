@@ -13,6 +13,10 @@ was named by Flavor Text's own dishes alone (hekmo reported seeing none of ours 
   (`_tools/solo-forms.json`), each the dish's subject alone (an artichoke for the artichokes vinaigrette, a potato for the
   gnocchi), with a plain word in the text where it named a dropped ingredient. A form and its original never compete:
   their slot counts differ.
+- Add 25 dishes for the combinations a colony really cooks (`FlavorDefs_Staples.xml`): two meats in a pot, meat in cream,
+  meat with berries, mushrooms or potatoes. Their slots are broad on purpose. On the offline model, in a kitchen of twelve
+  everyday ingredients of the base game, a random three-ingredient meal could be named by one of our dishes 23 percent of the
+  time before and 86 percent after, and one of ours wins the draw about 40 percent of the time instead of 11.
 - Fix the two dishes that could never appear because they asked for four ingredients (`FlavorTextExtended_Altang` and
   `FlavorTextExtended_Jjapaghuri`, a chunk holds at most three): they now take three, and their text no longer
   names the dropped ingredient.

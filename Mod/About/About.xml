@@ -6,7 +6,7 @@
 	<url>https://github.com/vbardales/Rimworld-Flavor-Text-Extended</url>
 	<description>An add-on for Flavor Text (https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) (hekmo). Requires it, contains none of its files, and does nothing without it.
 
-901 NEW DISHES
+926 NEW DISHES
 
 French and regional cooking first, then the wider repertoire: Italy, the Maghreb, Japan, Korea, Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the Caribbean, Polynesia.
 
@@ -16,9 +16,13 @@ SHORTER FORMS
 
 Flavor Text names a meal in chunks of up to three ingredients, and a dish only fits a chunk with exactly as many ingredients as it has slots. So many of these dishes also come in a shorter form, the same dish under the same name minus an ingredient it never needed, to name meals of one or two ingredients.
 
+EVERYDAY COMBINATIONS
+
+Twenty-five of the dishes are written for what a colony really cooks with what it has on hand: two meats in a pot, meat in cream, meat with berries or mushrooms. Their slots are broad (any raw meat, any berry), so they name common meals without crowding out the specific dishes.
+
 WHAT YOUR COLONY GROWS DECIDES WHAT YOU SEE
 
-Flavor Text (https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 901 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
+Flavor Text (https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) names a meal after what went into it, so a dish can only ever appear if its ingredients exist in your game. These 926 lean on a wider pantry than vanilla keeps - wheat, cheese, butter, cream, onion, tomato, garlic, chilli. On a vanilla-only save about forty of them can fire; farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
 
 That is how the engine works rather than a shortcoming: nothing is lost, a dish simply waits for its ingredient. But it is worth knowing before you install.
 

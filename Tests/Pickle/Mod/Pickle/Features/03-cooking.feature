@@ -73,3 +73,12 @@ Feature: cooking a meal names it after a dish
     And Flavor Text Extended: a meal was named after "FlavorTextFR_GnocchiSolo"
     And Flavor Text Extended: a meal named after "FlavorTextFR_GnocchiSolo" is labelled with "gnocchi"
     And no errors were logged
+
+  # Two meats and milk: the everyday combination that no dish of the first 901 was written for. FlavorTextExtended_TwoMeatBlanquette
+  # (FlavorDefs_Staples.xml) takes about a third of the draw for beef, pork and milk, so 300 cooks show it.
+  Scenario: an everyday three-ingredient dish fires
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 300 times
+    Then Flavor Text Extended: every meal was named after a dish
+    And Flavor Text Extended: a meal was named after "FlavorTextExtended_TwoMeatBlanquette"
+    And Flavor Text Extended: a meal named after "FlavorTextExtended_TwoMeatBlanquette" is labelled with "blanquette"
+    And no errors were logged

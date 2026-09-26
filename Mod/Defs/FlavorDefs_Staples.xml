@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Dishes for the combinations a kitchen really cooks.
+
+  Flavor Text names a chunk of three ingredients with a dish that has three slots, and a random meal only gets
+  one of ours if its three ingredients fit the slots of one of our dishes. The first 901 dishes are written around
+  a subject (a katsudon needs rice, pork and egg), so a colony that cooks whatever meat, potatoes, eggs, milk and
+  berries it has on hand seldom matched any of them. Measured with the triples mode of _tools/frequency.js on twelve everyday
+  ingredients of the base game, 170 of the 220 possible triples had no dish of ours, almost all of them with two
+  different meats or with milk. These dishes are the ones such a kitchen makes anyway: two meats in a pot, meat
+  in cream, meat with berries, meat with mushrooms. Their slots are broad on purpose (any raw meat, any berry),
+  which keeps them from crowding out the specific dishes: a broad slot weighs less in the draw.
+
+  The prefix is FlavorTextExtended_, the one the FoodCourt dishes use; FlavorTextFR_ belongs to the first set.
+-->
+<Defs>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_Jambalaya</defName>
+		<label>two-meat jambalaya</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>{0_coll} cooked in a single pot with {1_coll} and {2_coll} and whatever else the cook can spare, until the rice has taken the colour of the stock. Nobody agrees on the recipe; everybody agrees on the pot.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_TwoMeatLoaf</defName>
+		<label>two-meat loaf</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Egg</li></categories></li>
+		</ingredients>
+		<description>{0_coll} and {1_coll} minced together, bound with {2_coll} and baked slowly in a tin. It is sliced cold the next day, and is better then than it was hot.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_TwoMeatBlanquette</defName>
+		<label>two-meat blanquette</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>{0_coll} and {1_coll} simmered white in their own stock, then finished with {2_coll} until the sauce coats the spoon. Nothing in it is browned: that is the point of the dish.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MushroomRagu</defName>
+		<label>mushroom ragù</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{0_coll} and {1_coll} cooked down for hours with {2_coll} until the sauce is dark, thick and clings to whatever it is poured over.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_PastelDeChoclo</defName>
+		<label>pastel de choclo</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>a pie whose crust is {0_coll} ground to a sweet paste, laid over a filling of {1_coll} and {2_coll} and baked until the top blisters. The corn is the dish; the meat is what it carries.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_RoastWithBerrySauce</defName>
+		<label>roast with berry sauce</label>
+		<ingredients>
+			<li><categories><li>FT_Berry</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>{1_coll} and {2_coll} roasted and carved, served with a sharp sauce of {0_coll}. The tartness is there to cut the fat, not to sweeten the plate.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MixedGrill</defName>
+		<label>mixed grill</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>{0_coll}, {1_coll} and {2_coll} thrown on the same fire and served together on one board. Everyone picks their piece and eats it with their fingers.</description>
+		<mealKinds>
+			<li>FT_MealsGrill</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MeatHotpot</defName>
+		<label>meat hotpot</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+		</ingredients>
+		<description>{0_coll} and {1_coll} layered under sliced {2_coll} and baked for hours in a covered dish, until the top is browned and the bottom has melted into the gravy.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MeatAndPotatoGratin</defName>
+		<label>meat and potato gratin</label>
+		<ingredients>
+			<li><categories><li>FT_Potato</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>{0_coll} sliced thin and baked with {1_coll} under a blanket of {2_coll}, until the edges are bubbling and the top has a crust worth fighting over.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_CreamedMeatOnRice</defName>
+		<label>creamed meat on rice</label>
+		<ingredients>
+			<li><categories><li>FT_Rice</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>{1_coll} stewed in {2_coll} until it is tender, then poured over a bed of {0_coll}. Soft, plain and hot: a dish for cold evenings.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MeatQuiche</defName>
+		<label>meat quiche</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>a pastry case filled with {1_coll}, then with {0_coll} beaten into {2_coll}, and baked just until it sets. It should still tremble a little when it leaves the oven.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_CreamedMushroomFricassee</defName>
+		<label>creamed mushroom fricassée</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+		</ingredients>
+		<description>{0_coll} and {2_coll} sweated together in the same pan and finished with {1_coll}, with no more flour than it takes to hold the sauce.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_CornChowder</defName>
+		<label>corn and meat chowder</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+		</ingredients>
+		<description>{0_coll} and {1_coll} simmered in {2_coll} until the corn has given up its sweetness and the soup has turned thick enough to hold a spoon upright.</description>
+		<mealKinds>
+			<li>FT_MealsSoup</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MeatballsWithBerryJam</defName>
+		<label>meatballs with berry jam</label>
+		<ingredients>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+		</ingredients>
+		<description>{0_coll} rolled small, browned, and poured over with a sauce made from {1_coll}, served with a spoonful of {2_coll} jam. Sweet against savoury, and nobody at the table finds it odd.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_OmeletteWithBerryCompote</defName>
+		<label>omelette with berry compote</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Berry</li></categories></li>
+		</ingredients>
+		<description>a thick omelette of {0_coll} and {1_coll}, with a spoonful of {2_coll} compote on the side to cut through it.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_SundayRoastWithBerries</defName>
+		<label>roast with potatoes and berry sauce</label>
+		<ingredients>
+			<li><categories><li>FT_Berry</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+		</ingredients>
+		<description>{1_coll} roasted until the crackling is hard, with {2_coll} browned in its fat and a bowl of {0_coll} sauce set on the table.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_PemmicanStew</defName>
+		<label>pemmican stew</label>
+		<ingredients>
+			<li><categories><li>FT_Berry</li></categories></li>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>{2_coll} dried and pounded with {0_coll}, then stewed with {1_coll}: a food made to keep through a whole winter and to be eaten without ceremony.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_CornAndRicePilaf</defName>
+		<label>pilaf with corn</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+		</ingredients>
+		<description>{2_coll} and {0_coll} cooked together with {1_coll} in one covered pan until the grains stand apart from each other and the pan is dry.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MeatAndPotatoTortilla</defName>
+		<label>potato and meat tortilla</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+		</ingredients>
+		<description>{2_coll} and {1_coll} folded into {0_coll} and cooked thick on both sides in a heavy pan. Served warm rather than hot, in wedges, the next day as well.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_FarmhouseOmelette</defName>
+		<label>farmhouse omelette</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>{0_coll} beaten with {2_coll} and {1_coll} and cooked in a single sweep of the pan, folded over while the middle is still soft.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MushroomShepherdsPie</defName>
+		<label>mushroom shepherd's pie</label>
+		<ingredients>
+			<li><categories><li>FT_Fungus</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+		</ingredients>
+		<description>{1_coll} and {0_coll} in a rich gravy under a lid of mashed {2_coll}, raked with a fork and baked until the ridges brown.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_HuntersStew</defName>
+		<label>hunter's stew</label>
+		<ingredients>
+			<li><categories><li>FT_Corn</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>{2_coll}, {1_coll} and {0_coll} stewed together for as long as the fire lasts, then eaten from the pot by whoever is closest.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_ForestStew</defName>
+		<label>forest stew</label>
+		<ingredients>
+			<li><categories><li>FT_Berry</li></categories></li>
+			<li><categories><li>FT_Fungus</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+		</ingredients>
+		<description>{2_coll} braised with {1_coll}, and a handful of {0_coll} added at the end for sharpness. It tastes of the place it was gathered in.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_MushroomPilaf</defName>
+		<label>mushroom pilaf with meat</label>
+		<ingredients>
+			<li><categories><li>FT_Fungus</li></categories></li>
+			<li><categories><li>FT_MeatRaw</li></categories></li>
+			<li><categories><li>FT_Rice</li></categories></li>
+		</ingredients>
+		<description>{2_coll} toasted in fat, then cooked with {0_coll} and {1_coll} in just enough water, and left to rest under a cloth before anyone lifts the lid.</description>
+		<mealKinds>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
+		<defName>FlavorTextExtended_PotatoAndEggGratin</defName>
+		<label>potato and egg gratin</label>
+		<ingredients>
+			<li><categories><li>FT_Egg</li></categories></li>
+			<li><categories><li>FT_Milk</li></categories></li>
+			<li><categories><li>FT_Potato</li></categories></li>
+		</ingredients>
+		<description>{2_coll} sliced thin and baked in {1_coll} with {0_coll} broken over the top, until the yolk sets and the milk has nearly gone.</description>
+		<mealKinds>
+			<li>FT_MealsBake</li>
+			<li>FT_MealsNonSpecial</li>
+		</mealKinds>
+	</FlavorText.FlavorDef>
+
+</Defs>

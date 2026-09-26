@@ -49,6 +49,7 @@ const COOKED = opt('cooked', 'MealSimple');
 const OURS_DIR = opt('defs', './Mod/Defs');
 const POOL = opt('pool', '');
 const TRIPLES = args.includes('--triples');
+const GAPS = +opt('gaps', 40);
 const GHOST = +opt('ghost', 0);
 
 const RW = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld';
@@ -282,7 +283,7 @@ if (TRIPLES) {
   }
   console.log(`\nall ${total} triples of the pool: named ${pc(named, total)}, one of ours possible for ${pc(withOurs, total)}, share of the draw that is ours ${pc(oursShare, named)}`);
   console.log(`triples no dish of ours can name: ${gaps.length}`);
-  for (const g of gaps.slice(0, 40)) console.log('  ' + g);
+  for (const g of gaps.slice(0, GAPS)) console.log('  ' + g);
   process.exit(0);
 }
 const CHUNK = opt('chunk', '');
