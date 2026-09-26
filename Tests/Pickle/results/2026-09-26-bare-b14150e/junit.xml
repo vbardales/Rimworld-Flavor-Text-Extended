@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="Flavor Text Extended alone on Flavor Text" tests="5" failures="0" skipped="0" flakes="0" time="1.875">
+    <testcase name="both mods are loaded, in the order that matters" classname="Flavor Text Extended alone on Flavor Text" time="0.181">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="no ingredient provider is present, so this really is the bare pass" classname="Flavor Text Extended alone on Flavor Text" time="0.173">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="the new categories and a sample of dishes are defined by this mod" classname="Flavor Text Extended alone on Flavor Text" time="0.783">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="the unguarded keyword patches landed on Flavor Text's categories" classname="Flavor Text Extended alone on Flavor Text" time="0.590">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="it loads without its optional mods and says nothing" classname="Flavor Text Extended alone on Flavor Text" time="0.148">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="cooking a meal names it after a dish" tests="7" failures="0" skipped="0" flakes="0" time="62.564">
+    <testcase name="a name appears at all, from one ingredient" classname="cooking a meal names it after a dish" time="8.428">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="a three-ingredient dish fires" classname="cooking a meal names it after a dish" time="8.170">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="names survive a save and a reload" classname="cooking a meal names it after a dish" time="17.052">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="four ingredients become two dishes" classname="cooking a meal names it after a dish" time="8.652">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="a two-ingredient dish fires" classname="cooking a meal names it after a dish" time="6.129">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="a one-ingredient dish fires" classname="cooking a meal names it after a dish" time="6.956">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="an everyday three-ingredient dish fires" classname="cooking a meal names it after a dish" time="7.177">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="reptile meats are told apart" tests="2" failures="0" skipped="0" flakes="0" time="0.663">
+    <testcase name="each of the reptile meats sits in its own category" classname="reptile meats are told apart" time="0.394">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="a dish written for one reptile does not fire on another" classname="reptile meats are told apart" time="0.269">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="how often this mod's dishes name a meal" tests="4" failures="0" skipped="0" flakes="0" time="31.535">
+    <testcase name="one random ingredient" classname="how often this mod's dishes name a meal" time="6.820">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="two random ingredients" classname="how often this mod's dishes name a meal" time="8.447">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="three random ingredients" classname="how often this mod's dishes name a meal" time="8.681">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+    <testcase name="four random ingredients" classname="how often this mod's dishes name a meal" time="7.587">
+      <system-out>Attachment: smoke-attachment -&gt; smoke test attachment content
+</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
