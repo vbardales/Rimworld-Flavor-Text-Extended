@@ -69,7 +69,7 @@ for 24 nonexistent meats. That historical result concerns the work before the sp
 it does not certify this standalone revision or its companion. The original audit and
 its results remain in `STATUS.md` and the Git history.
 
-Current offline and in-game results are recorded in `STATUS.md` and `TESTS.md`.
+Current offline and in-game results are recorded in `STATUS.md` and `TESTING.md`.
 Pickle passed in a running RimWorld 1.6 game on 2026-09-21 with the required mod,
 without Odyssey, and with the tested optional providers. Cooking tests call the recipe
 method directly; they do not exercise a colonist walking to a stove. Workshop captures
@@ -95,7 +95,7 @@ plan checks logs and actual categorization separately.
 ## Testing tools
 
 **Pickle** ([RimWorks](https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678)) played every scenario
-in `TESTS.md`/`Tests/Pickle/` headless, inside a real running game. **RimLogging**
+in `TESTING.md`/`Tests/Pickle/` headless, inside a real running game. **RimLogging**
 ([RimWorks](https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696)) is how those scenarios attribute a
 warning or an error to the mod that logged it. Both are development-only: neither is a dependency of the
 distributed mod, and neither is staged or loaded when a player subscribes to it.

@@ -1,7 +1,10 @@
 // How often would a meal carry a dish of this mod, rather than one of Flavor Text's own?
 //
 //   node _tools/frequency.js <Flavor Text Defs folder> [--vanilla] [--defs=<folder of FlavorDefs_*.xml>]
-//                            [--n=20000] [--seed=1] [--cooked=MealSimple]
+//                            [--n=20000] [--seed=1] [--cooked=MealSimple] [--chunk=RawRice,Meat_Pig]
+//
+// With --chunk it prints instead the dishes that would match that exact list of ingredients (a chunk of one
+// to three ThingDef names), each with its weight and share of the draw, and stops.
 //
 // The answer the game gives is in the Pickle scenario 08-frequency; this is its offline twin, for
 // comparing dish sets (for instance the 1.0.0 defs against the 1.1.0 ones) without a game.
@@ -207,6 +210,17 @@ function matches(chunk, d) {
     left.splice(i, 1);
   }
   return true;
+}
+const CHUNK = opt('chunk', '');
+if (CHUNK) {
+  const chunk = CHUNK.split(',').map(n => ingList.find(i => i.dn === n.trim()));
+  if (chunk.some(x => !x)) { console.error('unknown ingredient in --chunk (not in the pool of this mod list)'); process.exit(1); }
+  const hits = (byArity[chunk.length] || []).filter(d => matches(chunk, d));
+  const sum = hits.reduce((a, d) => a + d.weight, 0);
+  for (const d of hits.sort((a, b) => b.weight - a.weight)) console.log(`${(100 * d.weight / sum).toFixed(1).padStart(5)} %  ${d.source.padEnd(5)} ${d.dn}`);
+  console.log(`
+${hits.length} dishes match; ours: ${(100 * hits.filter(d => d.source === 'nous').reduce((a, d) => a + d.weight, 0) / sum).toFixed(1)} % of the draw`);
+  process.exit(0);
 }
 const pct = (a, b) => b ? (100 * a / b).toFixed(1) + ' %' : '-';
 console.log(`mod list: ${VANILLA ? 'vanilla (Core and the five DLC)' : 'ModsConfig.xml'}; pool ${ingList.length} ingredients; cooked meal ${COOKED}`);

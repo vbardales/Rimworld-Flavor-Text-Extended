@@ -11,7 +11,7 @@
 #   - that the defs of a custom type (FlavorText.FlavorDef) reach the database under this mod;
 #   - that the patches take effect once every other active mod has patched the same categories;
 #   - that all of it happens without a red line. `Test-Xml.ps1` says itself that it does not
-#     emulate the loader, and TESTS.md T3 records why that matters here: a MayRequire on an
+#     emulate the loader, and TESTING.md T3 records why that matters here: a MayRequire on an
 #     <Operation> is read by nothing, the one on each <li> does the work, and only a real load
 #     shows the arrangement holding.
 #

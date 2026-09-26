@@ -19,13 +19,8 @@
           <li>FT_PlantFoodRaw</li>
         </categories>
       </li>
-      <li>
-        <categories>
-          <li>FT_Condiment</li>
-        </categories>
-      </li>
     </ingredients>
-    <description>a spicy soup with {0_coll}, {1_coll} and soft {2_adj} curds in a {3_adj} broth. This colony version stands in for the fish roe of the original dish.</description>
+    <description>a spicy soup with {0_coll}, {1_coll} and soft {2_adj} curds in a rich broth. This colony version stands in for the fish roe of the original dish.</description>
     <mealKinds>
       <li>FT_MealsSoup</li>
     </mealKinds>
@@ -89,13 +84,8 @@
           <li>FT_Soy</li>
         </categories>
       </li>
-      <li>
-        <categories>
-          <li>FT_Chili</li>
-        </categories>
-      </li>
     </ingredients>
-    <description>{0_adj} noodles tossed in a dark {2_adj} sauce with {3_coll}, then topped with seared {1_coll}. A pantry adaptation of a dish combining two kinds of instant noodles.</description>
+    <description>{0_adj} noodles tossed in a dark {2_adj} sauce, then topped with seared {1_coll}. A pantry adaptation of a dish combining two kinds of instant noodles.</description>
     <mealKinds>
       <li>FT_MealsNoodle</li>
     </mealKinds>

@@ -1,13 +1,13 @@
 # Where the game's ingredients are FILED among Flavor Text's categories: the "attachment" risk of
-# TESTS.md, which is silent when it breaks (a category that absorbs nothing raises no error, its
+# TESTING.md, which is silent when it breaks (a category that absorbs nothing raises no error, its
 # dishes just never fire). No save and no cooking: the categories are settled at the main menu.
 #
-# T9 of TESTS.md, and the reptile file's promise that the meats are told apart. Flavor Text keeps
+# T9 of TESTING.md, and the reptile file's promise that the meats are told apart. Flavor Text keeps
 # them all in one category; splitting them is the whole point of Defs/FlavorCategoryDefs_Reptiles.xml.
 # The assertions read the category tree, so they hold without any dish, cooking mod or colony.
 #
 # The staging always activates Odyssey, so the four guarded meats are present here. Without Odyssey
-# their guards drop the entries (TESTS.md T2), which this pass cannot show.
+# their guards drop the entries (TESTING.md T2), which this pass cannot show.
 #
 # Run it with the bare pass: -Filter 01-alone.feature,03-cooking.feature,04-filing.feature
 Feature: reptile meats are told apart

@@ -1,4 +1,4 @@
-# T2 of TESTS.md: the mod loads on a game WITHOUT Odyssey.
+# T2 of TESTING.md: the mod loads on a game WITHOUT Odyssey.
 #
 # Why it exists. Four of the six reptile meats named by Defs/FlavorCategoryDefs_Reptiles.xml come
 # from Odyssey animals (alligator, monitor lizard, bullfrog, sea turtle), and they are referenced

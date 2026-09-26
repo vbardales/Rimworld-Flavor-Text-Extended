@@ -3,7 +3,7 @@
 Load-time scenarios for Flavor Text Extended, played inside a running RimWorld by
 [Pickle](https://github.com/RimWorks/Rimworld-Pickle) (`rimworks.pickle`, Workshop 3791648678).
 
-**Status, 2026-09-24: all four passes green on the current revision (`without-optionals` 11 of 11, `without-odyssey` 3 of 3, `with-optionals` 6 of 6, `workshop-captures` 3 of 3).** Reports are preserved in `results/` because the shared `pickle-reports/` directory is overwritten by the next run. See `../../TESTS.md`, "Pickle passes" and "What has run", for what each pass shows and does not show. Step ownership is described below.
+**Status, 2026-09-24: all four passes green on the current revision (`without-optionals` 11 of 11, `without-odyssey` 3 of 3, `with-optionals` 6 of 6, `workshop-captures` 3 of 3).** Reports are preserved in `results/` because the shared `pickle-reports/` directory is overwritten by the next run. See `../../TESTING.md`, "Pickle passes" and "What has run", for what each pass shows and does not show. Step ownership is described below.
 
 ## What is here, and why it needs the game
 
@@ -30,20 +30,17 @@ over the machine, so nothing here restates one of them. What is left:
 | **workshop-captures** | `wsl-deps.workshop-captures.map` | `06-workshop-captures.feature` | the minimal pass plus PickleTools ScreenshotMode and ScreenshotStudio; produces three review screenshots of the meal cards over Nelim's central Zen Meadow emblem, with the HUD and Pickle panels hidden |
 
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -Filter 01-alone.feature,03-cooking.feature,04-filing.feature
-powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.without-odyssey.map -Filter 05-without-odyssey.feature
-powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.with-optionals.map -Filter 02-with-optionals.feature
-powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -DepMap wsl-deps.workshop-captures.map -Filter 06-workshop-captures.feature
+# one request per pass; <id> is this session's local_... id (get_session self); the worker plays it when the machine is free
+powershell.exe -ExecutionPolicy Bypass -File Rimworld-Ticket-DispatcherscriptsSubmit-PickleRun.ps1 -Mod FlavorTextExtended -Owner <id> -Label "<what> <sha>" -Filter '01-alone.feature,03-cooking.feature,04-filing.feature' -EvidenceDir FlavorText/FlavorTextExtended/Tests/Pickle/results/<date>-without-optionals
+powershell.exe -ExecutionPolicy Bypass -File Rimworld-Ticket-DispatcherscriptsSubmit-PickleRun.ps1 -Mod FlavorTextExtended -Owner <id> -Label "<what> <sha>" -DepMap wsl-deps.without-odyssey.map -Filter '05-without-odyssey.feature' -EvidenceDir FlavorText/FlavorTextExtended/Tests/Pickle/results/<date>-without-odyssey
+powershell.exe -ExecutionPolicy Bypass -File Rimworld-Ticket-DispatcherscriptsSubmit-PickleRun.ps1 -Mod FlavorTextExtended -Owner <id> -Label "<what> <sha>" -DepMap wsl-deps.with-optionals.map -Filter '02-with-optionals.feature' -EvidenceDir FlavorText/FlavorTextExtended/Tests/Pickle/results/<date>-with-optionals
+powershell.exe -ExecutionPolicy Bypass -File Rimworld-Ticket-DispatcherscriptsSubmit-PickleRun.ps1 -Mod FlavorTextExtended -Owner <id> -Label "<what> <sha>" -DepMap wsl-deps.workshop-captures.map -Filter '06-workshop-captures.feature' -EvidenceDir FlavorText/FlavorTextExtended/Tests/Pickle/results/<date>-workshop-captures
 ```
 
 The filters differ because 01 asserts that the providers are **absent** and 02 that they are
 present: played in the other pass, each fails for a reason that has nothing to do with the mod.
 
-**Running the passes.** Each pass has its own `-DepMap`, so each takes its own ticket: chain them in one background
-process with one log and one notification instead of one watcher per ticket, and pass `-MaxWaitMinutes 600` (the default
-90 made two passes exit 7 on 2026-09-24 with 21 and 16 tickets ahead, having played nothing; requeue them, they proved
-neither way). Add `-EvidenceDir Tests/Pickle/results/<date>-<pass>` and keep only what `../../TESTS.md`, "Evidence to
-keep", says. Ask the owner before taking any ticket.
+**Running the passes.** A session never launches the game: it files a request (`Rimworld-Ticket-Dispatcher/docs/SUBMIT.md`), one per pass since each has its own `-DepMap`. The worker waits its turn (600 minutes, three tries on an exit 7, which proves nothing either way), the ticket dispatcher wakes the session with `RUN_DONE`, and the report is copied into `-EvidenceDir`. A request carries no revision: the tree is staged when it is played, so leave `Mod/` and `Tests/Pickle/` alone until then and write the SHA in `-Label`. Keep only what `../../TESTING.md`, "Evidence to keep", says. Ask the owner before filing any.
 
 **Frequency measure (`08-frequency.feature`, bare pass, `-Filter 08-frequency.feature`).** Not a regression
 test but a measurement: it cooks 400 meals per scenario from random ingredients (seeded, so repeatable) and logs

@@ -1,4 +1,4 @@
-# The pass WITHOUT Odyssey (TESTS.md T2), selected by name:
+# The pass WITHOUT Odyssey (TESTING.md T2), selected by name:
 #
 #   -DepMap wsl-deps.without-odyssey.map -Filter 05-without-odyssey.feature
 #
