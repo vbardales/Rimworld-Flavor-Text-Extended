@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [1.2.0] - 2026-09-26
 
 Meals of one or two ingredients can now be named by this mod too. Flavor Text cuts a meal's ingredients into chunks of
 three and names each chunk with a dish that has exactly as many ingredient slots as the chunk has ingredients. 896 of
