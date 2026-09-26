@@ -83,7 +83,7 @@ headings are bold instead of plain capitals, the SHORTER FORMS section is new, t
 ```markdown
 An add-on for [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) (hekmo). Requires it, contains none of its files, and does nothing without it.
 
-901 NEW DISHES
+**901 NEW DISHES**
 
 French and regional cooking first, then the wider repertoire: Italy, the Maghreb, Japan, Korea, Peru, India, China, the Levant, Mexico, West Africa, Eastern Europe, the Caribbean, Polynesia.
 
