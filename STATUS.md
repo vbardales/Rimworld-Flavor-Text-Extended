@@ -18,12 +18,13 @@ xml_tests: passed
 licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 upstream_mod_remotes:
-  - "https://github.com/JohannesKolsky/FlavorText (found 2026-09-28, default branch master-rebased. Confirmed as hekmo's own source: Source/HarmonyPatches.cs line 24 names the Harmony instance new Harmony(\"rimworld.hekmo.FlavorText\"), and the code matches the decompiled DLL this mod's STATUS.md already describes (CompFlavor.GetMatchIndices). Commit author name is Nathan, login JohannesKolsky, not linked from the Steam page or profile, but the source-level id settles it.)"
+  - "https://github.com/JohannesKolsky/FlavorText"
 maintainer:    current Codex task for this repository
 updated:      2026-09-28
 tested_on:    "2026-09-26, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, on the 1.2.0 tree (e283f89). Bare 18/18 (791 active FlavorDefs of 2095), with optionals 6/6 (1236), without Odyssey 3/3 (740). 1.2.1 changes ModIcon.png and the version number only, so the passes were not replayed. Reports in Tests/Pickle/results/2026-09-26-*; history in docs/runs/."
 workshop:     3806100152
 remaining:
+  - "note (2026-09-28): upstream_mod_remotes confirmed as hekmo's own source (default branch master-rebased): Source/HarmonyPatches.cs line 24 names the Harmony instance new Harmony(\"rimworld.hekmo.FlavorText\"), and the code matches the decompiled DLL (CompFlavor.GetMatchIndices) this file already describes. The commit author name is Nathan, login JohannesKolsky, not linked from the Steam page or hekmo's profile; the source-level id settled it. A chicken-egg categorization issue found there was filed as JohannesKolsky/FlavorText#1 (issue, not a PR: the repo has no Defs XML, and hekmo's own TODO says the fix mechanism, blacklist, does not remove the category)."
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
   - "open: the Steam page description is sent by the CI from PUBLICATION.md; the title, tags, preview and gallery are not. The gallery is the owner's."
   - "limits, not blockers: each Pickle pass passed once on the 1.2.0 tree; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
