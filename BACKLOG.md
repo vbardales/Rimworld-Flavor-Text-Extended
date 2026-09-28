@@ -40,23 +40,16 @@ and draws among the matches weighted by `10000 / (sum of the things each slot ac
   `GetBestFlavorDef` in an assembly of our own, which would make this XML-only mod an assembly one. Measure first how much of the gap the forms already close
   (in game on 1.2.0: 21, 4.3, 5.8 and 23 percent for one to four ingredients).
 
-## Description, CI and records
+## Records and model
 
-- **DONE 2026-09-26: send the Steam description by the CI.** Kept for the record: The Markdown source is in `PUBLICATION.md` (`## Steam description`, 1.2.0 text included). Missing: regenerate
-  `.github` with `--description-markdown PUBLICATION.md --description-heading '^## Steam description$' --about-from-description`, run
-  `node .github/scripts/sync-about-description.mjs --write`, and check the dry-run diff against the public page. Blocked on the CI/CD session pushing
-  its template (2026-09-26); its message will say when. `About.xml`'s description changes only in wording, so the Pickle requests already queued do not
-  need refiling.
 - **Record the reply to hekmo in the Workshop comments register** (`WORKSHOP_COMMENTS.md`, protocols repository), on the Flavor Text row, once the session
   that has that file modified has committed it.
-- **DONE 2026-09-26 (about eighty, plus the shorter forms): the description said "about forty of them can fire" on a vanilla-only save.** That figure predates the 1.1.0 review and the shorter forms. Recount with
-  `_tools/active.js` on a vanilla list and correct the page (by hand or through the new description source).
 - **Model limits** (`_tools/frequency.js`): cooking stations, hours of day, which recipe a ghost ingredient comes from, sister categories and this mod's own keyword
   patches are not modeled. Add them if a game measure and the model disagree by more than an order of magnitude.
 
 ## Housekeeping
 
-- Once 1.2.0 is published, update `Tests/Pickle/README.md`'s status line and `TESTING.md`, "What has run", to the three passes of 1.2.0, and prune the reports of
+- 1.2.0 is published: update `Tests/Pickle/README.md`'s status line and `TESTING.md`, "What has run", to the three passes of 1.2.0, and prune the reports of
   the passes they replace (`AGENTS.md`, "Test evidence").
 - `_tools/checkdefs.js` now reports one warning per pair of dishes that share the same slots (35 on 1.2.0, two before the shorter forms). They are variety, not
   conflict; if the count becomes noise, teach the check to skip pairs of forms that come from the same original.
