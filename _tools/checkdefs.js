@@ -48,14 +48,13 @@ const norm = s => s.toLowerCase()
 // Two levels: EXACTLY identical name = error (both dishes would display the same);
 // name identical once the placeholders are removed = mere warning, because
 // "bortsch" and "bortsch {2_plur}" display differently in game.
-// `exact` and `approx` hold the text shown in the message; `exactDe` and `approxDe`
-// hold the raw defName, to recognize a def that finds itself.
-const exact = new Map(), approx = new Map(), exactDe = new Map(), approxDe = new Map();
+// `exact` and `approx` hold the text shown in the message.
+const exact = new Map(), approx = new Map();
 const poser = (label, defName, mention, arity) => {
   const key = arity + '|' + label;
-  exact.set(key, mention); exactDe.set(key, defName);
-  const k = arity + '|' + norm(label);
-  if (k) { approx.set(k, mention); approxDe.set(k, defName); }
+  exact.set(key, mention);
+  const n = norm(label);
+  if (n) approx.set(arity + '|' + n, mention);
 };
 for (const d of require('./flavordefs.json')) poser(d.label, d.defName, d.defName, (d.slots || []).length);
 

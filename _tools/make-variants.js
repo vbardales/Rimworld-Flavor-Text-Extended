@@ -40,7 +40,7 @@ const MAP = '_tools/variants-map.json';
 
 function slotsOf(block) {
   const ing = block.match(/<ingredients>([\s\S]*?)<\/ingredients>/);
-  if (!ing) return { open: 0, close: 0, slots: [] };
+  if (!ing) return { start: -1, end: -1, slots: [] };
   const inner = ing[1];
   const start = block.indexOf(ing[0]) + '<ingredients>'.length;
   const slots = [];
@@ -63,17 +63,21 @@ function renumber(text, map) {
 
 function variant(block, keep, suffix, replace = {}) {
   const { start, end, slots } = slotsOf(block);
+  if (!slots.length) throw new Error(`${block.match(/<defName>([^<]*)/)[1]}${suffix}: the dish has no ingredient slot to keep`);
   const map = {};
   keep.forEach((old, i) => { map[old] = i; });
   const body = '\n\t\t\t' + keep.map(i => slots[i].trim()).join('\n\t\t\t') + '\n\t\t';
   let out = block.slice(0, start) + body + block.slice(end);
   out = out.replace(/<defName>([^<]*)<\/defName>/, (all, n) => `<defName>${n}${suffix}</defName>`);
   // A dropped slot the text cites is replaced by the plain word given for it; any other token is renumbered.
-  const fix = t => renumber(t.replace(/\{(\d+)_[a-z]+\}/g, (all, i) => (i in replace ? replace[i] : all)), map);
+  const fix = t => {
+    const replaced = t.replace(/\{(\d+)_[a-z]+\}/g, (all, i) => (i in replace ? replace[i] : all));
+    const dropped = [...replaced.matchAll(/\{(\d+)_/g)].map(m => +m[1]).filter(i => !(i in map));
+    if (dropped.length) throw new Error(`${block.match(/<defName>([^<]*)/)[1]}${suffix}: the text cites slot ${dropped.join(', ')}, which the form drops and no word replaces`);
+    return renumber(replaced, map);
+  };
   out = out.replace(/<label>([^<]*)<\/label>/, (all, t) => `<label>${fix(t)}</label>`);
   out = out.replace(/<description>([\s\S]*?)<\/description>/, (all, t) => `<description>${fix(t)}</description>`);
-  const left = [...out.matchAll(/\{(\d+)_/g)].map(m => +m[1]).filter(i => i >= keep.length);
-  if (left.length) throw new Error(`${block.match(/<defName>([^<]*)/)[1]}${suffix}: the text still cites a slot the form dropped (${left})`);
   return { xml: out, map };
 }
 

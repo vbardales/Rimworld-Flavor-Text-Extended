@@ -211,8 +211,8 @@ const MEAT = 'FT_MeatRaw', ANIMAL = 'FT_AnimalProductRaw', PLANT = 'FT_PlantFood
 const NORMAL = [MEAT, ANIMAL, PLANT];
 const slotDiet = slot => {
   const out = new Set();
-  let flag = false;
   for (const c of slot) {
+    let flag = false;                       // per category, as in the engine
     for (const n of NORMAL) {
       if (T.desc(n).has(c) || T.desc(c).has(n)) { flag = true; out.add(n); }
     }
