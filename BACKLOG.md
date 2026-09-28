@@ -26,7 +26,7 @@ and draws among the matches weighted by `10000 / (sum of the things each slot ac
 - **Suggest to hekmo** an optional-slot mechanism in Flavor Text (a slot that may be absent) instead of shorter forms. Nothing goes to another mod's page
   without the owner's word, and it is her decision whether to raise it.
 
-- **Chicken eggs count as poultry meat in Flavor Text.** Its keyword filing puts `EggChickenUnfertilized` under `FT_Meat_Poultry` as well as `FT_Egg`
+- **DONE 2026-09-28: filed as [JohannesKolsky/FlavorText#1](https://github.com/JohannesKolsky/FlavorText/issues/1), with the owner's word.** Chicken eggs count as poultry meat in Flavor Text. Its keyword filing puts `EggChickenUnfertilized` under `FT_Meat_Poultry` as well as `FT_Egg`
   (the defName holds "chicken"), so a meal with one is an omnivore meal and the dishes that only allow a vegetarian diet (our meat-free dishes with an
   egg) never name it. Found with `_tools/frequency.js`; only worth raising with hekmo with the owner's word.
 
