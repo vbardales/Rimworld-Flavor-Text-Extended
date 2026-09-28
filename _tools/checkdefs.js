@@ -50,13 +50,13 @@ const norm = s => s.toLowerCase()
 // "bortsch" and "bortsch {2_plur}" display differently in game.
 // `exact` and `approx` hold the text shown in the message.
 const exact = new Map(), approx = new Map();
-const poser = (label, defName, mention, arity) => {
+const poser = (label, mention, arity) => {
   const key = arity + '|' + label;
   exact.set(key, mention);
   const n = norm(label);
   if (n) approx.set(arity + '|' + n, mention);
 };
-for (const d of require('./flavordefs.json')) poser(d.label, d.defName, d.defName, (d.slots || []).length);
+for (const d of require('./flavordefs.json')) poser(d.label, d.defName, (d.slots || []).length);
 
 // The FRENCH labels, which are checked against each other and separately.
 //
@@ -139,7 +139,7 @@ for (const f of fs.readdirSync(DIR).filter(x => x.endsWith('.xml'))) {
     }
     // We add the def to the table on the way: without this, two of OUR dishes bearing the
     // same English name did not see each other -- only hekmo's were compared.
-    if (label) poser(label, dn, dn, slots.length);
+    if (label) poser(label, dn, slots.length);
     for (const [texte, quoi] of [[label, 'label'], [desc, 'description']]) {
       for (const p of texte.matchAll(/\{(\d+)_([a-z]+)\}/g)) {
         if (Number(p[1]) >= slots.length) {

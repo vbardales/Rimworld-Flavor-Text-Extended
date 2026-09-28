@@ -37,6 +37,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const D = require('./thingdefs.js');
 
 const args = process.argv.slice(2);
 const FT = args.find(a => !a.startsWith('--'));
@@ -52,117 +53,20 @@ const TRIPLES = args.includes('--triples');
 const GAPS = +opt('gaps', 40);
 const GHOST = +opt('ghost', 0);
 
-const RW = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld';
-const WS = 'C:/Program Files (x86)/Steam/steamapps/workshop/content/294100';
-const CFG = process.env.LOCALAPPDATA.replace(/Local$/, 'LocalLow') +
-  '/Ludeon Studios/RimWorld by Ludeon Studios/Config/ModsConfig.xml';
 const T = require('./tree.js').load(FT);
 
-const un = (b, t) => { const m = b.match(new RegExp('<' + t + '>([^<]*)</' + t + '>')); return m ? m[1].trim() : undefined; };
-function walk(dir, out = []) {
-  let ents; try { ents = fs.readdirSync(dir, { withFileTypes: true }); } catch { return out; }
-  for (const e of ents) {
-    const p = path.join(dir, e.name);
-    if (e.isDirectory()) { if (!/^(Textures|Sounds|Assemblies|Source|About|Languages|\.git|_tools)$/i.test(e.name)) walk(p, out); }
-    else if (e.name.endsWith('.xml')) out.push(p);
-  }
-  return out;
-}
-const estDossier = p => { try { return fs.statSync(p).isDirectory(); } catch { return false; } };
-
-// 1. the mods whose ThingDefs feed the pool
-const wanted = VANILLA
-  ? new Set(['ludeon.rimworld', 'ludeon.rimworld.royalty', 'ludeon.rimworld.ideology', 'ludeon.rimworld.biotech', 'ludeon.rimworld.anomaly', 'ludeon.rimworld.odyssey'])
-  : new Set(([...((fs.readFileSync(CFG, 'utf8').match(/<activeMods>[\s\S]*?<\/activeMods>/) || [''])[0]).matchAll(/<li>([^<]+)<\/li>/g)]).map(m => m[1].trim().toLowerCase()));
-const byPid = new Map();
-for (const root of [path.join(RW, 'Data'), path.join(RW, 'Mods'), WS]) {
-  let names; try { names = fs.readdirSync(root); } catch { continue; }
-  for (const n of names) {
-    const dir = path.join(root, n);
-    if (!estDossier(dir)) continue;
-    let pid; try { pid = un(fs.readFileSync(path.join(dir, 'About', 'About.xml'), 'utf8'), 'packageId'); } catch { continue; }
-    if (!pid) continue;
-    pid = pid.toLowerCase();
-    if (wanted.has(pid) && !byPid.has(pid)) byPid.set(pid, dir);
-  }
-}
-
-// 2. ThingDefs with inheritance (same reading as active.js)
-const byName = {}, blocs = [];
-for (const dir of byPid.values()) {
-  for (const f of walk(dir)) {
-    let xml; try { xml = fs.readFileSync(f, 'utf8'); } catch { continue; }
-    if (!xml.includes('<ThingDef')) continue;
-    for (const m of xml.matchAll(/<ThingDef\b([^>]*)>([\s\S]*?)<\/ThingDef>/g)) {
-      const attrs = m[1], body = m[2];
-      const nom = (attrs.match(/\bName\s*=\s*"([^"]*)"/) || [])[1];
-      const bloc = {
-        parent: (attrs.match(/\bParentName\s*=\s*"([^"]*)"/) || [])[1],
-        defName: un(body, 'defName'), label: un(body, 'label'), estRace: /<race>/.test(body),
-        useMeatFrom: un(body, 'useMeatFrom'), meatLabel: un(body, 'meatLabel'), fleshType: un(body, 'fleshType'),
-        cats: (body.match(/<thingCategories>[\s\S]*?<\/thingCategories>/) || [])[0],
-      };
-      if (nom) byName[nom] = bloc;
-      blocs.push(bloc);
-    }
-  }
-}
-function herite(bloc, champ) {
-  const vus = new Set();
-  for (let b = bloc; b; b = byName[b.parent]) {
-    if (b[champ] !== undefined) return b[champ];
-    if (!b.parent || vus.has(b.parent)) break;
-    vus.add(b.parent);
-  }
-  return undefined;
-}
-const MANGEABLE = /PlantFoodRaw|MeatRaw|AnimalProductRaw|EggsFertilized|EggsUnfertilized|Foods|Fish|PlantMatter/;
-const SANS_VIANDE = new Set(['Mechanoid', 'Drone', 'EntityMechanical', 'EntityFlesh', 'Fleshbeast']);
-const meals = new Map(), ingredients = new Map();
-for (const b of blocs) {
-  if (!b.defName) continue;
-  const lab = b.label || herite(b, 'label');
-  if (!lab) continue;
-  if (b.estRace) {
-    if (herite(b, 'useMeatFrom') || SANS_VIANDE.has(herite(b, 'fleshType'))) continue;
-    ingredients.set('Meat_' + b.defName, herite(b, 'meatLabel') || lab + ' meat');
-    continue;
-  }
-  const cats = herite(b, 'cats') || '';
-  if (/FoodMeals/.test(cats) || b.defName === 'BabyFood') { meals.set(b.defName, lab); continue; }
-  if (!MANGEABLE.test(cats)) continue;
-  ingredients.set(b.defName, lab);
-}
+// 1. the mods whose ThingDefs feed the pool; 2. ThingDefs with inheritance;
+// both shared with _tools/active.js through _tools/thingdefs.js.
+const { byPid } = D.findModFolders(VANILLA);
+const thingDefs = D.readThingDefs([...byPid.values()]);
+const { meals, ingredients } = D.classify(thingDefs);
 
 // 3. filing into Flavor Text's categories (keyword score, as in active.js)
-const names = (dn, lab) => dn.replace(/[_-]/g, ' ').replace(/(?<=[a-zA-Z])([A-Z][a-z]+)/g, ' $1').replace(/(?<=[a-z])([A-Z]+)/g, ' $1').toLowerCase() + ' ' + (lab || '').replace(/-/g, ' ');
-function score(label, kws) {
-  const l = ' ' + label.toLowerCase() + ' ';
-  const toks = label.toLowerCase().split(/[^a-z]+/).filter(Boolean);
-  let s = 0;
-  for (const k of kws) {
-    if (k.includes(' ')) { if (l.includes(k)) s += 6; continue; }
-    for (const t of toks) { if (t.includes(k)) s++; if (t.startsWith(k) || t.endsWith(k)) s++; if (t === k) s++; }
-  }
-  return s;
-}
-const cats = T.all.map(c => ({
-  name: c, kw: (T.info[c].keywords || []).map(k => k.toLowerCase()),
-  bl: (T.info[c].blacklist || []).map(k => k.toLowerCase()), absorb: new Set(T.info[c].absorb || []),
-}));
+const cats = D.categoryIndex(T);
 // every category a thing is in: the ones it is filed under, and all their ancestors
 function memberships(dn, lab) {
   const out = new Set();
-  const nom = names(dn, lab);
-  for (const c of cats) {
-    let hit = c.absorb.has(dn);
-    if (!hit && c.kw.length) {
-      let s = score(nom, c.kw);
-      if (s >= 3) for (const b of c.bl) s -= 2 * score(nom, [b]);
-      hit = s >= 3;
-    }
-    if (hit) for (const a of T.anc(c.name)) out.add(a);
-  }
+  for (const name of D.filedDirectly(cats, dn, lab)) for (const a of T.anc(name)) out.add(a);
   return out;
 }
 const ingList = [...ingredients].map(([dn, lab]) => ({ dn, cats: memberships(dn, lab) })).filter(i => i.cats.size > 0);
@@ -185,7 +89,7 @@ function readDefs(files, source) {
   for (const f of files) {
     const xml = fs.readFileSync(f, 'utf8');
     for (const b of xml.match(/<FlavorText\.FlavorDef[\s\S]*?<\/FlavorText\.FlavorDef>/g) || []) {
-      const dn = un(b, 'defName'); if (!dn) continue;
+      const dn = D.readTag(b, 'defName'); if (!dn) continue;
       const ing = (b.match(/<ingredients>[\s\S]*?<\/ingredients>/) || [''])[0];
       const slots = [...ing.matchAll(/<categories>([\s\S]*?)<\/categories>/g)].map(m => [...m[1].matchAll(/<li>([^<]+)<\/li>/g)].map(x => x[1].trim()));
       const mk = (b.match(/<mealKinds>[\s\S]*?<\/mealKinds>/) || [''])[0];

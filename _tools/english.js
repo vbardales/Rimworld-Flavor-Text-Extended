@@ -41,7 +41,8 @@ let nb = 0;
 for (const f in parFichier) {
   let xml = fs.readFileSync(path.join('./Mod/Defs', f), 'utf8');
   for (const { dn, lab, des } of parFichier[f]) {
-    const bloc = new RegExp('(<defName>' + dn + '</defName>[\\s\\S]*?)</FlavorText\\.FlavorDef>');
+    const dnEsc = dn.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const bloc = new RegExp('(<defName>' + dnEsc + '</defName>[\\s\\S]*?)</FlavorText\\.FlavorDef>');
     const m = xml.match(bloc);
     if (!m) { erreurs.push(`${dn}: block not found in ${f}`); continue; }
     const frLab = (m[1].match(/<label>([\s\S]*?)<\/label>/) || [])[1];
