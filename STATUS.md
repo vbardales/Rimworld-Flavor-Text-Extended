@@ -17,6 +17,8 @@ automated_tests: passed
 xml_tests: passed
 licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
+upstream_mod_remotes:
+  - "https://github.com/JohannesKolsky/FlavorText (found 2026-09-28, default branch master-rebased. Confirmed as hekmo's own source: Source/HarmonyPatches.cs line 24 names the Harmony instance new Harmony(\"rimworld.hekmo.FlavorText\"), and the code matches the decompiled DLL this mod's STATUS.md already describes (CompFlavor.GetMatchIndices). Commit author name is Nathan, login JohannesKolsky, not linked from the Steam page or profile, but the source-level id settles it.)"
 maintainer:    current Codex task for this repository
 updated:      2026-09-28
 tested_on:    "2026-09-26, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, on the 1.2.0 tree (e283f89). Bare 18/18 (791 active FlavorDefs of 2095), with optionals 6/6 (1236), without Odyssey 3/3 (740). 1.2.1 changes ModIcon.png and the version number only, so the passes were not replayed. Reports in Tests/Pickle/results/2026-09-26-*; history in docs/runs/."
