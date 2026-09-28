@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased]
+
+- Replace the mod icon: the published one was a 64 x 64 image enlarged to 128 x 128 and looked pixelated in the mod list. The new one is the
+  ribbon-less mascot with its bowl, drawn at 1254 x 1254 and reduced to 128 x 128, so it stays sharp. It no longer carries the name on a ribbon.
+
 ## [1.2.0] - 2026-09-26
 
 Meals of one or two ingredients can now be named by this mod too. Flavor Text cuts a meal's ingredients into chunks of
