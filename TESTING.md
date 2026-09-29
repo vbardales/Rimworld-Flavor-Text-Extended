@@ -328,8 +328,9 @@ Root `AGENTS.md`, "Test evidence", governs. In short, for this mod:
   (`06-workshop-captures.feature`). Copying Pickle's shared report folder drags in every other
   mod's screenshots: strip them from the copy, they prove nothing about this mod.
 - **History is one text line per run in `docs/runs/`, never a folder.** Pruning a run adds its line
-  there (`docs/runs/2026-09-21-pruned-runs.md`); a run kept as a folder gets a short summary file
-  (`docs/runs/2026-09-22-f13-fixture-generation.md`).
+  there; a run kept as a folder gets a short summary file (`docs/runs/2026-09-26-frequency.md` is the
+  current example). Once a `docs/runs/` file's own runs are all superseded and no live field cites it,
+  it is removed in turn -- the full text stays in git.
 - **Never delete a report a `STATUS.md` field still points to:** repoint the field first.
 - **Before deleting, list what goes and what stays.** The disk fills up: a Pickle run can reach a
   gigabyte.
@@ -434,52 +435,16 @@ The directory names carry the label of the request (b14150e), which was still qu
 `08-frequency`: 21.0 % for one ingredient, 4.3 % for two, 5.8 % for three, 23.0 % for four, against 0.0 %, 0.8 % and 2.3 % for two, three and four
 on the published 1.1.0 (`2026-09-26-frequency-b/`); see `docs/runs/2026-09-26-frequency.md`.
 
-### What ran on the 1.1.0 revision (history)
+### Earlier revisions (history)
 
-The four passes of 2026-09-23 and 24 were 11 of 11, 3 of 3, 6 of 6 and 3 of 3 (696, 653, 1072 and 696 active of 1831); their reports were pruned on
-2026-09-26, replaced by the ones above, and each has a line in `docs/runs/`.
-
-### What ran on the v1.0.0 build (history)
-
-The reports below were pruned on 2026-09-24 once the runs above replaced them (root `AGENTS.md`, "Test evidence"); the
-numbers stay as history and each pruned run has a line in `docs/runs/`.
-
-
-Three passes ran on 2026-09-21, queued on tickets, headless in the WSL game. Reports and logs are kept under
-`Tests/Pickle/results/`. Read `exitReason` first: all three ended, none was cut.
-
-| Pass | Result | Where |
-|---|---|---|
-| without-optionals (`01`, `03`, `04`, with T7 then tagged `@wip` and skipped) | **10 passed, 0 failed, 1 skipped, `exitReason: passed`**. 01 also ran alone earlier, 5/5. | `2026-09-21-without-optionals-full/` (pruned 2026-09-24, replaced by `2026-09-24-without-optionals/`) |
-| without-odyssey (`05`) | **3 of 3, `exitReason: passed`** | `2026-09-21-without-odyssey/` |
-| without-odyssey (`05`), rerun with PickleTools ExpansionSteps | **3 of 3, `exitReason: passed`**. Odyssey inactive and Ideology active were asserted by the shared steps. | `2026-09-22-without-odyssey-pickletools/` (pruned 2026-09-24, replaced by `2026-09-23-without-odyssey/`) |
-| T7 alone (then tagged `@wip`, `-IncludeWip`, `-Filter '::four ingredients become two dishes'`) | **1 of 1, 6 steps of 6, `exitReason: passed`**, zero `[ERROR]` in the log. A meal from rice, pork, egg and potato carried two dishes at once, at least once in 50 cooks. The tag was removed after this evidence. | `2026-09-21-t7-wip/` (pruned 2026-09-24, replaced by `2026-09-24-without-optionals/`) |
-| with-optionals (`02`), first run | 5 passed, 1 failed, `exitReason: failed`: a wrong assertion of mine, see below | `2026-09-21-with-optionals/` |
-| with-optionals (`02`), rerun after the fix | **6 of 6, 23 of 23 steps, `exitReason: passed`**. Flavor Text read `1025 active FlavorDefs ... out of 1831`. One `[ERROR]` in the log, a Unity/FMOD audio error naming no def, present in this pass and absent from the two without providers, so it comes from one of them and not from this mod. | `2026-09-21-with-optionals-rerun/` (pruned 2026-09-24, replaced by `2026-09-24-with-optionals/`) |
-
-What they show, and what they do not:
-- **T2 is answered.** The game kept Odyssey out (asked twice: `ModsConfig.IsActive` and the mod list; this was the open
-  question of the staging), the mod loaded, and the log holds **no `[ERROR]` line at all**. That last fact comes from
-  reading the log, not from a step: see the next point.
-- **`no errors were logged` does not see the load.** Pickle counts errors logged while a scenario runs; the avec log holds
-  a Unity `[ERROR]` at load time that the passing scenario after it never saw, and Pickle says so itself ("errors were
-  logged outside any scenario and failed nothing"). So a green `no errors were logged` here proves quiet during the
-  scenario, and the load-time quiet of T1, T2 and T3 rests on reading each `Player.log`, which was done: bare and Odyssey
-  passes, zero `[ERROR]`; avec pass, one Unity/FMOD audio error naming no def and none of ours.
-- **T5, T6, T12 passed.** A meal cooked from an egg was named `FlavorTextFR_OeufMollet` and labelled "medium-boiled";
-  rice, pork and egg gave `FlavorTextFR_Katsudon`; six meals kept their names across a save and reload. Every name the
-  scenarios assumed (`FueledStove`, `CookMealSimple`, the rice, pork and egg) exists. What they leave out is unchanged:
-  no cook walked, no tick passed.
-- The test companion's `downloadUrl` did silence the `[Vanilla]` warning about its dependency: none in the three new logs.
-- **T9 passed:** each of the six reptile meats is in its own category and in none of another reptile's.
-- **T10 passed:** the eight provider ingredients are filed where the patches send them.
-- **T8 found a wrong assumption, in my scenario and in the README/About wording.** `VV_Leeks` is filed under `FT_Onion`
-  as well as `FT_Leek`: hekmo's own onion category lists "leek" as a keyword and absorbs `VV_Leeks` by name. The mod gives
-  leek a category of its own; it does not take it out of onion. The scenario now asserts what is true, and the README and
-  About description no longer say the leek was "split out of" onion. The rerun passed.
-- **Not proved:** the dish names drawn are asserted to appear at least once in 300 cooks, never on every cook;
-  T7 was skipped in that one aggregate run but passed alone afterwards; Workshop screenshots still need a
-  capture run and human review; the French text is the companion's.
+The passes of 2026-09-21 through 24 (the v1.0.0 build, then the 1.1.0 FlavorDef narrowness revision) all
+passed, on 641 to 1072 active FlavorDefs of 1831 depending on the pass. Two findings from that period are
+still true and worth keeping in mind: `VV_Leeks` is filed under `FT_Onion` as well as `FT_Leek` (hekmo's own
+onion category lists "leek" as a keyword and absorbs `VV_Leeks` by name -- the mod gives leek a category of
+its own, it does not take it out of onion), and Pickle's `no errors were logged` only counts errors logged
+while a scenario runs, not at load time -- load-time quiet needs reading `Player.log` directly. Their reports
+were pruned once the 2026-09-26 passes replaced them (root `AGENTS.md`, "Test evidence"); the full run-by-run
+text is in git history of this file.
 
 ## Where the reptile meats come from
 
