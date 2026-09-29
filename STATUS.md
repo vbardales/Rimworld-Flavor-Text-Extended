@@ -87,6 +87,6 @@ Run URLs: `https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/ru
 ## Files
 
 - `CHANGELOG.md`, `README.md`, `ATTRIBUTION.md`, `PUBLICATION.md` (Steam text and release notes), `TESTING.md` (test plan T1-T14 and what has run), `BACKLOG.md`.
-- `docs/runs/`: one line per run and per status entry. `docs/runs/2026-09-status-history.md` holds the condensed history of this file; the full former text is in git (`git show 4eb5a48:STATUS.md`).
+- `docs/runs/`: one line per run and per status entry. The full former text of this file is in git (`git show 4eb5a48:STATUS.md`), so no separate history file is kept here.
 - `docs/PROTOCOLS-READ.md`: protocol documents read by the session, with versions.
 - `Tests/Pickle/`: feature files, step assembly, `results/` (only reports a field of this file or a run note still points to).
