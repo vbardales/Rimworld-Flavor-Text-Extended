@@ -42,14 +42,24 @@ Decided from the sources, not from intent.
 
 ## Captures for the Workshop page
 
-`Mod/About/Preview.png` is the existing Workshop header and `Mod/About/ModIcon.png` is the in-game list icon; neither is
-a gallery capture. The three approved gallery captures are present in `Art/Workshop-captures/` as 1000x810 PNGs, each the capture cropped tight around the card window (regenerated and approved on 2026-09-24),
-each below Steam's 2 MB limit. They were uploaded in this order:
+`Mod/About/Preview.png` is the Workshop header and `Mod/About/ModIcon.png` is the in-game list icon. Since 2026-09-29,
+`Preview.png` carries `ModIcon.png` as a rotated badge in its emptiest corner (bottom-left, +15°, 140px, centered 60px
+inside the corner so it just touches the edge without bleeding off it). The badge is cut out of its black square
+background first (`Art/ModIcon-cutout.png`, flood fill from the four borders — `ModIcon.png` itself is untouched, it
+still has the square background as the in-game list icon needs it). `Art/Workshop-captures/00-preview.png` is a
+copy of that badged `Preview.png`, standing as image 0 of the
+gallery order. The three other approved gallery captures are present in `Art/Workshop-captures/` as 1000x810 PNGs, each
+the capture cropped tight around the card window (regenerated and approved on 2026-09-24), each below Steam's 2 MB limit.
+Display order:
 
+0. `00-preview.png` — the badged header, so the gallery opens on the same image as the store page;
 1. `01-katsudon.png` — info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension
    names an ordinary meal after a specific dish;
 2. `02-two-dishes-at-once.png` — info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
 3. `03-medium-boiled-egg.png` — info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
+
+`00-preview.png` was not part of the 2026-09-22 upload; the other three were, in the order above minus image 0. Upload it
+alongside them at the next Workshop gallery update.
 
 The corresponding uncompressed 1920x1080 capture files are retained in `Art/Workshop-captures/source/`; they are source
 archives, not upload candidates.
