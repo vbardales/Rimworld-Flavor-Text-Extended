@@ -313,31 +313,38 @@ this extension adds neither settings nor a shortcut.
 
 ### Evidence to keep
 
-Root `AGENTS.md`, "Test evidence", governs. In short, for this mod:
+Root `AGENTS.md`, "Test evidence", governs. For this mod, state of 2026-10-02:
 
-- **Per scenario, keep the latest report for the revision now in the repository.** A report about a
-  superseded build proves nothing about the current one: delete it as soon as a newer run replaces
-  it. Keep an older report only when it is the sole proof of a check the latest run did not repeat
-  (none today: T7's dedicated run was replaced when T7 joined the `without-optionals` pass).
-- **What a kept report holds:** `summary.md`, `summary.json`, `junit.xml`, `Player.log` and
-  `messages.ndjson`, a few kilobytes in all. `report.html` is optional. These sit in
-  `Tests/Pickle/results/<date>-<pass>/`; the text files of the older runs are tracked, a run with
-  captures is not.
-- **Screenshots and films stay on disk, ignored by git** (`*.dds`, `*.webm`, `screenshots/`,
-  `report.html` are in `.gitignore`), and only for scenarios that actually take captures here
-  (`06-workshop-captures.feature`). Copying Pickle's shared report folder drags in every other
-  mod's screenshots: strip them from the copy, they prove nothing about this mod.
-- **History is one text line per run in `docs/runs/`, never a folder.** Pruning a run adds its line
-  there; a run kept as a folder gets a short summary file (`docs/runs/2026-09-26-frequency.md` is the
-  current example). Once a `docs/runs/` file's own runs are all superseded and no live field cites it,
-  it is removed in turn -- the full text stays in git.
+- **Evidence lives on disk, never in git.** `Tests/Pickle/results/` is ignored whole (`.gitignore`), like `Tests/Pickle/Evidence/`,
+  `evidence/`, `*.dds` and `*.webm`. What git holds of a run is its one text line in `docs/runs/`.
+- **Per scenario, keep the latest report for the revision now in the repository.** A report about a superseded build proves nothing
+  about the current one: delete it as soon as a newer run replaces it. Keep an older report only when it is the sole proof of a check
+  the latest run did not repeat.
+- **Proofs to keep** (what is on disk today, each run minified to `summary.md`, `summary.json`, `junit.xml`, `evidence-complete.txt`
+  and, where load-time quiet is the claim, `Player.log`; `report.html`, `messages.ndjson` and screenshots are dropped, they prove nothing more):
+
+  | Folder | Why it is kept |
+  |---|---|
+  | `2026-09-26-bare-b14150e/` | latest `01`, `03`, `04`, `08` on the 1.2.0 tree; `Player.log` proves a quiet load |
+  | `2026-09-26-with-optionals-b14150e/` | latest `02` |
+  | `2026-09-26-without-odyssey-b14150e/` | latest `05` |
+  | `2026-09-26-frequency-b/` | sole proof of the 1.1.0 baseline (0.0 / 0.8 / 2.3 percent); no `Player.log`, the figures are in `summary` and `junit` |
+  | `2026-09-23-workshop-captures/` | sole proof that `06` ran with its `@requires` tools; the three captures are the cropped files in `Art/Workshop-captures/`, opened and read on 2026-10-02 |
+
+  A new run of a scenario replaces its row; a run of 1.2.1 or later deletes the folders it supersedes once its own line is in `docs/runs/`.
+- **Screenshots and films** are produced only by `06-workshop-captures.feature`. Copying Pickle's shared report folder drags in every
+  other mod's screenshots: strip them from the copy, they prove nothing about this mod.
+- **History is one text line per run in `docs/runs/`, never a folder.** A run kept as a folder gets a short summary file
+  (`docs/runs/2026-09-26-frequency.md`). Once a `docs/runs/` file's own runs are all superseded and no live field cites it, it is
+  removed in turn: the full text stays in git.
 - **Never delete a report a `STATUS.md` field still points to:** repoint the field first.
-- **Before deleting, list what goes and what stays.** The disk fills up: a Pickle run can reach a
-  gigabyte.
+- **Before deleting, list what goes and what stays.** The disk fills up: a Pickle run can reach a gigabyte.
 
-Conditions to move this mod to `tested`: no scenario left `@wip` (none is: `07-f13-fixture.feature` is tagged `@fixture`: it
-produces an input for the French companion instead of testing, and belongs to no pass), every conditional scenario
-(`@requires`, `@review`) has run, no manual test left to validate, all green.
+Conditions to move this mod to `tested` (AUDIT.md, `done -> tested`): no scenario left `@wip` (none is: `07-f13-fixture.feature` is tagged `@fixture`: it
+produces an input for the French companion instead of testing, and belongs to no pass); every conditional scenario has run (`@requires`:
+only `06`, with ScreenshotMode and ScreenshotStudio, run 2026-09-23, report read; `@review`: its three captures opened and read);
+no manual test left to validate (none exists: the Pickle suite replaced the manual plan, and the only human act is the gallery order, which is the
+owner's); all green on the revision in the repository.
 
 ## Pickle passes
 

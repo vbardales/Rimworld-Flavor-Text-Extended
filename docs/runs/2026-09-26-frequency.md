@@ -5,9 +5,11 @@
 - 2026-09-26 with optionals on the 1.2.0 tree (`02`, request 486d, same tree as 9c16): **6 scenarios, 6 passed, 0 failed, 0 skipped, `exitReason: passed`**, 1236 active FlavorDefs of 2095. One `[ERROR]` line in `Player.log`, the Unity FMOD audio error (`Cannot create FMOD::Sound instance for clip ""`) that names no def and no mod, already seen in this pass on 2026-09-21 and 2026-09-24; nothing names this mod. `Tests/Pickle/results/2026-09-26-with-optionals-b14150e/` (summary, junit, messages.ndjson, Player.log; report.html dropped).
 - 2026-09-26 without Odyssey on the 1.2.0 tree (`05`, request 944d, same tree as 9c16): **3 scenarios, 3 passed, 0 failed, 0 skipped, `exitReason: passed`**, 740 active FlavorDefs of 2095, 0 `[ERROR]` line. `Tests/Pickle/results/2026-09-26-without-odyssey-b14150e/` (summary, junit, messages.ndjson, Player.log; report.html dropped).
 
-## Pruned on 2026-09-26 (replaced by the three passes above; text on disk only, this line is the record)
+## Trimmed on 2026-10-02
 
-- 2026-09-24 without-optionals (`01`, `03`, `04`): 11 of 11 on the 1.1.0 revision, 696 active of 1831. Replaced by 2026-09-26-bare-b14150e.
-- 2026-09-24 with-optionals (`02`): 6 of 6 on 1.1.0, 1072 active of 1831. Replaced by 2026-09-26-with-optionals-b14150e.
-- 2026-09-23 without-odyssey (`05`): 3 of 3 on 1.1.0, 653 active of 1831. Replaced by 2026-09-26-without-odyssey-b14150e.
-- Kept: `2026-09-26-frequency-b` (the 1.1.0 baseline of the frequency measure, the only proof of the 0.0 / 0.8 / 2.3 percent figures), `2026-09-23-workshop-captures` (the gallery captures, whose dishes did not change), `f13-fixture-generation-2026-09-22`.
+The three lines about the 2026-09-23/24 runs (1.1.0 revision, replaced by the 1.2.0 passes above) are dropped: git log of this file has them.
+What still proves something about the current `Mod/` is the five folders listed in `TESTING.md`, "Proofs to keep", and nothing in this file about the 1.1.0 era
+except the frequency baseline.
+
+- 2026-10-02 evidence minified, no run: `Tests/Pickle/results/` is now ignored whole and no longer in git (`git rm --cached`); `report.html`, `messages.ndjson`, the 2.7 MB screenshots of `2026-09-23-workshop-captures` and the `Player.log` of `2026-09-26-frequency-b` were deleted from disk (22 MB to 0.6 MB). The three cropped captures stay in `Art/Workshop-captures/`.
+- 2026-10-02 upstream: `upstream_mod_remotes` (JohannesKolsky/FlavorText, hekmo's source, default branch master-rebased) confirmed 2026-09-28 by `Source/HarmonyPatches.cs` line 24 (Harmony id `rimworld.hekmo.FlavorText`), matching the decompiled DLL; the commit author is Nathan, login JohannesKolsky, not linked from the Steam page. The chicken-egg categorization finding went out as issue JohannesKolsky/FlavorText#1 with the owner's word, an issue and not a PR because the repo has no Defs XML and hekmo's own TODO says the blacklist does not remove the category.

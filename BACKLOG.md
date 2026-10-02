@@ -40,6 +40,10 @@ and draws among the matches weighted by `10000 / (sum of the things each slot ac
   `GetBestFlavorDef` in an assembly of our own, which would make this XML-only mod an assembly one. Measure first how much of the gap the forms already close
   (in game on 1.2.0: 21, 4.3, 5.8 and 23 percent for one to four ingredients).
 
+## Upstream (PUBLISHING.md rule of 2026-09-28: a PR to the origin repository is systematic once one exists)
+
+- **Pull request to hekmo's repository (`JohannesKolsky/FlavorText`): no code to propose today, owner to confirm.** This mod is not a port of her code: it is an XML-only extension whose 901 dishes belong here, and her repository has no Defs XML to patch. What is hers to fix went out as issue #1 (chicken egg filed under poultry). Two candidates would be PRs if the owner wants them, both outward-facing and so only with her word: an optional-slot field on `IngredientSlot` (see "An optional part in a dish" above), and a patch for the egg filing. Until she decides, this line stays open.
+
 ## Records and model
 
 - **Record the reply to hekmo in the Workshop comments register** (`WORKSHOP_COMMENTS.md`, protocols repository), on the Flavor Text row, once the session

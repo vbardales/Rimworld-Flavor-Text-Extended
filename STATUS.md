@@ -6,6 +6,7 @@ remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
 stage:        published
+workflow_stage: published
 stage_meaning: public Workshop publication established. Latest release v1.2.1 (2026-09-28, the sharper mod icon), uploaded by the CI workflow and verified on the public page; earlier releases v1.0.0, v1.1.0, v1.2.0 the same way
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
@@ -20,17 +21,17 @@ licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 upstream_mod_remotes:
   - "https://github.com/JohannesKolsky/FlavorText"
 maintainer:    current Codex task for this repository
-updated:      2026-09-28
-tested_on:    "2026-09-26, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, on the 1.2.0 tree (e283f89). Bare 18/18 (791 active FlavorDefs of 2095), with optionals 6/6 (1236), without Odyssey 3/3 (740). 1.2.1 changes ModIcon.png and the version number only, so the passes were not replayed. Reports in Tests/Pickle/results/2026-09-26-*; history in docs/runs/."
+updated:      2026-10-02
+tested_on:    "2026-09-26, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, on the 1.2.0 tree (e283f89). Bare 18/18 (791 active FlavorDefs of 2095), with optionals 6/6 (1236), without Odyssey 3/3 (740). 1.2.1 changes ModIcon.png and the version number only, so the passes were not replayed. Reports in Tests/Pickle/results/2026-09-26-*; history in docs/runs/. Evidence minified 2026-10-02 (TESTING.md, \"Proofs to keep\"); the passes were not replayed."
 workshop:     3806100152
 remaining:
-  - "note (2026-09-28): upstream_mod_remotes confirmed as hekmo's own source (default branch master-rebased): Source/HarmonyPatches.cs line 24 names the Harmony instance new Harmony(\"rimworld.hekmo.FlavorText\"), and the code matches the decompiled DLL (CompFlavor.GetMatchIndices) this file already describes. The commit author name is Nathan, login JohannesKolsky, not linked from the Steam page or hekmo's profile; the source-level id settled it. A chicken-egg categorization issue found there was filed as JohannesKolsky/FlavorText#1 (issue, not a PR: the repo has no Defs XML, and hekmo's own TODO says the fix mechanism, blacklist, does not remove the category)."
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
   - "open: the Steam page description is sent by the CI from PUBLICATION.md; the title, tags, preview and gallery are not. The gallery is the owner's."
+  - "open: PR to the origin repository (PUBLISHING.md rule of 2026-09-28) has no code to carry; the owner decides whether to propose the optional-slot idea or the egg filing to hekmo. BACKLOG.md, Upstream."
+  - "unverified: WSL cleanup (AUDIT.md, 2026-10-02): once the last Pickle ticket of this mod is played, remove from the WSL install the four providers staged for the with-optionals pass (VV New Harvest 3448458106, RimLife Cultivation Plus 3614595617, Processor Framework 3210544395, RimLife Expansion Trading 2951594887), except any a wsl-deps map of another mod still names, under the machine lock and never during another run. Not done: the lock was held by another mod on 2026-10-02."
   - "limits, not blockers: each Pickle pass passed once on the 1.2.0 tree; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
-  - "untracked, never commit into Mod/: Art/*.ico and the desktop.ini files."
-  - "note: Pickle's no-errors step counts errors while a scenario runs, not at load. Load-time quiet was read from each Player.log."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
+  - "note: desktop.ini and *.ico are local only and gitignored since 2026-10-02 (the two Art .ico files left git, files kept on disk); Mod/desktop.ini must never be committed."
 ---
 
 # Flavor Text Extended - status
@@ -77,6 +78,16 @@ Source: `docs/runs/2026-09-26-frequency.md`. Ideas to raise the three-ingredient
 | 1.0.0 | 2026-09-22 | 5ba5fe7 | by hand, before the CI | by hand |
 
 Run URLs: `https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/runs/<id>`. Public page checked after each CI publish (item id, title, `time_updated`, file size, change notes entry).
+
+## Audit of 2026-10-02
+
+Audited against `AUDIT.md` (d1fdbe1), `PUBLISHING.md` (4e8f11a), `TRANSLATIONS.md` (af8427f), tree `3b5f065` plus local changes (this commit), nothing run in game. Stage kept: `published`, `workflow_stage: published`. Session title: `flavortextextended / published`.
+
+- **`done -> tested` criteria, checked on disk:** no `@wip` (`07-f13-fixture` is `@fixture`, not a test); the one conditional scenario file (`06`, `@requires` ScreenshotMode and ScreenshotStudio, `@review`) ran 2026-09-23, its `summary.md` read, its three captures opened and read today (clean info cards, no dev tools, no panel); no manual test exists; scenarios played against features: 18 of 18 on the bare pass (01: 5, 03: 7, 04: 2, 08: 4), `exitReason` read first on each kept report: `passed` on the four 1.2.0-era runs; `failed` on `2026-09-26-frequency-b`, whose two reds are the 1.1.0 baseline (below the 1 percent floor) and were replayed green on 1.2.0 by the bare pass, so no red is left without a green replay.
+- **`l10n` against the current TRANSLATIONS.md:** no keyed text, no `Languages/` folder in `Mod/`, English is the Def values; the French neutral-form rule, the player choice and `FRENCH_REVIEW.md` apply to the companion, not here.
+- **Evidence:** `Tests/Pickle/results/` left git and is ignored whole; minified to 0.6 MB; list of what stays in `TESTING.md`, "Proofs to keep". `*.dds` was already ignored and none was ever tracked. The two `Art/*.ico` files left git too.
+- **Origin repository:** `JohannesKolsky/FlavorText`, in `upstream_mod_remotes`; no PR carried (see `remaining`).
+- **Not changed, optional:** the gallery folder `Art/Workshop-captures/` keeps the old two-digit names, a `source/` subfolder and a README, which the 2026-09-29 gallery rule (`0-`, `1-`... , images only) no longer allows. Renaming means editing `galleryDir` in `.github/publish.config.json`, a CI file: left for the owner's word.
 
 ## Findings that still matter
 
