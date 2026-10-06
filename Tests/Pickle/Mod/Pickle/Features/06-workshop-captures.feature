@@ -25,6 +25,7 @@ Feature: what the Workshop captures show
     Given the save "Nelims-tribe" is loaded
     And game speed is paused
     And Nelim's Pickle Tools: studio presentation mode is enabled
+    And Nelim's Pickle Tools: all animals are removed
     And Nelim's Pickle Tools: I am at the sanctuary "exhibition-zone"
 
   Scenario: the info card of a katsudon
