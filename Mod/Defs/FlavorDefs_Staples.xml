@@ -5,7 +5,7 @@
   Flavor Text names a chunk of three ingredients with a dish that has three slots, and a random meal only gets
   one of ours if its three ingredients fit the slots of one of our dishes. The first 901 dishes are written around
   a subject (a katsudon needs rice, pork and egg), so a colony that cooks whatever meat, potatoes, eggs, milk and
-  berries it has on hand seldom matched any of them. Measured with the triples mode of _tools/frequency.js on twelve everyday
+  berries it has on hand seldom matched any of them. Measured with the triples mode of scripts/frequency.js on twelve everyday
   ingredients of the base game, 170 of the 220 possible triples had no dish of ours, almost all of them with two
   different meats or with milk. These dishes are the ones such a kitchen makes anyway: two meats in a pot, meat
   in cream, meat with berries, meat with mushrooms. Their slots are broad on purpose (any raw meat, any berry),

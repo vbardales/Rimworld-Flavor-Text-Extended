@@ -1,10 +1,10 @@
 // Writes the French entries of the shorter forms (FlavorDefs_Variants.xml) from the French text of their originals.
 //
-//   node _tools/variants-french.js <companion DefInjected/FlavorText.FlavorDef folder> <output folder>
+//   node scripts/variants-french.js <companion DefInjected/FlavorText.FlavorDef folder> <output folder>
 //
 // The companion mod (Flavor Text Extended - Français) translates by defName, so each variant needs its own
 // `<defName>.label` and `<defName>.description`. A variant has the same text as the dish it copies and fewer slots, so
-// its French is the French of the original with the {N_...} tokens renumbered as in _tools/variants-map.json. This
+// its French is the French of the original with the {N_...} tokens renumbered as in scripts/variants-map.json. This
 // script does that and writes Labels_Variants.xml and Descriptions_Variants.xml into the output folder, for the
 // companion's session to copy into its own repository (this repository never writes there).
 //
@@ -16,7 +16,7 @@ const fs = require('fs');
 const path = require('path');
 
 const [DIR, OUT] = process.argv.slice(2);
-if (!DIR || !OUT) { console.error('usage: node _tools/variants-french.js <DefInjected/FlavorText.FlavorDef> <output folder>'); process.exit(1); }
+if (!DIR || !OUT) { console.error('usage: node scripts/variants-french.js <DefInjected/FlavorText.FlavorDef> <output folder>'); process.exit(1); }
 const map = JSON.parse(fs.readFileSync(path.join(__dirname, 'variants-map.json'), 'utf8'));
 
 const texts = { label: new Map(), description: new Map() };

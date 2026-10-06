@@ -44,7 +44,7 @@ const norm = s => s.toLowerCase()
 // A dish only ever names a chunk with exactly as many ingredients as it has slots (Flavor Text,
 // CompFlavor.GetMatchIndices), so two dishes can only be confused with each other when their slot
 // counts are equal: the key of every comparison below starts with the slot count. The shorter variants
-// (_tools/make-variants.js) rely on this, since they share the label of the dish they copy.
+// (scripts/make-variants.js) rely on this, since they share the label of the dish they copy.
 // Two levels: EXACTLY identical name = error (both dishes would display the same);
 // name identical once the placeholders are removed = mere warning, because
 // "bortsch" and "bortsch {2_plur}" display differently in game.
@@ -73,7 +73,7 @@ for (const d of require('./flavordefs.json')) poser(d.label, d.defName, (d.slots
 const TRAD = process.argv[3]; // Optional: the companion is a separate repository.
 if (TRAD && !fs.existsSync(TRAD)) {
   console.error(`ERROR   translations not found: ${TRAD}`);
-  console.error(`        usage: node _tools/checkdefs.js <Flavor Text Defs> [FR mod DefInjected]`);
+  console.error(`        usage: node scripts/checkdefs.js <Flavor Text Defs> [FR mod DefInjected]`);
   process.exit(2);
 }
 const frLabels = new Map();             // defName -> French label

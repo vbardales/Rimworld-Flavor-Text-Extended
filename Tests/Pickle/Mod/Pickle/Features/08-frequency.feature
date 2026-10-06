@@ -10,7 +10,7 @@
 #
 # Baseline, measured on 2026-09-26 on the published 1.1.0 defs (seeds 1, 2, 3; docs/runs/2026-09-26-frequency.md): 0.0 percent
 # of the two-ingredient meals, 0.8 of the three, 2.3 of the four carried a dish of this mod. The floors below sit under what
-# the shorter forms of the dishes (FlavorDefs_Variants.xml) are expected to give on the offline model (_tools/frequency.js:
+# the shorter forms of the dishes (FlavorDefs_Variants.xml) are expected to give on the offline model (scripts/frequency.js:
 # about 35 percent of the one-ingredient meals, 9 of the two, 1.5 of the three, 19 of the four) and are deliberately loose,
 # since the model leaves out cooking stations and hours of day. They are not targets: read the logged number in Player.log.
 #

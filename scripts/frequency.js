@@ -1,6 +1,6 @@
 // How often would a meal carry a dish of this mod, rather than one of Flavor Text's own?
 //
-//   node _tools/frequency.js <Flavor Text Defs folder> [--vanilla] [--defs=<folder of FlavorDefs_*.xml>]
+//   node scripts/frequency.js <Flavor Text Defs folder> [--vanilla] [--defs=<folder of FlavorDefs_*.xml>]
 //                            [--n=20000] [--seed=1] [--cooked=MealSimple] [--ghost=0] [--chunk=RawRice,Meat_Pig]
 //                            [--pool=RawRice,RawPotatoes,...] [--triples]
 //
@@ -41,7 +41,7 @@ const D = require('./thingdefs.js');
 
 const args = process.argv.slice(2);
 const FT = args.find(a => !a.startsWith('--'));
-if (!FT) { console.error('usage: node _tools/frequency.js <Flavor Text Defs folder> [--vanilla] [--defs=<folder>] [--n=N] [--seed=S] [--cooked=MealSimple]'); process.exit(1); }
+if (!FT) { console.error('usage: node scripts/frequency.js <Flavor Text Defs folder> [--vanilla] [--defs=<folder>] [--n=N] [--seed=S] [--cooked=MealSimple]'); process.exit(1); }
 const opt = (k, d) => { const a = args.find(x => x.startsWith('--' + k + '=')); return a ? a.split('=')[1] : d; };
 const VANILLA = args.includes('--vanilla');
 const N = +opt('n', 20000);
@@ -56,7 +56,7 @@ const GHOST = +opt('ghost', 0);
 const T = require('./tree.js').load(FT);
 
 // 1. the mods whose ThingDefs feed the pool; 2. ThingDefs with inheritance;
-// both shared with _tools/active.js through _tools/thingdefs.js.
+// both shared with scripts/active.js through scripts/thingdefs.js.
 const { byPid } = D.findModFolders(VANILLA);
 const thingDefs = D.readThingDefs([...byPid.values()]);
 const { meals, ingredients } = D.classify(thingDefs);

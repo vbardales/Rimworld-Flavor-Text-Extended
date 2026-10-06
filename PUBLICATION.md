@@ -223,7 +223,7 @@ Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/
 
 Sent with the publish of 2026-09-26 (run 36270986472, commit 509667f, tag v1.2.0). The note as sent is the block below.
 
-(Done differently: published on 2026-09-26 before the companion had its entries; the new forms and dishes show in English in French until it delivers.) Publish only once the French companion has its entries for the new forms (`_tools/variants-french.js`), or say on the page that
+(Done differently: published on 2026-09-26 before the companion had its entries; the new forms and dishes show in English in French until it delivers.) Publish only once the French companion has its entries for the new forms (`scripts/variants-french.js`), or say on the page that
 the French text of the new forms is coming.
 
 ```

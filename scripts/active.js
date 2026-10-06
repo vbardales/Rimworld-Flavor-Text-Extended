@@ -1,6 +1,6 @@
 // How many of our dishes does the engine really retain, on the active mod list?
 //
-//   node _tools/active.js <Flavor Text Defs folder>
+//   node scripts/active.js <Flavor Text Defs folder>
 //
 // At startup Flavor Text writes "N active FlavorDefs for the current modlist found out
 // of M total". It does not say how N splits between its defs and ours. This
@@ -11,13 +11,13 @@
 // all its DESCENDANTS -- declaring FT_Fruit accepts FT_Pear.
 //
 // Three traps, without which the count is far below the true one -- both the mod-folder
-// discovery and the ingredient/meal filing below are shared with _tools/frequency.js
-// through _tools/thingdefs.js, so a fix to any of them cannot land in one script and not
+// discovery and the ingredient/meal filing below are shared with scripts/frequency.js
+// through scripts/thingdefs.js, so a fix to any of them cannot land in one script and not
 // the other:
 //
 //   1. Meats do not exist in XML. RimWorld generates Meat_X at runtime for
 //      every flesh race without useMeatFrom. We rebuild them here with the same rule
-//      as _tools/geninflections.js -- fleshType and inheritance included.
+//      as scripts/geninflections.js -- fleshType and inheritance included.
 //
 //   2. The defName AND the label count. Fixed on 2026-09-12: this comment used to say
 //      "the label, not the defName", which was wrong. CategoryUtility.ExtractNames reads
@@ -46,7 +46,7 @@ const path = require('path');
 const D = require('./thingdefs.js');
 
 const FT = process.argv[2];
-if (!FT) { console.error('usage: node _tools/active.js <Flavor Text Defs folder>'); process.exit(1); }
+if (!FT) { console.error('usage: node scripts/active.js <Flavor Text Defs folder>'); process.exit(1); }
 
 const T = require('./tree.js').load(FT);
 

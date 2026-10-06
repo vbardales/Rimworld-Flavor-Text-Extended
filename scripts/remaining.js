@@ -1,7 +1,7 @@
 // What is left to translate into English, and what is done.
 //
-//   node _tools/remaining.js                    summary per file
-//   node _tools/remaining.js <file.xml>         outputs the TSV to fill in for that file
+//   node scripts/remaining.js                    summary per file
+//   node scripts/remaining.js <file.xml>         outputs the TSV to fill in for that file
 //
 // The test is exact, not heuristic: the French mod's DefInjected keeps the original
 // French text. As long as the def's label is identical to it, the def

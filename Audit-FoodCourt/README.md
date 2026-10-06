@@ -38,7 +38,7 @@ before writing new definitions. No third-party content was copied into Mod/.
 
 ## Method and limits
 
-`../_tools/compare_foodcourt.py` reads the registry, the installed Flavor Text Defs and the
+`../scripts/compare_foodcourt.py` reads the registry, the installed Flavor Text Defs and the
 Extended Defs/patches. It exports `comparison.json` with provenance, conditions, active status,
 explicit categories, lexical leads, fallback categories and presence of FR forms.
 The snapshot is identified by SHA256

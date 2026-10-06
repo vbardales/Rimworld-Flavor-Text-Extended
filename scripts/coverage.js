@@ -1,7 +1,7 @@
 // Coverage analysis: which categories and which combinations are poorly or not at all
 // served by the existing defs (Flavor Text's plus ours).
 //
-//   node _tools/coverage.js <Flavor Text Defs folder>
+//   node scripts/coverage.js <Flavor Text Defs folder>
 //
 // ------------------------------------------------------------------------------------
 // WARNING -- the previous version of this file was WRONG.
@@ -27,7 +27,7 @@ const fs = require('fs');
 const path = require('path');
 
 const FT = process.argv[2];
-if (!FT) { console.error('usage: node _tools/coverage.js <Flavor Text Defs folder>'); process.exit(1); }
+if (!FT) { console.error('usage: node scripts/coverage.js <Flavor Text Defs folder>'); process.exit(1); }
 const T = require('./tree.js').load(FT);
 
 // Ingredient categories: under FT_Ingredients, excluding meal kinds/qualities and stations.

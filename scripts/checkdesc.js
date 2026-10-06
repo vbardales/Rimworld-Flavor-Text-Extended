@@ -1,6 +1,6 @@
 // Checks the translated descriptions: known defName, no duplicate, valid slot index,
 // known suffix, well-formed braces, obvious leftover English.
-//   node _tools/checkdesc.js
+//   node scripts/checkdesc.js
 const fs = require('fs');
 const path = require('path');
 const defs = require('./flavordefs.json');

@@ -1,5 +1,5 @@
 // Shared reading of RimWorld ThingDefs and Flavor Text's own keyword filing, used by
-// both _tools/active.js (what the loaded mod list keeps active) and _tools/frequency.js
+// both scripts/active.js (what the loaded mod list keeps active) and scripts/frequency.js
 // (how often a dish of this mod would fire). Kept in one place so a fix to the scoring
 // rule, the meat-generation traps or the mod-folder discovery cannot land in one script
 // and not the other.
@@ -15,7 +15,7 @@ function walk(dir, out = []) {
   let ents; try { ents = fs.readdirSync(dir, { withFileTypes: true }); } catch { return out; }
   for (const e of ents) {
     const p = path.join(dir, e.name);
-    if (e.isDirectory()) { if (!/^(Textures|Sounds|Assemblies|Source|About|Languages|\.git|_tools)$/i.test(e.name)) walk(p, out); }
+    if (e.isDirectory()) { if (!/^(Textures|Sounds|Assemblies|Source|About|Languages|\.git|scripts)$/i.test(e.name)) walk(p, out); }
     else if (e.name.endsWith('.xml')) out.push(p);
   }
   return out;

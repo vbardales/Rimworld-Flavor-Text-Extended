@@ -11,7 +11,7 @@
 # a file this repository does not carry.
 .claude/
 
-# Node scratch, should a tool under _tools/ ever pull a dependency. They are plain scripts today
+# Node scratch, should a tool under scripts/ ever pull a dependency. They are plain scripts today
 # and none of them does.
 node_modules/
 
@@ -19,12 +19,12 @@ node_modules/
 # and this repository is public. The folder is absent today, but the rule came over from the
 # monorepo so that redoing the decompilation here cannot publish it by accident. What it
 # established is written up in the comments of this mod's files.
-_tools/src/
+scripts/src/
 
 # Local rendering profile and intermediate artifacts
 .build/
 
-# Generated local installed-mod inventory; regenerate with _tools/compare_foodcourt.py
+# Generated local installed-mod inventory; regenerate with scripts/compare_foodcourt.py
 Audit-FoodCourt/comparison.json
 
 # Manual-scenario logs: large, and they carry the whole modlist. Keep the folder, not its contents.

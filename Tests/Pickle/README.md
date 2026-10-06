@@ -7,7 +7,7 @@ Load-time scenarios for Flavor Text Extended, played inside a running RimWorld b
 
 ## What is here, and why it needs the game
 
-Everything provable outside the game is proved outside it (`_tools/Test-Xml.ps1`,
+Everything provable outside the game is proved outside it (`scripts/Test-Xml.ps1`,
 `checkdefs.js`, `Test-OptionalIngredients.ps1`, `Check-ConfigErrors.ps1`), and a Pickle run takes
 over the machine, so nothing here restates one of them. What is left:
 

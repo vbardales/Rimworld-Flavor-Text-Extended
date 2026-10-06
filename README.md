@@ -39,19 +39,19 @@ come in all three sizes. Most of this mod's are three-slot dishes, so they name 
 shorter form of many of them (the same dish minus an ingredient it never needed) names meals of two. When several
 dishes match, one is drawn at random, weighted so that a dish that accepts fewer ingredients is drawn more often.
 Flavor Text has an option for it, "allowed missing ingredients" (off by default): with it a small meal gets random extra
-ingredients up to that number, which lets bigger dishes match. `_tools/frequency.js` models this for a modlist; `Tests/Pickle/.../08-frequency.feature` measures it in a game.
+ingredients up to that number, which lets bigger dishes match. `scripts/frequency.js` models this for a modlist; `Tests/Pickle/.../08-frequency.feature` measures it in a game.
 
 ## What your colony grows decides what you see
 
 Flavor Text names a meal after what went into it, so a dish can only appear if its ingredients
 exist in the game. These 932 lean on a wider pantry than vanilla keeps — wheat, cheese, butter,
-cream, onion, tomato, garlic, chilli — so on a vanilla-only save (the base game and its DLC) about eighty of them can fire, by the count of _tools/frequency.js, plus their shorter forms.
+cream, onion, tomato, garlic, chilli — so on a vanilla-only save (the base game and its DLC) about eighty of them can fire, by the count of scripts/frequency.js, plus their shorter forms.
 Farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
 
 That is how the engine works rather than a shortcoming: a dish waits for its ingredient, and
 costs nothing while it waits. But it sets what a player should expect.
 
-`_tools/active.js` estimates it for a given modlist — it reads `ModsConfig.xml`, replays the
+`scripts/active.js` estimates it for a given modlist — it reads `ModsConfig.xml`, replays the
 engine's category matching, and reports how many definitions survive, split between this mod and
 Flavor Text's own. The following is a historical profile snapshot, not a result for your
 current modlist:
@@ -85,7 +85,7 @@ can produce a load error. Check both logs and actual ingredient categorization.
 ```
 Mod/       distributed mod: About, Defs, Patches, licence and attribution
 Art/       illustration source, icon sources and reproducible Preview composition
-_tools/    development and validation scripts; not distributed
+scripts/    development and validation scripts; not distributed
 TESTING.md   offline commands and in-game test scenarios
 ```
 

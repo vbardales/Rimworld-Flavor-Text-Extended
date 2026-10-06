@@ -5,8 +5,8 @@
 # so it must not be played in the pass that stages them.
 #
 # What only a running game can show for this mod. Everything provable outside the game is proved
-# outside it: `_tools/Test-Xml.ps1` applies the same patch operations in memory, and
-# `_tools/checkdefs.js` and `Check-ConfigErrors.ps1` read all 901 dishes. What they cannot say:
+# outside it: `scripts/Test-Xml.ps1` applies the same patch operations in memory, and
+# `scripts/checkdefs.js` and `Check-ConfigErrors.ps1` read all 901 dishes. What they cannot say:
 #   - that the game loaded both mods, in this order;
 #   - that the defs of a custom type (FlavorText.FlavorDef) reach the database under this mod;
 #   - that the patches take effect once every other active mod has patched the same categories;

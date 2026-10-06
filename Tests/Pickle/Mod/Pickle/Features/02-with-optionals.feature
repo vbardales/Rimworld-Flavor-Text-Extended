@@ -6,7 +6,7 @@
 # present, the guarded <li> entries stop being dropped and have to RESOLVE. A name that no longer
 # exists in a provider is the failure this mod is exposed to, and it shows as a red line at load:
 # `Could not resolve cross-reference to Verse.ThingDef named ...`.
-# `_tools/Test-OptionalIngredients.ps1` checks the 47 references against the providers' XML; only
+# `scripts/Test-OptionalIngredients.ps1` checks the 47 references against the providers' XML; only
 # the loader says whether they resolve.
 #
 # Chinese Traditional Cultural Things Expanded is not staged: see the map for why. So this pass

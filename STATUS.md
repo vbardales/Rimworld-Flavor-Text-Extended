@@ -24,7 +24,7 @@ maintainer:    current Codex task for this repository
 updated:      2026-10-02
 tested_on:    "2026-09-26, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, on the 1.2.0 tree (e283f89). Bare 18/18 (791 active FlavorDefs of 2095), with optionals 6/6 (1236), without Odyssey 3/3 (740). 1.2.1 changes ModIcon.png and the version number only, so the passes were not replayed. Reports in Tests/Pickle/results/2026-09-26-*; history in docs/runs/. Evidence minified 2026-10-02 (TESTING.md, \"Proofs to keep\"); the passes were not replayed."
 workshop:     3806100152
-code_review:  "2026-10-06, /code-review low, bb1348317f10f10601bab8c22341eb7c30075e01, range f43b33f..bb13483 (0.1.0 commit to now): 0 findings. Read only _tools/make-variants.js; frequency.js, thingdefs.js, variants-french.js, .github/ scripts, Defs XML and Tests not read."
+code_review:  "2026-10-06, /code-review low, bb1348317f10f10601bab8c22341eb7c30075e01, range f43b33f..bb13483 (0.1.0 commit to now): 0 findings. Read only scripts/make-variants.js; frequency.js, thingdefs.js, variants-french.js, .github/ scripts, Defs XML and Tests not read."
 remaining:
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
   - "open: the Steam page description is sent by the CI from PUBLICATION.md; the title, tags, preview and gallery are not. The gallery is the owner's."
@@ -50,7 +50,7 @@ remaining:
 | Gate | Result | Evidence |
 |---|---|---|
 | Settings (`MOD_SETTINGS.md`) | not applicable: nothing to configure, so no page and no shortcut | source inventory of `Mod/`: no `.dll`, `.cs`, `MainButtonDef`, `ModSettings`, `Keyed` |
-| Translations (`TRANSLATIONS.md`) | English native Def text complete; French is the companion's | `_tools/Test-Localization.ps1`, `_tools/verify-en.js` |
+| Translations (`TRANSLATIONS.md`) | English native Def text complete; French is the companion's | `scripts/Test-Localization.ps1`, `scripts/verify-en.js` |
 | Offline tests | pass | `checkdefs.js` (0 errors, known shared-combination warnings), `Test-Xml.ps1`, `Test-OptionalIngredients.ps1`, `Check-ConfigErrors.ps1` |
 | In game (Pickle) | pass on the 1.2.0 tree | `Tests/Pickle/results/2026-09-26-*`, `docs/runs/2026-09-26-frequency.md` |
 
@@ -94,7 +94,7 @@ Audited against `AUDIT.md` (d1fdbe1), `PUBLISHING.md` (4e8f11a), `TRANSLATIONS.m
 
 - `VV_Leeks` is under `FT_Onion` as well as `FT_Leek`, because hekmo's own onion category lists "leek". README and description say a leek has its own category and still counts as onion.
 - Flavor Text files a chicken egg under `FT_Meat_Poultry` as well as `FT_Egg`, so a meal with one is an omnivore meal and vegetarian-only dishes with an egg never name it. Raise it with hekmo only with the owner's word.
-- Flavor Text's `GetMatchIndices` needs exactly as many ingredients as slots. This is why shorter forms exist (`_tools/make-variants.js`, `_tools/solo-forms.json`).
+- Flavor Text's `GetMatchIndices` needs exactly as many ingredients as slots. This is why shorter forms exist (`scripts/make-variants.js`, `scripts/solo-forms.json`).
 
 ## Files
 

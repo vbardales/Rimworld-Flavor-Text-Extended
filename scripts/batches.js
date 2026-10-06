@@ -4,7 +4,7 @@ const fs = require('fs');
 const defs = require('./flavordefs.json');
 
 const SIZE = Number(process.argv[2] || 80);
-const OUTDIR = './_tools/batch-data';
+const OUTDIR = './scripts/batch-data';
 fs.mkdirSync(OUTDIR, { recursive: true });
 
 const short = c => c.replace(/^FT_/, '');

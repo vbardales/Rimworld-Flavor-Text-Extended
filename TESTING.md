@@ -34,7 +34,7 @@ Flavor Text announces itself with one line, which is the single most useful thin
 ```
 
 The second number is every dish definition loaded, hekmo's and ours together. The first is how many
-the engine kept for this modlist. Both are predicted offline by `_tools/active.js`, so a gap between
+the engine kept for this modlist. Both are predicted offline by `scripts/active.js`, so a gap between
 the tool and the log is itself a finding.
 
 Our defs are all prefixed `FlavorTextFR_`, a leftover from when this mod and its French companion
@@ -46,7 +46,7 @@ Run from the repository root. They need only Node and a path to Flavor Text's ow
 which under Steam is `steamapps/workshop/content/294100/3245374432/1.6/Defs`.
 
 ```bash
-node _tools/checkdefs.js "<path to Flavor Text>/1.6/Defs"
+node scripts/checkdefs.js "<path to Flavor Text>/1.6/Defs"
 ```
 
 Every dish is checked for a defName that collides with one of hekmo's 930, for a placeholder that
@@ -58,7 +58,7 @@ ingredient triplet are variety, not conflict, because the engine draws at random
 definitions.
 
 ```bash
-node _tools/active.js "<path to Flavor Text>/1.6/Defs"
+node scripts/active.js "<path to Flavor Text>/1.6/Defs"
 ```
 
 This replays the engine's own filter against the installed modlist and reports how many dishes
@@ -88,7 +88,7 @@ The current French resource/parameter check includes this repository's category 
 and the companion's dish text without modifying the companion:
 
 ```powershell
-./_tools/Test-Localization.ps1 -CompanionMod '../FlavorTextExtendedFR/Mod'
+./scripts/Test-Localization.ps1 -CompanionMod '../FlavorTextExtendedFR/Mod'
 ```
 
 It must report all 1,799 owned fields covered with no missing/duplicate paths, empty text
@@ -98,7 +98,7 @@ the in-game French scenario. Native English Def values provide the English cover
 Verify optional ingredient references against installed providers with:
 
 ```powershell
-./_tools/Test-OptionalIngredients.ps1
+./scripts/Test-OptionalIngredients.ps1
 ```
 
 This checks actual provider metadata and selected XML folders, including older-version
@@ -187,7 +187,7 @@ is, so hekmo's dishes on the same triplet compete with ours by design. Cook seve
 
 **Alternatives on the same principle**, all three cookable with no cooking mod installed. Rice, egg
 and any vegetable gives `bibimbap`. Potato, pork and egg gives `Tiroler Gröstl`. Egg, pork and beans
-gives a `full English breakfast`. Pick from `_tools/active.js`, which lists the dishes that pass
+gives a `full English breakfast`. Pick from `scripts/active.js`, which lists the dishes that pass
 both conditions on the modlist you actually have; do not pick from the def files, where most dishes
 name a kind of meal that a vanilla kitchen cannot produce.
 
@@ -487,7 +487,7 @@ as argument 3 only when deliberately checking that separate mod. The standalone 
 Additional repeatable XML validation:
 
 ```powershell
-./_tools/Test-Xml.ps1 -FlavorTextDefs '<path to Flavor Text>/1.6/Defs'
+./scripts/Test-Xml.ps1 -FlavorTextDefs '<path to Flavor Text>/1.6/Defs'
 ```
 
 Result: 49 XML files parsed, 25 PatchOperationAdd targets matched and applied in memory,
