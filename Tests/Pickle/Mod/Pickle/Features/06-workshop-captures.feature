@@ -16,8 +16,9 @@
 #
 # Run it with -DepMap wsl-deps.workshop-captures.map -Filter 06-workshop-captures.feature.
 # ScreenshotStudio supplies Nelim's sanctuary (save "Nelims-tribe", one colonist: Nelim, that is Virginie). The card is an object inspect
-# window, a fullscreen interface capture, so it goes over the "window-backdrop-for-width" framing: a green bamboo field with a smiley in each top
-# corner (PickleTools docs/GALERIE.md; the "for-height" variant is not validated and is not used). ScreenshotMode keeps the card while hiding the
+# window, a fullscreen interface capture, so it goes over a window backdrop framing (PickleTools docs/GALERIE.md). "window-backdrop-for-width"
+# ran green on 2026-10-06 (run 95a5); "window-backdrop-for-height" is NOT validated by PickleTools and is tried here at the owner's request, to
+# compare. ScreenshotMode keeps the card while hiding the
 # HUD and Pickle panels.
 @review @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.screenshotstudio
 Feature: what the Workshop captures show
@@ -30,7 +31,7 @@ Feature: what the Workshop captures show
     And I set the hour to 12
     And I set the weather to "Clear"
     And Nelim's Pickle Tools: all animals are removed
-    And Nelim's Pickle Tools: I am at the sanctuary "window-backdrop-for-width"
+    And Nelim's Pickle Tools: I am at the sanctuary "window-backdrop-for-height"
 
   Scenario: the info card of a katsudon
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
