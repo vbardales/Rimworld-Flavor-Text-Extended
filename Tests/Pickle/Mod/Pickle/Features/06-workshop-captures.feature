@@ -15,18 +15,22 @@
 # rest of the screen should not. English only: the run is staged in English.
 #
 # Run it with -DepMap wsl-deps.workshop-captures.map -Filter 06-workshop-captures.feature.
-# ScreenshotStudio supplies Nelim's sanctuary (save "Nelims-tribe", noon, one colonist: Nelim, that is Virginie); the card is opened over the
-# exhibition zone, a framing that is not among those still under review (PickleTools docs/GALERIE.md). ScreenshotMode keeps the card while
-# hiding the HUD and Pickle panels, so the subject is a meal in a colony, not UI alone.
+# ScreenshotStudio supplies Nelim's sanctuary (save "Nelims-tribe", one colonist: Nelim, that is Virginie). The card is an object inspect
+# window, a fullscreen interface capture, so it goes over the "window-backdrop-for-width" framing: a green bamboo field with a smiley in each top
+# corner (PickleTools docs/GALERIE.md; the "for-height" variant is not validated and is not used). ScreenshotMode keeps the card while hiding the
+# HUD and Pickle panels.
 @review @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.screenshotstudio
 Feature: what the Workshop captures show
 
   Background:
     Given the save "Nelims-tribe" is loaded
     And game speed is paused
+    And Nelim's Pickle Tools: the eclipse of the map is ended
     And Nelim's Pickle Tools: studio presentation mode is enabled
+    And I set the hour to 12
+    And I set the weather to "Clear"
     And Nelim's Pickle Tools: all animals are removed
-    And Nelim's Pickle Tools: I am at the sanctuary "exhibition-zone"
+    And Nelim's Pickle Tools: I am at the sanctuary "window-backdrop-for-width"
 
   Scenario: the info card of a katsudon
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
