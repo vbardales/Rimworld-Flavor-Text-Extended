@@ -5,8 +5,9 @@ What the Workshop page asked for and the repository held nowhere else. Written 2
 sections below are now a record of what was decided and sent, not a proposal. It serves twice: it did at the first
 upload, and it does for whoever takes the mod over.
 
-The Workshop captures were generated, visually approved and uploaded to the Workshop gallery on 2026-09-22. They are
-retained in `Art/Workshop-captures/` in their Steam display order.
+The Workshop gallery images are in `Art/Gallery/` in their Steam display order. The three meal-card captures were
+regenerated on 2026-10-06 (run 29d9, tree ca7199e) and approved by the owner the same day; the gallery on the Steam page
+is uploaded by hand and still shows the 2026-09-22 captures until it is updated.
 
 ## Before the upload
 
@@ -42,37 +43,34 @@ Decided from the sources, not from intent.
 
 ## Captures for the Workshop page
 
-`Mod/About/Preview.png` is the Workshop header and `Mod/About/ModIcon.png` is the in-game list icon. Since 2026-09-29,
-`Preview.png` carries `ModIcon.png` as a rotated badge in its emptiest corner (bottom-left, +15°, 140px, centered 60px
-inside the corner so it just touches the edge without bleeding off it). The badge is cut out of its black square
-background first (`Art/ModIcon-cutout.png`, flood fill from the four borders — `ModIcon.png` itself is untouched, it
-still has the square background as the in-game list icon needs it). `Art/Workshop-captures/00-preview.png` is a
-copy of that badged `Preview.png`, standing as image 0 of the
-gallery order. The three other approved gallery captures are present in `Art/Workshop-captures/` as 1000x810 PNGs, each
-the capture cropped tight around the card window (regenerated and approved on 2026-09-24), each below Steam's 2 MB limit.
-Display order:
+`Mod/About/Preview.png` is the Workshop header and `Mod/About/ModIcon.png` is the in-game list icon. Both are rendered by
+`scripts/Render-Preview.cjs` from `Art/Preview.config.json`, `Art/Preview-source.png`, `Art/echo.png` and the owner's
+`Art/ModIcon-source.png` (key `modIconSource`: the icon is reduced to 128 x 128 without cropping). `Preview.png` carries the
+icon as a badge in the bottom-left corner. `Art/Gallery/0-preview.png` is a byte-for-byte copy of `Mod/About/Preview.png`, written
+by the same renderer, so the gallery opens on the same image as the store page. The three meal-card captures are 1000x810 PNGs,
+each the 1920x1080 capture cropped tight around the card window (about 190 KB, below Steam's 2 MB limit). Display order:
 
-0. `00-preview.png` — the badged header, so the gallery opens on the same image as the store page;
-1. `01-katsudon.png` — info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension
+0. `0-preview.png`: the badged header, so the gallery opens on the same image as the store page;
+1. `1-katsudon.png`: info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension
    names an ordinary meal after a specific dish;
-2. `02-two-dishes-at-once.png` — info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
-3. `03-medium-boiled-egg.png` — info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
+2. `2-two-dishes-at-once.png`: info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
+3. `3-medium-boiled-egg.png`: info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
 
-`00-preview.png` was not part of the 2026-09-22 upload; the other three were, in the order above minus image 0. Upload it
-alongside them at the next Workshop gallery update.
+The gallery is uploaded by hand: SteamCMD cannot send it. The images on the page predate this set (the Zen Meadow
+fixture, uploaded 2026-09-22); replace them with this set, and add image 0, at the next gallery update.
 
-The corresponding uncompressed 1920x1080 capture files are retained in `Art/Workshop-captures/source/`; they are source
-archives, not upload candidates.
+The uncompressed 1920x1080 captures are not kept in the repository: they stay on disk in
+`Tests/Pickle/Evidence/2026-10-06-gallery-ca7199e/screenshots/`, ignored by git (see `TESTING.md`, "Evidence to keep").
 
 A capture is disqualified if it shows dev tools, another mod's debug overlay, the launcher panel of Pickle, or an empty
-window (STYLE and AUDIT). `06-workshop-captures.feature` loads the Nelim Zen Meadow studio, frames its central tiled emblem,
-then uses PickleTools ScreenshotMode to hide the HUD and Pickle windows while retaining the meal card. It restores the
-interface after each scenario. The resulting images were opened, approved and uploaded in the order above.
+window (STYLE and AUDIT). `06-workshop-captures.feature` loads the shared gallery fixture `Nelims-tribe` (PickleTools
+`docs/GALERIE.md`), enables the studio presentation mode, removes the animals, frames `exhibition-zone` (centre 218,166, zoom 18)
+and then uses ScreenshotMode to hide the HUD and Pickle windows while retaining the meal card. It restores the interface after each
+scenario. The images were opened and approved on 2026-10-06.
 
-Zen is a presentation fixture only: functional tests continue to use `test-colony`. The emblem frame is the default for
-Flavor Text Extended because it keeps the card centered over the emblem's colony setting instead of an interface-only
-background. The card can cover the emblem itself; that composition was reviewed and accepted. Use the kitchen frame only
-where a stove or cooking scene is the actual subject.
+`exhibition-zone` is the named framing for game windows: a wide open floor with an object per cell, so the card sits over a lively
+background instead of furniture. The earlier `dining-nook` framing gave a plain parquet background and was dropped. Functional
+tests do not use this fixture; `06` is the only scenario that does.
 
 ## Adult-content boxes
 
