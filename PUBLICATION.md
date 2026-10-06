@@ -6,8 +6,9 @@ sections below are now a record of what was decided and sent, not a proposal. It
 upload, and it does for whoever takes the mod over.
 
 The Workshop gallery images are in `Art/Gallery/` in their Steam display order. The three meal-card captures were
-regenerated on 2026-10-06 (run 29d9, tree ca7199e) and approved by the owner the same day; the gallery on the Steam page
-was uploaded by hand by the owner on 2026-10-06 (images 0 to 3 of Art/Gallery/, as reported by her).
+regenerated on 2026-10-06 (run 4cb9, tree 5bf7bef, `window-backdrop-for-height`) and approved by the owner the same day. The gallery
+on the Steam page is uploaded by hand by the owner: she uploaded the earlier 2026-10-06 set (`exhibition-zone`, as reported by her); the
+set in `Art/Gallery/` now replaces it and is still to be uploaded.
 
 ## Before the upload
 
@@ -47,8 +48,8 @@ Decided from the sources, not from intent.
 `scripts/Render-Preview.cjs` from `Art/Preview.config.json`, `Art/Preview-source.png`, `Art/echo.png` and the owner's
 `Art/ModIcon-source.png` (key `modIconSource`: the icon is reduced to 128 x 128 without cropping). `Preview.png` carries the
 icon as a badge in the bottom-left corner. `Art/Gallery/0-preview.png` is a byte-for-byte copy of `Mod/About/Preview.png`, written
-by the same renderer, so the gallery opens on the same image as the store page. The three meal-card captures are 1000x810 PNGs,
-each the 1920x1080 capture cropped tight around the card window (about 190 KB, below Steam's 2 MB limit). Display order:
+by the same renderer, so the gallery opens on the same image as the store page. The three meal-card captures are 1100x1080 PNGs,
+each the 1920x1080 capture with only the side edges cut (x 410 to 1510): full height, so both smileys of the backdrop stay (about 890 KB, below Steam's 2 MB limit). Display order:
 
 0. `0-preview.png`: the badged header, so the gallery opens on the same image as the store page;
 1. `1-katsudon.png`: info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension
@@ -56,19 +57,19 @@ each the 1920x1080 capture cropped tight around the card window (about 190 KB, b
 2. `2-two-dishes-at-once.png`: info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
 3. `3-medium-boiled-egg.png`: info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
 
-The gallery is uploaded by hand: SteamCMD cannot send it. The set above replaced the 2026-09-22 images on the page on 2026-10-06 (reported by the owner, not checked on the page by a session).
+The gallery is uploaded by hand: SteamCMD cannot send it. The images on the page are from the earlier 2026-10-06 set; replace them with this one (not checked on the page by a session).
 
 The uncompressed 1920x1080 captures are not kept in the repository: they stay on disk in
-`Tests/Pickle/Evidence/2026-10-06-gallery-ca7199e/screenshots/`, ignored by git (see `TESTING.md`, "Evidence to keep").
+`Tests/Pickle/Evidence/2026-10-06-gallery-height-5bf7bef/screenshots/`, ignored by git (see `TESTING.md`, "Evidence to keep").
 
 A capture is disqualified if it shows dev tools, another mod's debug overlay, the launcher panel of Pickle, or an empty
 window (STYLE and AUDIT). `06-workshop-captures.feature` loads the shared gallery fixture `Nelims-tribe` (PickleTools
-`docs/GALERIE.md`), enables the studio presentation mode, removes the animals, frames `exhibition-zone` (centre 218,166, zoom 18)
+`docs/GALERIE.md`), enables the studio presentation mode, removes the animals, frames `window-backdrop-for-height` (a bamboo field with a smiley at the top and one at the bottom, validated by the owner)
 and then uses ScreenshotMode to hide the HUD and Pickle windows while retaining the meal card. It restores the interface after each
 scenario. The images were opened and approved on 2026-10-06.
 
-`exhibition-zone` is the named framing for game windows: a wide open floor with an object per cell, so the card sits over a lively
-background instead of furniture. The earlier `dining-nook` framing gave a plain parquet background and was dropped. Functional
+`window-backdrop-for-height` is the named framing for tall game windows such as this object inspect card. Tried and dropped before it:
+`dining-nook` (plain parquet), `exhibition-zone` (OK, but busier) and `window-backdrop-for-width` (made for wide windows). Functional
 tests do not use this fixture; `06` is the only scenario that does.
 
 ## Adult-content boxes
