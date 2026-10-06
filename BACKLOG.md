@@ -44,6 +44,17 @@ and draws among the matches weighted by `10000 / (sum of the things each slot ac
 
 - **Pull request to hekmo's repository (`JohannesKolsky/FlavorText`): no code to propose today, owner to confirm.** This mod is not a port of her code: it is an XML-only extension whose 901 dishes belong here, and her repository has no Defs XML to patch. What is hers to fix went out as issue #1 (chicken egg filed under poultry). Two candidates would be PRs if the owner wants them, both outward-facing and so only with her word: an optional-slot field on `IngredientSlot` (see "An optional part in a dish" above), and a patch for the egg filing. Until she decides, this line stays open.
 
+## Next gallery: scenes instead of cards (owner agreed 2026-10-06, for the next update)
+
+The 2026-10-06 gallery is three object-inspect cards on `window-backdrop-for-height`: they prove the name and the text, but a dark card is hard to read as a thumbnail and nothing shows food or a colonist. The next set shows the dish in a scene, with the card as support. Order, most demonstrative first (Steam shows image 1 large):
+
+1. **A laid table.** An indoor dining place (the `hearth-hall` table or the `dining-nook`, both inside the house), several cooked meals on the table, one colonist seated and eating (Nelim, the only colonist of the fixture), one inspect card open **beside** the table, not over it, with the dish name readable. Props from StageDecor; the pawn's pose is the uncertain part.
+2. **Before / after.** The same meal's card twice, side by side: "simple meal" without this mod, a dish name with it. Two passes (a bare game without the mod, then with it) and a composite made outside the game; the composite is a deliberate edit, so it is labelled as such on the page.
+3. **Breadth.** A buffet or stockpile of many meals with different dish names (the stockpile's item list or a row of cards), to show 901 dishes of many cuisines rather than one.
+4. **Two dishes at once** and the **medium-boiled egg**: kept from the current set, smaller or cropped to the card, as supporting images.
+
+Not verified, to settle before writing the scenarios (ask Pickle Tools): whether a step can place cooked meals and a pose on a table, make a colonist sit and eat in a locked scene, and put a card beside a point of the map instead of centred. The cooking step of this suite already makes named meals (`Flavor Text Extended: a colonist cooks …`) but spawns them in a stack, not on a table. Keep the rules of `PUBLISHING.md` (images only in `Art/Gallery/`, `0-preview.png` from the renderer, owner dresses and poses pawns so the mod's content stands out) and the evidence rules of `TESTING.md`.
+
 ## Records and model
 
 - **Record the reply to hekmo in the Workshop comments register** (`WORKSHOP_COMMENTS.md`, protocols repository), on the Flavor Text row, once the session
