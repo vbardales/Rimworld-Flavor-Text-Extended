@@ -15,16 +15,17 @@
 # rest of the screen should not. English only: the run is staged in English.
 #
 # Run it with -DepMap wsl-deps.workshop-captures.map -Filter 06-workshop-captures.feature.
-# ScreenshotStudio supplies Nelim's paused Zen Meadow colony and its central tiled emblem. ScreenshotMode
-# keeps the card while hiding the HUD and Pickle panels, so the subject is a meal in a colony, not UI alone.
+# ScreenshotStudio supplies Nelim's sanctuary (save "Nelims-tribe", noon, one colonist: Nelim, that is Virginie); the card is opened over the
+# dining nook, a framing that is not among those still under review (PickleTools docs/GALERIE.md). ScreenshotMode keeps the card while
+# hiding the HUD and Pickle panels, so the subject is a meal in a colony, not UI alone.
 @review @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.screenshotstudio
 Feature: what the Workshop captures show
 
   Background:
-    Given the save "nelim-zen-meadow-studio" is loaded
+    Given the save "Nelims-tribe" is loaded
     And game speed is paused
-    And a colonist "Flore" exists
-    When Nelim's Pickle Tools: I frame the studio "emblem"
+    And Nelim's Pickle Tools: studio presentation mode is enabled
+    When Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
 
   Scenario: the info card of a katsudon
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times

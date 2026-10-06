@@ -1,5 +1,7 @@
-# Publication captures use the Nelim Zen Meadow Studio, framed on its furnished kitchen, plus
-# ScreenshotMode. Both companions are development-only and must never become dependencies of
-# Mod/About/About.xml.
+# Publication captures play on Nelim's sanctuary (save Nelims-tribe), the fixture of every mod's gallery (PickleTools docs/GALERIE.md),
+# plus ScreenshotMode. The companions are development-only and must never become dependencies of Mod/About/About.xml.
 nelim.pickletools.screenshotmode   path:PickleTools/ScreenshotMode/Mod
 nelim.pickletools.screenshotstudio path:PickleTools/ScreenshotStudio/Mod
+nelim.pickletools.camerazoom       path:PickleTools/CameraZoom/Mod
+nelim.pickletools.stagedecor       path:PickleTools/StageDecor/Mod
+nelim.pickletools.clearscreen      path:PickleTools/ClearScreen/Mod
