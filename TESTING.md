@@ -329,7 +329,7 @@ Root `AGENTS.md`, "Test evidence", governs. For this mod, state of 2026-10-02:
   | `2026-09-26-with-optionals-b14150e/` | latest `02` |
   | `2026-09-26-without-odyssey-b14150e/` | latest `05` |
   | `2026-09-26-frequency-b/` | sole proof of the 1.1.0 baseline (0.0 / 0.8 / 2.3 percent); no `Player.log`, the figures are in `summary` and `junit` |
-  | `2026-09-23-workshop-captures/` | sole proof that `06` ran with its `@requires` tools; the three captures are the cropped files in `Art/Workshop-captures/`, opened and read on 2026-10-02 |
+| `Tests/Pickle/Evidence/2026-10-06-gallery-ca7199e/` | latest `06` (3 of 3, run 29d9, tree ca7199e, exhibition-zone); its raw captures are the source of the cropped files in `Art/Gallery/`, opened and approved 2026-10-06; `summary`, `junit`, `Player.log`, screenshots kept |
 
   A new run of a scenario replaces its row; a run of 1.2.1 or later deletes the folders it supersedes once its own line is in `docs/runs/`.
 - **Screenshots and films** are produced only by `06-workshop-captures.feature`. Copying Pickle's shared report folder drags in every
@@ -435,7 +435,7 @@ tickets, headless in the WSL game. Read `exitReason` first: all three ended, non
 | without-optionals (`01`, `03`, `04`, `08`) | **18 of 18, `exitReason: passed`**, 0 `[ERROR]` line. The one-ingredient, two-ingredient and everyday three-ingredient scenarios pass. | 791 of 2095 (696 of 1831 before) | `2026-09-26-bare-b14150e/` |
 | without-odyssey (`05`) | **3 of 3, `exitReason: passed`** | 740 of 2095 | `2026-09-26-without-odyssey-b14150e/` |
 | with-optionals (`02`) | **6 of 6, `exitReason: passed`**; one Unity/FMOD audio `[ERROR]` that names no mod, as in earlier runs of this pass | 1236 of 2095 | `2026-09-26-with-optionals-b14150e/` |
-| workshop-captures (`06`) | not replayed: the dishes it shows are unchanged; the three images approved on 2026-09-24 stand | | `2026-09-23-workshop-captures/` (images on disk, ignored by git) |
+| workshop-captures (`06`) | **3 of 3, `exitReason: passed`**, run 29d9 on tree ca7199e (Nelims-tribe, `exhibition-zone`, no animals); the three images in `Art/Gallery/` come from it | | `Tests/Pickle/Evidence/2026-10-06-gallery-ca7199e/` (screenshots on disk, ignored by git) |
 
 The directory names carry the label of the request (b14150e), which was still queued when the tree moved on; the tree played is e283f89, as the
 2095 total of Flavor Text's startup line shows (930 of hers, 1165 of ours). The frequency of our dishes among named meals, measured by
