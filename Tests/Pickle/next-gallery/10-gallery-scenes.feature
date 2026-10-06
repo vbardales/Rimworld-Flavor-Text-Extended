@@ -1,12 +1,26 @@
 # Next gallery, scenes. NOT in Features/ yet: see README.md next to this file. @review: a green run proves the path ran, never that the picture is right.
 #
-# Order on the Steam page (image 1 is shown large):
-#   1. a laid table, a colonist eating, one card beside it;
-#   2. before / after (two passes, composite made outside the game, labelled as an edit);
-#   3. breadth: many dish names at once.
-# Frame: `dining-nook` (the table of the house, indoors) for 1 and 3; the card is the support, not the subject.
+# THE STORY: "Lunch is served" (Nelim's lunch). One midday on the Sanctuary, told in four pictures, the table first because Steam shows image 1 large.
+#   1. 12:00  The table is laid: several cooked meals, each with a different dish name, on the dining nook's table; one card beside them.
+#   2. 12:05  Nelim sits and eats; the card of the meal with two dishes at once is open beside her.
+#   3. 12:10  The simplest dish, a medium-boiled egg, and a hen that came to see (a daytime animal at noon).
+#   4. 12:15  After lunch, Nelim is in the plant garden, where the ingredients of the next meal grow.
+# Not here: the breadth picture (many dish names at once) and the before / after composite. See README.md.
+#
+# RHYTHM (author's choice, PUBLISHING.md "temps de la série"): the same hour of departure in every scenario (12), then an accumulated wait
+# before the capture, 5 minutes of game time per picture: 2 500 ticks per game hour, about 208 ticks for 5 minutes. Each Scenario reloads
+# the save, so every one replays its own wait: 60 ticks of set-up, then +0, +208, +417, +625. The living things are posed AFTER the wait so that
+# they have not left the frame.
+#
+# PLACES (chosen on the empty photographs of PickleTools sanctuaire-places2, 2026-10-06, not on the names; the same place may serve several
+# pictures, there is no need to change it each time): `dining-nook` for 1 to 3 (wooden floor, a table on a white rug with two chairs, torches,
+# logs and plants along the bottom edge), `plant-garden` for 4 (a fenced garden of mixed plants). None of them is a framing still under review.
+#
+# CHOICES TO CHECK ON AN EMPTY CAPTURE BEFORE PLAYING (every cell below is provisional): the free cells of the table, where a chair stands,
+# the cell for the hen, and what Nelim wears. The photographer dresses her: warm clothes against the wood, a colour that sets the meal off,
+# no default outfit; the choice is made when the first image is played and read.
 @review @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.stagedecor
-Feature: what the next Workshop gallery shows
+Feature: Lunch is served
 
   Background:
     Given the save "Nelims-tribe" is loaded
@@ -16,34 +30,59 @@ Feature: what the next Workshop gallery shows
     And I set the hour to 12
     And I set the weather to "Clear"
     And Nelim's Pickle Tools: all animals are removed
-    And Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
 
-  # 1. The laid table. Four different meals, one per cell, so four names are on the table; the card of the most telling one is open beside it.
-  Scenario: a laid table with named meals and one card beside it
+  # 1. 12:00. Four different meals on the table, the katsudon's card beside them.
+  Scenario: the table is laid
+    Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
+    And I wait 60 ticks
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
     And Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
-    # the table cells (x1, z1) to (x2, z2) are to be read on an empty capture of the dining nook.
     And Flavor Text Extended: the meals are put on the table from (175, 107) to (177, 109)
-    # ASK PICKLE TOOLS: a seated, eating Nelim. Without it the scene has the table and the meals only.
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    Then I take a screenshot "table - named meals laid out, the katsudon card beside them"
+    Then I take a screenshot "lunch 12:00 - the table is laid, the katsudon card beside it"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
-  # 3. Breadth. As many different meals as the pass can cook, so that many different dish names appear; the cards are opened one after the other
-  # in the single run and the capture shows the stockpile list or a row of cards. How to show many names at once is open: ASK PICKLE TOOLS.
-  Scenario: many dish names at once
-    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
-    And Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
-    And Flavor Text Extended: 12 of the meals are placed on the map
+  # 2. 12:05. Nelim at the table. A seated pose is the open question (no step known, ASK PICKLE TOOLS): until then she stands at the table.
+  Scenario: Nelim eats the meal with two dishes at once
+    Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
+    And I wait 268 ticks
+    When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
+    And Flavor Text Extended: the meals are put on the table from (175, 107) to (177, 109)
+    And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
+    And Flavor Text Extended: the info card is placed at the "left" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    Then I take a screenshot "breadth - a dozen meals, each with its own dish name"
+    Then I take a screenshot "lunch 12:05 - Nelim and the meal with two dishes at once, its card beside"
+    When Nelim's Pickle Tools: screenshot mode is disabled
+    And I close all dialogs
+
+  # 3. 12:10. The egg and a hen. The hen is posed after the wait.
+  Scenario: the medium-boiled egg and a hen that came to see
+    Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
+    And I wait 477 ticks
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
+    And Flavor Text Extended: the meals are put on the table from (175, 107) to (177, 109)
+    And an adult animal of kind "Chicken" named "Poule" is spawned at (174, 106)
+    And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_OeufMollet" is opened
+    And Flavor Text Extended: the info card is placed at the "right" of the screen
+    And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
+    Then I take a screenshot "lunch 12:10 - the medium-boiled egg and a hen at the table"
+    When Nelim's Pickle Tools: screenshot mode is disabled
+    And I close all dialogs
+
+  # 4. 12:15. After lunch, in the plant garden. No card: a picture of the place and of the woman who grows what the dishes need.
+  Scenario: after lunch, the plant garden
+    Given Nelim's Pickle Tools: I am at the sanctuary "plant-garden"
+    And I wait 685 ticks
+    When Nelim's Pickle Tools: screenshot mode is enabled around the open windows
+    Then I take a screenshot "lunch 12:15 - Nelim in the plant garden, where the next meal grows"
     When Nelim's Pickle Tools: screenshot mode is disabled
 
-# 2. Before / after has no scenario of its own: it is the same card captured twice. Pass 1, the mod absent (a game without
-# nelim.flavortextextended, the bare pass of the suite minus the mod): `a meal cooked from rice, pork and egg is a "simple meal"`. Pass 2: this
-# file's first scenario. The composite is cut and labelled outside the game. Needs a map without the mod in `-DepMap`, to be written
-# (`wsl-deps.without-the-mod.map`) once Pickle Tools confirms a pass can drop the mod under test.
+# The 5-minute rhythm above: 60 + 0 = 60 (not used, scenario 1 waits 60), 60 + 208 = 268, 60 + 417 = 477, 60 + 625 = 685.
+# The before / after has no scenario of its own: it is the same card captured twice. Pass 1, the mod absent (a game without
+# nelim.flavortextextended, the bare pass of the suite minus the mod): the meal of rice, pork and egg is a "simple meal". Pass 2: scenario 1 of
+# this file. The composite is cut and labelled outside the game. Needs a map without the mod in `-DepMap` (`wsl-deps.without-the-mod.map`,
+# to be written) once Pickle Tools confirms a pass can drop the mod under test.

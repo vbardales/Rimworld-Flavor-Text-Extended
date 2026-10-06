@@ -46,6 +46,8 @@ and draws among the matches weighted by `10000 / (sum of the things each slot ac
 
 ## Next gallery: scenes instead of cards (owner agreed 2026-10-06, for the next update)
 
+The story chosen on 2026-10-07 is "Lunch is served": `Tests/Pickle/next-gallery/10-gallery-scenes.feature` (four pictures, 5 minutes of game time apart, `dining-nook` and `plant-garden`, picked on the empty photographs of `PickleTools/sanctuaire-places2`).
+
 The 2026-10-06 gallery is three object-inspect cards on `window-backdrop-for-height`: they prove the name and the text, but a dark card is hard to read as a thumbnail and nothing shows food or a colonist. The next set shows the dish in a scene, with the card as support. Steam limits (owner, 2026-10-06): no cap on the number of images, each under 2 MB and the whole gallery under 8 MB. The 2026-10-06 set weighs about 3.4 MB (0-preview 730 KB, three captures of about 890 KB), which leaves about 4.6 MB: size the captures (crop at the sides, 24-bit PNG) with that budget in mind. Order, most demonstrative first (Steam shows image 1 large):
 
 1. **A laid table.** An indoor dining place (the `hearth-hall` table or the `dining-nook`, both inside the house), several cooked meals on the table, one colonist seated and eating (Nelim, the only colonist of the fixture), one inspect card open **beside** the table, not over it, with the dish name readable. Props from StageDecor; the pawn's pose is the uncertain part.
@@ -53,7 +55,7 @@ The 2026-10-06 gallery is three object-inspect cards on `window-backdrop-for-hei
 3. **Breadth.** A buffet or stockpile of many meals with different dish names (the stockpile's item list or a row of cards), to show 901 dishes of many cuisines rather than one.
 4. **Two dishes at once** and the **medium-boiled egg**: kept from the current set, smaller or cropped to the card, as supporting images.
 
-Not verified, to settle before writing the scenarios (ask Pickle Tools): whether a step can place cooked meals and a pose on a table, make a colonist sit and eat in a locked scene, and put a card beside a point of the map instead of centred. The cooking step of this suite already makes named meals (`Flavor Text Extended: a colonist cooks …`) but spawns them in a stack, not on a table. Keep the rules of `PUBLISHING.md` (images only in `Art/Gallery/`, `0-preview.png` from the renderer, owner dresses and poses pawns so the mod's content stands out) and the evidence rules of `TESTING.md`.
+Not verified, to settle before writing the scenarios (ask Pickle Tools): whether a step can place cooked meals and a pose on a table, make a colonist sit and eat in a locked scene, and put a card beside a point of the map instead of centred. The cooking step of this suite already makes named meals (`Flavor Text Extended: a colonist cooks …`) but spawns them in a stack, not on a table. Keep the rules of `PUBLISHING.md` (images only in `Art/Gallery/`, `0-preview.png` from the renderer, the photographer (this session) dresses and poses the pawns so the mod's content stands out, and chooses places on the empty photographs) and the evidence rules of `TESTING.md`.
 
 ## Records and model
 
