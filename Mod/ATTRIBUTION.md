@@ -54,9 +54,10 @@ Images. Both were generated with DALL-E (OpenAI), confirmed by the author 2026-0
 
 - `Mod/About/ModIcon.png` is the ribbon-less variant of the mascot (`Art/ModIcon-source.png`, 1254 x 1254, generated with DALL-E on 2026-09-13),
   cropped to its content and reduced to 128 x 128 (bicubic) on 2026-09-28 at the author's request. The icon published until then was the
-  original mascot with its ribbon lettering, generated at 64 x 64 and enlarged to 128 x 128, which is why it looked pixelated; that file is kept
-  as `Art/archive/ModIcon-upscaled-from-64.png` and the 64 x 64 original as `Art/archive/ModIcon-before-fix.png`.
-- `Mod/About/Preview.png` is the illustration `Art/Preview.png` with the title, summary and
+  original mascot with its ribbon lettering, generated at 64 x 64 and enlarged to 128 x 128, which is why it looked pixelated; those files are no longer kept in
+  the repository (they were in `Art/archive/` until 2026-10-03; the git history has them). On 2026-10-06 the icon was rendered again, by
+  `scripts/Render-Preview.cjs`, from the owner's updated `Art/ModIcon-source.png`.
+- `Mod/About/Preview.png` is the illustration `Art/Preview-source.png` with the title, summary and
   version badge laid over it. The illustration itself is unchanged.
 
 Every dish name was checked against collisions with the 930 original defs, and every
