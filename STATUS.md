@@ -24,6 +24,7 @@ maintainer:    current Codex task for this repository
 updated:      2026-10-02
 tested_on:    "2026-09-26, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, on the 1.2.0 tree (e283f89). Bare 18/18 (791 active FlavorDefs of 2095), with optionals 6/6 (1236), without Odyssey 3/3 (740). 1.2.1 changes ModIcon.png and the version number only, so the passes were not replayed. Reports in Tests/Pickle/results/2026-09-26-*; history in docs/runs/. Evidence minified 2026-10-02 (TESTING.md, \"Proofs to keep\"); the passes were not replayed."
 workshop:     3806100152
+code_review:  "2026-10-06, /code-review low, bb1348317f10f10601bab8c22341eb7c30075e01, range f43b33f..bb13483 (0.1.0 commit to now): 0 findings. Read only _tools/make-variants.js; frequency.js, thingdefs.js, variants-french.js, .github/ scripts, Defs XML and Tests not read."
 remaining:
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
   - "open: the Steam page description is sent by the CI from PUBLICATION.md; the title, tags, preview and gallery are not. The gallery is the owner's."
