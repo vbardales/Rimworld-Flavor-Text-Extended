@@ -23,11 +23,10 @@ Feature: what the next Workshop gallery shows
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
     And Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
-    # NEW: the table cells (x1, z1) to (x2, z2) are to be read on an empty capture of the dining nook.
+    # the table cells (x1, z1) to (x2, z2) are to be read on an empty capture of the dining nook.
     And Flavor Text Extended: the meals are put on the table from (175, 107) to (177, 109)
-    # NEW or ASK PICKLE TOOLS: a seated, eating Nelim. Without it the scene has the table and the meals only.
+    # ASK PICKLE TOOLS: a seated, eating Nelim. Without it the scene has the table and the meals only.
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
-    # NEW
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then I take a screenshot "table - named meals laid out, the katsudon card beside them"

@@ -4,6 +4,7 @@ using System.Linq;
 using FlavorText;
 using RimWorks.Pickle;
 using RimWorld;
+using Rect = UnityEngine.Rect;
 using Verse;
 
 namespace FlavorTextExtended.PickleSteps
@@ -302,6 +303,58 @@ namespace FlavorTextExtended.PickleSteps
             Meal meal = meals.FirstOrDefault(m => m.Dishes.Count == count);
             ctx.Assert(meal != null, $"no meal carried {count} dishes; {Histogram()}");
             Find.WindowStack.Add(new Dialog_InfoCard(meal.Thing));
+        }
+
+        // ------------------------------------------------------------------ a laid table (next gallery)
+
+        /// <summary>
+        /// Puts the cooked meals on the cells of a rectangle, one meal per cell, one distinct set of dishes first so that several names
+        /// are on the table. A cell that holds a pawn is skipped; a table or a counter on it is what the meal is meant to stand on.
+        /// Spawned, never placed: placing may merge two meals into one stack and lose a name.
+        /// </summary>
+        [When("Flavor Text Extended: the meals are put on the table from \\({int}, {int}\\) to \\({int}, {int}\\)")]
+        public void PutMealsOnTable(PickleContext ctx, int x1, int z1, int x2, int z2)
+        {
+            ctx.Require(Current.Game != null && Find.CurrentMap != null, "load a save first");
+            Map map = Find.CurrentMap;
+            ctx.Assert(meals.Count > 0, "no meal to put on the table: " + lastCook);
+
+            var cells = new List<IntVec3>();
+            for (int x = Math.Min(x1, x2); x <= Math.Max(x1, x2); x++)
+                for (int z = Math.Min(z1, z2); z <= Math.Max(z1, z2); z++)
+                {
+                    var cell = new IntVec3(x, 0, z);
+                    if (cell.InBounds(map) && !cell.GetThingList(map).Any(t => t is Pawn) && cell.GetFirstItem(map) == null) cells.Add(cell);
+                }
+            ctx.Assert(cells.Count > 0, $"no free cell from ({x1}, {z1}) to ({x2}, {z2})");
+
+            List<Meal> chosen = meals.GroupBy(m => string.Join("+", m.Dishes)).Select(g => g.First()).Take(cells.Count).ToList();
+            placed = new List<Placed>();
+            for (int i = 0; i < chosen.Count; i++)
+            {
+                GenSpawn.Spawn(chosen[i].Thing, cells[i], map);
+                placed.Add(new Placed { Id = chosen[i].Thing.thingIDNumber, Dishes = chosen[i].Dishes, Label = chosen[i].Label });
+            }
+        }
+
+        /// <summary>
+        /// Moves the open info card to a side of the screen, so that it stands beside a scene instead of over its centre. The card is a
+        /// window, so it still survives the game's capture mode. "left", "right" or "centre".
+        /// </summary>
+        [When("Flavor Text Extended: the info card is placed at the {string} of the screen")]
+        public void PlaceInfoCard(PickleContext ctx, string side)
+        {
+            Dialog_InfoCard card = Find.WindowStack.Windows.OfType<Dialog_InfoCard>().FirstOrDefault();
+            ctx.Assert(card != null, "no info card is open: open one first");
+            Rect r = card.windowRect;
+            switch (side)
+            {
+                case "left": r.x = 20f; break;
+                case "right": r.x = UI.screenWidth - r.width - 20f; break;
+                case "centre": r.x = (UI.screenWidth - r.width) / 2f; break;
+                default: ctx.Assert(false, $"side \"{side}\": use left, right or centre"); break;
+            }
+            card.windowRect = r;
         }
 
         // ------------------------------------------------------------------ save and reload
