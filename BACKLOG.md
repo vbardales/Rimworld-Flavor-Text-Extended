@@ -53,7 +53,5 @@ and draws among the matches weighted by `10000 / (sum of the things each slot ac
 
 ## Housekeeping
 
-- 1.2.0 is published: update `Tests/Pickle/README.md`'s status line and `TESTING.md`, "What has run", to the three passes of 1.2.0, and prune the reports of
-  the passes they replace (`AGENTS.md`, "Test evidence").
 - `scripts/checkdefs.js` now reports one warning per pair of dishes that share the same slots (35 on 1.2.0, two before the shorter forms). They are variety, not
   conflict; if the count becomes noise, teach the check to skip pairs of forms that come from the same original.
