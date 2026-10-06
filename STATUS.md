@@ -101,3 +101,8 @@ Audited against `AUDIT.md` (d1fdbe1), `PUBLISHING.md` (4e8f11a), `TRANSLATIONS.m
 - `docs/runs/`: one line per run and per status entry. The full former text of this file is in git (`git show 4eb5a48:STATUS.md`), so no separate history file is kept here.
 - `docs/PROTOCOLS-READ.md`: protocol documents read by the session, with versions.
 - `Tests/Pickle/`: feature files, step assembly, `results/` (only reports a field of this file or a run note still points to).
+
+
+## Preview source migration — 2026-10-03
+
+Copy, typography, layout and palette are consolidated in `Art/Preview.config.json`. Canonical inputs are `Art/Preview-source.png`, `Art/echo.png` and `Art/ModIcon-source.png`; temporary renderer diagnostics belong under ignored `Art/.render/`. Existing Preview, gallery and ICO outputs were preserved because they were present and coherent; no render was run. Superseded JSON files and generated QA intermediates were removed. Nothing published.
