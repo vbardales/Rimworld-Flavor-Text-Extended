@@ -7,7 +7,7 @@ upload, and it does for whoever takes the mod over.
 
 The Workshop gallery images are in `Art/Gallery/` in their Steam display order. The three meal-card captures were
 regenerated on 2026-10-06 (run 29d9, tree ca7199e) and approved by the owner the same day; the gallery on the Steam page
-is uploaded by hand and still shows the 2026-09-22 captures until it is updated.
+was uploaded by hand by the owner on 2026-10-06 (images 0 to 3 of Art/Gallery/, as reported by her).
 
 ## Before the upload
 
@@ -56,8 +56,7 @@ each the 1920x1080 capture cropped tight around the card window (about 190 KB, b
 2. `2-two-dishes-at-once.png`: info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
 3. `3-medium-boiled-egg.png`: info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
 
-The gallery is uploaded by hand: SteamCMD cannot send it. The images on the page predate this set (the Zen Meadow
-fixture, uploaded 2026-09-22); replace them with this set, and add image 0, at the next gallery update.
+The gallery is uploaded by hand: SteamCMD cannot send it. The set above replaced the 2026-09-22 images on the page on 2026-10-06 (reported by the owner, not checked on the page by a session).
 
 The uncompressed 1920x1080 captures are not kept in the repository: they stay on disk in
 `Tests/Pickle/Evidence/2026-10-06-gallery-ca7199e/screenshots/`, ignored by git (see `TESTING.md`, "Evidence to keep").
