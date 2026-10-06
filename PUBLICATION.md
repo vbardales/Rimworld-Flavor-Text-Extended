@@ -7,8 +7,8 @@ upload, and it does for whoever takes the mod over.
 
 The Workshop gallery images are in `Art/Gallery/` in their Steam display order. The three meal-card captures were
 regenerated on 2026-10-06 (run 4cb9, tree 5bf7bef, `window-backdrop-for-height`) and approved by the owner the same day. The gallery
-on the Steam page is uploaded by hand by the owner: she uploaded the earlier 2026-10-06 set (`exhibition-zone`, as reported by her); the
-set in `Art/Gallery/` now replaces it and is still to be uploaded.
+on the Steam page is uploaded by hand by the owner: she uploaded the `for-height` set now in
+`Art/Gallery/` (images 0 to 3) on 2026-10-06, replacing the earlier `exhibition-zone` set (as reported by her).
 
 ## Before the upload
 
@@ -57,7 +57,7 @@ each the 1920x1080 capture with only the side edges cut (x 410 to 1510): full he
 2. `2-two-dishes-at-once.png`: info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
 3. `3-medium-boiled-egg.png`: info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
 
-The gallery is uploaded by hand: SteamCMD cannot send it. The images on the page are from the earlier 2026-10-06 set; replace them with this one (not checked on the page by a session).
+The gallery is uploaded by hand: SteamCMD cannot send it. The images on the page are this set, uploaded by the owner on 2026-10-06 (not checked on the page by a session).
 
 The uncompressed 1920x1080 captures are not kept in the repository: they stay on disk in
 `Tests/Pickle/Evidence/2026-10-06-gallery-height-5bf7bef/screenshots/`, ignored by git (see `TESTING.md`, "Evidence to keep").
