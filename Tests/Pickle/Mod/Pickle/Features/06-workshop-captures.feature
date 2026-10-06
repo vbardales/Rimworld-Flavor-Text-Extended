@@ -25,7 +25,7 @@ Feature: what the Workshop captures show
     Given the save "Nelims-tribe" is loaded
     And game speed is paused
     And Nelim's Pickle Tools: studio presentation mode is enabled
-    When Nelim's Pickle Tools: I am at the sanctuary "exhibition-zone"
+    And Nelim's Pickle Tools: I am at the sanctuary "exhibition-zone"
 
   Scenario: the info card of a katsudon
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
