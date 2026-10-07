@@ -21,7 +21,14 @@ tiagocc0.FemaleBodyVariants        3798082132
 tiagocc0.FemaleApparelVariants     3799726535
 wdi.realistic.bodies               3527486510
 ab.vplrf                           2986402536
-astryl.tailormade                  3756915448
 nelim.venustouch.waistlines        path:VenusTouchWaistlines/Mod
 Goat.Food.Texture.Variety.Core      3354455179
 Goat.Food.Texture.Variety           3354456321
+# Sanctuary Backlot's minimum list (2026-10-08, no TailorMade) plus its facial animation block (Nelim has brown eyes through EyeGenes3, SanctuaryBacklot/docs/GALERIE.md):
+Nals.FacialAnimation 1635901197
+nals.facialanimationexperimentals 2581693737
+VanillaExpanded.VTEXE.FacialAnims 2816938779
+Newton.AKNExtras.FacialAnimations 2889716301
+lucius.eyegenes3 3745223213
+astryl.FacialAnimationPerformancePatch 3790129900
+sd.fa.movingvanillaeyes 3753978140
