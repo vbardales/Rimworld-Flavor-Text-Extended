@@ -1,4 +1,4 @@
-# Next gallery, scenes. NOT in Features/ yet: see README.md next to this file. @review: a green run proves the path ran, never that the picture is right.
+# Next gallery, scenes. Pass: -DepMap wsl-deps.gallery-scenes.map -Filter 10-gallery-scenes.feature (plan and open points: Tests/Pickle/next-gallery/README.md). @review: a green run proves the path ran, never that the picture is right.
 #
 # THE STORY: "Lunch is served" (Nelim's lunch). One midday on the Sanctuary, told in four pictures, the table first because Steam shows image 1 large.
 #   1. 12:00  The table is laid: several cooked meals, each with a different dish name, on the dining nook's table; one card beside them.
