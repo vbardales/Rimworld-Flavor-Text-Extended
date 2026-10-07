@@ -16,9 +16,9 @@
 # pictures, there is no need to change it each time): `dining-nook` for 1 to 3 (wooden floor, a table on a white rug with two chairs, torches,
 # logs and plants along the bottom edge), `plant-garden` for 4 (a fenced garden of mixed plants). None of them is a framing still under review.
 #
-# CHOICES TO CHECK ON AN EMPTY CAPTURE BEFORE PLAYING (every cell below is provisional): the free cells of the table, where a chair stands,
-# the cell for the hen, and what Nelim wears. The photographer dresses her: warm clothes against the wood, a colour that sets the meal off,
-# no default outfit; the choice is made when the first image is played and read.
+# CHOICES (every cell is provisional, to be read on the first played image): the free cells of the table, where Nelim stands, the cell of the hen.
+# Nelim is dressed by the photographer, vanilla garments only (no third-party mod in the pass): a teal shirt against the orange wood, cream
+# trousers, a ponytail of dark brown hair; never the default outfit. Steps from TailorMadeWaistlines' gallery (wears ... dyed rgb, hairstyle, hair colour).
 @review @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.stagedecor
 Feature: Lunch is served
 
@@ -49,6 +49,11 @@ Feature: Lunch is served
   # 2. 12:05. Nelim at the table. A seated pose is the open question (no step known, ASK PICKLE TOOLS): until then she stands at the table.
   Scenario: Nelim eats the meal with two dishes at once
     Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
+    And Nelim's Pickle Tools: "Nelim" stands at (176, 106) facing North
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytail"
+    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     And I wait 268 ticks
     When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: the meals are put on the table from (175, 107) to (177, 109)
@@ -62,6 +67,11 @@ Feature: Lunch is served
   # 3. 12:10. The egg and a hen. The hen is posed after the wait.
   Scenario: the medium-boiled egg and a hen that came to see
     Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
+    And Nelim's Pickle Tools: "Nelim" stands at (176, 106) facing North
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytail"
+    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     And I wait 477 ticks
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 107) to (177, 109)
@@ -76,6 +86,11 @@ Feature: Lunch is served
   # 4. 12:15. After lunch, in the plant garden. No card: a picture of the place and of the woman who grows what the dishes need.
   Scenario: after lunch, the plant garden
     Given Nelim's Pickle Tools: I am at the sanctuary "plant-garden"
+    And Nelim's Pickle Tools: "Nelim" stands at (190, 85) facing South
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytail"
+    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     And I wait 685 ticks
     When Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then I take a screenshot "lunch 12:15 - Nelim in the plant garden, where the next meal grows"

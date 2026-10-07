@@ -1,4 +1,4 @@
-# Next gallery: scenarios written, not playable yet
+# Next gallery (2026-10-07: the scenarios moved to Features/10-gallery-scenes.feature, pass map wsl-deps.gallery-scenes.map; this README keeps the plan and what is still open)
 
 The story is "Lunch is served" (header of `10-gallery-scenes.feature`): four pictures at 12:00, 12:05, 12:10 and 12:15, on `dining-nook` and `plant-garden`.
 
