@@ -17,3 +17,12 @@ Still open:
 - Table cells: the dining table of `hearth-hall` and `dining-nook` is described in `PickleTools/docs/SANCTUAIRE-LIEUX.md` without coordinates. Read them on an empty capture first.
 
 Rules: images only in `Art/Gallery/`, `0-preview.png` from the renderer, the author of the series is the photographer (this session), who chooses places, time rhythm, composition, clothes and living things; only shared tools (named places, steps) are asked of Pickle Tools (`PUBLISHING.md`), evidence stays on disk.
+
+## From run to candidate (process)
+
+1. File the run with `Submit-PickleRun.ps1` (`-DepMap wsl-deps.gallery-scenes.map`, its own `-EvidenceDir`); wait for RUN_DONE, tree frozen.
+2. Read `exitReason` in `summary.json` first, then open every capture: green is not validated.
+3. Copy the pictures worth showing to `Art/Gallery/candidates/` as JPEG quality 90 (about 300 to 550 KB each; the raw PNG captures are 1.7 to 4.5 MB, above Steam's 2 MB limit), named `lunch-N-<subject>.jpg`. The raw captures stay in the ignored `Tests/Pickle/Evidence/` folder.
+4. The owner validates. Only then move a candidate up to `Art/Gallery/` under its display number and delete the candidates it replaces. Steam limits: each image under 2 MB, all together under 8 MB.
+
+Candidates of run b52c (tree 799e327, sixth pass, evidence `2026-10-07-lunch-6`): not validated. Known defects: identical bowls, no seated pose, Nelim small in the garden.
