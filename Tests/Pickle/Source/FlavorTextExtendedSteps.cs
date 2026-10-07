@@ -317,6 +317,28 @@ namespace FlavorTextExtended.PickleSteps
             Find.WindowStack.Add(new Dialog_InfoCard(meal.Thing));
         }
 
+        // ------------------------------------------------------------------ a pawn on a free cell (next gallery)
+
+        /// <summary>
+        /// Puts a colonist on the nearest standable cell with nothing built on it to a given cell, stops its job and its walking. For a place whose
+        /// free cells are not known in advance (a garden): the exact "stands at" step of Pickle Tools fails on a cell that is not standable.
+        /// </summary>
+        [Given("Flavor Text Extended: {string} stands on the free cell nearest to \\({int}, {int}\\)")]
+        public void StandsNear(PickleContext ctx, string name, int x, int z)
+        {
+            ctx.Require(Current.Game != null && Find.CurrentMap != null, "load a save first");
+            Map map = Find.CurrentMap;
+            Pawn pawn = map.mapPawns.FreeColonists.FirstOrDefault(p => p.LabelShort == name);
+            ctx.Assert(pawn != null, $"no colonist named {name}");
+            IntVec3 cell = GenRadial.RadialCellsAround(new IntVec3(x, 0, z), 14f, true)
+                .FirstOrDefault(c => c.InBounds(map) && c.Standable(map) && c.GetEdifice(map) == null && c.GetFirstPawn(map) == null);
+            ctx.Assert(cell.IsValid, $"no free standable cell within 14 cells of ({x}, {z})");
+            pawn.jobs?.StopAll();
+            pawn.pather?.StopDead();
+            pawn.Position = cell;
+            pawn.Notify_Teleported(false, true);
+        }
+
         // ------------------------------------------------------------------ a laid table (next gallery)
 
         /// <summary>

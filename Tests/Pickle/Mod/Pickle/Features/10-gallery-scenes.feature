@@ -16,7 +16,7 @@
 # pictures, there is no need to change it each time): `dining-nook` for 1 to 3 (wooden floor, a table on a white rug with two chairs, torches,
 # logs and plants along the bottom edge), `plant-garden` for 4 (a fenced garden of mixed plants). None of them is a framing still under review.
 #
-# 4 lists the free cells of the plant garden (log and attachment) and does not place Nelim yet: (190, 85) was not standable on the first pass.
+# 4 puts Nelim on the free cell nearest to (190, 85): that exact cell was not standable on the first pass and the listing step is gone.
 # CHOICES (every cell is provisional, to be read on the first played image): the free cells of the table, where Nelim stands, the cell of the hen.
 # Nelim is dressed by the photographer, vanilla garments only (no third-party mod in the pass): a teal shirt against the orange wood, cream
 # trousers, a ponytail of dark brown hair; never the default outfit. Steps from TailorMadeWaistlines' gallery (wears ... dyed rgb, hairstyle, hair colour).
@@ -40,6 +40,7 @@ Feature: Lunch is served
     And Flavor Text Extended: a colonist also cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
@@ -58,8 +59,9 @@ Feature: Lunch is served
     And I wait 268 ticks
     When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
-    And Flavor Text Extended: the info card is placed at the "left" of the screen
+    And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then I take a screenshot "lunch 12:05 - Nelim and the meal with two dishes at once, its card beside"
     When Nelim's Pickle Tools: screenshot mode is disabled
@@ -74,9 +76,10 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     And I wait 477 ticks
+    And an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
-    And an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
+    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_OeufMollet" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
@@ -86,8 +89,8 @@ Feature: Lunch is served
 
   # 4. 12:15. After lunch, in the plant garden. No card: a picture of the place and of the woman who grows what the dishes need.
   Scenario: after lunch, the plant garden
-    Given Nelim's Pickle Tools: the sanctuary "plant-garden" is listed
-    And Nelim's Pickle Tools: I am at the sanctuary "plant-garden"
+    Given Nelim's Pickle Tools: I am at the sanctuary "plant-garden"
+    And Flavor Text Extended: "Nelim" stands on the free cell nearest to (190, 85)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
