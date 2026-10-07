@@ -18,7 +18,7 @@
 #
 # 4 puts Nelim on the free cell nearest to (190, 85): that exact cell was not standable on the first pass and the listing step is gone.
 # CHOICES (every cell is provisional, to be read on the first played image): the free cells of the table, where Nelim stands, the cell of the hen.
-# Nelim is dressed by the photographer, vanilla garments only (no third-party mod in the pass): a teal shirt against the orange wood, cream
+# Nelim is dressed by the photographer, vanilla garments, on the retextured body of Venus Touch Waistlines' pass (owner, 2026-10-07: every pawn picture uses it): a teal shirt against the orange wood, cream
 # trousers, a ponytail of dark brown hair; never the default outfit. Steps from TailorMadeWaistlines' gallery (wears ... dyed rgb, hairstyle, hair colour).
 @review @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.stagedecor
 Feature: Lunch is served
@@ -43,7 +43,8 @@ Feature: Lunch is served
     And Flavor Text Extended: a colonist also cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
-    Given Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
@@ -64,7 +65,8 @@ Feature: Lunch is served
     And game speed is paused
     When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
-    Given Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
@@ -86,7 +88,8 @@ Feature: Lunch is served
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
-    Given Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
@@ -105,7 +108,8 @@ Feature: Lunch is served
     Given Nelim's Pickle Tools: I am at the sanctuary "plant-garden"
     And I wait 685 ticks
     And game speed is paused
-    Given Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)

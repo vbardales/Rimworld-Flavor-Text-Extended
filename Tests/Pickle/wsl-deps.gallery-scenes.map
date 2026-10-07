@@ -1,11 +1,25 @@
 # The "Lunch is served" gallery pass (Features/10-gallery-scenes.feature) on Nelim's sanctuary (Nelims-tribe), PickleTools docs/GALERIE.md.
-# Vanilla garments only: Nelim is dressed with ColonistRace's steps, no body or apparel mod (TailorMadeWaistlines' map adds some for other bodies).
-# Rustic Meal Retexture (Jelheb, 1.6, no dependency, "load by the end of your mod list"): the meals on the table look like a rustic lunch instead of a vanilla blob.
-# Development-only companions, never dependencies of Mod/About/About.xml. Select with -DepMap wsl-deps.gallery-scenes.map -Filter 10-gallery-scenes.feature.
-nelim.pickletools.colonistrace     path:PickleTools/ColonistRace/Mod
+# Every pawn picture uses Venus Touch Waistlines + TailorMade and the legless body retexture (owner, 2026-10-07): the same list as
+# APerfectMindInAPerfectBody/Tests/Pickle/wsl-deps.gallery-tmw.map and TailorMadeWaistlines/Tests/Pickle/wsl-deps.gallery.map, whose seeds are copied
+# into config/gallery-scenes/ (AB's trousers need theirs; Venus Touch's has the full-body shirt option ON).
+# Female Body Variants and Female Apparel Variants load BEFORE WDI (WDI declares loadAfter on both); TailorMade after the body mods.
+# Rustic Meal Retexture (Jelheb, 1.6, no dependency, "load by the end of your mod list"): the meals on the table look like a rustic lunch.
+# Development-only companions, never dependencies of Mod/About/About.xml.
+# Select with -DepMap wsl-deps.gallery-scenes.map -Filter 10-gallery-scenes.feature.
 nelim.pickletools.screenshotmode   path:PickleTools/ScreenshotMode/Mod
 nelim.pickletools.screenshotstudio path:PickleTools/ScreenshotStudio/Mod
 nelim.pickletools.camerazoom       path:PickleTools/CameraZoom/Mod
 nelim.pickletools.stagedecor       path:PickleTools/StageDecor/Mod
 nelim.pickletools.clearscreen      path:PickleTools/ClearScreen/Mod
+nelim.pickletools.inspecttabs      path:PickleTools/InspectTabs/Mod
+nelim.pickletools.coatsteps        path:PickleTools/CoatSteps/Mod
+nelim.pickletools.colonistrace     path:PickleTools/ColonistRace/Mod
+# The bundle is committed under PickleTools/Mod: this shell replaces it, so the tools above are the only copy of their steps (see StandaloneBase).
+nelim.pickletools                  path:PickleTools/Tests/Pickle/StandaloneBase/Mod
+tiagocc0.FemaleBodyVariants        3798082132
+tiagocc0.FemaleApparelVariants     3799726535
+wdi.realistic.bodies               3527486510
+ab.vplrf                           2986402536
+astryl.tailormade                  3756915448
+nelim.venustouch.waistlines        path:TailorMadeWaistlines/Mod
 Jelheb.RusticMealRetexture         3453364177
