@@ -76,7 +76,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     And I wait 477 ticks
-    And an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
+    And Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
@@ -96,9 +96,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     And I wait 685 ticks
-    When Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then I take a screenshot "lunch 12:15 - Nelim in the plant garden, where the next meal grows"
-    When Nelim's Pickle Tools: screenshot mode is disabled
 
 # The 5-minute rhythm above: 60 + 0 = 60 (not used, scenario 1 waits 60), 60 + 208 = 268, 60 + 417 = 477, 60 + 625 = 685.
 # The before / after has no scenario of its own: it is the same card captured twice. Pass 1, the mod absent (a game without

@@ -1,5 +1,6 @@
 # The "Lunch is served" gallery pass (Features/10-gallery-scenes.feature) on Nelim's sanctuary (Nelims-tribe), PickleTools docs/GALERIE.md.
 # Vanilla garments only: Nelim is dressed with ColonistRace's steps, no body or apparel mod (TailorMadeWaistlines' map adds some for other bodies).
+# Rustic Meal Retexture (Jelheb, 1.6, no dependency, "load by the end of your mod list"): the meals on the table look like a rustic lunch instead of a vanilla blob.
 # Development-only companions, never dependencies of Mod/About/About.xml. Select with -DepMap wsl-deps.gallery-scenes.map -Filter 10-gallery-scenes.feature.
 nelim.pickletools.colonistrace     path:PickleTools/ColonistRace/Mod
 nelim.pickletools.screenshotmode   path:PickleTools/ScreenshotMode/Mod
@@ -7,3 +8,4 @@ nelim.pickletools.screenshotstudio path:PickleTools/ScreenshotStudio/Mod
 nelim.pickletools.camerazoom       path:PickleTools/CameraZoom/Mod
 nelim.pickletools.stagedecor       path:PickleTools/StageDecor/Mod
 nelim.pickletools.clearscreen      path:PickleTools/ClearScreen/Mod
+Jelheb.RusticMealRetexture         3453364177
