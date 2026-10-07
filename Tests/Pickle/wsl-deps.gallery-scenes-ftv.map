@@ -1,7 +1,7 @@
 # VARIANT of wsl-deps.gallery-scenes.map for the meal-texture test (seventh pass).
 # The "Lunch is served" gallery pass (Features/10-gallery-scenes.feature) on Nelim's sanctuary (Nelims-tribe), PickleTools docs/GALERIE.md.
 # Every pawn picture uses Venus Touch Waistlines + TailorMade and the legless body retexture (owner, 2026-10-07): the same list as
-# APerfectMindInAPerfectBody/Tests/Pickle/wsl-deps.gallery-tmw.map and TailorMadeWaistlines/Tests/Pickle/wsl-deps.gallery.map, whose seeds are copied
+# APerfectMindInAPerfectBody/Tests/Pickle/wsl-deps.gallery-tmw.map and VenusTouchWaistlines (its gallery map), whose seeds are copied
 # into config/gallery-scenes/ (AB's trousers need theirs; Venus Touch's has the full-body shirt option ON).
 # Female Body Variants and Female Apparel Variants load BEFORE WDI (WDI declares loadAfter on both); TailorMade after the body mods.
 # Food Texture Variety (FaintingGoat, 3354456321, needs Core 3354455179) instead of Rustic Meal Retexture: tries different bowls per meal. Same pass otherwise.
@@ -22,6 +22,6 @@ tiagocc0.FemaleApparelVariants     3799726535
 wdi.realistic.bodies               3527486510
 ab.vplrf                           2986402536
 astryl.tailormade                  3756915448
-nelim.venustouch.waistlines        path:TailorMadeWaistlines/Mod
+nelim.venustouch.waistlines        path:VenusTouchWaistlines/Mod
 Goat.Food.Texture.Variety.Core      3354455179
 Goat.Food.Texture.Variety           3354456321

@@ -1,6 +1,6 @@
 # The "Lunch is served" gallery pass (Features/10-gallery-scenes.feature) on Nelim's sanctuary (Nelims-tribe), PickleTools docs/GALERIE.md.
 # Every pawn picture uses Venus Touch Waistlines + TailorMade and the legless body retexture (owner, 2026-10-07): the same list as
-# APerfectMindInAPerfectBody/Tests/Pickle/wsl-deps.gallery-tmw.map and TailorMadeWaistlines/Tests/Pickle/wsl-deps.gallery.map, whose seeds are copied
+# APerfectMindInAPerfectBody/Tests/Pickle/wsl-deps.gallery-tmw.map and VenusTouchWaistlines (its gallery map), whose seeds are copied
 # into config/gallery-scenes/ (AB's trousers need theirs; Venus Touch's has the full-body shirt option ON).
 # Female Body Variants and Female Apparel Variants load BEFORE WDI (WDI declares loadAfter on both); TailorMade after the body mods.
 # Rustic Meal Retexture (Jelheb, 1.6, no dependency, "load by the end of your mod list"): the meals on the table look like a rustic lunch.
@@ -21,5 +21,5 @@ tiagocc0.FemaleApparelVariants     3799726535
 wdi.realistic.bodies               3527486510
 ab.vplrf                           2986402536
 astryl.tailormade                  3756915448
-nelim.venustouch.waistlines        path:TailorMadeWaistlines/Mod
+nelim.venustouch.waistlines        path:VenusTouchWaistlines/Mod
 Jelheb.RusticMealRetexture         3453364177
