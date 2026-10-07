@@ -339,6 +339,19 @@ namespace FlavorTextExtended.PickleSteps
             pawn.Notify_Teleported(false, true);
         }
 
+        /// <summary>
+        /// Diagnostic, never fails: writes to the log where a colonist is just before a capture (spawned or not, cell, current job), because a picture
+        /// without her says nothing about why.
+        /// </summary>
+        [Then("Flavor Text Extended: {string} is logged")]
+        public void ColonistIsLogged(PickleContext ctx, string name)
+        {
+            Pawn pawn = Find.CurrentMap?.mapPawns.FreeColonists.FirstOrDefault(p => p.LabelShort == name);
+            Log.Message(pawn == null
+                ? $"[Flavor Text Extended] {name}: no such colonist on the map"
+                : $"[Flavor Text Extended] {name}: spawned={pawn.Spawned} position={pawn.Position} job={pawn.CurJob?.def.defName ?? "none"} drafted={pawn.Drafted}");
+        }
+
         // ------------------------------------------------------------------ a laid table (next gallery)
 
         /// <summary>

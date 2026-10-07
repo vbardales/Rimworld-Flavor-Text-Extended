@@ -32,71 +32,86 @@ Feature: Lunch is served
     And I set the weather to "Clear"
     And Nelim's Pickle Tools: all animals are removed
 
-  # 1. 12:00. Four different meals on the table, the katsudon's card beside them.
+  # ORDER OF EVERY SCENARIO (NPT, 2026-10-07): the waits first, then the game paused, then the dressing, then "stands at" LAST, then the framing and the
+  # capture with no wait after. A pawn is held only while the game is paused and without a job: a wait after "stands at" lets her go back to her job.
+  # 1. 12:00. Four different meals on the table, the katsudon's card beside them, Nelim at the table.
   Scenario: the table is laid
     Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
     And I wait 60 ticks
+    And game speed is paused
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
     And Flavor Text Extended: a colonist also cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    Given Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
+    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
+    Given Nelim's Pickle Tools: "Nelim" stands at (176, 106) facing North
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    Then I take a screenshot "lunch 12:00 - the table is laid, the katsudon card beside it"
+    Then Flavor Text Extended: "Nelim" is logged
+    And I take a screenshot "lunch 12:00 - the table is laid, the katsudon card beside it"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
   # 2. 12:05. Nelim at the table. A seated pose is the open question (no step known, ASK PICKLE TOOLS): until then she stands at the table.
   Scenario: Nelim eats the meal with two dishes at once
     Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
-    And Nelim's Pickle Tools: "Nelim" stands at (176, 106) facing North
-    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And I wait 268 ticks
+    And game speed is paused
+    When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
+    And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    Given Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
-    And I wait 268 ticks
-    When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
-    And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    Given Nelim's Pickle Tools: "Nelim" stands at (176, 106) facing North
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    Then I take a screenshot "lunch 12:05 - Nelim and the meal with two dishes at once, its card beside"
+    Then Flavor Text Extended: "Nelim" is logged
+    And I take a screenshot "lunch 12:05 - Nelim and the meal with two dishes at once, its card beside"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
   # 3. 12:10. The egg and a hen. The hen is posed after the wait.
   Scenario: the medium-boiled egg and a hen that came to see
     Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
-    And Nelim's Pickle Tools: "Nelim" stands at (176, 106) facing North
-    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And I wait 477 ticks
+    And game speed is paused
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
+    And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
+    Given Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
-    And I wait 477 ticks
-    And Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
-    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
-    And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    Given Nelim's Pickle Tools: "Nelim" stands at (176, 106) facing North
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_OeufMollet" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    Then I take a screenshot "lunch 12:10 - the medium-boiled egg and a hen at the table"
+    Then Flavor Text Extended: "Nelim" is logged
+    And I take a screenshot "lunch 12:10 - the medium-boiled egg and a hen at the table"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
   # 4. 12:15. After lunch, in the plant garden. No card: a picture of the place and of the woman who grows what the dishes need.
   Scenario: after lunch, the plant garden
     Given Nelim's Pickle Tools: I am at the sanctuary "plant-garden"
-    And Flavor Text Extended: "Nelim" stands on the free cell nearest to (190, 85)
-    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And I wait 685 ticks
+    And game speed is paused
+    Given Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
-    And I wait 685 ticks
-    Then I take a screenshot "lunch 12:15 - Nelim in the plant garden, where the next meal grows"
+    Given Flavor Text Extended: "Nelim" stands on the free cell nearest to (190, 85)
+    Then Flavor Text Extended: "Nelim" is logged
+    And I take a screenshot "lunch 12:15 - Nelim in the plant garden, where the next meal grows"
 
 # The 5-minute rhythm above: 60 + 0 = 60 (not used, scenario 1 waits 60), 60 + 208 = 268, 60 + 417 = 477, 60 + 625 = 685.
 # The before / after has no scenario of its own: it is the same card captured twice. Pass 1, the mod absent (a game without
