@@ -36,7 +36,7 @@ Feature: Lunch is served
   # capture with no wait after. A pawn is held only while the game is paused and without a job: a wait after "stands at" lets her go back to her job.
   # 1. 12:00. Four different meals on the table, the katsudon's card beside them, Nelim at the table.
   Scenario: the table is laid
-    Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
+    Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 60 ticks
     And game speed is paused
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
@@ -60,7 +60,7 @@ Feature: Lunch is served
 
   # 2. 12:05. Nelim at the table. A seated pose is the open question (no step known, ASK PICKLE TOOLS): until then she stands at the table.
   Scenario: Nelim eats the meal with two dishes at once
-    Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
+    Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 268 ticks
     And game speed is paused
     When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
@@ -82,7 +82,7 @@ Feature: Lunch is served
 
   # 3. 12:10. The egg and a hen. The hen is posed after the wait.
   Scenario: the medium-boiled egg and a hen that came to see
-    Given Nelim's Pickle Tools: I am at the sanctuary "dining-nook"
+    Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 477 ticks
     And game speed is paused
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
@@ -105,7 +105,7 @@ Feature: Lunch is served
 
   # 4. 12:15. After lunch, in the plant garden. No card: a picture of the place and of the woman who grows what the dishes need.
   Scenario: after lunch, the plant garden
-    Given Nelim's Pickle Tools: I am at the sanctuary "plant-garden"
+    Given Nelim's Sanctuary: I am at the sanctuary "plant-garden"
     And I wait 685 ticks
     And game speed is paused
     Given Nelim's Pickle Tools: "Nelim" body type is Female
