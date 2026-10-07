@@ -99,6 +99,18 @@ namespace FlavorTextExtended.PickleSteps
         [When("Flavor Text Extended: a colonist cooks {string} at the {string} from {string}, {int} times")]
         public void Cook(PickleContext ctx, string recipeDefName, string stationDefName, string ingredientDefNames, int times)
         {
+            CookInto(ctx, recipeDefName, stationDefName, ingredientDefNames, times, true);
+        }
+
+        /// <summary>Like "cooks", but keeps the meals already cooked in this scenario: a laid table needs meals of several recipes.</summary>
+        [When("Flavor Text Extended: a colonist also cooks {string} at the {string} from {string}, {int} times")]
+        public void CookAlso(PickleContext ctx, string recipeDefName, string stationDefName, string ingredientDefNames, int times)
+        {
+            CookInto(ctx, recipeDefName, stationDefName, ingredientDefNames, times, false);
+        }
+
+        private void CookInto(PickleContext ctx, string recipeDefName, string stationDefName, string ingredientDefNames, int times, bool reset)
+        {
             ctx.Require(Current.Game != null && Find.CurrentMap != null, "load a save first");
             Map map = Find.CurrentMap;
 
@@ -117,7 +129,7 @@ namespace FlavorTextExtended.PickleSteps
             ctx.Assert(ingredientDefs.Count > 0, "no ingredient named");
             ctx.Assert(times > 0, "cook at least once");
 
-            meals = new List<Meal>();
+            if (reset) meals = new List<Meal>();
             lastCook = $"{times} x {recipeDefName} at {stationDefName} from [{string.Join(", ", ingredientDefs.Select(d => d.defName))}]";
 
             for (int i = 0; i < times; i++)
