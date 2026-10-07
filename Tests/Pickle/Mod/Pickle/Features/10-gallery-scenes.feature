@@ -48,7 +48,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
-    Given Nelim's Pickle Tools: "Nelim" stands at (176, 106) facing North
+    Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
@@ -70,7 +70,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
-    Given Nelim's Pickle Tools: "Nelim" stands at (176, 106) facing North
+    Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
@@ -93,7 +93,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
-    Given Nelim's Pickle Tools: "Nelim" stands at (176, 106) facing North
+    Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_OeufMollet" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
@@ -114,6 +114,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Flavor Text Extended: "Nelim" stands on the free cell nearest to (190, 85)
+    And Nelim's Pickle Tools: I frame the cell (190, 85) at zoom 5
     Then Flavor Text Extended: "Nelim" is logged
     And I take a screenshot "lunch 12:15 - Nelim in the plant garden, where the next meal grows"
 
