@@ -3,7 +3,7 @@
 # THE STORY: "Lunch is served" (Nelim's lunch). One midday on the Sanctuary, told in four pictures, the table first because Steam shows image 1 large.
 #   1. 12:00  The table is laid: several cooked meals, each with a different dish name, on the dining nook's table; one card beside them.
 #   2. 12:05  Nelim sits and eats; the card of the meal with two dishes at once is open beside her.
-#   3. 12:10  The simplest dish, a medium-boiled egg, and a hen that came to see (a daytime animal at noon).
+#   3. 12:10  A meat and milk dish of three ingredients, and a hen that came to see (a daytime animal at noon).
 #   4. 12:15  After lunch, Nelim is in the plant garden, where the ingredients of the next meal grow.
 # Not here: the breadth picture (many dish names at once) and the before / after composite. See README.md.
 #
@@ -41,7 +41,7 @@ Feature: Lunch is served
     And game speed is paused
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
     And Flavor Text Extended: a colonist also cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
-    And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
+    And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     Given Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
@@ -80,8 +80,8 @@ Feature: Lunch is served
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
-  # 3. 12:10. The egg and a hen. The hen is posed after the wait.
-  Scenario: the medium-boiled egg and a hen that came to see
+  # 3. 12:10. The meat and milk dish and a hen. The hen is posed after the wait.
+  Scenario: the meat and milk dish and a hen that came to see
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 477 ticks
     And game speed is paused
@@ -99,7 +99,7 @@ Feature: Lunch is served
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then Flavor Text Extended: "Nelim" is logged
-    And I take a screenshot "lunch 12:10 - the medium-boiled egg and a hen at the table"
+    And I take a screenshot "lunch 12:10 - the meat and milk dish and a hen at the table"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
