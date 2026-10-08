@@ -32,6 +32,8 @@ Feature: Lunch is served
     And I set the weather to "Clear"
     And Nelim's Pickle Tools: all animals are removed
 
+  # FACE (NPT, 2026-10-08): after the pause, the temperature is held at 20 degrees and 120 ticks pass (the heat face and its sweat go away), then the dressing,
+  # "stands at", the expression ("normal+moodCheerful2": a light smile), the framing and the capture with no tick in between: the expression ends with the ticks.
   # ORDER OF EVERY SCENARIO (NPT, 2026-10-07): the waits first, then the game paused, then the dressing, then "stands at" LAST, then the framing and the
   # capture with no wait after. A pawn is held only while the game is paused and without a job: a wait after "stands at" lets her go back to her job.
   # 1. 12:00. Four different meals on the table, the katsudon's card beside them, Nelim at the table.
@@ -39,6 +41,8 @@ Feature: Lunch is served
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 60 ticks
     And game speed is paused
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: I let 120 ticks pass
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
     And Flavor Text Extended: a colonist also cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
@@ -49,6 +53,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
+    When Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
@@ -63,6 +68,8 @@ Feature: Lunch is served
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 268 ticks
     And game speed is paused
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: I let 120 ticks pass
     When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     Given Nelim's Pickle Tools: "Nelim" body type is Female
@@ -71,6 +78,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
+    When Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
@@ -85,6 +93,8 @@ Feature: Lunch is served
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 477 ticks
     And game speed is paused
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: I let 120 ticks pass
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
@@ -94,6 +104,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
+    When Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
@@ -108,12 +119,15 @@ Feature: Lunch is served
     Given Nelim's Sanctuary: I am at the sanctuary "plant-garden"
     And I wait 685 ticks
     And game speed is paused
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: I let 120 ticks pass
     Given Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Flavor Text Extended: "Nelim" stands on the free cell nearest to (190, 85)
+    When Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
     And Nelim's Pickle Tools: I frame the cell (190, 85) at zoom 5
     Then Flavor Text Extended: "Nelim" is logged
     And I take a screenshot "lunch 12:15 - Nelim in the plant garden, where the next meal grows"
