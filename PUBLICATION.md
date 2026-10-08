@@ -9,14 +9,17 @@ The Workshop gallery images are in `Art/Gallery/` in their Steam display order. 
 regenerated on 2026-10-06 (run 4cb9, tree 5bf7bef, `window-backdrop-for-height`) and approved by the owner the same day. The gallery
 on the Steam page is uploaded by hand by the owner: she uploaded the `for-height` set now in
 `Art/Gallery/` (images 0 to 3) on 2026-10-06, replacing the earlier `exhibition-zone` set (as reported by her).
+Images 4 and later are new candidates from the "Lunch is served" story (`Tests/Pickle/Mod/Pickle/Features/10-gallery-scenes.feature`), named
+`N-candidate-<subject>`: the owner accepts (the word `candidate` goes) or refuses (the file is deleted). `Art/ModIcon-original.png` is the first
+icon (mascot with its ribbon lettering, 128 x 128), kept as a record.
 
 ## Before the upload
 
 - **Description.** `Mod/About/About.xml` is sent to Steam **only when the item is created**; any later correction is made
-  by hand on the Steam page. The Steam-ready text is English and ends with the adoption clause (`IF I GO QUIET`), the
+  by hand on the Steam page or by the CI (`update_description`, off by default). The Steam-ready text is English and ends with the adoption clause (`IF I GO QUIET`), the
   `AI-GENERATED` disclosure, `THANKS`, the attribution/licence line, then
   `[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]`.
-- **Version.** `modVersion` 1.1.0 (published 2026-09-24 through GitHub Actions, run 36001072152 on `9bd7fd3`, tag `v1.1.0` and release created by the workflow; 1.0.0 was the first upload, 2026-09-22), `supportedVersions` 1.6 only. No `LoadFolders.xml`, none needed.
+- **Version.** `modVersion` 1.2.2 in `About.xml` (prepared 2026-10-08, English proofreading; not published yet). The published release is 1.2.1 (CI, tag `v1.2.1`); the releases are listed in `STATUS.md`. 1.0.0 was the first upload, 2026-09-22. `supportedVersions` 1.6 only. No `LoadFolders.xml`, none needed. The 1.2.2 dispatch carries `--preview` (the header image changed after 1.2.1).
 - **Repository.** Public and pushed. Annotated tag `v1.0.0` and its GitHub release both target
   `5ba5fe7`, the first revision that contains package ID `nelim.flavortextextended` and version `1.0.0`:
   https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0.
