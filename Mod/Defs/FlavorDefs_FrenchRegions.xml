@@ -57,7 +57,7 @@
 			<li><categories><li>FT_Anchovy</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll}, {1_coll} and {2_coll} crushed in a mortar into a black, salt paste. The name comes from the capers, which we do not have.</description>
+		<description>{0_coll}, {1_coll} and {2_coll} crushed in a mortar into a black, salty paste. The name comes from the capers, which we do not have.</description>
 		<mealKinds>
 			<li>FT_MealsPaste</li>
 			<li>FT_MealsSnack</li>

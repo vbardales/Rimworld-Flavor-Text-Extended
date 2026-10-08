@@ -99,7 +99,7 @@
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
-		<description>{1_coll} cooked dry for a whole hour before any fat goes in at all, then a mixture of {2_adj} and spices, and {0_coll}. One whole hard-boiled egg per guest, scored to take up the sauce.</description>
+		<description>{1_coll} cooked dry for a whole hour before any fat is added, then mixed with {2_adj}, spices, and {0_coll}. One whole hard-boiled egg per guest, scored to take up the sauce.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

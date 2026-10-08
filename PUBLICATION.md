@@ -204,6 +204,19 @@ question. It says only what was measured (docs/runs/2026-09-26-frequency.md).
 You're right about the chunks, and my first answer was too quick: it only explains meals of 1 or 2 ingredients. For 3 or more it is simpler and less flattering: my dishes are specific combinations (rice + pork + egg is katsudon), so a random triple rarely lands on one. To answer your question, yes, they show up in my in-game tests. I measured it with Pickle in a real game (400 seeded meals of random vanilla ingredients): my dishes name 0% of the 2-ingredient meals, 0.8% of the 3, 2.3% of the 4. Rice + pork + egg gives katsudon, eggs alone give the medium-boiled egg. So very rarely on random ingredients, which matches your screenshot. I'm adding shorter forms for small meals, and I'll test it in game before it goes out. Thanks for pushing back!
 ```
 
+### 1.2.2
+
+```
+[h1]1.2.2[/h1]
+A proofreading of the English.
+[list]
+[*] 53 dish descriptions corrected after a full read of the dishes: missing or wrong words, a few awkward sentences, dates written as numbers.
+[*] Nothing else changed: no dish was added, removed or renamed, and no meal is named differently.
+[/list]
+Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] (hekmo).
+Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
+```
+
 ### 1.2.1
 
 ```

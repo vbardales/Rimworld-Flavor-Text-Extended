@@ -357,7 +357,7 @@
 			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>lengths of {0_adj} rolled in a seasoned flour and fried in {2_plur} to a gold. You eat around the ribs, as you would a corn cob.</description>
+		<description>lengths of {0_adj} rolled in a seasoned flour and fried in {2_plur} until golden. You eat around the ribs, as you would a corn cob.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 		</mealKinds>

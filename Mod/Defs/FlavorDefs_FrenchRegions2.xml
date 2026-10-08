@@ -58,7 +58,7 @@
 			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} melted in {2_plur} without colour, shut between two sheets of pastry and baked until the top gilds. Picard, and with no cream at all in the original.</description>
+		<description>{0_coll} melted in {2_plur} without colour, shut between two sheets of pastry and baked until the top gilds. A Picard dish, with no cream at all in the original.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -174,7 +174,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} opened over a high flame in {2_plur}, the liquor they give up strained of its sand then reduced and bound with {1_plur}, and poured back over them.</description>
+		<description>{0_coll} opened over a high flame in {2_plur}, their liquor strained of sand, then reduced and bound with {1_plur}, and poured back over them.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -439,7 +439,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cut by knife and marinated two days in white {2_plur}, shut inside a narrow puff pastry. Eaten warm, never scalding.</description>
+		<description>{0_coll} cut with a knife and marinated two days in white {2_plur}, shut inside a narrow puff pastry. Eaten warm, never scalding.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -454,7 +454,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} and the roots of winter stewed together with smoked and salted {1_coll}. The broth is served first, over bread; the meats come afterwards.</description>
+		<description>{0_coll} and winter roots stewed together with smoked and salted {1_coll}. The broth is served first, over bread; the meats come afterwards.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>

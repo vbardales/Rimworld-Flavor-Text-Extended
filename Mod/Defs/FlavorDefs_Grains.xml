@@ -213,7 +213,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>hulled {0_coll} cooked an hour in {1_plur} with a stick of cinnamon and barely any {2_adj}. Rougher than rice pudding, and a good deal more sustaining.</description>
+		<description>hulled {0_coll} cooked for an hour in {1_plur} with a stick of cinnamon and barely any {2_adj}. Rougher than rice pudding, and a good deal more sustaining.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
@@ -385,7 +385,7 @@
 			<li><categories><li>FT_Okra</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>a firm paste of {0_adj} worked with a spatula against the wall of the pot, dipped into a stringing {1_adj} sauce mounted with {2_plur}. Eaten by hand, digging into the ball.</description>
+		<description>a firm paste of {0_adj} worked with a spatula against the wall of the pot, dipped into a stringy {1_adj} sauce mounted with {2_plur}. Eaten by hand, digging into the ball.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

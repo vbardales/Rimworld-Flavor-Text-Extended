@@ -101,7 +101,7 @@
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
-		<description>a stuffing of {0_adj} chopped by knife and whole {1_adj}, in a {2_adj} wrapper pinched into an open collar. Steamed in a basket, with a whole prawn set on top.</description>
+		<description>a stuffing of {0_adj} chopped with a knife and whole {1_adj}, in a {2_adj} wrapper pinched into an open collar. Steamed in a basket, with a whole prawn set on top.</description>
 		<mealKinds>
 			<li>FT_MealsDumpling</li>
 		</mealKinds>
@@ -174,7 +174,7 @@
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>an escalope of {0_adj} beaten to paper, taken through flour, {2_plur} and then breadcrumbs, and cooked in a great deal of clarified {1_adj} rolled over it so that the coating puffs and lifts away.</description>
+		<description>an escalope of {0_adj} beaten to paper, taken through flour, {2_plur} and then breadcrumbs, and cooked in a great deal of clarified {1_adj}, constantly spooned over it so that the coating puffs and lifts away.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

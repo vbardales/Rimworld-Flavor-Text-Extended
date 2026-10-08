@@ -396,7 +396,7 @@
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
-		<description>the small muscle of the shank, braised so long that it slides off the bone. One shank a guest, never fewer.</description>
+		<description>the small muscle of the shank, braised so long that it slides off the bone. One shank per guest, never fewer.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -408,7 +408,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 		</ingredients>
-		<description>the small muscle of the shank, braised so long that it slides off the bone. One shank a guest, never fewer.</description>
+		<description>the small muscle of the shank, braised so long that it slides off the bone. One shank per guest, never fewer.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -474,7 +474,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>a puff pastry case so light it might fly away — hence the name — filled with {0_adj} and {1_adj} in a white sauce, and re-hatted with its own lid.</description>
+		<description>a puff pastry case so light it might fly away — hence the name — filled with {0_adj} and {1_adj} in a white sauce, and topped again with its own lid.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>
@@ -516,7 +516,7 @@
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>a ring of choux pastry split and filled with a {0_adj} praline cream. The shape imitates a bicycle wheel: the pastrycook had his shop on the route of the race.</description>
+		<description>a ring of choux pastry split and filled with a {0_adj} praline cream. The shape imitates a bicycle wheel: the pastry cook had his shop on the route of the race.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -837,7 +837,7 @@
 			<li><categories><li>FT_Date</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>a semolina worked with clarified {1_plur} and rested overnight, filled with {0_plur} and pressed into a carved wooden mould. Each pattern names a different filling.</description>
+		<description>a semolina dough worked with clarified {1_plur} and rested overnight, filled with {0_plur} and pressed into a carved wooden mould. Each pattern names a different filling.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -1123,7 +1123,7 @@
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 		</ingredients>
-		<description>{0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever kept on board.</description>
+		<description>{0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever was kept on board.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -1365,7 +1365,7 @@
 			<li><categories><li>FT_Leek</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} melted in {1_plur} without colour, shut between two sheets of pastry and baked until the top gilds. Picard, and with no cream at all in the original.</description>
+		<description>{0_coll} melted in {1_plur} without colour, shut between two sheets of pastry and baked until the top gilds. A Picard dish, with no cream at all in the original.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>
@@ -1515,7 +1515,7 @@
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{0_coll} and the roots of winter stewed together with smoked and salted {1_coll}. The broth is served first, over bread; the meats come afterwards.</description>
+		<description>{0_coll} and winter roots stewed together with smoked and salted {1_coll}. The broth is served first, over bread; the meats come afterwards.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -1541,7 +1541,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 		</ingredients>
-		<description>{0_coll} half-cooked and marinated {1_coll} built up in layers, sealed under a lid luted with dough, and finished smothered. It is never stirred: every layer must still be distinct when it is opened.</description>
+		<description>{0_coll}, half-cooked, and marinated {1_coll} built up in layers, sealed under a lid luted with dough, and finished smothered. It is never stirred: every layer must still be distinct when it is opened.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -1554,7 +1554,7 @@
 			<li><categories><li>FT_LeafyVeg</li></categories></li>
 			<li><categories><li>FT_Cheese</li></categories></li>
 		</ingredients>
-		<description>{0_coll} blanched then ground into a green purée kept brief so as not to brown, into which are set cubes of fresh {1_adj} that do not melt.</description>
+		<description>{0_coll} blanched then ground into a green purée cooked only briefly so that it does not brown, into which are set cubes of fresh {1_adj} that do not melt.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -1741,7 +1741,7 @@
 			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>a mountain of herbs chopped by knife, {1_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere.</description>
+		<description>a mountain of herbs chopped with a knife, {1_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -1753,7 +1753,7 @@
 		<ingredients>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>a mountain of herbs chopped by knife, {0_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere.</description>
+		<description>a mountain of herbs chopped with a knife, {0_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
@@ -2071,7 +2071,7 @@
 			<li><categories><li>FT_Meat_Twisted</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} minced twice, let down with crumb and heavily {1_plur}, cased and then poached. The mincer settles the question of texture.</description>
+		<description>{0_coll} minced twice, let down with crumb and heavily seasoned with {1_plur}, cased and then poached. The mincer settles the question of texture.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -2152,7 +2152,7 @@
 			<li><categories><li>FT_Meat_Snake</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>lengths of {0_adj} rolled in a seasoned flour and fried in {1_plur} to a gold. You eat around the ribs, as you would a corn cob.</description>
+		<description>lengths of {0_adj} rolled in a seasoned flour and fried in {1_plur} until golden. You eat around the ribs, as you would a corn cob.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 		</mealKinds>
@@ -2204,7 +2204,7 @@
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 		</ingredients>
-		<description>{0_adj} wrappers dipped a second into warm water, rolled tight over {1_coll} and herbs. You can see the pink through the sheet: that is why it is rolled that way round.</description>
+		<description>{0_adj} wrappers dipped for a second in warm water, rolled tight over {1_coll} and herbs. You can see the pink through the sheet: that is why it is rolled that way round.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsSnack</li>
@@ -2383,7 +2383,7 @@
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{1_coll} chopped by knife and worked in one direction only until it turns elastic, {0_coll} in small dice through it, the whole spread into a cake and steamed over the rice.</description>
+		<description>{1_coll} chopped with a knife and worked in one direction only until it turns elastic, {0_coll} in small dice through it, the whole spread into a cake and steamed over the rice.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -2585,7 +2585,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 		</ingredients>
-		<description>{0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever kept on board.</description>
+		<description>{0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever was kept on board.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>

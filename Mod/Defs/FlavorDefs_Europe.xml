@@ -103,7 +103,7 @@
 			<li><categories><li>FT_Garlic</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>stale bread soaked in boiling water with {1_plur} and coriander, beaten into a porridge, with {2_coll} poached in it. An Alentejo dish of poverty turned emblem.</description>
+		<description>stale bread soaked in boiling water with {1_plur} and coriander, beaten into a porridge, with {2_coll} poached in it. An Alentejo dish of poverty turned emblematic.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
@@ -451,7 +451,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever kept on board.</description>
+		<description>{0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever was kept on board.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>

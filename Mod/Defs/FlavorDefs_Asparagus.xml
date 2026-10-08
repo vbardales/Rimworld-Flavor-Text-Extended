@@ -90,7 +90,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Dairy</li></categories></li>
 		</ingredients>
-		<description>{0_coll} drained a long while then packed tight under a {1_adj} béchamel and {2_plur}, put through the oven until the surface blisters.</description>
+		<description>{0_coll} drained for a long time, then packed tightly under a {1_adj} béchamel and {2_plur}, and baked until the surface blisters.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 		</mealKinds>

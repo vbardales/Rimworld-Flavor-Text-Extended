@@ -12,7 +12,7 @@
 			<li><categories><li>FT_Spice</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cooked until they fall apart, then woken with a tempering: {1_coll} and {2_coll} fried for a handful of seconds in scalding butter and poured over, still hissing.</description>
+		<description>{0_coll} cooked until they fall apart, then woken with a tempering: {1_coll} and {2_coll} fried for just a few seconds in scalding butter and poured over, still hissing.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
@@ -27,7 +27,7 @@
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_RootVeg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} half-cooked and marinated {1_coll} built up in layers, sealed under a lid luted with dough, and finished smothered. It is never stirred: every layer must still be distinct when it is opened.</description>
+		<description>{0_coll}, half-cooked, and marinated {1_coll} built up in layers, sealed under a lid luted with dough, and finished smothered. It is never stirred: every layer must still be distinct when it is opened.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -85,7 +85,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
-		<description>{0_coll} blanched then ground into a green purée kept brief so as not to brown, into which are set cubes of fresh {1_adj} that do not melt.</description>
+		<description>{0_coll} blanched then ground into a green purée cooked only briefly so that it does not brown, into which are set cubes of fresh {1_adj} that do not melt.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

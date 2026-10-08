@@ -12,7 +12,7 @@
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
-		<description>{0_adj} wrappers dipped a second into warm water, rolled tight over {1_coll} and herbs. You can see the pink through the sheet: that is why it is rolled that way round.</description>
+		<description>{0_adj} wrappers dipped for a second in warm water, rolled tight over {1_coll} and herbs. You can see the pink through the sheet: that is why it is rolled that way round.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsSnack</li>
@@ -57,7 +57,7 @@
 			<li><categories><li>FT_Peanut</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_adj} noodles fried in a tamarind caramel, {2_coll} scrambled off to one side and then folded back over them, crushed {1_coll} at the end. Invented in the nineteen-thirties to save on whole-grain rice.</description>
+		<description>{0_adj} noodles fried in a tamarind caramel, {2_coll} scrambled off to one side and then folded back over them, crushed {1_coll} at the end. Invented in the 1930s to save on whole-grain rice.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 			<li>FT_MealsStirFry</li>

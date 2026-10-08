@@ -79,7 +79,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>a purée of {0_adj} put through the oven before being blended, mounted with {1_plur} and {2_plur} off the heat. The oven concentrates the sugar and erases the acidity, which no addition does half as well.</description>
+		<description>a purée of {0_adj} roasted before being blended, then mounted with {1_plur} and {2_plur} off the heat. The oven concentrates the sugar and erases the acidity, which no addition does half as well.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>

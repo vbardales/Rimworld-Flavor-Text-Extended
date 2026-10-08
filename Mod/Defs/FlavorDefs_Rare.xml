@@ -511,7 +511,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
 		</ingredients>
-		<description>{1_coll} chopped by knife and fried very dry, served scalding in chilled {0_adj} cups, with {2_adj} oil and crushed peanuts. The contrast of temperature is the dish.</description>
+		<description>{1_coll} chopped with a knife and fried very dry, served scalding in chilled {0_adj} cups, with {2_adj} oil and crushed peanuts. The contrast of temperature is the dish.</description>
 		<mealKinds>
 			<li>FT_MealsStirFry</li>
 		</mealKinds>

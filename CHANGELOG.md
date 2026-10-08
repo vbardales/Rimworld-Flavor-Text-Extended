@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2] - 2026-10-08
+
+- Correct the English of 53 dish descriptions after a full proofreading of the 1,165 dishes and their 466 shorter forms. Missing words, a wrong
+  word (`emblem` for `emblematic`, `stringing` for `stringy`, `pastrycook` for `pastry cook`), `by knife` for `with a knife`, two sentences that did
+  not scan (the medium-boiled egg, the schnitzel) and a few dates written out (`the 1960s`). Dish names, ingredients and every rule are unchanged:
+  only the wording of these descriptions.
+
 ## [1.2.1] - 2026-09-28
 
 - Replace the mod icon: the published one was a 64 x 64 image enlarged to 128 x 128 and looked pixelated in the mod list. The new one is the

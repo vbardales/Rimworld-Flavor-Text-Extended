@@ -24,7 +24,7 @@
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>exactly six minutes in simmering water, then straight into ice. The white is firm, the yolk still runs. It is the only one of the three shell cookings that peels cleanly, and it wants patience and eggs that are not yesterday's.</description>
+		<description>exactly six minutes in simmering water, then straight into ice. The white is firm, the yolk still runs. Of the three ways to cook eggs in their shells, this is the only one that peels cleanly; it requires patience and eggs that are a few days old.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>

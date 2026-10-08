@@ -98,7 +98,7 @@
 			<li><categories><li>FT_Kelp</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} seasoned with sesame oil — not with vinegar — rolled in {1_plur} with a strip of {2_adj} as omelette, then sliced. Picnic and train food.</description>
+		<description>{0_coll} seasoned with sesame oil — not with vinegar — rolled in {1_plur} with a strip of {2_adj} in the form of an omelette, then sliced. Picnic and train food.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsNonSpecial</li>

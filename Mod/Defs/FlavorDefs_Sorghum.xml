@@ -26,7 +26,7 @@
 			<li><categories><li>FT_Okra</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>a {0_adj} paste beaten with a spatula until it turns smooth and firm, served with a stringing {1_adj} sauce. You take a ball of it in your right hand, hollow it with your thumb, and dip.</description>
+		<description>a {0_adj} paste beaten with a spatula until it turns smooth and firm, served with a stringy {1_adj} sauce. You take a ball of it in your right hand, hollow it with your thumb, and dip.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

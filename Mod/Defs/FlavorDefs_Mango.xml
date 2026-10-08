@@ -423,7 +423,7 @@
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
 		</ingredients>
-		<description>{1_coll} cut by knife into even dice, mixed with {0_plur} of the same size, {2_adj} oil and soy. Cut in a machine, the fish turns to paste: that is the one thing to avoid.</description>
+		<description>{1_coll} cut with a knife into even dice, mixed with {0_plur} of the same size, {2_adj} oil and soy. Cut in a machine, the fish turns to paste: that is the one thing to avoid.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 			<li>FT_MealsNonSpecial</li>

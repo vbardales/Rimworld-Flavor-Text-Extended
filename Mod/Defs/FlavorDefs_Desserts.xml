@@ -134,7 +134,7 @@
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>a ring of choux pastry split and filled with a {1_adj} praline cream. The shape imitates a bicycle wheel: the pastrycook had his shop on the route of the race.</description>
+		<description>a ring of choux pastry split and filled with a {1_adj} praline cream. The shape imitates a bicycle wheel: the pastry cook had his shop on the route of the race.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -723,7 +723,7 @@
 			<li><categories><li>FT_Date</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>a semolina worked with clarified {2_plur} and rested overnight, filled with {1_plur} and pressed into a carved wooden mould. Each pattern names a different filling.</description>
+		<description>a semolina dough worked with clarified {2_plur} and rested overnight, filled with {1_plur} and pressed into a carved wooden mould. Each pattern names a different filling.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -768,7 +768,7 @@
 			<li><categories><li>FT_Milk</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} grated and cooked an hour in {1_plur} until every drop of liquid has gone, then candied in ghee. The vegetable becomes a dessert without anything else being added.</description>
+		<description>{0_coll} grated and cooked for an hour in {1_plur} until every drop of liquid has gone, then candied in ghee. The vegetable becomes a dessert without anything else being added.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>

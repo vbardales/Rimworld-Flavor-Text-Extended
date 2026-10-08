@@ -84,7 +84,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
-		<description>a mountain of herbs chopped by knife, {1_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere.</description>
+		<description>a mountain of herbs chopped with a knife, {1_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>

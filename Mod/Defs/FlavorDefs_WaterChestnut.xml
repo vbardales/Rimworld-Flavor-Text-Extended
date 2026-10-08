@@ -24,7 +24,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_PlantFoodRaw</li></categories></li>
 		</ingredients>
-		<description>{1_coll} chopped by knife and worked in one direction only until it turns elastic, {0_coll} in small dice through it, the whole spread into a cake and steamed over the rice.</description>
+		<description>{1_coll} chopped with a knife and worked in one direction only until it turns elastic, {0_coll} in small dice through it, the whole spread into a cake and steamed over the rice.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -197,7 +197,7 @@
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>{0_coll} whole wound in a strip of {1_adj}, pinned and roasted in a {2_adj} and soy syrup until the bacon crisps. The canapé of the nineteen-sixties, and it has never gone out.</description>
+		<description>{0_coll} whole wound in a strip of {1_adj}, pinned and roasted in a {2_adj} and soy syrup until the bacon crisps. The canapé of the 1960s, and it has never gone out.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsBake</li>

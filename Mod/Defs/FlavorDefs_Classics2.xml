@@ -509,7 +509,7 @@
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>a puff pastry case so light it might fly away — hence the name — filled with {1_adj} and {2_adj} in a white sauce, and re-hatted with its own lid.</description>
+		<description>a puff pastry case so light it might fly away — hence the name — filled with {1_adj} and {2_adj} in a white sauce, and topped again with its own lid.</description>
 		<mealKinds>
 			<li>FT_MealsBake</li>
 			<li>FT_MealsNonSpecial</li>

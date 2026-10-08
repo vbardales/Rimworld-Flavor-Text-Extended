@@ -5,8 +5,8 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-stage:        published
-workflow_stage: published
+stage:        tested
+workflow_stage: tested
 stage_meaning: public Workshop publication established. Latest release v1.2.1 (2026-09-28, the sharper mod icon), uploaded by the CI workflow and verified on the public page; earlier releases v1.0.0, v1.1.0, v1.2.0 the same way
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
@@ -21,11 +21,12 @@ licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 upstream_mod_remotes:
   - "https://github.com/JohannesKolsky/FlavorText"
 maintainer:    current Codex task for this repository
-updated:      2026-10-02
+updated:      2026-10-08
 tested_on:    "2026-09-26, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, on the 1.2.0 tree (e283f89). Bare 18/18 (791 active FlavorDefs of 2095), with optionals 6/6 (1236), without Odyssey 3/3 (740). 1.2.1 changes ModIcon.png and the version number only, so the passes were not replayed. Reports in Tests/Pickle/results/2026-09-26-*; history in docs/runs/. Evidence minified 2026-10-02 (TESTING.md, \"Proofs to keep\"); the passes were not replayed."
 workshop:     3806100152
 code_review:  "2026-10-06, /code-review low, bb1348317f10f10601bab8c22341eb7c30075e01, range f43b33f..bb13483 (0.1.0 commit to now): 0 findings. Read only scripts/make-variants.js; frequency.js, thingdefs.js, variants-french.js, .github/ scripts, Defs XML and Tests not read."
 remaining:
+  - "open: 1.2.2 in preparation (owner, 2026-10-08): English corrections from the owner's audit of Mod/Defs, then retest (the 1.2.1 proofs do not cover the corrected texts), then prepublished. 1.2.1 stays the published release until the CI publishes 1.2.2."
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
   - "open: the Steam page description is sent by the CI from PUBLICATION.md; the title, tags, preview and gallery are not. The gallery is the owner's: replaced on 2026-10-06 by the for-height set in Art/Gallery/ (images 0 to 3), uploaded by the owner and reported by her."
   - "open: PR to the origin repository (PUBLISHING.md rule of 2026-09-28) has no code to carry; the owner decides whether to propose the optional-slot idea or the egg filing to hekmo. BACKLOG.md, Upstream."

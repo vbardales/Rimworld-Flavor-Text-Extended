@@ -52,7 +52,7 @@
 			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>baluts shelled, coated in an orange {1_adj} batter and fried in {2_plur}. The shell crisps, and the inside stays running.</description>
+		<description>baluts shelled, coated in an orange {1_adj} batter and fried in {2_plur}. The batter crisps, and the inside stays running.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
@@ -205,7 +205,7 @@
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
 		</ingredients>
-		<description>{0_coll} chopped by knife and worked while still warm into a niter kibbeh — clarified butter with spices — with {2_adj} mitmita. Served raw, or barely warmed if you ask for it leb leb.</description>
+		<description>{0_coll} chopped with a knife and worked while still warm into a niter kibbeh — clarified butter with spices — with {2_adj} mitmita. Served raw, or barely warmed if you ask for it leb leb.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -312,7 +312,7 @@
 			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>{0_coll} minced twice, let down with crumb and heavily {2_plur}, cased and then poached. The mincer settles the question of texture.</description>
+		<description>{0_coll} minced twice, let down with crumb and heavily seasoned with {2_plur}, cased and then poached. The mincer settles the question of texture.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

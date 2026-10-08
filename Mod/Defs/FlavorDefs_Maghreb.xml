@@ -225,7 +225,7 @@
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
 		</ingredients>
-		<description>cakes of crushed {0_adj}, bound with {1_plur} and saffroned with {2_plur}, fried to a gold. They go inside a roll, with harissa.</description>
+		<description>cakes of crushed {0_adj}, bound with {1_plur} and saffroned with {2_plur}, fried until golden. They go inside a roll, with harissa.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
