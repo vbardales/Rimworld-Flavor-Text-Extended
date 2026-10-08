@@ -25,4 +25,4 @@ Rules: images only in `Art/Gallery/`, `0-preview.png` from the renderer, the aut
 3. Put the pictures worth showing straight in `Art/Gallery/`, with the next free index and the word `candidate`: `N-candidate-<subject>.jpg` (JPEG quality 90, about 300 to 450 KB; the raw PNG captures are 1.7 to 4.5 MB, above Steam's 2 MB limit). Each image under 2 MB, all together under 8 MB. The raw captures stay in the ignored `Tests/Pickle/Evidence/` folder. No folder of candidates, no README in `Art/Gallery/`.
 4. The owner decides: an accepted image loses the word `candidate`; a refused one is deleted.
 
-Candidates of run d5a1 (tree 388ba52, eighth pass, evidence `2026-10-08-lunch-8`, indexes 4 to 6; the katsudon-at-the-table picture was refused and deleted): not validated. Known defects: Nelim stands outside the fence in the garden picture, neutral face (no expression step yet), eyes too small to judge.
+Candidates of run d5a1 (tree 388ba52, eighth pass, evidence `2026-10-08-lunch-8`, indexes 4 and 5; the katsudon-at-the-table and the plant-garden pictures were refused and deleted): not validated. Known defects: neutral face (no expression step yet), eyes too small to judge.
