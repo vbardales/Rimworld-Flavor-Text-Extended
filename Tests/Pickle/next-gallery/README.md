@@ -22,7 +22,7 @@ Rules: images only in `Art/Gallery/`, `0-preview.png` from the renderer, the aut
 
 1. File the run with `Submit-PickleRun.ps1` (`-DepMap wsl-deps.gallery-scenes.map`, its own `-EvidenceDir`); wait for RUN_DONE, tree frozen.
 2. Read `exitReason` in `summary.json` first, then open every capture: green is not validated.
-3. Copy the pictures worth showing to `Art/Gallery/candidates/` as JPEG quality 90 (about 300 to 550 KB each; the raw PNG captures are 1.7 to 4.5 MB, above Steam's 2 MB limit), named `lunch-N-<subject>.jpg`. The raw captures stay in the ignored `Tests/Pickle/Evidence/` folder.
-4. The owner validates. Only then move a candidate up to `Art/Gallery/` under its display number and delete the candidates it replaces. Steam limits: each image under 2 MB, all together under 8 MB.
+3. Put the pictures worth showing straight in `Art/Gallery/`, with the next free index and the word `candidate`: `N-candidate-<subject>.jpg` (JPEG quality 90, about 300 to 450 KB; the raw PNG captures are 1.7 to 4.5 MB, above Steam's 2 MB limit). Each image under 2 MB, all together under 8 MB. The raw captures stay in the ignored `Tests/Pickle/Evidence/` folder. No folder of candidates, no README in `Art/Gallery/`.
+4. The owner decides: an accepted image loses the word `candidate`; a refused one is deleted.
 
-Candidates of run b52c (tree 799e327, sixth pass, evidence `2026-10-07-lunch-6`): not validated. Known defects: identical bowls, no seated pose, Nelim small in the garden.
+Candidates of run d5a1 (tree 388ba52, eighth pass, evidence `2026-10-08-lunch-8`, indexes 4 to 7): not validated. Known defects: Nelim stands outside the fence in the garden picture, neutral face (no expression step yet), eyes too small to judge.
