@@ -325,9 +325,9 @@ Root `AGENTS.md`, "Test evidence", governs. For this mod, state of 2026-10-02:
 
   | Folder | Why it is kept |
   |---|---|
-  | `2026-09-26-bare-b14150e/` | latest `01`, `03`, `04`, `08` on the 1.2.0 tree; `Player.log` proves a quiet load |
-  | `2026-09-26-with-optionals-b14150e/` | latest `02` |
-  | `2026-09-26-without-odyssey-b14150e/` | latest `05` |
+  | `2026-10-08-122-without-optionals/` | latest `01`, `03`, `04` on the 1.2.2 tree (232b980), 14 of 14; `Player.log` proves a quiet load |
+  | `2026-10-08-122-with-optionals/` | latest `02` (6 of 6, 1.2.2 tree) |
+  | `2026-10-08-122-without-odyssey/` | latest `05` (3 of 3, 1.2.2 tree) |
   | `2026-09-26-frequency-b/` | sole proof of the 1.1.0 baseline (0.0 / 0.8 / 2.3 percent); no `Player.log`, the figures are in `summary` and `junit` |
 | `Tests/Pickle/Evidence/2026-10-06-gallery-height-5bf7bef/` | latest `06` (3 of 3, run 4cb9, tree 5bf7bef, window-backdrop-for-height); its raw captures are the source of the cropped files in `Art/Gallery/`, opened and approved 2026-10-06; `summary`, `junit`, `Player.log`, screenshots kept |
 
@@ -427,14 +427,15 @@ Odyssey meats exist for.
 
 ### What has run on the current revision
 
-The 1.2.0 tree (the shorter forms of the dishes and the everyday dishes added after hekmo's report) was played on 2026-09-26, queued on
-tickets, headless in the WSL game. Read `exitReason` first: all three ended, none was cut.
+The 1.2.2 tree (232b980: the English proofreading of 53 dish descriptions, version number) was played on 2026-10-08, queued on tickets,
+headless in the WSL game. Read `exitReason` first: all three ended, none was cut. The 1.2.0 passes of 2026-09-26 (18/18, 3/3, 6/6) are
+superseded and their folders are deleted; the figures stay in `docs/runs/`.
 
 | Pass | Result | Active FlavorDefs | Where |
 |---|---|---|---|
-| without-optionals (`01`, `03`, `04`, `08`) | **18 of 18, `exitReason: passed`**, 0 `[ERROR]` line. The one-ingredient, two-ingredient and everyday three-ingredient scenarios pass. | 791 of 2095 (696 of 1831 before) | `2026-09-26-bare-b14150e/` |
-| without-odyssey (`05`) | **3 of 3, `exitReason: passed`** | 740 of 2095 | `2026-09-26-without-odyssey-b14150e/` |
-| with-optionals (`02`) | **6 of 6, `exitReason: passed`**; one Unity/FMOD audio `[ERROR]` that names no mod, as in earlier runs of this pass | 1236 of 2095 | `2026-09-26-with-optionals-b14150e/` |
+| without-optionals (`01`, `03`, `04`) | **14 of 14, `exitReason: passed`**, ticket df05 | | `2026-10-08-122-without-optionals/` |
+| without-odyssey (`05`) | **3 of 3, `exitReason: passed`**, ticket 7050 | | `2026-10-08-122-without-odyssey/` |
+| with-optionals (`02`) | **6 of 6, `exitReason: passed`**, ticket b45a | | `2026-10-08-122-with-optionals/` |
 | workshop-captures (`06`) | **3 of 3, `exitReason: passed`**, run 4cb9 on tree 5bf7bef (Nelims-tribe, `window-backdrop-for-height`, no animals); the three images in `Art/Gallery/` come from it | | `Tests/Pickle/Evidence/2026-10-06-gallery-ca7199e/` (screenshots on disk, ignored by git) |
 
 The directory names carry the label of the request (b14150e), which was still queued when the tree moved on; the tree played is e283f89, as the

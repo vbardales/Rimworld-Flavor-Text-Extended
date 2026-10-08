@@ -22,7 +22,7 @@ upstream_mod_remotes:
   - "https://github.com/JohannesKolsky/FlavorText"
 maintainer:    current Codex task for this repository
 updated:      2026-10-08
-tested_on:    "2026-09-26, RimWorld 1.6.4871 rev600 (Linux depot in WSL, Xvfb), English, on the 1.2.0 tree (e283f89). Bare 18/18 (791 active FlavorDefs of 2095), with optionals 6/6 (1236), without Odyssey 3/3 (740). 1.2.1 changes ModIcon.png and the version number only, so the passes were not replayed. Reports in Tests/Pickle/results/2026-09-26-*; history in docs/runs/. Evidence minified 2026-10-02 (TESTING.md, \"Proofs to keep\"); the passes were not replayed."
+tested_on:    "2026-10-08, RimWorld 1.6 (Linux depot in WSL, Xvfb), English, on the 1.2.2 tree (232b980). Without optionals 14/14 (ticket df05), with optionals 6/6 (b45a), without Odyssey 3/3 (7050), all exitReason passed. Gallery scenes (10) are separate and not part of this proof."
 workshop:     3806100152
 code_review:  "2026-10-06, /code-review low, bb1348317f10f10601bab8c22341eb7c30075e01, range f43b33f..bb13483 (0.1.0 commit to now): 0 findings. Read only scripts/make-variants.js; frequency.js, thingdefs.js, variants-french.js, .github/ scripts, Defs XML and Tests not read."
 remaining:
