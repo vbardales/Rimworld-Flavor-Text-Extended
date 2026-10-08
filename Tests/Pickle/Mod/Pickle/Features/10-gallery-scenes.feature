@@ -3,7 +3,7 @@
 # THE STORY: "Lunch is served" (Nelim's lunch). One midday on the Sanctuary, told in four pictures, the table first because Steam shows image 1 large.
 #   1. 12:00  The table is laid: several cooked meals, each with a different dish name, on the dining nook's table; one card beside them.
 #   2. 12:05  Nelim sits and eats; the card of the meal with two dishes at once is open beside her.
-#   3. 12:10  A meat and milk dish of three ingredients, and a hen that came to see (a daytime animal at noon).
+#   3. 12:10  A blanquette of two meats and milk, and a hen that came to see (a daytime animal at noon).
 #   4. 12:15  After lunch, Nelim is in the plant garden, where the ingredients of the next meal grow.
 # Not here: the breadth picture (many dish names at once) and the before / after composite. See README.md.
 #
@@ -80,8 +80,8 @@ Feature: Lunch is served
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
-  # 3. 12:10. The meat and milk dish and a hen. The hen is posed after the wait.
-  Scenario: the meat and milk dish and a hen that came to see
+  # 3. 12:10. The blanquette (meat and milk) and a hen. The hen is posed after the wait.
+  Scenario: the blanquette and a hen that came to see
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 477 ticks
     And game speed is paused
@@ -95,11 +95,11 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
-    And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_OeufMollet" is opened
+    And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then Flavor Text Extended: "Nelim" is logged
-    And I take a screenshot "lunch 12:10 - the meat and milk dish and a hen at the table"
+    And I take a screenshot "lunch 12:10 - the blanquette and a hen at the table"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
