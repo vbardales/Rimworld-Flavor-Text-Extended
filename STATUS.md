@@ -9,7 +9,7 @@ workflow_stage: playTests[1.2.2]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
-translation_en: unchecked
+translation_en: complete
 translation_fr: not_applicable
 dependencies: verified
 automated_tests: passed
@@ -20,12 +20,11 @@ upstream_mod_remotes:
   - "https://github.com/JohannesKolsky/FlavorText"
 maintainer:    current Codex task for this repository
 updated:      2026-10-11
+english_review: "2026-10-11, owner (Virginie), the 53 corrected descriptions plus BalutFrit (runny), PUBLICATION.md, BACKLOG.md and CHANGELOG.md, revision 83f7019, validated in chat; no exhaustive reread of the 2,337 catalogue lines"
 tested_on:    "2026-10-08, RimWorld 1.6 (Linux depot in WSL, Xvfb), English, on the 1.2.2 tree (232b980). Without optionals 14/14 (ticket df05), with optionals 6/6 (b45a), without Odyssey 3/3 (7050), all exitReason passed. Gallery scenes (10) are separate and not part of this proof."
 workshop:     3806100152
-code_review_sha: bb1348317f10f10601bab8c22341eb7c30075e01  # was `code_review`: 2026-10-06, /code-review low, <sha>, range f43b33f..bb13483 (0.1.0 commit to now): 0 findings. Read only scripts/make-variants.js; frequency.js, thingdefs.js, variants-french.js, .github/ scripts, Defs XML and Tests not read.
+code_review_sha: 83f701956649eb5690e8be779817bfd1492e4069  # 2026-10-11, /code-review low, range bb13483..83f7019: 0 findings; Mod/Defs diff checked pair by pair (55 pairs, grammar tokens and tags intact), scripts only moved from _tools/. Earlier: 2026-10-06 bb13483.
 remaining:
-  - "unverified: code review (AUDIT.md 8.m, end of playTests): code_review_sha bb13483 is stale, Mod/ changed since (1.2.2 text edits, 232b980). Review bb13483..HEAD, fix or record the findings, then write the sha of HEAD."
-  - "unverified: the owner's review of the English texts changed in 1.2.2 (53 dish descriptions, plus BalutFrit fixed 2026-10-11 after her first reading: her reading of PUBLICATION.md, BACKLOG.md and the 53 texts is done, nothing left but a confirmation of that last fix; before/after in docs/runs/2026-10-11-english-changes-1.2.2.md), in the English column of FRENCH_REVIEW.md, regenerated 2026-10-11 at 232b980 (the committed file named 516e58d, stale). translation_en stays unchecked until then (TRANSLATIONS.md, text-only edit after validation). The Pickle replay of the scenarios that display these texts is done (tested_on)."
   - "open: gallery candidates 4 and 5 in Art/Gallery/ wait for the owner's accept or refuse (session verdict 2026-10-11 in the audit section). 1.2.2 in preparation (owner, 2026-10-08): English corrections from the owner's audit of Mod/Defs, retested on 232b980, next shootGallery, mountPreview, writeDocs, prepareRelease. The 1.2.2 dispatch must carry --preview: Mod/About/Preview.png changed after 1.2.1 (badged with the ModIcon, 3b5f065) and the CI sends the header image only on request (owner, 2026-10-08). 1.2.1 stays the published release until the CI publishes 1.2.2."
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
   - "open: the Steam page description is sent by the CI from PUBLICATION.md; the title, tags, preview and gallery are not. The gallery is the owner's: replaced on 2026-10-06 by the for-height set in Art/Gallery/ (images 0 to 3), uploaded by the owner and reported by her."
@@ -86,7 +85,7 @@ Run URLs: `https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/ru
 
 Audited against the protocols at ae25bbd (AUDIT.md, AGENTS.md, PICKLE.md, PUBLISHING.md, TRANSLATIONS.md, MOD_SETTINGS.md, SEARCHING.md, WELCOME.md, SUBMIT.md), tree 23b360f plus local changes (this commit and the CI session's `.github/` edits, untouched). Nothing run in game. Old `tested` (stage retired) maps to `shootGallery`; retained `workflow_stage: playTests[1.2.2]`. Session title: `flavortextextended / playTests[1.2.2]`.
 
-- **Why not shootGallery:** AUDIT.md 8.m (code review once, at the end of playTests) is open: `code_review_sha` is bb13483 and Mod/ changed since (1.2.2, 232b980). Everything else in playTests holds: Mod/ is unchanged since the proofs (232b980; `git diff 232b980 HEAD -- Mod` is empty and the only Tests change is the gallery feature), Pickle 14/14, 6/6 and 3/3 with `exitReason` passed (tested_on), no `@wip`, no manual test.
+- **Why not shootGallery (when audited, before the owner validated):** AUDIT.md 8.m was open (`code_review_sha` bb13483, Mod/ changed in 1.2.2). Closed the same day after her validation: review done, `code_review_sha` written, `translation_en: complete`, state to move to `shootGallery[1.2.2]` once `Mark-ProtocolsRead.ps1` runs (it refuses while another session leaves `WORKSHOP_COMMENTS.md` uncommitted in the protocols repository). Everything else in playTests holds: Mod/ is unchanged since the proofs (232b980; `git diff 232b980 HEAD -- Mod` is empty and the only Tests change is the gallery feature), Pickle 14/14, 6/6 and 3/3 with `exitReason` passed (tested_on), no `@wip`, no manual test.
 - **Offline, rerun today on 232b980:** `checkdefs.js` against the Flavor Text 1.6 Defs: 0 errors, 35 known warnings (shared combinations); `Test-Xml.ps1`: 53 XML files parsed, 29 patch operations applied, 4 Odyssey guards; `Test-OptionalIngredients.ps1`: 47 guarded pairs resolve; `verify-en.js`: 1165 dishes, 0 errors. `Test-Localization.ps1` needs the companion mod and was not run (French is the companion's).
 - **Defect found and fixed:** `FRENCH_REVIEW.md` named revision 516e58d while `Mod/Defs` last changed in 232b980. Regenerated with `Make-FrenchReview.ps1` (now 232b980, 1165 dishes).
 - **translation_en reset to unchecked:** 53 English descriptions changed in 1.2.2. The owner reads them in `FRENCH_REVIEW.md` before the deploy (TRANSLATIONS.md, text-only edit after validation). The stage does not go back for that.
