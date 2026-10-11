@@ -30,3 +30,14 @@ No document had uncommitted changes except `STYLE_RIMWORLD.md` and two PickleToo
 This mod's own files read today: `STATUS.md`, `TESTING.md` (evidence and pass sections), `BACKLOG.md`, `CHANGELOG.md` (head and tail), `docs/runs/`, `Tests/Pickle/` (features, summaries). `README.md`, `ATTRIBUTION.md`, `LICENSE`, `PUBLICATION.md`, `Mod/About/About.xml`: not reread, nothing in them changed. `NOTES.md` and `BUGS.md` do not exist.
 
 The 2026-09-26 reading (versions of AGENTS, AUDIT, PUBLISHING and the tools as they were then) was dropped on 2026-10-06: the table above supersedes it, and git has the text.
+
+## Reading of 2026-10-11 (audit session)
+
+Protocol versions read: the protocols repository at `ae25bbd`, recorded by `Mark-ProtocolsRead.ps1` in `STATUS.md` (`protocols_read_sha`). Read in full: `AUDIT.md`, `AGENTS.md`, `PICKLE.md`, `PUBLISHING.md`, `TRANSLATIONS.md`, `MOD_SETTINGS.md`, `scripts/SEARCHING.md`; queue documents `WELCOME.md` and `SUBMIT.md` (option table).
+
+Not read, not useful here:
+
+| File | Trigger |
+|---|---|
+| `STYLE_RIMWORLD.md` | only when the Preview or the echo is rendered (`mountPreview`) |
+| `WORKSHOP_COMMENTS.md` | only when a Steam comment is drafted |
