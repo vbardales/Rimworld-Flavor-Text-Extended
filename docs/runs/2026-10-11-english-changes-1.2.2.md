@@ -320,3 +320,9 @@ Before: {0_coll} whole wound in a strip of {1_adj}, pinned and roasted in a {2_a
 
 After: {0_coll} whole wound in a strip of {1_adj}, pinned and roasted in a {2_adj} and soy syrup until the bacon crisps. The canapé of the 1960s, and it has never gone out.
 
+## 54. FlavorDefs_RawAndEggs.xml (FlavorTextFR_BalutFrit, after the owner's review)
+
+Before: baluts shelled, coated in an orange {1_adj} batter and fried in {2_plur}. The batter crisps, and the inside stays running.
+
+After: baluts shelled, coated in an orange {1_adj} batter and fried in {2_plur}. The batter crisps, and the inside stays runny.
+

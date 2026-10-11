@@ -10,8 +10,8 @@ regenerated on 2026-10-06 (run 4cb9, tree 5bf7bef, `window-backdrop-for-height`)
 on the Steam page is uploaded by hand by the owner: she uploaded the `for-height` set now in
 `Art/Gallery/` (images 0 to 3) on 2026-10-06, replacing the earlier `exhibition-zone` set (as reported by her).
 Images 4 and later are new candidates from the "Lunch is served" story (`Tests/Pickle/Mod/Pickle/Features/10-gallery-scenes.feature`), named
-`N-candidate-<subject>`: the owner accepts (the word `candidate` goes) or refuses (the file is deleted). `Art/ModIcon-original.png` is the first
-icon (mascot with its ribbon lettering, 128 x 128), kept as a record.
+`N-candidate-<subject>`: the owner accepts (the word `candidate` goes) or refuses (the file is deleted). The first
+icon (mascot with its ribbon lettering, 128 x 128) was `Art/ModIcon-original.png`; the file left the working tree on 2026-10-11 (minimal Art set) and is kept in the Git history.
 
 ## Before the upload
 
@@ -85,11 +85,10 @@ again for every capture added.
 ## Steam description
 
 The single source of the Steam description, in Markdown (standard chosen by the owner on 2026-09-25, see
-`Rimworld-Release-Admin/docs/OPERATIONS.md`, "Changing where the Steam description comes from"). Once this repository's publish
+`Rimworld-Release-Admin/docs/OPERATIONS.md`, "Changing where the Steam description comes from"). This repository's publish
 workflow is generated with `--description-markdown PUBLICATION.md --description-heading '^## Steam description$'
---about-from-description`, the CI converts this block to Steam BBCode when `update_description` is ticked, and generates the plain-text
-`<description>` of `Mod/About/About.xml` from it. Until that migration this block is only the draft of the 1.2.0 description; the
-headings are bold instead of plain capitals, the SHORTER FORMS section is new, the rest is the page as it stands.
+--about-from-description` (`aboutFromDescription: true`): the CI converts this block to Steam BBCode when `update_description` is ticked, and generates the plain-text
+`<description>` of `Mod/About/About.xml` from it.
 
 ```markdown
 An add-on for [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) (hekmo). Requires it, contains none of its files, and does nothing without it.
@@ -202,7 +201,7 @@ Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/
 A proofreading of the English.
 [list]
 [*] 53 dish descriptions corrected after a full read of the dishes: missing or wrong words, a few awkward sentences, dates written as numbers.
-[*] Nothing else changed: no dish was added, removed or renamed, and no meal is named differently.
+[*] The Workshop preview is also updated. No dish was added, removed or renamed, and meal naming is unchanged.
 [/list]
 Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] (hekmo).
 Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
@@ -297,8 +296,8 @@ Identity checked on 2026-09-22 against FoodCourt's registry and the installed mo
 PublishedFileId.txt and five KFD_ definitions. Package ID: `drilledhead.Koreancuisine`.
 This is an inspiration credit, not a dependency or a claim of integration testing.
 
-**Held back:** Chinese Traditional Cultural Things Expanded (2877536640). The mod declares no 1.6 support, so a thanks
-message must not claim compatibility. A factual, non-compatibility draft is prepared below.
+**History (held back until 2026-09-22):** Chinese Traditional Cultural Things Expanded (2877536640). The mod declares no 1.6 support, so the thanks
+message does not claim compatibility. The comment was posted on 2026-09-22 (next section).
 
 ## Additional Steam comment — posted 2026-09-22
 
