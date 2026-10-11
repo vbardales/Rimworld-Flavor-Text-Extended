@@ -2,10 +2,11 @@
 
 ## [Unreleased]
 
-- Correct the English of 53 dish descriptions after a full proofreading of the 1,165 dishes and their 466 shorter forms. Missing words, a wrong
+- Correct the English of 53 dish descriptions after a full proofreading of the 932 dishes and their 233 shorter forms, 1,165 definitions in total. Missing words, a wrong
   word (`emblem` for `emblematic`, `stringing` for `stringy`, `pastrycook` for `pastry cook`), `by knife` for `with a knife`, two sentences that did
-  not scan (the medium-boiled egg, the schnitzel) and a few dates written out (`the 1960s`). Dish names, ingredients and every rule are unchanged:
+  not scan (the medium-boiled egg, the schnitzel) and a few decades written numerically (`the 1960s`). Dish names, ingredients and every rule are unchanged:
   only the wording of these descriptions.
+- Update the Workshop preview image (`Mod/About/Preview.png`, now badged with the mod icon). No dish was added, removed or renamed.
 
 ## [1.2.1] - 2026-09-28
 
@@ -16,7 +17,7 @@
 
 Meals of one or two ingredients can now be named by this mod too. Flavor Text cuts a meal's ingredients into chunks of
 three and names each chunk with a dish that has exactly as many ingredient slots as the chunk has ingredients. 896 of
-our 901 dishes had three slots, so they could only name a meal of exactly three ingredients, while a meal of one or two
+our 901 dishes had three slots, so they could only name three-ingredient chunks, while a meal of one or two
 was named by Flavor Text's own dishes alone (hekmo reported seeing none of ours in a hundred spawned meals).
 
 - Add 233 shorter forms of existing dishes (`FlavorDefs_Variants.xml`, made by `_tools/make-variants.js`): the same dish,

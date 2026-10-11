@@ -78,7 +78,7 @@ tests do not use this fixture; `06` is the only scenario that does.
 ## Adult-content boxes
 
 **No.** Checked on the two images the page will carry, both opened and looked at: `Preview.png` shows dishes on a wooden
-table, `ModIcon.png` a cartoon mascot with a food-labelled ribbon. Nothing in the dishes' text concerns the boxes: some name
+table, `ModIcon.png` a cartoon mascot holding a bowl. Nothing in the dishes' text concerns the boxes: some name
 alcohol, insects or reptiles as ingredients, which the Workshop's categories do not treat as mature content. To be answered
 again for every capture added.
 
@@ -159,7 +159,7 @@ Credits, provenance and licence (MIT) are in ATTRIBUTION.md and LICENSE, shipped
 > without Odyssey. Ingredients from RimLife Cultivation Plus, RimLife Expansion Trading items and VV - New Harvest are
 > recognised when those mods are installed. English only; the French translation is a separate companion.
 
-Release notes go out with every upload and can be corrected freely; the description does not.
+Release notes accompany every upload; description updates must be requested explicitly.
 
 ## Steam release notes (updates) — template
 
