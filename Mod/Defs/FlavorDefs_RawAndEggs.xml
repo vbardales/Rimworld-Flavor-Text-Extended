@@ -52,7 +52,7 @@
 			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>baluts shelled, coated in an orange {1_adj} batter and fried in {2_plur}. The batter crisps, and the inside stays running.</description>
+		<description>baluts shelled, coated in an orange {1_adj} batter and fried in {2_plur}. The batter crisps, and the inside stays runny.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 			<li>FT_MealsSnack</li>
