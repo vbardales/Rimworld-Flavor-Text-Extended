@@ -22,7 +22,7 @@ node_modules/
 scripts/src/
 
 # Local rendering profile and intermediate artifacts
-.build/
+build/
 
 # Generated local installed-mod inventory; regenerate with scripts/compare_foodcourt.py
 Audit-FoodCourt/comparison.json
