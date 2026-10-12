@@ -104,8 +104,12 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    When Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
-    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
+    # Face kit (NPT, 2026-10-12, ColonistRace): the kit sets mouth, lids, brows and skin together and holds through the capture; "held neutral" first so that
+    # the seated job animation cannot overwrite the mouth. Retake of the refused blanquette picture (neutral face, plain yellow meal): pass map
+    # wsl-deps.gallery-scenes-ftv.map (Food Texture Variety). The framing (cell and zoom, smaller zoom = closer) is provisional: read it on the first image.
+    When Nelim's Pickle Tools: "Nelim" face is held neutral
+    And Nelim's Pickle Tools: "Nelim" face kit is "smile"
+    And Nelim's Pickle Tools: I frame the cell (179, 108) at zoom 5.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
