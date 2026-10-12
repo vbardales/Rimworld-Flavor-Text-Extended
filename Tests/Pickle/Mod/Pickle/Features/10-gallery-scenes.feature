@@ -104,17 +104,44 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    # Face kit (NPT, 2026-10-12, ColonistRace): the kit sets mouth, lids, brows and skin together and holds through the capture; "held neutral" first so that
-    # the seated job animation cannot overwrite the mouth. Retake of the refused blanquette picture (neutral face, plain yellow meal): pass map
-    # wsl-deps.gallery-scenes-ftv.map (Food Texture Variety). The framing (cell and zoom, smaller zoom = closer) is provisional: read it on the first image.
+    # Second try (2026-10-12): the smile kit gave lowered brows and flushed cheeks (run 703f), so the Facial Animation expression "moodCheerful" (light smile, NPT) is played instead,
+    # closer on the pawn (zoom 4.5, NPT: face photos used zoom 4). Variant A holds the face neutral first (the seated job animation cannot overwrite the mouth), variant B does not.
     When Nelim's Pickle Tools: "Nelim" face is held neutral
-    And Nelim's Pickle Tools: "Nelim" face kit is "smile"
-    And Nelim's Pickle Tools: I frame the cell (179, 108) at zoom 5.5
+    And Nelim's Pickle Tools: "Nelim" facial expression is "moodCheerful"
+    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 4.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then Flavor Text Extended: "Nelim" is logged
     And I take a screenshot "lunch 12:10 - the blanquette and a hen at the table"
+    When Nelim's Pickle Tools: screenshot mode is disabled
+    And I close all dialogs
+
+
+  # 3 bis. Variant B of 3, same wait.
+  Scenario: the blanquette and a hen that came to see, expression without the hold
+    Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
+    And I wait 477 ticks
+    And game speed is paused
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: I let 120 ticks pass
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 300 times
+    And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
+    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
+    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
+    Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
+    # Second try (2026-10-12): the smile kit gave lowered brows and flushed cheeks (run 703f), so the Facial Animation expression "moodCheerful" (light smile, NPT) is played instead,
+    When Nelim's Pickle Tools: "Nelim" facial expression is "moodCheerful"
+    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 4.5
+    And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
+    And Flavor Text Extended: the info card is placed at the "right" of the screen
+    And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
+    Then Flavor Text Extended: "Nelim" is logged
+    And I take a screenshot "lunch 12:10 - the blanquette and a hen at the table, no hold"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
