@@ -104,10 +104,13 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    # Second try (2026-10-12): the smile kit gave lowered brows and flushed cheeks (run 703f), so the Facial Animation expression "moodCheerful" (light smile, NPT) is played instead,
-    # closer on the pawn (zoom 4.5, NPT: face photos used zoom 4). Variant A holds the face neutral first (the seated job animation cannot overwrite the mouth), variant B does not.
+    # Third try (2026-10-12, recipe of SanctuaryBacklot ticket 56b0): the smile comes from the part Mouth MouthSmirkSmile, not from the kit (kit "smile" = rosy cheeks); neutral kit first,
+    # then mouth, brows, and ONE expression call (a second one replaces the first). Seated is untested: variant A holds the face neutral first, variant B does not. Zoom 4.5 (face photos used 4).
     When Nelim's Pickle Tools: "Nelim" face is held neutral
-    And Nelim's Pickle Tools: "Nelim" facial expression is "moodCheerful"
+    And Nelim's Pickle Tools: "Nelim" face kit is "neutral"
+    And Nelim's Pickle Tools: "Nelim" mouth is "MouthSmirkSmile"
+    And Nelim's Pickle Tools: "Nelim" brows are "BrowNormal"
+    And Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful"
     And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 4.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
@@ -134,8 +137,11 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    # Second try (2026-10-12): the smile kit gave lowered brows and flushed cheeks (run 703f), so the Facial Animation expression "moodCheerful" (light smile, NPT) is played instead,
-    When Nelim's Pickle Tools: "Nelim" facial expression is "moodCheerful"
+    # Third try (2026-10-12, recipe of SanctuaryBacklot ticket 56b0): the smile comes from the part Mouth MouthSmirkSmile, not from the kit (kit "smile" = rosy cheeks); neutral kit first,
+    When Nelim's Pickle Tools: "Nelim" face kit is "neutral"
+    And Nelim's Pickle Tools: "Nelim" mouth is "MouthSmirkSmile"
+    And Nelim's Pickle Tools: "Nelim" brows are "BrowNormal"
+    And Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful"
     And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 4.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
