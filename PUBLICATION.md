@@ -5,12 +5,12 @@ What the Workshop page asked for and the repository held nowhere else. Written 2
 sections below are now a record of what was decided and sent, not a proposal. It serves twice: it did at the first
 upload, and it does for whoever takes the mod over.
 
-The Workshop gallery images are in `Art/Gallery/` in their Steam display order. The three meal-card captures were
-regenerated on 2026-10-06 (run 4cb9, tree 5bf7bef, `window-backdrop-for-height`) and approved by the owner the same day. The gallery
-on the Steam page is uploaded by hand by the owner: she uploaded the `for-height` set now in
-`Art/Gallery/` (images 0 to 3) on 2026-10-06, replacing the earlier `exhibition-zone` set (as reported by her).
-Images 4 and later are new candidates from the "Lunch is served" story (`Tests/Pickle/Mod/Pickle/Features/10-gallery-scenes.feature`), named
-`N-candidate-<subject>`: the owner accepts (the word `candidate` goes) or refuses (the file is deleted). The first
+The Workshop gallery images are in `Art/Gallery/` in their Steam display order. The set was settled on 2026-10-12: the owner
+accepted the "two dishes, Nelim seated" picture from the "Lunch is served" story (`Tests/Pickle/Mod/Pickle/Features/10-gallery-scenes.feature`,
+run d5a1, pass 12), the session dropped the two older cards that it replaced or overlapped (two dishes at once, medium-boiled egg), and the
+blanquette-and-hen candidate was refused (plain yellow meal sprite, neutral face). The gallery
+on the Steam page is uploaded by hand by the owner: the page still shows the `for-height` set of 2026-10-06 (images 0 to 3, as reported by her)
+until she uploads this one. New candidates are named `N-candidate-<subject>`: the owner accepts (the word `candidate` goes) or refuses (the file is deleted). The first
 icon (mascot with its ribbon lettering, 128 x 128) was `Art/ModIcon-original.png`; the file left the working tree on 2026-10-11 (minimal Art set) and is kept in the Git history.
 
 ## Before the upload
@@ -51,16 +51,17 @@ Decided from the sources, not from intent.
 `scripts/Render-Preview.cjs` from `Art/Preview.config.json`, `Art/Preview-source.png`, `Art/echo.png` and the owner's
 `Art/ModIcon-source.png` (key `modIconSource`: the icon is reduced to 128 x 128 without cropping). `Preview.png` carries the
 icon as a badge in the bottom-left corner. `Art/Gallery/0-preview.png` is a byte-for-byte copy of `Mod/About/Preview.png`, written
-by the same renderer, so the gallery opens on the same image as the store page. The three meal-card captures are 1100x1080 PNGs,
-each the 1920x1080 capture with only the side edges cut (x 410 to 1510): full height, so both smileys of the backdrop stay (about 890 KB, below Steam's 2 MB limit). Display order:
+by the same renderer, so the gallery opens on the same image as the store page. The katsudon card is a 1100x1080 PNG, the 1920x1080
+capture with only the side edges cut (x 410 to 1510): full height, so both smileys of the backdrop stay (about 870 KB, below Steam's 2 MB limit). The scene is a 1920x1080 JPEG
+(about 290 KB). Display order:
 
 0. `0-preview.png`: the badged header, so the gallery opens on the same image as the store page;
-1. `1-katsudon.png`: info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension
-   names an ordinary meal after a specific dish;
-2. `2-two-dishes-at-once.png`: info card of a meal with two dishes at once (T7): the mod's most distinctive behaviour;
-3. `3-medium-boiled-egg.png`: info card of a medium-boiled egg: the smallest complete ingredient-to-name chain.
+1. `1-two-dishes-nelim-seated.jpg`: Nelim seated at a laid table, the info card of a meal named with two dishes at once (T7) open beside it: the mod's most distinctive
+   behaviour, shown in a scene;
+2. `2-katsudon.png`: info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension
+   names an ordinary meal after a specific dish.
 
-The gallery is uploaded by hand: SteamCMD cannot send it. The images on the page are this set, uploaded by the owner on 2026-10-06 (not checked on the page by a session).
+The gallery is uploaded by hand: SteamCMD cannot send it. The images on the Steam page are still the 2026-10-06 set (0 to 3, uploaded by the owner, not checked on the page by a session); this set of three replaces it once she uploads it.
 
 The uncompressed 1920x1080 captures are not kept in the repository: they stay on disk in
 `Tests/Pickle/Evidence/2026-10-06-gallery-height-5bf7bef/screenshots/`, ignored by git (see `TESTING.md`, "Evidence to keep").
