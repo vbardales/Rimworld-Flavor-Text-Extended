@@ -5,7 +5,7 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-workflow_stage: shootGallery[1.2.2]
+workflow_stage: mountPreview[1.2.2]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -33,7 +33,7 @@ remaining:
   - "limits, not blockers: each Pickle pass passed once on the 1.2.0 tree; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
   - "note: desktop.ini and *.ico are local only and gitignored since 2026-10-02 (the two Art .ico files left git, files kept on disk); Mod/desktop.ini must never be committed."
-protocols_read_sha: d4fb3c50a075805e4a6eab2732c6897e896d4d84
+protocols_read_sha: 90d6bad3c972d13b710e7d30e52621fe91d273d7
 ---
 
 # Flavor Text Extended - status
