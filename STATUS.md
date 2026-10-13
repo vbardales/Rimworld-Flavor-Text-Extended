@@ -5,7 +5,7 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-workflow_stage: publish[1.3.0]
+workflow_stage: followUp[1.3.0]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -29,7 +29,6 @@ workshop:     3806100152
 publication_changelog_review_sha: 7f265e28f384edd36d247537fcdd01cc9102865e  # 2026-10-13, owner review of PUBLICATION.md + CHANGELOG.md for the 1.3 line (RimWorld 1.7 support)
 code_review_sha: e4b8606f7aa439285f379d4580b8788011000f75  # 2026-10-13, review of f206a19 to e4b8606f7aa439285f379d4580b8788011000f75: 0 findings; Mod/ diff is About.xml only (modVersion 1.3.0, supportedVersions 1.6 and 1.7, matches the green 1.7 diagnostic) and the Preview images. Earlier: f206a19 (2026-10-13), 83f7019 (2026-10-11), bb13483 (2026-10-06).
 remaining:
-  - "open: 1.3.0 (minor, owner 2026-10-13, RimWorld 1.7 support) is at writeDocs: supportedVersions 1.6 and 1.7 after the green 1.7 diagnostic (tested_1_7: yes, English only, without optionals), Preview badge 1.7 and the 0- copy regenerated, social preview and its sha256 updated, change note 1.3.0 and CHANGELOG written. Left: the owner review of PUBLICATION.md and CHANGELOG.md for the 1.3 line (publication_changelog_review_sha still names the 1.2 line), then prepareRelease: date the CHANGELOG, dry-run on that SHA with --preview, publish. Not played on 1.7: with-optionals, without-odyssey, French (the 1.7 install ships English only)."
   - "open: gallery settled on 2026-10-12 (Art/Gallery/ holds 0-preview, 1-two-dishes-nelim-seated, 2-katsudon); the owner uploaded it to the Steam page by hand on 2026-10-13 (reported by her, not checked on the public page). 1.2.2 published by the CI on 2026-10-13 (run 38379951997, with --preview and --description); open item: none, the gallery is on the page by her report."
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
   - "open: the Steam page description is sent by the CI from PUBLICATION.md; the title, tags, preview and gallery are not. The gallery is the owner's: the page shows the for-height set of 2026-10-06 (images 0 to 3, uploaded by the owner and reported by her); the 3-image set of 2026-10-12 was uploaded by her on 2026-10-13 (her report)."
@@ -37,14 +36,14 @@ remaining:
   - "limits, not blockers: each Pickle pass passed once on the 1.2.0 tree; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
   - "note: desktop.ini and *.ico are local only and gitignored since 2026-10-02 (the two Art .ico files left git, files kept on disk); Mod/desktop.ini must never be committed."
-protocols_read_sha: 65e09838c8023b798d4ba0ff04df04284a96f11e
+protocols_read_sha: 1eba2baf4d52f146b4fe4f01d90bdd9f0988979e
 ---
 
 # Flavor Text Extended - status
 
 ## Current state
 
-- **Published**: Workshop item `3806100152`, v1.2.2 (CI, 2026-10-13). Tag and GitHub release are created by the CI workflow, never by hand. Publish rules: `../../PUBLISHING.md`, `Rimworld-Release-Admin/docs/OPERATIONS.md`.
+- **Published**: Workshop item `3806100152`, v1.3.0 (CI, 2026-10-13, RimWorld 1.7 support). Tag and GitHub release are created by the CI workflow, never by hand. Publish rules: `../../PUBLISHING.md`, `Rimworld-Release-Admin/docs/OPERATIONS.md`.
 - **Content**: 932 original dishes plus 233 shorter forms, seven categories, 51 Def and patch XML files, no assembly, no setting, no keyed text.
 - **Dependency**: only `hekmo.FlavorText` is required. Optional providers are `MayRequire` guarded (47 provider pairs checked); Odyssey has four guards.
 - **Licence**: `original`, MIT. Upstream Flavor Text keeps its own terms. Attribution names Claude, ChatGPT and DALL-E; git history does not split Claude and Codex commits, and ATTRIBUTION.md says so.
@@ -74,6 +73,10 @@ Flavor Text matches a dish only to a chunk of ingredients with exactly as many i
 
 Source: `docs/runs/2026-09-26-frequency.md`. Ideas to raise the three-ingredient row are in `BACKLOG.md`.
 
+## Publication of 1.3.0 (2026-10-13)
+
+Public page checked right after the CI publish (Steam API, changelog page): title Flavor Text Extended, file size 1506518, time_updated 2026-10-13T22:07:29Z, visibility public, preview image sha256 29c070a2... equals Mod/About/Preview.png (badge 1.7), description carries "the latest RimWorld version", change notes entry 1.3.0 present. Tag v1.3.0 and the release exist on fab60e0. The first publish run (38474588769) failed at the SteamCMD upload login with Service Unavailable, the item and the tags were untouched, a second run on the same SHA passed. Left to the owner: nothing. Not played on 1.7: with-optionals, without-odyssey, French.
+
 ## Dry-run of 1.3.0 (2026-10-13)
 
 Run 38473986619, `publish-tag.yml`, mode dry-run, ref `fab60e0597eeb90470b21009b71a23709941132e`, version 1.3.0, `update_preview=true`, description, title and tags off: success, nothing sent. Log read: change note of section 1.3.0 found, version above the highest tag v1.2.2, preview to send 705232 bytes sha256 `29c070a2...` (equals `social_preview_sha256`; the page serves the 1.2.2 image 21f4d13c..., it would be replaced). The dry-run reminder says `Art/Workshop-captures` is not found: the gallery folder of this mod is `Art/Gallery` (CI/CD config, not changed here). URL: `https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/runs/38473986619`.
@@ -90,6 +93,7 @@ Run 38379671178, `publish-tag.yml`, mode dry-run, ref `28d96feb8dc172891cd436458
 
 | Version | Date | Commit | Dry-run | Publish run |
 |---|---|---|---|---|
+| 1.3.0 | 2026-10-13 | fab60e0 | 38473986619 | 38475213615 (a first publish run, 38474588769, failed on SteamCMD Service Unavailable, nothing sent) |
 | 1.2.2 | 2026-10-13 | 28d96fe | 38379671178 | 38379951997 |
 | 1.2.1 | 2026-09-28 | add8d94 | 36436198373 | 36436950847 |
 | 1.2.0 | 2026-09-26 | 509667f | 36270915096 | 36270986472 |
