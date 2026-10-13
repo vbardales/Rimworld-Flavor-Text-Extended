@@ -5,7 +5,7 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-workflow_stage: followUp[1.2.2]
+workflow_stage: playTests[1.3.0]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -28,6 +28,7 @@ workshop:     3806100152
 publication_changelog_review_sha: 8f1f963c6d790244d4f270ec306f4fc9e3ff69d9  # 2026-10-13, owner review of PUBLICATION.md + CHANGELOG.md (1.2 line)
 code_review_sha: f206a19362b2e109550e3be038a40e0993d9b5a9  # 2026-10-13, /code-review low, range 83f7019..f206a19362b2e109550e3be038a40e0993d9b5a9: 0 findings; Mod/ diff is the About.xml description only. Earlier: 2026-10-11 83f7019, 2026-10-06 bb13483.
 remaining:
+  - "open: 1.3.0 (minor, owner 2026-10-13) prepares RimWorld 1.7: Mod/ unchanged but the version, stage back at playTests for the 1.7 pass (AUDIT.md, Passe 1.7); tested_1_7 absent until a run; prerequisites (Pickle, NPT, SanctuaryBacklot valid on 1.7) belong to the tool sessions; 1.7 enters supportedVersions only after a green run, then the Preview badge is rendered again and the 0- copy follows; the 1.3.0 change note and Steam description (no version named) still to write at writeDocs."
   - "open: gallery settled on 2026-10-12 (Art/Gallery/ holds 0-preview, 1-two-dishes-nelim-seated, 2-katsudon); the owner uploaded it to the Steam page by hand on 2026-10-13 (reported by her, not checked on the public page). 1.2.2 published by the CI on 2026-10-13 (run 38379951997, with --preview and --description); open item: none, the gallery is on the page by her report."
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
   - "open: the Steam page description is sent by the CI from PUBLICATION.md; the title, tags, preview and gallery are not. The gallery is the owner's: the page shows the for-height set of 2026-10-06 (images 0 to 3, uploaded by the owner and reported by her); the 3-image set of 2026-10-12 was uploaded by her on 2026-10-13 (her report)."

@@ -1,5 +1,9 @@
 # Changelog
 
+## [Unreleased]
+
+- Prepare RimWorld 1.7 support (minor version): no `1.7` in `supportedVersions` until a green 1.7 run.
+
 ## [1.2.2] - 2026-10-13
 
 - Correct the English of 53 dish descriptions after a full proofreading of the 932 dishes and their 233 shorter forms, 1,165 definitions in total. Missing words, a wrong

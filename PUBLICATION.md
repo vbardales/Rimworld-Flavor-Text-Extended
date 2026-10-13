@@ -18,7 +18,7 @@ icon (mascot with its ribbon lettering, 128 x 128) was `Art/ModIcon-original.png
   by hand on the Steam page or by the CI (`update_description`, off by default). The Steam-ready text is English and ends with the adoption clause (`IF I GO QUIET`), the
   `AI-GENERATED` disclosure, `THANKS`, the attribution/licence line, then
   `[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended]Source code on GitHub[/url]`.
-- **Version.** `modVersion` 1.2.2 in `About.xml` (prepared 2026-10-08, English proofreading; not published yet). The published release is 1.2.1 (CI, tag `v1.2.1`); the releases are listed in `STATUS.md`. 1.0.0 was the first upload, 2026-09-22. `supportedVersions` 1.6 only. No `LoadFolders.xml`, none needed. The 1.2.2 dispatch carries `--preview` (the header image changed after 1.2.1).
+- **Version.** `modVersion` 1.3.0 in `About.xml` (prepared 2026-10-13 for RimWorld 1.7, not published; 1.7 is not in `supportedVersions` until a green 1.7 run). The published release is 1.2.2 (CI, tag `v1.2.2`); the releases are listed in `STATUS.md`. 1.0.0 was the first upload, 2026-09-22. `supportedVersions` 1.6 only. No `LoadFolders.xml`, none needed. The 1.3.0 dispatch carries `--preview` (the badge follows `supportedVersions`) and `--description` if the description changes.
 - **Repository.** Public and pushed. Annotated tag `v1.0.0` and its GitHub release both target
   `5ba5fe7`, the first revision that contains package ID `nelim.flavortextextended` and version `1.0.0`:
   https://github.com/vbardales/Rimworld-Flavor-Text-Extended/releases/tag/v1.0.0.
