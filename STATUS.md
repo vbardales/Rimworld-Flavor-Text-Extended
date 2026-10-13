@@ -74,6 +74,10 @@ Flavor Text matches a dish only to a chunk of ingredients with exactly as many i
 
 Source: `docs/runs/2026-09-26-frequency.md`. Ideas to raise the three-ingredient row are in `BACKLOG.md`.
 
+## Dry-run of 1.3.0 (2026-10-13)
+
+Run 38473986619, `publish-tag.yml`, mode dry-run, ref `fab60e0597eeb90470b21009b71a23709941132e`, version 1.3.0, `update_preview=true`, description, title and tags off: success, nothing sent. Log read: change note of section 1.3.0 found, version above the highest tag v1.2.2, preview to send 705232 bytes sha256 `29c070a2...` (equals `social_preview_sha256`; the page serves the 1.2.2 image 21f4d13c..., it would be replaced). The dry-run reminder says `Art/Workshop-captures` is not found: the gallery folder of this mod is `Art/Gallery` (CI/CD config, not changed here). URL: `https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/runs/38473986619`.
+
 ## Publication of 1.2.2 (2026-10-13)
 
 Public page checked right after the CI publish (Steam API, changelog page): title Flavor Text Extended, file size 1506749, time_updated 2026-10-13T09:59:30Z, visibility public, preview image sha256 equals Mod/About/Preview.png (21f4d13c...), description carries "the latest RimWorld version", change notes entry 1.2.2 present. Tag v1.2.2 and the release exist on 28d96fe. The gallery set is the owner's report, not checked here.
