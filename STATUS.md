@@ -5,7 +5,7 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-workflow_stage: publish[1.2.2]
+workflow_stage: followUp[1.2.2]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -28,7 +28,7 @@ workshop:     3806100152
 publication_changelog_review_sha: 8f1f963c6d790244d4f270ec306f4fc9e3ff69d9  # 2026-10-13, owner review of PUBLICATION.md + CHANGELOG.md (1.2 line)
 code_review_sha: f206a19362b2e109550e3be038a40e0993d9b5a9  # 2026-10-13, /code-review low, range 83f7019..f206a19362b2e109550e3be038a40e0993d9b5a9: 0 findings; Mod/ diff is the About.xml description only. Earlier: 2026-10-11 83f7019, 2026-10-06 bb13483.
 remaining:
-  - "open: gallery settled on 2026-10-12 (Art/Gallery/ holds 0-preview, 1-two-dishes-nelim-seated, 2-katsudon); the owner uploaded it to the Steam page by hand on 2026-10-13 (reported by her, not checked on the public page). 1.2.2 in preparation (owner, 2026-10-08): English corrections from the owner's audit of Mod/Defs, retested on 232b980; shootGallery and mountPreview are done, writeDocs is in progress, prepareRelease follows. The 1.2.2 dispatch must carry --preview: Mod/About/Preview.png changed after 1.2.1 (badged with the ModIcon, 3b5f065) and the CI sends the header image only on request (owner, 2026-10-08). 1.2.1 stays the published release until the CI publishes 1.2.2."
+  - "open: gallery settled on 2026-10-12 (Art/Gallery/ holds 0-preview, 1-two-dishes-nelim-seated, 2-katsudon); the owner uploaded it to the Steam page by hand on 2026-10-13 (reported by her, not checked on the public page). 1.2.2 published by the CI on 2026-10-13 (run 38379951997, with --preview and --description); open item: none, the gallery is on the page by her report."
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
   - "open: the Steam page description is sent by the CI from PUBLICATION.md; the title, tags, preview and gallery are not. The gallery is the owner's: the page shows the for-height set of 2026-10-06 (images 0 to 3, uploaded by the owner and reported by her); the 3-image set of 2026-10-12 was uploaded by her on 2026-10-13 (her report)."
   - "open: PR to the origin repository (PUBLISHING.md rule of 2026-09-28) has no code to carry; the owner decides whether to propose the optional-slot idea or the egg filing to hekmo. BACKLOG.md, Upstream."
@@ -43,7 +43,7 @@ protocols_read_sha: e8f5738ee2228246ab626d3fd9ba5f9e1faf7cbf
 
 ## Current state
 
-- **Published**: Workshop item `3806100152`, v1.2.1. Tag and GitHub release are created by the CI workflow, never by hand. Publish rules: `../../PUBLISHING.md`, `Rimworld-Release-Admin/docs/OPERATIONS.md`.
+- **Published**: Workshop item `3806100152`, v1.2.2 (CI, 2026-10-13). Tag and GitHub release are created by the CI workflow, never by hand. Publish rules: `../../PUBLISHING.md`, `Rimworld-Release-Admin/docs/OPERATIONS.md`.
 - **Content**: 932 original dishes plus 233 shorter forms, seven categories, 51 Def and patch XML files, no assembly, no setting, no keyed text.
 - **Dependency**: only `hekmo.FlavorText` is required. Optional providers are `MayRequire` guarded (47 provider pairs checked); Odyssey has four guards.
 - **Licence**: `original`, MIT. Upstream Flavor Text keeps its own terms. Attribution names Claude, ChatGPT and DALL-E; git history does not split Claude and Codex commits, and ATTRIBUTION.md says so.
@@ -73,7 +73,11 @@ Flavor Text matches a dish only to a chunk of ingredients with exactly as many i
 
 Source: `docs/runs/2026-09-26-frequency.md`. Ideas to raise the three-ingredient row are in `BACKLOG.md`.
 
-## Dry-run of 1.2.2 (2026-10-13)
+## Publication of 1.2.2 (2026-10-13)
+
+Public page checked right after the CI publish (Steam API, changelog page): title Flavor Text Extended, file size 1506749, time_updated 2026-10-13T09:59:30Z, visibility public, preview image sha256 equals Mod/About/Preview.png (21f4d13c...), description carries "the latest RimWorld version", change notes entry 1.2.2 present. Tag v1.2.2 and the release exist on 28d96fe. The gallery set is the owner's report, not checked here.
+
+### Dry-run
 
 Run 38379671178, `publish-tag.yml`, mode dry-run, ref `28d96feb8dc172891cd4364586a2847118613958`, version 1.2.2, `update_preview=true`, `update_description=true`, title and tags off: success, nothing sent. Log read: change note of section 1.2.2 found, preview to send `Mod/About/Preview.png` 705478 bytes sha256 `21f4d13c...` (equals `social_preview_sha256`; the page serves a different image, it would be replaced), description diff is the one line that dropped the RimWorld version. URL: `https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/runs/38379671178`.
 
@@ -81,6 +85,7 @@ Run 38379671178, `publish-tag.yml`, mode dry-run, ref `28d96feb8dc172891cd436458
 
 | Version | Date | Commit | Dry-run | Publish run |
 |---|---|---|---|---|
+| 1.2.2 | 2026-10-13 | 28d96fe | 38379671178 | 38379951997 |
 | 1.2.1 | 2026-09-28 | add8d94 | 36436198373 | 36436950847 |
 | 1.2.0 | 2026-09-26 | 509667f | 36270915096 | 36270986472 |
 | 1.1.0 | 2026-09-24 | 9bd7fd3 | 36000918644 | 36001072152 |
