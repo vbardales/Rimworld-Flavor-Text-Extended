@@ -73,6 +73,10 @@ Flavor Text matches a dish only to a chunk of ingredients with exactly as many i
 
 Source: `docs/runs/2026-09-26-frequency.md`. Ideas to raise the three-ingredient row are in `BACKLOG.md`.
 
+## Dry-run of 1.2.2 (2026-10-13)
+
+Run 38379671178, `publish-tag.yml`, mode dry-run, ref `28d96feb8dc172891cd4364586a2847118613958`, version 1.2.2, `update_preview=true`, `update_description=true`, title and tags off: success, nothing sent. Log read: change note of section 1.2.2 found, preview to send `Mod/About/Preview.png` 705478 bytes sha256 `21f4d13c...` (equals `social_preview_sha256`; the page serves a different image, it would be replaced), description diff is the one line that dropped the RimWorld version. URL: `https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/runs/38379671178`.
+
 ## Published releases
 
 | Version | Date | Commit | Dry-run | Publish run |
