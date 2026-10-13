@@ -1,7 +1,6 @@
 # Changelog
 
-## [Unreleased]
-
+## [1.3.0] - 2026-10-13
 - Support RimWorld 1.7: 1.7 is added to `supportedVersions` after a green Pickle diagnostic on 1.7 (English, without optional mods, 14 of 14). The Workshop preview badge reads 1.7. No dish was added, removed or renamed.
 
 ## [1.2.2] - 2026-10-13
