@@ -5,7 +5,7 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-workflow_stage: prepareRelease[1.3.0]
+workflow_stage: publish[1.3.0]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
