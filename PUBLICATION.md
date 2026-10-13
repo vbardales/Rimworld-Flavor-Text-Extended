@@ -9,8 +9,7 @@ The Workshop gallery images are in `Art/Gallery/` in their Steam display order. 
 accepted the "two dishes, Nelim seated" picture from the "Lunch is served" story (`Tests/Pickle/Mod/Pickle/Features/10-gallery-scenes.feature`,
 run d5a1, pass 12), the session dropped the two older cards that it replaced or overlapped (two dishes at once, medium-boiled egg), and the
 blanquette-and-hen candidate was refused (plain yellow meal sprite, neutral face). The gallery
-on the Steam page is uploaded by hand by the owner: the page still shows the `for-height` set of 2026-10-06 (images 0 to 3, as reported by her)
-until she uploads this one. New candidates are named `N-candidate-<subject>`: the owner accepts (the word `candidate` goes) or refuses (the file is deleted). The first
+on the Steam page is uploaded by hand by the owner: she uploaded this set on 2026-10-13 (her report, not checked on the public page by a session). New candidates are named `N-candidate-<subject>`: the owner accepts (the word `candidate` goes) or refuses (the file is deleted). The first
 icon (mascot with its ribbon lettering, 128 x 128) was `Art/ModIcon-original.png`; the file left the working tree on 2026-10-11 (minimal Art set) and is kept in the Git history.
 
 ## Before the upload
@@ -34,7 +33,7 @@ Decided from the sources, not from intent.
 - **No DLC is required.** Four of the six reptile meats belong to Odyssey and are referenced only behind
   `MayRequire="ludeon.rimworld.odyssey"` on each entry. The pass without Odyssey (`Tests/Pickle`, `05-without-odyssey`)
   loaded the mod with zero errors, and the game kept the DLC out. Making Odyssey required would exclude everyone without it
-  for 13 dishes out of 901, so it stays optional.
+  for 13 dishes out of 932, so it stays optional.
 - **Optional, deliberately not declared** (each is a `MayRequire` on a list entry, the mod does nothing for it when absent):
   RimLife Cultivation Plus (3614595617) and RimLife Expansion Trading items (2951594887), both by daylight; VV - New
   Harvest (3448458106, VVenchov). The pass with these three staged passed, and the ingredients they name were read back from
@@ -61,7 +60,7 @@ capture with only the side edges cut (x 410 to 1510): full height, so both smile
 2. `2-katsudon.png`: info card of a cooked katsudon, from rice, pork and egg: the clearest proof that the extension
    names an ordinary meal after a specific dish.
 
-The gallery is uploaded by hand: SteamCMD cannot send it. The images on the Steam page are still the 2026-10-06 set (0 to 3, uploaded by the owner, not checked on the page by a session); this set of three replaces it once she uploads it.
+The gallery is uploaded by hand: SteamCMD cannot send it. The owner uploaded this set of three on 2026-10-13, replacing the 2026-10-06 set (0 to 3); that is her report, not checked on the public page by a session.
 
 The uncompressed 1920x1080 captures are not kept in the repository: they stay on disk in
 `Tests/Pickle/Evidence/2026-10-06-gallery-height-5bf7bef/screenshots/`, ignored by git (see `TESTING.md`, "Evidence to keep").
