@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [1.2.2] - 2026-10-13
 
 - Correct the English of 53 dish descriptions after a full proofreading of the 932 dishes and their 233 shorter forms, 1,165 definitions in total. Missing words, a wrong
   word (`emblem` for `emblematic`, `stringing` for `stringy`, `pastrycook` for `pastry cook`), `by knife` for `with a knife`, two sentences that did
