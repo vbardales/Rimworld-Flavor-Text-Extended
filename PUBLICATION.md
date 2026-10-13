@@ -194,6 +194,18 @@ Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]
 Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
 ```
 
+### 1.3.0
+
+```
+[h1]1.3.0[/h1]
+RimWorld 1.7 support.
+[list]
+[*] The mod now declares RimWorld 1.7 next to 1.6. It loaded and named meals in a real 1.7 game: 14 scenarios out of 14 passed (English, without optional mods).
+[*] The Workshop preview badge reads 1.7. No dish was added, removed or renamed, and meal naming is unchanged.
+[/list]
+Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] (hekmo).
+Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
+```
 ### 1.2.2
 
 ```
