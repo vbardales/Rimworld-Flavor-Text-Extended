@@ -122,7 +122,7 @@ Leek and shallot get categories of their own, so a dish can ask for them by name
 
 [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432) matches keywords against both defNames and labels. This mod also attaches selected ingredients explicitly by defName, including ingredients whose names do not match the expected keywords: highland barley, hybrid rice, salted mustard greens, bok choy, ginkgo nuts, grain wines, dried meat and cheeses, among others.
 
-None of those mods are required. Each provider-specific ingredient reference is guarded by its mod's package ID. No DLC is required. The [Chinese Traditional Cultural Things Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640) hooks are not certified for RimWorld 1.6.
+None of those mods are required. Each provider-specific ingredient reference is guarded by its mod's package ID. No DLC is required. The [Chinese Traditional Cultural Things Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640) hooks are not certified for the latest RimWorld version.
 
 **FRENCH**
 
