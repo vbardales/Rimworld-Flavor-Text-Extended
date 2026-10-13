@@ -14,8 +14,8 @@ translation_fr: not_applicable
 dependencies: verified
 automated_tests: passed
 xml_tests: passed
-echo_review_sha: 1ac8830f42e8cdfaa827e0fac0544dcca17e1951
-social_preview_sha256: 21f4d13cdef5e4b0e62eda0c5a7fed95d526060344a7249b6df5d9be52cdc62b
+echo_review_sha: 8c4558bbc82b653aa65a33422b6e8b32e040483a
+social_preview_sha256: 29c070a2f637b31ab3c84e0f7e4709d07dcc116c6075df95a94e4236136aecc2
 licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 upstream_mod_remotes:
