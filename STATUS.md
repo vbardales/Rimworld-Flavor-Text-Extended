@@ -5,7 +5,7 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-workflow_stage: writeDocs[1.3.0]
+workflow_stage: prepareRelease[1.3.0]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -26,7 +26,7 @@ english_review: "2026-10-11, owner (Virginie), the 53 corrected descriptions plu
 tested_on:    "2026-10-08, RimWorld 1.6 (Linux depot in WSL, Xvfb), English, on the 1.2.2 tree (232b980). Without optionals 14/14 (ticket df05), with optionals 6/6 (b45a), without Odyssey 3/3 (7050), all exitReason passed. Gallery scenes (10) are separate and not part of this proof."
 tested_1_7:   yes  # 2026-10-13, RimWorld 1.7 (Waylith engine, ~/rimworld17), English only, without optionals (01-alone, 03-cooking, 04-filing), the net48 PickleSteps DLL loaded as is: 14/14 passed, exitReason passed, ticket 20261013-121854-183-56b3 on 94d1b99, evidence Tests/Pickle/Evidence/p17-diag-english-94d1b99. Not played on 1.7: with-optionals, without-odyssey, French (the 1.7 install ships English only). No Version Warning was not in the staged list, so the proof is the log and the report, not the screen.
 workshop:     3806100152
-publication_changelog_review_sha: 8f1f963c6d790244d4f270ec306f4fc9e3ff69d9  # 2026-10-13, owner review of PUBLICATION.md + CHANGELOG.md (1.2 line)
+publication_changelog_review_sha: 7f265e28f384edd36d247537fcdd01cc9102865e  # 2026-10-13, owner review of PUBLICATION.md + CHANGELOG.md for the 1.3 line (RimWorld 1.7 support)
 code_review_sha: f206a19362b2e109550e3be038a40e0993d9b5a9  # 2026-10-13, /code-review low, range 83f7019..f206a19362b2e109550e3be038a40e0993d9b5a9: 0 findings; Mod/ diff is the About.xml description only. Earlier: 2026-10-11 83f7019, 2026-10-06 bb13483.
 remaining:
   - "open: 1.3.0 (minor, owner 2026-10-13, RimWorld 1.7 support) is at writeDocs: supportedVersions 1.6 and 1.7 after the green 1.7 diagnostic (tested_1_7: yes, English only, without optionals), Preview badge 1.7 and the 0- copy regenerated, social preview and its sha256 updated, change note 1.3.0 and CHANGELOG written. Left: the owner review of PUBLICATION.md and CHANGELOG.md for the 1.3 line (publication_changelog_review_sha still names the 1.2 line), then prepareRelease: date the CHANGELOG, dry-run on that SHA with --preview, publish. Not played on 1.7: with-optionals, without-odyssey, French (the 1.7 install ships English only)."
@@ -37,7 +37,7 @@ remaining:
   - "limits, not blockers: each Pickle pass passed once on the 1.2.0 tree; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
   - "note: desktop.ini and *.ico are local only and gitignored since 2026-10-02 (the two Art .ico files left git, files kept on disk); Mod/desktop.ini must never be committed."
-protocols_read_sha: 86cf2bf7fd989021fbad0ac45602a2109a7a3aa7
+protocols_read_sha: 65e09838c8023b798d4ba0ff04df04284a96f11e
 ---
 
 # Flavor Text Extended - status
