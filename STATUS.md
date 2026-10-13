@@ -5,7 +5,7 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-workflow_stage: mountPreview[1.2.2]
+workflow_stage: writeDocs[1.2.2]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -14,14 +14,14 @@ translation_fr: not_applicable
 dependencies: verified
 automated_tests: passed
 xml_tests: passed
-echo_review_sha: 431d507614d55ea9805dd678c6a1f345faf672f0
+echo_review_sha: 1ac8830f42e8cdfaa827e0fac0544dcca17e1951
 social_preview_sha256: 21f4d13cdef5e4b0e62eda0c5a7fed95d526060344a7249b6df5d9be52cdc62b
 licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 upstream_mod_remotes:
   - "https://github.com/JohannesKolsky/FlavorText"
 maintainer:    current Codex task for this repository
-updated:      2026-10-12
+updated:      2026-10-13
 english_review: "2026-10-11, owner (Virginie), the 53 corrected descriptions plus BalutFrit (runny), PUBLICATION.md, BACKLOG.md and CHANGELOG.md, revision 83f7019, validated in chat; no exhaustive reread of the 2,337 catalogue lines"
 tested_on:    "2026-10-08, RimWorld 1.6 (Linux depot in WSL, Xvfb), English, on the 1.2.2 tree (232b980). Without optionals 14/14 (ticket df05), with optionals 6/6 (b45a), without Odyssey 3/3 (7050), all exitReason passed. Gallery scenes (10) are separate and not part of this proof."
 workshop:     3806100152
@@ -92,6 +92,7 @@ Audited against the protocols at ae25bbd (AUDIT.md, AGENTS.md, PICKLE.md, PUBLIS
 - **Defect found and fixed:** `FRENCH_REVIEW.md` named revision 516e58d while `Mod/Defs` last changed in 232b980. Regenerated with `Make-FrenchReview.ps1` (now 232b980, 1165 dishes).
 - **translation_en reset to unchecked:** 53 English descriptions changed in 1.2.2. The owner reads them in `FRENCH_REVIEW.md` before the deploy (TRANSLATIONS.md, text-only edit after validation). The stage does not go back for that.
 - **Gallery candidates, decided 2026-10-12:** the owner accepted 4 (pawn seated, two dishes at once; now `1-two-dishes-nelim-seated.jpg`) and left 2 and 3 to the session, which removed them (the scene covers "two dishes", the egg card is dark and weak as a thumbnail). Candidate 5 (Two-Meat Blanquette, hen) was refused by the session after the owner's remarks, and the owner asked for a new try (expression step requested from NPT, meal texture mod to test): the meal reads as a plain yellow disc (the pass map loads Rustic Meal Retexture; Food Texture Variety, 3354456321, has a variant map `wsl-deps.gallery-scenes-ftv.map` to try) and Nelim's face is neutral (no expression step exists in Pickle). Its card text ("Nothing in it is browned: That is the point") was left as is, so the English review stays closed. Gallery is now 0-preview, 1-two-dishes-nelim-seated, 2-katsudon.
+- **mountPreview closed 2026-10-13:** echo-concept.png kept (conceptual, no capture shows the subject; unchanged since 431d507), echo_review_sha re-set at the HEAD that carries the new Preview-source Preview; Preview.png = 0-preview.png byte for byte, sha256 equals social_preview_sha256, Art/ is the minimal set.
 - **Not checked, later states:** `echo_review_sha` and `social_preview_sha256` were written on 2026-10-12 (owner chose `Art/echo-concept.png` as the echo, Preview.png and 0-preview.png regenerated at 431d507 then at f46f2b7 and 83aed8a with the owner's new Preview-source.png, social preview uploaded three times (last at 83aed8a) and checked: og:image sha256 equals the file), `publication_changelog_review_sha` is absent (writeDocs 11.j). None blocks playTests.
 - **Whole chain replayed on 2026-10-11 (states 1 to 8), on disk:**
   - *setupRepo, makeSources (1, 2):* remote `vbardales/Rimworld-Flavor-Text-Extended`, public, `.gitignore` and `.gitattributes` present, `README.md`, `ATTRIBUTION.md`, `LICENSE`, `CHANGELOG.md` present, `ATTRIBUTION.md` and `LICENSE` identical in `Mod/`, `upstream_mod_remotes` set, `Check-Status.ps1` 0 error. `ModIcon.png` 128 x 128, 24 KB; `Preview.png` 896 x 504, 713 KB and byte-identical to `Art/Gallery/0-preview.png`; sources `ModIcon-source.png` and `Preview-source.png` present, no `PROMPT_*.md`. Defect fixed: `Art/ModIcon-original.png` was outside the minimal Art set (2.f), cited nowhere, removed.
