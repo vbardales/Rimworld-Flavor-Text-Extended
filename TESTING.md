@@ -445,11 +445,11 @@ The directory names carry the label of the request (b14150e), which was still qu
 `08-frequency`: 21.0 % for one ingredient, 4.3 % for two, 5.8 % for three, 23.0 % for four, against 0.0 %, 0.8 % and 2.3 % for two, three and four
 on the published 1.1.0 (`2026-09-26-frequency-b/`); see `docs/runs/2026-09-26-frequency.md`.
 
-### Earlier revisions (history)
+### Findings kept from earlier revisions
 
-The passes of 2026-09-21 through 24 (the v1.0.0 build, then the 1.1.0 FlavorDef narrowness revision) all
-passed, on 641 to 1072 active FlavorDefs of 1831 depending on the pass. Two findings from that period are
-still true and worth keeping in mind: `VV_Leeks` is filed under `FT_Onion` as well as `FT_Leek` (hekmo's own
+The passes of 2026-09-21 through 24 (v1.0.0 build, 1.1.0 narrowness revision) all passed, on 641 to 1072 active
+FlavorDefs of 1831; their reports were pruned (full text in git history of this file). Two findings
+from that period are still true and worth keeping in mind: `VV_Leeks` is filed under `FT_Onion` as well as `FT_Leek` (hekmo's own
 onion category lists "leek" as a keyword and absorbs `VV_Leeks` by name -- the mod gives leek a category of
 its own, it does not take it out of onion), and Pickle's `no errors were logged` only counts errors logged
 while a scenario runs, not at load time -- load-time quiet needs reading `Player.log` directly. Their reports

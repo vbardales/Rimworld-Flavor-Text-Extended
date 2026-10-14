@@ -5,7 +5,7 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-workflow_stage: followUp[1.3.0]
+workflow_stage: dormant
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -21,7 +21,7 @@ licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 upstream_mod_remotes:
   - "https://github.com/JohannesKolsky/FlavorText"
 maintainer:    current Codex task for this repository
-updated:      2026-10-13
+updated:      2026-10-14
 english_review: "2026-10-11, owner (Virginie), the 53 corrected descriptions plus BalutFrit (runny), PUBLICATION.md, BACKLOG.md and CHANGELOG.md, revision 83f7019, validated in chat; no exhaustive reread of the 2,337 catalogue lines"
 tested_on:    "2026-10-08, RimWorld 1.6 (Linux depot in WSL, Xvfb), English, on the 1.2.2 tree (232b980). Without optionals 14/14 (ticket df05), with optionals 6/6 (b45a), without Odyssey 3/3 (7050), all exitReason passed. Gallery scenes (10) are separate and not part of this proof."
 tested_1_7:   yes  # 2026-10-13, RimWorld 1.7 (Waylith engine, ~/rimworld17), English only, without optionals (01-alone, 03-cooking, 04-filing), the net48 PickleSteps DLL loaded as is: 14/14 passed, exitReason passed, ticket 20261013-121854-183-56b3 on 94d1b99, evidence Tests/Pickle/Evidence/p17-diag-english-94d1b99. Not played on 1.7: with-optionals, without-odyssey, French (the 1.7 install ships English only). No Version Warning was not in the staged list, so the proof is the log and the report, not the screen.
@@ -29,6 +29,7 @@ workshop:     3806100152
 publication_changelog_review_sha: 7f265e28f384edd36d247537fcdd01cc9102865e  # 2026-10-13, owner review of PUBLICATION.md + CHANGELOG.md for the 1.3 line (RimWorld 1.7 support)
 code_review_sha: e4b8606f7aa439285f379d4580b8788011000f75  # 2026-10-13, review of f206a19 to e4b8606f7aa439285f379d4580b8788011000f75: 0 findings; Mod/ diff is About.xml only (modVersion 1.3.0, supportedVersions 1.6 and 1.7, matches the green 1.7 diagnostic) and the Preview images. Earlier: f206a19 (2026-10-13), 83f7019 (2026-10-11), bb13483 (2026-10-06).
 remaining:
+  - "non-regression 2026-10-14 (14.a): the published 1.3.0 tag (fab60e0) differs from the tree of the green 1.7 diagnostic (94d1b99) by Mod/About/About.xml (one line) and Mod/About/Preview.png only, so Defs and patches are those already played: 1.6 passes of 2026-10-08 (14/14, 6/6, 3/3) and 1.7 14/14 stand; no rerun queued. Dormant: 1.3.0 published, branches cleaned (only main), docs folded."
   - "done 2026-10-14: Workshop tags set to Mod, 1.6, 1.7 on item 3806100152 by CI/CD (steam-apply-tags.mjs, no new version), read back by Steam and by GetPublishedFileDetails. .github regenerated at stamp bb16e313d7ac (commit 41949e9). A later publish with update_tags needs STEAM_REFRESH_TOKEN in steam-production of this repository, set only on the explicit order of the owner."
   - "open: gallery settled on 2026-10-12 (Art/Gallery/ holds 0-preview, 1-two-dishes-nelim-seated, 2-katsudon); the owner uploaded it to the Steam page by hand on 2026-10-13 (reported by her, not checked on the public page). 1.2.2 published by the CI on 2026-10-13 (run 38379951997, with --preview and --description); open item: none, the gallery is on the page by her report."
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
