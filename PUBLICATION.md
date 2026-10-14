@@ -12,7 +12,7 @@ blanquette-and-hen candidate was refused (plain yellow meal sprite, neutral face
 on the Steam page is uploaded by hand by the owner: she uploaded this set on 2026-10-13 (her report, not checked on the public page by a session). New candidates are named `N-candidate-<subject>`: the owner accepts (the word `candidate` goes) or refuses (the file is deleted). The first
 icon (mascot with its ribbon lettering, 128 x 128) was `Art/ModIcon-original.png`; the file left the working tree on 2026-10-11 (minimal Art set) and is kept in the Git history.
 
-## Before the upload
+## How it is published
 
 - **Description.** `Mod/About/About.xml` is sent to Steam **only when the item is created**; any later correction is made
   by hand on the Steam page or by the CI (`update_description`, off by default). The Steam-ready text is English and ends with the adoption clause (`IF I GO QUIET`), the
@@ -184,17 +184,9 @@ Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/
 ```
 ## Thanks — posted 2026-09-22
 
-Five drafted here in a technical tone; the owner asked for a warmer, fan-toned rewrite instead, each one different, and
-posted those. Kept below as sent, not as the original draft, so this stays the record of what is actually on Steam.
+Five were drafted here in a technical tone; the owner asked for a warmer, fan-toned rewrite instead, each one different, and
+posted those. The three texts that `WORKSHOP_COMMENTS.md` cites as retained are kept below as sent.
 `<ITEM>` was `https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152` at send time.
-
-**hekmo — Flavor Text** (3245374432) — confirmed live on Flavor Text's own Comments page, account `nelim17`.
-
-> Hi hekmo! 🍲 Flavor Text is the reason my colonies stopped eating 'meal, simple' forever, so I went and wrote it 901 more
-> dishes to name. Everything here is built ON your defs (nothing copied, nothing works without your mod), and I made sure
-> to respect how you draw a name so I'm not fighting your engine, just feeding it. If any of my patches ever step on your
-> toes, just say the word and I'll fix it. Thank you for making the base thing so good I wanted 901 more of it. I'll
-> upload a french version too today :) <ITEM>
 
 **daylight — RimLife Cultivation Plus** (3614595617)
 
@@ -216,24 +208,12 @@ posted those. Kept below as sent, not as the original draft, so this stays the r
 > recipes, no hard feelings). Your VV_Leeks slots right in, completely optional, nothing copied. Thanks for growing
 > something so specific! <ITEM>
 
-**DRILLED_HEAD — [DHM]Korean cuisine** ([Workshop 3723096620](https://steamcommunity.com/sharedfiles/filedetails/?id=3723096620))
-
-> Okay this one's a fun story 🍢 I was browsing what people cook in RimWorld and your mod is what put Altang, Beondegi,
-> Bungeoppang, Jjapaghuri and Kimchijeon on my radar. I wrote my own definitions and descriptions from scratch for all
-> five (no textures, code or text borrowed, promise!), but the idea to add them at all is 100% thanks to you. Consider
-> this my little shoutout for the inspiration. <ITEM>
-
-Identity checked on 2026-09-22 against FoodCourt's registry and the installed mod's About.xml,
-PublishedFileId.txt and five KFD_ definitions. Package ID: `drilledhead.Koreancuisine`.
-This is an inspiration credit, not a dependency or a claim of integration testing.
-
-**History (held back until 2026-09-22):** Chinese Traditional Cultural Things Expanded (2877536640). The mod declares no 1.6 support, so the thanks
-message does not claim compatibility. The comment was posted on 2026-09-22 (next section).
+Also posted on 2026-09-22, texts not retained (not listed as retained in `WORKSHOP_COMMENTS.md`): hekmo on Flavor Text (3245374432, checked live as account `nelim17`) and DRILLED_HEAD on [DHM] Korean cuisine (3723096620, an inspiration credit, no dependency or compatibility claim, package ID `drilledhead.Koreancuisine`).
 
 ## Additional Steam comment — posted 2026-09-22
 
-Do not repost the five comments above (Flavor Text, RimLife Cultivation Plus, RimLife Expansion Trading items, VV - New
-Harvest and [DHM] Korean cuisine), nor the already-contacted RimWorks pages for Pickle and RimLogging. The final comment
+Do not repost any of the five comments (hekmo, RimLife Cultivation Plus, RimLife Expansion Trading items, VV - New
+Harvest, [DHM] Korean cuisine), nor the already-contacted RimWorks pages for Pickle and RimLogging. The final comment
 below was posted on the Chinese Traditional Cultural Things Expanded page. It is under Steam's 1,000-character limit and
 ends with the public item URL.
 

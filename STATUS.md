@@ -29,13 +29,11 @@ workshop:     3806100152
 publication_changelog_review_sha: 7f265e28f384edd36d247537fcdd01cc9102865e  # 2026-10-13, owner review of PUBLICATION.md + CHANGELOG.md for the 1.3 line (RimWorld 1.7 support)
 code_review_sha: e4b8606f7aa439285f379d4580b8788011000f75  # 2026-10-13, review of f206a19 to e4b8606f7aa439285f379d4580b8788011000f75: 0 findings; Mod/ diff is About.xml only (modVersion 1.3.0, supportedVersions 1.6 and 1.7, matches the green 1.7 diagnostic) and the Preview images. Earlier: f206a19 (2026-10-13), 83f7019 (2026-10-11), bb13483 (2026-10-06).
 remaining:
-  - "non-regression 2026-10-14 (14.a): the published 1.3.0 tag (fab60e0) differs from the tree of the green 1.7 diagnostic (94d1b99) by Mod/About/About.xml (one line) and Mod/About/Preview.png only, so Defs and patches are those already played: 1.6 passes of 2026-10-08 (14/14, 6/6, 3/3) and 1.7 14/14 stand; no rerun queued. Dormant: 1.3.0 published, branches cleaned (only main), docs folded."
-  - "done 2026-10-14: Workshop tags set to Mod, 1.6, 1.7 on item 3806100152 by CI/CD (steam-apply-tags.mjs, no new version), read back by Steam and by GetPublishedFileDetails. .github regenerated at stamp bb16e313d7ac (commit 41949e9). A later publish with update_tags needs STEAM_REFRESH_TOKEN in steam-production of this repository, set only on the explicit order of the owner."
-  - "open: gallery settled on 2026-10-12 (Art/Gallery/ holds 0-preview, 1-two-dishes-nelim-seated, 2-katsudon); the owner uploaded it to the Steam page by hand on 2026-10-13 (reported by her, not checked on the public page). 1.2.2 published by the CI on 2026-10-13 (run 38379951997, with --preview and --description); open item: none, the gallery is on the page by her report."
+  - "open: a later publish with update_tags needs STEAM_REFRESH_TOKEN in steam-production of this repository; CI/CD sets it only on the explicit order of the owner. Without it such a publish stops before the upload."
+  - "open: the Steam page gallery (Art/Gallery/: 0-preview, 1-two-dishes-nelim-seated, 2-katsudon) was uploaded by hand by the owner on 2026-10-13; reported by her, not checked on the public page. The CI sends the description, preview and tags, never the gallery."
   - "open: the French text of the 233 shorter forms and the new dishes belongs to the companion mod (Flavor Text Extended - Francais); until it lands they show in English in French. Tracked in BACKLOG.md."
-  - "open: the Steam page description is sent by the CI from PUBLICATION.md; the title, tags, preview and gallery are not. The gallery is the owner's: the page shows the for-height set of 2026-10-06 (images 0 to 3, uploaded by the owner and reported by her); the 3-image set of 2026-10-12 was uploaded by her on 2026-10-13 (her report)."
   - "open: PR to the origin repository (PUBLISHING.md rule of 2026-09-28) has no code to carry; the owner decides whether to propose the optional-slot idea or the egg filing to hekmo. BACKLOG.md, Upstream."
-  - "limits, not blockers: each Pickle pass passed once on the 1.2.0 tree; no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
+  - "limits, not blockers: each Pickle pass passed once per tree (1.2.2 for 1.6, 94d1b99 for 1.7); no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
   - "note: desktop.ini and *.ico are local only and gitignored since 2026-10-02 (the two Art .ico files left git, files kept on disk); Mod/desktop.ini must never be committed."
 protocols_read_sha: 1eba2baf4d52f146b4fe4f01d90bdd9f0988979e
@@ -58,7 +56,7 @@ protocols_read_sha: 1eba2baf4d52f146b4fe4f01d90bdd9f0988979e
 | Settings (`MOD_SETTINGS.md`) | not applicable: nothing to configure, so no page and no shortcut | source inventory of `Mod/`: no `.dll`, `.cs`, `MainButtonDef`, `ModSettings`, `Keyed` |
 | Translations (`TRANSLATIONS.md`) | English native Def text complete; French is the companion's | `scripts/Test-Localization.ps1`, `scripts/verify-en.js` |
 | Offline tests | pass | `checkdefs.js` (0 errors, known shared-combination warnings), `Test-Xml.ps1`, `Test-OptionalIngredients.ps1`, `Check-ConfigErrors.ps1` |
-| In game (Pickle) | pass on the 1.2.0 tree | `Tests/Pickle/results/2026-09-26-*`, `docs/runs/2026-09-26-frequency.md` |
+| In game (Pickle) | pass: 1.6 on the 1.2.2 tree (14/14, 6/6, 3/3), 1.7 diagnostic on 94d1b99 (14/14); 1.3.0 differs by About.xml and Preview.png only | `docs/runs/2026-09-26-frequency.md`, `docs/runs/2026-10-13-1-7-diagnostic.md` |
 
 Rerun the offline tests after any Def change; rerun Pickle after any Def or patch change. A change to `ModIcon.png` or the version number alone needs neither.
 

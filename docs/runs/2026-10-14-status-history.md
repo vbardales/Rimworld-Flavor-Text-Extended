@@ -42,3 +42,8 @@ Audited against the protocols at ae25bbd (AUDIT.md, AGENTS.md, PICKLE.md, PUBLIS
 ## Preview source migration — 2026-10-03
 
 Copy, typography, layout and palette are consolidated in `Art/Preview.config.json`. Canonical inputs are `Art/Preview-source.png`, `Art/echo.png` and `Art/ModIcon-source.png`; temporary renderer diagnostics belong under ignored `Art/.render/`. Existing Preview, gallery and ICO outputs were preserved because they were present and coherent; no render was run. Superseded JSON files and generated QA intermediates were removed. Nothing published.
+
+## Dormant, 2026-10-14
+
+- Non-regression (14.a): the published 1.3.0 tag (fab60e0) differs from the tree of the green 1.7 diagnostic (94d1b99) by Mod/About/About.xml (one line) and Mod/About/Preview.png only, so the 1.6 passes of 2026-10-08 (14/14, 6/6, 3/3) and the 1.7 pass (14/14) stand; no rerun queued. Branches: only main.
+- Workshop tags set to Mod, 1.6, 1.7 on item 3806100152 by CI/CD (steam-apply-tags.mjs, no new version), read back by Steam and by GetPublishedFileDetails. .github regenerated at stamp bb16e313d7ac (commit 41949e9).
