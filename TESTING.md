@@ -428,7 +428,8 @@ Odyssey meats exist for.
 ### What has run on the current revision
 
 The 1.2.2 tree (232b980: the English proofreading of 53 dish descriptions, version number) was played on 2026-10-08, queued on tickets,
-headless in the WSL game. Read `exitReason` first: all three ended, none was cut. The 1.2.0 passes of 2026-09-26 (18/18, 3/3, 6/6) are
+headless in the WSL game; 1.3.0 (RimWorld 1.7 declaration) adds only the 1.7 diagnostic row below. The with-optionals, without-odyssey and
+French passes were not rerun on 1.7. Read `exitReason` first: all ended, none was cut. The 1.2.0 passes of 2026-09-26 (18/18, 3/3, 6/6) are
 superseded and their folders are deleted; the figures stay in `docs/runs/`.
 
 | Pass | Result | Active FlavorDefs | Where |
@@ -436,6 +437,7 @@ superseded and their folders are deleted; the figures stay in `docs/runs/`.
 | without-optionals (`01`, `03`, `04`) | **14 of 14, `exitReason: passed`**, ticket df05 | | `2026-10-08-122-without-optionals/` |
 | without-odyssey (`05`) | **3 of 3, `exitReason: passed`**, ticket 7050 | | `2026-10-08-122-without-odyssey/` |
 | with-optionals (`02`) | **6 of 6, `exitReason: passed`**, ticket b45a | | `2026-10-08-122-with-optionals/` |
+| 1.7 diagnostic, English only, without optionals (RimWorld 1.7 ships English only) | **14 of 14, `exitReason: passed`**, ticket 20261013-121854-183-56b3 on 94d1b99 (1.3.0 declares 1.7) | | `p17-diag-english-94d1b99/` |
 | workshop-captures (`06`) | **3 of 3, `exitReason: passed`**, run 4cb9 on tree 5bf7bef (Nelims-tribe, `window-backdrop-for-height`, no animals); the three images in `Art/Gallery/` come from it | | `Tests/Pickle/Evidence/2026-10-06-gallery-ca7199e/` (screenshots on disk, ignored by git) |
 
 The directory names carry the label of the request (b14150e), which was still queued when the tree moved on; the tree played is e283f89, as the
