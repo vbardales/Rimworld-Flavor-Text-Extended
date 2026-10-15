@@ -21,7 +21,7 @@ licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 upstream_mod_remotes:
   - "https://github.com/JohannesKolsky/FlavorText"
 maintainer:    current Codex task for this repository
-updated:      2026-10-14
+updated:      2026-10-15
 english_review: "2026-10-11, owner (Virginie), the 53 corrected descriptions plus BalutFrit (runny), PUBLICATION.md, BACKLOG.md and CHANGELOG.md, revision 83f7019, validated in chat; no exhaustive reread of the 2,337 catalogue lines"
 tested_on:    "2026-10-08, RimWorld 1.6 (Linux depot in WSL, Xvfb), English, on the 1.2.2 tree (232b980). Without optionals 14/14 (ticket df05), with optionals 6/6 (b45a), without Odyssey 3/3 (7050), all exitReason passed. Gallery scenes (10) are separate and not part of this proof."
 tested_1_7:   yes  # 2026-10-13, RimWorld 1.7 (Waylith engine, ~/rimworld17), English only, without optionals (01-alone, 03-cooking, 04-filing), the net48 PickleSteps DLL loaded as is: 14/14 passed, exitReason passed, ticket 20261013-121854-183-56b3 on 94d1b99, evidence Tests/Pickle/Evidence/p17-diag-english-94d1b99. Not played on 1.7: with-optionals, without-odyssey, French (the 1.7 install ships English only). No Version Warning was not in the staged list, so the proof is the log and the report, not the screen.
@@ -36,7 +36,7 @@ remaining:
   - "limits, not blockers: each Pickle pass passed once per tree (1.2.2 for 1.6, 94d1b99 for 1.7); no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
   - "note: desktop.ini and *.ico are local only and gitignored since 2026-10-02 (the two Art .ico files left git, files kept on disk); Mod/desktop.ini must never be committed."
-protocols_read_sha: 1eba2baf4d52f146b4fe4f01d90bdd9f0988979e
+protocols_read_sha: 365bc5e7ed448e16d54cfddabad386ef26fad04d
 ---
 
 # Flavor Text Extended - status
