@@ -5,7 +5,7 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-workflow_stage: dormant
+workflow_stage: shootGallery[1.3.0]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -36,7 +36,7 @@ remaining:
   - "limits, not blockers: each Pickle pass passed once per tree (1.2.2 for 1.6, 94d1b99 for 1.7); no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
   - "note: desktop.ini and *.ico are local only and gitignored since 2026-10-02 (the two Art .ico files left git, files kept on disk); Mod/desktop.ini must never be committed."
-protocols_read_sha: 228c98ab061efe4883c879bd8e5be6d97c22c128
+protocols_read_sha: 6eeb289af92096fa3a7ee40825e3b5221030873d
 ---
 
 # Flavor Text Extended - status
@@ -48,6 +48,7 @@ protocols_read_sha: 228c98ab061efe4883c879bd8e5be6d97c22c128
 - **Dependency**: only `hekmo.FlavorText` is required. Optional providers are `MayRequire` guarded (47 provider pairs checked); Odyssey has four guards.
 - **Licence**: `original`, MIT. Upstream Flavor Text keeps its own terms. Attribution names Claude, ChatGPT and DALL-E; git history does not split Claude and Codex commits, and ATTRIBUTION.md says so.
 - **French**: not shipped here. The separate companion carries it, by the owner's decision.
+- **Gallery reshoot (2026-10-15, owner's order, stage reopened at `shootGallery[1.3.0]`, no code or `Mod/` change)**: the audit of the same day found that the published gallery (`0-preview`, `1-two-dishes-nelim-seated`, `2-katsudon`) does not tell the "Lunch is served" story of `Tests/Pickle/Mod/Pickle/Features/10-gallery-scenes.feature`, that it has no animal, and that only picture 1 has Nelim, against `GALLERY.md` (2026-10-14: Nelim protagonist, animals facing the camera). The feature was rewritten (plan in its header): Mei as guest, Shogun and a hen facing the camera, Nelim's own face, potatoes in her arms in the garden, scenario 2 unchanged because its picture was accepted. Pass `-DepMap wsl-deps.gallery-scenes-ftv.map`. Candidates go to `Art/Gallery/N-candidate-<subject>.jpg`; the stage returns to `dormant` once the owner has accepted or refused them and the gallery on the Steam page is uploaded.
 
 ## Gates
 

@@ -26,3 +26,7 @@ Rules: images only in `Art/Gallery/`, `0-preview.png` from the renderer, the aut
 4. The owner decides: an accepted image loses the word `candidate`; a refused one is deleted.
 
 Candidates of run d5a1 (tree 388ba52, eighth pass, evidence `2026-10-08-lunch-8`, indexes 4 and 5; the katsudon-at-the-table and the plant-garden pictures were refused and deleted; pass 12 replaced 4 and 5 on 2026-10-09): on 2026-10-12 the owner accepted 4 (now `1-two-dishes-nelim-seated.jpg`) and 5 (blanquette and hen) was refused and deleted. Known defects, still open for the next pass: neutral face (no expression step yet), eyes too small to judge, the meal is the game's plain yellow sprite.
+
+## Second version of the story (2026-10-15)
+
+The owner asked for the gallery to be redone. The audit found that the published set did not tell the story, had no animal and showed Nelim in one picture only. `10-gallery-scenes.feature` now plays "Lunch is served" with Nelim, her guest Mei, Shogun and a hen (both facing the camera): 1 table laid (new), 2 two dishes at once (unchanged, accepted 2026-10-12), 3 blanquette with the guests and animals (replaces the blanquette-and-hen candidate and its variant B), 4 garden with potatoes. Pass: `-DepMap wsl-deps.gallery-scenes-ftv.map -Filter 10-gallery-scenes.feature`, English. The evidence of the previous third try of picture 3 kept no screenshot, so that picture has never been looked at in its final recipe.

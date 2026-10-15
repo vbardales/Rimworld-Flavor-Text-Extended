@@ -45,3 +45,7 @@ Not read, not useful here:
 ## Reading of 2026-10-15 (audit session)
 
 Protocol versions read: the protocols repository at `365bc5e`, recorded by `Mark-ProtocolsRead.ps1`. Read: `AUDIT.md` in full, `MOD_SETTINGS.md` in full, `PUBLISHING.md` ("Images"), the diffs of `AGENTS.md`, `GALLERY.md` and `README.md` since `1eba2baf` (session colour computed by the Workflow Board; gallery rules for a protagonist and animals facing the camera). Not reread: `STYLE_RIMWORLD.md`, `TRANSLATIONS.md`, `PICKLE.md` (no Preview rendered, no text changed, no Pickle run).
+
+## Reading of 2026-10-15, second part (gallery reshoot)
+
+Read for the reshoot: `GALLERY.md` in full, `PICKLE.md` ("Règles de machine", "Déposer un run"), `Rimworld-Ticket-Dispatcher/docs/SUBMIT.md` and `WELCOME.md`, `SanctuaryBacklot/docs/GALERIE.md`, `SANCTUAIRE-LIEUX.md`, `steps.md`, `GALERIE-CHOIX.md`, `PickleTools/docs/steps.md` (filtered by script). New in `AUDIT.md` since `228c98a`: the end-of-cleanup message must give the owner the Workshop links of the mods she can unsubscribe from (removed from the WSL, and original mods a port replaces). This mod removed nothing on 2026-10-14 and is not a port, so there was nothing to list; the next cleanup (after this gallery pass stages Food Texture Variety and the body mods) must list them. `USE_THIS_INSTEAD.md` changed too: not used by this mod.
