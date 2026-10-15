@@ -41,3 +41,7 @@ Not read, not useful here:
 |---|---|
 | `STYLE_RIMWORLD.md` | only when the Preview or the echo is rendered (`mountPreview`) |
 | `WORKSHOP_COMMENTS.md` | only when a Steam comment is drafted |
+
+## Reading of 2026-10-15 (audit session)
+
+Protocol versions read: the protocols repository at `365bc5e`, recorded by `Mark-ProtocolsRead.ps1`. Read: `AUDIT.md` in full, `MOD_SETTINGS.md` in full, `PUBLISHING.md` ("Images"), the diffs of `AGENTS.md`, `GALLERY.md` and `README.md` since `1eba2baf` (session colour computed by the Workflow Board; gallery rules for a protagonist and animals facing the camera). Not reread: `STYLE_RIMWORLD.md`, `TRANSLATIONS.md`, `PICKLE.md` (no Preview rendered, no text changed, no Pickle run).

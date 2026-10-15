@@ -47,7 +47,7 @@ Decided from the sources, not from intent.
 ## Captures for the Workshop page
 
 `Mod/About/Preview.png` is the Workshop header and `Mod/About/ModIcon.png` is the in-game list icon. Both are rendered by
-`scripts/Render-Preview.cjs` from `Art/Preview.config.json`, `Art/Preview-source.png`, `Art/echo.png` and the owner's
+`scripts/Render-Preview.cjs` from `Art/Preview.config.json`, `Art/Preview-source.png`, `Art/echo-concept.png` (the echo named in `Preview.config.json`) and the owner's
 `Art/ModIcon-source.png` (key `modIconSource`: the icon is reduced to 128 x 128 without cropping). `Preview.png` carries the
 icon as a badge in the bottom-left corner. `Art/Gallery/0-preview.png` is a byte-for-byte copy of `Mod/About/Preview.png`, written
 by the same renderer, so the gallery opens on the same image as the store page. The katsudon card is a 1100x1080 PNG, the 1920x1080
