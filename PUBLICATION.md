@@ -62,6 +62,17 @@ capture with only the side edges cut (x 410 to 1510): full height, so both smile
 
 The gallery is uploaded by hand: SteamCMD cannot send it. The owner uploaded this set of three on 2026-10-13, replacing the 2026-10-06 set (0 to 3); that is her report, not checked on the public page by a session.
 
+**Subtitles (owner's rule, 2026-10-15; reshoot of the "Lunch is served" series, `Tests/Pickle/Mod/Pickle/Features/10-gallery-scenes.feature`).** Every scene without an interface window carries a one-line English comment at the bottom of the image, like a film subtitle. A scene with an info card needs none: the card is its text. The subtitle is cut onto the accepted image outside the game, after the owner accepts the candidate; no scenario draws it. Planned set (the pictures are candidates until she accepts them):
+
+| Scene | Window | Subtitle |
+|---|---|---|
+| 1. 12:00, the table is laid | katsudon card | none (the card) |
+| 2. 12:05, two dishes at once | meal card | none (the card) |
+| 3. 12:10, the blanquette, Mei, Shogun and a hen | blanquette card | none (the card) |
+| 4. 12:15, the plant garden | no window | `After lunch, Nelim brings in what the next meal needs. What a colony grows decides which dishes the table can name.` |
+
+If a later scene is added without a window, its subtitle goes in this table before the picture is taken.
+
 The uncompressed 1920x1080 captures are not kept in the repository: they stay on disk in
 `Tests/Pickle/Evidence/2026-10-06-gallery-height-5bf7bef/screenshots/`, ignored by git (see `TESTING.md`, "Evidence to keep").
 
