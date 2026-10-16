@@ -1,4 +1,4 @@
-# Publication notes — Flavor Text Extended
+# Publication notes: Flavor Text Extended
 
 What the Workshop page asked for and the repository held nowhere else. Written 2026-09-21 as a draft; **published
 2026-09-22**, item [3806100152](https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152), public. The
@@ -62,16 +62,15 @@ capture with only the side edges cut (x 410 to 1510): full height, so both smile
 
 The gallery is uploaded by hand: SteamCMD cannot send it. The owner uploaded this set of three on 2026-10-13, replacing the 2026-10-06 set (0 to 3); that is her report, not checked on the public page by a session.
 
-**Subtitles (owner's rule, 2026-10-15; reshoot of the "Lunch is served" series, `Tests/Pickle/Mod/Pickle/Features/10-gallery-scenes.feature`).** Every scene without an interface window carries a one-line English comment at the bottom of the image, like a film subtitle. A scene with an info card needs none: the card is its text. The subtitle is cut onto the accepted image outside the game, after the owner accepts the candidate; no scenario draws it. Planned set (the pictures are candidates until she accepts them):
+**Subtitles (owner's rule, 2026-10-15; reshoot of the "Lunch is served" series, `Tests/Pickle/Mod/Pickle/Features/10-gallery-scenes.feature`).** Every scene without an interface window carries one short English line at the bottom of the image, like a film subtitle, cut onto the accepted image outside the game by `../scripts/Add-Subtitle.ps1` (the clean original goes to `Art/Gallery-clean/` under the same name); no scenario draws it. A scene with an info card needs none: the card is its text. The file names below are planned; the pictures are candidates until the owner accepts them, and the indexes are final after the reindex.
 
-| Scene | Window | Subtitle |
+### Gallery subtitles
+
+| index | file | line |
 |---|---|---|
-| 1. 12:00, the table is laid | katsudon card | none (the card) |
-| 2. 12:05, two dishes at once | meal card | none (the card) |
-| 3. 12:10, the blanquette, Mei, Shogun and a hen | blanquette card | none (the card) |
-| 4. 12:15, the plant garden | no window | `After lunch, Nelim brings in what the next meal needs. What a colony grows decides which dishes the table can name.` |
+| 4 | `4-plant-garden.jpg` | After lunch, Nelim brings in what the next meal needs. |
 
-If a later scene is added without a window, its subtitle goes in this table before the picture is taken.
+Scenes with a card, so no subtitle: 1 `1-table-laid` (katsudon card), 2 `2-two-dishes-nelim-seated` (two-dishes card), 3 `3-blanquette-shogun-hen` (blanquette card). `0-preview.png` has none either. If a later scene without a window is added, its line goes in this table before the picture is taken.
 
 The uncompressed 1920x1080 captures are not kept in the repository: they stay on disk in
 `Tests/Pickle/Evidence/2026-10-06-gallery-height-5bf7bef/screenshots/`, ignored by git (see `TESTING.md`, "Evidence to keep").
@@ -163,7 +162,7 @@ Credits, provenance and licence (MIT) are in ATTRIBUTION.md and LICENSE, shipped
 [Source code on GitHub](https://github.com/vbardales/Rimworld-Flavor-Text-Extended)
 ```
 
-## Steam release notes (updates) — template
+## Steam release notes (updates template)
 
 Steam's change note accepts BBCode. Every mod name links to its Workshop page (the same rule as the description). Fill the
 angle brackets, drop a bullet that does not apply, keep it short: one line of "what a player sees" per bullet.
@@ -193,7 +192,7 @@ RimWorld 1.7 support.
 Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] (hekmo).
 Full changelog: [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
 ```
-## Thanks — posted 2026-09-22
+## Thanks, posted 2026-09-22
 
 Five were drafted here in a technical tone; the owner asked for a warmer, fan-toned rewrite instead, each one different, and
 posted those. The three texts that `WORKSHOP_COMMENTS.md` cites as retained are kept below as sent.
@@ -221,7 +220,7 @@ posted those. The three texts that `WORKSHOP_COMMENTS.md` cites as retained are 
 
 Also posted on 2026-09-22, texts not retained (not listed as retained in `WORKSHOP_COMMENTS.md`): hekmo on Flavor Text (3245374432, checked live as account `nelim17`) and DRILLED_HEAD on [DHM] Korean cuisine (3723096620, an inspiration credit, no dependency or compatibility claim, package ID `drilledhead.Koreancuisine`).
 
-## Additional Steam comment — posted 2026-09-22
+## Additional Steam comment, posted 2026-09-22
 
 Do not repost any of the five comments (hekmo, RimLife Cultivation Plus, RimLife Expansion Trading items, VV - New
 Harvest, [DHM] Korean cuisine), nor the already-contacted RimWorks pages for Pickle and RimLogging. The final comment
