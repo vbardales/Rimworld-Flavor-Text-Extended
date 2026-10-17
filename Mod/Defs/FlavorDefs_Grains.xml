@@ -185,7 +185,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
-		<description>pearl {0_coll} cooked and then cooled straight down, mixed with diced {2_plur}, crumbled {1_plur} and a great deal of herbs. Dress it warm: cold, it takes up nothing at all.</description>
+		<description>pearl {0_coll} cooked and then cooled straight down, mixed with diced {2_plur}, crumbled {1_plur} and a great deal of herbs. The dressing goes on while still warm: cold, the grains take up nothing at all.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>

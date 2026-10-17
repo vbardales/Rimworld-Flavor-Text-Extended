@@ -9,7 +9,7 @@ workflow_stage: shootGallery[1.3.0]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
-translation_en: complete
+translation_en: unchecked
 translation_fr: not_applicable
 dependencies: verified
 automated_tests: passed

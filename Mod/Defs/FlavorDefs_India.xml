@@ -12,7 +12,7 @@
 			<li><categories><li>FT_Spice</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cooked until they fall apart, then woken with a tempering: {1_coll} and {2_coll} fried for just a few seconds in scalding butter and poured over, still hissing.</description>
+		<description>{0_coll} cooked until they fall apart, then brought to life with a tempering: {1_coll} and {2_coll} fried for just a few seconds in scalding butter and poured over, still hissing.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 			<li>FT_MealsNonSpecial</li>
