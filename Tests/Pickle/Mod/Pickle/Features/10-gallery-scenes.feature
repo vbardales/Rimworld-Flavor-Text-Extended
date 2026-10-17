@@ -80,7 +80,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Mei" stands at (175, 110) facing South
     And Nelim's Pickle Tools: the animal "Shogun" stands at (177, 108) facing South
     When Nelim's Sanctuary: Nelim has her own face
-    And Nelim's Pickle Tools: "Mei" facial expression is "normal+moodCheerful1"
+    And Nelim's Pickle Tools: "Mei" facial expression is "normal+moodCheerful"
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
@@ -152,7 +152,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: the animal "Shogun" stands at (177, 108) facing South
     And Nelim's Pickle Tools: the animal "Poule" stands at (174, 108) facing South
     When Nelim's Sanctuary: Nelim has her own face
-    And Nelim's Pickle Tools: "Mei" facial expression is "normal+moodCheerful1"
+    And Nelim's Pickle Tools: "Mei" facial expression is "normal+moodCheerful"
     And Nelim's Pickle Tools: I frame the cell (178, 108) at zoom 5.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
@@ -174,8 +174,8 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
-    Given Nelim's Pickle Tools: I place the decor "PlantAppletree" at (187, 87) fully grown
-    And Nelim's Pickle Tools: I place the decor "PlantCherrytree" at (193, 87) fully grown
+    Given Nelim's Pickle Tools: I place the decor "PlantAppletree" at (183, 84) fully grown
+    And Nelim's Pickle Tools: I place the decor "PlantCherrytree" at (185, 82) fully grown
     Given Flavor Text Extended: "Nelim" stands on the free cell nearest to (190, 85)
     And Nelim's Pickle Tools: "Nelim" carries 6 of the item "RawPotatoes"
     When Nelim's Sanctuary: Nelim has her own face
