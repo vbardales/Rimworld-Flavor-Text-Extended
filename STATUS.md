@@ -9,7 +9,7 @@ workflow_stage: shootGallery[1.3.0]
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
-translation_en: unchecked
+translation_en: complete
 translation_fr: not_applicable
 dependencies: verified
 automated_tests: passed
@@ -21,8 +21,8 @@ licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 upstream_mod_remotes:
   - "https://github.com/JohannesKolsky/FlavorText"
 maintainer:    current Codex task for this repository
-updated:      2026-10-15
-english_review: "2026-10-11, owner (Virginie), the 53 corrected descriptions plus BalutFrit (runny), PUBLICATION.md, BACKLOG.md and CHANGELOG.md, revision 83f7019, validated in chat; no exhaustive reread of the 2,337 catalogue lines"
+updated:      2026-10-17
+english_review: "2026-10-17, owner (Virginie), five reworded descriptions (ArtichautsVinaigrette, SaladeOrgeFeta, Dal, ChouxBruxellesMarrons, RizJollof), revision a1c5b06e797ab1eacd2f6261ef890c064dfdd870, validated in chat. Earlier: 2026-10-11, owner (Virginie), the 53 corrected descriptions plus BalutFrit (runny), PUBLICATION.md, BACKLOG.md and CHANGELOG.md, revision 83f7019, validated in chat; no exhaustive reread of the 2,337 catalogue lines"
 tested_on:    "2026-10-08, RimWorld 1.6 (Linux depot in WSL, Xvfb), English, on the 1.2.2 tree (232b980). Without optionals 14/14 (ticket df05), with optionals 6/6 (b45a), without Odyssey 3/3 (7050), all exitReason passed. Gallery scenes (10) are separate and not part of this proof."
 tested_1_7:   yes  # 2026-10-13, RimWorld 1.7 (Waylith engine, ~/rimworld17), English only, without optionals (01-alone, 03-cooking, 04-filing), the net48 PickleSteps DLL loaded as is: 14/14 passed, exitReason passed, ticket 20261013-121854-183-56b3 on 94d1b99, evidence Tests/Pickle/Evidence/p17-diag-english-94d1b99. Not played on 1.7: with-optionals, without-odyssey, French (the 1.7 install ships English only). No Version Warning was not in the staged list, so the proof is the log and the report, not the screen.
 workshop:     3806100152
