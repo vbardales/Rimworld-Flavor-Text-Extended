@@ -57,7 +57,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cooked smothered in a base of {1_adj} and {2_adj} reduced right down to the bottom of the pot, so that it takes a faint taste of smoke off the metal. Nigeria and Ghana dispute the paternity, with no referee in sight.</description>
+		<description>{0_coll} cooked in a base of {1_adj} and {2_adj} reduced right down to the bottom of the pot, so that it takes a faint taste of smoke off the metal. Nigeria and Ghana dispute the paternity, with no referee in sight.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
