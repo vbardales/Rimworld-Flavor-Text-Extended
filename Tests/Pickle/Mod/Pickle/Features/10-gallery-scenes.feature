@@ -9,7 +9,7 @@
 #   1. dining-nook, 12:00, +0. Subject: one table, four dish names. Nelim: Apparel_CollarShirt rust (176, 84, 52), Apparel_Pants charcoal (58, 60, 68), Ponytails dark brown (70, 46, 32), own face, carries a MealFine (puts the last plate down).
 #      Mei: Bob black, Apparel_BasicShirt mustard (214, 160, 46), green eyes, cheerful. Shogun at (177, 108) facing South. Decor, service of the meal: VFEPD_FoodTrolley (173, 109), VFEPD_FoodBox (173, 107). No card.
 #      Composition: wide, frame (178, 108) zoom 5, four meals readable, the two women at the north chairs, dog right and off-axis. RISK: the four plates read as one sprite (pass 3 retry: all katsudon) -> Food Texture Variety recipes (FTV_CookMeal*) with ingredient pairs that have their own texture (beef+potatoes, egg+rice, corn+pork, berries+milk), cooked once each in the first four places; the 100x katsudon comes last, for the card only.
-#   2. dining-nook, 12:05, +208. Subject: the meal named after two dishes at once. Nelim: Apparel_BasicShirt sage (122, 150, 104), Apparel_Pants cream (222, 210, 184), Bun, cheerful2, holds a MealSimple at her chair.
+#   2. dining-nook, 12:05, +208. Subject: the meal named after two dishes at once. Nelim: Apparel_BasicShirt sage (122, 150, 104), Apparel_Pants cream (222, 210, 184), Bun, eating face `normal+Ingest` (NPT), holds a MealSimple at her chair facing South (the chairs are north of the table, z 110 over 108..109: facing South shows her face and the table; NPT wrote North by mistake).
 #      Shogun at (177, 111) facing South. Decor, the eggs and the board: EggBox (173, 108), VFEPD_CuttingBoard (173, 110). Card right. Composition: close, frame (181, 108) zoom 6.5, Nelim off-centre. RISK: a seated pose is not a step -> she stands at the chair with the bowl; the accepted earlier picture (1-two-dishes-nelim-seated) stays if this one is worse.
 #   3. dining-nook, 12:10, +417. Subject: the blanquette. Nelim: Apparel_BasicShirt white (240, 240, 236) under Apparel_Jacket denim (60, 92, 140), Apparel_Pants dark (70, 70, 78), Ponytails, own face, holds Meat_Cow out to Shogun.
 #      Mei out. Shogun (177, 108) and hen Poule (174, 108), both facing South. Decor, the pot and straw for the hen: VFEPD_CookingPan (173, 109), VFEPD_HayBaleSmall (172, 110). Card right. Composition: mid-close, frame (178, 108) zoom 5.5.
@@ -97,8 +97,8 @@ Feature: Lunch is served
     Given Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Shogun" is spawned at (177, 111)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
     And Nelim's Pickle Tools: the animal "Shogun" stands at (177, 111) facing South
-    And Nelim's Pickle Tools: "Nelim" carries 1 of the item "MealSimple"
-    When Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
+    And Nelim's Pickle Tools: "Nelim" carries the item "MealSimple"
+    When Nelim's Pickle Tools: "Nelim" facial expression is "normal+Ingest"
     And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
