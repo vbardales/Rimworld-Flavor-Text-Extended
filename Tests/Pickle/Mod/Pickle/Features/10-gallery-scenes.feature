@@ -7,7 +7,7 @@
 #
 # SHOOTING PLAN, one line per image. Outfits differ per scene (colours named), living things are posed after the wait, decor named and gone with the reload.
 #   1. dining-nook, 12:00, +0. Subject: one table, four dish names. Nelim: Apparel_CollarShirt rust (176, 84, 52), Apparel_Pants charcoal (58, 60, 68), Ponytails dark brown (70, 46, 32), own face, carries a MealFine (puts the last plate down).
-#      Mei: Bob black, Apparel_BasicShirt mustard (214, 160, 46), green eyes, cheerful. Shogun at (177, 108) facing South. Decor, service of the meal: VFEPD_FoodTrolley (173, 109), VFEPD_FoodBox (173, 107). No card.
+#      Mei: Bob black, Apparel_BasicShirt mustard (214, 160, 46), green eyes, cheerful. Shogun at (177, 108) facing South. Decor, service of the meal: VFEPD_FoodTrolley (173, 109), VFEPD_WineRack (173, 107). No card.
 #      Composition: wide, frame (178, 108) zoom 5, four meals readable, the two women at the north chairs, dog right and off-axis. RISK: the four plates read as one sprite (pass 3 retry: all katsudon) -> Food Texture Variety recipes (FTV_CookMeal*) with ingredient pairs that have their own texture (beef+potatoes, egg+rice, corn+pork, berries+milk), cooked once each in the first four places; the 100x katsudon comes last, for the card only.
 #   2. dining-nook, 12:05, +208. Subject: the meal named after two dishes at once. Nelim: Apparel_BasicShirt sage (122, 150, 104), Apparel_Pants cream (222, 210, 184), Bun, eating face `normal+Ingest` (NPT), holds a MealSimple at her chair facing South (the chairs are north of the table, z 110 over 108..109: facing South shows her face and the table; NPT wrote North by mistake).
 #      Shogun at (177, 111) facing South. Decor, the eggs and the board: EggBox (173, 108), VFEPD_CuttingBoard (173, 110). Card right. Composition: close, frame (181, 108) zoom 6.5, Nelim off-centre. RISK: a seated pose is not a step -> she stands at the chair with the bowl; the accepted earlier picture (1-two-dishes-nelim-seated) stays if this one is worse.
@@ -44,7 +44,7 @@ Feature: Lunch is served
     And Flavor Text Extended: a colonist also cooks "FTV_CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     Given Nelim's Pickle Tools: I place the decor "VFEPD_FoodTrolley" at (173, 109)
-    And Nelim's Pickle Tools: I place the decor "VFEPD_FoodBox" at (173, 107)
+    And Nelim's Pickle Tools: I place the decor "VFEPD_WineRack" at (173, 107)
     Given Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_CollarShirt" dyed rgb (176, 84, 52)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (58, 60, 68)
