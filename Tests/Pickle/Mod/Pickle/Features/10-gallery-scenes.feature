@@ -3,7 +3,7 @@
 # THE STORY: "Lunch is served" (criterion k). WHO: Nelim, the colony's cook and gardener, with her guest Mei, Shogun her labrador and a hen that follows them. WHERE: the Sanctuary, dining-nook (1 to 3), plant-garden (4).
 # WHICH DAY: one clear, warm midday, 12:00 to 12:15. RHYTHM: +5 min of game time per image (2 500 ticks per game hour): 60 set-up ticks, then +0, +208, +417, +625; each Scenario reloads the save, so decor ends with the scenario.
 # EPISODES, each moves on from the last: (1) Nelim lays the table and Mei arrives: four dishes, four names. (2) They sit; she serves the dish that carries two names at once, Shogun settling at her feet.
-# (3) The plain pot becomes a named blanquette; Mei is gone, Nelim hands the dog a scrap while the hen watches. (4) After lunch, in the garden, the potatoes that decide the next menu (held: the hat proof, ticket e457).
+# (3) The plain pot becomes a named blanquette; Mei is gone, Nelim hands the dog a scrap while the hen watches. (4) After lunch, in the garden, the potatoes that decide the next menu.
 #
 # SHOOTING PLAN, one line per image. Outfits differ per scene (colours named), living things are posed after the wait, decor named and gone with the reload.
 #   1. dining-nook, 12:00, +0. Subject: one table, four dish names. Nelim: Apparel_CollarShirt rust (176, 84, 52), Apparel_Pants charcoal (58, 60, 68), Ponytails dark brown (70, 46, 32), own face, carries a MealFine (puts the last plate down).
@@ -14,7 +14,7 @@
 #   3. dining-nook, 12:10, +417. Subject: the blanquette. Nelim: Apparel_BasicShirt white (240, 240, 236) under Apparel_Jacket denim (60, 92, 140), Apparel_Pants dark (70, 70, 78), Ponytails, own face, holds Meat_Cow out to Shogun.
 #      Mei out. Shogun (177, 108) and hen Poule (174, 108), both facing South. Decor: VFEPD_BrewingBarrel (173, 107), VFEPD_HayBaleSmall (172, 110). Card right. Composition: mid-close, frame (178, 108) zoom 5.5.
 #      RISK: the hen leaves the frame, held meat does not render -> animals posed after the wait, no tick after; fallback is a held MealSimple.
-#   4. plant-garden, 12:15, +625: HELD in next-gallery/11-gallery-garden.feature.hold until the hat proof (ticket e457, Show Hair Under Stuff RaccoonCuddler.ShowHair 3255379190): Nelim with a straw Apparel_CowboyHat over loose long hair (Long), sky shirt, brown trousers, 6 potatoes, a hen at her feet, the card of a potato dish.
+#   4. plant-garden, 12:15, +625. Nelim: straw Apparel_CowboyHat (214, 190, 120) over loose Long hair (Show Hair Under Stuff, RaccoonCuddler.ShowHair 3255379190; hat proof ticket e457 pending, removed if no hair shows), Apparel_BasicShirt sky (96, 150, 190), Apparel_Pants brown (110, 82, 58), cheerful2, carries 6 RawPotatoes; hen Poule at (191, 86) facing South; decor PlantAppletree, PlantCherrytree; card of FlavorTextFR_Gnocchi, right; frame (190, 85) zoom 7. RISK: no hair under the hat, Gnocchi slot 0 not a potato -> replay without the hat or without the card.
 #
 # PLACES, PEOPLE, FACE and ORDER OF EVERY SCENARIO: unchanged from the second version (NPT, 2026-10-07/08): the waits first, then the game paused, then the dressing, then "stands at" LAST, the face, the framing and the capture with no wait after.
 # Bodies are the retextured ones of Venus Touch Waistlines' pass (owner, 2026-10-07). Food Texture Variety gives the meals their own bowls. Table cells: meals on (175..176, 108..109), chairs (175, 110) and (176, 110).
@@ -140,5 +140,37 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then Flavor Text Extended: "Nelim" is logged
     And I take a screenshot "lunch 12:10 - the blanquette, Nelim hands Shogun a scrap while a hen watches"
+    When Nelim's Pickle Tools: screenshot mode is disabled
+    And I close all dialogs
+
+  # 4. 12:15. After lunch, in the plant garden: Nelim in a straw hat over loose long hair, six potatoes in her arms, a hen at her feet, the card of a potato dish beside her. Says: what grows here decides what lunch can be.
+  # RISKS: the hair may not show under the hat (Show Hair Under Stuff, 3255379190: proof of NPT ticket e457 pending; plan B Hat Hair Control 3760821540) -> if the picture shows no hair, play again without the hat, never keep it; Gnocchi may not carry the potato in slot 0 -> if the card step fails, replay without the card.
+  Scenario: after lunch, the plant garden
+    Given Nelim's Sanctuary: I am at the sanctuary "plant-garden"
+    And I wait 685 ticks
+    And game speed is paused
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: I let 120 ticks pass
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawPotatoes", 100 times
+    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (96, 150, 190)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (110, 82, 58)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_CowboyHat" dyed rgb (214, 190, 120)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Long"
+    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
+    Given Nelim's Pickle Tools: I place the decor "PlantAppletree" at (183, 84) fully grown
+    And Nelim's Pickle Tools: I place the decor "PlantCherrytree" at (185, 82) fully grown
+    Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (191, 86)
+    Given Flavor Text Extended: "Nelim" stands on the free cell nearest to (190, 85)
+    And Nelim's Pickle Tools: the animal "Poule" stands at (191, 86) facing South
+    And Nelim's Pickle Tools: "Nelim" carries 6 of the item "RawPotatoes"
+    When Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
+    And Nelim's Pickle Tools: I frame the cell (190, 85) at zoom 7
+    And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Gnocchi" is opened
+    And Flavor Text Extended: the info card is placed at the "right" of the screen
+    And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
+    Then Flavor Text Extended: "Nelim" is logged
+    And I take a screenshot "lunch 12:15 - Nelim in a straw hat in the plant garden with potatoes in her arms and a hen at her feet, the potato dish card beside"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
