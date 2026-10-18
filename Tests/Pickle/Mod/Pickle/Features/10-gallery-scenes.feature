@@ -8,7 +8,7 @@
 # SHOOTING PLAN, one line per image. Outfits differ per scene (colours named), living things are posed after the wait, decor named and gone with the reload.
 #   1. dining-nook, 12:00, +0. Subject: one table, four dish names. Nelim: Apparel_CollarShirt rust (176, 84, 52), Apparel_Pants charcoal (58, 60, 68), Ponytails dark brown (70, 46, 32), own face, carries a MealFine (puts the last plate down).
 #      Mei: Bob black, Apparel_BasicShirt mustard (214, 160, 46), green eyes, cheerful. Shogun at (177, 108) facing South. Decor: VFEPD_WoodenChest (173, 109), VFEPD_BrewingBarrel (173, 107). No card.
-#      Composition: wide, frame (178, 108) zoom 5, four meals readable, the two women at the north chairs, dog right and off-axis. RISK: the four plates read as one sprite (pass 3 retry: all katsudon) -> the first four meals of the list are four different recipes, cooked once each (the 100x katsudon comes last, for the card only).
+#      Composition: wide, frame (178, 108) zoom 5, four meals readable, the two women at the north chairs, dog right and off-axis. RISK: the four plates read as one sprite (pass 3 retry: all katsudon) -> Food Texture Variety recipes (FTV_CookMeal*) with ingredient pairs that have their own texture (beef+potatoes, egg+rice, corn+pork, berries+milk), cooked once each in the first four places; the 100x katsudon comes last, for the card only.
 #   2. dining-nook, 12:05, +208. Subject: the meal named after two dishes at once. Nelim: Apparel_BasicShirt sage (122, 150, 104), Apparel_Pants cream (222, 210, 184), Bun, cheerful2, holds a MealSimple at her chair.
 #      Shogun at (177, 111) facing South. Decor: VFEPD_HayBaleSmall (172, 110), EggBox (173, 108). Card right. Composition: close, frame (181, 108) zoom 6.5, Nelim off-centre. RISK: a seated pose is not a step -> she stands at the chair with the bowl; the accepted earlier picture (1-two-dishes-nelim-seated) stays if this one is worse.
 #   3. dining-nook, 12:10, +417. Subject: the blanquette. Nelim: Apparel_BasicShirt white (240, 240, 236) under Apparel_Jacket denim (60, 92, 140), Apparel_Pants dark (70, 70, 78), Ponytails, own face, holds Meat_Cow out to Shogun.
@@ -37,10 +37,11 @@ Feature: Lunch is served
     And game speed is paused
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: I let 120 ticks pass
-    When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 1 times
-    And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 1 times
-    And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 1 times
-    And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
+    When Flavor Text Extended: a colonist cooks "FTV_CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 1 times
+    And Flavor Text Extended: a colonist also cooks "FTV_CookMealSimple" at the "FueledStove" from "Meat_Cow, RawPotatoes", 1 times
+    And Flavor Text Extended: a colonist also cooks "FTV_CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized, RawRice", 1 times
+    And Flavor Text Extended: a colonist also cooks "FTV_CookMealSimple" at the "FueledStove" from "RawCorn, Meat_Pig", 1 times
+    And Flavor Text Extended: a colonist also cooks "FTV_CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     Given Nelim's Pickle Tools: I place the decor "VFEPD_WoodenChest" at (173, 109)
     And Nelim's Pickle Tools: I place the decor "VFEPD_BrewingBarrel" at (173, 107)
@@ -84,7 +85,7 @@ Feature: Lunch is served
     And game speed is paused
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: I let 120 ticks pass
-    When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
+    When Flavor Text Extended: a colonist cooks "FTV_CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     Given Nelim's Pickle Tools: I place the decor "VFEPD_HayBaleSmall" at (172, 110)
     And Nelim's Pickle Tools: I place the decor "EggBox" at (173, 108)
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
@@ -114,10 +115,10 @@ Feature: Lunch is served
     And game speed is paused
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: I let 120 ticks pass
-    When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 1 times
-    And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 1 times
-    And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 1 times
-    And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 300 times
+    When Flavor Text Extended: a colonist cooks "FTV_CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 1 times
+    And Flavor Text Extended: a colonist also cooks "FTV_CookMealSimple" at the "FueledStove" from "RawBerries, Milk", 1 times
+    And Flavor Text Extended: a colonist also cooks "FTV_CookMealSimple" at the "FueledStove" from "RawCorn, Meat_Pig", 1 times
+    And Flavor Text Extended: a colonist also cooks "FTV_CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     And Nelim's Pickle Tools: I place the decor "VFEPD_BrewingBarrel" at (173, 107)
     And Nelim's Pickle Tools: I place the decor "VFEPD_HayBaleSmall" at (172, 110)
@@ -151,7 +152,7 @@ Feature: Lunch is served
     And game speed is paused
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: I let 120 ticks pass
-    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawPotatoes", 100 times
+    When Flavor Text Extended: a colonist cooks "FTV_CookMealSimple" at the "FueledStove" from "RawPotatoes", 100 times
     Given Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (96, 150, 190)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (110, 82, 58)
