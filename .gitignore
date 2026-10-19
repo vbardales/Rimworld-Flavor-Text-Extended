@@ -36,6 +36,8 @@ Tests/Manual/logs/*
 # "Proofs to keep", and each run is one text line in docs/runs/.
 Tests/Pickle/results/
 Tests/Pickle/Evidence/
+Tests/Pickle/Inbox/
+Tests/Pickle/Parked/
 evidence/
 *.dds
 *.webm
