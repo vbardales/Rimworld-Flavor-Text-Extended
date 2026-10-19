@@ -315,7 +315,7 @@ this extension adds neither settings nor a shortcut.
 
 Root `AGENTS.md`, "Test evidence", governs. For this mod, state of 2026-10-02:
 
-- **Evidence lives on disk, never in git.** `Tests/Pickle/results/` is ignored whole (`.gitignore`), like `Tests/Pickle/Evidence/`,
+- **Evidence lives on disk, never in git.** `Tests/Pickle/Inbox/`, `Evidence/` and `Parked/` are ignored (`.gitignore`), like
   `evidence/`, `*.dds` and `*.webm`. What git holds of a run is its one text line in `docs/runs/`.
 - **Per scenario, keep the latest report for the revision now in the repository.** A report about a superseded build proves nothing
   about the current one: delete it as soon as a newer run replaces it. Keep an older report only when it is the sole proof of a check
@@ -325,11 +325,10 @@ Root `AGENTS.md`, "Test evidence", governs. For this mod, state of 2026-10-02:
 
   | Folder | Why it is kept |
   |---|---|
-  | `2026-10-08-122-without-optionals/` | latest `01`, `03`, `04` on the 1.2.2 tree (232b980), 14 of 14; `Player.log` proves a quiet load |
-  | `2026-10-08-122-with-optionals/` | latest `02` (6 of 6, 1.2.2 tree) |
-  | `2026-10-08-122-without-odyssey/` | latest `05` (3 of 3, 1.2.2 tree) |
-  | `2026-09-26-frequency-b/` | sole proof of the 1.1.0 baseline (0.0 / 0.8 / 2.3 percent); no `Player.log`, the figures are in `summary` and `junit` |
-| `Tests/Pickle/Evidence/2026-10-06-gallery-height-5bf7bef/` | latest `06` (3 of 3, run 4cb9, tree 5bf7bef, window-backdrop-for-height); its raw captures are the source of the cropped files in `Art/Gallery/`, opened and approved 2026-10-06; `summary`, `junit`, `Player.log`, screenshots kept |
+  | `Evidence/2026-10-08-122-with-optionals/` | sole 1.6 proof of `02` (6 of 6, 1.2.2 tree); condition in its `RELEASE.md` |
+  | `Evidence/2026-10-08-122-without-odyssey/` | sole 1.6 proof of `05` (3 of 3, 1.2.2 tree); condition in its `RELEASE.md` |
+  | `Evidence/p17-diag-english-94d1b99/` | sole proof of `tested_1_7` (14 of 14); condition in its `RELEASE.md` |
+  | `Parked/2026-10-18-gallery-pass-4/` | failed gallery pass, released by the green of the scenario named in its `RELEASE.md` |
 
   A new run of a scenario replaces its row; a run of 1.2.1 or later deletes the folders it supersedes once its own line is in `docs/runs/`.
 - **Screenshots and films** are produced only by `06-workshop-captures.feature`. Copying Pickle's shared report folder drags in every
@@ -434,16 +433,16 @@ superseded and their folders are deleted; the figures stay in `docs/runs/`.
 
 | Pass | Result | Active FlavorDefs | Where |
 |---|---|---|---|
-| without-optionals (`01`, `03`, `04`) | **14 of 14, `exitReason: passed`**, ticket df05 | | `2026-10-08-122-without-optionals/` |
-| without-odyssey (`05`) | **3 of 3, `exitReason: passed`**, ticket 7050 | | `2026-10-08-122-without-odyssey/` |
-| with-optionals (`02`) | **6 of 6, `exitReason: passed`**, ticket b45a | | `2026-10-08-122-with-optionals/` |
-| 1.7 diagnostic, English only, without optionals (RimWorld 1.7 ships English only) | **14 of 14, `exitReason: passed`**, ticket 20261013-121854-183-56b3 on 94d1b99 (1.3.0 declares 1.7) | | `p17-diag-english-94d1b99/` |
-| workshop-captures (`06`) | **3 of 3, `exitReason: passed`**, run 4cb9 on tree 5bf7bef (Nelims-tribe, `window-backdrop-for-height`, no animals); the three images in `Art/Gallery/` come from it | | `Tests/Pickle/Evidence/2026-10-06-gallery-ca7199e/` (screenshots on disk, ignored by git) |
+| without-optionals (`01`, `03`, `04`) | **14 of 14, `exitReason: passed`**, ticket df05 | | deleted, figures in `docs/runs/` |
+| without-odyssey (`05`) | **3 of 3, `exitReason: passed`**, ticket 7050 | | `Evidence/2026-10-08-122-without-odyssey/` |
+| with-optionals (`02`) | **6 of 6, `exitReason: passed`**, ticket b45a | | `Evidence/2026-10-08-122-with-optionals/` |
+| 1.7 diagnostic, English only, without optionals (RimWorld 1.7 ships English only) | **14 of 14, `exitReason: passed`**, ticket 20261013-121854-183-56b3 on 94d1b99 (1.3.0 declares 1.7) | | `Evidence/p17-diag-english-94d1b99/` |
+| workshop-captures (`06`) | **3 of 3, `exitReason: passed`**, run 4cb9 on tree 5bf7bef (Nelims-tribe, `window-backdrop-for-height`, no animals); the three images in `Art/Gallery/` come from it | | deleted, the images are in `Art/Gallery/` |
 
 The directory names carry the label of the request (b14150e), which was still queued when the tree moved on; the tree played is e283f89, as the
 2095 total of Flavor Text's startup line shows (930 of hers, 1165 of ours). The frequency of our dishes among named meals, measured by
 `08-frequency`: 21.0 % for one ingredient, 4.3 % for two, 5.8 % for three, 23.0 % for four, against 0.0 %, 0.8 % and 2.3 % for two, three and four
-on the published 1.1.0 (`2026-09-26-frequency-b/`); see `docs/runs/2026-09-26-frequency.md`.
+on the published 1.1.0 (folder deleted, figures only in the run note); see `docs/runs/2026-09-26-frequency.md`.
 
 ### Findings kept from earlier revisions
 

@@ -167,7 +167,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" carries 6 of the item "RawPotatoes"
     When Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
-    And Nelim's Pickle Tools: I frame the cell (190, 85) at zoom 7
+    And Nelim's Pickle Tools: I frame the cell (195, 85) at zoom 6
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_GnocchiSolo" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows

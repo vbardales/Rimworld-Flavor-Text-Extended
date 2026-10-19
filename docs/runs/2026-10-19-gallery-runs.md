@@ -5,4 +5,4 @@
 - e72b, 2026-10-17, pass 3: no report (no-report.txt). Deleted.
 - ec48, 2026-10-18, 2747b08, pass 3 retry: 4/4, candidate 2-candidate-two-dishes-empadao-gnocchi.jpg kept, three refused. Deleted.
 - cdb2, 2026-10-18, 139f578, pass 4: 2/4. Scenes 1 and 3 passed (candidates 1-candidate-table-laid.jpg, 3-candidate-blanquette-shogun-hen.jpg); scene 2 failed (hairstyle Bun), scene 4 failed (no meal FlavorTextFR_Gnocchi). Parked until both scenarios pass.
-- 3869, 2026-10-19, 7f6ddfd, pass 4 replay of scenes 2 and 4 (FancyBun, FlavorTextFR_GnocchiSolo): filed, result pending.
+- 3869, 2026-10-19, 7f6ddfd, pass 4 replay of scenes 2 and 4 (FancyBun, FlavorTextFR_GnocchiSolo): 2/2 passed. Read by the session, both refused: scene 2 is 1280x720 (the others are 1920x1080), Nelim is tiny and not eating; scene 4 has Nelim hidden under the info card and no hat visible. Scenes 2 and 4 to recompose.
