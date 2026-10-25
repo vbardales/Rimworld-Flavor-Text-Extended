@@ -41,3 +41,5 @@ VanillaExpanded.VFEPropsandDecor                 2102143149
 dismarzero.VGP.VGPVegetableGarden                2007061826
 # Hair under hats (owner rule 2026-10-18, GALLERY.md criterion d), scene 4 only: Hat Hair Control, the owner's current choice (2026-10-20, SanctuaryBacklot docs/GALERIE.md "Chapeau"); its seed is in config/gallery-scenes/. Show Hair Under Stuff (3255379190) dropped.
 lordfelix.HatHairControl                         3760821540
+# Miel (NSB colonist, owner's casting 2026-10-25), scenes 1 and 2: her canon hairstyle Roo_Royal_NaturalcurlsHD (Roo's HD Hairstyles continued, ids of SanctuaryBacklot wsl-deps.sanctuary-looks.map).
+rooboid.hdhair.continued                         3559870636
