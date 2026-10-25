@@ -122,6 +122,7 @@ Run URLs: `https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/ru
 
 ## Files
 
+- Dev scripts (`scripts/`: checkdefs.js, Test-Xml.ps1, Test-Localization.ps1, verify-en.js, make-variants.js, solo-forms.json...) left the working tree on 2026-10-25 (owner moved the folders). Not deleted from history: `git checkout 389feb2 -- scripts` restores them. The Gates table below still names them; rerun the offline tests from the restored copy until they get a new home.
 - `CHANGELOG.md`, `README.md`, `ATTRIBUTION.md`, `PUBLICATION.md` (Steam text and release notes), `TESTING.md` (test plan T1-T14 and what has run), `BACKLOG.md`.
 - `docs/runs/`: one line per run and per status entry; `2026-10-14-status-history.md` holds the former dated sections of this file (publication and dry-run proofs of 1.2.2 and 1.3.0, audit of 2026-10-11, Preview source migration). The full former text of this file is in git (`git show 4eb5a48:STATUS.md`), so no separate history file is kept here.
 - `docs/PROTOCOLS-READ.md`: protocol documents read by the session, with versions.
