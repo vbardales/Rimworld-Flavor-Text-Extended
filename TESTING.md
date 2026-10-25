@@ -34,36 +34,24 @@ Flavor Text announces itself with one line, which is the single most useful thin
 ```
 
 The second number is every dish definition loaded, hekmo's and ours together. The first is how many
-the engine kept for this modlist. Both are predicted offline by `scripts/active.js`, so a gap between
-the tool and the log is itself a finding.
+the engine kept for this modlist. The log line is the figure that counts. The former offline estimator `active.js` left the tree on 2026-10-25 (`git show 389feb2:scripts/active.js`).
 
 Our defs are all prefixed `FlavorTextFR_`, a leftover from when this mod and its French companion
 were one piece of work. It makes them easy to grep for in the log.
 
 ## Before the game: the offline checks
 
-Run from the repository root. They need only Node and a path to Flavor Text's own `Defs` folder,
-which under Steam is `steamapps/workshop/content/294100/3245374432/1.6/Defs`.
+The checks are the shared scripts of the protocols repository (`scripts/` at the rimworld root, two levels above this repository; the mod's own dev scripts left the tree on 2026-10-25). Run from the repository root:
 
-```bash
-node scripts/checkdefs.js "<path to Flavor Text>/1.6/Defs"
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File ../../scripts/Check-ModBasics.ps1 -ModRoot .
+powershell -NoProfile -ExecutionPolicy Bypass -File ../../scripts/Check-DefRefs.ps1 -ModPath Mod -AlsoScan '<path to Flavor Text>\1.6' -Brief
+powershell -NoProfile -ExecutionPolicy Bypass -File ../../scripts/Check-ConfigErrors.ps1 -ModPath Mod -Brief
 ```
 
-Every dish is checked for a defName that collides with one of hekmo's 930, for a placeholder that
-points at a slot the def does not have, and for two dishes that would display the same name. It
-must end on **0 errors**. The standalone baseline is 35 warnings since the shorter forms (two before them; ten before the 2026-09-23 narrowness review, which widened slots
-and so separated most dishes that shared an ingredient triplet); the older fourteen-warning baseline also checked
-the French companion. Dishes that share an
-ingredient triplet are variety, not conflict, because the engine draws at random among matching
-definitions.
+`<path to Flavor Text>` is `steamapps/workshop/content/294100/3245374432` under Steam. Result of 2026-10-25: `Check-ModBasics` PASS (53 XML files, 1172 defs, About.xml, notices, images); `Check-DefRefs` no unresolved def reference, every reference on the right def type, every `ParentName` resolved (with Flavor Text as a dependency); `Check-ConfigErrors` no config error. All three must stay clean after a Def or patch change.
 
-```bash
-node scripts/active.js "<path to Flavor Text>/1.6/Defs"
-```
-
-This replays the engine's own filter against the installed modlist and reports how many dishes
-survive it. On the 112-mod profile current at the time of writing it reports 222 out of 1826, of
-which 35 are ours.
+Three dish-level checks have no shared equivalent and stay in history: `checkdefs.js` (a defName that collides with one of hekmo's 930, a placeholder that points at a slot the def does not have, two dishes with the same display name; baseline 0 errors and 35 warnings, dishes that share an ingredient triplet being variety, not conflict, because the engine draws at random among matching definitions), `active.js` (replays the engine's filter against a modlist; 222 of 1826 on the 112-mod profile of the time, 35 ours) and `frequency.js` (model of the draw). Restore them with `git checkout 389feb2 -- scripts` when needed.
 
 **A dish has to pass two conditions, and the second one is what makes that number so much smaller
 than the ingredient count suggests.** Every ingredient slot must accept something installed, and
@@ -84,27 +72,9 @@ caught here by name.
 
 ## The scenarios
 
-The current French resource/parameter check includes this repository's category labels
-and the companion's dish text without modifying the companion:
+French text is the companion's (`translation_fr: not_applicable`); native English Def values provide the English coverage, so the shared `Check-Translations.ps1` has nothing to inspect here (it would report the French DefInjected as missing). The former French resource check (`Test-Localization.ps1`, 1,799 owned fields covered) is in history (`git show 389feb2:scripts/Test-Localization.ps1`).
 
-```powershell
-./scripts/Test-Localization.ps1 -CompanionMod '../FlavorTextExtendedFR/Mod'
-```
-
-It must report all 1,799 owned fields covered with no missing/duplicate paths, empty text
-or invalid ingredient tokens. This technical check is separate from semantic review and
-the in-game French scenario. Native English Def values provide the English coverage.
-
-Verify optional ingredient references against installed providers with:
-
-```powershell
-./scripts/Test-OptionalIngredients.ps1
-```
-
-This checks actual provider metadata and selected XML folders, including older-version
-fallbacks. Historical Shenzhou hooks resolving in XML do not certify those mods on 1.6.
-Current baseline: 47 provider-reference pairs (43 before the FoodCourt additions) and no missing reference; four invalid
-leek/shallot references were removed after this check first reported their absence.
+The optional ingredient references (47 provider-reference pairs, 43 before the FoodCourt additions, no missing reference; four invalid leek/shallot references were removed after the first check) were verified by `Test-OptionalIngredients.ps1`, also in history (`git show 389feb2:scripts/Test-OptionalIngredients.ps1`), which read actual provider metadata and selected XML folders, including older-version fallbacks. Historical Shenzhou hooks resolving in XML do not certify those mods on 1.6. The in-game proof is `02-with-optionals`.
 
 ### T1 - It loads at all
 
@@ -187,8 +157,8 @@ is, so hekmo's dishes on the same triplet compete with ours by design. Cook seve
 
 **Alternatives on the same principle**, all three cookable with no cooking mod installed. Rice, egg
 and any vegetable gives `bibimbap`. Potato, pork and egg gives `Tiroler Gröstl`. Egg, pork and beans
-gives a `full English breakfast`. Pick from `scripts/active.js`, which lists the dishes that pass
-both conditions on the modlist you actually have; do not pick from the def files, where most dishes
+gives a `full English breakfast`. Pick from the dishes that pass
+both conditions on the modlist you actually have (`active.js`, in history); do not pick from the def files, where most dishes
 name a kind of meal that a vanilla kitchen cannot produce.
 
 ### T7 - Four ingredients become two dishes
@@ -352,9 +322,9 @@ Written 2026-09-21 in `Tests/Pickle/`. Run once so far: the pass without the opt
 and what each one is for. The suite is a companion mod, `Flavor Text Extended - Pickle tests`, never published; its README has the commands.
 
 **What Pickle is for here, and what it is not.** A Pickle run takes over the machine, so nothing
-that an offline tool proves is repeated in Gherkin: `Test-Xml.ps1`, `checkdefs.js`,
-`Test-OptionalIngredients.ps1` and `Check-ConfigErrors.ps1` keep the XML, the 901 dishes and the 47
-provider references. What only a running game can show is T1 and T3 of this plan, made scriptable:
+that an offline tool proves is repeated in Gherkin: `Check-ModBasics.ps1`, `Check-DefRefs.ps1`
+and `Check-ConfigErrors.ps1` (shared scripts) keep the XML, the dishes and the def references; the 47
+provider references were checked by `Test-OptionalIngredients.ps1` (history). What only a running game can show is T1 and T3 of this plan, made scriptable:
 the two mods loaded in order, the defs reaching the database under this mod, the patches landing
 once every other mod has had its turn, and a load that logs nothing. Five scenarios in `01-alone`,
 six in `02-with-optionals`.
@@ -402,7 +372,7 @@ Odyssey meats exist for.
 - **No manual scenario is left in this repository.** The only human action is visual review of
   the three generated Workshop screenshots. `Tests/Manual/Check-PlayerLog.ps1` is optional
   diagnostics, not a test or a release gate.
-- What the patches *add* to a category's `thingDefsToAbsorb`: `Test-Xml.ps1` proves it, and Pickle's
+- What the patches *add* to a category's `thingDefsToAbsorb`: the former `Test-Xml.ps1` (history) proved it, and Pickle's
   `field` step has no documented form for list elements.
 - `no errors were logged` is global. A red from Flavor Text or from the test mod itself fails it too;
   read who logged it before concluding anything about this mod.
@@ -486,13 +456,7 @@ The English validator no longer requires the French companion. Pass its DefInjec
 as argument 3 only when deliberately checking that separate mod. The standalone result is
 896 dishes, zero errors and 10 warnings; the older 14-warning baseline included French checks.
 
-Additional repeatable XML validation:
-
-```powershell
-./scripts/Test-Xml.ps1 -FlavorTextDefs '<path to Flavor Text>/1.6/Defs'
-```
-
-Result: 49 XML files parsed, 25 PatchOperationAdd targets matched and applied in memory,
+Additional repeatable XML validation: `Check-ModBasics.ps1` and `Check-DefRefs.ps1` (command lines in "Before the game"); the former `Test-Xml.ps1` (`git show 389feb2:scripts/Test-Xml.ps1`) gave, at the time: 49 XML files parsed, 25 PatchOperationAdd targets matched and applied in memory,
 and four Odyssey meat guards verified. Conditional loading and optional-mod reference resolution
 still require the in-game scenarios. No assembly exists to unit-test, but XML validation is
 an automated test and must be rerun after changes to definitions or patches.

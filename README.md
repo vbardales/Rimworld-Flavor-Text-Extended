@@ -39,19 +39,19 @@ come in all three sizes. Most of this mod's are three-slot dishes, so they name 
 shorter form of many of them (the same dish minus an ingredient it never needed) names meals of two. When several
 dishes match, one is drawn at random, weighted so that a dish that accepts fewer ingredients is drawn more often.
 Flavor Text has an option for it, "allowed missing ingredients" (off by default): with it a small meal gets random extra
-ingredients up to that number, which lets bigger dishes match. `scripts/frequency.js` models this for a modlist; `Tests/Pickle/.../08-frequency.feature` measures it in a game.
+ingredients up to that number, which lets bigger dishes match. `frequency.js` (a dev script, in git history since 2026-10-25: `git show 389feb2:scripts/frequency.js`) models this for a modlist; `Tests/Pickle/.../08-frequency.feature` measures it in a game.
 
 ## What your colony grows decides what you see
 
 Flavor Text names a meal after what went into it, so a dish can only appear if its ingredients
 exist in the game. These 932 lean on a wider pantry than vanilla keeps — wheat, cheese, butter,
-cream, onion, tomato, garlic, chilli — so on a vanilla-only save (the base game and its DLC) about eighty of them can fire, by the count of scripts/frequency.js, plus their shorter forms.
+cream, onion, tomato, garlic, chilli — so on a vanilla-only save (the base game and its DLC) about eighty of them can fire, by the count of frequency.js, plus their shorter forms.
 Farming and cooking mods can make more dishes available, depending on their ingredients and meal types.
 
 That is how the engine works rather than a shortcoming: a dish waits for its ingredient, and
 costs nothing while it waits. But it sets what a player should expect.
 
-`scripts/active.js` estimates it for a given modlist — it reads `ModsConfig.xml`, replays the
+`active.js` (in git history, `git show 389feb2:scripts/active.js`) estimated it for a given modlist — it reads `ModsConfig.xml`, replays the
 engine's category matching, and reports how many definitions survive, split between this mod and
 Flavor Text's own. The following is a historical profile snapshot, not a result for your
 current modlist:
@@ -85,16 +85,14 @@ can produce a load error. Check both logs and actual ingredient categorization.
 ```
 Mod/       distributed mod: About, Defs, Patches, licence and attribution
 Art/       illustration source, icon sources and reproducible Preview composition
-scripts/    development and validation scripts; not distributed
 TESTING.md   offline commands and in-game test scenarios
+docs/        run notes, protocol reading record
 ```
 
 Install or upload **Mod/**, not the repository root. RimWorld sends that folder unchanged;
 the tools and artwork sources remain outside the distributed content.
 
-Some historical tools concern the separate French companion. They are not required to install
-this extension. Do not regenerate the companion's resources as part of an extension build;
-that repository has its own validation scope.
+The development scripts of this mod (dish generators, the dish checker, the estimators) left the tree on 2026-10-25 and are kept in git history (`git checkout 389feb2 -- scripts`); validation uses the shared scripts of the protocols repository, see `TESTING.md`. Do not regenerate the French companion's resources as part of an extension build; that repository has its own validation scope.
 
 ## Validation
 

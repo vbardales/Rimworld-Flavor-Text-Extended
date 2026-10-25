@@ -82,8 +82,8 @@ Replay verdict column: after the run, accept or refuse each capture here.
 | Gate | Result | Evidence |
 |---|---|---|
 | Settings (`MOD_SETTINGS.md`) | not applicable: nothing to configure, so no page and no shortcut | source inventory of `Mod/`: no `.dll`, `.cs`, `MainButtonDef`, `ModSettings`, `Keyed` |
-| Translations (`TRANSLATIONS.md`) | English native Def text complete; French is the companion's | `scripts/Test-Localization.ps1`, `scripts/verify-en.js` |
-| Offline tests | pass | `checkdefs.js` (0 errors, known shared-combination warnings), `Test-Xml.ps1`, `Test-OptionalIngredients.ps1`, `Check-ConfigErrors.ps1` |
+| Translations (`TRANSLATIONS.md`) | English native Def text complete; French is the companion's | not run: French is the companion's, English is native Def text; former checks in git history (`389feb2`) |
+| Offline tests | pass | shared scripts, 2026-10-25: `Check-ModBasics.ps1` PASS (53 XML, 1172 defs), `Check-DefRefs.ps1` no unresolved reference, `Check-ConfigErrors.ps1` no config error (commands in `TESTING.md`) |
 | In game (Pickle) | pass: 1.6 on the 1.2.2 tree (14/14, 6/6, 3/3), 1.7 diagnostic on 94d1b99 (14/14); 1.3.0 differs by About.xml and Preview.png only | `docs/runs/2026-09-26-frequency.md`, `docs/runs/2026-10-13-1-7-diagnostic.md` |
 
 Rerun the offline tests after any Def change; rerun Pickle after any Def or patch change. A change to `ModIcon.png` or the version number alone needs neither.
@@ -118,11 +118,11 @@ Run URLs: `https://github.com/vbardales/Rimworld-Flavor-Text-Extended/actions/ru
 
 - `VV_Leeks` is under `FT_Onion` as well as `FT_Leek`, because hekmo's own onion category lists "leek". README and description say a leek has its own category and still counts as onion.
 - Flavor Text files a chicken egg under `FT_Meat_Poultry` as well as `FT_Egg`, so a meal with one is an omnivore meal and vegetarian-only dishes with an egg never name it. Raise it with hekmo only with the owner's word.
-- Flavor Text's `GetMatchIndices` needs exactly as many ingredients as slots. This is why shorter forms exist (`scripts/make-variants.js`, `scripts/solo-forms.json`).
+- Flavor Text's `GetMatchIndices` needs exactly as many ingredients as slots. This is why shorter forms exist (`make-variants.js`, `solo-forms.json`, in git history, `git checkout 389feb2 -- scripts`).
 
 ## Files
 
-- Dev scripts (`scripts/`: checkdefs.js, Test-Xml.ps1, Test-Localization.ps1, verify-en.js, make-variants.js, solo-forms.json...) left the working tree on 2026-10-25 (owner moved the folders). Not deleted from history: `git checkout 389feb2 -- scripts` restores them. The Gates table below still names them; rerun the offline tests from the restored copy until they get a new home.
+- Dev scripts (`scripts/`: checkdefs.js, Test-Xml.ps1, Test-Localization.ps1, verify-en.js, make-variants.js, solo-forms.json...) left the working tree on 2026-10-25 (owner moved the folders). Not deleted from history: `git checkout 389feb2 -- scripts` restores them. Offline tests now use the shared scripts of the protocols repository (`TESTING.md`).
 - `CHANGELOG.md`, `README.md`, `ATTRIBUTION.md`, `PUBLICATION.md` (Steam text and release notes), `TESTING.md` (test plan T1-T14 and what has run), `BACKLOG.md`.
 - `docs/runs/`: one line per run and per status entry; `2026-10-14-status-history.md` holds the former dated sections of this file (publication and dry-run proofs of 1.2.2 and 1.3.0, audit of 2026-10-11, Preview source migration). The full former text of this file is in git (`git show 4eb5a48:STATUS.md`), so no separate history file is kept here.
 - `docs/PROTOCOLS-READ.md`: protocol documents read by the session, with versions.

@@ -3,6 +3,8 @@
 Things worth doing that are not blocking the current version. Kept per mod; the monorepo has its own. Newest first.
 State is `open` unless written otherwise.
 
+The dev scripts named below (`frequency.js`, `make-variants.js`, `solo-forms.json`, `variants-french.js`, `checkdefs.js`) left the tree on 2026-10-25 and are in git history: `git checkout 389feb2 -- scripts` restores them.
+
 ## Ideas that came out of hekmo's report (2026-09-26)
 
 Background: Flavor Text matches a dish only to a chunk of at most three ingredients with exactly as many items as the dish has slots,
