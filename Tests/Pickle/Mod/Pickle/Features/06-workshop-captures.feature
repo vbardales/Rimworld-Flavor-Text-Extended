@@ -31,7 +31,7 @@ Feature: what the Workshop captures show
     And I set the hour to 12
     And I set the weather to "Clear"
     And Nelim's Pickle Tools: all animals are removed
-    And Nelim's Pickle Tools: I am at the sanctuary "window-backdrop-for-height"
+    And Nelim's Sanctuary: I am at the sanctuary "window-backdrop-for-height"
 
   Scenario: the info card of a katsudon
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times

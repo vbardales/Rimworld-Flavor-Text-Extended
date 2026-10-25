@@ -15,6 +15,7 @@
 # The open question of this pass, from the staging side: whether the game keeps the DLC out of a
 # loaded save. Two independent steps ask it (ModsConfig.IsActive, and the mod list), and the run's
 # Player.log names the game's own list.
+@requires:nelim.pickletools.expansions
 Feature: the mod on a game without Odyssey
 
   Scenario: the game really has no Odyssey

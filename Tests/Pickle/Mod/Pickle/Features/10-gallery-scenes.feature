@@ -4,12 +4,12 @@
 # WHICH DAY: one clear, warm midday, 12:00 to 12:15. RHYTHM: +5 min of game time per image (2 500 ticks per game hour): 60 set-up ticks, then +0, +208, +417, +625; each Scenario reloads the save, so decor ends with the scenario.
 # OUTFIT CONTINUITY (owner rule 2026-10-23): Nelim keeps ONE outfit all day, sky Apparel_BasicShirt (96, 150, 190), charcoal Apparel_Pants (58, 60, 68), loose Long hair (70, 46, 32), smile. Her only change is scene 4: she puts on a straw Apparel_CowboyHat (214, 190, 120) to go out into the noon sun (Hat Hair Control shows the hair under it). Miel (scene 1 and 2 only): Roo_Royal_NaturalcurlsHD, skin (112, 67, 26), Eyes_Golden, plum Apparel_BasicShirt (122, 58, 108), sage Apparel_Pants (110, 130, 80).
 # EPISODES, each moves on from the last: (1) Nelim brings the last plate while Miel walks in: four dishes, four names. (2) First bite of the dish that carries two names at once, Miel waits for the verdict. (3) Miel has left; the plain pot becomes a named blanquette, Nelim slips Shogun a scrap while the hen creeps in. (4) Lunch over, Nelim pulls the potatoes that decide the next menu.
-# THE GESTURE, per scene (criterion e: a game paused mid-play; every moving pose is "game paused, then advance N ticks"): 1 Nelim mid-walk with the plate (forced walk, 20 ticks), 2 Nelim frozen mid-bite (forced Ingest, advance), 3 Nelim faces Shogun, meat in her hands, 4 Nelim mid-walk with six potatoes. Steps of NPT commit 82641a4 and 8318f39 (mid-stride proven by ticket 531b; forced Ingest not yet played: read the capture).
+# THE GESTURE, per scene (criterion e: a game paused mid-play; every moving pose is "game paused, then advance N ticks"): 1 Nelim mid-walk with the plate (forced haul of one MealFine to (176, 110), 20 ticks), 2 Nelim frozen mid-bite (forced Ingest, advance), 3 Nelim faces Shogun, meat in her hands, 4 Nelim stands facing West with six potatoes in her arms (carried item under a forced walk is NOT proven by NPT, so no walk). Steps of NPT commit 82641a4 and 8318f39 (mid-stride proven by ticket 531b; forced Ingest not yet played: read the capture).
 # FRAMES (cell = 540 / zoom px; the card covers x > 950, so the subject stands in the left half): 1 wide, zoom 5, (180, 107); 2 close, zoom 3, (179, 110); 3 medium, zoom 3.5, (180, 110); 4 medium-wide, zoom 4.5, (194, 85).
 # RISKS: forced Ingest or the mid-walk may not freeze where planned (replay with another tick count); carried item may drop under a walk (then she stands next to the table with the plate); the hair may not show under the hat (Hat Hair Control 3760821540, seed in config/gallery-scenes/; if not, replay without the hat); the screen size of a run was once 1280x720 (not a scenario setting, NPT 2026-10-25).
 #
 # Bodies are the retextured ones of Venus Touch Waistlines' pass (owner, 2026-10-07). Food Texture Variety gives the meals their own bowls. Table cells: meals on (175..176, 108..109), chairs (175, 110) and (176, 110). Order of every scenario: the waits first, then the game paused, then the dressing, "stands at" LAST, the face, the framing and the capture with no wait after.
-@review @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.stagedecor @requires:nelim.pickletools.colonistrace
+@review @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.stagedecor @requires:nelim.pickletools.colonistrace @requires:nelim.pickletools.camerazoom
 Feature: Lunch is served
 
   Background:
@@ -61,8 +61,7 @@ Feature: Lunch is served
     Given Nelim's Pickle Tools: "Nelim" stands at (174, 109) facing East
     And Nelim's Pickle Tools: "Miel" stands at (174, 111) facing East
     And Nelim's Pickle Tools: the animal "Shogun" stands at (174, 112) facing East
-    And Nelim's Pickle Tools: "Nelim" carries 1 of the item "MealFine"
-    And Nelim's Pickle Tools: "Nelim" is forced to walk to (176, 110)
+    And Nelim's Pickle Tools: "Nelim" is forced to haul 1 of the item "MealFine" to (176, 110)
     And Nelim's Pickle Tools: "Miel" is forced to walk to (175, 110)
     When Nelim's Pickle Tools: I advance the paused game by exactly 20 ticks
     And Nelim's Sanctuary: Nelim has her own face
@@ -184,9 +183,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" faces West
     And Nelim's Pickle Tools: the animal "Poule" stands at (189, 86) facing South
     And Nelim's Pickle Tools: "Nelim" carries 6 of the item "RawPotatoes"
-    And Nelim's Pickle Tools: "Nelim" is forced to walk to (188, 85)
-    When Nelim's Pickle Tools: I advance the paused game by exactly 15 ticks
-    And Nelim's Sanctuary: Nelim has her own face
+    When Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
     And Nelim's Pickle Tools: I frame the cell (194, 85) at zoom 4.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_GnocchiSolo" is opened
