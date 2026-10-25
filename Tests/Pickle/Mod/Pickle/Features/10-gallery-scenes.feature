@@ -10,11 +10,11 @@
 #      Mei: Bob black, Apparel_BasicShirt mustard (214, 160, 46), green eyes, cheerful. Shogun at (177, 108) facing South. Decor, service of the meal: VFEPD_FoodTrolley (173, 109), VFEPD_WineRack (173, 107). No card.
 #      Composition: wide, frame (178, 108) zoom 5, four meals readable, the two women at the north chairs, dog right and off-axis. RISK: the four plates read as one sprite (pass 3 retry: all katsudon) -> Food Texture Variety recipes (FTV_CookMeal*) with ingredient pairs that have their own texture (beef+potatoes, egg+rice, corn+pork, berries+milk), cooked once each in the first four places; the 100x katsudon comes last, for the card only.
 #   2. dining-nook, 12:05, +208. Subject: the meal named after two dishes at once. Nelim: Apparel_BasicShirt sage (122, 150, 104), Apparel_Pants cream (222, 210, 184), FancyBun, eating face `normal+Ingest` (NPT), holds a MealSimple at her chair facing South (the chairs are north of the table, z 110 over 108..109: facing South shows her face and the table; NPT wrote North by mistake).
-#      Shogun at (177, 111) facing South. Decor, the eggs and the board: EggBox (173, 108), VFEPD_CuttingBoard (173, 110). Card right. Composition: close, frame (181, 108) zoom 6.5, Nelim off-centre. RISK: a seated pose is not a step -> she stands at the chair with the bowl; the accepted earlier picture (1-two-dishes-nelim-seated) stays if this one is worse.
+#      Shogun at (177, 111) facing South. Decor, the eggs and the board: EggBox (173, 108), VFEPD_CuttingBoard (173, 110). Card right. Composition: close, frame (179, 109) zoom 4 (135 px per cell: pass 4 replay at zoom 6.5, 83 px, left Nelim tiny; the card covers the right half, so Nelim stands about 400 px left of centre), Nelim off-centre left. RISK: a seated pose is not a step -> she stands at the chair with the bowl; the accepted earlier picture (1-two-dishes-nelim-seated) stays if this one is worse.
 #   3. dining-nook, 12:10, +417. Subject: the blanquette. Nelim: Apparel_BasicShirt white (240, 240, 236) under Apparel_Jacket denim (60, 92, 140), Apparel_Pants dark (70, 70, 78), Ponytails, own face, holds Meat_Cow out to Shogun.
 #      Mei out. Shogun (177, 108) and hen Poule (174, 108), both facing South. Decor, the pot and straw for the hen: VFEPD_CookingPan (173, 109), VFEPD_HayBaleSmall (172, 110). Card right. Composition: mid-close, frame (178, 108) zoom 5.5.
 #      RISK: the hen leaves the frame, held meat does not render -> animals posed after the wait, no tick after; fallback is a held MealSimple.
-#   4. plant-garden, 12:15, +625. Nelim: straw Apparel_CowboyHat (214, 190, 120) over loose Long hair (Show Hair Under Stuff, RaccoonCuddler.ShowHair 3255379190; hat proof ticket e457 pending, removed if no hair shows), Apparel_BasicShirt sky (96, 150, 190), Apparel_Pants brown (110, 82, 58), cheerful2, carries 6 RawPotatoes; hen Poule at (191, 86) facing South; decor PlantAppletree, PlantCherrytree; card of FlavorTextFR_GnocchiSolo, right; frame (190, 85) zoom 7. RISK: no hair under the hat, Gnocchi slot 0 not a potato -> replay without the hat or without the card.
+#   4. plant-garden, 12:15, +625. Nelim: straw Apparel_CowboyHat (214, 190, 120) over loose Long hair (Hat Hair Control, lordfelix.HatHairControl 3760821540, owner's choice 2026-10-20, seed lists Apparel_CowboyHat; removed if no hair shows), Apparel_BasicShirt sky (96, 150, 190), Apparel_Pants brown (110, 82, 58), cheerful2, carries 6 RawPotatoes; hen Poule at (191, 86) facing South; decor PlantAppletree, PlantCherrytree; card of FlavorTextFR_GnocchiSolo, right; frame (194, 85) zoom 5 (replay 3869 hid her under the card at frame (195, 85) zoom 6: Nelim now about 4 cells, 430 px, left of centre, hat 108 px wide). RISK: no hair under the hat, Gnocchi slot 0 not a potato -> replay without the hat or without the card.
 #
 # PLACES, PEOPLE, FACE and ORDER OF EVERY SCENARIO: unchanged from the second version (NPT, 2026-10-07/08): the waits first, then the game paused, then the dressing, then "stands at" LAST, the face, the framing and the capture with no wait after.
 # Bodies are the retextured ones of Venus Touch Waistlines' pass (owner, 2026-10-07). Food Texture Variety gives the meals their own bowls. Table cells: meals on (175..176, 108..109), chairs (175, 110) and (176, 110).
@@ -99,7 +99,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: the animal "Shogun" stands at (177, 111) facing South
     And Nelim's Pickle Tools: "Nelim" carries the item "MealSimple"
     When Nelim's Pickle Tools: "Nelim" facial expression is "normal+Ingest"
-    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
+    And Nelim's Pickle Tools: I frame the cell (179, 109) at zoom 4
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
@@ -145,7 +145,7 @@ Feature: Lunch is served
     And I close all dialogs
 
   # 4. 12:15. After lunch, in the plant garden: Nelim in a straw hat over loose long hair, six potatoes in her arms, a hen at her feet, the card of a potato dish beside her. Says: what grows here decides what lunch can be.
-  # RISKS: the hair may not show under the hat (Show Hair Under Stuff, 3255379190: proof of NPT ticket e457 pending; plan B Hat Hair Control 3760821540) -> if the picture shows no hair, play again without the hat, never keep it; Gnocchi may not carry the potato in slot 0 -> if the card step fails, replay without the card.
+  # RISKS: the hair may not show under the hat (Hat Hair Control 3760821540, owner's choice 2026-10-20; the old Show Hair Under Stuff 3255379190 is gone from the map) -> if the picture shows no hair, play again without the hat, never keep it; Gnocchi may not carry the potato in slot 0 -> if the card step fails, replay without the card.
   Scenario: after lunch, the plant garden
     Given Nelim's Sanctuary: I am at the sanctuary "plant-garden"
     And I wait 685 ticks
@@ -167,7 +167,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" carries 6 of the item "RawPotatoes"
     When Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
-    And Nelim's Pickle Tools: I frame the cell (195, 85) at zoom 6
+    And Nelim's Pickle Tools: I frame the cell (194, 85) at zoom 5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_GnocchiSolo" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows

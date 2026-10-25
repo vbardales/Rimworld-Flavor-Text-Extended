@@ -39,5 +39,5 @@ brrainz.harmony                                  2009463077
 OskarPotocki.VanillaFactionsExpanded.Core        2023507013
 VanillaExpanded.VFEPropsandDecor                 2102143149
 dismarzero.VGP.VGPVegetableGarden                2007061826
-# Hair under hats (owner rule 2026-10-18, GALLERY.md criterion d), scene 4 only: Show Hair Under Stuff, proof of NPT ticket e457 pending, removed if the picture shows no hair.
-RaccoonCuddler.ShowHair                          3255379190
+# Hair under hats (owner rule 2026-10-18, GALLERY.md criterion d), scene 4 only: Hat Hair Control, the owner's current choice (2026-10-20, SanctuaryBacklot docs/GALERIE.md "Chapeau"); its seed is in config/gallery-scenes/. Show Hair Under Stuff (3255379190) dropped.
+lordfelix.HatHairControl                         3760821540
