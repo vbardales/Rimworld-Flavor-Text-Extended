@@ -15,7 +15,7 @@ dependencies: verified
 automated_tests: passed
 xml_tests: passed
 echo_review_sha: 8c4558bbc82b653aa65a33422b6e8b32e040483a
-social_preview_sha256: 29c070a2f637b31ab3c84e0f7e4709d07dcc116c6075df95a94e4236136aecc2
+social_preview_sha256: 67310d182212d48d48eb8d7545917797c693507d18479f524fc688fdbe84f8bc
 licence:      original
 licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 upstream_mod_remotes:
@@ -37,7 +37,7 @@ remaining:
   - "limits, not blockers: each Pickle pass passed once per tree (1.2.2 for 1.6, 94d1b99 for 1.7); no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
   - "note: desktop.ini and *.ico are local only and gitignored since 2026-10-02 (the two Art .ico files left git, files kept on disk); Mod/desktop.ini must never be committed."
-protocols_read_sha: 440425ae0c9b0bdcfee16bfcb1b34fade15f0031
+protocols_read_sha: b48ecc4cf0af35ec316379c537490a7c025a8c06
 ---
 
 # Flavor Text Extended - status

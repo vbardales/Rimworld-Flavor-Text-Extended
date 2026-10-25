@@ -1,52 +1,32 @@
 {
-  "title": "Flavor Text Extended",
-  "modIconSource": "ModIcon-source.png",
-  "titleSize": 49,
-  "titleParts": [
-    {
-      "text": "Flavor Text",
-      "scale": 1
-    },
-    {
-      "text": " Extended",
-      "scale": 0.65,
-      "font": "ui",
-      "color": "secondary"
-    }
-  ],
-  "suffix": "",
-  "tag": "",
-  "copyLines": [
-    "New dishes for Flavor Text, French and regional cooking first."
-  ],
-  "layout": "panel",
-  "panelAnchor": "top-left",
+  "panel": {
+    "title": "Flavor Text Extended",
+    "titleSize": 49,
+    "titleParts": [
+      {
+        "text": "Flavor Text",
+        "scale": 1
+      },
+      {
+        "text": " Extended",
+        "scale": 0.65,
+        "font": "ui",
+        "color": "secondary"
+      }
+    ],
+    "copyLines": [
+      "New dishes for Flavor Text, French and regional cooking first."
+    ]
+  },
   "backgroundFile": "Preview-source.png",
-  "backgroundPosition": "center",
-  "backgroundSize": "cover",
   "echo": {
     "file": "echo-concept.png",
-    "preSized": true,
     "color": "var(--accent)",
     "width": 190,
-    "height": 190,
-    "opacity": 1,
-    "veil": false,
-    "panelTop": 15,
-    "panelRight": 3,
-    "panelWidth": 33,
-    "flipX": true
+    "height": 190
   },
-  "iconBadge": {
-    "file": "ModIcon-source.png",
-    "corner": "bottom-left",
-    "width": 180,
-    "translate": "-12.5%, 12.5%",
-    "outline": false,
-    "veil": "radial",
-    "veilSize": 275,
-    "veilLeft": -55,
-    "veilBottom": -61
+  "icon": {
+    "file": "ModIcon-source.png"
   },
   "palette": {
     "veil": "#291E13",
