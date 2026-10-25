@@ -1,4 +1,5 @@
 # Gallery scenes, third version (2026-10-18, shotlist at 4/5 on criteria a to k of GALLERY.md; table in STATUS.md "Shotlist"). Pass: -DepMap wsl-deps.gallery-scenes-ftv.map -Filter 10-gallery-scenes.feature. @review: a green run proves the path ran, never that the picture is right.
+# 2026-10-25: the shotlist was rewritten in STATUS.md (one outfit for the day, instant and gesture per scene, new zooms and frames). The header and the steps below still describe the previous plan until the guest casting (owner) and the NPT steps are settled; then they are synced and the ticket is refiled.
 #
 # THE STORY: "Lunch is served" (criterion k). WHO: Nelim, the colony's cook and gardener, with her guest Mei, Shogun her labrador and a hen that follows them. WHERE: the Sanctuary, dining-nook (1 to 3), plant-garden (4).
 # WHICH DAY: one clear, warm midday, 12:00 to 12:15. RHYTHM: +5 min of game time per image (2 500 ticks per game hour): 60 set-up ticks, then +0, +208, +417, +625; each Scenario reloads the save, so decor ends with the scenario.
