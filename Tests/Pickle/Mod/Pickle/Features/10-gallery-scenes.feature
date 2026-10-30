@@ -61,7 +61,7 @@ Feature: Lunch is served
     Given Nelim's Pickle Tools: "Nelim" stands at (174, 109) facing East
     And Nelim's Pickle Tools: "Miel" stands at (174, 111) facing East
     And Nelim's Pickle Tools: the animal "Shogun" stands at (174, 112) facing East
-    And Nelim's Pickle Tools: "Nelim" is forced to haul 1 of the item "MealFine" to (176, 110)
+    And Nelim's Pickle Tools: "Nelim" is forced to haul 1 of the item "FTV_MealFine" to (176, 110)
     And Nelim's Pickle Tools: "Miel" is forced to walk to (175, 110)
     When Nelim's Pickle Tools: I advance the paused game by exactly 20 ticks
     And Nelim's Sanctuary: Nelim has her own face
@@ -112,7 +112,7 @@ Feature: Lunch is served
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 111) facing East
     And Nelim's Pickle Tools: "Miel" stands at (175, 110) facing East
     And Nelim's Pickle Tools: the animal "Shogun" stands at (177, 111) facing South
-    And Nelim's Pickle Tools: "Nelim" is forced into the job "Ingest" on the item "MealFine" at (176, 109)
+    And Nelim's Pickle Tools: "Nelim" is forced into the job "Ingest" on the item "FTV_MealFine" at (176, 109)
     When Nelim's Pickle Tools: I advance the paused game by exactly 90 ticks
     And Nelim's Pickle Tools: "Nelim" facial expression is "normal+Ingest"
     And Nelim's Pickle Tools: "Miel" face is held neutral
@@ -180,12 +180,12 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: I place the decor "PlantCherrytree" at (185, 82) fully grown
     Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (189, 86)
     Given Flavor Text Extended: "Nelim" stands on the free cell nearest to (190, 85)
-    And Nelim's Pickle Tools: "Nelim" faces West
+    And Nelim's Pickle Tools: "Nelim" faces South
     And Nelim's Pickle Tools: the animal "Poule" stands at (189, 86) facing South
-    And Nelim's Pickle Tools: "Nelim" carries 6 of the item "RawPotatoes"
+    And Nelim's Pickle Tools: "Nelim" carries 1 of the item "RawPotatoes"
     When Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: "Nelim" facial expression is "normal+moodCheerful2"
-    And Nelim's Pickle Tools: I frame the cell (194, 85) at zoom 4.5
+    And Nelim's Pickle Tools: I frame the cell (194, 85) at zoom 6
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_GnocchiSolo" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
