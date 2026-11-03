@@ -343,7 +343,7 @@ category's contents:
   hekmo's dishes competing, so a step cooks the meal 300 times and asserts that a dish *appeared*, never
   that it always does. It reads an English label, so it is an English pass.
 - The assembly compiles, and every pattern it declares compiles under Pickle's own expression engine and
-  matches the feature lines (`Tests/Pickle/Check-Steps.ps1`, no game). Nothing else about it is checked.
+  matches the feature lines (`scripts/Check-Steps.ps1` (shared), no game). Nothing else about it is checked.
 
 | Family | Passes | What it proves |
 |---|---|---|

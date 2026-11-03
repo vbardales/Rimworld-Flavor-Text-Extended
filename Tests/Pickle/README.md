@@ -102,11 +102,11 @@ suites' because the staging copies the folder as it is. Rebuild after editing th
 
 ```powershell
 dotnet build Tests/Pickle/Source -c Release
-powershell.exe -ExecutionPolicy Bypass -File Tests/Pickle/Check-Steps.ps1
+powershell.exe -ExecutionPolicy Bypass -File ../scripts/Check-Steps.ps1 -ModRoot .
 ```
 
 The build needs NuGet (`Krafs.Rimworld.Ref`, `RimWorks.Pickle.Ref`) and Flavor Text's own `FlavorText.dll`
-from the Workshop folder, compiled against and never copied. `Check-Steps.ps1` needs no game: it compiles every
+from the Workshop folder, compiled against and never copied. The shared `scripts/Check-Steps.ps1` needs no game: it compiles every
 pattern with Pickle's expression engine and matches each feature line. A wrong pattern would make a run play
 zero scenarios, so it is worth its two seconds. Rebuilding is not a game action; running the suite is.
 
