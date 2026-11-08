@@ -57,7 +57,7 @@ protocols_read_sha: d1dfc91e74d91646942e91a4b3ba16c055356a01
 
 Story "Lunch is served": one clear midday in the Sanctuary, told by Nelim (protagonist, her own face, smile by default) with a guest, Shogun the labrador and a hen. Start 12:00, +5 min of game time per image (60 ticks of set-up, then +0, +208, +417, +625; 2,500 ticks per game hour); weather Clear. Every Scenario reloads the save, poses the living things after the wait, and ends with `the decor is removed`. Mods of `wsl-deps.gallery-scenes-ftv.map`: Sanctuary base, Food Texture Variety, VFE Props and Decor 2102143149, Vegetable Garden Project 2007061826 (VFE Core 2023507013, Harmony 2009463077), Hat Hair Control 3760821540 (scene 4, owner's choice 2026-10-20).
 **Story (criterion k).** Who: Nelim, the colony's cook and gardener; her guest Miel (NSB colonist, owner's casting 2026-10-25; Mei dropped, a non-NSB colonist needs a motivated authorization); Shogun and a hen that follows them. Where: the Sanctuary, dining-nook (1 to 3), plant-garden (4). Which day: one clear, warm midday, 12:00 to 12:15. Rhythm: +5 min per image. Episodes: (1) Nelim brings the last plate while the guest arrives: four dishes, four names. (2) First bite of the dish that carries two names at once. (3) The guest has left; the plain pot becomes a named blanquette, Nelim slips Shogun a scrap while the hen creeps in. (4) After lunch she steps out into the noon sun, hat on, to pull the potatoes that decide the next menu. Arc: the table, the double dish, the pot named, the garden that feeds it. Series note: wide (1), close (2), medium (3), medium-wide (4); opening 1 sets the nook, closing 4 is the garden; frames move on.
-**Outfit continuity (criterion d, owner rule 2026-10-23).** Nelim keeps ONE outfit all day: `Apparel_BasicShirt` sky (96, 150, 190) (the complement of the orange wood floor, and it stands out on the garden green), `Apparel_Pants` charcoal (58, 60, 68), Long hair loose dark brown (70, 46, 32), smile. The only change is scene 4: she puts on the straw `Apparel_CowboyHat` (214, 190, 120) to go out into the sun, written here and in the scene line; the loose Long hair shows under it (Hat Hair Control, never a ponytail or bun under a hat). What varies instead of the clothes: the guest's arc (arrives in 1, eats in 2, gone in 3, absent in 4), the held item (plate, bite, scrap, potatoes), the animals (dog trotting, lying, fed; hen in the garden), the shot size, the facings. The guest Miel (scenes 1 and 2; gone in 3) keeps her canon look (Roo_Royal_NaturalcurlsHD, skin (112, 67, 26), Eyes_Golden), shirt plum (122, 58, 108), pants sage (110, 130, 80); no hat, no tattoo.
+**Outfit continuity (criterion d, owner rule 2026-10-23).** Nelim keeps ONE outfit all day: `Apparel_BasicShirt` sky (96, 150, 190) (the complement of the orange wood floor, and it stands out on the garden green), `Apparel_Pants` charcoal (58, 60, 68), canon hair Roo_HD_Hair_Highpony dark brown (70, 46, 32) (NSB canon, no property change; was vanilla Long, dropped 2026-11-09), smile. The only change is scene 4: she puts on the straw `Apparel_CowboyHat` (214, 190, 120) to go out into the sun, written here and in the scene line; Roo_Royal_LongHD (the NSB canon under a hat) shows under it (Hat Hair Control, never a ponytail or bun under a hat). What varies instead of the clothes: the guest's arc (arrives in 1, eats in 2, gone in 3, absent in 4), the held item (plate, bite, scrap, potatoes), the animals (dog trotting, lying, fed; hen in the garden), the shot size, the facings. The guest Miel (scenes 1 and 2; gone in 3) keeps her NSB canon look (Roo_Royal_NaturalcurlsHD, skin (67, 26, 22) = GES_Skin_Chocolate, Eyes_Orange, Female_AverageWide; synced 2026-11-09), shirt plum (122, 58, 108), pants sage (110, 130, 80); no hat, no tattoo.
 **Pixel arithmetic.** Cell = 540 / zoom px on a 1080p frame, thumbnail = 0.14 x the frame; the card covers x > 950, so the subject stands in the left half: frame x = subject x + 485 / (px per cell).
 
 | # | Place, hour, passing time | Subject, one sentence | Nelim: outfit, hair, face, instant and gesture (how obtained) | Others, decor (named, removed after) | Composition (zoom, frame, thumbnail) | Steps asked of NPT / fallback | Score |
@@ -78,6 +78,31 @@ Criteria display (a to g, j per scene; k on the series: ok; h and i retired):
 
 Mean 4.1. Kept from the Opus pass: one outfit for the day with the hat as the only justified change, an instant and a gesture per scene, new zooms with pixel arithmetic, scene 3 moved off scene 1's frame, the guest's plum shirt, East facings for gestures, scene 1 contradiction resolved (card kept, zoom 5, frame (180,107)). Not kept: card on the left for one scene (no step known to accept "left", ask NPT before using it). Done 2026-10-25 (d3762a5): casting Miel, feature steps rewritten with NPT 82641a4 steps (mid-stride proven by 531b; forced Ingest not yet played; no hand-to-animal wrapper, composable steps). Step wording confirmed 2026-10-25 (Check-Steps.ps1 -Mod FlavorTextExtended from the protocols root: every line resolves; scene 1 uses forced haul, scene 4 no walk, cf62ebf). Pending: ticket bb59 (scenes 2 and 4, now staging the new file) tests the new steps; scenes 1 and 3 replay after it.
 Replay verdict column: after the run, accept or refuse each capture here.
+
+## NSB
+
+Rules said back (owner 2026-11-05, 2026-11-07): NSB places, colonists, domestic animals are free; outside NSB needs express validation (the mod's own animals excepted); a colonist property changes only with validation; every outfit is free; every animal the mod includes is shown.
+Sync 2026-11-09. NSB changed since the last sync: dining-nook and plant-garden were decorated and validated 2026-11-07 (lots 5a, 5b; the Pickle fixture now carries that decor), Miel's canon moved (eyes Orange, skin GES_Skin_Chocolate, head Female_AverageWide), batches 5k to 5m touch other places only. NPT since 2026-10-25: new steps (holds in hand, put-out, light dimmed, StageDecor made-of and plant clear), none needed here yet. Updated: Miel's looks and Nelim's hairstyle in the gallery feature and the shotlist text. Left alone: decor lines (the scenes add their own props; check against the validated NSB decor before recomposing 2 and 4).
+Places read: 2026-11-09   Tribe read: 2026-11-09   Steps read: 2026-11-09
+
+| Place | Shots | Changes for the gallery | Last read |
+|---|---|---|---|
+| dining-nook (176, 108) | 1, 2, 3 | props per scene (trolley, wine rack, egg box, cutting board, pan, hay bale); NSB decor already there: orchid, low cabinet, scroll, candles, chairs | 2026-11-09 |
+| plant-garden (190, 85) | 4 | apple and cherry trees; NSB decor already there: paved path, bench, LP_PlayFence | 2026-11-09 |
+
+| Colonist | Shots | Outfit per shot | Last read | Exceptions |
+|---|---|---|---|---|
+| Nelim | 1 to 4 | sky BasicShirt, charcoal Pants all day; straw CowboyHat in 4 (as shotlist) | 2026-11-09 | none: hairstyle back to canon Roo_HD_Hair_Highpony (1 to 3) and Roo_Royal_LongHD under the hat (4); vanilla Long dropped (it was a property change without validation) |
+| Miel | 1, 2 | shirt plum, pants sage (as shotlist) | 2026-11-09 (profile only; roster status "proposed") | none: looks synced to NSB canon, no change of her properties |
+
+| Animal | Shots | Outfit | Last read | Exceptions |
+|---|---|---|---|---|
+| Shogun (labrador, in the save) | 1 to 3 | default collar | 2026-11-09 (catalogue) | none |
+| Hen "Poule" (anonymous Poulet of the save fauna, 8 in the save) | 3, 4 | none | 2026-11-09 | none: anonymous fauna is decor |
+
+| Animal the mod includes | Shot |
+|---|---|
+| none (the mod adds dishes only, no race, no pawn kind) | not applicable |
 
 ## Gates
 

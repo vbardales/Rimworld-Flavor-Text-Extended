@@ -2,7 +2,7 @@
 #
 # THE STORY: "Lunch is served" (criterion k). WHO: Nelim, the colony's cook and gardener, with her guest Miel (NSB colonist, owner's casting 2026-10-25), Shogun her labrador and a hen that follows them. WHERE: the Sanctuary, dining-nook (1 to 3), plant-garden (4).
 # WHICH DAY: one clear, warm midday, 12:00 to 12:15. RHYTHM: +5 min of game time per image (2 500 ticks per game hour): 60 set-up ticks, then +0, +208, +417, +625; each Scenario reloads the save, so decor ends with the scenario.
-# OUTFIT CONTINUITY (owner rule 2026-10-23): Nelim keeps ONE outfit all day, sky Apparel_BasicShirt (96, 150, 190), charcoal Apparel_Pants (58, 60, 68), loose Long hair (70, 46, 32), smile. Her only change is scene 4: she puts on a straw Apparel_CowboyHat (214, 190, 120) to go out into the noon sun (Hat Hair Control shows the hair under it). Miel (scene 1 and 2 only): Roo_Royal_NaturalcurlsHD, skin (112, 67, 26), Eyes_Golden, plum Apparel_BasicShirt (122, 58, 108), sage Apparel_Pants (110, 130, 80).
+# OUTFIT CONTINUITY (owner rule 2026-10-23): Nelim keeps ONE outfit all day, sky Apparel_BasicShirt (96, 150, 190), charcoal Apparel_Pants (58, 60, 68), canon Roo_HD_Hair_Highpony (70, 46, 32; under the hat Roo_Royal_LongHD, NSB canon), smile. Her only change is scene 4: she puts on a straw Apparel_CowboyHat (214, 190, 120) to go out into the noon sun (Hat Hair Control shows the hair under it). Miel (scene 1 and 2 only): Roo_Royal_NaturalcurlsHD, skin (112, 67, 26), Eyes_Golden, plum Apparel_BasicShirt (122, 58, 108), sage Apparel_Pants (110, 130, 80).
 # EPISODES, each moves on from the last: (1) Nelim brings the last plate while Miel walks in: four dishes, four names. (2) First bite of the dish that carries two names at once, Miel waits for the verdict. (3) Miel has left; the plain pot becomes a named blanquette, Nelim slips Shogun a scrap while the hen creeps in. (4) Lunch over, Nelim pulls the potatoes that decide the next menu.
 # THE GESTURE, per scene (criterion e: a game paused mid-play; every moving pose is "game paused, then advance N ticks"): 1 Nelim mid-walk with the plate (forced haul of one MealFine to (176, 110), 20 ticks), 2 Nelim frozen mid-bite (forced Ingest, advance), 3 Nelim faces Shogun, meat in her hands, 4 Nelim stands facing West with six potatoes in her arms (carried item under a forced walk is NOT proven by NPT, so no walk). Steps of NPT commit 82641a4 and 8318f39 (mid-stride proven by ticket 531b; forced Ingest not yet played: read the capture).
 # FRAMES (cell = 540 / zoom px; the card covers x > 950, so the subject stands in the left half): 1 wide, zoom 5, (180, 107); 2 close, zoom 3, (179, 110); 3 medium, zoom 3.5, (180, 110); 4 medium-wide, zoom 4.5, (194, 85).
@@ -39,16 +39,16 @@ Feature: Lunch is served
     Given Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (96, 150, 190)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (58, 60, 68)
-    And Nelim's Pickle Tools: "Nelim" hairstyle is "Long"
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: a colonist "Miel" of kind "Colonist" exists
     And Nelim's Pickle Tools: "Miel" gender is Female
     And Nelim's Pickle Tools: "Miel" body type is Female
-    And Nelim's Pickle Tools: "Miel" head type is "Female_AverageNormal"
+    And Nelim's Pickle Tools: "Miel" head type is "Female_AverageWide"
     And Nelim's Pickle Tools: "Miel" hairstyle is "Roo_Royal_NaturalcurlsHD"
     And Nelim's Pickle Tools: "Miel" hair colour is rgb (40, 26, 20)
-    And Nelim's Pickle Tools: "Miel" skin colour is rgb (112, 67, 26)
-    And Nelim's Pickle Tools: "Miel" has the gene "Eyes_Golden"
+    And Nelim's Pickle Tools: "Miel" skin colour is rgb (67, 26, 22)
+    And Nelim's Pickle Tools: "Miel" has the gene "Eyes_Orange"
     And Nelim's Pickle Tools: "Miel" wears "Apparel_BasicShirt" dyed rgb (122, 58, 108)
     And Nelim's Pickle Tools: "Miel" wears "Apparel_Pants" dyed rgb (110, 130, 80)
     And Nelim's Pickle Tools: "Miel" face kit is "smile"
@@ -90,16 +90,16 @@ Feature: Lunch is served
     Given Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (96, 150, 190)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (58, 60, 68)
-    And Nelim's Pickle Tools: "Nelim" hairstyle is "Long"
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: a colonist "Miel" of kind "Colonist" exists
     And Nelim's Pickle Tools: "Miel" gender is Female
     And Nelim's Pickle Tools: "Miel" body type is Female
-    And Nelim's Pickle Tools: "Miel" head type is "Female_AverageNormal"
+    And Nelim's Pickle Tools: "Miel" head type is "Female_AverageWide"
     And Nelim's Pickle Tools: "Miel" hairstyle is "Roo_Royal_NaturalcurlsHD"
     And Nelim's Pickle Tools: "Miel" hair colour is rgb (40, 26, 20)
-    And Nelim's Pickle Tools: "Miel" skin colour is rgb (112, 67, 26)
-    And Nelim's Pickle Tools: "Miel" has the gene "Eyes_Golden"
+    And Nelim's Pickle Tools: "Miel" skin colour is rgb (67, 26, 22)
+    And Nelim's Pickle Tools: "Miel" has the gene "Eyes_Orange"
     And Nelim's Pickle Tools: "Miel" wears "Apparel_BasicShirt" dyed rgb (122, 58, 108)
     And Nelim's Pickle Tools: "Miel" wears "Apparel_Pants" dyed rgb (110, 130, 80)
     And Nelim's Pickle Tools: "Miel" face kit is "smile"
@@ -143,7 +143,7 @@ Feature: Lunch is served
     Given Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (96, 150, 190)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (58, 60, 68)
-    And Nelim's Pickle Tools: "Nelim" hairstyle is "Long"
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Shogun" is spawned at (177, 110)
     And Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (174, 110)
@@ -161,7 +161,7 @@ Feature: Lunch is served
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
-  # 4. 12:15. After lunch, in the plant garden: Nelim goes out in a straw hat over loose long hair, six potatoes in her arms, a hen in front of her, the card of a potato dish beside her. Says: what grows here decides what lunch can be.
+  # 4. 12:15. After lunch, in the plant garden: Nelim goes out in a straw hat over her canon Roo_Royal_LongHD hair, six potatoes in her arms, a hen in front of her, the card of a potato dish beside her. Says: what grows here decides what lunch can be.
   # RISKS: the hair may not show under the hat (Hat Hair Control 3760821540; if the picture shows no hair, replay without the hat, never keep it); Gnocchi may not carry the potato in slot 0 -> if the card step fails, replay without the card.
   Scenario: after lunch, the plant garden
     Given Nelim's Sanctuary: I am at the sanctuary "plant-garden"
@@ -174,7 +174,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (96, 150, 190)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (58, 60, 68)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_CowboyHat" dyed rgb (214, 190, 120)
-    And Nelim's Pickle Tools: "Nelim" hairstyle is "Long"
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_Royal_LongHD"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: I place the decor "PlantAppletree" at (183, 84) fully grown
     And Nelim's Pickle Tools: I place the decor "PlantCherrytree" at (185, 82) fully grown
