@@ -54,7 +54,8 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Guest" hair colour is rgb (196, 160, 96)
     And Nelim's Pickle Tools: "Guest" wears "Apparel_BasicShirt" dyed rgb (122, 58, 108)
     And Nelim's Pickle Tools: "Guest" wears "Apparel_Pants" dyed rgb (110, 130, 80)
-    And Nelim's Pickle Tools: "Guest" face kit is "smile"
+    And Nelim's Pickle Tools: "Guest" brows are "BrowNormal"
+    And Nelim's Pickle Tools: "Guest" mouth is "MouthLipsSmirk"
     Given Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Shogun" is spawned at (173, 111)
     Given Nelim's Pickle Tools: "Nelim" stands at (174, 109) facing East
     And Nelim's Pickle Tools: "Guest" stands at (174, 111) facing East
@@ -63,7 +64,8 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Guest" is forced to walk to (175, 110)
     When Nelim's Pickle Tools: I advance the paused game by exactly 20 ticks
     And Nelim's Sanctuary: Nelim has her own face
-    And Nelim's Pickle Tools: "Guest" face is held neutral
+    And Nelim's Pickle Tools: the face parts of "Guest" are logged
+    And Nelim's Pickle Tools: "Guest" face state is logged
     And Nelim's Pickle Tools: "Guest" facial expression is "normal+moodCheerful2"
     And Nelim's Pickle Tools: I frame the cell (178, 108) at zoom 3.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
@@ -100,7 +102,8 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Guest" hair colour is rgb (196, 160, 96)
     And Nelim's Pickle Tools: "Guest" wears "Apparel_BasicShirt" dyed rgb (122, 58, 108)
     And Nelim's Pickle Tools: "Guest" wears "Apparel_Pants" dyed rgb (110, 130, 80)
-    And Nelim's Pickle Tools: "Guest" face kit is "smile"
+    And Nelim's Pickle Tools: "Guest" brows are "BrowNormal"
+    And Nelim's Pickle Tools: "Guest" mouth is "MouthLipsSmirk"
     Given Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Shogun" is spawned at (175, 111)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
     And Nelim's Pickle Tools: "Guest" stands at (175, 110) facing East
@@ -108,7 +111,8 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: "Nelim" is forced into the job "Ingest" on the item "FTV_MealFine" at (176, 109)
     When Nelim's Pickle Tools: I advance the paused game by exactly 90 ticks
     And Nelim's Pickle Tools: "Nelim" facial expression is "normal+Ingest"
-    And Nelim's Pickle Tools: "Guest" face is held neutral
+    And Nelim's Pickle Tools: the face parts of "Guest" are logged
+    And Nelim's Pickle Tools: "Guest" face state is logged
     And Nelim's Pickle Tools: "Guest" facial expression is "normal+moodCheerful2"
     And Nelim's Pickle Tools: I frame the cell (177, 110) at zoom 3
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
@@ -177,7 +181,7 @@ Feature: Lunch is served
     And Nelim's Pickle Tools: I place the decor "VFEPD_WoodenWagon" at (186, 86)
     And Nelim's Pickle Tools: I place the decor "VFEPD_HayBaleMedium" at (188, 88)
     And Nelim's Pickle Tools: I place the decor "VFEPD_FoodBox" at (189, 87)
-    And Nelim's Pickle Tools: I place the decor "VFEPD_WoodenLogs" at (190, 83)
+    And Nelim's Pickle Tools: I place the decor "VFEPD_WoodenLogs" at (187, 85)
     Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (190, 85)
     Given Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Shogun" is spawned at (188, 86)
     Given Flavor Text Extended: "Nelim" stands on the free cell nearest to (189, 85)
