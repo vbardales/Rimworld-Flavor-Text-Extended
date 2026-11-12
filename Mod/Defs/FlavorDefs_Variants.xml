@@ -2112,7 +2112,7 @@
 			<li><categories><li>FT_Meat_Alligator</li></categories></li>
 			<li><categories><li>FT_Tomato</li></categories></li>
 		</ingredients>
-		<description>{0_coll} from the tail in dice, stewed in a roux and {1_coll} with cayenne pepper. The Cajun alligator dish, the one served at the parish fairs.</description>
+		<description>diced {0_coll} from the tail, stewed in a roux and {1_coll} with cayenne pepper. The Cajun alligator dish, the one served at the parish fairs.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -2246,7 +2246,7 @@
 			<li><categories><li>FT_Cephalopod</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 		</ingredients>
-		<description>{0_coll} dipped three times into boiling water before it is left there — otherwise the skin comes away — cut with scissors over rounds of {1_adj}, oil and smoked paprika.</description>
+		<description>{0_coll} dipped three times into boiling water before being left there — otherwise the skin comes away — cut with scissors over rounds of {1_adj}, oil and smoked paprika.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -2912,7 +2912,7 @@
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 		</ingredients>
-		<description>several fish and shellfish poached separately and only then brought together in a broth creamed with cider. Every flesh has its own cooking time: put them all in at once and the whole thing is lost.</description>
+		<description>several fish and shellfish poached separately and only then brought together in a broth creamed with cider. Every flesh has its own cooking time: putting them all in at once loses the whole dish.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>

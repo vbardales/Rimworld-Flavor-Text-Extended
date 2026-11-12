@@ -197,7 +197,7 @@
 			<li><categories><li>FT_Olive</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 		</ingredients>
-		<description>the bottoms of {0_adj} filled with {2_plur} and diced carrot, cooked in {1_adj} oil and cooled in it. Turkish olive-oil dishes are always eaten cold.</description>
+		<description>the bottoms of {0_adj}, filled with {2_plur} and diced carrot, cooked in {1_adj} oil and cooled in it. Turkish olive-oil dishes are always eaten cold.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>
@@ -212,7 +212,7 @@
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
 		</ingredients>
-		<description>the bottoms of {0_adj} filled with a hash of {1_adj} and {2_adj}, stewed in a white lemon sauce. The Algerian dish of spring, when the cardoons come in.</description>
+		<description>the bottoms of {0_adj}, filled with a hash of {1_adj} and {2_adj}, stewed in a white lemon sauce. The Algerian dish of spring, when the cardoons come in.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

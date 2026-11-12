@@ -294,7 +294,7 @@
 			<li><categories><li>FT_Meat_Cow</li></categories></li>
 			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
-		<description>{1_coll} braised very slowly in a {0_adj} milk and a {2_adj} paste, until the milk breaks and the oil rises. From there on, the meat fries in its own sauce.</description>
+		<description>{1_coll} braised very slowly in a {0_adj} milk and a {2_adj} paste, until the milk breaks and the oil rises. From then on, the meat fries in its own sauce.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

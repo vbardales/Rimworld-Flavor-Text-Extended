@@ -42,7 +42,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
-		<description>{0_coll} dipped three times into boiling water before it is left there — otherwise the skin comes away — cut with scissors over rounds of {1_adj}, oil and smoked paprika.</description>
+		<description>{0_coll} dipped three times into boiling water before being left there — otherwise the skin comes away — cut with scissors over rounds of {1_adj}, oil and smoked paprika.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

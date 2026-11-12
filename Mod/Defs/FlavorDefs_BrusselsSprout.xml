@@ -180,7 +180,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>{0_coll} chopped and {1_coll} in dice fried together until they catch on the bottom, with {2_coll} broken over them at the end. The leftovers breakfast.</description>
+		<description>{0_coll}, chopped, and {1_coll}, diced, fried together until they catch on the bottom, with {2_coll} broken over them at the end. The leftovers breakfast.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

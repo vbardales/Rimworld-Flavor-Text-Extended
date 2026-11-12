@@ -160,7 +160,7 @@
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>several fish and {1_coll} poached separately and only then brought together in a broth creamed with cider. Every flesh has its own cooking time: put them all in at once and the whole thing is lost.</description>
+		<description>several fish and {1_coll} poached separately and only then brought together in a broth creamed with cider. Every flesh has its own cooking time: putting them all in at once loses the whole dish.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>

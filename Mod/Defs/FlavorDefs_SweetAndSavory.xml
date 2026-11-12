@@ -263,7 +263,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Sesame</li></categories></li>
 		</ingredients>
-		<description>pieces of sweet potato fried and then coated in a {1_adj} caramel with soy, sown with black {2_plur}. University potato: the students of Tokyo bought them for next to nothing.</description>
+		<description>pieces of sweet potato fried and then coated in a {1_adj} caramel with soy, sprinkled with black {2_plur}. University potato: the students of Tokyo bought them for next to nothing.</description>
 		<mealKinds>
 			<li>FT_MealsSnack</li>
 			<li>FT_MealsDeepFry</li>
