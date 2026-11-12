@@ -25,7 +25,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Nut</li></categories></li>
 		</ingredients>
-		<description>{0_coll} in fine slivers, a blue crushed with a fork and toasted {2_coll}, over bitter leaves. The pairing holds because the sugar of the pear puts out the salt of the cheese.</description>
+		<description>{0_coll} in fine slivers, a blue cheese crushed with a fork and toasted {2_coll}, over bitter leaves. The pairing holds because the sugar of the pear puts out the salt of the cheese.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>

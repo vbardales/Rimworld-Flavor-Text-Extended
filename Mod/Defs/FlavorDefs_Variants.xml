@@ -907,7 +907,7 @@
 			<li><categories><li>FT_Durian</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>a Vietnamese cake of spiralled puff pastry, filled with a paste of {0_adj} and a salted {1_adj} yolk at the centre. The layers peel apart one by one at the cut.</description>
+		<description>a Vietnamese cake of spiralled puff pastry, filled with a paste of {0_adj} and a salted {1_adj} yolk at the centre. The layers peel apart one by one when cut.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>

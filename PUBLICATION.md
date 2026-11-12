@@ -70,7 +70,7 @@ The gallery is uploaded by hand: SteamCMD cannot send it. The owner uploaded thi
 |---|---|---|
 | 4 | `4-plant-garden.jpg` | After lunch, Nelim brings in what the next meal needs. |
 
-Scenes with a card, so no subtitle: 1 `1-table-laid` (katsudon card), 2 `2-two-dishes-nelim-seated` (two-dishes card), 3 `3-blanquette-shogun-hen` (blanquette card). `0-preview.png` has none either. If a later scene without a window is added, its line goes in this table before the picture is taken.
+Planned scenes (names and indexes of the reshoot, not the files uploaded on 2026-10-13 listed above) with a card, so no subtitle: 1 `1-table-laid` (katsudon card), 2 `2-two-dishes-nelim-seated` (two-dishes card), 3 `3-blanquette-shogun-hen` (blanquette card). `0-preview.png` has none either. If a later scene without a window is added, its line goes in this table before the picture is taken.
 
 The uncompressed 1920x1080 captures are not kept in the repository: they stay on disk in
 `Tests/Pickle/Evidence/2026-10-06-gallery-height-5bf7bef/screenshots/`, ignored by git (see `TESTING.md`, "Evidence to keep").
