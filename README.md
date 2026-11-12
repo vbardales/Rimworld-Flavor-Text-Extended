@@ -2,7 +2,7 @@
 
 An add-on for [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432)
 by hekmo. It requires that mod, contains none of its files, and does nothing without it.
-RimWorld 1.6.
+RimWorld 1.6 and 1.7.
 
 ## What it adds
 
@@ -57,9 +57,9 @@ Flavor Text's own. The following is a historical profile snapshot, not a result 
 current modlist:
 
 ```
-hekmo   611 actives / 930   65.7 %
-nous     44 actives / 896    4.9 %
-TOTAL   655 actives / 1826  35.9 %
+hekmo      611 actives / 930   65.7 %
+this mod    44 actives / 896    4.9 %
+TOTAL      655 actives / 1826  35.9 %
 ```
 
 Flavor Text itself holds up on vanilla because its dishes are built on vanilla ingredients. The

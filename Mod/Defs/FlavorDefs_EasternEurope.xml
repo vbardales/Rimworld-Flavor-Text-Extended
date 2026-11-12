@@ -70,7 +70,7 @@
 			<li><categories><li>FT_Cucumber</li></categories></li>
 			<li><categories><li>FT_Olive</li></categories></li>
 		</ingredients>
-		<description>a soup deliberately sour and salt: {0_coll} of several kinds, {1_coll} pickled and put in with their brine, {2_coll} and a slice of lemon. The dish of the morning after, and that is no accident.</description>
+		<description>a soup deliberately sour and salty: {0_coll} of several kinds, {1_coll} pickled and put in with their brine, {2_coll} and a slice of lemon. The dish of the morning after, and that is no accident.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
