@@ -93,7 +93,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
 		</ingredients>
-		<description>a {0_adj} sauce concentrated twice over, let down with {1_plur} and lifted by a splash of {2_adj}, which frees aromas that neither water nor fat reaches on its own.</description>
+		<description>a {0_adj} sauce concentrated twice over, let down with {1_plur} and lifted by a splash of {2_adj}, which releases aromas that neither water nor fat can reach on its own.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 		</mealKinds>
