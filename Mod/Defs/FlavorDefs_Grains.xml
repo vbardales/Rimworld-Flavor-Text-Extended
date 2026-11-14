@@ -271,7 +271,7 @@
 			<li><categories><li>FT_Pomegranate</li></categories></li>
 			<li><categories><li>FT_Vegetable</li></categories></li>
 		</ingredients>
-		<description>{0_coll} cooled out flat, mixed with the seeds of {1_adj} and shredded {2_plur}, with a thread of sharp molasses. The seeds burst in the middle of something that does not crunch: that is the whole point.</description>
+		<description>{0_coll} spread out to cool, mixed with the seeds of {1_adj} and shredded {2_plur}, with a thread of sharp molasses. The seeds burst in the middle of something that does not crunch: that is the whole point.</description>
 		<mealKinds>
 			<li>FT_MealsSalad</li>
 		</mealKinds>
