@@ -385,7 +385,7 @@
 			<li><categories><li>FT_Okra</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
 		</ingredients>
-		<description>a firm paste of {0_adj} worked with a spatula against the wall of the pot, dipped into a stringy {1_adj} sauce mounted with {2_plur}. Eaten by hand, digging into the ball.</description>
+		<description>a firm paste of {0_adj} worked with a spatula against the wall of the pot, dipped into a stringy {1_adj} sauce mounted with {2_plur}. Eaten by hand, with a hollow dug into the ball.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
@@ -470,7 +470,7 @@
 			<li><categories><li>FT_Pumpkin</li></categories></li>
 			<li><categories><li>FT_Fruit</li></categories></li>
 		</ingredients>
-		<description>{0_coll} burst for an hour in a great deal of water with {1_coll} in cubes that falls apart, and whole red {2_coll}. A yellow film forms on the surface: that is the part given to the sick.</description>
+		<description>{0_coll} burst for an hour in a great deal of water with cubes of {1_coll} that fall apart, and whole red {2_coll}. A yellow film forms on the surface: that is the part given to the sick.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
