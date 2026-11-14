@@ -51,3 +51,34 @@ Proper names decided during the translation review. Sent to ChatGPT with every p
 | Rhineland | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
 | Sussex | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
 | Queensland | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Goa | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Kashmir | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Vienna | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Gujarat | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Trinidad | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Mexico City | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Lebanon | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Egypt | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Turkey | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Verviers | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Kerala | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Sri Lanka | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Sapporo | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Tamil Nadu | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Oaxaca | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Iran | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Levant | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Mexico | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Tijuana | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Kampot | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Venice | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Michoacán | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Honduras | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Colombia | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Dombes | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Botswana | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Kentucky | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Tennessee | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Laos | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Barcelona | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Milan | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |

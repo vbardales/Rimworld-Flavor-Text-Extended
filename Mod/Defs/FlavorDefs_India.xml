@@ -141,7 +141,7 @@
 			<li><categories><li>FT_Yogurt</li></categories></li>
 			<li><categories><li>FT_Garlic</li></categories></li>
 		</ingredients>
-		<description>{0_coll} scored down to the bone, marinated overnight in {1_plur} and {2_plur}, then slapped against the wall of a clay oven heated red. The yoghurt holds the marinade on and tenderises the flesh.</description>
+		<description>{0_coll} scored down to the bone, marinated overnight in {1_plur} and {2_plur}, then slapped against the wall of a clay oven heated red-hot. The yoghurt holds the marinade on and tenderises the flesh.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 		</mealKinds>
