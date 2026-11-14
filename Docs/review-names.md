@@ -82,3 +82,32 @@ Proper names decided during the translation review. Sent to ChatGPT with every p
 | Laos | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
 | Barcelona | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
 | Milan | kept as is | English dish text, the mod ships no French; accent kept where the name has one | 2026-11-14 |
+| Portuguese | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| French | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Cantonese | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Mauritian | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Hawaiian | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Korean | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Persian | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Arabic | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Turkish | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Azerbaijani | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Georgians | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Italian | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Peruvian | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Creole | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Caribbean | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Cajun | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| American Southwest | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Hausa | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Fulani | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| West Africa | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Ethiopian | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| India | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| China | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Chinese-American | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Mexican | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Mexican Pacific | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Polynesian | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Maghreb | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| July | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |

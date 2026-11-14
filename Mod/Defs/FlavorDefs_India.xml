@@ -41,7 +41,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} put first through a scorching oven, then returned to a {1_adj} sauce mounted with {2_plur} and cream. Invented to use up the previous day's leftovers, and now the most ordered dish in the country.</description>
+		<description>{0_coll} put first through a scorching oven, then returned to a {1_adj} sauce mounted with {2_plur} and cream. Invented to use up the previous day's leftovers, and now the most frequently ordered dish in the country.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

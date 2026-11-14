@@ -242,7 +242,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Lemon</li></categories></li>
 		</ingredients>
-		<description>{0_coll} rolled in flour, thrown into scalding oil and lifted straight back out, served with {2_plur}. Eaten standing, out of paper, before it has cooled.</description>
+		<description>{0_coll} rolled in flour, thrown into scalding oil and lifted straight back out, served with {2_plur}. Eaten standing, out of a paper cone, before it has cooled.</description>
 		<mealKinds>
 			<li>FT_MealsDeepFry</li>
 		</mealKinds>

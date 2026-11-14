@@ -1873,7 +1873,7 @@
 			<li><categories><li>FT_Mango</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>alternating layers of graham crackers, {1_adj} whipped with condensed milk and {0_adj} in slivers, left overnight in the cold to set. The biscuits soften and turn into cake.</description>
+		<description>alternating layers of graham crackers, whipped {1_adj} cream with condensed milk, and slivers of {0_adj}, left overnight in the cold to set. The biscuits soften and turn into cake.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 		</mealKinds>
