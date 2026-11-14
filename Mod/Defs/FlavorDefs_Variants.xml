@@ -488,7 +488,7 @@
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>as much flour as {0_adj}, as sugar, as {1_adj} — four equal quarters, which is what the French name says. You weigh the eggs first and everything else follows.</description>
+		<description>equal quantities of flour, {0_adj}, sugar and {1_adj} — four equal quarters, which is what the French name says. You weigh the eggs first and everything else follows.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>
@@ -2314,7 +2314,7 @@
 			<li><categories><li>FT_Onion</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
 		</ingredients>
-		<description>small whole {0_coll} glazed in balsamic vinegar and {1_plur}, with bay. Eaten cold, and they keep a week, gaining by the day.</description>
+		<description>small whole {0_coll} glazed in balsamic vinegar and {1_plur}, with a bay leaf. Eaten cold, and they keep a week, gaining by the day.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>
@@ -2383,7 +2383,7 @@
 			<li><categories><li>FT_WaterChestnut</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{1_coll} chopped with a knife and worked in one direction only until it turns elastic, {0_coll} in small dice through it, the whole spread into a cake and steamed over the rice.</description>
+		<description>{1_coll} chopped with a knife and worked in one direction only until it turns elastic, with {0_coll} in small dice folded through it, the whole spread into a cake and steamed over the rice.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

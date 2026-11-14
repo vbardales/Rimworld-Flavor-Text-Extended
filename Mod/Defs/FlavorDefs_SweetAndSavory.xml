@@ -55,7 +55,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Condiment</li></categories></li>
 		</ingredients>
-		<description>small whole {0_coll} glazed in balsamic vinegar and {1_plur}, with bay. Eaten cold, and they keep a week, gaining by the day.</description>
+		<description>small whole {0_coll} glazed in balsamic vinegar and {1_plur}, with a bay leaf. Eaten cold, and they keep a week, gaining by the day.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 			<li>FT_MealsSalad</li>

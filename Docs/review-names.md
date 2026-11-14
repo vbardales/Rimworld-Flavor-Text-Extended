@@ -146,3 +146,12 @@ Proper names decided during the translation review. Sent to ChatGPT with every p
 | Lorraine | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
 | North | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
 | Conquest | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Chinese | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Bengali | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Vichy | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Tokyo | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Franz Joseph | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Peking | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Cambodian | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Niçois | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Córdoban | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |

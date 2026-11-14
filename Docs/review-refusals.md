@@ -19,3 +19,5 @@ ChatGPT suggestions refused during the translation review (`/review-translation`
 | 2026-11-14 | `FlavorTextFR_TriplesLyonnaises` (defName) | Rename "Triples" to "Tripes" | A defName is an identifier, never renamed (also `FlavorTextFR_TriplesLyonnaisesDuo`); the player sees the label `tablier de sapeur`, not the key. |
 | 2026-11-14 | `FlavorTextFR_RizBeurreAil.description` | "past gold it turns bitter" to "once golden, it turns bitter" | Changes the meaning: the garlic turns bitter beyond golden, not once golden. Current wording is right. |
 | 2026-11-14 | `FlavorTextFR_VelouteDeTomate.description` | "half as well" to "half so well" | Taste only: "half as well" is the standard idiom, "half so well" is archaic. Current wording is right. |
+| 2026-11-14 | `FlavorTextFR_FrancesinhaDuo.description` | "poured to the brim of the plate" replaced by the same text | No change proposed; current wording is right. |
+| 2026-11-14 | `Niçois` (name) | "Niçoise" for "a Niçois tart" | Both forms exist in English; "Niçois" matches the label `petits farcis niçois`. Taste only. |
