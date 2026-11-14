@@ -13,51 +13,66 @@ is active. Do not rely only on attributes on the Operation node.
 	<!--
   Bok choy.
 -->
-	<Operation Class="PatchOperationAdd" MayRequire="daylight.RLEVVCultivationPlus">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_LeafyVeg"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequire="daylight.RLEVVCultivationPlus">VV_Chingensai</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="VV_Chingensai"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_LeafyVeg"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequire="daylight.RLEVVCultivationPlus">VV_Chingensai</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Tomato.
 -->
-	<Operation Class="PatchOperationAdd" MayRequire="daylight.RLEVVCultivationPlus">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Tomato"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequire="daylight.RLEVVCultivationPlus">VVTomato</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="VVTomato"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Tomato"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequire="daylight.RLEVVCultivationPlus">VVTomato</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Onion.
 -->
-	<Operation Class="PatchOperationAdd" MayRequire="daylight.RLEVVCultivationPlus">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Onion"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequire="daylight.RLEVVCultivationPlus">VVOnion</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="VVOnion"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Onion"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequire="daylight.RLEVVCultivationPlus">VVOnion</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Paprika / bell pepper.
 -->
-	<Operation Class="PatchOperationAdd" MayRequire="daylight.RLEVVCultivationPlus">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_BellPepper"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequire="daylight.RLEVVCultivationPlus">VVPaprika</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="VVPaprika"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_BellPepper"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequire="daylight.RLEVVCultivationPlus">VVPaprika</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Dent corn, used for polenta and cornmeal.
 -->
-	<Operation Class="PatchOperationAdd" MayRequire="daylight.RLEVVCultivationPlus">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Corn"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequire="daylight.RLEVVCultivationPlus">RLE_DentCorn</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="RLE_DentCorn"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Corn"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequire="daylight.RLEVVCultivationPlus">RLE_DentCorn</li>
+			</value>
+		</match>
 	</Operation>
 
 </Patch>

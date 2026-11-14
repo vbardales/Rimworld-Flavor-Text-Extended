@@ -84,19 +84,25 @@ these additions classify ingredients, not existing dishes.
 Japanese labels do not by themselves imply a mismatch; defNames are also considered.
 Each ingredient entry is guarded by the provider package ID.
 -->
-	<Operation Class="PatchOperationAdd" MayRequire="daylight.RimLifeExTRGMod">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_MeatRaw"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequire="daylight.RimLifeExTRGMod">RLE_DriedMeat</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="RLE_DriedMeat"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_MeatRaw"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequire="daylight.RimLifeExTRGMod">RLE_DriedMeat</li>
+			</value>
+		</match>
 	</Operation>
 
-	<Operation Class="PatchOperationAdd" MayRequire="daylight.RimLifeExTRGMod">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Cheese"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequire="daylight.RimLifeExTRGMod">RLE_CheesNatureAfter</li>
-			<li MayRequire="daylight.RimLifeExTRGMod">RLE_CheesNatureAged</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="RLE_CheesNatureAfter" or defName="RLE_CheesNatureAged"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Cheese"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequire="daylight.RimLifeExTRGMod">RLE_CheesNatureAfter</li>
+				<li MayRequire="daylight.RimLifeExTRGMod">RLE_CheesNatureAged</li>
+			</value>
+		</match>
 	</Operation>
 
 </Patch>

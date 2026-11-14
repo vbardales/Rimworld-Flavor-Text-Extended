@@ -1,27 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Patch>
-  <Operation Class="PatchOperationAdd" MayRequire="Dajian.ChiTeaditional.Expanded">
-    <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Cabbage"]/thingDefsToAbsorb</xpath>
-    <value>
-      <li MayRequire="Dajian.ChiTeaditional.Expanded">RawDaBaiCai</li>
-    </value>
+  <Operation Class="PatchOperationConditional">
+  	<xpath>Defs/*[defName="RawDaBaiCai"]</xpath>
+  	<match Class="PatchOperationAdd">
+	    <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Cabbage"]/thingDefsToAbsorb</xpath>
+	    <value>
+	      <li MayRequire="Dajian.ChiTeaditional.Expanded">RawDaBaiCai</li>
+	    </value>
+  	</match>
   </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Dajian.ChiTeaditional.Expanded">
-    <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Lotus"]/thingDefsToAbsorb</xpath>
-    <value>
-      <li MayRequire="Dajian.ChiTeaditional.Expanded">RawLianOu</li>
-    </value>
+  <Operation Class="PatchOperationConditional">
+  	<xpath>Defs/*[defName="RawLianOu"]</xpath>
+  	<match Class="PatchOperationAdd">
+	    <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Lotus"]/thingDefsToAbsorb</xpath>
+	    <value>
+	      <li MayRequire="Dajian.ChiTeaditional.Expanded">RawLianOu</li>
+	    </value>
+  	</match>
   </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Dajian.ChiTeaditional.Expanded">
-    <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Bean"]/thingDefsToAbsorb</xpath>
-    <value>
-      <li MayRequire="Dajian.ChiTeaditional.Expanded">RawLvDou</li>
-    </value>
+  <Operation Class="PatchOperationConditional">
+  	<xpath>Defs/*[defName="RawLvDou"]</xpath>
+  	<match Class="PatchOperationAdd">
+	    <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Bean"]/thingDefsToAbsorb</xpath>
+	    <value>
+	      <li MayRequire="Dajian.ChiTeaditional.Expanded">RawLvDou</li>
+	    </value>
+  	</match>
   </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Dajian.ChiTeaditional.Expanded">
-    <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Flour"]/thingDefsToAbsorb</xpath>
-    <value>
-      <li MayRequire="Dajian.ChiTeaditional.Expanded">WorkedFenTiao</li>
-    </value>
+  <Operation Class="PatchOperationConditional">
+  	<xpath>Defs/*[defName="WorkedFenTiao"]</xpath>
+  	<match Class="PatchOperationAdd">
+	    <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Flour"]/thingDefsToAbsorb</xpath>
+	    <value>
+	      <li MayRequire="Dajian.ChiTeaditional.Expanded">WorkedFenTiao</li>
+	    </value>
+  	</match>
   </Operation>
-</Patch>
+</Patch>

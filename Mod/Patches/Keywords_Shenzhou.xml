@@ -15,117 +15,150 @@ and inedible wrapping leaves are deliberately excluded.
 	<!--
   Highland barley: grain and flour.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Barley"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">RawQingKe</li>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedQingKe</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="RawQingKe" or defName="WorkedQingKe"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Barley"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">RawQingKe</li>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedQingKe</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Hybrid rice and processed rice flours.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Rice"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">RawZaJiaoShuiDao</li>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawRice</li>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedJingMi</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="RawZaJiaoShuiDao" or defName="WorkedRawRice" or defName="WorkedJingMi"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Rice"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">RawZaJiaoShuiDao</li>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawRice</li>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedJingMi</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Salted mustard greens.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_LeafyVeg"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">MeiCai</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="MeiCai"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_LeafyVeg"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">MeiCai</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Dried potato.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Potato"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawPotato</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="WorkedRawPotato"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Potato"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawPotato</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Dried corn.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Corn"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawMaize</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="WorkedRawMaize"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Corn"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawMaize</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Mixed dried vegetables.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Vegetable"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawMixture</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="WorkedRawMixture"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Vegetable"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">WorkedRawMixture</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Zhejiang citrus.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Citrus"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">SZ_ShiTouGan</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="SZ_ShiTouGan"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Citrus"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">SZ_ShiTouGan</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Chili oil.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Chili"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">LaJiao</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="LaJiao"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Chili"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">LaJiao</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Ginkgo nuts.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Nut"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">YinXingGuo</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="YinXingGuo"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Nut"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">YinXingGuo</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Mugwort used as an aromatic ingredient.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Spice"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">AiYe</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="AiYe"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Spice"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">AiYe</li>
+			</value>
+		</match>
 	</Operation>
 
 	<!--
   Grain and infused liquors.
 -->
-	<Operation Class="PatchOperationAdd" MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">
-		<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Alcohol"]/thingDefsToAbsorb</xpath>
-		<value>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">HuangJiu</li>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">BaiJiu</li>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">XiongHuangJiu</li>
-			<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">BaiGuoJiu</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/*[defName="HuangJiu" or defName="BaiJiu" or defName="XiongHuangJiu" or defName="BaiGuoJiu"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Alcohol"]/thingDefsToAbsorb</xpath>
+			<value>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">HuangJiu</li>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">BaiJiu</li>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">XiongHuangJiu</li>
+				<li MayRequireAnyOf="Dajian.ChiTeaditional.Expanded.OldMode,Dajian.ChiTeaditional.Expanded">BaiGuoJiu</li>
+			</value>
+		</match>
 	</Operation>
 
 </Patch>

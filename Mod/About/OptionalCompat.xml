@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OptionalCompat>
+  <li><packageId>Dajian.ChiTeaditional.Expanded</packageId><workshopId>2877536640</workshopId><kind>patch</kind></li>
+  <li><packageId>Dajian.ChiTeaditional.Expanded.OldMode</packageId><workshopId>2371079000</workshopId><kind>patch</kind></li>
+  <li><packageId>daylight.RimLifeExTRGMod</packageId><workshopId>2951594887</workshopId><kind>patch</kind></li>
+  <li><packageId>daylight.RLEVVCultivationPlus</packageId><workshopId>3614595617</workshopId><kind>patch</kind></li>
+  <li><packageId>RimWorld.Odyssey</packageId><workshopId></workshopId><kind>synergy</kind></li>
+  <li><packageId>vvenchov.vvnewharvest</packageId><workshopId>3448458106</workshopId><kind>synergy</kind></li>
+</OptionalCompat>
