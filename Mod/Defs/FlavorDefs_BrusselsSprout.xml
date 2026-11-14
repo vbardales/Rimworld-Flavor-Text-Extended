@@ -15,7 +15,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesLardons</defName>
-		<label>brussels sprouts with bacon</label>
+		<label>Brussels sprouts with bacon</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
@@ -29,7 +29,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesMarrons</defName>
-		<label>brussels sprouts with chestnuts</label>
+		<label>Brussels sprouts with chestnuts</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Chestnut</li></categories></li>
@@ -43,7 +43,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_GratinChouxBruxelles</defName>
-		<label>brussels sprout gratin</label>
+		<label>Brussels sprout gratin</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
@@ -57,7 +57,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesMoutarde</defName>
-		<label>brussels sprouts in mustard</label>
+		<label>Brussels sprouts in mustard</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
@@ -71,7 +71,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RisottoChouxBruxelles</defName>
-		<label>brussels sprout risotto</label>
+		<label>Brussels sprout risotto</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
@@ -85,7 +85,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PastaChouxBruxellesPancetta</defName>
-		<label>pasta with brussels sprouts and pancetta</label>
+		<label>pasta with Brussels sprouts and pancetta</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Wheat</li></categories></li>
@@ -101,7 +101,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesCesar</defName>
-		<label>brussels sprout Caesar salad</label>
+		<label>Brussels sprout Caesar salad</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Dairy</li></categories></li>
@@ -115,7 +115,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesSlaw</defName>
-		<label>brussels sprout slaw</label>
+		<label>Brussels sprout slaw</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Fruit</li></categories></li>
@@ -129,7 +129,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesErableLard</defName>
-		<label>maple and bacon brussels sprouts</label>
+		<label>maple and bacon Brussels sprouts</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
@@ -144,7 +144,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesCroustillants</defName>
-		<label>crisp brussels sprouts</label>
+		<label>crisp Brussels sprouts</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Fat</li></categories></li>
@@ -159,7 +159,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesBuffalo</defName>
-		<label>buffalo brussels sprouts</label>
+		<label>buffalo Brussels sprouts</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Chili</li></categories></li>
@@ -174,7 +174,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesHash</defName>
-		<label>brussels sprout hash</label>
+		<label>Brussels sprout hash</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
@@ -190,7 +190,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesMiso</defName>
-		<label>miso-glazed brussels sprouts</label>
+		<label>miso-glazed Brussels sprouts</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Soy</li></categories></li>
@@ -205,7 +205,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesCurry</defName>
-		<label>brussels sprout curry</label>
+		<label>Brussels sprout curry</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>

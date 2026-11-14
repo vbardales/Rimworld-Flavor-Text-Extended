@@ -348,7 +348,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MontBlanc</defName>
-		<label>mont blanc</label>
+		<label>Mont Blanc</label>
 		<ingredients>
 			<li><categories><li>FT_Chestnut</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>

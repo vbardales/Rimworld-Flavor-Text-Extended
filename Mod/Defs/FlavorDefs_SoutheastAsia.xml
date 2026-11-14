@@ -51,7 +51,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PadThai</defName>
-		<label>pad thai</label>
+		<label>pad Thai</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Peanut</li></categories></li>

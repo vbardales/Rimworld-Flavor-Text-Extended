@@ -37,7 +37,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_Welsh</defName>
-		<label>welsh rarebit</label>
+		<label>Welsh rarebit</label>
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
@@ -418,7 +418,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_MontDOrChaud</defName>
-		<label>hot mont d'or</label>
+		<label>hot Mont d'Or</label>
 		<ingredients>
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Alcohol</li></categories></li>
@@ -448,7 +448,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PoteeLorraine</defName>
-		<label>potée lorraine</label>
+		<label>potée Lorraine</label>
 		<ingredients>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>

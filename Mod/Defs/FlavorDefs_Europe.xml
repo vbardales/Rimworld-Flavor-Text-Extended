@@ -491,7 +491,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_LancashireHotpot</defName>
-		<label>lancashire hotpot</label>
+		<label>Lancashire hotpot</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Mutton</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
@@ -506,7 +506,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CullenSkink</defName>
-		<label>cullen skink</label>
+		<label>Cullen skink</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Fish</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
@@ -548,7 +548,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FullEnglishBreakfast</defName>
-		<label>full english breakfast</label>
+		<label>full English breakfast</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>

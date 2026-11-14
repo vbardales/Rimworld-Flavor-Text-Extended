@@ -150,7 +150,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BoudinCajun</defName>
-		<label>cajun boudin</label>
+		<label>Cajun boudin</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>
@@ -164,7 +164,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_HoppinJohn</defName>
-		<label>hoppin' john</label>
+		<label>Hoppin' John</label>
 		<ingredients>
 			<li><categories><li>FT_RedBean</li></categories></li>
 			<li><categories><li>FT_Rice</li></categories></li>

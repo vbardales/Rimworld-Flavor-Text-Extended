@@ -14,7 +14,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TurtleSoupCreole</defName>
-		<label>creole turtle soup</label>
+		<label>Creole turtle soup</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Turtle</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
@@ -173,7 +173,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BeignetsAlligator</defName>
-		<label>cajun alligator bites</label>
+		<label>Cajun alligator bites</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Alligator</li></categories></li>
 			<li><categories><li>FT_Grain</li></categories></li>

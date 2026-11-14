@@ -105,7 +105,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CanardLaque</defName>
-		<label>peking duck</label>
+		<label>Peking duck</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
@@ -120,7 +120,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_RizCantonais</defName>
-		<label>cantonese fried rice</label>
+		<label>Cantonese fried rice</label>
 		<ingredients>
 			<li><categories><li>FT_Rice</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>

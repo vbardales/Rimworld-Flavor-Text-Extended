@@ -287,7 +287,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FarBreton</defName>
-		<label>far breton</label>
+		<label>far Breton</label>
 		<ingredients>
 			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
@@ -423,7 +423,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_QuicheLorraine</defName>
-		<label>quiche lorraine</label>
+		<label>quiche Lorraine</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>

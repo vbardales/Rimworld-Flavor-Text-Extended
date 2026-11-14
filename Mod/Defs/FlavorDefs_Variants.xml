@@ -120,7 +120,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ChouxBruxellesCurryDuo</defName>
-		<label>brussels sprout curry</label>
+		<label>Brussels sprout curry</label>
 		<ingredients>
 			<li><categories><li>FT_BrusselsSprout</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
@@ -283,7 +283,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CanardLaqueDuo</defName>
-		<label>peking duck</label>
+		<label>Peking duck</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Sugar</li></categories></li>
@@ -511,7 +511,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ParisBrestDuo</defName>
-		<label>paris-brest</label>
+		<label>Paris-Brest</label>
 		<ingredients>
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
@@ -720,7 +720,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BakewellTartDuo</defName>
-		<label>bakewell tart</label>
+		<label>Bakewell tart</label>
 		<ingredients>
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
@@ -1293,7 +1293,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_FarBretonDuo</defName>
-		<label>far breton</label>
+		<label>far Breton</label>
 		<ingredients>
 			<li><categories><li>FT_Egg</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
@@ -1510,7 +1510,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PoteeLorraineDuo</defName>
-		<label>potée lorraine</label>
+		<label>potée Lorraine</label>
 		<ingredients>
 			<li><categories><li>FT_Cabbage</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
@@ -2120,7 +2120,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BeignetsAlligatorDuo</defName>
-		<label>cajun alligator bites</label>
+		<label>Cajun alligator bites</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Alligator</li></categories></li>
 			<li><categories><li>FT_Spice</li></categories></li>
@@ -2731,7 +2731,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_TurtleSoupCreoleSolo</defName>
-		<label>creole turtle soup</label>
+		<label>Creole turtle soup</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Turtle</li></categories></li>
 		</ingredients>
@@ -2845,7 +2845,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_CanardLaqueSolo</defName>
-		<label>peking duck</label>
+		<label>Peking duck</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 		</ingredients>

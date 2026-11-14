@@ -80,7 +80,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PadThaiMixte</defName>
-		<label>chicken and shrimp pad thai</label>
+		<label>chicken and shrimp pad Thai</label>
 		<ingredients>
 			<li><categories><li>FT_Meat_Poultry</li></categories></li>
 			<li><categories><li>FT_Meat_Shellfish</li></categories></li>

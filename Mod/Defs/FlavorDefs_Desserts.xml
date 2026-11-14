@@ -55,7 +55,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_PoiresBelleHelene</defName>
-		<label>poires belle Hélène</label>
+		<label>poires Belle Hélène</label>
 		<ingredients>
 			<li><categories><li>FT_Pear</li></categories></li>
 			<li><categories><li>FT_Chocolate</li></categories></li>
@@ -128,7 +128,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_ParisBrest</defName>
-		<label>paris-brest</label>
+		<label>Paris-Brest</label>
 		<ingredients>
 			<li><categories><li>FT_Grain</li></categories></li>
 			<li><categories><li>FT_Almond</li></categories></li>
@@ -505,7 +505,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_EtonMess</defName>
-		<label>eton mess</label>
+		<label>Eton mess</label>
 		<ingredients>
 			<li><categories><li>FT_Berry</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
@@ -519,7 +519,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_BakewellTart</defName>
-		<label>bakewell tart</label>
+		<label>Bakewell tart</label>
 		<ingredients>
 			<li><categories><li>FT_Almond</li></categories></li>
 			<li><categories><li>FT_Berry</li></categories></li>
@@ -656,7 +656,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AnzacBiscuits</defName>
-		<label>anzac biscuits</label>
+		<label>Anzac biscuits</label>
 		<ingredients>
 			<li><categories><li>FT_Oat</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
