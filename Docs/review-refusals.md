@@ -16,3 +16,4 @@ ChatGPT suggestions refused during the translation review (`/review-translation`
 | 2026-11-12 | `FlavorTextFR_CheesecakeAuxFigues.description` | "a filling under quarters" to "a filling topped with quarters" | Same: deferred to the next review run. |
 | 2026-11-14 | `FlavorTextFR_OrgeAuTheBeurre.description` | "carries you a day's walk" to "carries one through a day's walk" | "You" is the voice of the mod (refused the same way on 2026-11-12), "one" breaks it. Taste. |
 | 2026-11-14 | `PUBLICATION.md` "Adult-content boxes" | "the page will carry" to "that the page will carry" | Both are correct English; optional relative pronoun. Taste. |
+| 2026-11-14 | `FlavorTextFR_TriplesLyonnaises` (defName) | Rename "Triples" to "Tripes" | A defName is an identifier, never renamed (also `FlavorTextFR_TriplesLyonnaisesDuo`); the player sees the label `tablier de sapeur`, not the key. |
