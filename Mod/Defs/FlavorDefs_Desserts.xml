@@ -656,7 +656,7 @@
 
 	<FlavorText.FlavorDef ParentName="FlavorDef_Base">
 		<defName>FlavorTextFR_AnzacBiscuits</defName>
-		<label>Anzac biscuits</label>
+		<label>ANZAC biscuits</label>
 		<ingredients>
 			<li><categories><li>FT_Oat</li></categories></li>
 			<li><categories><li>FT_Coconut</li></categories></li>
