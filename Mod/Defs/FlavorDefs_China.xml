@@ -111,7 +111,7 @@
 			<li><categories><li>FT_Sugar</li></categories></li>
 			<li><categories><li>FT_Grain</li></categories></li>
 		</ingredients>
-		<description>a bird blown full of air to lift the skin off the flesh, scalded, lacquered with {1_plur} and dried a day in the wind before roasting. The skin is served first, in fine pancakes, and the meat afterwards.</description>
+		<description>a bird blown full of air to lift the skin off the flesh, scalded, lacquered with {1_plur} and dried for a day in the wind before roasting. The skin is served first, in fine pancakes, and the meat afterwards.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>

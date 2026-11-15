@@ -21,3 +21,4 @@ ChatGPT suggestions refused during the translation review (`/review-translation`
 | 2026-11-14 | `FlavorTextFR_VelouteDeTomate.description` | "half as well" to "half so well" | Taste only: "half as well" is the standard idiom, "half so well" is archaic. Current wording is right. |
 | 2026-11-14 | `FlavorTextFR_FrancesinhaDuo.description` | "poured to the brim of the plate" replaced by the same text | No change proposed; current wording is right. |
 | 2026-11-14 | `Niçois` (name) | "Niçoise" for "a Niçois tart" | Both forms exist in English; "Niçois" matches the label `petits farcis niçois`. Taste only. |
+| 2026-11-15 | `FlavorTextFR_PouletGastonGerard.description` | "knocked the paprika tin over the dish" replaced by the same text | No change proposed: both determiners are already there. Current wording is right. |

@@ -2,7 +2,7 @@
 
 What the Workshop page asked for and the repository held nowhere else. Written 2026-09-21 as a draft; **published
 2026-09-22**, item [3806100152](https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152), public. The
-sections below are now a record of what was decided and sent, not a proposal. It serves two purposes: it recorded what was decided and sent at the first
+sections below are now a record of what was decided and sent, not a proposal. It serves two purposes: it records what was decided and sent at the first
 upload, and it guides whoever takes the mod over.
 
 The Workshop gallery images are in `Art/Gallery/` in their Steam display order. The set was settled on 2026-10-12: the owner
