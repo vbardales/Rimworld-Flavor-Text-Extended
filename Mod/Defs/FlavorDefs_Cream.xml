@@ -153,7 +153,7 @@
 			<li><categories><li>FT_Cream</li></categories></li>
 			<li><categories><li>FT_Potato</li></categories></li>
 		</ingredients>
-		<description>a thick soup of {0_adj} and {2_adj} in dice, bound with {1_plur}, in which the cobs have boiled in the milk for half an hour before being lifted out. They are not eaten, but they give everything.</description>
+		<description>a thick soup of diced {0_adj} and {2_adj}, bound with {1_plur}, in which the cobs have boiled in the milk for half an hour before being lifted out. They are not eaten, but they give everything.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>

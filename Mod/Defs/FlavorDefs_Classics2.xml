@@ -242,7 +242,7 @@
 			<li><categories><li>FT_Tomato</li></categories></li>
 			<li><categories><li>FT_Fungus</li></categories></li>
 		</ingredients>
-		<description>{0_coll} in cubes browned then stewed with {1_plur} and {2_plur}. Improvised, they say, on the evening of the battle, from whatever Bonaparte's cook could find in the fields around.</description>
+		<description>{0_coll} in cubes browned then stewed with {1_plur} and {2_plur}. It was improvised, they say, on the evening of the battle, from whatever Bonaparte's cook could find in the fields around.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>
