@@ -108,7 +108,7 @@
 			<li><categories><li>FT_Coffee</li></categories></li>
 			<li><categories><li>FT_Drink</li></categories></li>
 		</ingredients>
-		<description>a tight {1_coll} let down with hot {2_plur}, into which a knob of {0_adj} is melted and whisked to an emulsion. Without the whisk the fat rises in a pool and the drink is vile.</description>
+		<description>a strong {1_coll} let down with hot {2_plur}, into which a knob of {0_adj} is melted and whisked to an emulsion. Without the whisk the fat rises in a pool and the drink is vile.</description>
 		<mealKinds>
 			<li>FT_MealsDrink</li>
 		</mealKinds>

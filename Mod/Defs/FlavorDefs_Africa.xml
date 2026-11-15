@@ -71,7 +71,7 @@
 			<li><categories><li>FT_MeatRaw</li></categories></li>
 			<li><categories><li>FT_Onion</li></categories></li>
 		</ingredients>
-		<description>{0_coll} grated, fermented, pressed and then steamed into a sour semolina, served with braised {1_plur} and raw {2_plur} with lemon.</description>
+		<description>{0_coll} grated, fermented, pressed and then steamed into a sour cassava couscous, served with braised {1_plur} and raw {2_plur} with lemon.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

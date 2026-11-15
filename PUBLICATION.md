@@ -87,7 +87,7 @@ tests do not use this fixture; `06` is the only scenario that does.
 
 ## Adult-content boxes
 
-**No.** Checked on the two images the page will carry, both opened and looked at: `Preview.png` shows dishes on a wooden
+**No.** Checked on the two images used for the Workshop header and the in-game icon (the three gallery images are not covered by this check), both opened and looked at: `Preview.png` shows dishes on a wooden
 table, `ModIcon.png` a cartoon mascot holding a bowl. Nothing in the dishes' text concerns the boxes: some name
 alcohol, insects or reptiles as ingredients, which the Workshop's categories do not treat as mature content. To be answered
 again for every capture added.
