@@ -155,3 +155,9 @@ Proper names decided during the translation review. Sent to ChatGPT with every p
 | Cambodian | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
 | Niçois | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
 | Córdoban | kept as is | English dish text, standard English form, mod ships no French | 2026-11-14 |
+| Nigeria | kept as is | English dish text, proper name or acronym in its standard English form, mod ships no French | 2026-11-16 |
+| Escoffier | kept as is | English dish text, proper name or acronym in its standard English form, mod ships no French | 2026-11-16 |
+| ANZAC | kept as is | English dish text, proper name or acronym in its standard English form, mod ships no French | 2026-11-16 |
+| Eton | kept as is | English dish text, proper name or acronym in its standard English form, mod ships no French | 2026-11-16 |
+| Bakewell | kept as is | English dish text, proper name or acronym in its standard English form, mod ships no French | 2026-11-16 |
+| Guinness | kept as is | English dish text, proper name or acronym in its standard English form, mod ships no French | 2026-11-16 |

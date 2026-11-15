@@ -48,7 +48,7 @@
 			<li><categories><li>FT_Shallot</li></categories></li>
 			<li><categories><li>FT_Butter</li></categories></li>
 		</ingredients>
-		<description>{0_coll} seared very fast and served rare — cooked any further it becomes uneatable — under {1_adj} melted down in {2_plur} and vinegar.</description>
+		<description>{0_coll} seared very fast and served rare — cooked any further it becomes inedible — under {1_adj} melted down in {2_plur} and vinegar.</description>
 		<mealKinds>
 			<li>FT_MealsGrill</li>
 			<li>FT_MealsNonSpecial</li>
