@@ -44,7 +44,7 @@
 			<li><categories><li>FT_Carrot</li></categories></li>
 			<li><categories><li>FT_Bone</li></categories></li>
 		</ingredients>
-		<description>{0_adj} shin and its bone simmered three hours with {1_coll} in thick rounds, and nothing else at all. The marrow melts and thickens the juices on its own.</description>
+		<description>{0_adj} shin, bone in, simmered three hours with {1_coll} in thick rounds, and nothing else at all. The marrow melts and thickens the juices on its own.</description>
 		<mealKinds>
 			<li>FT_MealsNonSpecial</li>
 		</mealKinds>

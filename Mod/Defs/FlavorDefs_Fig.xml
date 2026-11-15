@@ -174,7 +174,7 @@
 			<li><categories><li>FT_Cheese</li></categories></li>
 			<li><categories><li>FT_Cream</li></categories></li>
 		</ingredients>
-		<description>a {1_adj} and {2_adj} filling under quarters of {0_adj} laid out in a rosette and lacquered with their own reduced syrup.</description>
+		<description>a {1_adj} and {2_adj} filling topped with quarters of {0_adj} laid out in a rosette and lacquered with their own reduced syrup.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>

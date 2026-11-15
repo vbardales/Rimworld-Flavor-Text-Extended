@@ -91,7 +91,7 @@
 			<li><categories><li>FT_Wheat</li></categories></li>
 			<li><categories><li>FT_Meat_Pig</li></categories></li>
 		</ingredients>
-		<description>{0_coll} pulled leaf from leaf and fried in the fat of {2_adj}, tossed through the pasta with a little cooking water. Separated leaves colour far better than whole sprouts.</description>
+		<description>{0_coll} pulled apart leaf by leaf and fried in the fat of {2_adj}, tossed through the pasta with a little cooking water. Separated leaves colour far better than whole sprouts.</description>
 		<mealKinds>
 			<li>FT_MealsNoodle</li>
 		</mealKinds>

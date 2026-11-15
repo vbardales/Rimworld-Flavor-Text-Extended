@@ -89,7 +89,7 @@
 			<li><categories><li>FT_Butter</li></categories></li>
 			<li><categories><li>FT_Egg</li></categories></li>
 		</ingredients>
-		<description>equal quantities of flour, {1_adj}, sugar and {2_adj} — four equal quarters, which is what the French name says. You weigh the eggs first and everything else follows.</description>
+		<description>equal quantities of flour, {1_adj}, sugar and {2_adj} — four equal quarters, which is what the French name means. You weigh the eggs first and everything else follows.</description>
 		<mealKinds>
 			<li>FT_MealsDessert</li>
 			<li>FT_MealsBake</li>

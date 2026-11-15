@@ -142,7 +142,7 @@
 			<li><categories><li>FT_Potato</li></categories></li>
 			<li><categories><li>FT_Milk</li></categories></li>
 		</ingredients>
-		<description>{0_coll} opened in steam, its liquor strained and kept, with {1_coll} and {2_coll}. Served in a hollowed loaf, whose walls are eaten at the end.</description>
+		<description>{0_coll} opened in steam, their liquor strained and kept, with {1_coll} and {2_coll}. Served in a hollowed loaf, whose walls are eaten at the end.</description>
 		<mealKinds>
 			<li>FT_MealsSoup</li>
 		</mealKinds>
