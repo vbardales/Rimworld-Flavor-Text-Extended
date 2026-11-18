@@ -5,7 +5,7 @@ repo:         Rimworld-Flavor-Text-Extended
 remote:       https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 visibility:   public
 detached:     yes
-workflow_stage: declareDependencies[1.3.0]
+workflow_stage: ecosystem
 in_game_validation_owner: sessions, through Pickle in the WSL game, on the owner's request 2026-09-21; no manual scenario is left
 settings_audit: not_applicable
 localization: complete
@@ -22,7 +22,7 @@ licence_at:   LICENSE and Mod/LICENSE (MIT); ATTRIBUTION.md
 upstream_mod_remotes:
   - "https://github.com/JohannesKolsky/FlavorText"
 maintainer:    current Codex task for this repository
-updated:      2026-11-12
+updated:      2026-11-19
 english_review: "2026-10-17, owner (Virginie), five reworded descriptions (ArtichautsVinaigrette, SaladeOrgeFeta, Dal, ChouxBruxellesMarrons, RizJollof), revision a1c5b06e797ab1eacd2f6261ef890c064dfdd870, validated in chat. Earlier: 2026-10-11, owner (Virginie), the 53 corrected descriptions plus BalutFrit (runny), PUBLICATION.md, BACKLOG.md and CHANGELOG.md, revision 83f7019, validated in chat; no exhaustive reread of the 2,337 catalogue lines"
 tested_on:    "2026-10-08, RimWorld 1.6 (Linux depot in WSL, Xvfb), English, on the 1.2.2 tree (232b980). Without optionals 14/14 (ticket df05), with optionals 6/6 (b45a), without Odyssey 3/3 (7050), all exitReason passed. Gallery scenes (10) are separate and not part of this proof."
 tested_1_7:   yes  # 2026-10-13, RimWorld 1.7 (Waylith engine, ~/rimworld17), English only, without optionals (01-alone, 03-cooking, 04-filing), the net48 PickleSteps DLL loaded as is: 14/14 passed, exitReason passed, ticket 20261013-121854-183-56b3 on 94d1b99, evidence Tests/Pickle/Evidence/p17-diag-english-94d1b99 (kept minified, RELEASE.md). Not played on 1.7: with-optionals, without-odyssey, French (the 1.7 install ships English only). No Version Warning was not in the staged list, so the proof is the log and the report, not the screen.
@@ -30,7 +30,7 @@ workshop:     3806100152
 publication_changelog_review_sha: 7f265e28f384edd36d247537fcdd01cc9102865e  # 2026-10-13, owner review of PUBLICATION.md + CHANGELOG.md for the 1.3 line (RimWorld 1.7 support)
 code_review_sha: e4b8606f7aa439285f379d4580b8788011000f75  # 2026-10-13, review of f206a19 to e4b8606f7aa439285f379d4580b8788011000f75: 0 findings; Mod/ diff is About.xml only (modVersion 1.3.0, supportedVersions 1.6 and 1.7, matches the green 1.7 diagnostic) and the Preview images. Earlier: f206a19 (2026-10-13), 83f7019 (2026-10-11), bb13483 (2026-10-06).
 remaining:
-  - "state: GARAGE since 2026-11-15 on owner order (Virginie). Previous stage: declareDependencies[1.3.0]. Stay in garage until the owner changes the state; do not advance workflow_stage on my own. workflow_stage line left untouched."
+  - "state: left the garage 2026-11-19 on owner order (Virginie): replay 2026-11-19 (ledger ../.replays/FlavorTextExtended-20261119.tsv) moved the stage back from declareDependencies[1.3.0] to ecosystem. Open: 1.a/2.h Steam ecosystem search (ECOSYSTEM? sent to PiI 2026-11-19, report docs/inventory/ecosystem-steam/FlavorTextExtended.md still says NOT done; on arrival copy the summary into an Ecosystem section here); 3.0 upstream_synced missing (upstream JohannesKolsky/FlavorText); 3.c CHANGELOG has no Unreleased section for the 33 Mod files changed since 1.3.0; 4.g workshop_required_items has no done date (owner sets Required items by hand). The other items below (gallery passes, reviews) stay as written."
   - "note: review page 1 of 3 (ChatGPT, 2026-11-12) applied: three description wordings (blue cheese, when cut in Durian and Variants, a Mod/ text change that reopens the code review 8.m with the 4.b patch fix), PUBLICATION.md planned-scenes wording; rejected: licence field (original is the licence category of the protocol, MIT is in licence_at); pages 2 and 3 not reviewed yet"
   - "note: review page 1 of 3 round 2 (ChatGPT, 2026-11-14) applied: Penne alla vodka description (Mod/ change, code review 8.m already reopened); refused: OrgeAuTheBeurre 'one' (voice), PUBLICATION.md 'that' (taste); waiting for the owner: ten labels to capitalise (convention is lowercase, 1137 of 1172) and the 43-name table (all keep). Pages 2 and 3 not reviewed yet. Check-Translations FAIL 2337 findings is French coverage missing, expected (translation_fr not_applicable, the companion carries French)"
   - "done 2026-11-14: REPLAY 2026-11-12 items 4.b, 4.e, 4.g. 4.b: the 29 PatchOperationAdd of Keywords_Cultivation, Keywords_FoodCourtDiscovery, Keywords_Mods, Keywords_Shenzhou are wrapped in PatchOperationConditional (xpath Defs/*[defName=... or ...] on the defNames of the value, the li MayRequire stay); Check-PatchGuards PASS 0 errors. Not played in game: rerun Pickle (patch change) and reopen the code review 8.m (Mod/ change). 4.e: Mod/About/OptionalCompat.xml written, kinds set (four patch, Odyssey and vvnewharvest synergy), Check-OptionalCompat OK (WARN: Odyssey has no workshopId, it is a DLC). 4.g: dependencies line and workshop_required_items recorded in the front matter. Next: sync-nsb-npt (NPT part, Steps read date), commit, Pickle ticket for the patch change, then the stage returns to shootGallery. Gallery work (pass 7 read, scene 4 refile pending, see the next item) continues meanwhile in the files of Tests and Art; the stage returns to shootGallery once 4.b, 4.e, 4.g are done and the replay is clean. Ledger: ../.replays/FlavorTextExtended-20261112.tsv.
@@ -42,7 +42,7 @@ remaining:
   - "limits, not blockers: each Pickle pass passed once per tree (1.2.2 for 1.6, 94d1b99 for 1.7); no cook walks to a stove (no tick passes in 03-cooking); Chinese Traditional Cultural Things Expanded declares no 1.6 and is not certified; no shallot provider is certified."
   - "note: the run scripts look for <rimworld>/<Mod>/. A junction <rimworld>/FlavorTextExtended, made 2026-09-21 and ignored by the root .gitignore, bridges it. Never delete it recursively."
   - "note: desktop.ini and *.ico are local only and gitignored since 2026-10-02 (the two Art .ico files left git, files kept on disk); Mod/desktop.ini must never be committed."
-protocols_read_sha: 9ac1abb899ab4ecd348dd7c9e1615281fa0427c9
+protocols_read_sha: ab67692d788c09569645b6188e71d04659890995
 ---
 
 # Flavor Text Extended - status
