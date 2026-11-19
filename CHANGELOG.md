@@ -5,7 +5,7 @@
 - Proofread the English again after a three-page review of the texts: description and wording fixes in 30 `FlavorDefs_*.xml` files (grammar, quantities, a few ingredient details), and the capitals of 46 labels (proper words such as Brussels). No dish was added, removed or renamed.
 - Guard the 29 patch operations of `Keywords_Cultivation`, `Keywords_FoodCourtDiscovery`, `Keywords_Mods` and `Keywords_Shenzhou` with a `PatchOperationConditional` on the defNames they add keywords to, so a missing target no longer logs a patch error.
 - Declare the optional mods in `About/OptionalCompat.xml` (four patch providers, two synergies, among them the Odyssey DLC).
-- Add the Chinese Simplified translation of the dish labels and descriptions (1,170 definitions), taken from Longifolene's translation of this mod (Workshop 3836775688) with thanks; it was machine-assisted and is still to be proofread.
+- Add the Chinese Simplified and Chinese Traditional translations of the dish labels and descriptions (1,170 definitions each), taken from Longifolene's translation of this mod (Workshop 3836775688) with thanks; it was machine-assisted and is still to be proofread.
 - Redraw the Workshop preview image (`Mod/About/Preview.png`) and update the attribution file.
 
 ## [1.3.0] - 2026-10-13

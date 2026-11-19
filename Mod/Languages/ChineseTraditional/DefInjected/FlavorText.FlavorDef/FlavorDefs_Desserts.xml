@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: floating island -->
+  <FlavorTextFR_IleFlottante.label>漂浮島蛋白霜</FlavorTextFR_IleFlottante.label>
+  <!-- EN: {0_adj} whites whipped and poached in milk, set on a custard and streaked with caramel, with toasted flaked {2_coll}. The island floats because it is lighter than the sea. -->
+  <FlavorTextFR_IleFlottante.description>打發后的{0_adj}清在熱牛奶中微沸汆熟，置于英式奶醬之上，淋上焦糖絲并撒上烘香的{2_coll}薄片。小島之所以漂浮，是因為它比身下的汪洋更加輕盈。</FlavorTextFR_IleFlottante.description>
+
+  <!-- EN: chocolate mousse -->
+  <FlavorTextFR_MousseAuChocolat.label>巧克力慕斯</FlavorTextFR_MousseAuChocolat.label>
+  <!-- EN: {0_coll} melted and bound with yolks, lightened with whipped whites folded in three goes — the first third to loosen it, the other two with a spatula, without knocking the air out. -->
+  <FlavorTextFR_MousseAuChocolat.description>融化的{0_coll}與蛋黃拌合，再分三次翻拌入打發的蛋白使其輕盈——前三分之一用來化開基底，后兩次則用刮刀輕柔翻拌，切不可壓散其中的空氣。</FlavorTextFR_MousseAuChocolat.description>
+
+  <!-- EN: clafoutis -->
+  <FlavorTextFR_Clafoutis.label>克拉芙蒂烤布丁</FlavorTextFR_Clafoutis.label>
+  <!-- EN: {0_coll} drowned in a {1_adj} and {2_adj} batter, baked until the batter sets around them. The stones are left in: they scent the whole thing with almond as it cooks. -->
+  <FlavorTextFR_Clafoutis.description>{0_coll}浸沒在{1_adj}與{2_adj}調成的面糊中，烘烤至面糊在果實周圍凝結。果核特意保留不去：烘烤時，它們會為整道甜點染上一縷杏仁般的幽香。</FlavorTextFR_Clafoutis.description>
+
+  <!-- EN: poires belle Hélène -->
+  <FlavorTextFR_PoiresBelleHelene.label>海倫娜香梨</FlavorTextFR_PoiresBelleHelene.label>
+  <!-- EN: {0_coll} peeled and poached in a vanilla {2_adj} syrup, served cold under hot {1_coll} poured at the table. Escoffier named it after an Offenbach operetta. -->
+  <FlavorTextFR_PoiresBelleHelene.description>去皮的{0_coll}在香草{2_adj}糖漿中慢火浸煮，冷卻后上桌，當場淋上滾燙的{1_coll}醬。名廚埃斯科菲耶以奧芬巴赫的一部輕歌劇為它命名。</FlavorTextFR_PoiresBelleHelene.description>
+
+  <!-- EN: peach Melba -->
+  <FlavorTextFR_PecheMelba.label>梅爾巴蜜桃</FlavorTextFR_PecheMelba.label>
+  <!-- EN: {0_coll} poached over vanilla ice cream, coated with a raw {1_adj} coulis — never cooked, or it loses its colour. Created for an Australian soprano. -->
+  <FlavorTextFR_PecheMelba.description>糖水浸煮的{0_coll}鋪在香草冰淇淋上，覆一層生鮮{1_adj}果泥——果泥絕不可受熱烹煮，否則便會褪去艷色。這道甜點專為一位澳大利亞女高音歌唱家而創。</FlavorTextFR_PecheMelba.description>
+
+  <!-- EN: pound cake -->
+  <FlavorTextFR_QuatreQuarts.label>四分之一磅蛋糕</FlavorTextFR_QuatreQuarts.label>
+  <!-- EN: as much flour as {1_adj}, as sugar, as {2_adj} — four equal quarters, which is what the French name says. You weigh the eggs first and everything else follows. -->
+  <FlavorTextFR_QuatreQuarts.description>面粉、{1_adj}、糖與{2_adj}份量完全相等——四者各占四分之一，正如其法文原名所示。做時先稱量蛋的重量，其余一切皆以此為準。</FlavorTextFR_QuatreQuarts.description>
+
+  <!-- EN: yoghurt cake -->
+  <FlavorTextFR_GateauAuYaourt.label>法式酸奶蛋糕</FlavorTextFR_GateauAuYaourt.label>
+  <!-- EN: the {1_adj} pot serves as the measure for everything else. The first cake anyone learns to make, and the only one whose recipe is never forgotten. -->
+  <FlavorTextFR_GateauAuYaourt.description>空出來的{1_adj}杯便是丈量其余一切食材的量杯。這是每個人學會做的第一款蛋糕，也是唯一一個永遠不會被遺忘的配方。</FlavorTextFR_GateauAuYaourt.description>
+
+  <!-- EN: molten chocolate cake -->
+  <FlavorTextFR_FondantAuChocolat.label>熔巖巧克力蛋糕</FlavorTextFR_FondantAuChocolat.label>
+  <!-- EN: {0_coll} and {1_coll} melted together, barely bound with flour, and baked very briefly so the centre stays liquid. Two minutes too long and it is only a cake. -->
+  <FlavorTextFR_FondantAuChocolat.description>{0_coll}與{1_coll}一同融化，僅拌入極少許面粉，入爐快烤片刻以令內芯保持流心。但凡多烤兩分鐘，它就只是一塊普通的蛋糕了。</FlavorTextFR_FondantAuChocolat.description>
+
+  <!-- EN: paris-brest -->
+  <FlavorTextFR_ParisBrest.label>巴黎布雷斯特泡芙</FlavorTextFR_ParisBrest.label>
+  <!-- EN: a ring of choux pastry split and filled with a {1_adj} praline cream. The shape imitates a bicycle wheel: the pastry cook had his shop on the route of the race. -->
+  <FlavorTextFR_ParisBrest.description>環形泡芙酥皮橫向剖開，填入{1_adj}帕林內焦糖奶油霜。它的造型仿自自行車輪——創制它的甜點師，當年就在這項自行車賽的途經路線上開店。</FlavorTextFR_ParisBrest.description>
+
+  <!-- EN: mille-feuille -->
+  <FlavorTextFR_MilleFeuille.label>拿破侖千層酥</FlavorTextFR_MilleFeuille.label>
+  <!-- EN: three sheets of puff pastry baked under a weight to stay flat, built up with a {2_adj} pastry cream. Eaten lying on its side: nobody has ever managed it any other way. -->
+  <FlavorTextFR_MilleFeuille.description>三層千層酥皮壓上重物烤得平整薄脆，層層夾入{2_adj}卡仕達醬疊起。吃時總得將它放倒側切——從古至今，沒人能用別的法子體面地切開它。</FlavorTextFR_MilleFeuille.description>
+
+  <!-- EN: coffee éclair -->
+  <FlavorTextFR_EclairAuCafe.label>咖啡閃電泡芙</FlavorTextFR_EclairAuCafe.label>
+  <!-- EN: a length of choux pastry filled with a {1_adj} cream and iced in the same flavour. The name is said to come from how fast it is eaten. -->
+  <FlavorTextFR_EclairAuCafe.description>修長的泡芙內填滿{1_adj}奶油餡，表面再覆上一層同味糖霜。據說“閃電”之名，正是源于人們將它一掃而光的速度。</FlavorTextFR_EclairAuCafe.description>
+
+  <!-- EN: lemon meringue pie -->
+  <FlavorTextFR_TarteCitronMeringuee.label>蛋白霜檸檬塔</FlavorTextFR_TarteCitronMeringuee.label>
+  <!-- EN: a sharp {0_adj} curd beaten with butter, under a {1_adj} meringue piped in waves and burnt with a torch. The acidity has to stay frank, or the meringue flattens everything. -->
+  <FlavorTextFR_TarteCitronMeringuee.description>酸冽的{0_adj}凝乳與黃油打勻，上面擠出波浪狀的{1_adj}蛋白霜，再用噴槍炙出焦斑。底層的酸度必須足夠鮮明直率，否則蛋白霜的甜膩便會抹平一切層次。</FlavorTextFR_TarteCitronMeringuee.description>
+
+  <!-- EN: rum baba -->
+  <FlavorTextFR_BabaAuRhum.label>朗姆巴巴蛋糕</FlavorTextFR_BabaAuRhum.label>
+  <!-- EN: a risen dough dried out on purpose, then drowned in a warm {2_adj} syrup with {1_plur} until it can take up no more. Pressed gently, it should give juice back. -->
+  <FlavorTextFR_BabaAuRhum.description>發酵面團烤成刻意偏干的蛋糕坯，再浸入兌了{1_plur}的溫熱{2_adj}糖漿中直至吸飽。用勺輕按時，糕體應當能滲出豐盈的汁水。</FlavorTextFR_BabaAuRhum.description>
+
+  <!-- EN: profiteroles -->
+  <FlavorTextFR_Profiteroles.label>熱巧克力淋冰淇淋泡芙</FlavorTextFR_Profiteroles.label>
+  <!-- EN: small choux buns filled with {2_adj} ice cream, drowned under hot {1_coll} poured in front of the guests. The clash of temperatures is the whole dessert. -->
+  <FlavorTextFR_Profiteroles.description>小巧的圓泡芙中填滿{2_adj}冰淇淋，當著賓客的面淋下滾燙的{1_coll}醬。冷與熱的交鋒，便是整道甜點的靈魂所在。</FlavorTextFR_Profiteroles.description>
+
+  <!-- EN: madeleines -->
+  <FlavorTextFR_Madeleine.label>瑪德琳貝殼蛋糕</FlavorTextFR_Madeleine.label>
+  <!-- EN: a batter rested in the cold then put into a very hot oven: the thermal shock makes the hump, and a madeleine without a hump has failed. Scented with {2_plur}. -->
+  <FlavorTextFR_Madeleine.description>面糊先經冷藏靜置，再猛然送入高溫烤箱：冷熱驟變的沖擊會催生出標志性的凸起小肚臍，而沒有小肚臍的瑪德琳便算失敗之作。糕體中縈繞著{2_plur}的清香。</FlavorTextFR_Madeleine.description>
+
+  <!-- EN: financiers -->
+  <FlavorTextFR_Financier.label>費南雪金磚蛋糕</FlavorTextFR_Financier.label>
+  <!-- EN: {0_adj} meal and {1_adj} whites, bound with {2_plur} cooked until it smells of hazelnut. Moulded into ingots, and once sold to the stockbrokers around the Bourse. -->
+  <FlavorTextFR_Financier.description>{0_adj}粉與{1_adj}清，拌入熬出榛果焦香的{2_plur}。入模烤成金錠形狀，當年曾專門售予巴黎證券交易所周邊的金融經紀人。</FlavorTextFR_Financier.description>
+
+  <!-- EN: canelés -->
+  <FlavorTextFR_Canele.label>可露麗</FlavorTextFR_Canele.label>
+  <!-- EN: a liquid batter rested two days, baked in copper moulds lined with wax, until an almost black crust forms around a soft {1_adj} and {2_adj} heart. -->
+  <FlavorTextFR_Canele.description>稀薄的面糊靜置兩天后，倒入涂了蜂蠟的銅模中烘烤，直至外層結出近乎烏黑的焦糖脆殼，內里則包裹著柔潤的{1_adj}與{2_adj}軟心。</FlavorTextFR_Canele.description>
+
+  <!-- EN: dacquoise -->
+  <FlavorTextFR_Dacquoise.label>達克瓦茲</FlavorTextFR_Dacquoise.label>
+  <!-- EN: discs of {1_adj} meringue loaded with {0_adj} meal, dried in a slow oven and built up with buttercream. The biscuit has to stay crisp under the cream for hours. -->
+  <FlavorTextFR_Dacquoise.description>摻入滿滿{0_adj}粉的{1_adj}蛋白霜圓餅，在微火烤箱中慢烘定型，再夾入奶油霜層疊而成。酥餅必須在奶油的浸潤下數小時依然保持外脆內柔。</FlavorTextFR_Dacquoise.description>
+
+  <!-- EN: Breton shortbread -->
+  <FlavorTextFR_SableBreton.label>布列塔尼酥餅</FlavorTextFR_SableBreton.label>
+  <!-- EN: almost as much salted {1_adj} as flour, barely worked so it stays sandy. The salt is not a seasoning here: it is the main ingredient after the butter. -->
+  <FlavorTextFR_SableBreton.description>咸{1_adj}的用量幾乎與面粉相當，僅稍加揉合以保持沙酥的質地。在這里，鹽絕非點綴的調味品，而是僅次于黃油的主角。</FlavorTextFR_SableBreton.description>
+
+  <!-- EN: teurgoule -->
+  <FlavorTextFR_Teurgoule.label>諾曼底慢烤肉桂米布丁</FlavorTextFR_Teurgoule.label>
+  <!-- EN: {0_coll} and {1_coll} with cinnamon, baked five hours in the baker's oven in an earthenware dish, until a thick brown skin forms. The name comes from the burn it deals to anyone who will not wait. -->
+  <FlavorTextFR_Teurgoule.description>{0_coll}與{1_coll}調入肉桂，盛在陶缽中送入面包房的余溫烤爐慢烘五個小時，直至表面結出一層厚實的深褐焦皮。其名意為“燙歪嘴”，源于心急偷吃者被滾燙米糊燙得齜牙咧嘴的模樣。</FlavorTextFR_Teurgoule.description>
+
+  <!-- EN: bugnes -->
+  <FlavorTextFR_Bugnes.label>里昂炸面結</FlavorTextFR_Bugnes.label>
+  <!-- EN: ribbons of knotted dough, scented with {2_plur} and orange flower water, fried and sugared. Thick in Lyon, dry and brittle in Saint-étienne: each city defends its own. -->
+  <FlavorTextFR_Bugnes.description>以{2_plur}與橙花水賦香的面帶挽成結，下油鍋炸透后撒滿糖粉。里昂的做法厚實蓬松，圣艾蒂安的做法則干脆薄硬——兩座城市各自捍衛著自家的正統。</FlavorTextFR_Bugnes.description>
+
+  <!-- EN: calissons -->
+  <FlavorTextFR_Calisson.label>艾克斯卡里松杏仁糖</FlavorTextFR_Calisson.label>
+  <!-- EN: a paste of {0_adj} and candied {1_adj}, set on a sheet of wafer and iced white. The shuttle shape is said to date from a fifteenth-century comital wedding. -->
+  <FlavorTextFR_Calisson.description>用{0_adj}與蜜餞{1_adj}搗成的細膩果泥，鋪在威化薄片上，表面覆一層潔白糖霜。據說那獨特的梭子造型，源自十五世紀的一場伯爵婚禮。</FlavorTextFR_Calisson.description>
+
+  <!-- EN: nougat -->
+  <FlavorTextFR_Nougat.label>法式牛軋糖</FlavorTextFR_Nougat.label>
+  <!-- EN: {2_coll} cooked to the hard crack, poured over whipped whites and beaten for an hour, then loaded with toasted {0_adj}. Pressed between two sheets of wafer so it does not stick to the fingers. -->
+  <FlavorTextFR_Nougat.description>{2_coll}熬至硬脆階段，沖入打發的蛋白中持續攪打一小時，再拌入滿滿的烘香{0_adj}。最后壓在兩層威化米紙之間，以免拿取時粘手。</FlavorTextFR_Nougat.description>
+
+  <!-- EN: sachertorte -->
+  <FlavorTextFR_Sachertorte.label>薩赫蛋糕</FlavorTextFR_Sachertorte.label>
+  <!-- EN: a dense {0_adj} sponge, split and filled with a layer of {2_adj} jam, glazed with a dark smooth fondant. Two Viennese houses spent seven years in court over this cake. -->
+  <FlavorTextFR_Sachertorte.description>綿密緊實的{0_adj}海綿蛋糕橫向剖開，夾入一層{2_adj}果醬，外覆深邃光亮的翻糖淋面。維也納的兩家名店曾為了這款蛋糕的正統名號對簿公堂長達七年。</FlavorTextFR_Sachertorte.description>
+
+  <!-- EN: apfelstrudel -->
+  <FlavorTextFR_Apfelstrudel.label>維也納蘋果卷</FlavorTextFR_Apfelstrudel.label>
+  <!-- EN: a dough stretched by hand over a tablecloth until a newspaper can be read through it, filled with {0_adj} and dried {2_adj}, then rolled. One tear in the dough and it all begins again. -->
+  <FlavorTextFR_Apfelstrudel.description>面團在桌布上徒手拉展，直至薄得能透過它讀報，鋪上{0_adj}片與{2_adj}干后卷起烘烤。面皮但凡破開一道裂口，便只能推倒重來。</FlavorTextFR_Apfelstrudel.description>
+
+  <!-- EN: kaiserschmarrn -->
+  <FlavorTextFR_Kaiserschmarrn.label>奧地利皇帝煎餅</FlavorTextFR_Kaiserschmarrn.label>
+  <!-- EN: a thick {1_adj} pancake torn into pieces with the spatula while it cooks, caramelised in sugar with dried {2_coll}. The Emperor's mess: the name admits its want of manners. -->
+  <FlavorTextFR_Kaiserschmarrn.description>厚實的{1_adj}松餅在鍋中煎制時直接用鏟子撕成碎塊，撒糖并加入{2_coll}干煎出焦糖香。直譯便是“皇帝的亂燉”——這名字坦然承認了它不拘禮數的賣相。</FlavorTextFR_Kaiserschmarrn.description>
+
+  <!-- EN: sernik -->
+  <FlavorTextFR_Sernik.label>波蘭凝乳芝士蛋糕</FlavorTextFR_Sernik.label>
+  <!-- EN: a Polish curd cheese passed three times through a sieve, beaten with {1_plur} and baked slowly. Denser and less sweet than its western cousins. -->
+  <FlavorTextFR_Sernik.description>波蘭鮮凝乳奶酪反復過篩三次，與{1_plur}一同攪打均勻后慢火烘烤。相比西歐的同類芝士蛋糕，它的質地更為緊實醇厚，甜度也更為內斂。</FlavorTextFR_Sernik.description>
+
+  <!-- EN: makowiec -->
+  <FlavorTextFR_Makowiec.label>波蘭罌粟籽卷</FlavorTextFR_Makowiec.label>
+  <!-- EN: a brioche rolled over a mass of ground poppy seeds cooked with {2_plur}. The black and white spiral shows at the cut. -->
+  <FlavorTextFR_Makowiec.description>豐潤的甜面包卷起一層用{2_plur}熬煮的研磨罌粟籽厚餡。切開時，切面上便會映出黑白相間的螺旋紋路。</FlavorTextFR_Makowiec.description>
+
+  <!-- EN: medovik -->
+  <FlavorTextFR_Medovik.label>俄式蜂蜜千層蛋糕</FlavorTextFR_Medovik.label>
+  <!-- EN: a dozen discs of {1_adj} dough baked one at a time, stacked with a soured cream and left overnight so the whole thing softens and turns tender. -->
+  <FlavorTextFR_Medovik.description>十幾張{1_adj}薄面餅逐一烘熟，層層抹上酸奶油疊起，靜置過夜，待整座蛋糕吸飽濕氣、變得柔潤綿軟。</FlavorTextFR_Medovik.description>
+
+  <!-- EN: syrniki -->
+  <FlavorTextFR_Syrniki.label>俄式凝乳煎餅</FlavorTextFR_Syrniki.label>
+  <!-- EN: small curd cheese cakes bound with {1_plur}, fried in butter and served with soured cream and a {2_adj} jam. -->
+  <FlavorTextFR_Syrniki.description>用{1_plur}揉合的鮮凝乳小圓餅，以黃油煎至兩面金黃，佐酸奶油與{2_adj}果醬一同上桌。</FlavorTextFR_Syrniki.description>
+
+  <!-- EN: cranachan -->
+  <FlavorTextFR_Cranachan.label>蘇格蘭燕麥威士忌奶油杯</FlavorTextFR_Cranachan.label>
+  <!-- EN: {0_coll} toasted dry, {1_coll} whipped with whisky and honey, {2_coll} crushed — layered in a glass without stirring, so that no two spoonfuls are alike. -->
+  <FlavorTextFR_Cranachan.description>干鍋烘香的{0_coll}、調入威士忌與蜂蜜打發的{1_coll}，以及搗碎的{2_coll}——在玻璃杯中層層疊起而不加攪動，只為讓每一勺入口的滋味都各不相同。</FlavorTextFR_Cranachan.description>
+
+  <!-- EN: sticky toffee pudding -->
+  <FlavorTextFR_StickyToffeePudding.label>英式太妃椰棗布丁</FlavorTextFR_StickyToffeePudding.label>
+  <!-- EN: {0_coll} cooked and mashed into the batter, which turns it almost black, under a {2_adj} caramel poured hot and drunk up by the cake. -->
+  <FlavorTextFR_StickyToffeePudding.description>煮軟搗爛的{0_coll}拌入面糊，將糕體染得近乎烏黑，出爐后澆下滾燙的{2_adj}太妃焦糖醬，任由溫熱的蛋糕將其盡數吸飽。</FlavorTextFR_StickyToffeePudding.description>
+
+  <!-- EN: banoffee pie -->
+  <FlavorTextFR_BanoffeePie.label>香蕉太妃派</FlavorTextFR_BanoffeePie.label>
+  <!-- EN: a base of crushed biscuits, a layer of condensed milk boiled to caramel, {0_coll} in rounds, and whipped {2_coll}. Invented in a Sussex pub in 1971. -->
+  <FlavorTextFR_BanoffeePie.description>碎餅干壓實的派底，鋪一層煉乳慢煮而成的太妃焦糖、切成圓片的{0_coll}，再覆上打發的{2_coll}。一九七一年誕生于薩塞克斯郡的一家小酒館。</FlavorTextFR_BanoffeePie.description>
+
+  <!-- EN: eton mess -->
+  <FlavorTextFR_EtonMess.label>伊頓麥斯蛋白霜甜點</FlavorTextFR_EtonMess.label>
+  <!-- EN: broken {1_adj} meringue, whipped {2_coll} and crushed {0_coll}, thrown together carelessly. The disorder is the principle, not an accident. -->
+  <FlavorTextFR_EtonMess.description>捏碎的{1_adj}蛋白霜、打發的{2_coll}與碾爛的{0_coll}，漫不經心地隨手拌在一起。這份凌亂正是它的本意，而非失手所致。</FlavorTextFR_EtonMess.description>
+
+  <!-- EN: bakewell tart -->
+  <FlavorTextFR_BakewellTart.label>貝克韋爾杏仁果醬塔</FlavorTextFR_BakewellTart.label>
+  <!-- EN: a shortcrust base, a layer of {1_adj} jam, and an {0_adj} frangipane over the top that rises and browns in the oven. -->
+  <FlavorTextFR_BakewellTart.description>酥脆的塔底上抹一層{1_adj}果醬，頂層鋪滿{0_adj}奶油餡，送入烤箱烘至蓬松鼓起、表面金黃。</FlavorTextFR_BakewellTart.description>
+
+  <!-- EN: tres leches -->
+  <FlavorTextFR_TresLeches.label>拉美三奶蛋糕</FlavorTextFR_TresLeches.label>
+  <!-- EN: a sponge dried out on purpose, pricked all over and drowned in three different milks until it can take no more. It has to be sodden without collapsing: that is the whole exercise. -->
+  <FlavorTextFR_TresLeches.description>特意烤得偏干的海綿蛋糕，扎滿小孔后浸入三種乳品調成的奶液中直至再也吸不進去。糕體必須飽含乳汁卻又絕不塌陷——這便是整道甜點的功力所在。</FlavorTextFR_TresLeches.description>
+
+  <!-- EN: alfajores -->
+  <FlavorTextFR_Alfajores.label>南美焦糖牛奶夾心餅</FlavorTextFR_Alfajores.label>
+  <!-- EN: two very short biscuits stuck together with dulce de leche, the edges rolled in grated {2_plur}. They fall apart the moment you pick them up, which is the sign they are good. -->
+  <FlavorTextFR_Alfajores.description>兩片極酥的餅干以焦糖牛奶醬粘合，邊緣滾上一圈細碎的{2_plur}。手指剛一拈起便酥得掉渣，恰是其品質上乘的明證。</FlavorTextFR_Alfajores.description>
+
+  <!-- EN: brigadeiro -->
+  <FlavorTextFR_Brigadeiro.label>巴西準將松露巧克力球</FlavorTextFR_Brigadeiro.label>
+  <!-- EN: condensed milk cooked with {0_plur} and {2_plur} until it pulls away from the pan, rolled into balls and coated in sprinkles. No Brazilian birthday is without them. -->
+  <FlavorTextFR_Brigadeiro.description>煉乳加入{0_plur}與{2_plur}慢熬至不再粘鍋，搓成圓球后滾滿巧克力彩針。在巴西，沒有哪場生日宴會少得了它的身影。</FlavorTextFR_Brigadeiro.description>
+
+  <!-- EN: pastel de nata -->
+  <FlavorTextFR_PastelDeNata.label>葡式蛋撻</FlavorTextFR_PastelDeNata.label>
+  <!-- EN: an {0_adj} custard in a puff pastry shell, baked in a scorching oven until the top blisters black. Dusted with {2_adj} on the way out, never before. -->
+  <FlavorTextFR_PastelDeNata.description>千層酥皮盞中注滿{0_adj}奶漿，送入烈火烤箱烘至表面鼓起焦黑斑點。出爐之際才撒上{2_adj}粉，切不可提前。</FlavorTextFR_PastelDeNata.description>
+
+  <!-- EN: pecan pie -->
+  <FlavorTextFR_PecanPie.label>美式碧根果派</FlavorTextFR_PecanPie.label>
+  <!-- EN: {0_coll} drowned in a {1_adj} and {2_adj} filling that sets as it bakes; they rise to the surface and form a crackling crust. -->
+  <FlavorTextFR_PecanPie.description>{0_coll}浸沒在{1_adj}與{2_adj}調成的內餡中，隨烘烤漸漸凝結；堅果浮至表面，結出一層酥脆焦香的硬殼。</FlavorTextFR_PecanPie.description>
+
+  <!-- EN: brownie -->
+  <FlavorTextFR_Brownie.label>布朗尼</FlavorTextFR_Brownie.label>
+  <!-- EN: very little flour, a great deal of {0_adj}, and crushed {2_coll}. Out of the oven too late and it is only a cake; too early and it is not yet a brownie. -->
+  <FlavorTextFR_Brownie.description>極少的面粉、大量的{0_adj}，加上碾碎的{2_coll}。出爐太晚，它就只是一塊普通蛋糕；出爐太早，它又還算不上真正的布朗尼。</FlavorTextFR_Brownie.description>
+
+  <!-- EN: cheesecake -->
+  <FlavorTextFR_Cheesecake.label>紐約芝士蛋糕</FlavorTextFR_Cheesecake.label>
+  <!-- EN: a base of buttered biscuits under an {0_adj} and {1_adj} filling, baked in a water bath and cooled slowly — a shock of temperature splits it in two. -->
+  <FlavorTextFR_Cheesecake.description>黃油餅干碎壓實的餅底上，鋪滿厚實的{0_adj}與{1_adj}內餡，隔水浴烘烤后緩慢降溫——溫度一旦驟變，表面便會裂成兩半。</FlavorTextFR_Cheesecake.description>
+
+  <!-- EN: lamington -->
+  <FlavorTextFR_Lamington.label>澳洲拉明頓椰絲方糕</FlavorTextFR_Lamington.label>
+  <!-- EN: cubes of sponge dipped in a runny {1_adj} icing then rolled in grated {2_plur}. Australian, and named after a governor of Queensland who had nothing to do with it. -->
+  <FlavorTextFR_Lamington.description>切成方塊的松軟海綿蛋糕，先浸入流淌的{1_adj}糖霜，再滾滿細碎的{2_plur}。這道澳洲名點以昆士蘭總督拉明頓勛爵命名，盡管他本人與此糕點毫無瓜葛。</FlavorTextFR_Lamington.description>
+
+  <!-- EN: anzac biscuits -->
+  <FlavorTextFR_AnzacBiscuits.label>澳新軍團燕麥餅干</FlavorTextFR_AnzacBiscuits.label>
+  <!-- EN: {0_coll} and {1_coll} bound with golden syrup, no egg — they had to survive weeks at sea before reaching the trenches. -->
+  <FlavorTextFR_AnzacBiscuits.description>用黃金糖漿將{0_coll}與{1_coll}粘合烘成，不加半點雞蛋——因為當年它們必須在海上顛簸數周而不壞，才能送抵前線的戰壕。</FlavorTextFR_AnzacBiscuits.description>
+
+  <!-- EN: malva pudding -->
+  <FlavorTextFR_MalvaPudding.label>南非馬爾瓦熱布丁蛋糕</FlavorTextFR_MalvaPudding.label>
+  <!-- EN: a South African {1_adj} and apricot cake, pricked as it leaves the oven and drowned in a hot {2_adj} sauce that it absorbs entirely. -->
+  <FlavorTextFR_MalvaPudding.description>加入{1_adj}與杏子果醬烤成的南非蛋糕，剛出爐便扎滿小孔，澆下滾燙的{2_adj}奶醬，任由糕體將其盡數吸收。</FlavorTextFR_MalvaPudding.description>
+
+  <!-- EN: künefe -->
+  <FlavorTextFR_Kunefe.label>土耳其庫納法拉絲芝士餅</FlavorTextFR_Kunefe.label>
+  <!-- EN: fresh {0_coll} caught between two layers of shredded pastry, browned on both sides then doused in scalding syrup. Eaten at once: the cheese must still pull. -->
+  <FlavorTextFR_Kunefe.description>新鮮無鹽{0_coll}夾在兩層如發絲般的酥皮絲之間，兩面煎至金黃酥脆后澆上滾燙的糖漿。必須趁熱即食——此時的奶酪還須能拉出長絲。</FlavorTextFR_Kunefe.description>
+
+  <!-- EN: sütla? -->
+  <FlavorTextFR_Sutlac.label>土耳其焦面烤米布丁</FlavorTextFR_Sutlac.label>
+  <!-- EN: {0_coll} cooked long and slow with {1_plur}, divided into earthenware dishes and passed under the grill until the surface browns in patches. -->
+  <FlavorTextFR_Sutlac.description>{0_coll}與{1_plur}經漫長的微火慢熬，分裝入陶碗中，再送入炙爐下烘至表面浮現斑駁的焦褐烤痕。</FlavorTextFR_Sutlac.description>
+
+  <!-- EN: maamoul -->
+  <FlavorTextFR_Maamoul.label>中東椰棗模壓酥餅</FlavorTextFR_Maamoul.label>
+  <!-- EN: a semolina dough worked with clarified {2_plur} and rested overnight, filled with {1_plur} and pressed into a carved wooden mould. Each pattern names a different filling. -->
+  <FlavorTextFR_Maamoul.description>粗粒小麥粉加入澄清{2_plur}揉成面團并靜置過夜，包入{1_plur}餡后壓入雕花木模定型。每一種花紋都對應著內里不同的餡料。</FlavorTextFR_Maamoul.description>
+
+  <!-- EN: om ali -->
+  <FlavorTextFR_OmAli.label>埃及阿里之母烤奶酥布丁</FlavorTextFR_OmAli.label>
+  <!-- EN: broken puff pastry drowned in sweetened {1_plur} and covered with {2_adj}, browned until the top crisps over a sodden underside. -->
+  <FlavorTextFR_OmAli.description>掰碎的千層酥皮浸沒在加甜的{1_plur}中，撒滿{2_adj}碎，入爐烘至頂層焦香酥脆，底下則飽吸乳汁、溫潤綿軟。</FlavorTextFR_OmAli.description>
+
+  <!-- EN: basbousa -->
+  <FlavorTextFR_Basbousa.label>中東糖漿椰香粗麥蛋糕</FlavorTextFR_Basbousa.label>
+  <!-- EN: a semolina cake with {1_adj} and {2_adj}, cut into diamonds before baking and soaked with syrup the moment it leaves the oven, while it is still scalding. -->
+  <FlavorTextFR_Basbousa.description>拌入{1_adj}與{2_adj}的粗粒小麥粉蛋糕，入爐前預先劃成菱形格，出爐尚滾燙的一剎那便澆滿糖漿使其浸透。</FlavorTextFR_Basbousa.description>
+
+  <!-- EN: gajar ka halwa -->
+  <FlavorTextFR_GajarKaHalwa.label>印式胡蘿卜哈瓦甜糕</FlavorTextFR_GajarKaHalwa.label>
+  <!-- EN: {0_coll} grated and cooked for an hour in {1_plur} until every drop of liquid has gone, then candied in ghee. The vegetable becomes a dessert without anything else being added. -->
+  <FlavorTextFR_GajarKaHalwa.description>擦成細絲的{0_coll}在{1_plur}中慢熬一小時直至水分徹底收干，再用印度酥油蜜漬炒透。無需繁復點綴，尋常蔬菜便由此化作了醇美的甜點。</FlavorTextFR_GajarKaHalwa.description>
+
+  <!-- EN: kulfi -->
+  <FlavorTextFR_Kulfi.label>印式庫爾菲堅果冰糕</FlavorTextFR_Kulfi.label>
+  <!-- EN: {0_coll} reduced by half over a low flame, scented with cardamom, loaded with {1_adj} and frozen in metal cones without being churned. Denser than ice cream, and slower to melt. -->
+  <FlavorTextFR_Kulfi.description>{0_coll}以小火慢熬濃縮至減半，調入小豆蔻賦香，撒入滿滿的{1_adj}碎，不經攪打直接注入金屬錐模中冷凍成型。比普通冰淇淋更加綿密厚實，融化得也更為緩慢。</FlavorTextFR_Kulfi.description>
+
+  <!-- EN: jalebi -->
+  <FlavorTextFR_Jalebi.label>印式脆糖環</FlavorTextFR_Jalebi.label>
+  <!-- EN: a batter fermented with {1_plur}, piped in spirals straight into the oil, then plunged for a few seconds into warm syrup. Crisp outside, soaked through within. -->
+  <FlavorTextFR_Jalebi.description>用{1_plur}發酵的面糊直接擠入熱油鍋中盤成螺旋狀，炸透后立即浸入溫熱糖漿中數秒。外殼酥脆，內里卻已吸飽蜜汁。</FlavorTextFR_Jalebi.description>
+
+  <!-- EN: taiyaki -->
+  <FlavorTextFR_Taiyaki.label>鯛魚燒</FlavorTextFR_Taiyaki.label>
+  <!-- EN: a waffle batter cooked in a mould shaped like a sea bream, filled with a sweet {1_adj} paste. Whether to bite the head or the tail first divides Japan. -->
+  <FlavorTextFR_Taiyaki.description>華夫餅面糊注入鯛魚形狀的鐵模中，夾入甜潤的{1_adj}沙餡烘熟。究竟該先咬魚頭還是先咬魚尾，至今仍讓整個日本爭論不休。</FlavorTextFR_Taiyaki.description>
+
+  <!-- EN: hotteok -->
+  <FlavorTextFR_Hotteok.label>韓式堅果糖餅</FlavorTextFR_Hotteok.label>
+  <!-- EN: a risen flatbread filled with cane {1_plur} and crushed {2_plur}, flattened on the hot plate. The filling turns into a boiling syrup that burns the tongue without fail. -->
+  <FlavorTextFR_Hotteok.description>發酵面團包入蔗{1_plur}與碾碎的{2_plur}，在滾燙的鐵板上壓扁煎熟。內餡受熱化作滾沸的糖漿，心急咬下者十有八九要被燙到舌頭。</FlavorTextFR_Hotteok.description>
+
+</LanguageData>

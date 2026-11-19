@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: paella -->
+  <FlavorTextFR_Paella.label>西班牙海鮮飯</FlavorTextFR_Paella.label>
+  <!-- EN: {0_coll} spread in a thin layer in a pan wider than it is deep, never stirred, with {1_coll} and {2_coll}. The gilded crust that catches on the bottom is called the socarrat, and it is fought over. -->
+  <FlavorTextFR_Paella.description>{0_coll}在寬而淺的平底鐵鍋中薄薄鋪開，全程絕不翻攪，與{1_coll}和{2_coll}同燜。鍋底結出的那層金黃焦脆的鍋巴名為“索卡拉特”，向來是席間眾人爭搶的精華。</FlavorTextFR_Paella.description>
+
+  <!-- EN: pan con tomate -->
+  <FlavorTextFR_PanConTomate.label>加泰羅尼亞番茄面包</FlavorTextFR_PanConTomate.label>
+  <!-- EN: toasted bread rubbed with raw {2_plur} and then with {1_plur} cut in half, until nothing but the skin is left. Salt, oil, nothing else — and yet a whole art is made of it in Barcelona. -->
+  <FlavorTextFR_PanConTomate.description>烤脆的面包片先以生{2_plur}擦香，再用切半的{1_plur}反復涂擦，直至手中只剩一層番茄皮。撒鹽、淋油，再無他物——然而在巴塞羅那，人們卻將它做成了一門藝術。</FlavorTextFR_PanConTomate.description>
+
+  <!-- EN: pulpo a la gallega -->
+  <FlavorTextFR_PulpoGallega.label>加利西亞風味章魚</FlavorTextFR_PulpoGallega.label>
+  <!-- EN: {0_coll} dipped three times into boiling water before it is left there — otherwise the skin comes away — cut with scissors over rounds of {1_adj}, oil and smoked paprika. -->
+  <FlavorTextFR_PulpoGallega.description>{0_coll}先在沸水中三提三浸后再入鍋煮熟——否則外皮便會脫落——用剪刀剪成小段，鋪在{1_adj}圓片之上，淋油并撒上煙熏紅椒粉。</FlavorTextFR_PulpoGallega.description>
+
+  <!-- EN: fabada -->
+  <FlavorTextFR_Fabada.label>阿斯圖里亞斯白豆燉肉</FlavorTextFR_Fabada.label>
+  <!-- EN: large white beans stewed with smoked {1_plur}, never stirred with a spoon: the pot is shaken with a turn of the wrist so as not to break them. -->
+  <FlavorTextFR_Fabada.description>大顆白蕓豆與煙熏{1_plur}一同慢火煨燉，全程絕不用勺翻動：全憑手腕輕晃鍋身，以免將豆子攪碎。</FlavorTextFR_Fabada.description>
+
+  <!-- EN: churros -->
+  <FlavorTextFR_Churros.label>西班牙吉事果</FlavorTextFR_Churros.label>
+  <!-- EN: a {0_adj} dough pushed through a star nozzle straight into the oil — the flutes keep them from bursting — rolled in {1_plur} and dipped into thick {2_coll}. -->
+  <FlavorTextFR_Churros.description>{0_adj}面團透過星形花嘴直接擠入滾油——表面的棱紋能防止炸裂——出鍋后裹滿{1_plur}，蘸著濃稠的{2_coll}食用。</FlavorTextFR_Churros.description>
+
+  <!-- EN: patatas bravas -->
+  <FlavorTextFR_PatatasBravas.label>西班牙辣汁土豆塊</FlavorTextFR_PatatasBravas.label>
+  <!-- EN: {0_coll} in irregular cubes fried twice, drowned in a {1_adj} sauce and a {2_adj} emulsion. Speared on a toothpick, standing at the bar. -->
+  <FlavorTextFR_PatatasBravas.description>切成不規則滾刀塊的{0_coll}復炸兩遍，淋滿{1_adj}辣醬與{2_adj}蛋黃醬。立在吧臺旁，用牙簽扎著吃下。</FlavorTextFR_PatatasBravas.description>
+
+  <!-- EN: romesco -->
+  <FlavorTextFR_Romesco.label>羅梅斯科堅果紅椒醬</FlavorTextFR_Romesco.label>
+  <!-- EN: {0_coll} toasted, {1_coll} roasted and dried {2_coll} ground in a mortar with fried bread that binds the whole. Eaten off sweet onions cooked under the ashes, straight from the hand. -->
+  <FlavorTextFR_Romesco.description>焙香的{0_coll}、烤熟的{1_coll}與干{2_coll}，連同起凝合作用的炸面包片一并在研缽中搗成濃醬。常以炭灰煨熟的甜大蔥直接上手蘸食。</FlavorTextFR_Romesco.description>
+
+  <!-- EN: salmorejo -->
+  <FlavorTextFR_Salmorejo.label>科爾多瓦番茄冷濃湯</FlavorTextFR_Salmorejo.label>
+  <!-- EN: {0_coll} ground with crumb and mounted with oil into an orange cream thick enough to stand up, served iced with hard-boiled {2_coll} crumbled over. Denser than gazpacho, of which it is the Córdoban cousin. -->
+  <FlavorTextFR_Salmorejo.description>{0_coll}與面包心一同搗碎，徐徐注油乳化成濃稠不散的橙紅濃湯，冰鎮后撒上切碎的全熟{2_coll}奉客。它是西班牙冷湯來自科爾多瓦的近親，質地更為醇厚綿密。</FlavorTextFR_Salmorejo.description>
+
+  <!-- EN: fideuà -->
+  <FlavorTextFR_Fideua.label>西班牙海鮮短面</FlavorTextFR_Fideua.label>
+  <!-- EN: short hollow pasta toasted dry then cooked in a {1_adj} fumet, which they drink up while standing on end. Born of a ship's boy hiding the rice from a captain who ate too much of it. -->
+  <FlavorTextFR_Fideua.description>短小的空心意面干鍋焙香，再注入{1_adj}高湯燜熟，面條吸飽湯汁后根根豎立。相傳最初是因為船長太過貪吃米飯，船上幫廚少年便藏起大米、改用面條烹制而成。</FlavorTextFR_Fideua.description>
+
+  <!-- EN: migas -->
+  <FlavorTextFR_Migas.label>西班牙牧羊人炒面包屑</FlavorTextFR_Migas.label>
+  <!-- EN: hard bread damped the day before, crumbled and fried at length in {1_adj} fat until it turns golden and loose, served with {2_plur}. A shepherd's lunch, made of what was left. -->
+  <FlavorTextFR_Migas.description>頭一天灑水潤濕的硬面包掰成碎塊，在{1_adj}脂中慢火久炒至金黃松散，佐以{2_plur}同食。一道用剩糧做成的牧羊人午餐。</FlavorTextFR_Migas.description>
+
+</LanguageData>

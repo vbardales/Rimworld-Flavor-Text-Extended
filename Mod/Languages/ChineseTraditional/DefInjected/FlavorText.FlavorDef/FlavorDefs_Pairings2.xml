@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: paella mixta -->
+  <FlavorTextFR_PaellaMixta.label>西班牙海陸雙拼燴飯</FlavorTextFR_PaellaMixta.label>
+  <!-- EN: saffroned {2_coll} cooked uncovered in a wide flat pan, with {0_coll} seared first and {1_coll} set on at the end so that they do not toughen. It is never stirred: that is what lets the socarrat form at the bottom. -->
+  <FlavorTextFR_PaellaMixta.description>加了藏紅花的{2_coll}在寬淺平底鍋中敞蓋燜煮，{0_coll}先行煎香，{1_coll}則待收尾時才鋪上以免老硬。全程絕不翻動，唯其如此，鍋底才能結出一層焦香鍋巴。</FlavorTextFR_PaellaMixta.description>
+
+  <!-- EN: chicken and shrimp gumbo -->
+  <FlavorTextFR_GumboPouletCrevettes.label>路易斯安那雞蝦秋葵濃湯</FlavorTextFR_GumboPouletCrevettes.label>
+  <!-- EN: a roux taken to dark brown — forty minutes of stirring without stopping, on pain of throwing the whole lot away — then {0_coll}, {2_coll} and last of all {1_coll}, which need only three minutes. -->
+  <FlavorTextFR_GumboPouletCrevettes.description>面糊油醬須不歇手地攪炒四十分鐘直至深褐——稍有怠慢便只能整鍋倒掉——隨后依次下入{0_coll}、{2_coll}，最后才放只需三分鐘即熟的{1_coll}。</FlavorTextFR_GumboPouletCrevettes.description>
+
+  <!-- EN: chicken and shrimp fried rice -->
+  <FlavorTextFR_RizCantonaisMixte.label>雞丁蝦仁炒飯</FlavorTextFR_RizCantonaisMixte.label>
+  <!-- EN: yesterday's rice fried in a scorching wok with {0_coll} in dice, {1_coll} shelled and {2_coll} scrambled apart. Fresh rice clumps and ruins the dish: it has to have spent a night in the cold. -->
+  <FlavorTextFR_RizCantonaisMixte.description>隔夜冷飯與切丁的{0_coll}、去殼的{1_coll}及炒散的{2_coll}同入滾燙鐵鍋猛火顛炒。新蒸的熱飯下鍋必成黏團而毀了整盤菜，米飯非得在冷處放過一夜不可。</FlavorTextFR_RizCantonaisMixte.description>
+
+  <!-- EN: chicken and shrimp pad thai -->
+  <FlavorTextFR_PadThaiMixte.label>泰式雞蝦炒河粉</FlavorTextFR_PadThaiMixte.label>
+  <!-- EN: rice noodles soaked cold then fried very hard with {0_coll} and {1_coll}, in a sauce of tamarind and fish brine, sown with crushed {2_adj} and raw sprouts. -->
+  <FlavorTextFR_PadThaiMixte.description>冷水泡軟的河粉與{0_coll}、{1_coll}同入旺火急炒，裹滿羅望子與魚露調成的醬汁，出鍋再撒上碎{2_adj}與生豆芽。</FlavorTextFR_PadThaiMixte.description>
+
+  <!-- EN: chicken and shrimp siu mai -->
+  <FlavorTextFR_SiuMaiMixte.label>雞肉鮮蝦燒賣</FlavorTextFR_SiuMaiMixte.label>
+  <!-- EN: a stuffing of {0_adj} chopped with a knife and whole {1_adj}, in a {2_adj} wrapper pinched into an open collar. Steamed in a basket, with a whole prawn set on top. -->
+  <FlavorTextFR_SiuMaiMixte.description>刀剁的{0_adj}與整粒{1_adj}調成餡心，包入{2_adj}面皮中捏出敞口花領，頂端按上一尾整蝦，入竹籠旺火蒸熟。</FlavorTextFR_SiuMaiMixte.description>
+
+  <!-- EN: chicken and seafood soup -->
+  <FlavorTextFR_SoupePouletFruitsDeMer.label>山海雙鮮清湯</FlavorTextFR_SoupePouletFruitsDeMer.label>
+  <!-- EN: a clarified {0_adj} stock, into which {1_coll} goes at the last moment, with {2_coll} for the iodine. The two broths marry only if one of them is made in advance. -->
+  <FlavorTextFR_SoupePouletFruitsDeMer.description>澄澈的{0_adj}高湯于臨出鍋前下入{1_coll}，再佐以{2_coll}提點海味。唯有提前吊好其中一味湯底，山海二鮮方能水乳交融。</FlavorTextFR_SoupePouletFruitsDeMer.description>
+
+  <!-- EN: jambon-beurre -->
+  <FlavorTextFR_JambonBeurre.label>法式黃油火腿法棍</FlavorTextFR_JambonBeurre.label>
+  <!-- EN: half a {2_adj} baguette split open, {1_coll} laid on in a frank layer the whole length of it, two slices of {0_adj}, and nothing else at all. The best-selling sandwich in France, and the one that forgives bad bread least. -->
+  <FlavorTextFR_JambonBeurre.description>半根{2_adj}法棍順長剖開，爽快地抹滿一層厚實的{1_coll}，夾入兩片{0_adj}火腿，此外別無他物。這是全法國銷量第一的三明治，也是最容不得劣質面包敷衍的吃食。</FlavorTextFR_JambonBeurre.description>
+
+  <!-- EN: pork in garlic butter -->
+  <FlavorTextFR_PorcBeurreAil.label>蒜香黃油煎豬肉</FlavorTextFR_PorcBeurreAil.label>
+  <!-- EN: a piece of {0_adj} seared and then basted with a spoon, the pan tilted, from a foaming {1_coll} in which cloves of {2_adj} melt in their skins. You baste twenty times rather than once. -->
+  <FlavorTextFR_PorcBeurreAil.description>{0_adj}排下鍋煎封表面，隨后傾斜鍋身，將帶皮慢煨化開的{2_adj}與起泡的{1_coll}用湯匙一遍遍淋在肉上。與其只淋一次，不如連淋二十遍。</FlavorTextFR_PorcBeurreAil.description>
+
+  <!-- EN: pork chop in {2_adj} butter -->
+  <FlavorTextFR_PorcBeurreSauge.label>{2_adj}焦香黃油豬排</FlavorTextFR_PorcBeurreSauge.label>
+  <!-- EN: a {0_adj} chop grilled and napped with a {1_coll} cooked to hazelnut, into which {2_coll} has been thrown and turned crisp. Beurre noisette goes from hazelnut to burnt in ten seconds. -->
+  <FlavorTextFR_PorcBeurreSauge.description>炙烤熟透的{0_adj}排淋上熬至榛褐色的{1_coll}，其中投入的{2_coll}已被炸得酥脆。榛果黃油從醇香到焦糊不過短短十秒，全憑眼疾手快。</FlavorTextFR_PorcBeurreSauge.description>
+
+  <!-- EN: pork schnitzel -->
+  <FlavorTextFR_SchnitzelDePorc.label>維也納炸豬排</FlavorTextFR_SchnitzelDePorc.label>
+  <!-- EN: an escalope of {0_adj} beaten to paper, taken through flour, {2_plur} and then breadcrumbs, and cooked in a great deal of clarified {1_adj}, constantly spooned over it so that the coating puffs and lifts away. -->
+  <FlavorTextFR_SchnitzelDePorc.description>捶打得薄如紙片的{0_adj}依次拍粉、拖過{2_plur}液、裹滿面包糠，入寬裕的澄清{1_adj}中烹炸，期間不停以熱油澆淋表面，使脆殼蓬松鼓起、與肉身微微分離。</FlavorTextFR_SchnitzelDePorc.description>
+
+  <!-- EN: pork in miso butter -->
+  <FlavorTextFR_PorcBeurreMiso.label>味噌黃油燒豬肉</FlavorTextFR_PorcBeurreMiso.label>
+  <!-- EN: {0_coll} seared then glazed with a paste of fermented {2_adj} let down with melted {1_plur}. Miso burns fast and butter faster: the flame goes out before they are brought together. -->
+  <FlavorTextFR_PorcBeurreMiso.description>{0_coll}煎香后，裹上由發酵{2_adj}醬與融化{1_plur}調開的濃稠醬汁掛釉。味噌易焦，黃油更甚，故須先行熄火，方可將二者合入鍋中。</FlavorTextFR_PorcBeurreMiso.description>
+
+  <!-- EN: buttered corn on the cob -->
+  <FlavorTextFR_EpiDeMaisAuBeurre.label>香辣黃油烤玉米棒</FlavorTextFR_EpiDeMaisAuBeurre.label>
+  <!-- EN: a {0_adj} cob boiled or grilled, rolled while still scalding in a {1_coll} worked with {2_plur} and lime, which melts down into the rows of kernels. -->
+  <FlavorTextFR_EpiDeMaisAuBeurre.description>水煮或炭烤熟透的{0_adj}棒趁著滾燙，在調入{2_plur}與青檸的{1_coll}里滾上一圈，任由香濃油脂順著粒粒縫隙融化滲入。</FlavorTextFR_EpiDeMaisAuBeurre.description>
+
+  <!-- EN: corn and butter ramen -->
+  <FlavorTextFR_RamenMaisBeurre.label>札幌黃油玉米拉面</FlavorTextFR_RamenMaisBeurre.label>
+  <!-- EN: {2_adj} noodles in a miso broth, covered with sweet {0_adj} and crowned with a knob of {1_adj} that melts slowly on the surface. The speciality of Sapporo, born of a hard winter. -->
+  <FlavorTextFR_RamenMaisBeurre.description>浸在味噌濃湯里的{2_adj}拉面鋪滿清甜的{0_adj}，頂端冠上一塊慢慢融化于湯面的{1_adj}。這是北海道札幌的名物，誕生于凜冽寒冬之中。</FlavorTextFR_RamenMaisBeurre.description>
+
+  <!-- EN: corn cheese -->
+  <FlavorTextFR_CornCheese.label>韓式鐵板芝士玉米</FlavorTextFR_CornCheese.label>
+  <!-- EN: sweet {0_coll} turned in {1_plur} in a small cast-iron pan, covered with grated {2_adj} and left to melt until it pulls. Eaten with a spoon straight from the pan, alongside a Korean grill. -->
+  <FlavorTextFR_CornCheese.description>甜{0_coll}在小鑄鐵盤中用{1_plur}翻炒，鋪滿擦絲的{2_adj}烘至融化拉絲。這是韓式烤肉桌畔的常客，直接拿勺子從鐵盤里舀著吃。</FlavorTextFR_CornCheese.description>
+
+  <!-- EN: buttered polenta -->
+  <FlavorTextFR_PolentaAuBeurre.label>奶香黃油玉米糊</FlavorTextFR_PolentaAuBeurre.label>
+  <!-- EN: a semolina of {0_adj} rained into trembling {2_coll} and turned for forty minutes, then mounted with cold {1_plur} off the heat. It is that last butter, added at the last moment, that makes it shine. -->
+  <FlavorTextFR_PolentaAuBeurre.description>{0_adj}粗粉如細雨般撒入微沸的{2_coll}中，不停攪煮四十分鐘，離火后再打入冰冷的{1_plur}。正是最后關頭添入的這一塊黃油，令糊面煥發出溫潤光澤。</FlavorTextFR_PolentaAuBeurre.description>
+
+  <!-- EN: buttered popcorn -->
+  <FlavorTextFR_PopcornAuBeurre.label>黃油爆米花</FlavorTextFR_PopcornAuBeurre.label>
+  <!-- EN: grains of {0_adj} popped under a lid, doused with a clarified {1_coll} — the water in whole butter would sog the lot — and shaken with {2_plur} in a large bowl. -->
+  <FlavorTextFR_PopcornAuBeurre.description>{0_adj}粒加蓋爆開，淋入澄清{1_coll}——若用未提純的整塊黃油，其中的水分定會把米花浸軟——再置入大碗中與{2_plur}顛勻。</FlavorTextFR_PopcornAuBeurre.description>
+
+  <!-- EN: bacon-wrapped trout -->
+  <FlavorTextFR_TruiteBardeeDeLard.label>培根卷烤鱒魚</FlavorTextFR_TruiteBardeeDeLard.label>
+  <!-- EN: {0_coll} whole, gutted and filled with thyme, wound about with slices of {1_adj} that hold it together and baste it as they melt, then grilled. The bacon supplies the fat the fish does not have. -->
+  <FlavorTextFR_TruiteBardeeDeLard.description>整尾{0_coll}去膛后塞入百里香，外層纏繞上數片{1_adj}培根上架炙烤，既能箍緊魚身，又能在融化時以脂香潤澤魚肉。培根恰好補足了淡水魚欠缺的油脂。</FlavorTextFR_TruiteBardeeDeLard.description>
+
+  <!-- EN: cod with chorizo -->
+  <FlavorTextFR_CabillaudAuChorizo.label>紅椒臘腸燴鱈魚</FlavorTextFR_CabillaudAuChorizo.label>
+  <!-- EN: a loin of {0_adj} poached in the red oil that a paprika {1_adj} chorizo has given up in the pan, with sweet {2_plur}. It is the coloured fat that makes the dish, not the sausage itself. -->
+  <FlavorTextFR_CabillaudAuChorizo.description>{0_adj}柳浸在紅椒味{1_adj}臘腸煸出的紅亮油脂中，佐以清甜的{2_plur}文火慢浸至熟。成就這道菜的正是那汪紅油，而非香腸本身。</FlavorTextFR_CabillaudAuChorizo.description>
+
+  <!-- EN: fish and bacon chowder -->
+  <FlavorTextFR_ChaudreePoissonBacon.label>培根鮮魚巧達濃湯</FlavorTextFR_ChaudreePoissonBacon.label>
+  <!-- EN: {1_coll} rendered first, {2_coll} cooked in its fat, then {0_coll} in pieces set on top and left to poach under a lid without ever boiling, on pain of watching it fall apart. -->
+  <FlavorTextFR_ChaudreePoissonBacon.description>先將{1_coll}煸出油脂，下入{2_coll}借油燜熟，再將切塊的{0_coll}鋪在面上加蓋文火浸熟。湯面切忌滾沸，否則魚肉立時散碎。</FlavorTextFR_ChaudreePoissonBacon.description>
+
+  <!-- EN: cá kho t? -->
+  <FlavorTextFR_CaKhoTo.label>越式砂鍋焦糖燉魚</FlavorTextFR_CaKhoTo.label>
+  <!-- EN: {0_coll} in lengths braised in an earthenware pot with {1_adj} belly and a {2_adj} caramel pushed to the edge of bitterness, let down with fish brine. The caramel has to smoke before it is stopped. -->
+  <FlavorTextFR_CaKhoTo.description>切段的{0_coll}與五花{1_adj}同入陶土砂鍋，加入熬至微苦邊緣的{2_adj}焦糖并以魚露化開慢燉。糖色非得熬到冒煙方可停火。</FlavorTextFR_CaKhoTo.description>
+
+  <!-- EN: steamed fish with minced pork -->
+  <FlavorTextFR_PoissonVapeurPorcHache.label>肉末蒸全魚</FlavorTextFR_PoissonVapeurPorcHache.label>
+  <!-- EN: {0_coll} whole set over stems of spring onion, covered with minced {1_adj} seasoned with {2_plur}, and steamed hard for eight minutes. A smoking oil poured over at the table makes the skin hiss. -->
+  <FlavorTextFR_PoissonVapeurPorcHache.description>整尾{0_coll}架在青蔥段上，鋪滿以{2_plur}調味的{1_adj}末，旺火猛蒸八分鐘。上桌時當面澆下一勺冒煙滾油，激得魚皮滋滋作響。</FlavorTextFR_PoissonVapeurPorcHache.description>
+
+  <!-- EN: pol roti -->
+  <FlavorTextFR_PolRoti.label>斯里蘭卡椰絲烙餅</FlavorTextFR_PolRoti.label>
+  <!-- EN: a {1_adj} flour worked with a great deal of freshly grated {0_adj}, green {2_coll} and onion, barely bound with water, then cooked thick on a dry plate. Torn by hand, never cut with a knife. -->
+  <FlavorTextFR_PolRoti.description>{1_adj}粉揉入大把鮮擦的{0_adj}絲、青{2_coll}與洋蔥，只加少許水勉強攏成團，在干鐵板上烙成厚餅。吃時須親手撕開，絕不用刀切。</FlavorTextFR_PolRoti.description>
+
+  <!-- EN: serundeng -->
+  <FlavorTextFR_Serundeng.label>印尼香料炒椰絲</FlavorTextFR_Serundeng.label>
+  <!-- EN: {0_coll} grated and toasted dry for a very long time, with palm {1_coll}, {2_coll} and garlic, to a golden brown. It keeps for weeks and is sown over rice the way one would dust on parmesan. -->
+  <FlavorTextFR_Serundeng.description>擦絲的{0_coll}同棕櫚{1_coll}、{2_coll}及大蒜在干鍋中久炒至金黃焦香。此物可存數周不壞，常如帕瑪森奶酪般撒在米飯上提味。</FlavorTextFR_Serundeng.description>
+
+  <!-- EN: urap -->
+  <FlavorTextFR_Urap.label>爪哇香料椰絲拌時蔬</FlavorTextFR_Urap.label>
+  <!-- EN: {1_coll} blanched and wrung out, mixed with freshly grated {0_adj} seasoned with {2_plur}, garlic and galangal. Eaten warm, the same day: grated coconut turns rancid fast. -->
+  <FlavorTextFR_Urap.description>焯水擠干的{1_coll}拌入以{2_plur}、大蒜和南姜調味的鮮擦{0_adj}絲。須在當日趁溫熱吃盡，只因鮮椰絲極易走油酸敗。</FlavorTextFR_Urap.description>
+
+  <!-- EN: quindim -->
+  <FlavorTextFR_Quindim.label>巴西蛋黃椰絲甜盞</FlavorTextFR_Quindim.label>
+  <!-- EN: the yolks of {1_adj} alone, beaten with {2_plur} and grated {0_plur}, cooked in a water bath in a buttered mould. Out of the oven everything has separated: the coconut has risen into a crown and the underside is a glassy yellow. -->
+  <FlavorTextFR_Quindim.description>單取{1_adj}黃與{2_plur}、擦絲的{0_plur}攪勻，注入涂了黃油的模具中隔水烘烤。出爐脫模時自成兩層：椰絲浮起結成脆冠，底托則澄黃透亮如琉璃。</FlavorTextFR_Quindim.description>
+
+  <!-- EN: coconut rice -->
+  <FlavorTextFR_RizNoixDeCoco.label>南印椰絲香飯</FlavorTextFR_RizNoixDeCoco.label>
+  <!-- EN: {1_coll} cooked plain, into which is folded freshly grated {0_coll} turned in oil with shelled {2_coll}, mustard seed and curry leaves. The thengai sadam of Tamil Nadu, made without a drop of milk. -->
+  <FlavorTextFR_RizNoixDeCoco.description>白水燜熟的{1_coll}拌入與去皮{2_coll}、芥菜籽和咖喱葉同入熱油炒香的鮮擦{0_coll}絲。這是泰米爾納德邦的傳統椰香飯，全程不加一滴椰漿。</FlavorTextFR_RizNoixDeCoco.description>
+
+</LanguageData>

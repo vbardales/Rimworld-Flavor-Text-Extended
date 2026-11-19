@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: whipped {0_adj} mash -->
+  <FlavorTextFR_PureeDeToxipatate.label>奶香{0_adj}泥</FlavorTextFR_PureeDeToxipatate.label>
+  <!-- EN: {0_coll} peeled thick — everything concentrates just under the skin — boiled in plenty of water that is then thrown out, and mashed with {1_plur} and {2_plur}. The flesh stays grey; the taste gives nothing away. -->
+  <FlavorTextFR_PureeDeToxipatate.description>{0_coll}厚厚削去外皮——毒素盡數富集于皮下——在寬水中煮透后棄去湯水，再拌入{1_plur}與{2_plur}搗成泥。薯泥雖仍泛灰，滋味卻已毫無異樣。</FlavorTextFR_PureeDeToxipatate.description>
+
+  <!-- EN: {0_adj} fries -->
+  <FlavorTextFR_FritesDeToxipatate.label>炸{0_adj}條</FlavorTextFR_FritesDeToxipatate.label>
+  <!-- EN: batons of {0_adj} left an hour in clear water, drained, then fried twice in {1_plur}. The first bath cleans, the second crisps. Salted with {2_plur} on the way out. -->
+  <FlavorTextFR_FritesDeToxipatate.description>{0_adj}切粗條在清水中浸泡一小時，瀝干后入{1_plur}復炸兩遍：初炸拔毒，復炸催脆。出鍋時撒上{2_plur}與鹽。</FlavorTextFR_FritesDeToxipatate.description>
+
+  <!-- EN: {0_adj} r?sti -->
+  <FlavorTextFR_RostiDeToxipatate.label>瑞士{0_adj}絲煎餅</FlavorTextFR_RostiDeToxipatate.label>
+  <!-- EN: raw grated {0_coll}, wrung out in a cloth until the blackened juice stops running, mixed with {2_plur} and seared into a cake in foaming {1_plur}. That juice is the only thing being driven off. -->
+  <FlavorTextFR_RostiDeToxipatate.description>生{0_coll}擦絲后裹入布中用力絞干，直至不再滲出黑水，隨后拌入{2_plur}，在起泡的{1_plur}中煎成圓餅。只需擠盡那股毒汁，便可安心下箸。</FlavorTextFR_RostiDeToxipatate.description>
+
+  <!-- EN: {0_adj} gnocchi -->
+  <FlavorTextFR_GnocchiDeToxipatate.label>意式{0_adj}團子</FlavorTextFR_GnocchiDeToxipatate.label>
+  <!-- EN: a twice-boiled {0_adj} mash bound with {1_adj} flour and rolled into small ridged pillows. Poached until they float, then coated in melted {2_plur}. -->
+  <FlavorTextFR_GnocchiDeToxipatate.description>兩度換水煮熟的{0_adj}壓泥，揉入{1_adj}粉搓成帶棱紋的小枕團。下水煮至浮起，再裹滿融化的{2_plur}。</FlavorTextFR_GnocchiDeToxipatate.description>
+
+  <!-- EN: {0_adj} and leek soup -->
+  <FlavorTextFR_SoupeDeToxipatate.label>{0_adj}韭蔥濃湯</FlavorTextFR_SoupeDeToxipatate.label>
+  <!-- EN: {0_coll} blanched in a first water that is thrown out, then cooked with {1_coll} in clean stock and finished with {2_plur} off the heat. Two waters: the rule allows no exception. -->
+  <FlavorTextFR_SoupeDeToxipatate.description>{0_coll}先經頭道沸水焯煮并棄去原湯，再換清亮高湯與{1_coll}同煮，離火后調入{2_plur}。必須換兩次水，這條鐵律容不得半點馬虎。</FlavorTextFR_SoupeDeToxipatate.description>
+
+  <!-- EN: {0_adj} and chickpea curry -->
+  <FlavorTextFR_CurryDeToxipatate.label>鷹嘴豆{0_adj}咖喱</FlavorTextFR_CurryDeToxipatate.label>
+  <!-- EN: {0_coll} cubed and part-cooked apart, added late to {1_coll} simmering in a masala toasted with whole {2_plur}. They drink up the sauce and still hold on a spoon. -->
+  <FlavorTextFR_CurryDeToxipatate.description>{0_coll}切塊另鍋煮至半熟，臨收汁前才下入以整粒焙香{2_plur}慢燉的{1_coll}瑪薩拉濃汁中。薯塊吸飽了湯汁，舀在勺中卻依舊棱角分明。</FlavorTextFR_CurryDeToxipatate.description>
+
+  <!-- EN: sweet-and-sour {0_coll} -->
+  <FlavorTextFR_ToxipatateAigreDouce.label>糖醋{0_coll}</FlavorTextFR_ToxipatateAigreDouce.label>
+  <!-- EN: {0_adj} rounds salted to draw the water out, seared hard, then glazed with a {1_adj} vinegar and dried {2_plur}. The acid does double duty: it cleans and it wakes. -->
+  <FlavorTextFR_ToxipatateAigreDouce.description>{0_adj}圓片撒鹽殺出苦水，入鍋猛火煎透，再淋入{1_adj}醋汁與干{2_plur}收亮掛釉。酸味在此一舉兩得：既去邪毒，又提鮮開胃。</FlavorTextFR_ToxipatateAigreDouce.description>
+
+  <!-- EN: {0_adj} cottage pie -->
+  <FlavorTextFR_HachisDeToxipatate.label>{0_adj}農舍肉派</FlavorTextFR_HachisDeToxipatate.label>
+  <!-- EN: minced {1_coll} spread across the dish, covered with a {0_adj} mash beaten with {2_plur} and browned under the grill. The dish of colonies that can grow nothing else, and manage very well on it. -->
+  <FlavorTextFR_HachisDeToxipatate.description>剁碎的{1_coll}鋪滿烤盤基底，上面蓋一層打入{2_plur}的{0_adj}泥，送入爐火下烤至表面焦黃。這是寸草難生的殖民地賴以度日的家常菜，倒也吃得人有滋有味。</FlavorTextFR_HachisDeToxipatate.description>
+
+</LanguageData>

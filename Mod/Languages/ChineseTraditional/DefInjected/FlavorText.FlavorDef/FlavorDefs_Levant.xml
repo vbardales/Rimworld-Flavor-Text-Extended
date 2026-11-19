@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: souvlaki -->
+  <FlavorTextFR_Souvlaki.label>希臘烤肉串</FlavorTextFR_Souvlaki.label>
+  <!-- EN: cubes of {0_adj} marinated in oil, {1_plur} and {2_plur}, threaded on small skewers and grilled fast. The name means simply little skewer. -->
+  <FlavorTextFR_Souvlaki.description>{0_adj}切塊，用油脂、{1_plur}與{2_plur}腌制入味，穿在小簽上急火快烤。其名本義就是簡單的“小肉串”。</FlavorTextFR_Souvlaki.description>
+
+  <!-- EN: tzatziki -->
+  <FlavorTextFR_Tzatziki.label>希臘黃瓜酸奶醬</FlavorTextFR_Tzatziki.label>
+  <!-- EN: {0_coll} drained overnight in a cloth, mixed with {1_plur} grated and wrung out — otherwise the water ruins it all — and raw {2_plur}. -->
+  <FlavorTextFR_Tzatziki.description>{0_coll}包在紗布中瀝水過夜，拌入擦絲并擰干水分的{1_plur}——否則汁水會毀掉整碗濃醬——以及生{2_plur}碎。</FlavorTextFR_Tzatziki.description>
+
+  <!-- EN: hummus -->
+  <FlavorTextFR_Houmous.label>鷹嘴豆泥</FlavorTextFR_Houmous.label>
+  <!-- EN: {0_coll} cooked until they crush under a finger, ground with a {1_adj} paste, {2_plur} and iced water that whitens them and makes them swell. -->
+  <FlavorTextFR_Houmous.description>{0_coll}煮至手指一捻即碎，加入{1_adj}醬、{2_plur}與冰水一同研磨，冰水能令豆泥色澤雪白、質地蓬松綿密。</FlavorTextFR_Houmous.description>
+
+  <!-- EN: fattoush -->
+  <FlavorTextFR_Fattouche.label>法圖什烤餅沙拉</FlavorTextFR_Fattouche.label>
+  <!-- EN: stale flatbread, toasted and broken by hand, thrown over {1_coll} and {2_coll} with sumac. Served at the last moment: the bread must still crack. -->
+  <FlavorTextFR_Fattouche.description>放干的薄餅烤脆后親手掰碎，與漆樹果粉一同撒在{1_coll}和{2_coll}上。必須在最后一刻拌勻端上：餅脆聲不可稍減。</FlavorTextFR_Fattouche.description>
+
+  <!-- EN: mujadara -->
+  <FlavorTextFR_Moujadara.label>穆賈達拉扁豆飯</FlavorTextFR_Moujadara.label>
+  <!-- EN: {0_coll} and {1_coll} cooked together, covered over with {2_adj} fried to an almost black brown. That near-burning is the whole dish; without it there are only lentils. -->
+  <FlavorTextFR_Moujadara.description>{0_coll}與{1_coll}同煮，上面滿滿鋪一層炸至近乎焦黑的深褐色{2_adj}絲。那臨近焦糊的一刻正是整道菜的靈魂；少了它，便只是一碗平淡的扁豆。</FlavorTextFR_Moujadara.description>
+
+  <!-- EN: tabbouleh -->
+  <FlavorTextFR_Taboule.label>塔布勒沙拉</FlavorTextFR_Taboule.label>
+  <!-- EN: a mountain of herbs chopped with a knife, {1_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere. -->
+  <FlavorTextFR_Taboule.description>刀刃細細切碎的香草堆成小山，拌入切丁的{1_coll}，而碎麥粒不過寥寥一把。那種以谷物為主角的做法，完全是他鄉的杜撰。</FlavorTextFR_Taboule.description>
+
+  <!-- EN: avgolemono -->
+  <FlavorTextFR_Avgolemono.label>希臘檸檬雞蛋湯</FlavorTextFR_Avgolemono.label>
+  <!-- EN: {0_coll} beaten with {1_plur} and let down ladle by ladle with the scalding broth before going back into it. Poured in all at once, they curdle and the dish is lost. -->
+  <FlavorTextFR_Avgolemono.description>{0_coll}與{1_plur}汁打勻，先一勺接一勺地兌入滾燙高湯溫熱調和，再倒回鍋中。若是貿然一股腦倒進沸湯，蛋液便會結塊，整鍋湯也就毀了。</FlavorTextFR_Avgolemono.description>
+
+  <!-- EN: stifado -->
+  <FlavorTextFR_Stifado.label>斯蒂法多燉兔肉</FlavorTextFR_Stifado.label>
+  <!-- EN: {0_coll} braised with as much whole {1_adj} as meat, with {2_plur} and cinnamon. The onions are not an aromatic here: they are half the dish. -->
+  <FlavorTextFR_Stifado.description>{0_coll}與等量的整顆{1_adj}加{2_plur}和肉桂一同慢燉。在這里，洋蔥可不是什么配料點綴，而是撐起半壁江山的主角。</FlavorTextFR_Stifado.description>
+
+  <!-- EN: labneh -->
+  <FlavorTextFR_Labne.label>拉布尼瀝水酸奶</FlavorTextFR_Labne.label>
+  <!-- EN: {0_coll} salted and hung in a cloth for a whole day, until it can be spread, hollowed into a well of {1_adj} oil and dusted with {2_adj}. -->
+  <FlavorTextFR_Labne.description>{0_coll}加鹽裝入紗布懸掛瀝水整整一日，直至濃稠得可以涂抹，在盤中抹出凹槽注滿{1_adj}油，再撒上一層{2_adj}。</FlavorTextFR_Labne.description>
+
+  <!-- EN: shish taouk -->
+  <FlavorTextFR_ChichTaouk.label>黎凡特烤雞肉串</FlavorTextFR_ChichTaouk.label>
+  <!-- EN: {0_coll} marinated in {1_plur} and {2_plur}, grilled on skewers and served with a garlic emulsion so dense that it holds on the spoon. -->
+  <FlavorTextFR_ChichTaouk.description>{0_coll}用{1_plur}和{2_plur}腌制入味，穿簽炙烤，佐以濃稠得在勺上凝而不落的蒜蓉乳化醬。</FlavorTextFR_ChichTaouk.description>
+
+</LanguageData>

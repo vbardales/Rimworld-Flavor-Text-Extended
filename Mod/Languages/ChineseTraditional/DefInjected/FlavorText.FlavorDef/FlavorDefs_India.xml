@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: dal -->
+  <FlavorTextFR_Dal.label>達爾扁豆糊</FlavorTextFR_Dal.label>
+  <!-- EN: {0_coll} cooked until they fall apart, then woken with a tempering: {1_coll} and {2_coll} fried for just a few seconds in scalding butter and poured over, still hissing. -->
+  <FlavorTextFR_Dal.description>{0_coll}熬煮至酥爛開花，最后以一勺熱油香料激發出靈魂：{1_coll}與{2_coll}在滾燙黃油中爆香數秒，趁著滋滋作響直接澆在豆糊上。</FlavorTextFR_Dal.description>
+
+  <!-- EN: biryani -->
+  <FlavorTextFR_Biryani.label>印度香飯</FlavorTextFR_Biryani.label>
+  <!-- EN: {0_coll}, half-cooked, and marinated {1_coll} built up in layers, sealed under a lid luted with dough, and finished smothered. It is never stirred: every layer must still be distinct when it is opened. -->
+  <FlavorTextFR_Biryani.description>半熟的{0_coll}與腌制入味的{1_coll}層層疊放，鍋蓋邊緣用面團嚴密糊死，微火燜熟。切忌翻動攪拌：揭蓋之時，每一層都必須涇渭分明。</FlavorTextFR_Biryani.description>
+
+  <!-- EN: butter chicken -->
+  <FlavorTextFR_ButterChicken.label>黃油雞</FlavorTextFR_ButterChicken.label>
+  <!-- EN: {0_coll} put first through a scorching oven, then returned to a {1_adj} sauce mounted with {2_plur} and cream. Invented to use up the previous day's leftovers, and now the most ordered dish in the country. -->
+  <FlavorTextFR_ButterChicken.description>{0_coll}先入熾熱的烤爐炙烤，再回鍋浸入以{2_plur}和奶油調和的濃郁{1_adj}醬汁中。最初只是為了消耗隔夜剩菜而創，如今卻成了全印度點單率最高的名菜。</FlavorTextFR_ButterChicken.description>
+
+  <!-- EN: samosa -->
+  <FlavorTextFR_Samosa.label>薩莫薩三角餃</FlavorTextFR_Samosa.label>
+  <!-- EN: triangles of {0_adj} pastry filled with crushed {1_plur} and {2_plur}, sealed with water and fried gently so that the crust stays blistered rather than smooth. -->
+  <FlavorTextFR_Samosa.description>{0_adj}面皮包入壓碎的{1_plur}與{2_plur}，抹水封成三角形，慢火溫油炸透，使表皮起滿酥脆的小泡而非光滑平整。</FlavorTextFR_Samosa.description>
+
+  <!-- EN: raita -->
+  <FlavorTextFR_Raita.label>萊塔酸奶沙拉</FlavorTextFR_Raita.label>
+  <!-- EN: {0_coll} beaten with grated {1_coll} and {2_coll} toasted dry. It is not a side dish: it is the fire extinguisher of the meal. -->
+  <FlavorTextFR_Raita.description>{0_coll}攪打順滑，拌入擦絲的{1_coll}與干焙{2_coll}。它可不只是道配菜，而是整桌辛辣盛宴的“滅火器”。</FlavorTextFR_Raita.description>
+
+  <!-- EN: palak paneer -->
+  <FlavorTextFR_PalakPaneer.label>菠菜芝士咖喱</FlavorTextFR_PalakPaneer.label>
+  <!-- EN: {0_coll} blanched then ground into a green purée cooked only briefly so that it does not brown, into which are set cubes of fresh {1_adj} that do not melt. -->
+  <FlavorTextFR_PalakPaneer.description>{0_coll}焯水后研磨成碧綠菜泥，略加烹煮以免變色發暗，再嵌入手切的新鮮{1_adj}塊——受熱亦不融化。</FlavorTextFR_PalakPaneer.description>
+
+  <!-- EN: chana masala -->
+  <FlavorTextFR_ChanaMasala.label>瑪莎拉鷹嘴豆</FlavorTextFR_ChanaMasala.label>
+  <!-- EN: {0_coll} stewed in a base of {2_adj} browned at length and {1_adj}, soured with tamarind and amchoor. The sauce should cling to the peas, not bathe them. -->
+  <FlavorTextFR_ChanaMasala.description>久炒成深褐色的{2_adj}與{1_adj}熬成濃底，加入{0_coll}同燉，并以羅望子和生芒果粉提酸。湯汁應當緊緊裹住豆粒，而非將其泡在湯里。</FlavorTextFR_ChanaMasala.description>
+
+  <!-- EN: vindaloo -->
+  <FlavorTextFR_Vindaloo.label>文達盧酸辣咖喱</FlavorTextFR_Vindaloo.label>
+  <!-- EN: {0_coll} marinated in {2_adj} vinegar and {1_plur}, a Portuguese inheritance of Goa. The name comes from vinha d'alhos — wine and garlic — and not from the word for potato, whatever it may look like. -->
+  <FlavorTextFR_Vindaloo.description>{0_coll}浸泡在{2_adj}醋與{1_plur}中腌制入味，是果阿邦傳承自葡萄牙的烹飪遺產。其名源于葡語“紅酒與大蒜”（vinha d'alhos），盡管聽起來很像印地語里的“土豆”，實則毫無干系。</FlavorTextFR_Vindaloo.description>
+
+  <!-- EN: rogan josh -->
+  <FlavorTextFR_RoganJosh.label>羅根喬什燉羊肉</FlavorTextFR_RoganJosh.label>
+  <!-- EN: {0_coll} braised with {1_plur} and {2_plur} from Kashmir, which give a scarlet colour with almost no fire at all. Red and hot do not always go together. -->
+  <FlavorTextFR_RoganJosh.description>{0_coll}與{1_plur}及克什米爾{2_plur}一同慢燉，賦予湯汁艷麗的猩紅色澤，卻幾乎不帶燥辣。紅艷與辛辣并非總是形影不離。</FlavorTextFR_RoganJosh.description>
+
+  <!-- EN: tandoori {0_adj} -->
+  <FlavorTextFR_Tandoori.label>坦都里烤{0_adj}</FlavorTextFR_Tandoori.label>
+  <!-- EN: {0_coll} scored down to the bone, marinated overnight in {1_plur} and {2_plur}, then slapped against the wall of a clay oven heated red. The yoghurt holds the marinade on and tenderises the flesh. -->
+  <FlavorTextFR_Tandoori.description>{0_coll}深劃至骨，在{1_plur}與{2_plur}中腌制過夜，再送入燒得通紅的泥爐炙烤。酸奶既能鎖住腌料，又能令肉質柔嫩多汁。</FlavorTextFR_Tandoori.description>
+
+  <!-- EN: pakora -->
+  <FlavorTextFR_Pakora.label>帕科拉炸菜團</FlavorTextFR_Pakora.label>
+  <!-- EN: {1_coll} coated in a {0_adj} batter lifted with {2_plur} and fried in irregular clumps. Gluten-free by accident, crisp by design. -->
+  <FlavorTextFR_Pakora.description>{1_coll}裹上加了{2_plur}提味的{0_adj}面糊，隨手團成不規則的塊狀下鍋炸透。無意間做到了不含麩質，酥脆卻是刻意為之。</FlavorTextFR_Pakora.description>
+
+  <!-- EN: gulab jamun -->
+  <FlavorTextFR_GulabJamun.label>玫瑰奶球</FlavorTextFR_GulabJamun.label>
+  <!-- EN: {0_coll} reduced for hours into a solid paste, rolled into balls, fried very gently, and left to drink up a {1_adj} syrup scented with rose. They have to run when you bite them. -->
+  <FlavorTextFR_GulabJamun.description>{0_coll}慢熬數小時濃縮成固態奶團，搓圓后以微火慢炸，再浸入散發玫瑰芬芳的{1_adj}糖漿中吸飽甜汁。一口咬下，必須汁水四溢才算地道。</FlavorTextFR_GulabJamun.description>
+
+  <!-- EN: {0_adj} chutney -->
+  <FlavorTextFR_Chutney.label>{0_adj}酸甜辣醬</FlavorTextFR_Chutney.label>
+  <!-- EN: {0_coll} cooked with {1_plur}, vinegar and {2_plur} until candied. It keeps for months and improves over the first weeks. -->
+  <FlavorTextFR_Chutney.description>{0_coll}與{1_plur}、食醋和{2_plur}一同慢熬，直至如果脯般晶瑩濃稠。可保存數月之久，且在頭幾周里風味越陳越醇。</FlavorTextFR_Chutney.description>
+
+</LanguageData>

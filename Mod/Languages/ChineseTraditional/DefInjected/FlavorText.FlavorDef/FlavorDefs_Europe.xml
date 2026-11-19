@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: bacalhau à brás -->
+  <FlavorTextFR_BacalhauABras.label>布拉斯式鱈魚</FlavorTextFR_BacalhauABras.label>
+  <!-- EN: {0_coll} flaked, {1_coll} in fried matchsticks, the whole bound with beaten {2_plur} thrown in off the heat and stirred until they coat without setting. -->
+  <FlavorTextFR_BacalhauABras.description>{0_coll}拆成碎絲，{1_coll}切細絲炸酥，離火后倒入打散的{2_plur}快速翻拌，使蛋液均勻裹附而又不致完全凝結。</FlavorTextFR_BacalhauABras.description>
+
+  <!-- EN: bacalhau com natas -->
+  <FlavorTextFR_BacalhauComNatas.label>葡式奶油焗鱈魚</FlavorTextFR_BacalhauComNatas.label>
+  <!-- EN: {0_coll} soaked out and crumbled, folded through melted {2_plur} and drowned in {1_plur}, browned until the surface crazes over. -->
+  <FlavorTextFR_BacalhauComNatas.description>{0_coll}泡發脫鹽后拆碎，拌入煸至軟爛的{2_plur}，浸沒在豐腴的{1_plur}中入爐焗烤，直至表面焦黃龜裂。</FlavorTextFR_BacalhauComNatas.description>
+
+  <!-- EN: francesinha -->
+  <FlavorTextFR_Francesinha.label>波爾圖濕三明治</FlavorTextFR_Francesinha.label>
+  <!-- EN: a Porto croque-monsieur pushed to absurdity: four meats stacked, melted cheese over the top, and a thick {2_adj} and tomato sauce poured to the brim of the plate. -->
+  <FlavorTextFR_Francesinha.description>一道推向極致的波爾圖式熱三明治：四層肉食疊起，外覆融化的奶酪，再澆上滿溢至盤沿的濃郁{2_adj}番茄醬汁。</FlavorTextFR_Francesinha.description>
+
+  <!-- EN: bifana -->
+  <FlavorTextFR_Bifana.label>葡式豬扒包</FlavorTextFR_Bifana.label>
+  <!-- EN: thin {1_adj} escalopes simmered with {2_plur} and white wine, stacked scalding into a roll that drinks up the sauce. -->
+  <FlavorTextFR_Bifana.description>與{2_plur}及白葡萄酒同煨的{1_adj}薄片，趁滾燙層層夾入圓面包中，任面包吸飽濃郁湯汁。</FlavorTextFR_Bifana.description>
+
+  <!-- EN: cozido à portuguesa -->
+  <FlavorTextFR_CozidoAPortuguesa.label>葡式什錦亂燉</FlavorTextFR_CozidoAPortuguesa.label>
+  <!-- EN: everything the house owns in meats and cured pork, boiled with {1_coll} and {2_coll} and served on one outsized dish. -->
+  <FlavorTextFR_CozidoAPortuguesa.description>將家中所有的鮮肉與腌豬肉傾囊而出，與{1_coll}和{2_coll}一同燉煮，最后盛在巨大的淺盤中奉客。</FlavorTextFR_CozidoAPortuguesa.description>
+
+  <!-- EN: arroz de pato -->
+  <FlavorTextFR_ArrozDePato.label>葡式焗鴨飯</FlavorTextFR_ArrozDePato.label>
+  <!-- EN: {0_coll} cooked in the broth of poached {1_adj}, the shredded flesh stirred through it, rounds of chorizo laid over the top, and the whole browned in the oven. -->
+  <FlavorTextFR_ArrozDePato.description>{0_coll}以白煮{1_adj}的原湯燜熟，拌入拆碎的肉絲，表面鋪上切片辣香腸，再整盤送入烤箱烤至焦黃。</FlavorTextFR_ArrozDePato.description>
+
+  <!-- EN: a?orda -->
+  <FlavorTextFR_Acorda.label>阿連特茹面包粥</FlavorTextFR_Acorda.label>
+  <!-- EN: stale bread soaked in boiling water with {1_plur} and coriander, beaten into a porridge, with {2_coll} poached in it. An Alentejo dish of poverty turned emblematic. -->
+  <FlavorTextFR_Acorda.description>陳面包與{1_plur}及芫荽一同用沸水泡軟，攪打成濃糊，再在其中臥入水波{2_coll}。一道源自阿連特茹的貧家吃食，如今已成當地象征。</FlavorTextFR_Acorda.description>
+
+  <!-- EN: cataplana de marisco -->
+  <FlavorTextFR_CataplanaDeMarisco.label>葡式銅鍋海鮮燉肉</FlavorTextFR_CataplanaDeMarisco.label>
+  <!-- EN: {0_coll} and {2_coll} cooked together in a hinged copper pot clamped shut — no steam escapes, and the dish cooks in its own juices. -->
+  <FlavorTextFR_CataplanaDeMarisco.description>{0_coll}與{2_coll}一同封入緊扣的合頁雙層銅鍋中燜熟——不泄分毫蒸汽，全憑食材自身的汁水烹成。</FlavorTextFR_CataplanaDeMarisco.description>
+
+  <!-- EN: frango piri-piri -->
+  <FlavorTextFR_FrangoPiriPiri.label>葡式霹靂椒烤雞</FlavorTextFR_FrangoPiriPiri.label>
+  <!-- EN: {0_coll} spatchcocked and grilled over charcoal, basted throughout the cooking with an oil of minute {1_adj} and {2_adj}. -->
+  <FlavorTextFR_FrangoPiriPiri.description>{0_coll}沿背脊劈開展平，架在炭火上炙烤，期間不斷刷上以小粒{1_adj}與{2_adj}調成的辣油。</FlavorTextFR_FrangoPiriPiri.description>
+
+  <!-- EN: sauerbraten -->
+  <FlavorTextFR_Sauerbraten.label>德式酸燜牛肉</FlavorTextFR_Sauerbraten.label>
+  <!-- EN: a joint of {0_adj} marinated in vinegar for a whole week, braised, the sauce thickened with crumbled gingerbread and sweetened with dried {2_plur}. -->
+  <FlavorTextFR_Sauerbraten.description>大塊{0_adj}在醋汁中浸漬整整一周后慢火燜熟，湯汁以捏碎的姜餅收濃，再添干{2_plur}點綴甜味。</FlavorTextFR_Sauerbraten.description>
+
+  <!-- EN: rinderrouladen -->
+  <FlavorTextFR_Rinderrouladen.label>德式酸黃瓜牛肉卷</FlavorTextFR_Rinderrouladen.label>
+  <!-- EN: thin slices of {0_adj} spread with mustard, rolled around a gherkin and {2_coll}, held shut with a skewer and braised two hours. -->
+  <FlavorTextFR_Rinderrouladen.description>{0_adj}薄片抹上芥末醬，卷起酸黃瓜與{2_coll}，以肉簽固定封口，慢火燜煮兩小時。</FlavorTextFR_Rinderrouladen.description>
+
+  <!-- EN: schweinshaxe -->
+  <FlavorTextFR_Schweinshaxe.label>德式烤豬肘</FlavorTextFR_Schweinshaxe.label>
+  <!-- EN: a whole knuckle roasted for hours and basted with brown {2_plur}, until the rind becomes a shell that cracks under the knife. -->
+  <FlavorTextFR_Schweinshaxe.description>整只豬肘烘烤數小時，期間不斷澆淋深色{2_plur}，直至外皮化作刀鋒下咔嚓作響的脆殼。</FlavorTextFR_Schweinshaxe.description>
+
+  <!-- EN: wiener schnitzel -->
+  <FlavorTextFR_WienerSchnitzel.label>維也納炸肉排</FlavorTextFR_WienerSchnitzel.label>
+  <!-- EN: an escalope of {0_adj} beaten until translucent, crumbed without pressing, and fried in butter with the pan shaken so the coating puffs and lifts off the meat. -->
+  <FlavorTextFR_WienerSchnitzel.description>{0_adj}薄片拍打至近乎透光，輕裹面包糠而不加按壓，入黃油鍋中不斷晃動煎炸，使外殼蓬松鼓起、與肉排若即若離。</FlavorTextFR_WienerSchnitzel.description>
+
+  <!-- EN: k?nigsberger klopse -->
+  <FlavorTextFR_KonigsbergerKlopse.label>柯尼斯堡肉丸</FlavorTextFR_KonigsbergerKlopse.label>
+  <!-- EN: dumplings of {0_adj} poached in stock, served under a white {1_adj} sauce sharpened with {2_plur} and lifted with capers. -->
+  <FlavorTextFR_KonigsbergerKlopse.description>在高湯中煨熟的{0_adj}丸子，淋上以{2_plur}提酸、刺山柑增香的白色{1_adj}濃汁。</FlavorTextFR_KonigsbergerKlopse.description>
+
+  <!-- EN: maultaschen -->
+  <FlavorTextFR_Maultaschen.label>施瓦本大水餃</FlavorTextFR_Maultaschen.label>
+  <!-- EN: large squares of pasta stuffed with {1_plur} and {2_plur}. Swabian monks hid the meat inside to eat it through Lent: they are still called the God-cheaters. -->
+  <FlavorTextFR_Maultaschen.description>包入{1_plur}與{2_plur}的大方塊面食。昔日施瓦本修士為在大齋期偷食葷腥而將肉藏于面皮之中，至今仍被稱為“瞞天餃”。</FlavorTextFR_Maultaschen.description>
+
+  <!-- EN: k?sesp?tzle -->
+  <FlavorTextFR_Kasespatzle.label>德式奶酪面疙瘩</FlavorTextFR_Kasespatzle.label>
+  <!-- EN: sp?tzle scraped into boiling water, built up in layers with {1_plur} and crowned with {2_adj} fried to a dark brown. -->
+  <FlavorTextFR_Kasespatzle.description>刮入沸水煮熟的德式面疙瘩，與{1_plur}層層交疊，頂上鋪滿炸至深褐焦香的{2_adj}。</FlavorTextFR_Kasespatzle.description>
+
+  <!-- EN: kartoffelpuffer -->
+  <FlavorTextFR_Kartoffelpuffer.label>德式土豆煎餅</FlavorTextFR_Kartoffelpuffer.label>
+  <!-- EN: {0_coll} grated raw and pressed of their water, bound with {1_plur}, fried into thin cakes and served with an {2_adj} compote. Sweet against savoury, as so often in the Rhineland. -->
+  <FlavorTextFR_Kartoffelpuffer.description>生{0_coll}擦絲擠干水分，以{1_plur}拌勻凝合，煎成薄餅后佐以{2_adj}果泥食用。咸甜相映，正如萊茵蘭地區常見的風味。</FlavorTextFR_Kartoffelpuffer.description>
+
+  <!-- EN: himmel und erde -->
+  <FlavorTextFR_HimmelUndErde.label>萊茵天與地</FlavorTextFR_HimmelUndErde.label>
+  <!-- EN: heaven and earth: {1_coll} that grow above, {0_coll} that grow below, mashed together, with fried blood sausage and onions. -->
+  <FlavorTextFR_HimmelUndErde.description>天與地：長在樹上的{1_coll}與長在地下的{0_coll}一同搗成泥，佐以煎血腸和洋蔥。</FlavorTextFR_HimmelUndErde.description>
+
+  <!-- EN: grünkohl mit pinkel -->
+  <FlavorTextFR_GrunkohlMitPinkel.label>羽衣甘藍燉燕麥腸</FlavorTextFR_GrunkohlMitPinkel.label>
+  <!-- EN: curly {0_coll} picked after the first frost — which sweetens it — stewed for hours with a smoked {2_adj} sausage. -->
+  <FlavorTextFR_GrunkohlMitPinkel.description>初霜過后采摘的卷葉{0_coll}——霜打后滋味轉甜——與煙熏{2_adj}香腸一同慢燉數小時。</FlavorTextFR_GrunkohlMitPinkel.description>
+
+  <!-- EN: tafelspitz -->
+  <FlavorTextFR_Tafelspitz.label>維也納清煮牛肉</FlavorTextFR_Tafelspitz.label>
+  <!-- EN: a cut of {0_adj} poached in a broth of roots, served with an {2_adj} sauce of horseradish and apple. Franz Joseph's favourite dish, they say, and he ate it every day. -->
+  <FlavorTextFR_Tafelspitz.description>在根莖蔬菜高湯中慢火清煮的大塊{0_adj}，佐以辣根和蘋果調成的{2_adj}醬汁。相傳這是弗朗茨·約瑟夫皇帝最鐘愛的菜肴，日日皆要享用。</FlavorTextFR_Tafelspitz.description>
+
+  <!-- EN: tiroler gr?stl -->
+  <FlavorTextFR_TirolerGrostl.label>蒂羅爾煎肉雜拌</FlavorTextFR_TirolerGrostl.label>
+  <!-- EN: yesterday's {0_coll} and {1_coll} fried together until they catch on the pan, crowned with a fried egg and served in the pan itself. -->
+  <FlavorTextFR_TirolerGrostl.description>隔夜的{0_coll}與{1_coll}同入鍋中煎至微焦結殼，頂上蓋一顆煎蛋，連鍋直接端上桌。</FlavorTextFR_TirolerGrostl.description>
+
+  <!-- EN: semmelkn?del -->
+  <FlavorTextFR_Semmelknodel.label>德式面包團子</FlavorTextFR_Semmelknodel.label>
+  <!-- EN: stale bread soaked in warm {1_plur}, worked together with {2_plur} and parsley, rolled into balls and poached in barely trembling water. A dumpling that falls apart is a dumpling overworked. -->
+  <FlavorTextFR_Semmelknodel.description>陳面包以溫熱的{1_plur}泡軟，拌入{2_plur}與歐芹揉合，搓成圓團后下入似沸非沸的水中煨熟。若是煮散了，必是因為揉得過了頭。</FlavorTextFR_Semmelknodel.description>
+
+  <!-- EN: k?ttbullar -->
+  <FlavorTextFR_Kottbullar.label>瑞典肉丸</FlavorTextFR_Kottbullar.label>
+  <!-- EN: small {0_adj} balls rolled by hand, fried in the pan and served under a brown {1_adj} sauce, with a spoonful of red {2_adj} jam beside them. -->
+  <FlavorTextFR_Kottbullar.description>手搓的小巧{0_adj}丸入鍋煎香，淋上褐色的{1_adj}肉汁，盤邊再配一勺紅艷的{2_adj}果醬。</FlavorTextFR_Kottbullar.description>
+
+  <!-- EN: gravlax -->
+  <FlavorTextFR_Gravlax.label>北歐蒔蘿腌魚</FlavorTextFR_Gravlax.label>
+  <!-- EN: a fillet buried two days under salt, {1_coll} and a great deal of dill, beneath a weight. The name means buried salmon: it really was once put down in the sand. -->
+  <FlavorTextFR_Gravlax.description>魚柳掩埋在鹽、{1_coll}與大量蒔蘿之下，壓上重物腌漬兩日。其名本意為“埋藏的鮭魚”：古時人們確實曾將其埋入沙土中發酵。</FlavorTextFR_Gravlax.description>
+
+  <!-- EN: sm?rrebr?d -->
+  <FlavorTextFR_Smorrebrod.label>丹麥開放式三明治</FlavorTextFR_Smorrebrod.label>
+  <!-- EN: a slice of {0_adj} black bread buttered to the very edges, loaded with pickled herring and raw {2_adj}. Eaten with a fork, never by hand, and never closed over. -->
+  <FlavorTextFR_Smorrebrod.description>一片涂滿黃油直至邊緣的{0_adj}黑面包，堆滿酸漬鯡魚與生{2_adj}。必得以刀叉進食，絕不直接上手，也絕不合攏面餅。</FlavorTextFR_Smorrebrod.description>
+
+  <!-- EN: frikadeller -->
+  <FlavorTextFR_Frikadeller.label>丹麥煎肉餅</FlavorTextFR_Frikadeller.label>
+  <!-- EN: {0_coll} minced twice, lightened with flour and {2_adj}, shaped with a spoon into domed patties and fried long and slow in butter. -->
+  <FlavorTextFR_Frikadeller.description>{0_coll}絞碎兩遍，調入面粉與{2_adj}使其松軟，用勺攏成微拱的肉餅，在黃油中慢火久煎而成。</FlavorTextFR_Frikadeller.description>
+
+  <!-- EN: lohikeitto -->
+  <FlavorTextFR_Lohikeitto.label>芬蘭奶油魚湯</FlavorTextFR_Lohikeitto.label>
+  <!-- EN: a Finnish soup in which {0_coll} goes in only at the very end, into an already creamed {1_adj} broth, and poaches off the heat so as to stay barely pink. -->
+  <FlavorTextFR_Lohikeitto.description>一道芬蘭濃湯，待加了奶油的{1_adj}高湯煮好后，最后才投入{0_coll}，離火靠余溫浸熟，以留住魚肉內部一抹微粉的嫩度。</FlavorTextFR_Lohikeitto.description>
+
+  <!-- EN: poronk?ristys -->
+  <FlavorTextFR_Poronkaristys.label>芬蘭小炒馴鹿肉</FlavorTextFR_Poronkaristys.label>
+  <!-- EN: reindeer {0_coll} planed into shavings off the frozen block, thrown into scalding fat and served with a mash and a spoonful of lingonberries. A dish of Lapland, eaten in winter. -->
+  <FlavorTextFR_Poronkaristys.description>凍硬的馴鹿等{0_coll}直接刨成薄片，投入滾燙油脂中急火快炒，佐以薯泥和一勺越橘果醬。一道拉普蘭地區的冬日佳肴。</FlavorTextFR_Poronkaristys.description>
+
+  <!-- EN: ?rtsoppa -->
+  <FlavorTextFR_Artsoppa.label>瑞典黃豌豆湯</FlavorTextFR_Artsoppa.label>
+  <!-- EN: yellow split {0_coll} soaked overnight and simmered with smoked {1_coll}, scented with thyme and marjoram. In Sweden it is eaten on a Thursday; nobody quite remembers why any more. -->
+  <FlavorTextFR_Artsoppa.description>去皮黃{0_coll}浸泡過夜，與煙熏{1_coll}一同慢火煨煮，以百里香和墨角蘭賦香。在瑞典，人們習俗上逢周四喝這道湯，至于緣由則早已無人確知。</FlavorTextFR_Artsoppa.description>
+
+  <!-- EN: plokkfiskur -->
+  <FlavorTextFR_Plokkfiskur.label>冰島奶油燉魚泥</FlavorTextFR_Plokkfiskur.label>
+  <!-- EN: leftover boiled fish roughly crushed together with {1_coll} and {2_coll}, reheated in the pan. Icelandic, and made to throw nothing away in a country where nothing grows. -->
+  <FlavorTextFR_Plokkfiskur.description>剩下的水煮魚肉與{1_coll}及{2_coll}粗略搗勻，回鍋加熱而成。源自寸草難生的冰島，只為不浪費分毫口糧。</FlavorTextFR_Plokkfiskur.description>
+
+  <!-- EN: lapskaus -->
+  <FlavorTextFR_Lapskaus.label>挪威水手燉肉</FlavorTextFR_Lapskaus.label>
+  <!-- EN: {0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever was kept on board. -->
+  <FlavorTextFR_Lapskaus.description>{0_coll}與根莖蔬菜一同久燉，直至萬物融為一體、彼此難分。這是一道水手菜，用咸肉與船艙里僅存的食材一鍋燉成。</FlavorTextFR_Lapskaus.description>
+
+  <!-- EN: kj?tsúpa -->
+  <FlavorTextFR_Kjotsupa.label>冰島傳統羊肉湯</FlavorTextFR_Kjotsupa.label>
+  <!-- EN: {0_coll} on the bone boiled with {1_coll} and {2_coll}, with no seasoning but salt. The everyday Icelandic soup, for a thousand years. -->
+  <FlavorTextFR_Kjotsupa.description>帶骨的{0_coll}與{1_coll}、{2_coll}同煮，除鹽之外不加任何調料。一千年來的冰島日常湯品。</FlavorTextFR_Kjotsupa.description>
+
+  <!-- EN: steak and ale pie -->
+  <FlavorTextFR_SteakAndAlePie.label>英式麥酒牛肉派</FlavorTextFR_SteakAndAlePie.label>
+  <!-- EN: {0_coll} braised in brown {1_plur} until it falls into threads, shut in under a pastry lid that swells and browns in the oven. -->
+  <FlavorTextFR_SteakAndAlePie.description>{0_coll}在深色{1_plur}中慢燉至酥爛成絲，封入酥皮蓋下，送入烤箱烘至蓬松焦黃。</FlavorTextFR_SteakAndAlePie.description>
+
+  <!-- EN: lancashire hotpot -->
+  <FlavorTextFR_LancashireHotpot.label>蘭開夏羊肉煲</FlavorTextFR_LancashireHotpot.label>
+  <!-- EN: {0_coll} and {2_coll} in layers under a roof of thin {1_adj} rounds that gild and crisp while everything beneath them stews. -->
+  <FlavorTextFR_LancashireHotpot.description>{0_coll}與{2_coll}層層鋪疊，頂上如瓦片般覆滿薄切{1_adj}圓片；煲底食材慢火燜燉之時，頂層的薯片也隨之烤至金黃酥脆。</FlavorTextFR_LancashireHotpot.description>
+
+  <!-- EN: cullen skink -->
+  <FlavorTextFR_CullenSkink.label>蘇格蘭煙熏魚濃湯</FlavorTextFR_CullenSkink.label>
+  <!-- EN: smoked haddock poached in {2_plur}, flaked, and put back into its milk with crushed {1_coll}. Thick to the point of standing the spoon up in it. -->
+  <FlavorTextFR_CullenSkink.description>煙熏黑線鱈在{2_plur}中煨熟后拆成魚片，連同搗碎的{1_coll}一并倒回原湯中。濃稠得幾乎能把湯匙直立其中。</FlavorTextFR_CullenSkink.description>
+
+  <!-- EN: haggis, neeps and tatties -->
+  <FlavorTextFR_HaggisNeepsTatties.label>蘇格蘭哈吉斯配雙泥</FlavorTextFR_HaggisNeepsTatties.label>
+  <!-- EN: {0_coll} chopped with {1_coll} and a great deal of pepper, cooked inside a stomach, served with turnip and potato mashed apart from one another. It is slit open with a single stroke of the knife in front of the guests. -->
+  <FlavorTextFR_HaggisNeepsTatties.description>{0_coll}切碎后與{1_coll}及大量胡椒拌勻，塞入羊胃中煮熟，佐以各自搗成泥的蕪菁與土豆。席間當著賓客之面，一刀劃破胃袋奉客。</FlavorTextFR_HaggisNeepsTatties.description>
+
+  <!-- EN: cock-a-leekie -->
+  <FlavorTextFR_CockALeekie.label>蘇格蘭韭蔥雞湯</FlavorTextFR_CockALeekie.label>
+  <!-- EN: a Scottish soup of {0_adj} and {1_adj}, with whole prunes in it. The pairing surprises, but it has been attested since the sixteenth century. -->
+  <FlavorTextFR_CockALeekie.description>以{0_adj}與{1_adj}熬制的蘇格蘭濃湯，湯中還投有整顆西梅干。這般搭配令人意想不到，卻自十六世紀起便已有據可考。</FlavorTextFR_CockALeekie.description>
+
+  <!-- EN: full english breakfast -->
+  <FlavorTextFR_FullEnglishBreakfast.label>全套英式早餐</FlavorTextFR_FullEnglishBreakfast.label>
+  <!-- EN: {0_coll}, {1_coll} in every form it takes, {2_coll} in tomato sauce, mushrooms and fried bread, all on the one plate. A breakfast that stands in for two meals. -->
+  <FlavorTextFR_FullEnglishBreakfast.description>{0_coll}、百般形態的{1_coll}、茄汁焗{2_coll}、蘑菇與煎面包，滿滿當當齊聚一盤。一頓足以頂替兩餐的豐盛早餐。</FlavorTextFR_FullEnglishBreakfast.description>
+
+  <!-- EN: kedgeree -->
+  <FlavorTextFR_Kedgeree.label>英印咖喱熏魚飯</FlavorTextFR_Kedgeree.label>
+  <!-- EN: curried {0_coll} folded through flaked smoked fish and hard-boiled eggs. An Indian khichdi carried home by the British and turned by them into a breakfast dish. -->
+  <FlavorTextFR_Kedgeree.description>咖喱味的{0_coll}拌入拆碎的煙熏魚肉與全熟水煮蛋。這道源自印度的香料豆飯被英國人帶回故土，演變成了一道早餐佳肴。</FlavorTextFR_Kedgeree.description>
+
+  <!-- EN: beef and stout stew -->
+  <FlavorTextFR_BeefGuinnessStew.label>愛爾蘭黑啤燉牛肉</FlavorTextFR_BeefGuinnessStew.label>
+  <!-- EN: {0_coll} stewed in black {1_plur}, whose roasted bitterness turns into depth after three hours, with {2_coll} and carrots. -->
+  <FlavorTextFR_BeefGuinnessStew.description>{0_coll}與{2_coll}、胡蘿卜一同在黑{1_plur}中慢燉，酒液中烘焙的微苦在熬煮三小時后化作醇厚的底味。</FlavorTextFR_BeefGuinnessStew.description>
+
+</LanguageData>

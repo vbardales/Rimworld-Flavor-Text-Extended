@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: pear, roquefort and walnut salad -->
+  <FlavorTextFR_SaladePoireRoquefortNoix.label>香梨洛克福奶酪核桃沙拉</FlavorTextFR_SaladePoireRoquefortNoix.label>
+  <!-- EN: {0_coll} in fine slivers, a blue crushed with a fork and toasted {2_coll}, over bitter leaves. The pairing holds because the sugar of the pear puts out the salt of the cheese. -->
+  <FlavorTextFR_SaladePoireRoquefortNoix.description>切成細薄片的{0_coll}、用叉子碾碎的藍紋奶酪與烘香的{2_coll}，鋪在微苦的沙拉葉上。這道搭配之所以成立，全賴梨肉的清甜壓住了奶酪的咸烈。</FlavorTextFR_SaladePoireRoquefortNoix.description>
+
+  <!-- EN: pear and gorgonzola pizza -->
+  <FlavorTextFR_PizzaPoireGorgonzola.label>香梨戈貢佐拉披薩</FlavorTextFR_PizzaPoireGorgonzola.label>
+  <!-- EN: a white base with no tomato, {1_coll} in drops and {0_coll} in slices laid on halfway through the baking so that they do not dry out, with a thread of honey as it comes out. -->
+  <FlavorTextFR_PizzaPoireGorgonzola.description>不用番茄醬的白底餅皮，點綴著一簇簇{1_coll}，烘烤過半時才鋪上切片的{0_coll}以免烤干，出爐之際再淋上一縷蜂蜜。</FlavorTextFR_PizzaPoireGorgonzola.description>
+
+  <!-- EN: fig and goat's cheese crostini -->
+  <FlavorTextFR_CrostiniFigueChevre.label>無花果山羊奶酪烤面包片</FlavorTextFR_CrostiniFigueChevre.label>
+  <!-- EN: slices of toasted bread, fresh {1_coll} crushed over them and {0_coll} opened in four, run under the grill for thirty seconds. The honey goes on after, never before. -->
+  <FlavorTextFR_CrostiniFigueChevre.description>烘脆的面包片上碾開新鮮{1_coll}，放上十字切開的{0_coll}，送入炙爐烘烤三十秒。蜂蜜必須在出爐后淋上，切不可提前。</FlavorTextFR_CrostiniFigueChevre.description>
+
+  <!-- EN: apple and cheddar toastie -->
+  <FlavorTextFR_GrilledCheesePommeCheddar.label>蘋果切達奶酪熱壓三明治</FlavorTextFR_GrilledCheesePommeCheddar.label>
+  <!-- EN: aged {1_coll} and {0_coll} in fine slivers between two buttered slices, pressed in the pan. The apple gives up a little water that keeps the cheese from setting. -->
+  <FlavorTextFR_GrilledCheesePommeCheddar.description>兩片抹了黃油的面包之間夾入陳年{1_coll}與切成薄片的{0_coll}，在平底鍋中壓烤而成。蘋果滲出的些微汁水恰好能讓奶酪保持柔潤而不凝結。</FlavorTextFR_GrilledCheesePommeCheddar.description>
+
+  <!-- EN: manchego con membrillo -->
+  <FlavorTextFR_ManchegoConMembrillo.label>曼徹格奶酪配榅桲糕</FlavorTextFR_ManchegoConMembrillo.label>
+  <!-- EN: a quince paste cooked with {2_plur} until it can be cut with a knife, laid over a shaving of {1_adj} sheep's cheese. Two ingredients, not one act of cookery, and one of the soundest pairings in Europe. -->
+  <FlavorTextFR_ManchegoConMembrillo.description>用{2_plur}慢熬至凝實可切的榅桲果糕，覆在一片薄削的綿羊{1_adj}之上。區區兩樣食材，無需半點烹調工序，卻是歐洲最天衣無縫的絕配之一。</FlavorTextFR_ManchegoConMembrillo.description>
+
+  <!-- EN: watermelon and feta salad -->
+  <FlavorTextFR_SaladePastequeFeta.label>西瓜菲達奶酪沙拉</FlavorTextFR_SaladePastequeFeta.label>
+  <!-- EN: {0_coll} in large iced cubes, {1_coll} crumbled over, mint and a turn of the mill. The salt of the cheese brings out the sugar of the fruit, which then seems riper than it is. -->
+  <FlavorTextFR_SaladePastequeFeta.description>切成大塊的冰鎮{0_coll}，撒上掰碎的{1_coll}、薄荷葉與現磨黑胡椒。奶酪的咸味激發出果肉的甘甜，令果實嘗起來比實際更為熟美。</FlavorTextFR_SaladePastequeFeta.description>
+
+  <!-- EN: peach and burrata salad -->
+  <FlavorTextFR_SaladePecheBurrata.label>蜜桃布拉塔奶酪沙拉</FlavorTextFR_SaladePecheBurrata.label>
+  <!-- EN: {0_coll} well ripened and quartered, a burrata split open at the centre so that it runs, {2_adj} oil and basil. Nothing is cooked and nothing is dressed in advance. -->
+  <FlavorTextFR_SaladePecheBurrata.description>熟透切四瓣的{0_coll}，配上一顆從正中劃開、柔滑流心的布拉塔奶酪，淋上{2_adj}油并點綴羅勒。不經煙火烹煮，亦絕不提前拌味。</FlavorTextFR_SaladePecheBurrata.description>
+
+  <!-- EN: hot goat's cheese with cherries -->
+  <FlavorTextFR_ChevreChaudAuxCerises.label>櫻桃熱烤山羊奶酪</FlavorTextFR_ChevreChaudAuxCerises.label>
+  <!-- EN: a round of {1_adj} set on a slice of bread and put in the oven until it runs, with {0_coll} fried in vinegar. The acidity of the fruit cuts the fat of the hot cheese. -->
+  <FlavorTextFR_ChevreChaudAuxCerises.description>將一圓塊{1_adj}置于面包片上，送入烤箱烘至微融流淌，佐以用醋煎過的{0_coll}。果實的酸爽恰好化解了熱奶酪的豐腴脂香。</FlavorTextFR_ChevreChaudAuxCerises.description>
+
+  <!-- EN: cheeseboard with dried fruit -->
+  <FlavorTextFR_PlateauFromageFruitsSecs.label>干果奶酪拼盤</FlavorTextFR_PlateauFromageFruitsSecs.label>
+  <!-- EN: three or four cheeses taken out an hour beforehand, {1_coll} and {2_coll}, served from mildest to strongest going clockwise. The point is cut last. -->
+  <FlavorTextFR_PlateauFromageFruitsSecs.description>提前一小時取出回溫的三四款奶酪，佐以{1_coll}和{2_coll}，按順時針方向由淡至濃依次排開。奶酪尖角總是留到最后才切。</FlavorTextFR_PlateauFromageFruitsSecs.description>
+
+  <!-- EN: ricotta with honey and walnuts -->
+  <FlavorTextFR_RicottaAuMiel.label>蜂蜜核桃里科塔奶酪</FlavorTextFR_RicottaAuMiel.label>
+  <!-- EN: fresh {0_coll} beaten with a fork, doused with {1_plur} and covered with crushed {2_adj}. Served as a dessert or as a first course depending on the mood, and nobody objects. -->
+  <FlavorTextFR_RicottaAuMiel.description>用叉子打散的新鮮{0_coll}，淋滿{1_plur}再鋪上碾碎的{2_adj}。隨心境可作甜品，亦可作頭盤，無論怎么上桌都無人異議。</FlavorTextFR_RicottaAuMiel.description>
+
+  <!-- EN: beetroot with goat's cheese -->
+  <FlavorTextFR_BetteravesAuChevre.label>甜菜根配山羊奶酪</FlavorTextFR_BetteravesAuChevre.label>
+  <!-- EN: {0_coll} roasted in their skins and peeled warm, with fresh {1_coll} and toasted {2_coll}. The earth of the beetroot and the acidity of the goat answer each other exactly. -->
+  <FlavorTextFR_BetteravesAuChevre.description>帶皮烘熟后趁熱剝皮的{0_coll}，搭配新鮮{1_coll}與烤香的{2_coll}。甜菜根的泥土芬芳與山羊奶酪的微酸彼此呼應，絲絲入扣。</FlavorTextFR_BetteravesAuChevre.description>
+
+  <!-- EN: feta-stuffed peppers -->
+  <FlavorTextFR_PoivronsFarcisFeta.label>菲達奶酪釀甜椒</FlavorTextFR_PoivronsFarcisFeta.label>
+  <!-- EN: small red {0_coll} seeded and filled with {1_plur} and herbs, confited in {2_adj} oil until the skin wrinkles. -->
+  <FlavorTextFR_PoivronsFarcisFeta.description>去籽的小紅{0_coll}填入{1_plur}與香草，浸在{2_adj}油中慢火油封，直至表皮微皺。</FlavorTextFR_PoivronsFarcisFeta.description>
+
+  <!-- EN: cheese-stuffed mushrooms -->
+  <FlavorTextFR_ChampignonsFarcis.label>芝士釀蘑菇</FlavorTextFR_ChampignonsFarcis.label>
+  <!-- EN: {0_coll} destalked and filled with a {1_adj} stuffing and breadcrumbs, baked until they give up their water and take it back again. -->
+  <FlavorTextFR_ChampignonsFarcis.description>去蒂的{0_coll}中填入{1_adj}餡料與面包糠，送入烤箱烘至蘑菇滲出汁水又重新將其吸飽。</FlavorTextFR_ChampignonsFarcis.description>
+
+  <!-- EN: saganaki -->
+  <FlavorTextFR_Saganaki.label>希臘香煎奶酪</FlavorTextFR_Saganaki.label>
+  <!-- EN: a thick slice of hard {0_adj} floured and seared in a small two-handled pan, until a crust forms. Doused with {1_plur} at the table, and sometimes flamed. -->
+  <FlavorTextFR_Saganaki.description>厚切硬質{0_adj}拍上面粉，在雙耳小平底鍋中猛火煎出金黃焦殼。上桌時淋上{1_plur}汁，有時還會點火炙烤。</FlavorTextFR_Saganaki.description>
+
+  <!-- EN: baked feta with tomatoes -->
+  <FlavorTextFR_FetaRotieAuxTomates.label>番茄烤菲達奶酪</FlavorTextFR_FetaRotieAuxTomates.label>
+  <!-- EN: a block of {1_adj} set in the middle of a dish filled with cherry {0_adj}, drowned in {2_adj} oil and roasted until everything collapses. You crush and mix it in the dish itself. -->
+  <FlavorTextFR_FetaRotieAuxTomates.description>在鋪滿櫻桃{0_adj}的烤盤中央放上一整塊{1_adj}，浸入滿滿的{2_adj}油，烘烤至所有食材軟爛塌陷。吃時直接在烤盤里搗碎拌勻即可。</FlavorTextFR_FetaRotieAuxTomates.description>
+
+  <!-- EN: ricotta and spinach gnudi -->
+  <FlavorTextFR_Gnudi.label>里科塔菠菜裸團子</FlavorTextFR_Gnudi.label>
+  <!-- EN: the filling of a ravioli without its wrapper — {0_coll} and {1_coll} bound with a little flour and poached naked. Gnudi means undressed. -->
+  <FlavorTextFR_Gnudi.description>褪去了面皮的意式方餃內餡——用少許面粉將{0_coll}與{1_coll}揉合，直接赤裸下水微沸汆熟。“Gnudi”在意大利語中正是“赤裸”之意。</FlavorTextFR_Gnudi.description>
+
+  <!-- EN: grilled halloumi with vegetables -->
+  <FlavorTextFR_HalloumiGrilleLegumes.label>炙烤哈羅米奶酪配時蔬</FlavorTextFR_HalloumiGrilleLegumes.label>
+  <!-- EN: {0_coll} sliced thick and grilled until it takes the bars without melting — it is the only cheese that holds on a grill — with roasted {1_coll} and za'atar. -->
+  <FlavorTextFR_HalloumiGrilleLegumes.description>厚切{0_coll}在烤架上炙出焦痕而不融化——這是唯一能在烤架上保持成形的奶酪——佐以烘烤{1_coll}與中東百里香碎。</FlavorTextFR_HalloumiGrilleLegumes.description>
+
+</LanguageData>

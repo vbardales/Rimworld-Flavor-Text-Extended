@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: artichokes à la barigoule -->
+  <FlavorTextFR_ArtichautsBarigoule.label>巴里古勒風味燜洋薊</FlavorTextFR_ArtichautsBarigoule.label>
+  <!-- EN: small violet artichokes turned and split, sweated in {1_plur} with a mirepoix, moistened with white {2_plur} and left to reduce dry. The name comes from a mushroom nobody has put in for two centuries. -->
+  <FlavorTextFR_ArtichautsBarigoule.description>小型紫洋薊修整對切，與香味蔬菜碎一同在{1_plur}中慢煸，淋入白{2_plur}收干汁水。這道菜的名字源于一種早在兩百年前就不再添入其中的蘑菇。</FlavorTextFR_ArtichautsBarigoule.description>
+
+  <!-- EN: artichokes vinaigrette -->
+  <FlavorTextFR_ArtichautsVinaigrette.label>油醋汁洋薊</FlavorTextFR_ArtichautsVinaigrette.label>
+  <!-- EN: {0_coll} boiled whole and head down, served warm with a mustard vinaigrette. You pull the leaves off one by one and scrape the base of each between your teeth; the heart is kept for last. -->
+  <FlavorTextFR_ArtichautsVinaigrette.description>整顆{0_coll}倒扣水煮，趁溫熱佐以芥末油醋汁上桌。食客需將苞片逐一剝下，用牙齒刮食底部的嫩肉，而最精華的菜心則留到最后享盡。</FlavorTextFR_ArtichautsVinaigrette.description>
+
+  <!-- EN: stuffed artichokes -->
+  <FlavorTextFR_ArtichautsFarcis.label>釀洋薊</FlavorTextFR_ArtichautsFarcis.label>
+  <!-- EN: {0_coll} cleared of their choke, filled with a {1_adj} stuffing bound with crumb, and braised upright in a little stock until the leaves open of their own accord. -->
+  <FlavorTextFR_ArtichautsFarcis.description>{0_coll}挖去絨毛，填入摻有面包屑的{1_adj}餡，直立于淺高湯中慢燜，直至苞片自然舒展綻開。</FlavorTextFR_ArtichautsFarcis.description>
+
+  <!-- EN: carciofi alla romana -->
+  <FlavorTextFR_CarciofiAllaRomana.label>羅馬風味燜洋薊</FlavorTextFR_CarciofiAllaRomana.label>
+  <!-- EN: {0_coll} trimmed down to the tender heart, stuffed with {1_plur} and Roman mint, planted stem upwards in a narrow pan and sweated in oil and water. -->
+  <FlavorTextFR_CarciofiAllaRomana.description>{0_coll}修剪至僅留嫩心，釀入{1_plur}與羅馬薄荷，莖部朝上密排于窄鍋中，以油水慢燜至熟軟。</FlavorTextFR_CarciofiAllaRomana.description>
+
+  <!-- EN: carciofi alla giudia -->
+  <FlavorTextFR_CarciofiAllaGiudia.label>猶太風味酥炸洋薊</FlavorTextFR_CarciofiAllaGiudia.label>
+  <!-- EN: {0_coll} whole fried twice over, crushed between the two fryings so that the leaves open into a flower and turn as brittle as crisps. An invention of the Roman ghetto. -->
+  <FlavorTextFR_CarciofiAllaGiudia.description>整顆{0_coll}經兩次油炸，復炸前按扁使其苞片如花朵般綻放，口感酥脆如薯片。這是昔日羅馬猶太聚居區的獨創名菜。</FlavorTextFR_CarciofiAllaGiudia.description>
+
+  <!-- EN: risotto ai carciofi -->
+  <FlavorTextFR_RisottoAiCarciofi.label>洋薊意式燉飯</FlavorTextFR_RisottoAiCarciofi.label>
+  <!-- EN: {1_coll} pearled and moistened ladle by ladle, {0_coll} cut into slivers and added in two goes — the first at the start to melt away, the rest at the end to stay firm — then bound with {2_plur}. -->
+  <FlavorTextFR_RisottoAiCarciofi.description>{1_coll}炒至半透明后逐勺添湯慢燴，切絲的{0_coll}分兩次下鍋——頭一批隨米同煮至融化入味，后一批起鍋前才下以保爽脆——最后拌入{2_plur}乳化收濃。</FlavorTextFR_RisottoAiCarciofi.description>
+
+  <!-- EN: pasta ai carciofi -->
+  <FlavorTextFR_PastaAiCarciofi.label>洋薊意面</FlavorTextFR_PastaAiCarciofi.label>
+  <!-- EN: {0_coll} shaved fine and melted down in {2_plur} and oil, let down with a little cooking water to bind the pasta without cream. -->
+  <FlavorTextFR_PastaAiCarciofi.description>{0_coll}削成薄片，在{2_plur}與熱油中慢煸至軟融，兌入少許煮面水使其無需奶油便能濃稠地裹住面條。</FlavorTextFR_PastaAiCarciofi.description>
+
+  <!-- EN: frittata di carciofi -->
+  <FlavorTextFR_FrittataDiCarciofi.label>洋薊意式烘蛋</FlavorTextFR_FrittataDiCarciofi.label>
+  <!-- EN: {0_coll} fried until they gild, drowned in {1_plur} beaten with {2_plur}, cooked over a very low flame then turned over with a plate. Eaten cold, cut into wedges. -->
+  <FlavorTextFR_FrittataDiCarciofi.description>{0_coll}煎至金黃，淋入同{2_plur}打散的{1_plur}液，微火慢烘后借盤子翻面煎熟。放涼后切角享用。</FlavorTextFR_FrittataDiCarciofi.description>
+
+  <!-- EN: parmigiana di carciofi -->
+  <FlavorTextFR_ParmigianaDiCarciofi.label>帕爾馬風味千層烤洋薊</FlavorTextFR_ParmigianaDiCarciofi.label>
+  <!-- EN: {0_coll} sliced, floured and fried, built up in layers with {1_plur} and {2_plur}, then browned. Less known than the aubergine version, and finer. -->
+  <FlavorTextFR_ParmigianaDiCarciofi.description>{0_coll}切片拍粉油炸，與{1_plur}及{2_plur}層層疊起，入爐烤至表面焦黃。雖不如茄子版廣為人知，風味卻更為精妙。</FlavorTextFR_ParmigianaDiCarciofi.description>
+
+  <!-- EN: artichoke pizza -->
+  <FlavorTextFR_PizzaAuxArtichauts.label>洋薊披薩</FlavorTextFR_PizzaAuxArtichauts.label>
+  <!-- EN: {0_coll} marinated in oil and laid on the base at the last moment, with {2_coll} — one of the four quarters of a capricciosa, promoted to a whole dish. -->
+  <FlavorTextFR_PizzaAuxArtichauts.description>油浸{0_coll}在最后關頭與{2_coll}一同鋪上餅底——原本只是隨想曲披薩四角配料之一，如今獨占鰲頭自成一格。</FlavorTextFR_PizzaAuxArtichauts.description>
+
+  <!-- EN: alcachofas con jamón -->
+  <FlavorTextFR_AlcachofasConJamon.label>火腿炒洋薊</FlavorTextFR_AlcachofasConJamon.label>
+  <!-- EN: {0_coll} blanched and then fried in {2_plur} with {1_plur} cut into dice, which gives up its fat and salts the dish without anything else being added. -->
+  <FlavorTextFR_AlcachofasConJamon.description>{0_coll}焯水后與切丁的{1_plur}同入{2_plur}油鍋煸炒，肉丁析出脂香與咸味，無需額外調料便已滋味十足。</FlavorTextFR_AlcachofasConJamon.description>
+
+  <!-- EN: aginares a la polita -->
+  <FlavorTextFR_AginaresAlaPolita.label>君士坦丁堡風味燉洋薊</FlavorTextFR_AginaresAlaPolita.label>
+  <!-- EN: {0_coll} braised in oil with {1_coll} and carrots, bound with an {2_adj} avgolemono mounted off the heat. In the manner of the City — meaning Constantinople. -->
+  <FlavorTextFR_AginaresAlaPolita.description>{0_coll}與{1_coll}、胡蘿卜以橄欖油慢燉，離火后拌入{2_adj}蛋黃醬汁收濃。所謂“都城風味”，指的正是君士坦丁堡。</FlavorTextFR_AginaresAlaPolita.description>
+
+  <!-- EN: zeytinya?l? enginar -->
+  <FlavorTextFR_ZeytinyagliEnginar.label>土耳其橄欖油冷浸洋薊</FlavorTextFR_ZeytinyagliEnginar.label>
+  <!-- EN: the bottoms of {0_adj} filled with {2_plur} and diced carrot, cooked in {1_adj} oil and cooled in it. Turkish olive-oil dishes are always eaten cold. -->
+  <FlavorTextFR_ZeytinyagliEnginar.description>{0_adj}底托盛滿{2_plur}與胡蘿卜丁，在{1_adj}油中燜熟并原汁放涼。土耳其的橄欖油菜肴向來冷食。</FlavorTextFR_ZeytinyagliEnginar.description>
+
+  <!-- EN: dolma qarnoun -->
+  <FlavorTextFR_DolmaQarnoun.label>阿爾及利亞釀洋薊</FlavorTextFR_DolmaQarnoun.label>
+  <!-- EN: the bottoms of {0_adj} filled with a hash of {1_adj} and {2_adj}, stewed in a white lemon sauce. The Algerian dish of spring, when the cardoons come in. -->
+  <FlavorTextFR_DolmaQarnoun.description>{0_adj}底托釀入{1_adj}與{2_adj}拌成的碎餡，在白色檸檬汁中慢燉。這是阿爾及利亞春季刺菜薊上市時的時令佳肴。</FlavorTextFR_DolmaQarnoun.description>
+
+  <!-- EN: artichoke tagine -->
+  <FlavorTextFR_TajineDArtichauts.label>洋薊塔吉鍋</FlavorTextFR_TajineDArtichauts.label>
+  <!-- EN: {1_coll} stewed with saffron and ginger, {0_coll} added halfway through so as not to fall apart, and preserved {2_coll} at the very end. -->
+  <FlavorTextFR_TajineDArtichauts.description>{1_coll}加藏紅花與生姜慢燉，中途放入{0_coll}以防燉爛散架，起鍋前再添入鹽漬{2_coll}提味。</FlavorTextFR_TajineDArtichauts.description>
+
+  <!-- EN: spinach and artichoke dip -->
+  <FlavorTextFR_SpinachArtichokeDip.label>菠菜洋薊芝士蘸醬</FlavorTextFR_SpinachArtichokeDip.label>
+  <!-- EN: {0_coll} and {1_coll} chopped and drowned in melted {2_plur}, browned and served boiling with something to dip. The American party dish above all others, and nobody stops in time. -->
+  <FlavorTextFR_SpinachArtichokeDip.description>{0_coll}與{1_coll}切碎后浸滿融化的{2_plur}，烤至焦黃冒泡，趁滾燙配著脆片蘸食。這是美式派對上當仁不讓的頭牌，沒人能適時停嘴。</FlavorTextFR_SpinachArtichokeDip.description>
+
+</LanguageData>

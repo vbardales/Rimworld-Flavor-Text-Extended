@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: fesenjan -->
+  <FlavorTextFR_Fesenjan.label>波斯石榴核桃燉禽肉</FlavorTextFR_Fesenjan.label>
+  <!-- EN: {1_coll} ground so finely that they give up their oil, stewed for hours with {0_plur} until the sauce turns almost black. {2_coll} cooks slowly in it. The oldest dish still served at the Persian table. -->
+  <FlavorTextFR_Fesenjan.description>{1_coll}細磨至析出油脂，與{0_plur}慢熬數小時直至醬色近乎烏黑，再將{2_coll}浸入其中小火慢燉。這是波斯餐桌上流傳至今最古老的佳肴。</FlavorTextFR_Fesenjan.description>
+
+  <!-- EN: ash-e anar -->
+  <FlavorTextFR_AsheAnar.label>波斯石榴香草濃湯</FlavorTextFR_AsheAnar.label>
+  <!-- EN: a thick soup of chopped herbs, {1_coll} and {2_coll}, sharpened with the juice of {0_adj} and scattered with fresh seeds. Made for the night of the winter solstice. -->
+  <FlavorTextFR_AsheAnar.description>切碎的香草與{1_coll}、{2_coll}熬成濃湯，兌入{0_adj}汁提酸，表面撒滿鮮紅石榴籽。這是專為冬至長夜烹制的傳統湯品。</FlavorTextFR_AsheAnar.description>
+
+  <!-- EN: anar bij -->
+  <FlavorTextFR_AnarBij.label>伊朗北部石榴汁炒蛋</FlavorTextFR_AnarBij.label>
+  <!-- EN: {2_coll} melted down at length, the juice of {0_adj} poured over and reduced, then {1_coll} broken into it and barely scrambled. A dish of northern Iran, eaten at breakfast. -->
+  <FlavorTextFR_AnarBij.description>{2_coll}慢火久煸至軟融，淋入{0_adj}汁收濃，再磕入{1_coll}略加翻炒至堪堪凝固。這是伊朗北部的家常早餐菜肴。</FlavorTextFR_AnarBij.description>
+
+  <!-- EN: jewelled rice -->
+  <FlavorTextFR_JeweledRice.label>波斯寶石抓飯</FlavorTextFR_JeweledRice.label>
+  <!-- EN: saffroned {1_coll} heaped into a dome, studded with the seeds of {0_adj}, with {2_adj} and candied orange peel. Made for weddings, and the name is not a figure of speech. -->
+  <FlavorTextFR_JeweledRice.description>藏紅花染金的{1_coll}高高攏成穹頂，鑲滿紅艷的{0_adj}籽、翠綠的{2_adj}與糖漬橙皮絲。專為婚宴而作，“寶石”之名絕非虛言。</FlavorTextFR_JeweledRice.description>
+
+  <!-- EN: pomegranate molasses -->
+  <FlavorTextFR_MelasseDeGrenade.label>石榴糖蜜</FlavorTextFR_MelasseDeGrenade.label>
+  <!-- EN: the juice of {0_adj} reduced for hours to a tenth of its volume: thick, black and frankly sour. Dibs rumman in Arabic, nar ek?isi in Turkish — the lemon of the Levant. -->
+  <FlavorTextFR_MelasseDeGrenade.description>{0_adj}汁慢熬數小時濃縮至原體積的十分之一：質地濃稠、色澤烏黑、酸味凌厲。阿拉伯語稱“迪布斯魯曼”，土耳其語稱“納爾埃克希西”——堪稱黎凡特地區的檸檬。</FlavorTextFR_MelasseDeGrenade.description>
+
+  <!-- EN: narsharab -->
+  <FlavorTextFR_Narsharab.label>阿塞拜疆五香石榴濃醬</FlavorTextFR_Narsharab.label>
+  <!-- EN: the Azerbaijani molasses, mounted with {2_plur} and scented with cinnamon, clove and bay. Served with grilled sturgeon, and nothing else will stand in for it. -->
+  <FlavorTextFR_Narsharab.description>阿塞拜疆風味的石榴糖蜜，添入{2_plur}熬煮，并以肉桂、丁香與月桂葉賦香。專配炭烤鱘魚，世間再無他物可堪替代。</FlavorTextFR_Narsharab.description>
+
+  <!-- EN: nar qovurma -->
+  <FlavorTextFR_NarQovurma.label>阿塞拜疆石榴燉羊肉</FlavorTextFR_NarQovurma.label>
+  <!-- EN: {1_coll} seared then stewed with {2_plur} in the juice of {0_adj}, which tenderises it and stains it through. An Azerbaijani feast dish, served in its own copper pan. -->
+  <FlavorTextFR_NarQovurma.description>{1_coll}煎封表面后與{2_plur}同入{0_adj}汁中慢燉，果酸令肉質酥嫩并染上深邃酒紅。這是阿塞拜疆的節慶大菜，連著原鍋銅盤直接端上桌。</FlavorTextFR_NarQovurma.description>
+
+  <!-- EN: badrijani nigvzit with pomegranate -->
+  <FlavorTextFR_BadrijaniGrenade.label>格魯吉亞石榴核桃茄子卷</FlavorTextFR_BadrijaniGrenade.label>
+  <!-- EN: strips of fried {1_adj}, rolled around a {2_adj} paste with garlic and blue fenugreek, sown with the seeds of {0_adj}. Red on purple: Georgians care about that as much as about the taste. -->
+  <FlavorTextFR_BadrijaniGrenade.description>煎軟的{1_adj}長片卷起摻了蒜泥與藍胡蘆巴的{2_adj}醬，表面撒滿{0_adj}籽。紫底映紅珠——格魯吉亞人對這抹配色的講究絲毫不亞于滋味本身。</FlavorTextFR_BadrijaniGrenade.description>
+
+  <!-- EN: pomegranate and walnut salad -->
+  <FlavorTextFR_SaladeGrenadeNoix.label>石榴核桃沙拉</FlavorTextFR_SaladeGrenadeNoix.label>
+  <!-- EN: the seeds of {0_adj}, crushed {1_coll} and red {2_coll} finely sliced, with a mass of fresh herbs. Armenian, and served at every table in the region. -->
+  <FlavorTextFR_SaladeGrenadeNoix.description>{0_adj}籽、搗碎的{1_coll}與切細絲的紅{2_coll}拌入大把新鮮香草。源自亞美尼亞，是當地家家戶戶餐桌上的常客。</FlavorTextFR_SaladeGrenadeNoix.description>
+
+  <!-- EN: pomegranate fattoush -->
+  <FlavorTextFR_FattoushGrenade.label>石榴法圖什脆餅沙拉</FlavorTextFR_FattoushGrenade.label>
+  <!-- EN: flatbread fried and broken up, {2_coll} and herbs, with a dressing of sumac and {0_adj} molasses. The bread must still crack when it reaches the table. -->
+  <FlavorTextFR_FattoushGrenade.description>炸酥掰碎的大餅與{2_coll}、香草同拌，淋上鹽膚木粉與{0_adj}糖蜜調成的醬汁。上桌時碎餅必須依然咬之嘎嘣作響。</FlavorTextFR_FattoushGrenade.description>
+
+  <!-- EN: gavurda?? salatas? -->
+  <FlavorTextFR_GavurdagiSalatasi.label>土耳其石榴核桃碎丁沙拉</FlavorTextFR_GavurdagiSalatasi.label>
+  <!-- EN: {1_coll} and onion cut very small and very even, {2_coll} crushed, the whole bound with {0_adj} molasses and oil. The size of the dice makes the cook's reputation. -->
+  <FlavorTextFR_GavurdagiSalatasi.description>{1_coll}與洋蔥切成極細極勻的微丁，撒上碎{2_coll}，再以{0_adj}糖蜜與橄欖油拌勻。切丁的大小勻稱與否，直接關乎廚師的名聲。</FlavorTextFR_GavurdagiSalatasi.description>
+
+  <!-- EN: k?s?r with pomegranate -->
+  <FlavorTextFR_KisirGrenade.label>土耳其石榴碎麥沙拉</FlavorTextFR_KisirGrenade.label>
+  <!-- EN: fine bulgur swelled in hot water and worked by hand with {2_adj} concentrate, mild pepper and {0_adj} molasses. Served in leaves of lettuce. -->
+  <FlavorTextFR_KisirGrenade.description>細碎布爾古麥以熱水泡發，加濃縮{2_adj}膏、甜椒醬與{0_adj}糖蜜手工揉勻入味。盛在生菜葉中捧食。</FlavorTextFR_KisirGrenade.description>
+
+  <!-- EN: aubergines with tahini and pomegranate -->
+  <FlavorTextFR_AuberginesTahiniGrenade.label>石榴芝麻醬烤茄子</FlavorTextFR_AuberginesTahiniGrenade.label>
+  <!-- EN: {1_coll} roasted whole until they collapse, split open and napped with a {2_adj} cream with lemon, sown with the raw seeds of {0_adj}. -->
+  <FlavorTextFR_AuberginesTahiniGrenade.description>整茄{1_coll}烤至軟塌，剖開后淋上檸檬{2_adj}醬，表面撒滿生鮮的{0_adj}籽。</FlavorTextFR_AuberginesTahiniGrenade.description>
+
+  <!-- EN: chickpeas with pomegranate -->
+  <FlavorTextFR_PoisChichesGrenade.label>石榴糖蜜香脆鷹嘴豆</FlavorTextFR_PoisChichesGrenade.label>
+  <!-- EN: {1_coll} roasted until they crisp, served over a {2_adj} cream and doused with {0_adj} molasses. The sweet-sour against the bitterness of the sesame. -->
+  <FlavorTextFR_PoisChichesGrenade.description>{1_coll}烤至香脆，鋪在{2_adj}濃醬之上，再淋滿{0_adj}糖蜜。酸甜果香與芝麻的微苦交相輝映。</FlavorTextFR_PoisChichesGrenade.description>
+
+  <!-- EN: feta and pomegranate salad -->
+  <FlavorTextFR_SaladeFetaGrenade.label>菲達奶酪石榴沙拉</FlavorTextFR_SaladeFetaGrenade.label>
+  <!-- EN: peppery {2_coll}, {1_coll} in large shards and a rain of the seeds of {0_adj}, with oil and sumac. The seeds crack, the cheese salts, the leaves bite. -->
+  <FlavorTextFR_SaladeFetaGrenade.description>微辛的{2_coll}配大塊掰碎的{1_coll}，如雨點般撒滿{0_adj}籽，淋上橄欖油與鹽膚木粉。果籽脆裂、奶酪咸香、菜葉辛爽。</FlavorTextFR_SaladeFetaGrenade.description>
+
+  <!-- EN: chicken in pomegranate molasses -->
+  <FlavorTextFR_PouletMelasseGrenade.label>石榴糖蜜釉烤雞</FlavorTextFR_PouletMelasseGrenade.label>
+  <!-- EN: {1_coll} lacquered with a mixture of {0_adj} molasses and {2_adj}, roasted until the skin turns mahogany. The glaze goes on three times during the cooking. -->
+  <FlavorTextFR_PouletMelasseGrenade.description>{1_coll}刷上{0_adj}糖蜜與{2_adj}調成的亮釉，入爐烤至外皮呈深邃的紅木色。烘烤中途需反復刷釉三次方成。</FlavorTextFR_PouletMelasseGrenade.description>
+
+  <!-- EN: lamb and pomegranate tagine -->
+  <FlavorTextFR_TajineAgneauGrenade.label>石榴羊肉塔吉鍋</FlavorTextFR_TajineAgneauGrenade.label>
+  <!-- EN: {1_coll} stewed with saffron and cinnamon, the sauce sharpened with the juice of {0_adj} and the fresh seeds sown on only as it is served — cooked, they lose everything. -->
+  <FlavorTextFR_TajineAgneauGrenade.description>{1_coll}加藏紅花與肉桂慢燉，湯汁以{0_adj}汁提酸，而新鮮石榴籽唯在上桌前才撒入鍋中——一旦煮熟便會徹底失去靈氣。</FlavorTextFR_TajineAgneauGrenade.description>
+
+  <!-- EN: anardana chutney -->
+  <FlavorTextFR_AnardanaChutney.label>印度干石榴籽辣味蘸醬</FlavorTextFR_AnardanaChutney.label>
+  <!-- EN: the dried and ground seeds of wild {0_adj}, pounded with green {1_plur} and coriander. Anardana stands in for tamarind across the whole of northern India. -->
+  <FlavorTextFR_AnardanaChutney.description>曬干磨粉的野生{0_adj}籽與青{1_plur}、香菜一同搗成濃醬。在整個北印度，干石榴籽都扮演著替代羅望子的提酸角色。</FlavorTextFR_AnardanaChutney.description>
+
+  <!-- EN: anardana chicken -->
+  <FlavorTextFR_AnardanaChicken.label>印度干石榴籽燉雞</FlavorTextFR_AnardanaChicken.label>
+  <!-- EN: {1_coll} marinated in the ground seeds of {0_adj}, whose acidity tenderises the flesh, then stewed with dry spices, with neither tomato nor yoghurt. -->
+  <FlavorTextFR_AnardanaChicken.description>{1_coll}先以磨碎的{0_adj}籽腌漬，借其果酸軟化肉質，再加干香料慢燉，全程不放番茄亦不加酸奶。</FlavorTextFR_AnardanaChicken.description>
+
+  <!-- EN: pomegranate raita -->
+  <FlavorTextFR_RaitaGrenade.label>印度石榴黃瓜酸奶沙拉</FlavorTextFR_RaitaGrenade.label>
+  <!-- EN: {1_coll} beaten with grated {2_coll} and toasted cumin, sown with the whole seeds of {0_adj}, which burst under the tooth. -->
+  <FlavorTextFR_RaitaGrenade.description>{1_coll}加入擦絲的{2_coll}與烘香的孜然攪打順滑，撒入整粒{0_adj}籽，咬下時在齒間噼啪爆汁。</FlavorTextFR_RaitaGrenade.description>
+
+  <!-- EN: pomegranate-glazed salmon -->
+  <FlavorTextFR_SaumonGlaceGrenade.label>石榴亮釉烤三文魚</FlavorTextFR_SaumonGlaceGrenade.label>
+  <!-- EN: {1_coll} roasted skin side down and lacquered with a sweetened {0_adj} reduction, brushed on in the last two minutes so that it does not burn. -->
+  <FlavorTextFR_SaumonGlaceGrenade.description>{1_coll}魚皮朝下入爐烘烤，僅在最后兩分鐘刷上加糖濃縮的{0_adj}亮釉，以防焦黑發苦。</FlavorTextFR_SaumonGlaceGrenade.description>
+
+  <!-- EN: pomegranate jam -->
+  <FlavorTextFR_ConfitureDeGrenade.label>石榴果醬</FlavorTextFR_ConfitureDeGrenade.label>
+  <!-- EN: the seeds of {0_adj} cooked with {1_plur} and a little grated {2_adj}, whose pectin sets a jelly that the fruit alone would never give. -->
+  <FlavorTextFR_ConfitureDeGrenade.description>{0_adj}籽與{1_plur}及少許擦絲的{2_adj}同熬；蘋果中的果膠令其凝成晶瑩果凍，這是光靠石榴本身絕難達到的質地。</FlavorTextFR_ConfitureDeGrenade.description>
+
+  <!-- EN: pomegranate sorbet -->
+  <FlavorTextFR_SorbetGrenade.label>石榴雪芭</FlavorTextFR_SorbetGrenade.label>
+  <!-- EN: the juice of {0_adj} pressed by hand, sweetened and lifted with {2_plur}, churned without a drop of milk. The colour is the fruit's own, and it forgives no dilution. -->
+  <FlavorTextFR_SorbetGrenade.description>手工鮮榨的{0_adj}汁加糖并以{2_plur}提鮮，滴乳不加攪打成冰。那抹艷色完全源自果實本身，容不得半點兌水稀釋。</FlavorTextFR_SorbetGrenade.description>
+
+  <!-- EN: gelato alla melagrana -->
+  <FlavorTextFR_GelatoMelagrana.label>意式石榴冰淇淋</FlavorTextFR_GelatoMelagrana.label>
+  <!-- EN: a {1_adj} base churned with little air, in which the juice of {0_adj} gives a deep pink, with a few whole seeds left in for the crunch. -->
+  <FlavorTextFR_GelatoMelagrana.description>低空氣含量慢速攪打的{1_adj}基底被{0_adj}汁染成深粉紅色，內里還留有少許整粒石榴籽以添爽脆。</FlavorTextFR_GelatoMelagrana.description>
+
+  <!-- EN: pomegranate cheesecake -->
+  <FlavorTextFR_CheesecakeGrenade.label>石榴芝士蛋糕</FlavorTextFR_CheesecakeGrenade.label>
+  <!-- EN: a {1_adj} and {2_adj} filling under a mirror of {0_adj} studded with whole seeds. The acidity of the fruit cuts the fat better than lemon does. -->
+  <FlavorTextFR_CheesecakeGrenade.description>{1_adj}與{2_adj}交融的餅芯上覆一層嵌滿整粒果籽的{0_adj}鏡面果膠。石榴的果酸比檸檬更能利落地化解奶酪的厚重脂感。</FlavorTextFR_CheesecakeGrenade.description>
+
+  <!-- EN: pomegranate pavlova -->
+  <FlavorTextFR_PavlovaGrenade.label>石榴帕夫洛娃蛋白霜蛋糕</FlavorTextFR_PavlovaGrenade.label>
+  <!-- EN: a {1_adj} meringue, crisp outside and marshmallow within, {2_coll} whipped barely sweetened, and a handful of the seeds of {0_adj} thrown over the top. Red on white, and nothing to add. -->
+  <FlavorTextFR_PavlovaGrenade.description>外酥內糯如棉花糖的{1_adj}蛋白霜餅底，抹上微甜的打發{2_coll}，頂上撒一把紅艷的{0_adj}籽。白雪映紅珠，無須再添分毫。</FlavorTextFR_PavlovaGrenade.description>
+
+</LanguageData>

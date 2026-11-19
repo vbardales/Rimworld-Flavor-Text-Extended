@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: thiéboudienne -->
+  <FlavorTextFR_Thieboudienne.label>塞內加爾魚飯</FlavorTextFR_Thieboudienne.label>
+  <!-- EN: {0_coll} stuffed with a hash of herbs and fried, stewed in {2_plur} with vegetables, then {1_coll} cooked in that red broth. The national dish of Senegal, and the ancestor of jambalaya. -->
+  <FlavorTextFR_Thieboudienne.description>{0_coll}填入香草碎煎香，與各色蔬菜同{2_plur}慢燉，再用這鍋紅湯燜熟{1_coll}。這是塞內加爾的國菜，也是什錦飯的鼻祖。</FlavorTextFR_Thieboudienne.description>
+
+  <!-- EN: mafé -->
+  <FlavorTextFR_Mafe.label>西非花生燉肉</FlavorTextFR_Mafe.label>
+  <!-- EN: {1_coll} stewed in a paste of {0_adj} let down with stock and {2_plur}, until the groundnut oil rises to the surface. That is the sign it is ready. -->
+  <FlavorTextFR_Mafe.description>以高湯和{2_plur}化開{0_adj}醬，放入{1_coll}慢火精燉，直至花生油浮上湯面——那便是大功告成的標志。</FlavorTextFR_Mafe.description>
+
+  <!-- EN: {0_adj} yassa -->
+  <FlavorTextFR_Yassa.label>亞薩檸檬洋蔥燉{0_adj}</FlavorTextFR_Yassa.label>
+  <!-- EN: {0_coll} marinated overnight in {2_plur} and then grilled, served under a mass of {1_adj} melted down in their own water. It takes twice as many onions as anyone thinks reasonable. -->
+  <FlavorTextFR_Yassa.description>{0_coll}用{2_plur}腌制過夜后炙烤，上面鋪滿靠自身水分燜至軟爛的{1_adj}。這道菜耗費的洋蔥足足是常人想象的兩倍。</FlavorTextFR_Yassa.description>
+
+  <!-- EN: jollof rice with peppers -->
+  <FlavorTextFR_RizJollof.label>彩椒喬洛夫抓飯</FlavorTextFR_RizJollof.label>
+  <!-- EN: {0_coll} cooked smothered in a base of {1_adj} and {2_adj} reduced right down to the bottom of the pot, so that it takes a faint taste of smoke off the metal. Nigeria and Ghana dispute the paternity, with no referee in sight. -->
+  <FlavorTextFR_RizJollof.description>{1_adj}與{2_adj}熬煮收汁直至貼緊鍋底，再將{0_coll}燜熟其中，使米粒染上一縷鍋底金屬的微醺焦香。尼日利亞與加納至今仍在爭奪它的正統歸屬，且無人能居中裁決。</FlavorTextFR_RizJollof.description>
+
+  <!-- EN: attiéké -->
+  <FlavorTextFR_Attieke.label>阿提耶克木薯飯</FlavorTextFR_Attieke.label>
+  <!-- EN: {0_coll} grated, fermented, pressed and then steamed into a sour semolina, served with braised {1_plur} and raw {2_plur} with lemon. -->
+  <FlavorTextFR_Attieke.description>{0_coll}擦碎、發酵、壓干后再蒸成微酸的粗粒粉，佐以紅燒{1_plur}及檸檬拌生{2_plur}同食。</FlavorTextFR_Attieke.description>
+
+  <!-- EN: ndolé -->
+  <FlavorTextFR_Ndole.label>恩多萊苦葉燉花生</FlavorTextFR_Ndole.label>
+  <!-- EN: bitter {0_coll} boiled and rinsed several times over to draw out the bitterness, worked into a paste of {1_adj} and {2_plur}. The feast dish of Cameroon. -->
+  <FlavorTextFR_Ndole.description>帶苦味的{0_coll}經反復焯水漂洗以褪去苦澀，再與{1_adj}泥和{2_plur}一同燴煮。這是喀麥隆逢年過節的壓軸大菜。</FlavorTextFR_Ndole.description>
+
+  <!-- EN: doro wat -->
+  <FlavorTextFR_DoroWat.label>埃塞俄比亞香辣燉雞</FlavorTextFR_DoroWat.label>
+  <!-- EN: {1_coll} cooked dry for a whole hour before any fat is added, then mixed with {2_adj}, spices, and {0_coll}. One whole hard-boiled egg per guest, scored to take up the sauce. -->
+  <FlavorTextFR_DoroWat.description>不放一滴油，先將{1_coll}干煸整整一小時，隨后拌入{2_adj}、香料與{0_coll}慢燉。每位賓客分得一整顆劃了花刀、吸飽濃郁醬汁的水煮蛋。</FlavorTextFR_DoroWat.description>
+
+  <!-- EN: misir wat -->
+  <FlavorTextFR_MisirWat.label>埃塞俄比亞香辣紅扁豆泥</FlavorTextFR_MisirWat.label>
+  <!-- EN: red {0_coll} melted down in a spiced butter and a mixture of {1_adj}, until they form nothing but a dark purée. Eaten without utensils, pinched up in a spongy flatbread. -->
+  <FlavorTextFR_MisirWat.description>紅{0_coll}在香料黃油與{1_adj}碎中慢熬，直至徹底融成一鍋深色濃泥。食用時不設刀叉，只用氣孔密布的軟薄餅拈取。</FlavorTextFR_MisirWat.description>
+
+  <!-- EN: chili con carne -->
+  <FlavorTextFR_ChiliConCarne.label>辣味肉醬豆</FlavorTextFR_ChiliConCarne.label>
+  <!-- EN: {0_coll} and {1_coll} stewed for hours in a purée of dried {2_adj} soaked back up. In Texas, adding the beans is grounds for a lasting quarrel. -->
+  <FlavorTextFR_ChiliConCarne.description>干{2_adj}泡發打成濃漿，放入{0_coll}與{1_coll}慢燉數小時。在得克薩斯州，往里頭加豆子足以引發一場曠日持久的爭吵。</FlavorTextFR_ChiliConCarne.description>
+
+  <!-- EN: clam chowder -->
+  <FlavorTextFR_ClamChowder.label>蛤蜊巧達濃湯</FlavorTextFR_ClamChowder.label>
+  <!-- EN: {0_coll} opened in steam, its liquor strained and kept, with {1_coll} and {2_coll}. Served in a hollowed loaf, whose walls are eaten at the end. -->
+  <FlavorTextFR_ClamChowder.description>{0_coll}蒸至開口，濾出原汁留用，再加入{1_coll}和{2_coll}煮成濃湯。盛在掏空的圓面包盅里端上桌，最后連吸飽湯汁的面包壁也一并吃光。</FlavorTextFR_ClamChowder.description>
+
+  <!-- EN: cajun boudin -->
+  <FlavorTextFR_BoudinCajun.label>卡津豬肉米腸</FlavorTextFR_BoudinCajun.label>
+  <!-- EN: {0_coll} and offal cooked and then chopped with {1_plur} and {2_plur}, cased and reheated in steam. Eaten by squeezing the casing to push the filling out, and it is barely chewed at all. -->
+  <FlavorTextFR_BoudinCajun.description>{0_coll}與內臟煮熟后同{1_plur}、{2_plur}一起剁碎，灌入腸衣再隔水蒸熱。吃的時候捏住腸衣把餡料擠進嘴里，軟糯得幾乎不用咀嚼。</FlavorTextFR_BoudinCajun.description>
+
+  <!-- EN: hoppin' john -->
+  <FlavorTextFR_HoppinJohn.label>霍平約翰豆飯</FlavorTextFR_HoppinJohn.label>
+  <!-- EN: {0_coll} and {1_coll} cooked in a water scented with smoked {2_plur}. Eaten on the first day of the year: every grain counts for a coin in the year to come. -->
+  <FlavorTextFR_HoppinJohn.description>{0_coll}與{1_coll}在煙熏{2_plur}熬出的香湯里同煮。在新年頭一天享用：每一粒都象征著來年的滾滾銅錢。</FlavorTextFR_HoppinJohn.description>
+
+</LanguageData>

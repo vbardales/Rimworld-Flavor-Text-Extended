@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: nikuman -->
+  <FlavorTextFR_Nikuman.label>日式豬肉包</FlavorTextFR_Nikuman.label>
+  <!-- EN: a {0_adj} bun steamed soft, filled with minced {1_plur} and {2_plur}, so white and so yielding that you know it by touch. Sold in winter over the counter of the night shops. -->
+  <FlavorTextFR_Nikuman.description>蒸得松軟的{0_adj}包子，內裹剁碎的{1_plur}與{2_plur}，通體雪白柔韌，一摸便知。冬夜里常在街角便利店的柜臺售賣。</FlavorTextFR_Nikuman.description>
+
+  <!-- EN: udon -->
+  <FlavorTextFR_Udon.label>烏冬面</FlavorTextFR_Udon.label>
+  <!-- EN: thick, soft noodles kneaded underfoot beneath a cloth, in a clear {1_adj} broth. The texture matters more than the taste, and it is deliberate. -->
+  <FlavorTextFR_Udon.description>隔著厚布用腳踩揉而成的粗軟面條，浸在清澈的{1_adj}高湯里。比起味道，它更講究彈滑的口感，而這正是刻意追求的境界。</FlavorTextFR_Udon.description>
+
+  <!-- EN: soba -->
+  <FlavorTextFR_Soba.label>蕎麥面</FlavorTextFR_Soba.label>
+  <!-- EN: grey {0_adj} noodles, served cold on a rack with a {1_adj} sauce apart. The cooking water is drunk at the end, let down in what is left of the sauce. -->
+  <FlavorTextFR_Soba.description>灰褐色的{0_adj}面條，冰鎮后盛在竹屜上，另附一盅{1_adj}蘸汁。最后用煮面水兌開碗底余下的蘸汁，一飲而盡。</FlavorTextFR_Soba.description>
+
+  <!-- EN: agedashi dofu -->
+  <FlavorTextFR_AgedashiDofu.label>揚出豆腐</FlavorTextFR_AgedashiDofu.label>
+  <!-- EN: cubes of {0_adj} tofu rolled in starch and fried, set into a warm {1_adj} broth. The crust holds just long enough to reach the table. -->
+  <FlavorTextFR_AgedashiDofu.description>{0_adj}豆腐切塊拍粉油炸，浸入溫熱的{1_adj}高湯中。那層薄脆外皮剛好能撐到端上餐桌的那一刻。</FlavorTextFR_AgedashiDofu.description>
+
+  <!-- EN: oyakodon -->
+  <FlavorTextFR_Oyakodon.label>親子丼</FlavorTextFR_Oyakodon.label>
+  <!-- EN: {1_coll} and {2_coll} barely set together in a sweet-salt broth and poured over {0_coll}. The name means parent and child; nobody has ever claimed it was delicate. -->
+  <FlavorTextFR_Oyakodon.description>{1_coll}與{2_coll}在咸甜醬汁中煮至半熟滑嫩，一并澆在{0_coll}上。其名意為“父母與孩子”同在一碗，從來沒人宣稱這名字有多委婉。</FlavorTextFR_Oyakodon.description>
+
+  <!-- EN: gyudon -->
+  <FlavorTextFR_Gyudon.label>牛丼</FlavorTextFR_Gyudon.label>
+  <!-- EN: {1_coll} shaved paper-thin and stewed with {2_plur} in a sweet broth, served over {0_coll}. The fastest meal it is possible to eat sitting down. -->
+  <FlavorTextFR_Gyudon.description>薄如紙片的{1_coll}與{2_plur}在微甜湯汁中燉煮入味，蓋在熱氣騰騰的{0_coll}上。這是人能坐下來吃到的最快捷的一餐。</FlavorTextFR_Gyudon.description>
+
+  <!-- EN: katsudon -->
+  <FlavorTextFR_Katsudon.label>炸豬排丼</FlavorTextFR_Katsudon.label>
+  <!-- EN: a {1_adj} chop crumbed and fried, then dipped back into a {2_adj} broth that softens the coating on purpose, laid over {0_coll}. Eaten the night before an examination: katsu also means to win. -->
+  <FlavorTextFR_Katsudon.description>{1_adj}排裹上面包糠炸酥，再回鍋浸入{2_adj}湯汁中，特意讓脆殼微微回軟后鋪在{0_coll}上。常在考前之夜享用，只因“Katsu”在日語里與“勝利”諧音。</FlavorTextFR_Katsudon.description>
+
+  <!-- EN: onigiri -->
+  <FlavorTextFR_Onigiri.label>日式飯團</FlavorTextFR_Onigiri.label>
+  <!-- EN: {0_coll} pressed into a triangle with salted, wetted hands, filled with {2_adj} and belted with {1_plur}. It keeps a whole day in a pocket. -->
+  <FlavorTextFR_Onigiri.description>雙手沾水和鹽，將{0_coll}捏成三角形，內包{2_adj}餡，外纏一圈{1_plur}。揣在兜里一整天也不會壞。</FlavorTextFR_Onigiri.description>
+
+  <!-- EN: okonomiyaki -->
+  <FlavorTextFR_Okonomiyaki.label>大阪燒</FlavorTextFR_Okonomiyaki.label>
+  <!-- EN: a thick pancake in which shredded {1_coll} barely holds together with {0_plur} and {2_plur}, cooked on the plate in front of you. The name means grilled as you like it. -->
+  <FlavorTextFR_Okonomiyaki.description>用少許{0_plur}與{2_plur}勉強黏合大量{1_coll}絲的厚煎餅，就在食客面前的鐵板上現煎。其名意為“隨你喜好地燒烤”。</FlavorTextFR_Okonomiyaki.description>
+
+  <!-- EN: chawanmushi -->
+  <FlavorTextFR_Chawanmushi.label>茶碗蒸</FlavorTextFR_Chawanmushi.label>
+  <!-- EN: a savoury {0_adj} custard steamed gently, so barely set that it is eaten with a spoon, with {1_coll} and {2_coll} hidden at the bottom. Too hot and it riddles itself with bubbles and is spoiled. -->
+  <FlavorTextFR_Chawanmushi.description>文火慢蒸而成的咸鮮{0_adj}羹，嬌嫩得只能用勺子舀食，碗底藏著{1_coll}與{2_coll}。火候稍猛便會蒸出滿碗蜂窩氣孔而前功盡棄。</FlavorTextFR_Chawanmushi.description>
+
+  <!-- EN: nikujaga -->
+  <FlavorTextFR_Nikujaga.label>土豆燉肉</FlavorTextFR_Nikujaga.label>
+  <!-- EN: {0_coll} and {1_coll} stewed with {2_plur} and sugar under a dropped lid, until there is almost no liquid left. The dish people name when they talk about their mother's cooking. -->
+  <FlavorTextFR_Nikujaga.description>{0_coll}與{1_coll}加{2_plur}和白糖，壓上落蓋慢火收汁，直至湯汁幾乎完全收干。每當人們談起“媽媽的味道”，脫口而出的總是這道菜。</FlavorTextFR_Nikujaga.description>
+
+  <!-- EN: chikuzenni -->
+  <FlavorTextFR_Chikuzenni.label>筑前煮</FlavorTextFR_Chikuzenni.label>
+  <!-- EN: {0_coll} and {1_coll} cut on the bias, seared in oil then stewed dry with {2_coll}, until the liquid has vanished entirely into the vegetables. -->
+  <FlavorTextFR_Chikuzenni.description>滾刀切塊的{0_coll}與{1_coll}先下油鍋煸香，再與{2_coll}一同慢燉收干，直至濃郁湯汁盡數吸入蔬菜肌理。</FlavorTextFR_Chikuzenni.description>
+
+  <!-- EN: nanbanzuke -->
+  <FlavorTextFR_Nanbanzuke.label>南蠻漬</FlavorTextFR_Nanbanzuke.label>
+  <!-- EN: {0_coll} fried and then marinated hot in a sweetened vinegar with {1_plur} and {2_plur}. Nanban means the Portuguese, to whom the method is owed. -->
+  <FlavorTextFR_Nanbanzuke.description>{0_coll}油炸后趁熱浸入加了{1_plur}與{2_plur}的甜醋汁中腌漬入味。“南蠻”指的是當年傳入此種烹飪技法的葡萄牙人。</FlavorTextFR_Nanbanzuke.description>
+
+  <!-- EN: tonjiru -->
+  <FlavorTextFR_Tonjiru.label>豚汁</FlavorTextFR_Tonjiru.label>
+  <!-- EN: a soup of fermented {2_adj} loaded with {0_adj} and roots, {1_coll} among them. More sustaining than an ordinary miso soup, and served when it freezes. -->
+  <FlavorTextFR_Tonjiru.description>發酵{2_adj}湯中滿滿當當地煮著{0_adj}與包括{1_coll}在內的各色根莖蔬菜。比尋常味噌湯更扎實頂飽，最宜在天寒地凍時捧碗熱飲。</FlavorTextFR_Tonjiru.description>
+
+  <!-- EN: karaage -->
+  <FlavorTextFR_Karaage.label>日式唐揚炸雞</FlavorTextFR_Karaage.label>
+  <!-- EN: {0_coll} marinated in {1_plur} and {2_plur}, rolled in starch and fried twice over. The starch gives a thin, brittle crust, very unlike a crumb coating. -->
+  <FlavorTextFR_Karaage.description>{0_coll}用{1_plur}與{2_plur}腌透，裹上淀粉復炸兩次。淀粉賦予其一層薄而酥脆的硬殼，口感與面包糠截然不同。</FlavorTextFR_Karaage.description>
+
+  <!-- EN: korokke -->
+  <FlavorTextFR_Korokke.label>可樂餅</FlavorTextFR_Korokke.label>
+  <!-- EN: a mash of {0_adj} mixed with minced {2_plur}, crumbed in coarse breadcrumbs and fried. A distant descendant of the French croquette, which arrived by boat last century. -->
+  <FlavorTextFR_Korokke.description>{0_adj}泥拌入炒香的碎{2_plur}，裹上粗粒面包糠下鍋炸至金黃。它是上世紀乘船東渡的法式炸肉餅的遠房后裔。</FlavorTextFR_Korokke.description>
+
+  <!-- EN: chirashi -->
+  <FlavorTextFR_Chirashi.label>散壽司</FlavorTextFR_Chirashi.label>
+  <!-- EN: vinegared {0_coll} spread over the bottom of a bowl and scattered — which is what the name says — with raw {1_plur} in slices and ribbons of omelette. All the difficulty of sushi, without the gesture of sushi. -->
+  <FlavorTextFR_Chirashi.description>碗底鋪一層醋拌{0_coll}，上面如其名般散落鋪滿生{1_plur}切片與蛋皮絲。省去了握壽司的繁復手法，卻保留了壽司的全部精髓。</FlavorTextFR_Chirashi.description>
+
+  <!-- EN: ochazuke -->
+  <FlavorTextFR_Ochazuke.label>茶泡飯</FlavorTextFR_Ochazuke.label>
+  <!-- EN: scalding {1_coll} poured over cold rice, with {2_coll} crumbled into it. The meal at the end of an evening, or at the end of the leftovers — the two often come to the same thing. -->
+  <FlavorTextFR_Ochazuke.description>滾燙的{1_coll}直接沖入冷飯，再捏碎些許{2_coll}撒在上面。這是夜宴散場后的收尾簡餐，或是打掃剩飯的良方——兩者往往是一回事。</FlavorTextFR_Ochazuke.description>
+
+  <!-- EN: dorayaki -->
+  <FlavorTextFR_Dorayaki.label>銅鑼燒</FlavorTextFR_Dorayaki.label>
+  <!-- EN: two small thick pancakes made with {2_plur} and honey, closed over a sweet {1_adj} paste. The name comes from the gong they imitate. -->
+  <FlavorTextFR_Dorayaki.description>兩片用{2_plur}與蜂蜜烤出的厚實小圓餅，中間夾著香甜的{1_adj}沙餡。因形似銅鑼而得名。</FlavorTextFR_Dorayaki.description>
+
+  <!-- EN: anmitsu -->
+  <FlavorTextFR_Anmitsu.label>餡蜜</FlavorTextFR_Anmitsu.label>
+  <!-- EN: cubes of {1_adj} jelly — firm, barely sweetened — with a {0_adj} paste and a black {2_adj} syrup poured at the table. The summer dessert, served iced. -->
+  <FlavorTextFR_Anmitsu.description>凝實而微甜的{1_adj}寒天凍切塊，配一勺綿密的{0_adj}沙，上桌時再淋上黑{2_adj}糖漿。這是一道冰鎮享用的夏日甜品。</FlavorTextFR_Anmitsu.description>
+
+</LanguageData>

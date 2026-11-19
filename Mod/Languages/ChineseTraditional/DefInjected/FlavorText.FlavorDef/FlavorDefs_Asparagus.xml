@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: asparagus with hollandaise -->
+  <FlavorTextFR_AspergesHollandaise.label>荷蘭醬蘆筍</FlavorTextFR_AspergesHollandaise.label>
+  <!-- EN: {0_coll} poached al dente, napped with an emulsion of {1_adj} yolks mounted with clarified {2_plur} over a water bath. The sauce splits above sixty-five degrees: it is made at the last moment or not at all. -->
+  <FlavorTextFR_AspergesHollandaise.description>{0_coll}微焯至脆嫩，淋上以{1_adj}黃與澄清{2_plur}隔水攪打乳化而成的醬汁。溫度一旦超過六十五度醬汁便會油水分離，因此非得在臨上桌前現打不可。</FlavorTextFR_AspergesHollandaise.description>
+
+  <!-- EN: asparagus with sauce mousseline -->
+  <FlavorTextFR_AspergesMousseline.label>慕斯林醬蘆筍</FlavorTextFR_AspergesMousseline.label>
+  <!-- EN: the same hollandaise, lightened by a third with whipped {2_adj} folded in off the heat. It doubles in volume and loses its bite: the Sunday version. -->
+  <FlavorTextFR_AspergesMousseline.description>同樣以荷蘭醬為底，離火后拌入占三分之一分量的打發{2_adj}使其質地輕盈。醬汁體積翻倍，斂去了鋒芒，是專屬于周日餐桌的溫潤版本。</FlavorTextFR_AspergesMousseline.description>
+
+  <!-- EN: asparagus à la flamande -->
+  <FlavorTextFR_AspergesFlamande.label>佛蘭德斯風味蘆筍</FlavorTextFR_AspergesFlamande.label>
+  <!-- EN: white {0_coll} served with a hard-boiled egg crushed with a fork into melted butter, parsley and a grating of nutmeg. Everyone mixes their own sauce on their own plate. -->
+  <FlavorTextFR_AspergesFlamande.description>白{0_coll}佐以叉子碾碎的全熟水煮蛋、融化黃油、歐芹與現磨肉豆蔻。食客各自在盤中拌勻醬料享用。</FlavorTextFR_AspergesFlamande.description>
+
+  <!-- EN: cream of asparagus -->
+  <FlavorTextFR_VelouteDAsperges.label>奶油蘆筍濃湯</FlavorTextFR_VelouteDAsperges.label>
+  <!-- EN: the peelings and the fibrous ends boiled apart for the stock, the tips kept back and added whole at the end. {2_coll} binds it without flour, {1_coll} softens the bitterness. -->
+  <FlavorTextFR_VelouteDAsperges.description>削下的外皮與粗老根部另鍋熬成高湯，嫩尖則留到最后整顆入鍋。{2_coll}令湯體無需面粉也能濃稠，{1_coll}則柔化了原本的微苦。</FlavorTextFR_VelouteDAsperges.description>
+
+  <!-- EN: asparagus flan -->
+  <FlavorTextFR_FlanDAsperges.label>蘆筍布丁</FlavorTextFR_FlanDAsperges.label>
+  <!-- EN: a purée of {0_adj} bound with {1_plur} and {2_plur}, cooked in a water bath in ramekins until it sets without bubbles. Turned out warm, and trembling. -->
+  <FlavorTextFR_FlanDAsperges.description>{0_adj}泥混入{1_plur}與{2_plur}，盛入小烤碗中隔水慢烘至平整凝結、不生蜂窩。趁溫熱倒扣脫模，顫巍巍地端上桌。</FlavorTextFR_FlanDAsperges.description>
+
+  <!-- EN: asparagus gratin -->
+  <FlavorTextFR_GratinDAsperges.label>奶酪焗蘆筍</FlavorTextFR_GratinDAsperges.label>
+  <!-- EN: {0_coll} drained for a long time, then packed tightly under a {1_adj} béchamel and {2_plur}, and baked until the surface blisters. -->
+  <FlavorTextFR_GratinDAsperges.description>{0_coll}久置瀝干水分后密排盤中，覆滿{1_adj}白醬與{2_plur}，入爐焗烤至表面起泡焦香。</FlavorTextFR_GratinDAsperges.description>
+
+  <!-- EN: asparagus tart -->
+  <FlavorTextFR_TarteAuxAsperges.label>蘆筍撻</FlavorTextFR_TarteAuxAsperges.label>
+  <!-- EN: {0_coll} laid out in spokes over a blind-baked base, with a {2_adj} cream between them. Tips to the centre, ends to the rim: that is the only way every slice gets one. -->
+  <FlavorTextFR_TarteAuxAsperges.description>{0_coll}在盲烤過的撻皮上呈輻條狀鋪開，間隙填滿{2_adj}奶醬。嫩尖朝心、根莖朝邊——唯有如此，切開的每一塊才能分得筍尖。</FlavorTextFR_TarteAuxAsperges.description>
+
+  <!-- EN: asparagus and ham gratin -->
+  <FlavorTextFR_AspergesJambonGratinees.label>火腿焗蘆筍卷</FlavorTextFR_AspergesJambonGratinees.label>
+  <!-- EN: bundles of {0_adj} rolled two at a time in a slice of {1_adj}, napped and browned with {2_plur}. The spring cousin of chicory and ham. -->
+  <FlavorTextFR_AspergesJambonGratinees.description>{0_adj}兩根一束，裹入薄片{1_adj}中，淋醬并撒上{2_plur}烤至金黃。堪稱火腿焗苦苣的春日近親。</FlavorTextFR_AspergesJambonGratinees.description>
+
+  <!-- EN: asparagi alla milanese -->
+  <FlavorTextFR_AsparagiAllaMilanese.label>米蘭風味煎蛋蘆筍</FlavorTextFR_AsparagiAllaMilanese.label>
+  <!-- EN: {0_coll} laid down under a fried egg cooked in beurre noisette, with {2_coll} grated over the top. You break the yolk and dip the tips into it. -->
+  <FlavorTextFR_AsparagiAllaMilanese.description>{0_coll}排于盤底，蓋上一枚焦化黃油煎蛋，頂上擦滿{2_coll}碎。吃時戳破蛋黃，用筍尖蘸著流心享用。</FlavorTextFR_AsparagiAllaMilanese.description>
+
+  <!-- EN: asparagi alla parmigiana -->
+  <FlavorTextFR_AsparagiAllaParmigiana.label>帕爾馬風味焗蘆筍</FlavorTextFR_AsparagiAllaParmigiana.label>
+  <!-- EN: {0_coll} laid out in alternating layers with grated {1_plur} and melted {2_plur}, browned until the cheese forms a golden crust at the edges of the dish. -->
+  <FlavorTextFR_AsparagiAllaParmigiana.description>{0_coll}與現擦的{1_plur}及融化的{2_plur}層層交替鋪疊，入爐烤至烤盤邊緣的芝士凝成金黃脆殼。</FlavorTextFR_AsparagiAllaParmigiana.description>
+
+  <!-- EN: risotto agli asparagi -->
+  <FlavorTextFR_RisottoAgliAsparagi.label>蘆筍意式燉飯</FlavorTextFR_RisottoAgliAsparagi.label>
+  <!-- EN: {1_coll} moistened with the stock drawn from the {0_adj} peelings, the stems melted into it and the tips kept crisp for the end, the whole bound with {2_plur}. -->
+  <FlavorTextFR_RisottoAgliAsparagi.description>{1_coll}以{0_adj}皮熬出的高湯慢煨，筍莖煮至融化入飯，嫩尖則留到最后以保爽脆，起鍋前拌入{2_plur}乳化收濃。</FlavorTextFR_RisottoAgliAsparagi.description>
+
+  <!-- EN: frittata di asparagi -->
+  <FlavorTextFR_FrittataDiAsparagi.label>蘆筍意式烘蛋</FlavorTextFR_FrittataDiAsparagi.label>
+  <!-- EN: {0_coll} cut into lengths and fried with new {2_plur}, drowned in beaten {1_plur} and cooked over a low flame until the centre is barely set. -->
+  <FlavorTextFR_FrittataDiAsparagi.description>{0_coll}切段與鮮嫩的{2_plur}同煎，淋入打散的{1_plur}液，微火慢烘至中心剛剛凝固。</FlavorTextFR_FrittataDiAsparagi.description>
+
+  <!-- EN: pasta agli asparagi -->
+  <FlavorTextFR_PastaAgliAsparagi.label>蘆筍意面</FlavorTextFR_PastaAgliAsparagi.label>
+  <!-- EN: the stems of {0_adj} melted down in {2_plur} until they fall into a cream, the tips added whole two minutes before the end. The cooking water binds the whole thing together. -->
+  <FlavorTextFR_PastaAgliAsparagi.description>{0_adj}莖在{2_plur}中慢煸至化作濃稠醬泥，整顆嫩尖在出鍋前兩分鐘才下鍋。全靠煮面水將醬汁與面條渾然融為一體。</FlavorTextFR_PastaAgliAsparagi.description>
+
+  <!-- EN: spargel mit kartoffeln -->
+  <FlavorTextFR_SpargelMitKartoffeln.label>德式白蘆筍配土豆</FlavorTextFR_SpargelMitKartoffeln.label>
+  <!-- EN: white {0_coll} peeled right down to the foot and cooked in a sweetened, salted water, with new {1_coll} and melted {2_coll}. In Germany the season opens and closes on fixed dates, and nothing else is eaten in between. -->
+  <FlavorTextFR_SpargelMitKartoffeln.description>白{0_coll}一路削皮至根部，在加了糖和鹽的水中煮熟，佐以鮮嫩的{1_coll}與融化的{2_coll}。在德國，白蘆筍季的開啟與落幕皆有固定日期，在此期間人們幾乎眼里再無他物。</FlavorTextFR_SpargelMitKartoffeln.description>
+
+  <!-- EN: revuelto de espárragos trigueros -->
+  <FlavorTextFR_RevueltoDeEsparragos.label>西班牙野蘆筍炒滑蛋</FlavorTextFR_RevueltoDeEsparragos.label>
+  <!-- EN: wild asparagus, thin and bitter, fried in olive {2_plur} then scrambled with {1_plur} barely set. Gathered at the edges of Andalusian paths in spring. -->
+  <FlavorTextFR_RevueltoDeEsparragos.description>纖細微苦的野生蘆筍在橄欖{2_plur}中煎香，再滑入{1_plur}炒至堪堪凝固。這些野蘆筍皆是春日里從安達盧西亞小徑旁采摘而來。</FlavorTextFR_RevueltoDeEsparragos.description>
+
+  <!-- EN: asparagus tempura -->
+  <FlavorTextFR_AsparagusTempura.label>蘆筍天婦羅</FlavorTextFR_AsparagusTempura.label>
+  <!-- EN: {0_coll} whole dipped in an iced {1_adj} batter barely stirred together, fried thirty seconds in {2_plur}. The tip stays green and crisp under the crust. -->
+  <FlavorTextFR_AsparagusTempura.description>整根{0_coll}裹上略加攪勻的冰鎮{1_adj}面糊，入熱{2_plur}快炸三十秒。酥衣之下的筍尖依然翠綠爽脆。</FlavorTextFR_AsparagusTempura.description>
+
+  <!-- EN: asparagus nikumaki -->
+  <FlavorTextFR_AsparagusNikumaki.label>日式肉卷蘆筍</FlavorTextFR_AsparagusNikumaki.label>
+  <!-- EN: {0_coll} rolled one by one in a very thin sliver of {1_adj}, seared in the pan until the meat seals, then lacquered with {2_plur} and mirin. -->
+  <FlavorTextFR_AsparagusNikumaki.description>{0_coll}逐根裹上薄如蟬翼的{1_adj}片，下鍋煎至肉片封邊定型，再淋入{2_plur}與味醂收汁掛亮。</FlavorTextFR_AsparagusNikumaki.description>
+
+</LanguageData>

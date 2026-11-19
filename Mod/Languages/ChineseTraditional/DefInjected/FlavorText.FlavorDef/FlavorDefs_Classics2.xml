@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: {0_adj} parmentier -->
+  <FlavorTextFR_ParmentierDeCanard.label>帕門蒂埃土豆泥焗{0_adj}</FlavorTextFR_ParmentierDeCanard.label>
+  <!-- EN: {0_coll} confit pulled into threads under a {1_adj} mash beaten with {2_plur}, browned until the crust cracks under the spoon. -->
+  <FlavorTextFR_ParmentierDeCanard.description>拆成細絲的油封{0_coll}，鋪上一層拌入{2_plur}攪打的{1_adj}泥，入爐烤至表皮金黃酥脆、落勺輕響。</FlavorTextFR_ParmentierDeCanard.description>
+
+  <!-- EN: steak and chips -->
+  <FlavorTextFR_SteakFrites.label>牛排配薯條</FlavorTextFR_SteakFrites.label>
+  <!-- EN: {0_coll} seared one minute a side, with {1_coll} cut into batons and fried twice in {2_plur} — once low, to cook them through, once very hot, to colour them. -->
+  <FlavorTextFR_SteakFrites.description>兩面各猛火快煎一分鐘的{0_coll}，搭配切成粗條并在{2_plur}中復炸兩次的{1_coll}——初炸用低溫催熟內芯，復炸用高油溫逼出金黃脆殼。</FlavorTextFR_SteakFrites.description>
+
+  <!-- EN: beef and carrots -->
+  <FlavorTextFR_BoeufCarottes.label>胡蘿卜燉牛腱</FlavorTextFR_BoeufCarottes.label>
+  <!-- EN: {0_adj} shin and its bone simmered three hours with {1_coll} in thick rounds, and nothing else at all. The marrow melts and thickens the juices on its own. -->
+  <FlavorTextFR_BoeufCarottes.description>帶骨的{0_adj}腱子與厚切滾刀{1_coll}一同文火慢燉三小時，此外別無他物。骨髓在慢火中自然融化，將肉湯收攏得濃稠醇厚。</FlavorTextFR_BoeufCarottes.description>
+
+  <!-- EN: sausage and mash -->
+  <FlavorTextFR_SaucissePuree.label>香腸配土豆泥</FlavorTextFR_SaucissePuree.label>
+  <!-- EN: a sausage poached and then coloured, on a {1_adj} mash passed through a sieve and loosened with hot {2_plur}. The canteen dish nobody complains about. -->
+  <FlavorTextFR_SaucissePuree.description>先煮后煎出焦香的香腸，臥在過篩后兌入熱{2_plur}攪打順滑的{1_adj}泥上。這是唯一一道從來沒人挑剔的食堂菜。</FlavorTextFR_SaucissePuree.description>
+
+  <!-- EN: ham on the bone -->
+  <FlavorTextFR_JambonALOs.label>帶骨整火腿</FlavorTextFR_JambonALOs.label>
+  <!-- EN: a whole piece of {0_adj} cooked on its bone and carved in front of you. The flesh against the bone is the best of it, and the last to be served. -->
+  <FlavorTextFR_JambonALOs.description>整只帶骨烹熟、當面現片的{0_adj}火腿。貼骨肉最是鮮美，也總是留到最后才分食。</FlavorTextFR_JambonALOs.description>
+
+  <!-- EN: chicken in cream -->
+  <FlavorTextFR_PouletALaCreme.label>奶油蘑菇燉雞</FlavorTextFR_PouletALaCreme.label>
+  <!-- EN: {0_coll} poached then napped with a sauce mounted with {1_plur} and scattered with {2_adj} fried apart, so that they do not give up their water into the sauce. -->
+  <FlavorTextFR_PouletALaCreme.description>微沸慢煮后的{0_coll}，淋上以{1_plur}收濃的醬汁，再撒上另起一鍋煸炒的{2_adj}——唯有分開煎炒，菌菇才不會出水沖淡醬汁。</FlavorTextFR_PouletALaCreme.description>
+
+  <!-- EN: poulet Gaston Gérard -->
+  <FlavorTextFR_PouletGastonGerard.label>加斯東·熱拉爾芥末奶酪焗雞</FlavorTextFR_PouletGastonGerard.label>
+  <!-- EN: {0_coll} browned under a {1_adj} and {2_adj} sauce. The story goes that the wife of the mayor of Dijon knocked the paprika tin over the dish and improvised the rest. -->
+  <FlavorTextFR_PouletGastonGerard.description>覆滿{1_adj}與{2_adj}濃汁入爐焗至金黃的{0_coll}。相傳第戎市長夫人在掌勺時失手將紅甜椒粉罐打翻進鍋里，索性將錯就錯，成就了這道名菜。</FlavorTextFR_PouletGastonGerard.description>
+
+  <!-- EN: old-fashioned {0_adj} fricassee -->
+  <FlavorTextFR_FricasseeDeVolaille.label>古法白汁燴{0_adj}</FlavorTextFR_FricasseeDeVolaille.label>
+  <!-- EN: {0_coll} taken in {1_plur} without colour, moistened to the top, the sauce thickened at the last with {2_adj} yolks that must not be allowed to boil again. -->
+  <FlavorTextFR_FricasseeDeVolaille.description>在{1_plur}中低溫滑炒至斷生卻絕不上色的{0_coll}，添湯沒過肉塊慢煨，出鍋前調入{2_adj}黃收濃醬汁，此后絕不可再次煮沸。</FlavorTextFR_FricasseeDeVolaille.description>
+
+  <!-- EN: {0_adj} magret -->
+  <FlavorTextFR_MagretDeCanard.label>香煎肥{0_adj}胸</FlavorTextFR_MagretDeCanard.label>
+  <!-- EN: a fillet of {0_adj} whose skin, scored in a lattice, goes into a cold pan and renders {1_coll} slowly before the flesh cooks at all. Served pink, with a {2_adj} reduction. -->
+  <FlavorTextFR_MagretDeCanard.description>表皮劃出菱格花刀的整塊{0_adj}胸，冷鍋下鍋，趁瘦肉尚未受熱便先慢火逼出豐腴的{1_coll}。切開呈粉嫩血色，佐以酸甜的{2_adj}濃縮汁上桌。</FlavorTextFR_MagretDeCanard.description>
+
+  <!-- EN: {0_adj} shank -->
+  <FlavorTextFR_SourisDAgneau.label>紅燜{0_adj}小腿</FlavorTextFR_SourisDAgneau.label>
+  <!-- EN: the small muscle of the shank, braised so long that it slides off the bone. One shank a guest, never fewer. -->
+  <FlavorTextFR_SourisDAgneau.description>小腿骨上那塊飽滿的腱子肉，經漫長慢燜直至輕觸脫骨。待客之禮是一人一整只，絕不可少。</FlavorTextFR_SourisDAgneau.description>
+
+  <!-- EN: {0_adj} chops -->
+  <FlavorTextFR_CotelettesDAgneau.label>炙烤{0_adj}排</FlavorTextFR_CotelettesDAgneau.label>
+  <!-- EN: best-end chops grilled two minutes a side, rubbed with {1_plur} and finished with {2_plur}. Eaten by the bone in the hand, once the fork has been given up. -->
+  <FlavorTextFR_CotelettesDAgneau.description>抹上{1_plur}、兩面各炙烤兩分鐘的精選肋排，起鍋前融上一塊{2_plur}。吃罷幾口便讓人忍不住放下叉子，直接捏著骨頭大快朵頤。</FlavorTextFR_CotelettesDAgneau.description>
+
+  <!-- EN: rabbit chasseur -->
+  <FlavorTextFR_LapinChasseur.label>獵人風味燉兔肉</FlavorTextFR_LapinChasseur.label>
+  <!-- EN: {0_coll} jointed and fried, then stewed with {1_plur} and {2_plur}, deglazed with white wine and lifted with tarragon. -->
+  <FlavorTextFR_LapinChasseur.description>斬件煎香的{0_coll}，加入{1_plur}與{2_plur}同燉，以白葡萄酒激香脫釉，再撒入龍蒿提鮮。</FlavorTextFR_LapinChasseur.description>
+
+  <!-- EN: jugged hare -->
+  <FlavorTextFR_CivetDeLievre.label>法式血汁燉野兔</FlavorTextFR_CivetDeLievre.label>
+  <!-- EN: game {0_coll} marinated three days, braised with whole {1_coll}, the sauce thickened with the blood and the crushed liver. Blacker and stronger than that of the farmed rabbit. -->
+  <FlavorTextFR_CivetDeLievre.description>腌足三日的野味{0_coll}，與整顆{1_coll}一同慢燜，最后以兔血與碾碎的兔肝收濃湯汁。成菜色澤深黑，野性醇烈遠勝家兔。</FlavorTextFR_CivetDeLievre.description>
+
+  <!-- EN: wild boar civet -->
+  <FlavorTextFR_CivetDeSanglier.label>紅酒血汁燉野豬</FlavorTextFR_CivetDeSanglier.label>
+  <!-- EN: {0_coll} of black game marinated a week in {1_plur} and juniper, braised until it falls into threads, the sauce bound with blood. -->
+  <FlavorTextFR_CivetDeSanglier.description>在{1_plur}與杜松子中浸腌整周的黑毛野味{0_coll}，慢火燜至肉絲散落，最后調入鮮血收攏濃汁。</FlavorTextFR_CivetDeSanglier.description>
+
+  <!-- EN: pheasant with cabbage -->
+  <FlavorTextFR_FaisanAuxChoux.label>卷心菜燜野雞</FlavorTextFR_FaisanAuxChoux.label>
+  <!-- EN: an old bird, too tough to roast, braised buried under {1_coll} and smoked {2_coll} until it gives way. The cabbage takes on all the taste of the game. -->
+  <FlavorTextFR_FaisanAuxChoux.description>肉質過老而不宜爐烤的野禽，深埋在{1_coll}與煙熏{2_coll}之下慢火燜至酥爛。卷心菜盡數吸飽了野味的醇香。</FlavorTextFR_FaisanAuxChoux.description>
+
+  <!-- EN: escalope normande -->
+  <FlavorTextFR_EscalopeNormande.label>諾曼底蘋果酒奶油肉排</FlavorTextFR_EscalopeNormande.label>
+  <!-- EN: an escalope of {0_adj} fried and deglazed with cider, with {1_coll} taken in butter and a {2_adj} sauce. -->
+  <FlavorTextFR_EscalopeNormande.description>香煎后以蘋果酒激香脫釉的薄切{0_adj}排，配以黃油煎軟的{1_coll}，淋滿醇厚的{2_adj}醬汁。</FlavorTextFR_EscalopeNormande.description>
+
+  <!-- EN: veal Marengo -->
+  <FlavorTextFR_VeauMarengo.label>馬倫戈風味燉小牛肉</FlavorTextFR_VeauMarengo.label>
+  <!-- EN: {0_coll} in cubes browned then stewed with {1_plur} and {2_plur}. Improvised, they say, on the evening of the battle, from whatever Bonaparte's cook could find in the fields around. -->
+  <FlavorTextFR_VeauMarengo.description>切丁煎成金黃后再與{1_plur}和{2_plur}同燉的{0_coll}。相傳在馬倫戈戰役當晚，拿破侖的隨軍廚師就地搜羅荒野食材，即興創出了這道名菜。</FlavorTextFR_VeauMarengo.description>
+
+  <!-- EN: veal Orloff -->
+  <FlavorTextFR_VeauOrloff.label>奧爾洛夫千層焗烤肉</FlavorTextFR_VeauOrloff.label>
+  <!-- EN: a roast of {0_adj} sliced and then rebuilt, each slice parted from the next by a {2_adj} and onion purée, the whole napped with {1_plur} and browned. Created for a Russian prince posted to Paris. -->
+  <FlavorTextFR_VeauOrloff.description>整塊烤熟的{0_adj}切片后再重新拼合，每兩片之間夾入一層{2_adj}洋蔥泥，通體淋滿{1_plur}入爐焗至金黃。此菜原為一位派駐巴黎的俄國親王而創。</FlavorTextFR_VeauOrloff.description>
+
+  <!-- EN: {0_adj} paupiettes -->
+  <FlavorTextFR_PaupiettesDeVeau.label>法式釀餡{0_adj}卷</FlavorTextFR_PaupiettesDeVeau.label>
+  <!-- EN: thin escalopes of {0_adj} rolled around a {1_adj} stuffing, tied and braised with {2_coll}. They were called headless larks, until people looked at them a little more closely. -->
+  <FlavorTextFR_PaupiettesDeVeau.description>包裹著{1_adj}餡的薄切{0_adj}片，以細繩扎緊后與{2_coll}一同慢燜。在人們仔細端詳它們之前，這道菜一直被戲稱為“無頭云雀”。</FlavorTextFR_PaupiettesDeVeau.description>
+
+  <!-- EN: stuffed tomatoes -->
+  <FlavorTextFR_TomatesFarcies.label>法式釀番茄</FlavorTextFR_TomatesFarcies.label>
+  <!-- EN: {0_coll} hollowed out, salted and turned over to drain, stuffed with minced {1_plur} and {2_plur}, baked on a bed of rice that drinks up the juices. -->
+  <FlavorTextFR_TomatesFarcies.description>掏空內瓤、撒鹽倒扣瀝干水分的{0_coll}，填入剁碎的{1_plur}與{2_plur}，墊在米飯上入爐烘烤，讓底下的米粒盡數吸飽豐盈汁水。</FlavorTextFR_TomatesFarcies.description>
+
+  <!-- EN: stuffed courgettes -->
+  <FlavorTextFR_CourgettesFarcies.label>法式釀西葫蘆</FlavorTextFR_CourgettesFarcies.label>
+  <!-- EN: {0_coll} split and hollowed, the flesh taken out and chopped with {1_coll} and put back inside, the whole browned with {2_plur}. -->
+  <FlavorTextFR_CourgettesFarcies.description>對半剖開并挖空瓜瓤的{0_coll}，將挖出的瓜肉與{1_coll}一同剁碎后重新填回舟殼，表面撒上{2_plur}入爐焗至金黃。</FlavorTextFR_CourgettesFarcies.description>
+
+  <!-- EN: stuffed peppers -->
+  <FlavorTextFR_PoivronsFarcis.label>法式釀甜椒</FlavorTextFR_PoivronsFarcis.label>
+  <!-- EN: {0_coll} beheaded and emptied of their seeds, filled with {1_plur} and half-cooked {2_plur} — it will swell in the oven and pull the skin tight. -->
+  <FlavorTextFR_PoivronsFarcis.description>削去頂蓋、掏凈籽筋的{0_coll}，塞滿{1_plur}與半熟的{2_plur}——米粒在烤爐中吸汁膨脹，將甜椒外皮撐得緊實飽滿。</FlavorTextFR_PoivronsFarcis.description>
+
+  <!-- EN: stuffed cabbage -->
+  <FlavorTextFR_ChouFarci.label>法式整顆釀卷心菜</FlavorTextFR_ChouFarci.label>
+  <!-- EN: a whole cabbage blanched and opened leaf by leaf, packed with {1_plur} between every layer, then closed up in a cloth and poached for hours. It is cut into wedges, like a cake. -->
+  <FlavorTextFR_ChouFarci.description>整顆焯水后逐葉展開的卷心菜，每層菜葉間皆鋪滿{1_plur}，重新攏合后以棉布扎緊，入湯微沸慢煨數小時。上桌時如分切蛋糕一般切成楔形塊。</FlavorTextFR_ChouFarci.description>
+
+  <!-- EN: petits farcis ni?ois -->
+  <FlavorTextFR_PetitsFarcisNicois.label>尼斯風味迷你釀蔬菜</FlavorTextFR_PetitsFarcisNicois.label>
+  <!-- EN: an assortment of small vegetables — {0_coll}, {1_coll} and their flowers — hollowed and stuffed, packed tight into a dish and cooked together in olive oil. Eaten warm rather than hot. -->
+  <FlavorTextFR_PetitsFarcisNicois.description>各色小巧時蔬——{0_coll}、{1_coll}及其花朵——逐一掏空填餡，挨挨擠擠地碼滿烤盤，淋上橄欖油同爐烘烤。宜溫食，忌滾燙。</FlavorTextFR_PetitsFarcisNicois.description>
+
+  <!-- EN: cauliflower gratin -->
+  <FlavorTextFR_GratinDeChouFleur.label>白醬奶酪焗花椰菜</FlavorTextFR_GratinDeChouFleur.label>
+  <!-- EN: {0_coll} blanched in salted water and drained a long while, then napped with a {1_adj} béchamel and browned with {2_plur}. Badly drained, the gratin gives up its water and falls apart. -->
+  <FlavorTextFR_GratinDeChouFleur.description>在鹽水中焯熟后久久瀝干的{0_coll}，淋滿{1_adj}貝夏梅爾白醬，再撒上{2_plur}焗出焦香。若是瀝水不凈，烘烤時便會出水潰散。</FlavorTextFR_GratinDeChouFleur.description>
+
+  <!-- EN: leek gratin -->
+  <FlavorTextFR_GratinDePoireaux.label>奶油焗韭蔥</FlavorTextFR_GratinDePoireaux.label>
+  <!-- EN: {0_coll} split in four and washed down to the last grain of sand, melted in butter then drowned in {1_plur} and browned with {2_plur}. -->
+  <FlavorTextFR_GratinDePoireaux.description>剖作四瓣、洗凈最后一粒細沙的{0_coll}，先以黃油慢火煸軟，再浸入滿滿的{1_plur}中，表面撒上{2_plur}焗至金黃。</FlavorTextFR_GratinDePoireaux.description>
+
+  <!-- EN: chicory and ham gratin -->
+  <FlavorTextFR_EndivesAuJambon.label>火腿卷苦苣焗白醬</FlavorTextFR_EndivesAuJambon.label>
+  <!-- EN: {0_coll} braised in butter with a pinch of sugar to cut the bitterness, rolled up in {1_plur}, napped with béchamel and browned with {2_plur}. -->
+  <FlavorTextFR_EndivesAuJambon.description>加一撮糖在黃油中慢燜以斂去苦味的{0_coll}，外裹{1_plur}片卷起，淋上貝夏梅爾白醬并鋪滿{2_plur}入爐焗烤。</FlavorTextFR_EndivesAuJambon.description>
+
+  <!-- EN: eggs en cocotte -->
+  <FlavorTextFR_OeufsCocotte.label>法式小盅焗蛋</FlavorTextFR_OeufsCocotte.label>
+  <!-- EN: {0_coll} broken into buttered ramekins on a bed of {2_adj}, a spoonful of {1_adj} over the top, cooked in a water bath until the white sets and the yolk stays liquid. -->
+  <FlavorTextFR_OeufsCocotte.description>在涂了黃油、墊著{2_adj}的烤盅內磕入{0_coll}，面上一勺{1_adj}，隔水烘烤至蛋白凝結而蛋黃依然流心。</FlavorTextFR_OeufsCocotte.description>
+
+  <!-- EN: herb omelette -->
+  <FlavorTextFR_OmeletteFinesHerbes.label>香草歐姆蛋</FlavorTextFR_OmeletteFinesHerbes.label>
+  <!-- EN: {0_coll} barely beaten, poured into foaming {2_plur} and stirred fast, rolled while still running in the middle. Parsley, chervil, chives and tarragon: four herbs, no more and no fewer. -->
+  <FlavorTextFR_OmeletteFinesHerbes.description>略加打散的{0_coll}倒入泛起泡沫的{2_plur}中快速攪動，趁內芯尚自流淌時卷攏成形。歐芹、山蘿卜、細香蔥與龍蒿：四味香草，不多不少。</FlavorTextFR_OmeletteFinesHerbes.description>
+
+  <!-- EN: mushroom omelette -->
+  <FlavorTextFR_OmeletteAuxChampignons.label>蘑菇歐姆蛋</FlavorTextFR_OmeletteAuxChampignons.label>
+  <!-- EN: {1_coll} fried apart until every drop of their water has gone, slipped into {0_coll} at the moment of rolling the omelette. -->
+  <FlavorTextFR_OmeletteAuxChampignons.description>另鍋煸干最后一滴水汽的{1_coll}，在{0_coll}即將卷攏成形的那一刻滑入蛋皮之中。</FlavorTextFR_OmeletteAuxChampignons.description>
+
+  <!-- EN: croque-madame -->
+  <FlavorTextFR_CroqueMadame.label>庫克夫人三明治</FlavorTextFR_CroqueMadame.label>
+  <!-- EN: a croque-monsieur crowned with a fried egg, whose broken yolk serves as the sauce. The hat is what earns it the name. -->
+  <FlavorTextFR_CroqueMadame.description>頂上冠以一枚煎蛋的庫克先生三明治，劃破的流心蛋黃便是天然醬汁。正是這頂宛如淑女禮帽的煎蛋，為它贏得了“夫人”之名。</FlavorTextFR_CroqueMadame.description>
+
+  <!-- EN: leek quiche -->
+  <FlavorTextFR_QuicheAuxPoireaux.label>韭蔥咸派</FlavorTextFR_QuicheAuxPoireaux.label>
+  <!-- EN: {0_coll} sweated down until they turn almost translucent, bound with {1_plur} beaten with {2_plur}, in a case blind-baked in advance. -->
+  <FlavorTextFR_QuicheAuxPoireaux.description>慢火煸至近乎半透明的{0_coll}，與打勻的{1_plur}和{2_plur}混合，傾入預先盲烤定型的派皮中烘烤而成。</FlavorTextFR_QuicheAuxPoireaux.description>
+
+  <!-- EN: onion tart -->
+  <FlavorTextFR_TarteALOignon.label>法式洋蔥撻</FlavorTextFR_TarteALOignon.label>
+  <!-- EN: {0_coll} stewed an hour without taking any colour, mixed with smoked {2_plur} and spread over a shortcrust base. Alsatian or Lyonnais, according to the hand that made it. -->
+  <FlavorTextFR_TarteALOignon.description>小火慢煨一小時卻絕不焦黃的{0_coll}，拌入煙熏{2_plur}后鋪滿酥脆派底。究竟屬阿爾薩斯風味還是里昂風味，全看掌勺人的手筆。</FlavorTextFR_TarteALOignon.description>
+
+  <!-- EN: paté en cro?te -->
+  <FlavorTextFR_PateEnCroute.label>法式酥皮肉派</FlavorTextFR_PateEnCroute.label>
+  <!-- EN: a stuffing of {0_adj} and {2_adj} built into a terrine of pastry, baked with a chimney, then filled with jelly through that hole once it has cooled. Cut clean, cold, never warm. -->
+  <FlavorTextFR_PateEnCroute.description>將{0_adj}與{2_adj}制成的肉餡填入酥皮模具，頂留氣孔入爐烘烤，待放涼后再順著氣孔灌滿高湯凍。必須徹底冰透后利落切片，絕不可溫食。</FlavorTextFR_PateEnCroute.description>
+
+  <!-- EN: vol-au-vent -->
+  <FlavorTextFR_VolAuVent.label>法式千層酥盒</FlavorTextFR_VolAuVent.label>
+  <!-- EN: a puff pastry case so light it might fly away — hence the name — filled with {1_adj} and {2_adj} in a white sauce, and topped again with its own lid. -->
+  <FlavorTextFR_VolAuVent.description>輕盈得仿佛一陣風便能吹走的千層酥皮盒——法語原名即由此而來——內填白汁燴制的{1_adj}與{2_adj}，頂上再輕輕合回酥皮小蓋。</FlavorTextFR_VolAuVent.description>
+
+  <!-- EN: cheese soufflé -->
+  <FlavorTextFR_SouffleAuFromage.label>奶酪舒芙蕾</FlavorTextFR_SouffleAuFromage.label>
+  <!-- EN: a {2_adj} béchamel enriched with {0_plur} and yolks, lightened with whipped whites folded in with a spatula. You do not open the oven, and you do not keep the guests waiting: it is the soufflé that gives the orders. -->
+  <FlavorTextFR_SouffleAuFromage.description>拌入{0_plur}與蛋黃的醇厚{2_adj}白醬，再以刮刀輕柔翻拌入打發的蛋白霜。烘烤時絕不可打開爐門，出爐后更容不得賓客遲疑：在餐桌上發號施令的永遠是舒芙蕾自己。</FlavorTextFR_SouffleAuFromage.description>
+
+  <!-- EN: galette complète -->
+  <FlavorTextFR_GaletteComplete.label>布列塔尼全料蕎麥薄餅</FlavorTextFR_GaletteComplete.label>
+  <!-- EN: a {0_adj} galette filled with {2_plur}, {1_plur} and cheese, the four corners folded into a square around the yolk left whole. -->
+  <FlavorTextFR_GaletteComplete.description>鋪上{2_plur}、{1_plur}與奶酪的{0_adj}薄餅，四邊向內折成方框，將完整的流心蛋黃圍在中央。</FlavorTextFR_GaletteComplete.description>
+
+  <!-- EN: ficelle picarde -->
+  <FlavorTextFR_FicellePicarde.label>皮卡第火腿蘑菇可麗餅卷</FlavorTextFR_FicellePicarde.label>
+  <!-- EN: a pancake filled with {1_plur} and a {2_adj} duxelles, rolled, napped with cream and browned. The name comes from its shape, long and thin. -->
+  <FlavorTextFR_FicellePicarde.description>裹入{1_plur}與{2_adj}碎末濃醬的薄煎餅，卷成細筒后淋上奶油入爐焗至金黃。菜名意為“皮卡第細繩”，得名于它修長纖細的身形。</FlavorTextFR_FicellePicarde.description>
+
+</LanguageData>

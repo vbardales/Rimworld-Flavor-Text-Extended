@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: rice pudding -->
+  <FlavorTextFR_RizAuLait.label>法式奶香米布丁</FlavorTextFR_RizAuLait.label>
+  <!-- EN: {0_coll} cooked very slowly in vanilla {1_plur} until it gives up all its starch, with barely any {2_adj} added at the end. The grain has to fall apart under the spoon without ever turning to flour. -->
+  <FlavorTextFR_RizAuLait.description>{0_coll}在香草{1_plur}中極慢地熬煮至米粒析出全部淀粉，收尾時僅加少許{2_adj}。米粒必須在勺下輕觸即散，卻又絕不能熬成糊粉。</FlavorTextFR_RizAuLait.description>
+
+  <!-- EN: phirni -->
+  <FlavorTextFR_Phirni.label>印式豆蔻奶油米布丁</FlavorTextFR_Phirni.label>
+  <!-- EN: {0_coll} ground to a fine semolina before cooking, thickened with {1_plur} and scented with cardamom, served iced in an earthenware cup under a veil of {2_adj}. -->
+  <FlavorTextFR_Phirni.description>預先磨成細粒的{0_coll}，加{1_plur}慢熬至濃稠并調入小豆蔻賦香，盛在陶杯中冰鎮，表面覆一層薄薄的{2_adj}碎。</FlavorTextFR_Phirni.description>
+
+  <!-- EN: creamy mushroom rice -->
+  <FlavorTextFR_RizCremeuxChampignons.label>奶油蘑菇燴飯</FlavorTextFR_RizCremeuxChampignons.label>
+  <!-- EN: {0_coll} pearled in butter then moistened ladle after ladle, bound with {1_plur} off the heat. The panful of {2_adj} is done apart, or it gives up its water into the rice and everything turns soft. -->
+  <FlavorTextFR_RizCremeuxChampignons.description>{0_coll}先用黃油炒至晶瑩如珠，再一勺接一勺地添湯慢煨，離火后拌入{1_plur}收濃。滿鍋的{2_adj}必須另起一鍋單炒，否則菌菇出水滲入米中，整鍋飯便會徹底軟塌。</FlavorTextFR_RizCremeuxChampignons.description>
+
+  <!-- EN: cream of tomato -->
+  <FlavorTextFR_VelouteDeTomate.label>法式奶油番茄濃湯</FlavorTextFR_VelouteDeTomate.label>
+  <!-- EN: a purée of {0_adj} roasted before being blended, then mounted with {1_plur} and {2_plur} off the heat. The oven concentrates the sugar and erases the acidity, which no addition does half as well. -->
+  <FlavorTextFR_VelouteDeTomate.description>將先行烘烤過的{0_adj}攪打成泥，離火后拌入{1_plur}與{2_plur}乳化增稠。爐火的烘烤濃縮了糖分、抹去了尖酸，任何事后添加的調味都遠不及此法精妙。</FlavorTextFR_VelouteDeTomate.description>
+
+  <!-- EN: penne alla vodka -->
+  <FlavorTextFR_PenneAllaVodka.label>伏特加番茄奶油斜管面</FlavorTextFR_PenneAllaVodka.label>
+  <!-- EN: a {0_adj} sauce concentrated twice over, let down with {1_plur} and lifted by a splash of {2_adj}, which frees aromas that neither water nor fat reaches on its own. -->
+  <FlavorTextFR_PenneAllaVodka.description>雙重濃縮的{0_adj}醬汁，用{1_plur}調和柔化，再淋入一注{2_adj}提味，從而釋放出無論水或油脂都無法單獨觸及的深層香氣。</FlavorTextFR_PenneAllaVodka.description>
+
+  <!-- EN: murgh makhani -->
+  <FlavorTextFR_PouletAuBeurre.label>印式黃油雞</FlavorTextFR_PouletAuBeurre.label>
+  <!-- EN: {2_coll} marinated in yoghurt and grilled, then stewed in a {0_adj} sauce with fenugreek and softened with {1_plur}. Born in Delhi out of leftover tandoori that had to be stretched for the evening service. -->
+  <FlavorTextFR_PouletAuBeurre.description>酸奶腌制后炙烤的{2_coll}，放入加了葫蘆巴葉的{0_adj}醬汁中慢燉，最后以{1_plur}柔化口感。這道菜誕生于德里，最初只是為了將剩下的坦都里烤雞延展成足夠供應晚市的菜肴。</FlavorTextFR_PouletAuBeurre.description>
+
+  <!-- EN: rajas con crema -->
+  <FlavorTextFR_RajasConCrema.label>墨西哥奶油燴烤椒條</FlavorTextFR_RajasConCrema.label>
+  <!-- EN: strips of {0_adj} grilled black and then peeled, sweated down with {1_plur} and sweet {2_plur}. The burnt skin comes off by hand under running water, and that is all the work there is. -->
+  <FlavorTextFR_RajasConCrema.description>烤至焦黑后剝皮切條的{0_adj}，與{1_plur}和清甜的{2_plur}一同慢火煨軟。在流水下親手褪去焦皮，便是整道菜唯一的工夫。</FlavorTextFR_RajasConCrema.description>
+
+  <!-- EN: chicken paprikash -->
+  <FlavorTextFR_PouletPaprika.label>匈牙利紅椒奶油燉雞</FlavorTextFR_PouletPaprika.label>
+  <!-- EN: {2_coll} braised in a mild {0_adj} roux with a great deal of onion, bound with {1_plur} off the heat so that the sauce does not split. Paprika burns in three seconds: it goes in with the pan lifted away. -->
+  <FlavorTextFR_PouletPaprika.description>{2_coll}在加了大量洋蔥的溫和{0_adj}面糊底醬中燜煮，離火后拌入{1_plur}以防醬汁油水分離。甜椒粉受熱三秒即焦，因此必須將鍋端離火口后再行撒入。</FlavorTextFR_PouletPaprika.description>
+
+  <!-- EN: corn chowder -->
+  <FlavorTextFR_ChowderDeMais.label>奶油玉米巧達濃湯</FlavorTextFR_ChowderDeMais.label>
+  <!-- EN: a thick soup of {0_adj} and {2_adj} in dice, bound with {1_plur}, in which the cobs have boiled in the milk for half an hour before being lifted out. They are not eaten, but they give everything. -->
+  <FlavorTextFR_ChowderDeMais.description>以{0_adj}粒和{2_adj}丁熬成、并用{1_plur}增稠的濃湯；玉米芯先在牛奶中滾煮半小時后再撈出棄去。雖不入口，卻已將渾身滋味盡數奉獻。</FlavorTextFR_ChowderDeMais.description>
+
+  <!-- EN: green beans in cream -->
+  <FlavorTextFR_HaricotsVertsCreme.label>奶油燴四季豆</FlavorTextFR_HaricotsVertsCreme.label>
+  <!-- EN: {0_coll} blanched green and cooled straight down, then sweated in {1_plur} with a fondue of {2_adj}. Served with the roast, and standing in for the roast on the days there is none. -->
+  <FlavorTextFR_HaricotsVertsCreme.description>焯至翠綠后立即過涼的{0_coll}，再與慢火熬軟的{2_adj}一同在{1_plur}中煨透。平日里作烤肉的配菜，而在沒有烤肉的日子里，它自己便能撐起臺面。</FlavorTextFR_HaricotsVertsCreme.description>
+
+  <!-- EN: cream of white beans -->
+  <FlavorTextFR_VelouteHaricotsBlancs.label>白蕓豆奶油濃湯</FlavorTextFR_VelouteHaricotsBlancs.label>
+  <!-- EN: a purée of {0_adj} soaked the day before, mounted with {1_plur} and scented with {2_plur} confited in their own oil. It thickens as it cools: let it down with stock rather than water. -->
+  <FlavorTextFR_VelouteHaricotsBlancs.description>提前一天泡發的{0_adj}熬煮打泥，拌入{1_plur}乳化，并以油封慢熬的{2_plur}提香。湯體冷卻后會愈發濃稠，稀釋時務必用高湯而非清水。</FlavorTextFR_VelouteHaricotsBlancs.description>
+
+  <!-- EN: lamb korma -->
+  <FlavorTextFR_KormaDAgneau.label>印式皇家溫和燉羊肉</FlavorTextFR_KormaDAgneau.label>
+  <!-- EN: {0_coll} stewed over a dying flame in a paste of {2_adj} and cardamom, bound with {1_plur} at the very end. No chilli goes into it: the mildness is the subject of the dish, not its failing. -->
+  <FlavorTextFR_KormaDAgneau.description>{0_coll}在{2_adj}與小豆蔻研磨的濃醬中以微火慢燉，臨出鍋前拌入{1_plur}收攏。里頭不放半點辣椒——溫潤醇厚正是這道菜的主旨，而非它的缺憾。</FlavorTextFR_KormaDAgneau.description>
+
+  <!-- EN: peppers in cream -->
+  <FlavorTextFR_PoivronsALaCreme.label>奶油慢燴甜椒</FlavorTextFR_PoivronsALaCreme.label>
+  <!-- EN: {0_coll} cut into strips and melted down for an hour in {2_plur}, then bound with {1_plur} and a turn of the mill. They give up a great deal of water, so it is cooked uncovered from beginning to end. -->
+  <FlavorTextFR_PoivronsALaCreme.description>切條的{0_coll}與{2_plur}慢火熬煮一小時至軟爛融化，再拌入{1_plur}并擰上少許現磨胡椒。甜椒在烹煮時會滲出大量水分，故而自始至終都必須敞蓋熬制。</FlavorTextFR_PoivronsALaCreme.description>
+
+  <!-- EN: mizeria -->
+  <FlavorTextFR_Mizeria.label>波蘭酸奶油黃瓜沙拉</FlavorTextFR_Mizeria.label>
+  <!-- EN: {0_coll} sliced on the mandoline, drawn in coarse salt then drowned in sharp {1_plur}, {2_plur} and a great deal of dill. Eaten ice-cold, in summer, with warm potatoes. -->
+  <FlavorTextFR_Mizeria.description>用擦菜板刨成薄片的{0_coll}，先以粗鹽殺出水分，再浸入微酸的{1_plur}、{2_plur}與大把蒔蘿之中。夏日里冰鎮后上桌，最宜佐以溫熱的土豆。</FlavorTextFR_Mizeria.description>
+
+  <!-- EN: dal makhani -->
+  <FlavorTextFR_DalMakhani.label>印式黃油黑扁豆糊</FlavorTextFR_DalMakhani.label>
+  <!-- EN: black {0_coll} cooked a whole night over a dying fire, mounted with butter and {1_plur}, whole {2_plur} lifted out as it is served. The black comes from the time, not from any ingredient. -->
+  <FlavorTextFR_DalMakhani.description>黑{0_coll}在將熄的余燼上慢煨整夜，融入黃油與{1_plur}，盛盤前挑出整粒的{2_plur}。那深邃的墨色來自漫長的光陰，而非任何配料的染色。</FlavorTextFR_DalMakhani.description>
+
+  <!-- EN: cream of artichoke -->
+  <FlavorTextFR_CremeDArtichauts.label>洋薊奶油濃湯</FlavorTextFR_CremeDArtichauts.label>
+  <!-- EN: the bottoms of {0_adj} turned with a knife and then sweated, blended and mounted with {1_plur}, held white in {2_plur} so that they do not blacken between the knife and the pan. -->
+  <FlavorTextFR_CremeDArtichauts.description>用刀修旋出{0_adj}底托，慢火煸軟后攪打成泥，并拌入{1_plur}乳化；修切后需浸在{2_plur}水中護色，以免在從刀下到入鍋的間隙里氧化發黑。</FlavorTextFR_CremeDArtichauts.description>
+
+  <!-- EN: aubergines in cream -->
+  <FlavorTextFR_AuberginesALaCreme.label>炭香奶油茄泥</FlavorTextFR_AuberginesALaCreme.label>
+  <!-- EN: {0_coll} burnt over the flame until the skin gives way, the flesh crushed with a fork and mounted with {1_plur} and raw {2_plur}. The smoke comes from the skin, which is thrown away all the same. -->
+  <FlavorTextFR_AuberginesALaCreme.description>{0_coll}在明火上炙烤至外皮焦裂，刮出果肉用叉子搗碎，再拌入{1_plur}與生{2_plur}碎。那股迷人的煙熏味全來自焦皮，盡管外皮最終還是會被棄去。</FlavorTextFR_AuberginesALaCreme.description>
+
+  <!-- EN: cream of squash -->
+  <FlavorTextFR_VelouteDeCourge.label>南瓜奶油濃湯</FlavorTextFR_VelouteDeCourge.label>
+  <!-- EN: {0_coll} roasted in halves face down on the tray, scraped out with a spoon when it collapses, blended with {1_plur} and lifted with {2_plur} and nutmeg grated over at the last moment. -->
+  <FlavorTextFR_VelouteDeCourge.description>對半切開的{0_coll}切面朝下扣在烤盤上烘至軟塌，用勺子刮出果肉，加{1_plur}攪打細膩，再以{2_plur}提味，并在上桌前一刻現磨少許肉豆蔻。</FlavorTextFR_VelouteDeCourge.description>
+
+  <!-- EN: coconut panna cotta -->
+  <FlavorTextFR_PannaCottaCoco.label>椰香意式奶凍</FlavorTextFR_PannaCottaCoco.label>
+  <!-- EN: {1_coll} brought to a tremble with grated {0_plur} and barely any {2_adj}, set with gelatine and then turned out. It has to tremble when the plate is set down; firm, it has failed. -->
+  <FlavorTextFR_PannaCottaCoco.description>{1_coll}加入細碎的{0_plur}與少許{2_adj}煮至微沸輕顫，靠吉利丁凝結后脫模扣出。端上桌落盤時，奶凍必須微微顫動；若是凝得僵硬，便算失敗了。</FlavorTextFR_PannaCottaCoco.description>
+
+</LanguageData>

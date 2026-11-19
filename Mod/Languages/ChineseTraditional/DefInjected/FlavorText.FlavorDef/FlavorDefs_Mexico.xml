@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: mole poblano -->
+  <FlavorTextFR_MolePoblano.label>普埃布拉莫萊醬燉肉</FlavorTextFR_MolePoblano.label>
+  <!-- EN: a black-brown sauce in which toasted {0_coll}, {1_coll} and a score of other things are ground and then stewed for hours, poured over {2_coll}. The chocolate does not sweeten it: it thickens and darkens it. -->
+  <FlavorTextFR_MolePoblano.description>烘香的{0_coll}、{1_coll}與二十余種配料一同研磨，慢熬數小時成黑褐色的醇厚濃醬，澆在{2_coll}上。其中的巧克力并非為了增甜，而是為了賦其濃稠質地與深邃色澤。</FlavorTextFR_MolePoblano.description>
+
+  <!-- EN: cochinita pibil -->
+  <FlavorTextFR_CochinitaPibil.label>尤卡坦地爐慢烤豬肉</FlavorTextFR_CochinitaPibil.label>
+  <!-- EN: {0_coll} marinated in bitter {1_plur} and {2_plur} of annatto that dye it orange, wrapped in banana leaves and cooked buried in the ground. Pib means pit. -->
+  <FlavorTextFR_CochinitaPibil.description>{0_coll}用酸苦的{1_plur}與將其染成橙紅的紅木籽{2_plur}腌透，裹進香蕉葉中埋入地下慢烤熟透。“Pib”在瑪雅語中便是“地爐”之意。</FlavorTextFR_CochinitaPibil.description>
+
+  <!-- EN: chiles en nogada -->
+  <FlavorTextFR_ChilesEnNogada.label>核桃白醬釀青椒</FlavorTextFR_ChilesEnNogada.label>
+  <!-- EN: {0_coll} stuffed with minced {2_plur} and fruit, napped with a cream of fresh {1_adj} and seeded with pomegranate. Green, white, red: the flag, served on a plate. -->
+  <FlavorTextFR_ChilesEnNogada.description>{0_coll}塞滿剁碎的{2_plur}與果脯，淋上鮮{1_adj}磨成的濃白奶醬，再撒上紅寶石般的石榴籽。綠、白、紅三色輝映：恰似將一面墨西哥國旗端上了餐盤。</FlavorTextFR_ChilesEnNogada.description>
+
+  <!-- EN: tinga -->
+  <FlavorTextFR_Tinga.label>廷加煙熏辣味手撕雞</FlavorTextFR_Tinga.label>
+  <!-- EN: {0_coll} pulled into threads and stewed in a smoky {1_adj} sauce with chillies in adobo, with {2_coll} in slivers. Served on a tostada, never on a plate. -->
+  <FlavorTextFR_Tinga.description>撕成細絲的{0_coll}同切絲的{2_coll}在加了阿多波煙熏辣椒的濃郁{1_adj}醬汁中慢燉。只鋪在烤脆的玉米薄餅上享用，絕不單盛在盤子里。</FlavorTextFR_Tinga.description>
+
+  <!-- EN: quesadilla -->
+  <FlavorTextFR_Quesadilla.label>墨西哥芝士餡餅</FlavorTextFR_Quesadilla.label>
+  <!-- EN: a {0_adj} tortilla folded over {1_coll} and {2_coll}, seared dry until the cheese pulls when it is opened. In Mexico City they ask whether you want cheese in it; the rest of the country finds the question absurd. -->
+  <FlavorTextFR_Quesadilla.description>{0_adj}薄餅折起包裹住{1_coll}與{2_coll}，在鍋上干烙至掰開時奶酪拉出長絲。在墨西哥城，店家會問你芝士餅里要不要加芝士；而在全國其他地方，人們覺得這問題荒謬透頂。</FlavorTextFR_Quesadilla.description>
+
+  <!-- EN: sopa de lima -->
+  <FlavorTextFR_SopaDeLima.label>尤卡坦青檸雞湯</FlavorTextFR_SopaDeLima.label>
+  <!-- EN: a {0_adj} broth sharpened with {1_plur}, garnished with strips of fried {2_adj} that soften as you eat. So you eat fast. -->
+  <FlavorTextFR_SopaDeLima.description>以{1_plur}提鮮增酸的清亮{0_adj}湯，上面撒著炸脆的{2_adj}餅條，泡在湯里邊吃邊軟。所以動勺必須趁快。</FlavorTextFR_SopaDeLima.description>
+
+  <!-- EN: birria -->
+  <FlavorTextFR_Birria.label>比利亞香辣燉肉</FlavorTextFR_Birria.label>
+  <!-- EN: {0_coll} cooked smothered in an adobo of {1_adj} and {2_adj} until it comes apart in threads. The juices it gives up are kept aside: everything else is dipped into them. -->
+  <FlavorTextFR_Birria.description>{0_coll}裹滿由{1_adj}與{2_adj}調成的阿多波腌醬，密封慢燉至肉絲一撥即散。燉出的醇厚原湯特意盛在一旁：席間萬物皆要蘸這碗紅湯才夠味。</FlavorTextFR_Birria.description>
+
+  <!-- EN: chilaquiles -->
+  <FlavorTextFR_Chilaquiles.label>奇拉基萊斯燴玉米片</FlavorTextFR_Chilaquiles.label>
+  <!-- EN: yesterday's {0_adj} tortillas, cut, fried, then drowned in a {1_adj} sauce just long enough to soften without dissolving, with {2_coll} over the top. The breakfast of difficult mornings. -->
+  <FlavorTextFR_Chilaquiles.description>隔夜的{0_adj}薄餅切塊炸脆，浸入{1_adj}醬汁中微煮，把握在剛好回軟而未化散的火候，上面再蓋上{2_coll}。這是撫慰艱難清晨的救命早餐。</FlavorTextFR_Chilaquiles.description>
+
+  <!-- EN: carnitas -->
+  <FlavorTextFR_Carnitas.label>卡尼塔斯油封慢燉豬肉</FlavorTextFR_Carnitas.label>
+  <!-- EN: {0_coll} confited for hours in {1_plur} with {2_coll}, then brought up in temperature at the end to crisp the edges. Tender within, brittle without, in the same piece. -->
+  <FlavorTextFR_Carnitas.description>{0_coll}加{2_coll}浸沒在{1_plur}中低溫油封慢燉數小時，最后催高油溫將邊緣炸至焦脆。同一塊肉上，內里酥爛多汁，外皮卻脆若琉璃。</FlavorTextFR_Carnitas.description>
+
+</LanguageData>
