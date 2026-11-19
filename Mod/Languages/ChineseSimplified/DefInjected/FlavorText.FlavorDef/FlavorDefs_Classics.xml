@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: steak au poivre -->
+  <FlavorTextFR_SteakAuPoivre.label>黑椒牛排</FlavorTextFR_SteakAuPoivre.label>
+  <!-- EN: a cut of {0_adj} pressed into cracked pepper before it is seared, the pan deglazed with cognac and mounted with {2_plur}. The pepper has to be crushed, never ground. -->
+  <FlavorTextFR_SteakAuPoivre.description>一块压满粗碎胡椒后猛火香煎的{0_adj}，锅底以干邑白兰地激香脱釉，再汇入{2_plur}收浓成汁。胡椒必须压碎，绝不可磨成细粉。</FlavorTextFR_SteakAuPoivre.description>
+
+  <!-- EN: entrecôte bordelaise -->
+  <FlavorTextFR_EntrecoteBordelaise.label>波尔多风味肋眼牛排</FlavorTextFR_EntrecoteBordelaise.label>
+  <!-- EN: {0_coll} grilled over vine cuttings, napped with a reduction of red {1_adj} and shallot, with poached rounds of marrow laid over it at the last moment. -->
+  <FlavorTextFR_EntrecoteBordelaise.description>在葡萄藤枝炭火上炙烤的{0_coll}，淋上红{1_adj}与红葱头慢熬收浓的酱汁，上桌前最后一刻铺上几片白灼牛骨髓。</FlavorTextFR_EntrecoteBordelaise.description>
+
+  <!-- EN: bavette with shallots -->
+  <FlavorTextFR_BavetteEchalote.label>红葱黄油牛腹排</FlavorTextFR_BavetteEchalote.label>
+  <!-- EN: {0_coll} seared very fast and served rare — cooked any further it becomes uneatable — under {1_adj} melted down in {2_plur} and vinegar. -->
+  <FlavorTextFR_BavetteEchalote.description>猛火快煎、带着三分熟血色上桌的{0_coll}——再多煎片刻便咬不动了——表面铺满用{2_plur}和醋慢火熬化至软烂的{1_adj}。</FlavorTextFR_BavetteEchalote.description>
+
+  <!-- EN: tournedos Rossini -->
+  <FlavorTextFR_TournedosRossini.label>罗西尼牛柳</FlavorTextFR_TournedosRossini.label>
+  <!-- EN: a medallion of {0_adj} on a crouton, crowned with a fried escalope of {1_adj} and slivers of {2_adj}, the whole moistened with a madeira sauce. Attributed to the composer, who is said to have demanded it of his cook. -->
+  <FlavorTextFR_TournedosRossini.description>垫在香脆吐司上的厚切圆形{0_adj}，顶上冠以一片香煎{1_adj}与数片{2_adj}，通体淋满马德拉酒汁。相传这道名菜出自作曲家罗西尼向自家厨师的苛求。</FlavorTextFR_TournedosRossini.description>
+
+  <!-- EN: bœuf à la mode -->
+  <FlavorTextFR_BoeufMode.label>法式古法焖牛肉</FlavorTextFR_BoeufMode.label>
+  <!-- EN: a cut of {0_adj} larded and barded, braised whole with {1_coll} and {2_coll} and a calf's foot that sets the juices to jelly once cold. -->
+  <FlavorTextFR_BoeufMode.description>穿入肥膘、外裹油脂的大块{0_adj}，与{1_coll}、{2_coll}及一只小牛蹄整块同焖；待冷却后，牛蹄析出的胶质便将肉汁凝作晶莹的肉冻。</FlavorTextFR_BoeufMode.description>
+
+  <!-- EN: bœuf miroton -->
+  <FlavorTextFR_BoeufMiroton.label>米罗东洋葱烩牛肉</FlavorTextFR_BoeufMiroton.label>
+  <!-- EN: the {0_adj} left over from the pot-au-feu, sliced and reheated in a {1_adj} sauce with vinegar and mustard. A dish born of thrift and kept on for the taste of it. -->
+  <FlavorTextFR_BoeufMiroton.description>法式火上锅吃剩的{0_adj}，切片后在加了香醋与芥末的{1_adj}酱汁中回锅煨热。这是一道源于节俭、却因风味绝佳而世代流传的家常菜。</FlavorTextFR_BoeufMiroton.description>
+
+  <!-- EN: tongue in sauce piquante -->
+  <FlavorTextFR_LangueSaucePiquante.label>酸辣酱烩口条</FlavorTextFR_LangueSaucePiquante.label>
+  <!-- EN: {0_coll} poached for hours then peeled while still hot — cold, the skin will not come away — served under a {1_adj} sauce with vinegar and gherkins. -->
+  <FlavorTextFR_LangueSaucePiquante.description>慢火微沸数小时后趁热剥去舌苔的{0_coll}——一旦放凉，外皮便再也揭不下来——淋上调入香醋与酸黄瓜的{1_adj}酸辣浓汁上桌。</FlavorTextFR_LangueSaucePiquante.description>
+
+  <!-- EN: tête de veau sauce gribiche -->
+  <FlavorTextFR_TeteDeVeauGribiche.label>格里比什酱佐小牛头肉</FlavorTextFR_TeteDeVeauGribiche.label>
+  <!-- EN: {0_coll} rolled and poached in a white broth, served warm under a sauce built on hard-boiled {1_adj} yolks, lifted with capers and herbs. You either eat it or you do not; there is no middle ground. -->
+  <FlavorTextFR_TeteDeVeauGribiche.description>卷起后在白汤中慢火煨熟的{0_coll}，温热上桌，佐以用全熟{1_adj}黄打底、刺山柑与香草提鲜的冷乳化酱。这道菜要么让人甘之如饴，要么让人退避三舍，绝无折中之道。</FlavorTextFR_TeteDeVeauGribiche.description>
+
+  <!-- EN: tripes à la mode de Caen -->
+  <FlavorTextFR_TripesModeDeCaen.label>卡昂风味炖牛肚</FlavorTextFR_TripesModeDeCaen.label>
+  <!-- EN: {0_coll} and an ox foot shut into a tripe pot sealed with pastry, with {1_coll} and {2_coll}, and left in the oven for ten hours. -->
+  <FlavorTextFR_TripesModeDeCaen.description>将{0_coll}与一只牛蹄，连同{1_coll}和{2_coll}一并装入特制陶瓮，以面团封死瓮口，送入炉中慢煨十个小时。</FlavorTextFR_TripesModeDeCaen.description>
+
+  <!-- EN: tablier de sapeur -->
+  <FlavorTextFR_TriplesLyonnaises.label>里昂工兵围裙炸牛肚</FlavorTextFR_TriplesLyonnaises.label>
+  <!-- EN: a piece of {0_adj} marinated in white wine, crumbed with {1_plur} and breadcrumbs, then grilled. The name comes from a marshal of Lyon who had been a sapper in his youth. -->
+  <FlavorTextFR_TriplesLyonnaises.description>白葡萄酒腌制入味的{0_adj}，裹上{1_plur}液与面包糠后炙烤至金黄酥脆。菜名意为“工兵围裙”，典出一位年轻时当过工兵的里昂元帅。</FlavorTextFR_TriplesLyonnaises.description>
+
+  <!-- EN: pieds et paquets -->
+  <FlavorTextFR_PiedsEtPaquets.label>马赛羊肚包炖羊蹄</FlavorTextFR_PiedsEtPaquets.label>
+  <!-- EN: squares of {0_adj} stuffed with {2_plur}, garlic and parsley, sewn shut one by one, and stewed in {1_plur} with lamb's trotters. Marseille and Sisteron each claim it as their own. -->
+  <FlavorTextFR_PiedsEtPaquets.description>将一方方{0_adj}填入{2_plur}、蒜末与欧芹，逐一缝合后与羊蹄同入{1_plur}汤汁中慢炖。马赛与锡斯特龙至今仍在争夺它的正统名号。</FlavorTextFR_PiedsEtPaquets.description>
+
+  <!-- EN: kidneys in mustard -->
+  <FlavorTextFR_RognonsMoutarde.label>芥末奶油烩腰花</FlavorTextFR_RognonsMoutarde.label>
+  <!-- EN: {0_coll} trimmed of its fat, sliced and seared over a high flame for a few seconds only, the sauce bound with {1_plur} and {2_plur} off the heat — boiled mustard turns bitter. -->
+  <FlavorTextFR_RognonsMoutarde.description>剔净脂膜的{0_coll}切片后猛火快煎数秒，离火后调入{1_plur}与{2_plur}收拢酱汁——芥末一旦煮沸便会发苦。</FlavorTextFR_RognonsMoutarde.description>
+
+  <!-- EN: calf's liver with parsley -->
+  <FlavorTextFR_FoieDeVeauPersille.label>欧芹焦化黄油煎牛肝</FlavorTextFR_FoieDeVeauPersille.label>
+  <!-- EN: a slice of {0_adj} fried in {2_plur} cooked to hazelnut, one minute a side, then thrown into finely chopped {1_plur} and parsley. -->
+  <FlavorTextFR_FoieDeVeauPersille.description>在熬出榛果香气的{2_plur}中两面各煎一分钟的厚片{0_adj}，起锅前撒入大把切碎的{1_plur}与欧芹。</FlavorTextFR_FoieDeVeauPersille.description>
+
+  <!-- EN: sweetbreads with morels -->
+  <FlavorTextFR_RisDeVeauAuxMorilles.label>羊肚菌奶油烩小牛胸腺</FlavorTextFR_RisDeVeauAuxMorilles.label>
+  <!-- EN: {0_coll} soaked out, blanched, pressed under a weight overnight, then gilded in butter and served with {1_coll} and a {2_adj} sauce. -->
+  <FlavorTextFR_RisDeVeauAuxMorilles.description>泡尽血水、焯烫后重压过夜的{0_coll}，以黄油煎至金黄，搭配{1_coll}与醇厚的{2_adj}酱汁一同上桌。</FlavorTextFR_RisDeVeauAuxMorilles.description>
+
+  <!-- EN: andouillette and chips -->
+  <FlavorTextFR_AndouilletteFrites.label>法式猪肚肠配薯条</FlavorTextFR_AndouilletteFrites.label>
+  <!-- EN: an andouillette grilled until the skin splits open, with {1_coll} in batons and a spoonful of mustard. You either love it or you leave the table. -->
+  <FlavorTextFR_AndouilletteFrites.description>烤到肠衣爆裂的法式猪肚肠，配上切成粗条的{1_coll}与一勺芥末酱。这道菜要么让人爱不释口，要么让人掩鼻离席。</FlavorTextFR_AndouilletteFrites.description>
+
+  <!-- EN: salt pork with lentils -->
+  <FlavorTextFR_PetitSaleAuxLentilles.label>兵豆炖咸猪肉</FlavorTextFR_PetitSaleAuxLentilles.label>
+  <!-- EN: {0_coll} salted in coarse salt and then soaked out overnight, stewed with {1_coll} and {2_coll}. The lentils are never salted before the end, or they stay hard. -->
+  <FlavorTextFR_PetitSaleAuxLentilles.description>粗盐腌透又彻夜泡去多余咸味的{0_coll}，与{1_coll}和{2_coll}一同慢火细炖。出锅前绝不可给兵豆加盐，否则豆粒便煮不软烂。</FlavorTextFR_PetitSaleAuxLentilles.description>
+
+  <!-- EN: palette à la diable -->
+  <FlavorTextFR_PaletteALaDiable.label>魔鬼风味芥末烤猪肩肉</FlavorTextFR_PaletteALaDiable.label>
+  <!-- EN: smoked {0_coll} poached, painted over with {1_plur} and breadcrumbs, then run under the grill until it crusts. À la diable means only this: mustarded and scalding. -->
+  <FlavorTextFR_PaletteALaDiable.description>先经微沸慢煮的烟熏{0_coll}，表面刷满{1_plur}并裹上面包糠，再送入明火下炙烤出酥脆硬壳。所谓“魔鬼风味”无非如此：辛辣呛鼻，滚烫灼口。</FlavorTextFR_PaletteALaDiable.description>
+
+  <!-- EN: ham à la chablisienne -->
+  <FlavorTextFR_JambonChablisienne.label>夏布利白兰地奶油焗火腿</FlavorTextFR_JambonChablisienne.label>
+  <!-- EN: thick slices of {0_adj} napped with a reduction of white {1_adj} and shallot, mounted with {2_plur}, then glazed under the grill. -->
+  <FlavorTextFR_JambonChablisienne.description>厚切{0_adj}淋上白{1_adj}与红葱头收浓的酱汁，拌入{2_plur}增稠后，送入烤炉炙出亮泽的金黄焦面。</FlavorTextFR_JambonChablisienne.description>
+
+  <!-- EN: roast bird -->
+  <FlavorTextFR_PouletRoti.label>法式烤整禽</FlavorTextFR_PouletRoti.label>
+  <!-- EN: a whole bird rubbed with {1_plur} and {2_plur}, roasted turned onto each thigh in turn before it finishes on its back. The juice that runs from the carcass at carving is worth any sauce. -->
+  <FlavorTextFR_PouletRoti.description>涂满{1_plur}与{2_plur}的整只家禽，入炉先轮流侧卧烘烤两腿，最后仰面烤至金黄。切肉时从腔骨间涌出的原汁，胜过世间一切酱料。</FlavorTextFR_PouletRoti.description>
+
+  <!-- EN: poulet basquaise -->
+  <FlavorTextFR_PouletBasquaise.label>巴斯克甜椒炖鸡</FlavorTextFR_PouletBasquaise.label>
+  <!-- EN: {0_coll} gilded then stewed in a fondue of {1_adj} and {2_adj} lifted with Espelette pepper, which bites just enough to be noticed. -->
+  <FlavorTextFR_PouletBasquaise.description>煎至金黄的{0_coll}，浸入慢火熬成浓酱的{1_adj}与{2_adj}中细炖，再以埃斯佩莱特辣椒提味，留下一抹恰到好处的微辛。</FlavorTextFR_PouletBasquaise.description>
+
+  <!-- EN: chicken chasseur -->
+  <FlavorTextFR_PouletChasseur.label>猎人风味炖鸡</FlavorTextFR_PouletChasseur.label>
+  <!-- EN: {0_coll} fried and then stewed with {1_plur}, {2_plur} and tarragon, in a sauce deglazed with white wine. -->
+  <FlavorTextFR_PouletChasseur.description>煎香后与{1_plur}、{2_plur}及龙蒿同炖的{0_coll}，锅底以白葡萄酒激香收成浓汁。</FlavorTextFR_PouletChasseur.description>
+
+  <!-- EN: chicken with tarragon -->
+  <FlavorTextFR_PouletALEstragon.label>龙蒿奶油炖鸡</FlavorTextFR_PouletALEstragon.label>
+  <!-- EN: {0_coll} poached in white wine, the sauce reduced and bound with {1_plur}, scented with {2_plur} added in two goes: during the cooking, then raw at the end. -->
+  <FlavorTextFR_PouletALEstragon.description>在白葡萄酒中微沸慢煮的{0_coll}，汤汁收浓后汇入{1_plur}，再分两次添入{2_plur}赋香：一次在炖煮途中，一次在起锅前生撒。</FlavorTextFR_PouletALEstragon.description>
+
+  <!-- EN: poulet vallée d'Auge -->
+  <FlavorTextFR_PouletValleeDAuge.label>奥日谷苹果酒炖鸡</FlavorTextFR_PouletValleeDAuge.label>
+  <!-- EN: {0_coll} flamed with calvados, stewed in cider with {1_coll} taken in butter, the sauce finished with thick {2_plur}. -->
+  <FlavorTextFR_PouletValleeDAuge.description>用卡尔瓦多斯苹果白兰地点火炙香的{0_coll}，加入黄油煎过的{1_coll}在苹果酒中慢炖，最后调入醇厚的{2_plur}收汁。</FlavorTextFR_PouletValleeDAuge.description>
+
+  <!-- EN: coq au riesling -->
+  <FlavorTextFR_CoqAuRiesling.label>雷司令白葡萄酒炖鸡</FlavorTextFR_CoqAuRiesling.label>
+  <!-- EN: the Alsatian version, in white wine: {0_coll} stewed in dry {1_plur}, the sauce bound with {2_plur}. Served with noodles, never with potatoes. -->
+  <FlavorTextFR_CoqAuRiesling.description>用白葡萄酒烹制的阿尔萨斯版本：在干型{1_plur}中慢炖的{0_coll}，汤汁以{2_plur}收拢增稠。佐餐必配鸡蛋面，绝不配土豆。</FlavorTextFR_CoqAuRiesling.description>
+
+  <!-- EN: duck à l'orange -->
+  <FlavorTextFR_CanardALOrange.label>法式香橙烤鸭</FlavorTextFR_CanardALOrange.label>
+  <!-- EN: {0_coll} roasted and served under a bigarade sauce: a {2_adj} caramel slaked with vinegar, let down with the juice of bitter {1_adj} and the roasting juices. -->
+  <FlavorTextFR_CanardALOrange.description>炉烤而成的{0_coll}，淋上经典的苦橙酱汁：以香醋激开的{2_adj}焦糖，兑入苦{1_adj}鲜汁与烤肉原汁慢熬而成。</FlavorTextFR_CanardALOrange.description>
+
+  <!-- EN: duck with turnips -->
+  <FlavorTextFR_CanardAuxNavets.label>芜菁焖鸭</FlavorTextFR_CanardAuxNavets.label>
+  <!-- EN: {0_coll} braised with {1_coll} glazed in the rendered fat and whole {2_coll}. The turnip drinks up the fat of the duck: that is the whole pairing. -->
+  <FlavorTextFR_CanardAuxNavets.description>{0_coll}与吸饱了析出鸭油而泛起亮泽的{1_coll}、整颗{2_coll}一同慢焖。芜菁尽数饮下鸭肉的丰腴油脂：这便是整道菜相得益彰的奥秘。</FlavorTextFR_CanardAuxNavets.description>
+
+  <!-- EN: duck with olives -->
+  <FlavorTextFR_CanardAuxOlives.label>青橄榄焖鸭</FlavorTextFR_CanardAuxOlives.label>
+  <!-- EN: {0_coll} braised in a {2_adj} stock, with {1_coll} blanched to draw out their salt before they go in. -->
+  <FlavorTextFR_CanardAuxOlives.description>在{2_adj}高汤中慢焖的{0_coll}，配以入锅前先经焯水拔除多余咸味的{1_coll}。</FlavorTextFR_CanardAuxOlives.description>
+
+  <!-- EN: {0_adj} navarin -->
+  <FlavorTextFR_NavarinDAgneau.label>纳瓦兰春蔬炖{0_adj}</FlavorTextFR_NavarinDAgneau.label>
+  <!-- EN: {0_coll} seared then dusted with a little flour, braised with {1_coll} and {2_coll} cut into cloves. The name is said to come from the turnip, or from the battle — both versions circulate. -->
+  <FlavorTextFR_NavarinDAgneau.description>煎上色后略撒薄粉的{0_coll}，与{1_coll}及削成蒜瓣状的{2_coll}一同慢焖。据说菜名源于法语的“芜菁”，亦有人说是为了纪念纳瓦里诺海战——两种说法至今并存。</FlavorTextFR_NavarinDAgneau.description>
+
+  <!-- EN: leg of {0_adj} -->
+  <FlavorTextFR_GigotDAgneau.label>蒜香烤{0_adj}腿</FlavorTextFR_GigotDAgneau.label>
+  <!-- EN: a whole leg stuck with {1_plur} and roasted, basted with {2_plur} every ten minutes. It is carved parallel to the bone, in fine slices. -->
+  <FlavorTextFR_GigotDAgneau.description>嵌满{1_plur}入炉炙烤的整只后腿，每隔十分钟便浇淋一次{2_plur}。上桌时顺着骨头的方向片成薄片。</FlavorTextFR_GigotDAgneau.description>
+
+  <!-- EN: seven-hour lamb -->
+  <FlavorTextFR_AgneauDeSeptHeures.label>七小时慢烤羊肩</FlavorTextFR_AgneauDeSeptHeures.label>
+  <!-- EN: a shoulder cooked so long and so gently in {1_plur} and {2_plur} that it can be eaten with a spoon. It is also called lamb à la cuiller, for exactly that reason. -->
+  <FlavorTextFR_AgneauDeSeptHeures.description>在{1_plur}与{2_plur}中以微火漫长煨烤的整块羊肩，酥烂得直接能用勺子挖着吃。正因如此，它又得名“勺食羊肉”。</FlavorTextFR_AgneauDeSeptHeures.description>
+
+  <!-- EN: {0_adj} civet -->
+  <FlavorTextFR_CivetDeLapin.label>红酒血汁炖{0_adj}</FlavorTextFR_CivetDeLapin.label>
+  <!-- EN: {0_coll} marinated and then braised in {1_plur}, the sauce bound with the animal's own blood off the heat. That is what parts a civet from a plain stew. -->
+  <FlavorTextFR_CivetDeLapin.description>先经腌制再入{1_plur}慢焖的{0_coll}，离火后以猎物自身的鲜血收浓酱汁。这正是法式血汁炖肉与寻常炖菜的分水岭。</FlavorTextFR_CivetDeLapin.description>
+
+  <!-- EN: rabbit with prunes -->
+  <FlavorTextFR_LapinAuxPruneaux.label>西梅干炖兔肉</FlavorTextFR_LapinAuxPruneaux.label>
+  <!-- EN: {0_coll} stewed in {2_plur} with dried {1_coll} swollen back up in water, which fall apart at the end of the cooking and sweeten the sauce by themselves. -->
+  <FlavorTextFR_LapinAuxPruneaux.description>在{2_plur}中与泡发后的{1_coll}干一同慢炖的{0_coll}；炖至尾声，果干化入汤中，不加糖便为酱汁染上一抹温润甘甜。</FlavorTextFR_LapinAuxPruneaux.description>
+
+  <!-- EN: {0_coll} grand veneur -->
+  <FlavorTextFR_SauceGrandVeneur.label>皇家猎官酱佐{0_coll}</FlavorTextFR_SauceGrandVeneur.label>
+  <!-- EN: a piece of game served under a poivrade mounted with {2_plur} and softened with a spoonful of {1_adj} jelly. The sauce of the grand veneur, the officer charged with the royal hunts. -->
+  <FlavorTextFR_SauceGrandVeneur.description>一块淋上胡椒浓汁的野味，酱汁以{2_plur}增稠，又调入一勺{1_adj}果冻柔化锋芒。所谓“大猎官酱”，得名于昔日掌管法国王室围猎的重臣。</FlavorTextFR_SauceGrandVeneur.description>
+
+  <!-- EN: quail with grapes -->
+  <FlavorTextFR_CaillesAuxRaisins.label>葡萄烤鹌鹑</FlavorTextFR_CaillesAuxRaisins.label>
+  <!-- EN: small birds barded and roasted fast, deglazed with verjuice, with {1_coll} peeled and warmed through in {2_plur} just before serving. -->
+  <FlavorTextFR_CaillesAuxRaisins.description>裹上肥膘猛火快烤的小型禽鸟，锅底以酸葡萄汁脱釉，上桌前配以去皮后在{2_plur}中温热的{1_coll}。</FlavorTextFR_CaillesAuxRaisins.description>
+
+</LanguageData>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: steamed pork with water chestnuts -->
+  <FlavorTextFR_PorcVapeurChataigneDEau.label>马蹄蒸肉饼</FlavorTextFR_PorcVapeurChataigneDEau.label>
+  <!-- EN: {1_coll} chopped with a knife and worked in one direction only until it turns elastic, {0_coll} in small dice through it, the whole spread into a cake and steamed over the rice. -->
+  <FlavorTextFR_PorcVapeurChataigneDEau.description>{1_coll}用刀剁碎后顺着同一个方向搅打上劲，拌入切作细丁的{0_coll}，平铺成肉饼架在米饭上方一同蒸熟。</FlavorTextFR_PorcVapeurChataigneDEau.description>
+
+  <!-- EN: pork and water chestnut dumplings -->
+  <FlavorTextFR_JiaoziPorcChataigneDEau.label>马蹄猪肉水饺</FlavorTextFR_JiaoziPorcChataigneDEau.label>
+  <!-- EN: a {1_adj} stuffing in which chopped {0_coll} bring the crunch that meat alone never gives, shut inside discs of dough pleated by hand. -->
+  <FlavorTextFR_JiaoziPorcChataigneDEau.description>{1_adj}馅里拌入切碎的{0_coll}，带来纯肉馅绝难企及的清脆口感，包进手工捏褶的圆面皮中。</FlavorTextFR_JiaoziPorcChataigneDEau.description>
+
+  <!-- EN: prawn and water chestnut dumplings -->
+  <FlavorTextFR_JiaoziCrevettesChataigneDEau.label>马蹄鲜虾饺</FlavorTextFR_JiaoziCrevettesChataigneDEau.label>
+  <!-- EN: {1_coll} left in large pieces rather than ground down, mixed with {0_plur} in dice. Two textures that crack, each in its own way. -->
+  <FlavorTextFR_JiaoziCrevettesChataigneDEau.description>保留大颗粒而不剁成泥的{1_coll}，拌入切丁的{0_plur}。两种截然不同的爽脆在齿间各自迸发。</FlavorTextFR_JiaoziCrevettesChataigneDEau.description>
+
+  <!-- EN: water chestnut siu mai -->
+  <FlavorTextFR_SiuMaiChataigneDEau.label>马蹄鲜虾烧卖</FlavorTextFR_SiuMaiChataigneDEau.label>
+  <!-- EN: {1_coll} and {2_coll} together in a yellow wrapper opened into a collar, with {0_coll} chopped through it. Cooked in stacked bamboo baskets, and served first at dim sum. -->
+  <FlavorTextFR_SiuMaiChataigneDEau.description>{1_coll}与{2_coll}拌入碎{0_coll}，包进敞口如花领的黄面皮中。置于层层叠起的竹笼里蒸熟，是粤式早茶里打头阵的点心。</FlavorTextFR_SiuMaiChataigneDEau.description>
+
+  <!-- EN: water chestnut spring rolls -->
+  <FlavorTextFR_RouleauxChataigneDEau.label>马蹄春卷</FlavorTextFR_RouleauxChataigneDEau.label>
+  <!-- EN: {2_coll} and {0_coll} finely sliced, rolled tight in a sheet of pastry and fried to a golden brown. The crunch comes from the inside as much as from the crust. -->
+  <FlavorTextFR_RouleauxChataigneDEau.description>{2_coll}与{0_coll}切作细丝，用薄春卷皮紧紧卷起，下锅炸至金黄酥脆。那一口咔嚓声既来自外皮，也同样来自内馅。</FlavorTextFR_RouleauxChataigneDEau.description>
+
+  <!-- EN: moo goo gai pan -->
+  <FlavorTextFR_MooGooGaiPan.label>蘑菇鸡片</FlavorTextFR_MooGooGaiPan.label>
+  <!-- EN: {1_coll} in slivers blanched in warm oil, fried with {2_plur} and {0_plur} in a clear, barely bound sauce. A Cantonese dish that became the emblem of the Chinese-American restaurant. -->
+  <FlavorTextFR_MooGooGaiPan.description>切片的{1_coll}在温油中滑熟，与{2_plur}和{0_plur}一同快炒，淋上清亮微稠的薄芡。这是一道后来成为美式中餐馆招牌名菜的传统粤菜。</FlavorTextFR_MooGooGaiPan.description>
+
+  <!-- EN: chicken with cashews and water chestnuts -->
+  <FlavorTextFR_PouletCajouChataigneDEau.label>马蹄腰果鸡丁</FlavorTextFR_PouletCajouChataigneDEau.label>
+  <!-- EN: {1_coll} in dice fried at the highest flame with {2_coll} toasted apart and {0_coll}. Three different hardnesses of crunch in the same mouthful. -->
+  <FlavorTextFR_PouletCajouChataigneDEau.description>切丁的{1_coll}与单独烘香的{2_coll}及{0_coll}一同猛火爆炒。一口咬下，三种软硬各异的爽脆层次分明。</FlavorTextFR_PouletCajouChataigneDEau.description>
+
+  <!-- EN: beef with water chestnuts -->
+  <FlavorTextFR_BoeufChataigneDEau.label>蚝油马蹄炒牛肉</FlavorTextFR_BoeufChataigneDEau.label>
+  <!-- EN: {1_coll} sliced against the grain and tenderised with starch, fried with blanched {2_plur} and {0_plur} in an oyster sauce. -->
+  <FlavorTextFR_BoeufChataigneDEau.description>逆纹切片并用淀粉抓匀致嫩的{1_coll}，同焯过水的{2_plur}与{0_plur}在浓郁蚝油中急火快炒。</FlavorTextFR_BoeufChataigneDEau.description>
+
+  <!-- EN: prawns with water chestnuts -->
+  <FlavorTextFR_CrevettesChataigneDEau.label>马蹄清炒虾仁</FlavorTextFR_CrevettesChataigneDEau.label>
+  <!-- EN: {1_coll} brined in bicarbonate so as to stay firm, fried for a few seconds with {2_plur} and {0_plur}, in a barely thickened sauce. -->
+  <FlavorTextFR_CrevettesChataigneDEau.description>经小苏打水浸渍而保持弹牙爽脆的{1_coll}，同{2_plur}与{0_plur}下锅翻炒数秒，挂一层清亮薄芡即刻出锅。</FlavorTextFR_CrevettesChataigneDEau.description>
+
+  <!-- EN: stir-fried vegetables with water chestnuts -->
+  <FlavorTextFR_LegumesSautesChataigneDEau.label>马蹄炒时蔬</FlavorTextFR_LegumesSautesChataigneDEau.label>
+  <!-- EN: {1_coll} thrown into the wok in order of firmness, {0_coll} last of all so as to lose none of their crunch, the whole lacquered with {2_plur}. -->
+  <FlavorTextFR_LegumesSautesChataigneDEau.description>{1_coll}按质地硬软依次下锅翻炒，{0_coll}留到最后才入锅以防折损半分清脆，通体裹上一层亮泽的{2_plur}。</FlavorTextFR_LegumesSautesChataigneDEau.description>
+
+  <!-- EN: chap chye with water chestnuts -->
+  <FlavorTextFR_ChapChyeChataigneDEau.label>娘惹马蹄杂菜煲</FlavorTextFR_ChapChyeChataigneDEau.label>
+  <!-- EN: {1_coll} stewed a long while with glass noodles, black {2_coll} soaked back up and {0_coll}. A Peranakan dish remade every day out of whatever is left. -->
+  <FlavorTextFR_ChapChyeChataigneDEau.description>{1_coll}同粉丝、泡发的黑{2_coll}以及{0_coll}慢火久炖。这是一道用每日余下的各色食材重新烩制的娘惹家常菜。</FlavorTextFR_ChapChyeChataigneDEau.description>
+
+  <!-- EN: tofu with water chestnuts -->
+  <FlavorTextFR_TofuChataigneDEau.label>红烧马蹄豆腐</FlavorTextFR_TofuChataigneDEau.label>
+  <!-- EN: cubes of {1_adj} tofu gilded on every face, fried with {2_plur} and {0_plur} in a brown sauce. The tofu is soft, the water chestnut cracks: that is the whole principle. -->
+  <FlavorTextFR_TofuChataigneDEau.description>面面煎至金黄的{1_adj}豆腐块，与{2_plur}和{0_plur}在红烧浓汁中一同烩炒。豆腐柔嫩，马蹄脆响：一软一脆正是整道菜的精髓。</FlavorTextFR_TofuChataigneDEau.description>
+
+  <!-- EN: bacon-wrapped water chestnuts -->
+  <FlavorTextFR_BaconChataigneDEau.label>培根卷马蹄</FlavorTextFR_BaconChataigneDEau.label>
+  <!-- EN: {0_coll} whole wound in a strip of {1_adj}, pinned and roasted in a {2_adj} and soy syrup until the bacon crisps. The canapé of the 1960s, and it has never gone out. -->
+  <FlavorTextFR_BaconChataigneDEau.description>整颗{0_coll}裹上一条{1_adj}并用牙签固定，刷上{2_adj}与酱油调成的糖浆烤至培根焦脆。这款二十世纪六十年代风靡一时的宴会小食，至今仍未过时。</FlavorTextFR_BaconChataigneDEau.description>
+
+  <!-- EN: spinach and water chestnut dip -->
+  <FlavorTextFR_DipEpinardsChataigneDEau.label>菠菜马蹄蘸酱</FlavorTextFR_DipEpinardsChataigneDEau.label>
+  <!-- EN: {1_coll} chopped and pressed of their water, mixed with fresh {2_plur} and {0_plur} in dice. Served cold, and the crunch is the only thing that keeps the whole from being soft. -->
+  <FlavorTextFR_DipEpinardsChataigneDEau.description>挤干水分并切碎的{1_coll}，拌入新鲜{2_plur}与切丁的{0_plur}。冷食上桌，全靠马蹄那一口清脆撑起整碗绵软浓酱的骨架。</FlavorTextFR_DipEpinardsChataigneDEau.description>
+
+  <!-- EN: chicken and water chestnut lettuce cups -->
+  <FlavorTextFR_WrapsLaitueChataigneDEau.label>马蹄鸡松生菜包</FlavorTextFR_WrapsLaitueChataigneDEau.label>
+  <!-- EN: {1_coll} chopped and fried with {0_plur} and hoisin sauce, served scalding in chilled {2_adj} leaves folded shut by hand. -->
+  <FlavorTextFR_WrapsLaitueChataigneDEau.description>切碎的{1_coll}同{0_plur}加海鲜酱急火炒香，趁滚烫盛入冰镇的{2_adj}叶中，亲手折起包裹享用。</FlavorTextFR_WrapsLaitueChataigneDEau.description>
+
+  <!-- EN: ma tai go -->
+  <FlavorTextFR_MaTaiGo.label>马蹄糕</FlavorTextFR_MaTaiGo.label>
+  <!-- EN: a paste of {0_adj} starch and rock sugar, steamed into a translucent amber slab with whole dice set in it. Eaten warm, or cut up and fried in the pan the next day. -->
+  <FlavorTextFR_MaTaiGo.description>{0_adj}粉与冰糖调成粉浆，蒸成嵌有爽脆马蹄丁的半透明琥珀色糕体。既可趁温热享用，也可留到次日切片下平底锅香煎。</FlavorTextFR_MaTaiGo.description>
+
+  <!-- EN: tub tim krob -->
+  <FlavorTextFR_TubTimKrob.label>泰式红宝石椰奶冰</FlavorTextFR_TubTimKrob.label>
+  <!-- EN: dice of {0_adj} dyed red and coated in tapioca starch, poached until they turn translucent, served over crushed ice in a sweetened {1_adj} milk. Crisp rubies: they look exactly the part. -->
+  <FlavorTextFR_TubTimKrob.description>染成红色的{0_adj}丁裹上木薯粉，下水煮至晶莹半透，盛在加了甜{1_adj}奶的碎冰上。“脆红宝石”之名可谓名副其实。</FlavorTextFR_TubTimKrob.description>
+
+  <!-- EN: chè củ năng -->
+  <FlavorTextFR_CheCuNang.label>越式马蹄莲子椰奶糖水</FlavorTextFR_CheCuNang.label>
+  <!-- EN: {0_coll} and {2_coll} poached in a syrup scented with pandan, served warm in a {1_adj} milk. A sweet soup given to the sick as readily as to children. -->
+  <FlavorTextFR_CheCuNang.description>{0_coll}与{2_coll}在斑兰叶增香的糖水中慢煮，兑入温热的{1_adj}奶奉上。这是一碗既常拿来哄孩童开心、也用来抚慰病人的清润糖水。</FlavorTextFR_CheCuNang.description>
+
+  <!-- EN: sugarcane and water chestnut soup -->
+  <FlavorTextFR_SoupeCanneChataigneDEau.label>竹蔗马蹄红萝卜水</FlavorTextFR_SoupeCanneChataigneDEau.label>
+  <!-- EN: lengths of cane, {0_coll} and {2_coll} boiled for an hour, the soup strained and drunk warm. A Cantonese remedy against the heat as much as a dessert. -->
+  <FlavorTextFR_SoupeCanneChataigneDEau.description>甘蔗段、{0_coll}与{2_coll}同煲一小时，滤出清汤趁温热饮用。在广东，它既是饭后甜汤，也是清热消暑的良方。</FlavorTextFR_SoupeCanneChataigneDEau.description>
+
+  <!-- EN: pork and water chestnut soup -->
+  <FlavorTextFR_SoupePorcChataigneDEau.label>马蹄排骨汤</FlavorTextFR_SoupePorcChataigneDEau.label>
+  <!-- EN: {1_adj} ribs blanched and then simmered three hours with {0_coll} and {2_coll}, with no seasoning but salt. The broth stays clear and turns sweet on its own. -->
+  <FlavorTextFR_SoupePorcChataigneDEau.description>{1_adj}排骨焯水后同{0_coll}与{2_coll}慢火细煲三小时，除少许食盐外不加任何佐料。汤色清亮见底，自带一抹自然的清甜。</FlavorTextFR_SoupePorcChataigneDEau.description>
+
+</LanguageData>

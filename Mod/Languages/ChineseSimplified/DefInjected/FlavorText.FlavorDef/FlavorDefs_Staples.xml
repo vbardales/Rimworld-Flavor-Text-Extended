@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: two-meat jambalaya -->
+  <FlavorTextExtended_Jambalaya.label>双肉什锦焖饭</FlavorTextExtended_Jambalaya.label>
+  <!-- EN: {0_coll} cooked in a single pot with {1_coll} and {2_coll} and whatever else the cook can spare, until the rice has taken the colour of the stock. Nobody agrees on the recipe; everybody agrees on the pot. -->
+  <FlavorTextExtended_Jambalaya.description>{0_coll}与{1_coll}、{2_coll}以及厨子手头能匀出的各色边角料同入一锅焖煮，直至米粒尽数染上肉汤的色泽。方子虽人人各异，端上桌的这一锅却无人不服。</FlavorTextExtended_Jambalaya.description>
+
+  <!-- EN: two-meat loaf -->
+  <FlavorTextExtended_TwoMeatLoaf.label>双肉烘肉卷</FlavorTextExtended_TwoMeatLoaf.label>
+  <!-- EN: {0_coll} and {1_coll} minced together, bound with {2_coll} and baked slowly in a tin. It is sliced cold the next day, and is better then than it was hot. -->
+  <FlavorTextExtended_TwoMeatLoaf.description>{0_coll}与{1_coll}一同剁碎，拌入{2_coll}拢上劲，装入模具中慢火烘熟。待次日放凉后切片装盘，滋味比刚出炉时还要醇厚。</FlavorTextExtended_TwoMeatLoaf.description>
+
+  <!-- EN: two-meat blanquette -->
+  <FlavorTextExtended_TwoMeatBlanquette.label>法式白汁烩双肉</FlavorTextExtended_TwoMeatBlanquette.label>
+  <!-- EN: {0_coll} and {1_coll} simmered white in their own stock, then finished with {2_coll} until the sauce coats the spoon. Nothing in it is browned: that is the point of the dish. -->
+  <FlavorTextExtended_TwoMeatBlanquette.description>{0_coll}与{1_coll}在原汤中白煮慢煨，出锅前调入{2_coll}收至汤汁挂勺。全程不使任何食材焦化上色，这正是白汁烩肉的要诀所在。</FlavorTextExtended_TwoMeatBlanquette.description>
+
+  <!-- EN: mushroom ragù -->
+  <FlavorTextExtended_MushroomRagu.label>野菌双肉浓酱</FlavorTextExtended_MushroomRagu.label>
+  <!-- EN: {0_coll} and {1_coll} cooked down for hours with {2_coll} until the sauce is dark, thick and clings to whatever it is poured over. -->
+  <FlavorTextExtended_MushroomRagu.description>{0_coll}、{1_coll}与{2_coll}文火慢熬数小时，直至汤汁收得色泽深浓、醇厚挂汁，无论浇在什么主食上都能牢牢裹住。</FlavorTextExtended_MushroomRagu.description>
+
+  <!-- EN: pastel de choclo -->
+  <FlavorTextExtended_PastelDeChoclo.label>智利玉米泥双肉派</FlavorTextExtended_PastelDeChoclo.label>
+  <!-- EN: a pie whose crust is {0_coll} ground to a sweet paste, laid over a filling of {1_coll} and {2_coll} and baked until the top blisters. The corn is the dish; the meat is what it carries. -->
+  <FlavorTextExtended_PastelDeChoclo.description>磨成清甜浓浆的{0_coll}铺在{1_coll}与{2_coll}炒成的肉馅之上，权作派皮入炉烘至表面焦黄起泡。这道菜的主角是玉米，肉馅不过是它的搭档。</FlavorTextExtended_PastelDeChoclo.description>
+
+  <!-- EN: roast with berry sauce -->
+  <FlavorTextExtended_RoastWithBerrySauce.label>浆果酸汁佐烤双肉</FlavorTextExtended_RoastWithBerrySauce.label>
+  <!-- EN: {1_coll} and {2_coll} roasted and carved, served with a sharp sauce of {0_coll}. The tartness is there to cut the fat, not to sweeten the plate. -->
+  <FlavorTextExtended_RoastWithBerrySauce.description>{1_coll}与{2_coll}烤熟切片，配上一碗用{0_coll}熬出的酸冽果酱。这抹果酸专为解腻而生，绝非为了给菜肴增甜。</FlavorTextExtended_RoastWithBerrySauce.description>
+
+  <!-- EN: mixed grill -->
+  <FlavorTextExtended_MixedGrill.label>三味什锦炙肉拼盘</FlavorTextExtended_MixedGrill.label>
+  <!-- EN: {0_coll}, {1_coll} and {2_coll} thrown on the same fire and served together on one board. Everyone picks their piece and eats it with their fingers. -->
+  <FlavorTextExtended_MixedGrill.description>{0_coll}、{1_coll}与{2_coll}同架一炉炙烤，熟后一并盛上大木板。食客各自挑拣中意的肉块，直接上手抓食。</FlavorTextExtended_MixedGrill.description>
+
+  <!-- EN: meat hotpot -->
+  <FlavorTextExtended_MeatHotpot.label>薯片盖双肉焖锅</FlavorTextExtended_MeatHotpot.label>
+  <!-- EN: {0_coll} and {1_coll} layered under sliced {2_coll} and baked for hours in a covered dish, until the top is browned and the bottom has melted into the gravy. -->
+  <FlavorTextExtended_MeatHotpot.description>{0_coll}与{1_coll}垫底，上面层层铺满切片的{2_coll}，置于带盖深盘中慢火烘烤数小时，直至顶层薯片焦黄酥脆、底层肉块融化在浓汁之中。</FlavorTextExtended_MeatHotpot.description>
+
+  <!-- EN: meat and potato gratin -->
+  <FlavorTextExtended_MeatAndPotatoGratin.label>奶香土豆焗肉</FlavorTextExtended_MeatAndPotatoGratin.label>
+  <!-- EN: {0_coll} sliced thin and baked with {1_coll} under a blanket of {2_coll}, until the edges are bubbling and the top has a crust worth fighting over. -->
+  <FlavorTextExtended_MeatAndPotatoGratin.description>切成薄片的{0_coll}与{1_coll}浸在满满一层{2_coll}中入炉烘烤，直至盘沿咕嘟冒泡、表面结出一层令人争抢的焦香奶皮。</FlavorTextExtended_MeatAndPotatoGratin.description>
+
+  <!-- EN: creamed meat on rice -->
+  <FlavorTextExtended_CreamedMeatOnRice.label>奶汁炖肉盖饭</FlavorTextExtended_CreamedMeatOnRice.label>
+  <!-- EN: {1_coll} stewed in {2_coll} until it is tender, then poured over a bed of {0_coll}. Soft, plain and hot: a dish for cold evenings. -->
+  <FlavorTextExtended_CreamedMeatOnRice.description>{1_coll}在{2_coll}中慢炖至酥烂，连汤带肉浇在热腾腾的{0_coll}上。温软、朴实、滚烫，最宜在寒夜里慰藉脾胃。</FlavorTextExtended_CreamedMeatOnRice.description>
+
+  <!-- EN: meat quiche -->
+  <FlavorTextExtended_MeatQuiche.label>法式鲜肉乳蛋饼</FlavorTextExtended_MeatQuiche.label>
+  <!-- EN: a pastry case filled with {1_coll}, then with {0_coll} beaten into {2_coll}, and baked just until it sets. It should still tremble a little when it leaves the oven. -->
+  <FlavorTextExtended_MeatQuiche.description>酥皮塔壳中铺入{1_coll}，再注入{0_coll}与{2_coll}打匀的蛋奶液，烘至恰好凝结即止。出炉之时，饼心还应微微颤动。</FlavorTextExtended_MeatQuiche.description>
+
+  <!-- EN: creamed mushroom fricassée -->
+  <FlavorTextExtended_CreamedMushroomFricassee.label>白汁野菌烩肉</FlavorTextExtended_CreamedMushroomFricassee.label>
+  <!-- EN: {0_coll} and {2_coll} sweated together in the same pan and finished with {1_coll}, with no more flour than it takes to hold the sauce. -->
+  <FlavorTextExtended_CreamedMushroomFricassee.description>{0_coll}与{2_coll}同锅慢炒出汁，最后调入{1_coll}收尾，只下少许面粉，恰好够将浓汁拢住即可。</FlavorTextExtended_CreamedMushroomFricassee.description>
+
+  <!-- EN: corn and meat chowder -->
+  <FlavorTextExtended_CornChowder.label>玉米鲜肉巧达浓汤</FlavorTextExtended_CornChowder.label>
+  <!-- EN: {0_coll} and {1_coll} simmered in {2_coll} until the corn has given up its sweetness and the soup has turned thick enough to hold a spoon upright. -->
+  <FlavorTextExtended_CornChowder.description>{0_coll}与{1_coll}在{2_coll}中文火慢熬，直至玉米释尽清甜，整锅汤稠得能立住一把汤匙。</FlavorTextExtended_CornChowder.description>
+
+  <!-- EN: meatballs with berry jam -->
+  <FlavorTextExtended_MeatballsWithBerryJam.label>北欧浆果酱配奶汁肉丸</FlavorTextExtended_MeatballsWithBerryJam.label>
+  <!-- EN: {0_coll} rolled small, browned, and poured over with a sauce made from {1_coll}, served with a spoonful of {2_coll} jam. Sweet against savoury, and nobody at the table finds it odd. -->
+  <FlavorTextExtended_MeatballsWithBerryJam.description>{0_coll}团成小丸煎至金黄，浇上以{1_coll}熬制的白汁，盘边再添一勺{2_coll}果酱。甜酸映衬着咸鲜，席间食客皆习以为常。</FlavorTextExtended_MeatballsWithBerryJam.description>
+
+  <!-- EN: omelette with berry compote -->
+  <FlavorTextExtended_OmeletteWithBerryCompote.label>浆果泥佐鲜肉煎蛋卷</FlavorTextExtended_OmeletteWithBerryCompote.label>
+  <!-- EN: a thick omelette of {0_coll} and {1_coll}, with a spoonful of {2_coll} compote on the side to cut through it. -->
+  <FlavorTextExtended_OmeletteWithBerryCompote.description>{0_coll}裹着{1_coll}煎成厚实的蛋卷，盘边佐一勺熬煮的{2_coll}果泥以解油腻。</FlavorTextExtended_OmeletteWithBerryCompote.description>
+
+  <!-- EN: roast with potatoes and berry sauce -->
+  <FlavorTextExtended_SundayRoastWithBerries.label>烤肉薯块佐浆果酱</FlavorTextExtended_SundayRoastWithBerries.label>
+  <!-- EN: {1_coll} roasted until the crackling is hard, with {2_coll} browned in its fat and a bowl of {0_coll} sauce set on the table. -->
+  <FlavorTextExtended_SundayRoastWithBerries.description>{1_coll}入炉烤至外皮硬脆，{2_coll}借着烤出的肉油烘至焦黄，席间再配上一碗酸爽的{0_coll}酱。</FlavorTextExtended_SundayRoastWithBerries.description>
+
+  <!-- EN: pemmican stew -->
+  <FlavorTextExtended_PemmicanStew.label>肉干浆果玉米炖菜</FlavorTextExtended_PemmicanStew.label>
+  <!-- EN: {2_coll} dried and pounded with {0_coll}, then stewed with {1_coll}: a food made to keep through a whole winter and to be eaten without ceremony. -->
+  <FlavorTextExtended_PemmicanStew.description>风干的{2_coll}与{0_coll}一同舂碎，再下入{1_coll}慢炖成羹：这是为熬过漫长寒冬而备下的耐储口粮，吃时无需讲究排场。</FlavorTextExtended_PemmicanStew.description>
+
+  <!-- EN: pilaf with corn -->
+  <FlavorTextExtended_CornAndRicePilaf.label>玉米鲜肉抓饭</FlavorTextExtended_CornAndRicePilaf.label>
+  <!-- EN: {2_coll} and {0_coll} cooked together with {1_coll} in one covered pan until the grains stand apart from each other and the pan is dry. -->
+  <FlavorTextExtended_CornAndRicePilaf.description>{2_coll}、{0_coll}与{1_coll}同入一锅加盖焖煮，直至水气收干、米粒颗颗分明。</FlavorTextExtended_CornAndRicePilaf.description>
+
+  <!-- EN: potato and meat tortilla -->
+  <FlavorTextExtended_MeatAndPotatoTortilla.label>土豆鲜肉厚蛋饼</FlavorTextExtended_MeatAndPotatoTortilla.label>
+  <!-- EN: {2_coll} and {1_coll} folded into {0_coll} and cooked thick on both sides in a heavy pan. Served warm rather than hot, in wedges, the next day as well. -->
+  <FlavorTextExtended_MeatAndPotatoTortilla.description>{2_coll}与{1_coll}拌入{0_coll}液中，在厚底铁锅内双面慢煎成厚实的圆饼。切作楔形块趁温热上桌，纵使留到次日吃也同样美味。</FlavorTextExtended_MeatAndPotatoTortilla.description>
+
+  <!-- EN: farmhouse omelette -->
+  <FlavorTextExtended_FarmhouseOmelette.label>农家山菌鲜肉煎蛋卷</FlavorTextExtended_FarmhouseOmelette.label>
+  <!-- EN: {0_coll} beaten with {2_coll} and {1_coll} and cooked in a single sweep of the pan, folded over while the middle is still soft. -->
+  <FlavorTextExtended_FarmhouseOmelette.description>{0_coll}打散后混入{2_coll}与{1_coll}，下锅一气呵成煎熟，趁内芯尚自嫩滑时对折出锅。</FlavorTextExtended_FarmhouseOmelette.description>
+
+  <!-- EN: mushroom shepherd's pie -->
+  <FlavorTextExtended_MushroomShepherdsPie.label>野菌牧羊人派</FlavorTextExtended_MushroomShepherdsPie.label>
+  <!-- EN: {1_coll} and {0_coll} in a rich gravy under a lid of mashed {2_coll}, raked with a fork and baked until the ridges brown. -->
+  <FlavorTextExtended_MushroomShepherdsPie.description>裹满浓稠肉汁的{1_coll}与{0_coll}上覆一层厚实的{2_coll}泥，用叉子刮出波纹，入炉烘烤至棱线焦黄。</FlavorTextExtended_MushroomShepherdsPie.description>
+
+  <!-- EN: hunter's stew -->
+  <FlavorTextExtended_HuntersStew.label>猎人山菌玉米炖肉</FlavorTextExtended_HuntersStew.label>
+  <!-- EN: {2_coll}, {1_coll} and {0_coll} stewed together for as long as the fire lasts, then eaten from the pot by whoever is closest. -->
+  <FlavorTextExtended_HuntersStew.description>{2_coll}、{1_coll}与{0_coll}同入一锅，炉火不熄便慢炖不止，谁离锅最近便直接从锅里盛着吃。</FlavorTextExtended_HuntersStew.description>
+
+  <!-- EN: forest stew -->
+  <FlavorTextExtended_ForestStew.label>林间浆果山菌炖肉</FlavorTextExtended_ForestStew.label>
+  <!-- EN: {2_coll} braised with {1_coll}, and a handful of {0_coll} added at the end for sharpness. It tastes of the place it was gathered in. -->
+  <FlavorTextExtended_ForestStew.description>{2_coll}与{1_coll}文火慢焖，临出锅前撒入一把{0_coll}提点酸香。一口吃下，尽是采集之地的那股山林气息。</FlavorTextExtended_ForestStew.description>
+
+  <!-- EN: mushroom pilaf with meat -->
+  <FlavorTextExtended_MushroomPilaf.label>野菌鲜肉焖饭</FlavorTextExtended_MushroomPilaf.label>
+  <!-- EN: {2_coll} toasted in fat, then cooked with {0_coll} and {1_coll} in just enough water, and left to rest under a cloth before anyone lifts the lid. -->
+  <FlavorTextExtended_MushroomPilaf.description>{2_coll}先在油脂中炒香，再加入{0_coll}与{1_coll}并添入恰好的水量焖熟，揭盖前须覆布虚焖片刻。</FlavorTextExtended_MushroomPilaf.description>
+
+  <!-- EN: potato and egg gratin -->
+  <FlavorTextExtended_PotatoAndEggGratin.label>奶香鸡蛋焗土豆</FlavorTextExtended_PotatoAndEggGratin.label>
+  <!-- EN: {2_coll} sliced thin and baked in {1_coll} with {0_coll} broken over the top, until the yolk sets and the milk has nearly gone. -->
+  <FlavorTextExtended_PotatoAndEggGratin.description>{2_coll}切成薄片浸入{1_coll}，表面打上{0_coll}入炉烘烤，直至蛋黄凝结、奶汁几乎尽数收干。</FlavorTextExtended_PotatoAndEggGratin.description>
+
+  <!-- EN: harvest pot -->
+  <FlavorTextExtended_HarvestPot.label>丰收三蔬乱炖</FlavorTextExtended_HarvestPot.label>
+  <!-- EN: {0_coll}, {1_coll} and {2_coll} tipped into the same pot and cooked together for as long as it takes. There is no meat in it and nobody at the table asks where it is. -->
+  <FlavorTextExtended_HarvestPot.description>{0_coll}、{1_coll}与{2_coll}一古脑倒入锅中慢炖至熟透。锅里虽无半点荤腥，席间却也无人追问肉在何处。</FlavorTextExtended_HarvestPot.description>
+
+  <!-- EN: vegetable scramble -->
+  <FlavorTextExtended_VegetableScramble.label>时蔬滑蛋</FlavorTextExtended_VegetableScramble.label>
+  <!-- EN: {0_coll} scrambled in the pan with {1_coll} and {2_coll}, stirred until the whole thing is barely set. A meal made in ten minutes from whatever the garden gave that day. -->
+  <FlavorTextExtended_VegetableScramble.description>{0_coll}与{1_coll}、{2_coll}同入锅中翻炒，待蛋液刚一凝结便即出锅。菜园里当日有甚收成，十分钟便能炒出这样一餐。</FlavorTextExtended_VegetableScramble.description>
+
+  <!-- EN: creamed vegetables -->
+  <FlavorTextExtended_CreamedVegetables.label>奶汁烩双蔬</FlavorTextExtended_CreamedVegetables.label>
+  <!-- EN: {1_coll} and {2_coll} cooked soft, then folded into {0_coll} over a low heat until the sauce clings to everything in the pan. -->
+  <FlavorTextExtended_CreamedVegetables.description>{1_coll}与{2_coll}煮至绵软，随后转文火拌入{0_coll}慢煨，直至浓滑奶汁均匀裹住锅中每一块时蔬。</FlavorTextExtended_CreamedVegetables.description>
+
+  <!-- EN: mushroom risotto -->
+  <FlavorTextExtended_MushroomRisotto.label>意式野菌烩饭</FlavorTextExtended_MushroomRisotto.label>
+  <!-- EN: {2_coll} stirred with a ladle of hot stock at a time, {1_coll} added when the grains are half done and {0_coll} beaten in at the very end. It must be served at once, and it must still move on the plate. -->
+  <FlavorTextExtended_MushroomRisotto.description>{2_coll}一勺接一勺地添入滚烫高汤搅煮，米粒半熟时下入{1_coll}，收尾时再打入{0_coll}乳化。出锅须立时上桌，装盘时饭体还应微微流动。</FlavorTextExtended_MushroomRisotto.description>
+
+  <!-- EN: rice pudding with berries -->
+  <FlavorTextExtended_RicePuddingWithBerries.label>浆果牛奶米布丁</FlavorTextExtended_RicePuddingWithBerries.label>
+  <!-- EN: {1_coll} simmered in {0_coll} for an hour until it turns thick and creamy, with a spoonful of {2_coll} pressed into the middle of each bowl. -->
+  <FlavorTextExtended_RicePuddingWithBerries.description>{1_coll}在{0_coll}中文火慢熬一小时直至浓稠绵滑，盛碗后在正中按入一勺酸甜的{2_coll}。</FlavorTextExtended_RicePuddingWithBerries.description>
+
+  <!-- EN: mushroom and potato gratin -->
+  <FlavorTextExtended_MushroomPotatoGratin.label>奶香野菌焗土豆</FlavorTextExtended_MushroomPotatoGratin.label>
+  <!-- EN: {1_coll} sliced thin and layered with {2_coll}, covered with {0_coll} and baked until the top is spotted brown and the knife goes through without a sound. -->
+  <FlavorTextExtended_MushroomPotatoGratin.description>薄片{1_coll}与{2_coll}层层叠放，浇满{0_coll}入炉烘烤，直至表面浮起焦黄斑点、刀尖刺入时悄然无声。</FlavorTextExtended_MushroomPotatoGratin.description>
+
+</LanguageData>

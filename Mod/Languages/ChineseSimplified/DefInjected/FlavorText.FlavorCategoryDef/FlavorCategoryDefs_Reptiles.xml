@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Flavor Text turtle meat -->
+  <FT_Meat_Turtle.label>龟肉风味文本</FT_Meat_Turtle.label>
+  <!-- EN: tortue -->
+  <FT_Meat_Turtle.keywords.3>龟</FT_Meat_Turtle.keywords.3>
+
+  <!-- EN: Flavor Text alligator meat -->
+  <FT_Meat_Alligator.label>短吻鳄肉风味文本</FT_Meat_Alligator.label>
+  <!-- EN: caïman -->
+  <FT_Meat_Alligator.keywords.5>鳄</FT_Meat_Alligator.keywords.5>
+
+  <!-- EN: Flavor Text iguana meat -->
+  <FT_Meat_Iguana.label>鬣蜥肉风味文本</FT_Meat_Iguana.label>
+  <!-- EN: iguane -->
+  <FT_Meat_Iguana.keywords.1>鬣蜥</FT_Meat_Iguana.keywords.1>
+
+  <!-- EN: Flavor Text lizard meat -->
+  <FT_Meat_Lizard.label>蜥蜴肉风味文本</FT_Meat_Lizard.label>
+  <!-- EN: varan -->
+  <FT_Meat_Lizard.keywords.2>蜥蜴</FT_Meat_Lizard.keywords.2>
+  <!-- EN: goanna -->
+  <FT_Meat_Lizard.keywords.3>巨蜥</FT_Meat_Lizard.keywords.3>
+
+  <!-- EN: Flavor Text frog meat -->
+  <FT_Meat_Frog.label>蛙肉风味文本</FT_Meat_Frog.label>
+  <!-- EN: grenouille -->
+  <FT_Meat_Frog.keywords.2>蛙</FT_Meat_Frog.keywords.2>
+  <!-- EN: ouaouaron -->
+  <FT_Meat_Frog.keywords.3>牛蛙</FT_Meat_Frog.keywords.3>
+
+</LanguageData>

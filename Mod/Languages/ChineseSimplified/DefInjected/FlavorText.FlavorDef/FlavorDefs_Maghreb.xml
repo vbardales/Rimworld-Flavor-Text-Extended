@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: {0_adj} tagine with {1_coll} -->
+  <FlavorTextFR_TajinePruneaux.label>{1_coll}炖{0_adj}塔吉锅</FlavorTextFR_TajinePruneaux.label>
+  <!-- EN: {0_coll} cooked for hours in a conical dish that sends the steam back down into it, with candied {1_coll} and {2_coll}. Sweet and savoury do not quarrel here. -->
+  <FlavorTextFR_TajinePruneaux.description>{0_coll}同蜜渍{1_coll}与{2_coll}置于锥形陶锅中慢炖数小时，凝结的蒸汽顺着锥盖不断回流锅中。甜与咸在此处和谐共处，从不交恶。</FlavorTextFR_TajinePruneaux.description>
+
+  <!-- EN: {0_adj} tagine with olives and preserved lemon -->
+  <FlavorTextFR_TajineOlivesCitron.label>橄榄咸柠檬炖{0_adj}塔吉锅</FlavorTextFR_TajineOlivesCitron.label>
+  <!-- EN: {0_coll} stewed with {1_plur} and {2_plur} preserved in salt for months. Only the peel is used; the pulp is too bitter. -->
+  <FlavorTextFR_TajineOlivesCitron.description>{0_coll}与{1_plur}及盐渍数月的{2_plur}一同慢炖。只取果皮入菜，果肉则因太过苦涩而弃之不用。</FlavorTextFR_TajineOlivesCitron.description>
+
+  <!-- EN: harira -->
+  <FlavorTextFR_Harira.label>哈里拉浓汤</FlavorTextFR_Harira.label>
+  <!-- EN: a thick soup of {0_adj}, {1_adj} and {2_adj}, bound with a leaven of fermented flour. This is what breaks the fast, every evening of the month. -->
+  <FlavorTextFR_Harira.description>由{0_adj}、{1_adj}和{2_adj}熬煮并用发酵面糊勾芡而成的浓汤。斋月里的每一个傍晚，人们都以这碗热汤开启斋戒后的第一餐。</FlavorTextFR_Harira.description>
+
+  <!-- EN: pastilla -->
+  <FlavorTextFR_Pastilla.label>巴斯蒂亚肉派</FlavorTextFR_Pastilla.label>
+  <!-- EN: {0_coll} pulled into threads and toasted {1_coll} shut inside sheets of warqa, the whole dusted over with sugar and cinnamon. A savoury dish served under a sweet layer, and nobody finds it strange. -->
+  <FlavorTextFR_Pastilla.description>撕成细丝的{0_coll}与烤香的{1_coll}封入薄如蝉翼的瓦尔卡酥皮中，表面撒满糖粉与肉桂。咸香内馅覆于甜霜之下，却无人觉得违和。</FlavorTextFR_Pastilla.description>
+
+  <!-- EN: mechoui -->
+  <FlavorTextFR_Mechoui.label>马格里布烤全羊</FlavorTextFR_Mechoui.label>
+  <!-- EN: a whole beast painted with {1_adj} and {2_adj}, turned over the embers for half a day. Eaten with the hands; the first shoulder goes to the guest. -->
+  <FlavorTextFR_Mechoui.description>整只羊涂满{1_adj}与{2_adj}，架在炭火余烬上翻转炙烤足足半日。食用时直接上手抓食，最鲜美的第一块前肩肉必先敬献贵客。</FlavorTextFR_Mechoui.description>
+
+  <!-- EN: zaalouk -->
+  <FlavorTextFR_Zaalouk.label>扎卢克茄泥沙拉</FlavorTextFR_Zaalouk.label>
+  <!-- EN: {0_coll} burnt and then peeled, crushed with {1_plur} and {2_plur} until the water has gone entirely. Served cold, with bread, before anything else. -->
+  <FlavorTextFR_Zaalouk.description>{0_coll}烤焦表皮后剥除，与{1_plur}、{2_plur}一同捣碎慢炒，直至水分彻底收干。冰镇后佐以面包，在正餐开始前率先奉上。</FlavorTextFR_Zaalouk.description>
+
+  <!-- EN: briouates -->
+  <FlavorTextFR_Briouates.label>摩洛哥杏仁三角酥</FlavorTextFR_Briouates.label>
+  <!-- EN: triangles of warqa filled with pounded {1_plur}, fried and then plunged scalding into cold honey. The shock of temperature is what makes them crisp. -->
+  <FlavorTextFR_Briouates.description>瓦尔卡薄酥皮包入捣碎的{1_plur}折成三角形，炸透后趁滚烫直接浸入冰凉的蜂蜜中。正是这冷热交锋的激荡造就了极致的酥脆。</FlavorTextFR_Briouates.description>
+
+  <!-- EN: chakchouka -->
+  <FlavorTextFR_Chakchouka.label>北非蛋</FlavorTextFR_Chakchouka.label>
+  <!-- EN: {0_coll} and {1_coll} reduced to a thick sauce, in which hollows are dug for {2_coll}, covered until the white sets and no longer. -->
+  <FlavorTextFR_Chakchouka.description>{0_coll}与{1_coll}慢熬成浓郁酱汁，在酱中拨出几个小坑磕入{2_coll}，加盖焖至蛋白刚刚凝固即刻离火。</FlavorTextFR_Chakchouka.description>
+
+  <!-- EN: rfissa -->
+  <FlavorTextFR_Rfissa.label>尔菲萨千层饼炖鸡</FlavorTextFR_Rfissa.label>
+  <!-- EN: {0_coll} and {1_coll} served over pancakes torn by hand, which drink up all the {2_adj} broth. It is made for new mothers. -->
+  <FlavorTextFR_Rfissa.description>{0_coll}与{1_coll}浇在手撕的薄煎饼上，让饼皮吸饱醇厚的{2_adj}肉汤。这是专门为初为人母的产妇烹制的滋补佳肴。</FlavorTextFR_Rfissa.description>
+
+  <!-- EN: amlou -->
+  <FlavorTextFR_Amlou.label>阿姆鲁坚果酱</FlavorTextFR_Amlou.label>
+  <!-- EN: {0_coll} toasted and ground until they give up their oil, worked together with {1_plur} and {2_plur} into a heavy brown paste. Eaten by the spoonful, without shame. -->
+  <FlavorTextFR_Amlou.description>{0_coll}烘香后研磨出油，与{1_plur}、{2_plur}调和成浓稠的褐色膏酱。大可毫无愧色地一勺接一勺直接挖着吃。</FlavorTextFR_Amlou.description>
+
+  <!-- EN: mint tea -->
+  <FlavorTextFR_TheALaMenthe.label>摩洛哥薄荷茶</FlavorTextFR_TheALaMenthe.label>
+  <!-- EN: green {0_coll}, a handful of mint, and a great deal more {1_adj} than anyone likes to admit. Poured from a height to raise the foam, and three times rather than once. -->
+  <FlavorTextFR_TheALaMenthe.description>绿{0_coll}、一大把鲜薄荷，再加上远超任何人愿意承认的分量的{1_adj}。从高处悬壶冲注以激起绵密泡沫，且讲究连饮三杯而非浅尝辄止。</FlavorTextFR_TheALaMenthe.description>
+
+  <!-- EN: royal couscous -->
+  <FlavorTextFR_CouscousRoyal.label>皇家库斯库斯</FlavorTextFR_CouscousRoyal.label>
+  <!-- EN: semolina rolled by hand and steamed three times over the broth, served with {1_plur} and {2_plur}. The grain never touches the water. -->
+  <FlavorTextFR_CouscousRoyal.description>手工搓制的粗麦粉置于肉汤上方反复蒸透三次，佐以{1_plur}与{2_plur}同食。麦粒自始至终绝不沾半点汤水。</FlavorTextFR_CouscousRoyal.description>
+
+  <!-- EN: loubia -->
+  <FlavorTextFR_Loubia.label>卢比亚炖白豆</FlavorTextFR_Loubia.label>
+  <!-- EN: white {0_coll} stewed with {1_plur}, {2_plur} and a great deal of oil, until the sauce thickens by itself. A street dish, eaten standing from a bowl. -->
+  <FlavorTextFR_Loubia.description>白{0_coll}与{1_plur}、{2_plur}及足量油脂一同慢炖，直至汤汁自然浓稠。这是一道端着碗站在街头享用的市井美味。</FlavorTextFR_Loubia.description>
+
+  <!-- EN: kefta mkaouara -->
+  <FlavorTextFR_KeftaMkaouara.label>摩洛哥番茄肉丸窝蛋</FlavorTextFR_KeftaMkaouara.label>
+  <!-- EN: balls of minced {0_adj} poached in a {1_adj} sauce, with {2_coll} broken over them at the end. It arrives in the tagine, still cooking. -->
+  <FlavorTextFR_KeftaMkaouara.description>剁碎的{0_adj}团成肉丸，在浓郁的{1_adj}酱汁中慢煮，最后磕入{2_coll}。连着塔吉锅端上桌时仍在咕嘟作响。</FlavorTextFR_KeftaMkaouara.description>
+
+  <!-- EN: seffa -->
+  <FlavorTextFR_Seffa.label>塞法甜蒸粗麦粉</FlavorTextFR_Seffa.label>
+  <!-- EN: steamed semolina heaped into a cone, striped with cinnamon and icing sugar, crowned with fried {1_plur}, with {2_plur} served apart and cold. -->
+  <FlavorTextFR_Seffa.description>蒸熟的粗麦粉堆成圆锥形，用肉桂粉与糖粉勾勒出条纹，顶端缀满油炸{1_plur}，另附一盅冰镇{2_plur}佐食。</FlavorTextFR_Seffa.description>
+
+  <!-- EN: maâkouda -->
+  <FlavorTextFR_Maakouda.label>玛库达炸土豆饼</FlavorTextFR_Maakouda.label>
+  <!-- EN: cakes of crushed {0_adj}, bound with {1_plur} and saffroned with {2_plur}, fried until golden. They go inside a roll, with harissa. -->
+  <FlavorTextFR_Maakouda.description>压碎的{0_adj}加{1_plur}黏合成饼，以{2_plur}染上金黄色泽，下锅炸至金黄酥脆。常抹上哈里萨辣酱夹进面包卷里享用。</FlavorTextFR_Maakouda.description>
+
+  <!-- EN: msemen -->
+  <FlavorTextFR_Msemen.label>姆塞门千层酥饼</FlavorTextFR_Msemen.label>
+  <!-- EN: a dough stretched to transparency on an oiled surface, brushed with {1_plur} and semolina, folded into a square and folded again, then cooked dry. The layers are counted when it is torn. -->
+  <FlavorTextFR_Msemen.description>在抹油的案面上将面团拉扯至薄如透明，刷上{1_plur}、撒上粗麦粉，层层折叠成方块后干烙而成。撕开饼身时，层次分明得可以一一细数。</FlavorTextFR_Msemen.description>
+
+</LanguageData>

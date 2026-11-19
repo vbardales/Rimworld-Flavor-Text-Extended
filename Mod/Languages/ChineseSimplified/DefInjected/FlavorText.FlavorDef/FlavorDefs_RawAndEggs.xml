@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: balut -->
+  <FlavorTextFR_Balut.label>毛蛋</FlavorTextFR_Balut.label>
+  <!-- EN: a duck egg incubated eighteen days, boiled and eaten in its own shell. You drink the broth first through the narrow end, then salt it and eat the rest. Sold in the evening, in the Philippines, to the cry of the seller. -->
+  <FlavorTextFR_Balut.description>孵化了十八天的受精鸭蛋，带壳水煮后直接食用。先从尖端小口吸尽鲜美汤汁，再撒盐吃下余下部分。在菲律宾的夜色中，常伴着小贩的吆喝声沿街叫卖。</FlavorTextFR_Balut.description>
+
+  <!-- EN: adobong balut -->
+  <FlavorTextFR_AdobongBalut.label>菲式阿多波卤毛蛋</FlavorTextFR_AdobongBalut.label>
+  <!-- EN: baluts shelled and then stewed in an adobo of {1_adj}, vinegar, {2_adj} and bay, until the sauce coats them. -->
+  <FlavorTextFR_AdobongBalut.description>剥壳后的毛蛋在由{1_adj}、醋、{2_adj}与月桂叶调成的阿多波卤汁中慢火煨煮，直至浓汁均匀裹覆。</FlavorTextFR_AdobongBalut.description>
+
+  <!-- EN: fried balut -->
+  <FlavorTextFR_BalutFrit.label>酥炸毛蛋</FlavorTextFR_BalutFrit.label>
+  <!-- EN: baluts shelled, coated in an orange {1_adj} batter and fried in {2_plur}. The batter crisps, and the inside stays runny. -->
+  <FlavorTextFR_BalutFrit.description>剥壳后的毛蛋挂上一层橙色{1_adj}面糊，投入{2_plur}中炸透。外皮酥脆，内里依旧温润流心。</FlavorTextFR_BalutFrit.description>
+
+  <!-- EN: hột vịt lộn xào me -->
+  <FlavorTextFR_HotVitLonXaoMe.label>越式罗望子炒毛蛋</FlavorTextFR_HotVitLonXaoMe.label>
+  <!-- EN: incubated eggs fried in a sweet-and-sour tamarind sauce, with crushed {1_coll} and {2_coll}. Eaten with rau răm leaves, whose bitterness cuts the fat. -->
+  <FlavorTextFR_HotVitLonXaoMe.description>孵化过的受精蛋在酸甜的罗望子酱汁中翻炒，撒上碎{1_coll}与{2_coll}。佐以越南香菜同食，借其微苦化解肥腻。</FlavorTextFR_HotVitLonXaoMe.description>
+
+  <!-- EN: pong tia koon -->
+  <FlavorTextFR_PongTiaKoon.label>柬式炭烤毛蛋</FlavorTextFR_PongTiaKoon.label>
+  <!-- EN: the Cambodian version, grilled over embers rather than boiled, served with a dip of {1_adj}, salt and Kampot pepper. -->
+  <FlavorTextFR_PongTiaKoon.description>柬埔寨的做法，不以水煮而置于炭火余烬上炙烤，佐以{1_adj}、食盐与贡布胡椒调成的蘸料食用。</FlavorTextFR_PongTiaKoon.description>
+
+  <!-- EN: century egg -->
+  <FlavorTextFR_CenturyEgg.label>皮蛋</FlavorTextFR_CenturyEgg.label>
+  <!-- EN: {0_coll} buried for weeks in an alkaline mixture of ash, lime and salt: the white turns to a translucent amber jelly, the yolk to a creamy green-black heart. Served in quarters with pickled {2_plur}. -->
+  <FlavorTextFR_CenturyEgg.description>{0_coll}在草木灰、生石灰与盐调成的碱性泥料中封存数周：蛋白化作半透明的琥珀色胶冻，蛋黄凝成绵密的墨绿溏心。切作四瓣装盘，佐以酸渍{2_plur}同食。</FlavorTextFR_CenturyEgg.description>
+
+  <!-- EN: tea eggs -->
+  <FlavorTextFR_TeaEggs.label>茶叶蛋</FlavorTextFR_TeaEggs.label>
+  <!-- EN: hard-boiled {0_coll} whose shells are cracked but never taken off, then stewed for hours in black {1_coll}, {2_coll} and star anise. The liquid seeps in through the cracks and draws a brown marbling. -->
+  <FlavorTextFR_TeaEggs.description>全熟{0_coll}轻敲出裂纹而不剥壳，在红{1_coll}、{2_coll}与八角调成的卤汁中慢煨数小时。汤汁顺着裂隙丝丝渗入，在蛋白上勾勒出褐色的大理石纹路。</FlavorTextFR_TeaEggs.description>
+
+  <!-- EN: egg foo young -->
+  <FlavorTextFR_EggFooYoung.label>芙蓉蛋</FlavorTextFR_EggFooYoung.label>
+  <!-- EN: a thick omelette loaded with {1_adj} and sprouts, fried into a domed cake and drowned in a brown {2_adj} sauce. Born in Chinese-American kitchens, and never carried back to China. -->
+  <FlavorTextFR_EggFooYoung.description>饱含{1_adj}与豆芽的厚蛋饼，煎成微拱的圆饼后浇满褐色的{2_adj}芡汁。诞生于美式中餐馆的后厨，却从未传回中国本土。</FlavorTextFR_EggFooYoung.description>
+
+  <!-- EN: beef carpaccio -->
+  <FlavorTextFR_CarpaccioDeBoeuf.label>意式生牛肉薄片</FlavorTextFR_CarpaccioDeBoeuf.label>
+  <!-- EN: {0_coll} stiffened in the cold then sliced to the edge of transparency, dressed with oil and {2_adj}, covered with shavings of {1_adj}. Invented in Venice for a countess who had been forbidden cooked meat. -->
+  <FlavorTextFR_CarpaccioDeBoeuf.description>{0_coll}冷藏至微硬后切成近乎透明的薄片，淋上油与{2_adj}汁，表面铺满刨成薄片的{1_adj}。这道菜诞生于威尼斯，最初是为一位被医嘱禁食熟肉的伯爵夫人所创。</FlavorTextFR_CarpaccioDeBoeuf.description>
+
+  <!-- EN: sashimi -->
+  <FlavorTextFR_Sashimi.label>刺身</FlavorTextFR_Sashimi.label>
+  <!-- EN: {0_coll} raw and sliced in one drawn stroke, never sawn, on a bed of shredded radish. The knife and the angle of the cut make the whole dish; there is nothing else to be done. -->
+  <FlavorTextFR_Sashimi.description>生鲜{0_coll}一刀拉切成形，断不可来回拉锯，铺在细密的白萝卜丝上。刀锋与下刀的角度便是整道菜的全部奥妙；此外无须任何多余修饰。</FlavorTextFR_Sashimi.description>
+
+  <!-- EN: crudo -->
+  <FlavorTextFR_Crudo.label>意式生鱼薄片</FlavorTextFR_Crudo.label>
+  <!-- EN: {0_coll} raw in fine slivers, {1_adj} oil, flaked salt and the zest of {2_adj}. The Italian version of raw fish: no marinade, only a seasoning at the last moment. -->
+  <FlavorTextFR_Crudo.description>切成纤薄细条的生鲜{0_coll}，点缀{1_adj}油、片状海盐与{2_adj}皮屑。意大利式的生鱼吃法：不经腌渍，只在临上桌前略加调味。</FlavorTextFR_Crudo.description>
+
+  <!-- EN: tiradito -->
+  <FlavorTextFR_Tiradito.label>秘鲁风味生鱼片</FlavorTextFR_Tiradito.label>
+  <!-- EN: {0_coll} sliced the Japanese way but seasoned the Peruvian way: a yellow {1_adj} and {2_adj} sauce poured over just before serving, with no onion and no steeping. -->
+  <FlavorTextFR_Tiradito.description>以日式刀法切片、凭秘鲁风味调味的生鲜{0_coll}：临奉客前浇上黄色的{1_adj}与{2_adj}酱汁，不放洋葱，亦不提前浸渍。</FlavorTextFR_Tiradito.description>
+
+  <!-- EN: kitfo -->
+  <FlavorTextFR_Kitfo.label>埃塞俄比亚生拌牛肉末</FlavorTextFR_Kitfo.label>
+  <!-- EN: {0_coll} chopped with a knife and worked while still warm into a niter kibbeh — clarified butter with spices — with {2_adj} mitmita. Served raw, or barely warmed if you ask for it leb leb. -->
+  <FlavorTextFR_Kitfo.description>{0_coll}用刀细细剁碎，趁温热拌入埃塞俄比亚香料澄清黄油与{2_adj}辣粉。通常生食，若点选“微温”做法，也只是略加温热而已。</FlavorTextFR_Kitfo.description>
+
+  <!-- EN: gored gored -->
+  <FlavorTextFR_GoredGored.label>埃塞俄比亚香辣生牛肉丁</FlavorTextFR_GoredGored.label>
+  <!-- EN: {0_coll} raw in cubes rather than chopped, rolled in a spiced butter and awaze. The kitfo's cousin in pieces, and the most merciless test of freshness there is. -->
+  <FlavorTextFR_GoredGored.description>切成方丁而非剁碎的生鲜{0_coll}，裹满香料黄油与阿瓦泽辣酱。它是生拌牛肉末的块状近亲，也是对肉质新鲜度最严苛的考验。</FlavorTextFR_GoredGored.description>
+
+  <!-- EN: mett -->
+  <FlavorTextFR_Mett.label>德式生猪肉糜</FlavorTextFR_Mett.label>
+  <!-- EN: {0_coll} raw and minced the same day, salted and peppered, spread on bread with raw {1_coll} in rounds. Sold in the morning and never kept until evening. -->
+  <FlavorTextFR_Mett.description>当日现绞的生鲜{0_coll}，调入盐与胡椒，厚涂在面包上并铺满生{1_coll}圈。清晨售卖，绝不留过夜。</FlavorTextFR_Mett.description>
+
+  <!-- EN: ikura -->
+  <FlavorTextFR_Ikura.label>鲑鱼子军舰卷</FlavorTextFR_Ikura.label>
+  <!-- EN: the eggs of {1_adj} teased out of their sac in warm water, marinated in soy and sake, served heaped over rice belted with {2_plur}. They burst one by one under the tongue. -->
+  <FlavorTextFR_Ikura.description>取自{1_adj}的鱼籽在温水中剥离卵巢薄膜，以酱油与清酒腌渍入味，满满堆在围着一圈{2_plur}的醋饭之上。舌尖轻抵，便一颗接一颗迸裂开来。</FlavorTextFR_Ikura.description>
+
+  <!-- EN: twisted meat stew -->
+  <FlavorTextFR_RagoutViandeTordue.label>扭曲肉炖菜</FlavorTextFR_RagoutViandeTordue.label>
+  <!-- EN: {0_coll} braised very long in {1_plur} and {2_plur}: it is a tough flesh, and nothing shorter will tenderise it. -->
+  <FlavorTextFR_RagoutViandeTordue.description>{0_coll}与{1_plur}、{2_plur}一同经久慢炖：这种肉质地极其韧硬，非得久煮方能软烂。</FlavorTextFR_RagoutViandeTordue.description>
+
+  <!-- EN: roast twisted meat -->
+  <FlavorTextFR_RotiViandeTordue.label>炙烤扭曲肉</FlavorTextFR_RotiViandeTordue.label>
+  <!-- EN: a joint of {0_adj} barded with {1_plur} and stuck with {2_plur}, roasted under a lid. It gives up little juice and needs basting often. -->
+  <FlavorTextFR_RotiViandeTordue.description>外裹{1_plur}、内嵌{2_plur}的大块{0_adj}，加盖烘烤而成。这种肉极少出汁，烘烤时需频频浇淋油汁。</FlavorTextFR_RotiViandeTordue.description>
+
+  <!-- EN: twisted meat skewers -->
+  <FlavorTextFR_BrochettesViandeTordue.label>扭曲肉烤串</FlavorTextFR_BrochettesViandeTordue.label>
+  <!-- EN: cubes of {0_adj} marinated in {1_plur} and {2_plur}, threaded and grilled over a high flame. The marinade covers most of what there is to cover. -->
+  <FlavorTextFR_BrochettesViandeTordue.description>{0_adj}块在{1_plur}与{2_plur}中腌透，穿签后置于猛火上炙烤。重口味的腌料足以掩盖掉大部分该被掩盖的气息。</FlavorTextFR_BrochettesViandeTordue.description>
+
+  <!-- EN: twisted meat sausage -->
+  <FlavorTextFR_SaucisseViandeTordue.label>扭曲肉香肠</FlavorTextFR_SaucisseViandeTordue.label>
+  <!-- EN: {0_coll} minced twice, let down with crumb and heavily seasoned with {2_plur}, cased and then poached. The mincer settles the question of texture. -->
+  <FlavorTextFR_SaucisseViandeTordue.description>{0_coll}绞碎两遍，掺入面包糠并重手下入{2_plur}调味，灌入肠衣后微沸水煮熟。绞肉机彻底解决了口感上的问题。</FlavorTextFR_SaucisseViandeTordue.description>
+
+  <!-- EN: twisted meat pie -->
+  <FlavorTextFR_TourteViandeTordue.label>扭曲肉派</FlavorTextFR_TourteViandeTordue.label>
+  <!-- EN: {0_coll} braised in advance and shut under a {2_adj} pastry. What is under the crust can no longer be seen, and that is part of the point. -->
+  <FlavorTextFR_TourteViandeTordue.description>{0_coll}预先焖熟，严严实实地封入{2_adj}酥皮之下。酥皮之下的光景再也无从窥见，而这正是此菜的用意之一。</FlavorTextFR_TourteViandeTordue.description>
+
+  <!-- EN: twisted meat curry -->
+  <FlavorTextFR_CurryViandeTordue.label>咖喱扭曲肉</FlavorTextFR_CurryViandeTordue.label>
+  <!-- EN: {0_coll} stewed in a {1_adj} milk and a {2_adj} paste. The spices hold well on this flesh, which takes up more of them than is usual. -->
+  <FlavorTextFR_CurryViandeTordue.description>{0_coll}在{1_adj}浆与{2_adj}酱中慢火炖煮。香料在这款肉上附着极佳，它吸纳的香料也远比寻常肉类更多。</FlavorTextFR_CurryViandeTordue.description>
+
+  <!-- EN: dried twisted meat -->
+  <FlavorTextFR_JerkyViandeTordue.label>扭曲肉干</FlavorTextFR_JerkyViandeTordue.label>
+  <!-- EN: strips of {0_adj} marinated in {2_plur} and {1_plur}, dried at a low temperature until they turn brittle. It keeps a long time, which was the only question. -->
+  <FlavorTextFR_JerkyViandeTordue.description>{0_adj}条在{2_plur}与{1_plur}中腌渍入味，低温烘至干脆。它能保存很久，而这本就是唯一需要考量的事。</FlavorTextFR_JerkyViandeTordue.description>
+
+  <!-- EN: twisted meatballs -->
+  <FlavorTextFR_BoulettesViandeTordue.label>扭曲肉丸</FlavorTextFR_BoulettesViandeTordue.label>
+  <!-- EN: {0_coll} minced and bound with {1_plur}, rolled and finished in a {2_adj} sauce. The round shape recalls nothing in particular, and that is deliberate. -->
+  <FlavorTextFR_BoulettesViandeTordue.description>{0_coll}绞碎后以{1_plur}拌匀凝合，搓成圆丸并在{2_adj}酱汁中收汁。这圆滚滚的外形让人联想不到任何原本的模样，而这正是刻意为之。</FlavorTextFR_BoulettesViandeTordue.description>
+
+  <!-- EN: twisted meat soup -->
+  <FlavorTextFR_SoupeViandeTordue.label>扭曲肉汤</FlavorTextFR_SoupeViandeTordue.label>
+  <!-- EN: {0_coll} and its bones set in cold water and brought up gently, with {1_coll}. It is skimmed a great deal through the first hour. -->
+  <FlavorTextFR_SoupeViandeTordue.description>{0_coll}连骨带{1_coll}一同冷水下锅，文火慢煲。头一个小时里需要不厌其烦地撇去大量浮沫。</FlavorTextFR_SoupeViandeTordue.description>
+
+  <!-- EN: soda-glazed pork -->
+  <FlavorTextFR_PorcAuSoda.label>汽水焦糖煨猪肉</FlavorTextFR_PorcAuSoda.label>
+  <!-- EN: a ham cooked slowly in sweetened {0_coll}, whose sugar caramelises and whose acid tenderises. A recipe out of a tin-can kitchen, and nobody has ever explained why it works. -->
+  <FlavorTextFR_PorcAuSoda.description>整块火腿在加甜的{0_coll}中慢火煨熟，其中的糖分焦糖化收汁，酸度则令肉质软嫩。一道源自罐头厨房的奇巧食谱，至今也没人说得清它为何如此美味。</FlavorTextFR_PorcAuSoda.description>
+
+  <!-- EN: lemonade sorbet -->
+  <FlavorTextFR_SorbetALaLimonade.label>柠檬汽水雪葩</FlavorTextFR_SorbetALaLimonade.label>
+  <!-- EN: {0_coll} churned with pressed {2_coll} and a {1_adj} syrup, into a grainy, biting ice. The simplest dessert of a colony with no cow. -->
+  <FlavorTextFR_SorbetALaLimonade.description>{0_coll}与鲜榨{2_coll}汁及{1_adj}糖浆一同搅打冷冻，化作颗粒分明、酸爽沁人的冰沙。对于没有奶牛的殖民地而言，这是最简单的甜点。</FlavorTextFR_SorbetALaLimonade.description>
+
+</LanguageData>

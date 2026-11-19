@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: onion confit -->
+  <FlavorTextFR_ConfitDOignons.label>法式油封焦糖洋葱酱</FlavorTextFR_ConfitDOignons.label>
+  <!-- EN: {0_coll} sliced and melted two hours under a lid, then uncovered and left to caramelise with {1_plur} and red {2_plur} until they turn almost black and syrupy. -->
+  <FlavorTextFR_ConfitDOignons.description>切丝的{0_coll}加盖慢火焖软两小时，随后揭盖加入{1_plur}与红{2_plur}，耐心熬至焦糖化，直至色泽近乎乌黑、质地浓稠如蜜。</FlavorTextFR_ConfitDOignons.description>
+
+  <!-- EN: onion tatin -->
+  <FlavorTextFR_TatinDOignons.label>法式反烤焦糖洋葱塔</FlavorTextFR_TatinDOignons.label>
+  <!-- EN: {0_coll} halved and set cut side down in a {1_adj} caramel with vinegar, covered over with pastry and turned out after baking. The principle of the apple tart, applied to the savoury. -->
+  <FlavorTextFR_TatinDOignons.description>对半切开的{0_coll}切面朝下排入加了醋的{1_adj}焦糖底中，覆上酥皮烘熟后翻转脱模。这是将反烤苹果塔的法则巧妙移用于咸味料理。</FlavorTextFR_TatinDOignons.description>
+
+  <!-- EN: cipolline in agrodolce -->
+  <FlavorTextFR_CipollineAgrodolce.label>意式糖醋珍珠洋葱</FlavorTextFR_CipollineAgrodolce.label>
+  <!-- EN: small whole {0_coll} glazed in balsamic vinegar and {1_plur}, with bay. Eaten cold, and they keep a week, gaining by the day. -->
+  <FlavorTextFR_CipollineAgrodolce.description>整颗小巧扁圆的{0_coll}加入香脂醋、{1_plur}与月桂叶慢火收汁挂亮。放凉后食用，可存上一周，且风味日胜一日。</FlavorTextFR_CipollineAgrodolce.description>
+
+  <!-- EN: bacon and onion jam -->
+  <FlavorTextFR_ConfitureOignonsLard.label>培根洋葱咸甜酱</FlavorTextFR_ConfitureOignonsLard.label>
+  <!-- EN: {2_coll} rendered slowly, {0_coll} stewed down in its fat with brown {1_plur} and cider vinegar. Spread on a burger or on toast, indifferently. -->
+  <FlavorTextFR_ConfitureOignonsLard.description>{2_coll}慢火煸出脂油，再放入{0_coll}、红{1_plur}与苹果醋一同慢炖收浓。无论抹在汉堡里还是涂在烤吐司上，都同样相宜。</FlavorTextFR_ConfitureOignonsLard.description>
+
+  <!-- EN: green tomato jam -->
+  <FlavorTextFR_ConfitureTomatesVertes.label>青番茄果酱</FlavorTextFR_ConfitureTomatesVertes.label>
+  <!-- EN: {0_coll} that never ripened before the frosts, sliced and steeped overnight in {1_plur}, then cooked with {2_plur} until they turn translucent. Nothing is wasted in the garden. -->
+  <FlavorTextFR_ConfitureTomatesVertes.description>霜降前未能熟透的青{0_coll}，切片后用{1_plur}浸渍过夜，再加入{2_plur}慢熬至晶莹半透。菜园里的收成，半点也不会白白糟蹋。</FlavorTextFR_ConfitureTomatesVertes.description>
+
+  <!-- EN: ketchup -->
+  <FlavorTextFR_Ketchup.label>手作番茄酱</FlavorTextFR_Ketchup.label>
+  <!-- EN: {0_coll} reduced for hours with {2_plur}, vinegar, {1_coll} and a bag of whole spices lifted out at the end. The word comes from a Chinese fish brine, and there was no tomato in it. -->
+  <FlavorTextFR_Ketchup.description>{0_coll}与{2_plur}、醋、{1_coll}以及一包整粒香料慢熬数小时，收尾时再将香料袋捞出。“Ketchup”一词源于中国闽南的鱼露“鲑汁”，最初里头连半点番茄也没有。</FlavorTextFR_Ketchup.description>
+
+  <!-- EN: tomato and date chutney -->
+  <FlavorTextFR_ChutneyTomateDatte.label>孟加拉番茄椰枣酸甜酱</FlavorTextFR_ChutneyTomateDatte.label>
+  <!-- EN: {0_coll} and {2_coll} stewed in palm {1_plur} with the five Bengali spices, until it coats the spoon. Served at the end of the meal, before the sweet, to clean the mouth. -->
+  <FlavorTextFR_ChutneyTomateDatte.description>{0_coll}与{2_coll}加入棕榈{1_plur}和孟加拉五香慢火熬煮，直至浓稠得能挂住汤勺。在正餐尾声、甜点登场前呈上，用以涤荡口中余味。</FlavorTextFR_ChutneyTomateDatte.description>
+
+  <!-- EN: tomato tatin -->
+  <FlavorTextFR_TatinDeTomates.label>法式反烤番茄塔</FlavorTextFR_TatinDeTomates.label>
+  <!-- EN: {0_coll} candied in a {1_adj} and {2_adj} caramel, packed side by side under a sheet of pastry and turned out warm. The sugar does not make them sweet: it concentrates them. -->
+  <FlavorTextFR_TatinDeTomates.description>在{1_adj}与{2_adj}熬成的焦糖中蜜渍的{0_coll}，挨挨挤挤地排在酥皮下烘熟，趁温热翻转脱模。糖分并不会令番茄变甜，而是将其本味浓缩得愈发深邃。</FlavorTextFR_TatinDeTomates.description>
+
+  <!-- EN: beef teriyaki -->
+  <FlavorTextFR_BoeufTeriyaki.label>照烧牛肉</FlavorTextFR_BoeufTeriyaki.label>
+  <!-- EN: {0_coll} sliced thin and seared, then lacquered with a reduction of {2_adj}, mirin and {1_adj} brushed on three times over. The shine is the object, not the sauce. -->
+  <FlavorTextFR_BoeufTeriyaki.description>薄切{0_coll}猛火快煎，再用{2_adj}酱油、味醂与{1_adj}熬浓的酱汁反复刷涂三遍，挂出如漆般的光泽。“照烧”追求的正是那层亮泽，而非汤汁。</FlavorTextFR_BoeufTeriyaki.description>
+
+  <!-- EN: orange beef -->
+  <FlavorTextFR_BoeufALOrange.label>陈皮牛肉</FlavorTextFR_BoeufALOrange.label>
+  <!-- EN: strips of {0_adj} coated in starch and fried crisp, tossed in a {1_adj} syrup with vinegar and dried {2_adj} peel. The crust has to hold up under the sauce. -->
+  <FlavorTextFR_BoeufALOrange.description>切条的{0_adj}裹上淀粉炸得酥脆，再投入加了醋和干{2_adj}皮的{1_adj}糖浆中快速翻炒挂汁。外层的脆壳在裹上浓汁后依然必须挺括酥脆。</FlavorTextFR_BoeufALOrange.description>
+
+  <!-- EN: carbonnade with brown sugar -->
+  <FlavorTextFR_CarbonnadeCassonade.label>佛兰德斯红糖黑啤炖牛肉</FlavorTextFR_CarbonnadeCassonade.label>
+  <!-- EN: {0_coll} braised in brown {2_plur}, softened with brown {1_plur} and a slice of mustarded gingerbread that dissolves and binds the sauce. The bitterness of the beer and the sugar hold each other in balance. -->
+  <FlavorTextFR_CarbonnadeCassonade.description>{0_coll}在黑{2_plur}中慢火焖炖，加入红{1_plur}柔化风味，并覆上一片抹了芥末的姜饼——姜饼在炖煮中化开，自然收浓汤汁。啤酒的微苦与红糖的甘甜在此达成了微妙的平衡。</FlavorTextFR_CarbonnadeCassonade.description>
+
+  <!-- EN: beef with prunes -->
+  <FlavorTextFR_BoeufAuxPruneaux.label>西梅干焖牛肉</FlavorTextFR_BoeufAuxPruneaux.label>
+  <!-- EN: {0_coll} braised with dried {2_coll} that fall apart at the end of the cooking and sweeten the juices by themselves. {1_coll} goes in only at the very last, and very little of it. -->
+  <FlavorTextFR_BoeufAuxPruneaux.description>{0_coll}与{2_coll}干一同慢火焖煮，果干在收尾时软烂化开，自然赋予肉汁甘美。{1_coll}只在最后关头略加少许，点到为止。</FlavorTextFR_BoeufAuxPruneaux.description>
+
+  <!-- EN: brown sugar brisket -->
+  <FlavorTextFR_BrisketSucreBrun.label>红糖烟熏牛胸肉</FlavorTextFR_BrisketSucreBrun.label>
+  <!-- EN: a {0_adj} brisket rubbed with brown {1_plur}, {2_plur} and smoked paprika, then smoked twelve hours. The sugar forms the black crust they call the bark, and it is the best of it. -->
+  <FlavorTextFR_BrisketSucreBrun.description>整块{0_adj}胸肉抹满红{1_plur}、{2_plur}与烟熏红椒粉，再经十二小时慢火熏烤。糖分在表面凝结成一层被称作“树皮”的乌黑焦壳，那正是整块烤肉最精华的所在。</FlavorTextFR_BrisketSucreBrun.description>
+
+  <!-- EN: carottes Vichy -->
+  <FlavorTextFR_CarottesVichy.label>维希奶油琉璃胡萝卜</FlavorTextFR_CarottesVichy.label>
+  <!-- EN: {0_coll} in rounds cooked uncovered in just enough water, {1_plur} and {2_plur}, until the liquid goes and leaves a shining glaze behind. -->
+  <FlavorTextFR_CarottesVichy.description>切成圆片的{0_coll}加入刚好没过的清水、{1_plur}与{2_plur}敞盖慢煮，直至水分收干，在表面留下一层晶莹透亮的琉璃糖衣。</FlavorTextFR_CarottesVichy.description>
+
+  <!-- EN: rotkohl -->
+  <FlavorTextFR_Rotkohl.label>德式苹果焖紫甘蓝</FlavorTextFR_Rotkohl.label>
+  <!-- EN: red {0_coll} shredded and braised an hour with grated {2_coll}, vinegar and {1_coll}, plus a single clove. The acid holds the colour; without it the cabbage turns blue. -->
+  <FlavorTextFR_Rotkohl.description>切丝的紫{0_coll}加入擦碎的{2_coll}、醋、{1_coll}与一粒丁香慢焖一小时。酸味锁住了艳丽的紫红；若是少了醋，甘蓝便会褪成暗蓝。</FlavorTextFR_Rotkohl.description>
+
+  <!-- EN: sweet-and-sour beetroot -->
+  <FlavorTextFR_BetteravesAigresDouces.label>糖醋腌甜菜根</FlavorTextFR_BetteravesAigresDouces.label>
+  <!-- EN: {0_coll} cooked in their skins then marinated in a {1_adj} vinegar with mustard seed and dill. They take a week to come into balance and keep for months. -->
+  <FlavorTextFR_BetteravesAigresDouces.description>带皮煮熟的{0_coll}，浸入调有芥末籽与莳萝的{1_adj}甜醋汁中腌渍。需静置一周方能酸甜融洽，此后便可保存数月之久。</FlavorTextFR_BetteravesAigresDouces.description>
+
+  <!-- EN: daigaku imo -->
+  <FlavorTextFR_DaigakuImo.label>日式大学芋</FlavorTextFR_DaigakuImo.label>
+  <!-- EN: pieces of sweet potato fried and then coated in a {1_adj} caramel with soy, sown with black {2_plur}. University potato: the students of Tokyo bought them for next to nothing. -->
+  <FlavorTextFR_DaigakuImo.description>滚刀块红薯炸透后，裹上一层调入酱油的{1_adj}焦糖浆，再撒上黑{2_plur}。之所以名叫“大学芋”，是因为当年东京的大学生花几个铜板就能买上一份解馋。</FlavorTextFR_DaigakuImo.description>
+
+  <!-- EN: zucca in agrodolce -->
+  <FlavorTextFR_ZuccaInAgrodolce.label>西西里糖醋渍南瓜</FlavorTextFR_ZuccaInAgrodolce.label>
+  <!-- EN: slices of {0_adj} fried and then marinated hot in a {1_adj} vinegar with mint and garlic. Eaten cold the next day; on the day itself it is too violent. -->
+  <FlavorTextFR_ZuccaInAgrodolce.description>切片煎透的{0_adj}，趁热浸入加了薄荷与蒜片的{1_adj}甜醋汁中腌渍。必须放到次日冷食；当天吃的话，酸甜冲撞的锋芒太过凌厉。</FlavorTextFR_ZuccaInAgrodolce.description>
+
+  <!-- EN: takuan -->
+  <FlavorTextFR_Takuan.label>日式泽庵渍萝卜</FlavorTextFR_Takuan.label>
+  <!-- EN: a daikon dried in the sun for weeks until it will bend, then buried in rice bran with {1_plur} and salt. Bright yellow, crisp, and loud to chew. -->
+  <FlavorTextFR_Takuan.description>白萝卜在日光下暴晒数周直至柔韧可弯，再埋入混有{1_plur}与盐的米糠床中腌透。色泽明黄，爽脆多汁，嚼起来咔嚓作响。</FlavorTextFR_Takuan.description>
+
+  <!-- EN: sweet cucumber pickles -->
+  <FlavorTextFR_PicklesSucresConcombre.label>酸甜腌黄瓜片</FlavorTextFR_PicklesSucresConcombre.label>
+  <!-- EN: {0_coll} and {2_coll} finely sliced, drawn out in coarse salt then scalded in a {1_adj} vinegar with turmeric and mustard seed. -->
+  <FlavorTextFR_PicklesSucresConcombre.description>切成薄片的{0_coll}与{2_coll}先用粗盐杀出水分，再浇上煮沸的姜黄、芥末籽与{1_adj}甜醋汁烫腌入味。</FlavorTextFR_PicklesSucresConcombre.description>
+
+  <!-- EN: sweet-and-sour pork -->
+  <FlavorTextFR_PorcAigreDoux.label>咕咾肉</FlavorTextFR_PorcAigreDoux.label>
+  <!-- EN: {0_coll} coated in starch and fried twice, thrown at the last moment into a {1_adj} sauce with vinegar and {2_coll}. Mixed too early, the coating collapses. -->
+  <FlavorTextFR_PorcAigreDoux.description>裹淀粉复炸两次的{0_coll}块，在出锅前一刻投入由醋、{1_adj}与{2_coll}调成的糖醋浓汁中快速颠炒。若是拌得太早，酥脆的外壳便会软塌。</FlavorTextFR_PorcAigreDoux.description>
+
+  <!-- EN: vegetable achards -->
+  <FlavorTextFR_AchardsDeLegumes.label>克里奥尔酸甜姜黄腌菜</FlavorTextFR_AchardsDeLegumes.label>
+  <!-- EN: {0_coll} cut into fine julienne, blanched then drowned in an oil with turmeric, ginger and vinegar, with just enough {1_adj} to round off the acid. They improve over three days. -->
+  <FlavorTextFR_AchardsDeLegumes.description>切成细丝的{0_coll}焯水后，浸入调有姜黄、生姜与醋的香油中，仅加少许{1_adj}以柔化酸味。腌制三天后风味愈发醇美。</FlavorTextFR_AchardsDeLegumes.description>
+
+  <!-- EN: honey-glazed ham -->
+  <FlavorTextFR_JambonGlaceAuMiel.label>蜜汁烤火腿</FlavorTextFR_JambonGlaceAuMiel.label>
+  <!-- EN: a joint of {0_adj} scored in a lattice and stuck with cloves, brushed with {1_plur} and {2_plur} every twenty minutes until an amber crust forms. -->
+  <FlavorTextFR_JambonGlaceAuMiel.description>大块{0_adj}后腿表面划出菱格花刀并插上丁香，烘烤时每隔二十分钟刷一层{1_plur}与{2_plur}，直至表面结出琥珀色的诱人焦壳。</FlavorTextFR_JambonGlaceAuMiel.description>
+
+  <!-- EN: honey and garlic chicken -->
+  <FlavorTextFR_PouletMielAil.label>蜜汁蒜香鸡</FlavorTextFR_PouletMielAil.label>
+  <!-- EN: {0_coll} seared then stewed in {1_coll}, crushed {2_coll} and a splash of vinegar, until the sauce reduces and clings to the flesh. -->
+  <FlavorTextFR_PouletMielAil.description>{0_coll}先入锅煎香，再加入{1_coll}、捣碎的{2_coll}与一注醋慢火收汁，直至酱汁浓缩、紧紧裹住每一寸肉块。</FlavorTextFR_PouletMielAil.description>
+
+  <!-- EN: miso and honey glazed salmon -->
+  <FlavorTextFR_SaumonMisoMiel.label>蜂蜜味噌炙烤三文鱼</FlavorTextFR_SaumonMisoMiel.label>
+  <!-- EN: {0_coll} marinated overnight in a paste of fermented {1_adj} and {2_adj}, then run under the grill. The sugar of the miso burns fast: you watch it without leaving the salamander. -->
+  <FlavorTextFR_SaumonMisoMiel.description>{0_coll}在发酵{1_adj}酱与{2_adj}调成的腌料中浸渍过夜，随后送入上火炙炉烘烤。味噌里的糖分极易焦糊，烤制时寸步不可离开炉前。</FlavorTextFR_SaumonMisoMiel.description>
+
+  <!-- EN: tfaya tagine -->
+  <FlavorTextFR_TajineTfaya.label>摩洛哥焦糖洋葱葡萄干塔吉锅</FlavorTextFR_TajineTfaya.label>
+  <!-- EN: {2_coll} stewed with saffron, covered with a tfaya — {0_coll} stewed down for hours with dried {1_plur}, cinnamon and honey, until dark brown. -->
+  <FlavorTextFR_TajineTfaya.description>藏红花慢炖的{2_coll}，上面铺满一层“特法亚”——用{0_coll}、{1_plur}干、肉桂与蜂蜜慢火熬煮数小时直至深褐浓稠的甜香浇头。</FlavorTextFR_TajineTfaya.description>
+
+  <!-- EN: mrouzia -->
+  <FlavorTextFR_Mrouzia.label>摩洛哥蜂蜜杏仁慢炖羊肉</FlavorTextFR_Mrouzia.label>
+  <!-- EN: {0_coll} confited with ras el hanout and smen, drowned in {1_plur} and loaded with fried {2_adj}. The honey and the salt kept the meat for weeks after the feast of the sacrifice. -->
+  <FlavorTextFR_Mrouzia.description>{0_coll}加入摩洛哥综合香料与发酵酥油慢火煨透，浸满{1_plur}并撒上油炸{2_adj}。在昔日的宰牲节庆典之后，正是蜂蜜与盐让这道肉肴得以保存数周不坏。</FlavorTextFR_Mrouzia.description>
+
+  <!-- EN: khoresh-e beh -->
+  <FlavorTextFR_KhoreshBeh.label>波斯榅桲炖羊肉</FlavorTextFR_KhoreshBeh.label>
+  <!-- EN: {0_coll} braised with quinces in quarters, whose hard flesh melts within the hour and scents everything, sharpened with verjuice and sweetened with a little honey. -->
+  <FlavorTextFR_KhoreshBeh.description>{0_coll}与切作四瓣的榅桲一同焖炖，原本坚硬的果肉在不出一个钟头内便软融化开、香气四溢，最后以酸葡萄汁提酸，并调入少许蜂蜜增甜。</FlavorTextFR_KhoreshBeh.description>
+
+  <!-- EN: pork with cider and apples -->
+  <FlavorTextFR_PorcCidrePommes.label>苹果酒炖猪肉</FlavorTextFR_PorcCidrePommes.label>
+  <!-- EN: a roast of {0_adj} braised in {2_plur} with {1_coll} in quarters, half of which fall to a compote while the other half hold their shape. The juices reduce to a syrup on their own. -->
+  <FlavorTextFR_PorcCidrePommes.description>大块{0_adj}在{2_plur}中与切四瓣的{1_coll}一同慢火焖煮，一半果肉化作果泥融于汤中，另一半则保持完整。锅中肉汁无需勾芡，便能自行收浓成亮泽的糖浆。</FlavorTextFR_PorcCidrePommes.description>
+
+</LanguageData>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: bouillabaisse -->
+  <FlavorTextFR_Bouillabaisse.label>马赛鱼汤</FlavorTextFR_Bouillabaisse.label>
+  <!-- EN: a fisherman's soup: {0_coll} boiled hard with {1_coll} and {2_coll}, the broth served first and the flesh afterwards. -->
+  <FlavorTextFR_Bouillabaisse.description>一道渔家浓汤：将{0_coll}与{1_coll}、{2_coll}猛火滚煮，上桌时先饮鲜汤，再食鱼肉。</FlavorTextFR_Bouillabaisse.description>
+
+  <!-- EN: pissaladière -->
+  <FlavorTextFR_Pissaladiere.label>尼斯洋葱鳀鱼挞</FlavorTextFR_Pissaladiere.label>
+  <!-- EN: a Niçois tart: {0_coll} stewed a whole hour until they are almost a jam, spread over the dough and latticed with {1_adj}. -->
+  <FlavorTextFR_Pissaladiere.description>一道尼斯风味咸挞：将{0_coll}慢煨整整一小时直至化作绵密浓酱，铺在面皮上，再交错码成{1_adj}菱格纹。</FlavorTextFR_Pissaladiere.description>
+
+  <!-- EN: tapenade -->
+  <FlavorTextFR_Tapenade.label>普罗旺斯黑橄榄酱</FlavorTextFR_Tapenade.label>
+  <!-- EN: {0_coll}, {1_coll} and {2_coll} crushed in a mortar into a black, salty paste. The name comes from the capers, which we do not have. -->
+  <FlavorTextFR_Tapenade.description>在石臼中将{0_coll}、{1_coll}与{2_coll}捣成咸香乌黑的泥酱。菜名本源于普罗旺斯语的“刺山柑”，只是我们手头并没有这味食材。</FlavorTextFR_Tapenade.description>
+
+  <!-- EN: daube provençale -->
+  <FlavorTextFR_DaubeProvencale.label>普罗旺斯红酒焖牛肉</FlavorTextFR_DaubeProvencale.label>
+  <!-- EN: {0_coll} marinated a whole night, then cooked so long and so gently that it falls apart under the spoon. -->
+  <FlavorTextFR_DaubeProvencale.description>浸腌整夜的{0_coll}，以微火漫长慢焖，直至轻触勺尖便应声酥烂。</FlavorTextFR_DaubeProvencale.description>
+
+  <!-- EN: soupe au pistou -->
+  <FlavorTextFR_SoupeAuPistou.label>普罗旺斯罗勒蒜酱蔬菜汤</FlavorTextFR_SoupeAuPistou.label>
+  <!-- EN: a thick soup of {0_adj} and {1_adj}, into which, off the heat, goes a paste of {2_adj} pounded with oil. The heat of the broth is enough to wake it up. -->
+  <FlavorTextFR_SoupeAuPistou.description>一锅用{0_adj}与{1_adj}熬煮的浓汤，离火后调入用橄榄油捣成泥的{2_adj}酱。单凭热汤的余温，便足以唤醒满碗芬芳。</FlavorTextFR_SoupeAuPistou.description>
+
+  <!-- EN: bœuf bourguignon -->
+  <FlavorTextFR_BoeufBourguignon.label>勃艮第红酒炖牛肉</FlavorTextFR_BoeufBourguignon.label>
+  <!-- EN: {0_coll} braised for hours in {1_plur}, with {2_coll}, until the sauce coats the spoon and the meat gives way without a knife. -->
+  <FlavorTextFR_BoeufBourguignon.description>在{1_plur}中与{2_coll}一同慢焖数小时的{0_coll}，直炖到浓汁挂勺、肉块无需动刀便自然酥软。</FlavorTextFR_BoeufBourguignon.description>
+
+  <!-- EN: œufs en meurette -->
+  <FlavorTextFR_OeufsEnMeurette.label>勃艮第红酒水波蛋</FlavorTextFR_OeufsEnMeurette.label>
+  <!-- EN: {0_coll} poached not in water but in a sauce reduced from {1_plur} and {2_plur}, which stains them violet. -->
+  <FlavorTextFR_OeufsEnMeurette.description>不在清水中、而在由{1_plur}与{2_plur}熬浓的酱汁里微沸卧熟的{0_coll}，蛋白外层染上一抹深邃的紫红。</FlavorTextFR_OeufsEnMeurette.description>
+
+  <!-- EN: gougères -->
+  <FlavorTextFR_Gougeres.label>勃艮第奶酪泡芙</FlavorTextFR_Gougeres.label>
+  <!-- EN: choux pastry made with {0_plur}, puffed in the oven until it sounds hollow. Eaten warm, standing up, while waiting for the rest. -->
+  <FlavorTextFR_Gougeres.description>揉入{0_plur}烤制而成的咸味泡芙，在炉中高高鼓起，轻叩如闻空响。宜在等候正餐时站着趁热吃。</FlavorTextFR_Gougeres.description>
+
+  <!-- EN: tartiflette -->
+  <FlavorTextFR_Tartiflette.label>萨瓦奶酪焗土豆</FlavorTextFR_Tartiflette.label>
+  <!-- EN: {0_coll} and {2_coll} covered over with {1_adj} cut along its length, rind downwards, and put in the oven until everything runs into everything else. -->
+  <FlavorTextFR_Tartiflette.description>{0_coll}与{2_coll}铺底，上面盖满横向剖开、外皮朝下的整轮{1_adj}，送入烤炉直至奶酪融化、万物交融。</FlavorTextFR_Tartiflette.description>
+
+  <!-- EN: fondue savoyarde -->
+  <FlavorTextFR_FondueSavoyarde.label>萨瓦奶酪火锅</FlavorTextFR_FondueSavoyarde.label>
+  <!-- EN: {0_coll} melted in {1_plur} in a pot rubbed with garlic, kept hot the whole evening. Bread is dipped in on the end of a fork; whoever drops it buys the next round. -->
+  <FlavorTextFR_FondueSavoyarde.description>在擦过蒜瓣的陶锅中用{1_plur}融化的{0_coll}，整晚小火保温。食客用长叉挑起面包块蘸食；谁若是把面包掉进锅里，下一轮酒钱便归谁买单。</FlavorTextFR_FondueSavoyarde.description>
+
+  <!-- EN: aligot -->
+  <FlavorTextFR_Aligot.label>阿利戈奶酪土豆泥</FlavorTextFR_Aligot.label>
+  <!-- EN: a mash of {0_adj} worked with {1_plur} and a spatula, for a long time, until it draws into ribbons when it is lifted. The arm gives out before the paste does. -->
+  <FlavorTextFR_Aligot.description>用木铲将{0_adj}泥与{1_plur}久久用力搅打，直至挑起时拉出绸缎般绵长的瀑布丝。往往泥还未卸力，掌勺人的手臂便先酸麻难当了。</FlavorTextFR_Aligot.description>
+
+  <!-- EN: truffade -->
+  <FlavorTextFR_Truffade.label>奥弗涅奶酪煎土豆饼</FlavorTextFR_Truffade.label>
+  <!-- EN: {0_coll} fried in {2_plur}, crushed roughly in the pan and bound with young {1_plur}, without ever leaving the heat. -->
+  <FlavorTextFR_Truffade.description>在{2_plur}中煎香的{0_coll}，直接在锅里粗略捣碎，全程不离火地拌入鲜嫩的{1_plur}融成一体。</FlavorTextFR_Truffade.description>
+
+  <!-- EN: potée auvergnate -->
+  <FlavorTextFR_PoteeAuvergnate.label>奥弗涅猪肉卷心菜浓汤</FlavorTextFR_PoteeAuvergnate.label>
+  <!-- EN: {1_coll} and {0_coll} in the same pot, with {2_coll}, stewed half a day. The broth is drunk first, the rest eaten after. -->
+  <FlavorTextFR_PoteeAuvergnate.description>将{1_coll}、{0_coll}与{2_coll}共入一锅，慢火细炖半日之久。上桌先喝热汤，再吃肉菜。</FlavorTextFR_PoteeAuvergnate.description>
+
+  <!-- EN: choucroute garnie -->
+  <FlavorTextFR_ChoucrouteGarnie.label>阿尔萨斯酸菜炖肉</FlavorTextFR_ChoucrouteGarnie.label>
+  <!-- EN: {0_coll} salted and left to ferment for weeks, then cooked in {1_plur} and served with {2_plur}. The acidity finishes all the work the salt began. -->
+  <FlavorTextFR_ChoucrouteGarnie.description>盐渍发酵数周的{0_coll}，与{1_plur}同煮，配以{2_plur}上桌。粗盐开启的转化之功，最终由岁月酿出的酸爽圆满收官。</FlavorTextFR_ChoucrouteGarnie.description>
+
+  <!-- EN: baeckeoffe -->
+  <FlavorTextFR_Baeckeoffe.label>阿尔萨斯陶锅酒焖肉</FlavorTextFR_Baeckeoffe.label>
+  <!-- EN: {0_coll} and {1_coll} stacked in layers, moistened with {2_adj}, the terrine sealed with a rope of dough. It was carried to the baker in the morning and waited in his oven until evening. -->
+  <FlavorTextFR_Baeckeoffe.description>层层叠码的{0_coll}与{1_coll}，浇入{2_adj}浸润，再以长条面团封死陶锅盖沿。旧时主妇清晨将它送去面包房，借着余温在炉膛里一直慢煨到暮色四合。</FlavorTextFR_Baeckeoffe.description>
+
+  <!-- EN: flammekueche -->
+  <FlavorTextFR_Flammekueche.label>阿尔萨斯火焰薄饼</FlavorTextFR_Flammekueche.label>
+  <!-- EN: a dough rolled out to the very edge of tearing, covered with raw {1_adj} and {2_adj}, slid for two minutes as close to the embers as it will go. -->
+  <FlavorTextFR_Flammekueche.description>擀到近乎破皮的极薄面饼，铺满生鲜{1_adj}与{2_adj}，紧贴炉膛明火余烬烘烤两分钟即成。</FlavorTextFR_Flammekueche.description>
+
+  <!-- EN: kougelhopf -->
+  <FlavorTextFR_Kougelhopf.label>阿尔萨斯咕咕霍夫皇冠蛋糕</FlavorTextFR_Kougelhopf.label>
+  <!-- EN: a slow brioche baked in a fluted mould, with {1_plur} soaked in advance and {2_plur} set in the bottom so that they end up at the summit. -->
+  <FlavorTextFR_Kougelhopf.description>在螺旋棱纹模具中慢发酵烘烤的布里欧修蛋糕，揉入预先泡软的{1_plur}，模具槽底排入一颗颗{2_plur}，脱模翻转后便化作冠顶的明珠。</FlavorTextFR_Kougelhopf.description>
+
+  <!-- EN: buckwheat galette -->
+  <FlavorTextFR_GaletteDeSarrasin.label>布列塔尼荞麦薄饼</FlavorTextFR_GaletteDeSarrasin.label>
+  <!-- EN: a {0_adj} batter spread with a rozell over the scorching stone, filled with {1_plur} and {2_plur}, the four corners folded over the yolk while it is still running. -->
+  <FlavorTextFR_GaletteDeSarrasin.description>用木制T形刮板在滚烫铁板上摊开的{0_adj}面糊，打入{1_plur}、撒上{2_plur}，趁蛋黄尚自流淌时将四边向内折起。</FlavorTextFR_GaletteDeSarrasin.description>
+
+  <!-- EN: far breton -->
+  <FlavorTextFR_FarBreton.label>布列塔尼厚布丁蛋糕</FlavorTextFR_FarBreton.label>
+  <!-- EN: a dense custard of {1_plur} and {2_plur}, baked until the top browns and the middle still trembles. -->
+  <FlavorTextFR_FarBreton.description>用{1_plur}与{2_plur}调制的扎实蛋奶糕，入炉烤至表皮焦褐，而内芯依然微微颤动。</FlavorTextFR_FarBreton.description>
+
+  <!-- EN: kouign-amann -->
+  <FlavorTextFR_KouignAmann.label>布列塔尼焦糖黄油酥饼</FlavorTextFR_KouignAmann.label>
+  <!-- EN: a dough folded and folded again over {1_plur} and {2_plur} until it holds almost as much of them as of flour. The sugar at the bottom caramelises and sticks to the tin; that is the best piece. -->
+  <FlavorTextFR_KouignAmann.description>裹入{1_plur}与{2_plur}反复折叠起酥的面团，里面夹带的糖油分量几乎与面粉不相上下。底部的砂糖在高温下焦化粘模，那正是整块点心最精华的所在。</FlavorTextFR_KouignAmann.description>
+
+  <!-- EN: cotriade -->
+  <FlavorTextFR_Cotriade.label>布列塔尼渔夫鱼汤</FlavorTextFR_Cotriade.label>
+  <!-- EN: the sailor's share: the {0_coll} that will not be sold, cooked with {1_plur} and {2_plur}, the broth poured over stale bread. -->
+  <FlavorTextFR_Cotriade.description>属于水手的那份收获：将不便售卖的零星{0_coll}与{1_plur}、{2_plur}同锅滚煮，滚烫的鲜汤直接浇在隔夜陈面包上食用。</FlavorTextFR_Cotriade.description>
+
+  <!-- EN: garbure -->
+  <FlavorTextFR_Garbure.label>加斯科涅猪肉卷心菜浓汤</FlavorTextFR_Garbure.label>
+  <!-- EN: a soup so thick with {0_adj}, {1_adj} and {2_adj} that the spoon stands up in it. That is the test, and it is not open to negotiation. -->
+  <FlavorTextFR_Garbure.description>满满塞着{0_adj}、{1_adj}与{2_adj}的乡野浓汤，稠厚得插进一把汤勺都能稳稳立住。这是检验它是否地道的唯一标准，绝无讨价还价的余地。</FlavorTextFR_Garbure.description>
+
+  <!-- EN: {0_adj} confit -->
+  <FlavorTextFR_ConfitDeVolaille.label>油封{0_adj}</FlavorTextFR_ConfitDeVolaille.label>
+  <!-- EN: {0_coll} salted for a day, then cooked very slowly submerged in {1_plur}, and kept in it afterwards. The skin is crisped at the last moment, in a pan. -->
+  <FlavorTextFR_ConfitDeVolaille.description>粗盐腌渍一日的{0_coll}，浸没在{1_plur}中以极微之火慢煨熟透，随后连肉带油一并封存。上桌前最后一刻才入平底锅将表皮煎得酥脆。</FlavorTextFR_ConfitDeVolaille.description>
+
+  <!-- EN: poule au pot -->
+  <FlavorTextFR_PouleAuPot.label>亨利四世整鸡蔬菜锅</FlavorTextFR_PouleAuPot.label>
+  <!-- EN: {0_coll} poached whole with {1_coll} and {2_coll}. Henri IV promised one a week to every family; history does not say whether he kept his word. -->
+  <FlavorTextFR_PouleAuPot.description>与{1_coll}和{2_coll}整只微沸慢炖的{0_coll}。法国国王亨利四世曾许诺让治下每户人家每周都能吃上一锅；至于他是否兑现了诺言，史书并未记载。</FlavorTextFR_PouleAuPot.description>
+
+  <!-- EN: {0_adj} blanquette -->
+  <FlavorTextFR_Blanquette.label>法式白汁烩{0_adj}</FlavorTextFR_Blanquette.label>
+  <!-- EN: {0_coll} cooked without taking any colour — that is the whole difficulty — the sauce mounted with {1_plur} and sharpened at the very last moment. -->
+  <FlavorTextFR_Blanquette.description>烹煮全程绝不能染上一丝焦色的{0_coll}——全道菜的功夫尽在于此——汤汁以{1_plur}收浓，出锅前最后一刻加酸提亮风味。</FlavorTextFR_Blanquette.description>
+
+  <!-- EN: gratinée onion soup -->
+  <FlavorTextFR_SoupeALOignonGratinee.label>法式焗洋葱汤</FlavorTextFR_SoupeALOignonGratinee.label>
+  <!-- EN: {0_coll} browned very slowly to a deep colour, moistened, then covered with bread and {1_adj} and run under the grill. -->
+  <FlavorTextFR_SoupeALOignonGratinee.description>极慢火煸炒至深琥珀色的{0_coll}，兑汤煮开后铺上面包片与{1_adj}，送入明火烤炉下炙出拉丝焦壳。</FlavorTextFR_SoupeALOignonGratinee.description>
+
+  <!-- EN: croque-monsieur -->
+  <FlavorTextFR_CroqueMonsieur.label>库克先生三明治</FlavorTextFR_CroqueMonsieur.label>
+  <!-- EN: two slices of bread, {2_coll} between them, {1_coll} above and below, the whole browned until the edges run over and catch a little. -->
+  <FlavorTextFR_CroqueMonsieur.description>两片吐司夹着{2_coll}，上下皆铺满{1_coll}，整块入炉烘烤，直至边缘流淌出融化的奶酪并烤出微焦脆边。</FlavorTextFR_CroqueMonsieur.description>
+
+  <!-- EN: quiche lorraine -->
+  <FlavorTextFR_QuicheLorraine.label>洛林咸派</FlavorTextFR_QuicheLorraine.label>
+  <!-- EN: {0_coll} beaten with {1_plur} and poured over {2_coll} taken in the pan, in a shortcrust case. There is no cheese in it, whatever anyone says. -->
+  <FlavorTextFR_QuicheLorraine.description>将{0_coll}与{1_plur}搅打成蛋奶液，浇在铺有煎香{2_coll}丁的酥脆派皮中烘烤。正宗做法里绝不放一丁点奶酪，任谁多嘴也改不了这条规矩。</FlavorTextFR_QuicheLorraine.description>
+
+  <!-- EN: coq au vin -->
+  <FlavorTextFR_CoqAuVin.label>红酒炖鸡</FlavorTextFR_CoqAuVin.label>
+  <!-- EN: {0_coll} from a bird too old for anything else, saved by a long cooking in {1_plur}, with {2_coll}. -->
+  <FlavorTextFR_CoqAuVin.description>肉质太老而无法拿来做其他菜肴的{0_coll}，全仗在{1_plur}中与{2_coll}一同漫长慢炖，才得以化腐朽为醇香。</FlavorTextFR_CoqAuVin.description>
+
+  <!-- EN: rabbit with mustard -->
+  <FlavorTextFR_LapinALaMoutarde.label>第戎芥末奶油炖兔肉</FlavorTextFR_LapinALaMoutarde.label>
+  <!-- EN: {0_coll} painted over with {2_adj} before it goes in, the sauce deglazed and bound with {1_plur}. The mustard loses its heat and keeps only its acidity. -->
+  <FlavorTextFR_LapinALaMoutarde.description>下锅前先刷满{2_adj}的{0_coll}，锅底激香脱釉后汇入{1_plur}收浓成汁。久炖之后，芥末褪去了呛鼻的辛辣，只留下一抹柔和的微酸。</FlavorTextFR_LapinALaMoutarde.description>
+
+  <!-- EN: gratin dauphinois -->
+  <FlavorTextFR_GratinDauphinois.label>多菲内奶油焗土豆</FlavorTextFR_GratinDauphinois.label>
+  <!-- EN: {0_coll} in fine slices, cooked in {1_plur} in a dish rubbed with {2_adj}. The starch is enough to bind it; there is no cheese, and that is not an oversight. -->
+  <FlavorTextFR_GratinDauphinois.description>切成薄片的{0_coll}，码入擦过{2_adj}的烤盘，浸在{1_plur}中慢火焗熟。土豆自带的淀粉已足够将汤汁收得浓稠；里头绝不放奶酪，而且这绝非厨师疏忽。</FlavorTextFR_GratinDauphinois.description>
+
+  <!-- EN: {0_adj} brandade -->
+  <FlavorTextFR_BrandadeDeMorue.label>尼姆风味{0_adj}泥</FlavorTextFR_BrandadeDeMorue.label>
+  <!-- EN: {0_coll} soaked out then worked up with oil into a paste, loosened with {1_plur} and lifted with {2_plur}. -->
+  <FlavorTextFR_BrandadeDeMorue.description>泡发脱盐后分次兑入橄榄油捣成雪白乳化泥膏的{0_coll}，拌入{1_plur}使口感绵密松软，再以{2_plur}提鲜。</FlavorTextFR_BrandadeDeMorue.description>
+
+  <!-- EN: carbonade flamande -->
+  <FlavorTextFR_CarbonadeFlamande.label>佛兰德斯啤酒炖牛肉</FlavorTextFR_CarbonadeFlamande.label>
+  <!-- EN: {0_coll} and {2_coll} stewed long in {1_plur}, softened with a little sugar and a slice of mustarded bread that dissolves into the sauce. -->
+  <FlavorTextFR_CarbonadeFlamande.description>在{1_plur}中慢火久炖的{0_coll}与{2_coll}，加少许糖柔化苦味，再盖上一片涂满芥末的面包，任其在慢煨中融化并收浓汤汁。</FlavorTextFR_CarbonadeFlamande.description>
+
+  <!-- EN: moules marinière -->
+  <FlavorTextFR_MoulesMariniere.label>水手风味白葡萄酒煮贻贝</FlavorTextFR_MoulesMariniere.label>
+  <!-- EN: {0_coll} opened over a high flame with {1_plur} and {2_plur}, in its own liquor. The ones that stay shut are thrown away. -->
+  <FlavorTextFR_MoulesMariniere.description>加入{1_plur}与{2_plur}、借着自身吐出的鲜汁在猛火上煮至开口的{0_coll}。凡是煮罢依然紧闭双壳的，一概弃之不用。</FlavorTextFR_MoulesMariniere.description>
+
+</LanguageData>

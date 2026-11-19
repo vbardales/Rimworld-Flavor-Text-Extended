@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: fig tart -->
+  <FlavorTextFR_TarteAuxFigues.label>无花果挞</FlavorTextFR_TarteAuxFigues.label>
+  <!-- EN: {0_coll} split in a cross and stood upright on a {2_adj} cream, which drinks up their juice as it bakes and keeps the pastry from going soft. -->
+  <FlavorTextFR_TarteAuxFigues.description>{0_coll}划十字切开，直立排布在{2_adj}奶油馅上；烘烤时杏仁馅吸尽渗出的果汁，令底下的挞皮依旧酥脆不软塌。</FlavorTextFR_TarteAuxFigues.description>
+
+  <!-- EN: crostata di fichi -->
+  <FlavorTextFR_CrostataDiFichi.label>意式无花果果酱格纹派</FlavorTextFR_CrostataDiFichi.label>
+  <!-- EN: a shortcrust made with {2_plur}, crossed into a lattice over a thick layer of {0_adj} jam. Eaten cold, the next day, once the pastry has drunk a little of the fruit. -->
+  <FlavorTextFR_CrostataDiFichi.description>以{2_plur}揉成的甜酥派皮覆在厚厚的{0_adj}果酱上，交错编成格纹。待到次日派皮微吸果香后冷食最佳。</FlavorTextFR_CrostataDiFichi.description>
+
+  <!-- EN: figs roasted in honey -->
+  <FlavorTextFR_FiguesRotiesAuMiel.label>蜜烤无花果</FlavorTextFR_FiguesRotiesAuMiel.label>
+  <!-- EN: {0_coll} cut in a cross, a knob of {2_adj} and a spoonful of {1_adj} in the hollow, ten minutes in a scorching oven until they open out like flowers. -->
+  <FlavorTextFR_FiguesRotiesAuMiel.description>{0_coll}顶部划十字，往裂口处塞入一小块{2_adj}并淋一勺{1_adj}，送入滚烫烤箱烘烤十分钟，直至果肉如花朵般绽放。</FlavorTextFR_FiguesRotiesAuMiel.description>
+
+  <!-- EN: figs poached in red wine -->
+  <FlavorTextFR_FiguesPocheesVinRouge.label>红酒慢炖无花果</FlavorTextFR_FiguesPocheesVinRouge.label>
+  <!-- EN: {0_coll} trembled in red {1_coll} sweetened with {2_plur} and star anise, then left to cool in it overnight — it is in the cooling that they take the colour all the way through. -->
+  <FlavorTextFR_FiguesPocheesVinRouge.description>{0_coll}在加了{2_plur}与八角的甜红{1_coll}中微沸慢煨，再浸于原汁中冷却整夜——正是在放凉的过程中，酒色才会彻底沁透果肉。</FlavorTextFR_FiguesPocheesVinRouge.description>
+
+  <!-- EN: fig jam -->
+  <FlavorTextFR_ConfitureDeFigues.label>无花果果酱</FlavorTextFR_ConfitureDeFigues.label>
+  <!-- EN: {0_coll} quartered, steeped overnight in {1_plur}, then cooked briefly with {2_coll}, which brings the pectin and stops the whole thing turning to syrup. -->
+  <FlavorTextFR_ConfitureDeFigues.description>{0_coll}切四瓣，在{1_plur}中渍过夜后加入{2_coll}短时间熬煮；柠檬析出的果胶令果酱浓稠成型，不致沦为稀糖水。</FlavorTextFR_ConfitureDeFigues.description>
+
+  <!-- EN: fig loaf -->
+  <FlavorTextFR_PainDeFigues.label>无花果坚果糕</FlavorTextFR_PainDeFigues.label>
+  <!-- EN: dried {0_coll} pounded in a mortar with {1_coll} and {2_coll}, pressed into a block and dried out. It keeps all winter and is cut with a knife, like a cheese. -->
+  <FlavorTextFR_PainDeFigues.description>{0_coll}干与{1_coll}、{2_coll}在臼中捣融，压成方砖风干。这种果糕可保存整个冬天，吃时如切奶酪般用刀片下。</FlavorTextFR_PainDeFigues.description>
+
+  <!-- EN: incir tatlısı -->
+  <FlavorTextFR_IncirTatlisi.label>土耳其奶油酿无花果</FlavorTextFR_IncirTatlisi.label>
+  <!-- EN: dried {0_coll} swelled back up in a syrup, each one stuffed with a half of {1_adj}, served under a spoonful of kaymak — a thickened cream so dense that it can be cut. -->
+  <FlavorTextFR_IncirTatlisi.description>{0_coll}干在糖浆中泡发回软，每颗塞入半粒{1_adj}，顶上盖一勺浓厚到可以用刀切开的土耳其凝脂奶油。</FlavorTextFR_IncirTatlisi.description>
+
+  <!-- EN: incir uyutması -->
+  <FlavorTextFR_IncirUyutmasi.label>土耳其无花果凝乳布丁</FlavorTextFR_IncirUyutmasi.label>
+  <!-- EN: dried figs crushed into warm {1_coll} and left to stand a few hours: their enzyme sets the milk on its own, with neither rennet nor gelling agent. Putting the fig to sleep, the name says. -->
+  <FlavorTextFR_IncirUyutmasi.description>无花果干捣碎拌入温热的{1_coll}中静置数小时：果实自带的酶无需凝乳酶或胶质便能自行令牛乳凝固。其土语原名意为“哄无花果入眠”。</FlavorTextFR_IncirUyutmasi.description>
+
+  <!-- EN: anjeer halwa -->
+  <FlavorTextFR_AnjeerHalwa.label>印度无花果酥油甜膏</FlavorTextFR_AnjeerHalwa.label>
+  <!-- EN: {0_coll} soaked and then ground, cooked in ghee with reduced {1_plur} until the mass pulls away from the pan and shines. -->
+  <FlavorTextFR_AnjeerHalwa.description>{0_coll}泡软磨碎，在印度酥油中与浓缩的{1_plur}慢熬，直至膏体油亮光泽、不再粘锅。</FlavorTextFR_AnjeerHalwa.description>
+
+  <!-- EN: anjeer barfi -->
+  <FlavorTextFR_AnjeerBarfi.label>印度无花果坚果菱形糕</FlavorTextFR_AnjeerBarfi.label>
+  <!-- EN: a paste of {0_adj} and {1_adj} rolled into a log, cooled, then cut into diamonds. Firm enough to travel, which makes it the festival gift above all others. -->
+  <FlavorTextFR_AnjeerBarfi.description>{0_adj}与{1_adj}熬成的厚泥搓成长卷，放凉后切成菱形块。质地紧实耐颠簸，是节庆馈赠亲友的首选佳礼。</FlavorTextFR_AnjeerBarfi.description>
+
+  <!-- EN: fig cheesecake -->
+  <FlavorTextFR_CheesecakeAuxFigues.label>无花果芝士蛋糕</FlavorTextFR_CheesecakeAuxFigues.label>
+  <!-- EN: a {1_adj} and {2_adj} filling under quarters of {0_adj} laid out in a rosette and lacquered with their own reduced syrup. -->
+  <FlavorTextFR_CheesecakeAuxFigues.description>{1_adj}与{2_adj}交融的内馅之上，四瓣切开的{0_adj}排列成玫瑰花状，表面刷满本味浓缩糖浆，晶莹透亮。</FlavorTextFR_CheesecakeAuxFigues.description>
+
+  <!-- EN: gelato ai fichi -->
+  <FlavorTextFR_GelatoAiFichi.label>意式无花果冰淇淋</FlavorTextFR_GelatoAiFichi.label>
+  <!-- EN: {0_coll} at the very point of ripeness passed raw into a {1_adj} base churned with little air. The seeds stay perceptible under the tooth, and that is what is wanted. -->
+  <FlavorTextFR_GelatoAiFichi.description>熟至巅峰的生{0_coll}直接混入{1_adj}基底，以低空气含量慢速搅打成型。齿间依然能感受到细籽的微脆，这正是食客所追求的妙处。</FlavorTextFR_GelatoAiFichi.description>
+
+  <!-- EN: fig focaccia -->
+  <FlavorTextFR_FocacciaAuxFigues.label>无花果佛卡夏</FlavorTextFR_FocacciaAuxFigues.label>
+  <!-- EN: {0_coll} pushed down into dough dimpled with the fingers, with rosemary, {2_adj} oil and coarse salt. The sugar of the fruit caramelises where it touches the tray. -->
+  <FlavorTextFR_FocacciaAuxFigues.description>手指按出酒窝的面团里嵌满{0_coll}，撒上迷迭香、{2_adj}油与粗盐。果肉接触烤盘之处，糖分尽数焦糖化。</FlavorTextFR_FocacciaAuxFigues.description>
+
+  <!-- EN: fig and prosciutto pizza -->
+  <FlavorTextFR_PizzaFiguesProsciutto.label>无花果生火腿披萨</FlavorTextFR_PizzaFiguesProsciutto.label>
+  <!-- EN: a white base with no tomato, {0_coll} roasted on it, and raw {2_coll} laid on only as it leaves the oven — cooked, it hardens and loses everything. -->
+  <FlavorTextFR_PizzaFiguesProsciutto.description>不涂番茄酱的白披萨底铺上{0_coll}入炉烘烤，待出炉瞬间才铺上生{2_coll}——火腿一旦进炉烤熟便会干硬失色、风味尽失。</FlavorTextFR_PizzaFiguesProsciutto.description>
+
+  <!-- EN: prosciutto e fichi -->
+  <FlavorTextFR_ProsciuttoEFichi.label>意式生火腿配无花果</FlavorTextFR_ProsciuttoEFichi.label>
+  <!-- EN: {0_coll} opened in four without being cut through, a slice of raw {1_adj} laid over the top, a thread of oil. Nothing more: the whole marriage of salt and sweet in two ingredients. -->
+  <FlavorTextFR_ProsciuttoEFichi.description>{0_coll}划开四瓣而底部相连，覆上一片生{1_adj}，淋一线橄榄油。无需任何多余修饰，仅凭两味食材便道尽了咸与甜的天作之合。</FlavorTextFR_ProsciuttoEFichi.description>
+
+  <!-- EN: fig and goat's cheese salad -->
+  <FlavorTextFR_SaladeFiguesChevre.label>无花果山羊奶酪沙拉</FlavorTextFR_SaladeFiguesChevre.label>
+  <!-- EN: {0_coll} warm on a bed of peppery {2_adj}, with fresh {1_coll} crumbled over and a dressing of reduced balsamic vinegar. -->
+  <FlavorTextFR_SaladeFiguesChevre.description>温热的{0_coll}铺在微辛的{2_adj}叶上，捏碎新鲜{1_coll}撒于其间，最后淋上浓缩黑醋汁。</FlavorTextFR_SaladeFiguesChevre.description>
+
+  <!-- EN: figs with roquefort -->
+  <FlavorTextFR_FiguesAuRoquefort.label>洛克福蓝纹奶酪焗无花果</FlavorTextFR_FiguesAuRoquefort.label>
+  <!-- EN: {0_coll} stuffed with a crushed blue and crushed {2_plur}, run under the grill for two minutes. The sugar of the fruit is the only thing that stands up to that cheese. -->
+  <FlavorTextFR_FiguesAuRoquefort.description>{0_coll}填入碾碎的蓝纹奶酪与{2_plur}碎，置于炉下炙烤两分钟。唯有无花果的浓甜，才能招架住那股霸道的奶酪味。</FlavorTextFR_FiguesAuRoquefort.description>
+
+  <!-- EN: foie gras with figs -->
+  <FlavorTextFR_FoieGrasAuxFigues.label>香煎肥肝配无花果</FlavorTextFR_FoieGrasAuxFigues.label>
+  <!-- EN: an escalope of {1_adj} seared thirty seconds a side in a scorching dry pan, deglazed with sweet {2_plur}, with {0_coll} just warmed through. -->
+  <FlavorTextFR_FoieGrasAuxFigues.description>厚片{1_adj}在滚烫干锅中每面急煎三十秒，烹入甜{2_plur}刮起锅底焦香，佐以微温的{0_coll}上桌。</FlavorTextFR_FoieGrasAuxFigues.description>
+
+  <!-- EN: duck magret with figs -->
+  <FlavorTextFR_MagretAuxFigues.label>无花果煎鸭胸</FlavorTextFR_MagretAuxFigues.label>
+  <!-- EN: {1_coll} cooked skin side down until it gives up its fat, {0_coll} caramelised in that fat, and the pan deglazed with red {2_plur} reduced to a syrup. -->
+  <FlavorTextFR_MagretAuxFigues.description>{1_coll}皮朝下慢煎逼出油脂，用这层丰腴脂油将{0_coll}煎出焦糖色，再烹入红{2_plur}收成浓稠糖浆。</FlavorTextFR_MagretAuxFigues.description>
+
+  <!-- EN: lamb with figs -->
+  <FlavorTextFR_AgneauAuxFigues.label>无花果炖羊肉</FlavorTextFR_AgneauAuxFigues.label>
+  <!-- EN: a shoulder of {1_adj} braised slowly with {2_plur} melted down, {0_coll} added in the last half-hour so that they do not fall apart entirely. -->
+  <FlavorTextFR_AgneauAuxFigues.description>{1_adj}肩肉与慢炒至软融的{2_plur}小火慢炖，最后半小时才投入{0_coll}，以免果肉彻底化散。</FlavorTextFR_AgneauAuxFigues.description>
+
+  <!-- EN: lamb and fig tagine -->
+  <FlavorTextFR_TajineAgneauFigues.label>无花果羊肉塔吉锅</FlavorTextFR_TajineAgneauFigues.label>
+  <!-- EN: {1_coll} stewed with saffron, ginger and cinnamon, dried {0_coll} swelled back up and added at the end with toasted almonds. -->
+  <FlavorTextFR_TajineAgneauFigues.description>{1_coll}加藏红花、生姜与肉桂慢炖，泡发回软的{0_coll}干在起锅前与烤杏仁一同添入锅中。</FlavorTextFR_TajineAgneauFigues.description>
+
+  <!-- EN: pork with figs -->
+  <FlavorTextFR_PorcAuxFigues.label>无花果奶油烤猪柳</FlavorTextFR_PorcAuxFigues.label>
+  <!-- EN: a fillet of {1_adj} roasted pink, the pan deglazed and mounted with {2_plur}, with {0_coll} fried apart in butter. -->
+  <FlavorTextFR_PorcAuxFigues.description>{1_adj}里脊烤至内里微粉，锅底烹汁并拌入{2_plur}收浓，佐以另用黄油煎香的{0_coll}。</FlavorTextFR_PorcAuxFigues.description>
+
+  <!-- EN: fig chutney -->
+  <FlavorTextFR_ChutneyDeFigues.label>无花果酸甜酱</FlavorTextFR_ChutneyDeFigues.label>
+  <!-- EN: {0_coll} and red {1_coll} candied in vinegar with {2_plur}, until the whole coats the spoon. Served with ripened cheeses and cold meats. -->
+  <FlavorTextFR_ChutneyDeFigues.description>{0_coll}与红{1_coll}加{2_plur}在醋中慢熬蜜渍，直至浓稠挂勺。常佐熟成奶酪与冷切肉盘享用。</FlavorTextFR_ChutneyDeFigues.description>
+
+  <!-- EN: fig and balsamic reduction -->
+  <FlavorTextFR_ReductionFiguesBalsamique.label>无花果黑醋浓缩汁</FlavorTextFR_ReductionFiguesBalsamique.label>
+  <!-- EN: {0_coll} melted down in an aged vinegar with {2_coll}, reduced to a black, shining syrup. One thread of it is enough; two, and the dish is nothing but a dessert. -->
+  <FlavorTextFR_ReductionFiguesBalsamique.description>{0_coll}在陈年黑醋与{2_coll}中慢熬融化，收成乌黑油亮的浓浆。点缀一线便已足够；若是淋上两道，整盘菜便彻底变成甜点了。</FlavorTextFR_ReductionFiguesBalsamique.description>
+
+</LanguageData>

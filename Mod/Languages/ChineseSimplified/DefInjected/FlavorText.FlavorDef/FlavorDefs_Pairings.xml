@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: rice with vermicelli -->
+  <FlavorTextFR_RizAuxVermicelles.label>面丝焖饭</FlavorTextFR_RizAuxVermicelles.label>
+  <!-- EN: {1_adj} vermicelli broken short and coloured in {2_plur} to a hazelnut brown, before {0_coll} is poured over the top and the water goes in. From Lebanon to Egypt and on into Turkey, it is the everyday rice. -->
+  <FlavorTextFR_RizAuxVermicelles.description>折成短节的{1_adj}细面先在{2_plur}中炒至榛褐，再覆上{0_coll}添水同焖。从黎巴嫩到埃及乃至土耳其，这都是家家户户日常离不开的米饭做法。</FlavorTextFR_RizAuxVermicelles.description>
+
+  <!-- EN: rice pie -->
+  <FlavorTextFR_TourteAuRiz.label>菌菇米肉派</FlavorTextFR_TourteAuRiz.label>
+  <!-- EN: {0_coll} cooked in stock, bound and then shut inside a {1_adj} pastry with a panful of {2_adj}. A savoury pie that stays with you and is eaten cold the next day, which was the whole point of it. -->
+  <FlavorTextFR_TourteAuRiz.description>{0_coll}在高汤中煮熟收稠，拌入一满锅炒香的{2_adj}，一并封入{1_adj}酥皮内烘烤。这种咸派扎实耐饥，哪怕放到次日冷吃也风味不减——当初做它本就是为了这个。</FlavorTextFR_TourteAuRiz.description>
+
+  <!-- EN: rice tart -->
+  <FlavorTextFR_TarteAuRiz.label>比利时米布丁挞</FlavorTextFR_TarteAuRiz.label>
+  <!-- EN: a very thick rice pudding poured into a case of {1_adj} risen dough, then baked until the top crazes over. The speciality of Verviers, eaten there for centuries. -->
+  <FlavorTextFR_TarteAuRiz.description>将熬得极稠的奶香米布丁注入发酵{1_adj}面团捏成的挞壳中，入炉烘烤至表面微焦开裂。这是比利时韦尔维耶世代相传的百年名点。</FlavorTextFR_TarteAuRiz.description>
+
+  <!-- EN: rice croquettes -->
+  <FlavorTextFR_CroquettesDeRiz.label>炸米丸子</FlavorTextFR_CroquettesDeRiz.label>
+  <!-- EN: {0_coll} cooked past the point of stickiness on purpose, bound with beaten {2_plur}, shaped into fingers, rolled in {1_adj} flour and fried. A way of using up the bottom of the pot that deserves better than its origin. -->
+  <FlavorTextFR_CroquettesDeRiz.description>特意煮至软糯黏稠的{0_coll}拌入打散的{2_plur}，捏成手指粗细的长条，滚上一层{1_adj}粉下锅油炸。虽是打理锅底剩饭的巧思，滋味却远胜其卑微的出身。</FlavorTextFR_CroquettesDeRiz.description>
+
+  <!-- EN: rice pilaf with orzo -->
+  <FlavorTextFR_RizPilafOrzo.label>米粒面双拼抓饭</FlavorTextFR_RizPilafOrzo.label>
+  <!-- EN: {0_coll} and small {1_adj} pasta shaped like grains of rice, pearled together with {2_coll} before the stock goes in. Two starches in one pan, and two textures at the end of it. -->
+  <FlavorTextFR_RizPilafOrzo.description>{0_coll}与形似米粒的{1_adj}米粒面同{2_coll}一起入锅炒至油亮如珠，再注入高汤焖熟。一锅之内双谷同炊，出锅时却各有各的嚼劲。</FlavorTextFR_RizPilafOrzo.description>
+
+  <!-- EN: mixed skewers -->
+  <FlavorTextFR_BrochettesMixtes.label>双拼烤肉串</FlavorTextFR_BrochettesMixtes.label>
+  <!-- EN: cubes of {0_adj} and {1_adj} threaded alternately with {2_coll}, on separate rods: the two meats do not cook at the same rate, and grilling them together is the beginner's mistake. -->
+  <FlavorTextFR_BrochettesMixtes.description>切块的{0_adj}与{1_adj}间隔着{2_coll}分别穿在不同的签子上：两种肉受热熟透的快慢不同，混穿在一根签子上同烤正是生手常犯的大忌。</FlavorTextFR_BrochettesMixtes.description>
+
+  <!-- EN: mixed shawarma -->
+  <FlavorTextFR_ChawarmaMixte.label>双拼沙威玛肉卷</FlavorTextFR_ChawarmaMixte.label>
+  <!-- EN: two vertical spits side by side, one of {0_adj}, the other of {1_adj}, shaved off as they cook and rolled together into a {2_adj} bread. The customer who cannot decide takes both. -->
+  <FlavorTextFR_ChawarmaMixte.description>两座竖式烤肉转炉并排而立，一边是{0_adj}，另一边是{1_adj}，随烤随削下焦香薄片，一并卷入{2_adj}薄饼中。拿不定主意的食客自会两样都要。</FlavorTextFR_ChawarmaMixte.description>
+
+  <!-- EN: puchero -->
+  <FlavorTextFR_Puchero.label>西式双肉鹰嘴豆乱炖</FlavorTextFR_Puchero.label>
+  <!-- EN: a pot in which {0_coll} and {1_coll} cook together for hours with soaked {2_coll}. The broth is served first, the peas and the vegetables next, the meats last — a meal in three courses drawn out of a single pot. -->
+  <FlavorTextFR_Puchero.description>{0_coll}、{1_coll}与泡发的{2_coll}同在一口大锅里慢炖数小时。先盛清汤，次上豆子与时蔬，最后呈上炖肉——一锅之中便能吃出三道菜的排场。</FlavorTextFR_Puchero.description>
+
+  <!-- EN: double consommé -->
+  <FlavorTextFR_DoubleConsomme.label>双吊清汤</FlavorTextFR_DoubleConsomme.label>
+  <!-- EN: a {0_adj} stock already clarified once, set back on the heat over {1_coll} and {2_coll} to draw it a second time. Two potfuls at the start make one bowl at the end, and the result is as clear as tea. -->
+  <FlavorTextFR_DoubleConsomme.description>已然澄清过一道的{0_adj}高汤重回灶上，加入{1_coll}与{2_coll}二次吊汤。起锅时满满两锅，收尾时只得一碗，汤色澄澈如茶。</FlavorTextFR_DoubleConsomme.description>
+
+  <!-- EN: mixed biryani -->
+  <FlavorTextFR_BiryaniMixte.label>双拼印式香饭</FlavorTextFR_BiryaniMixte.label>
+  <!-- EN: {2_coll} half-cooked and laid in layers over {0_coll} and {1_coll} marinated in yoghurt, the whole sealed under a paste and finished smothered. The lid is broken open at the table. -->
+  <FlavorTextFR_BiryaniMixte.description>半熟的{2_coll}层层铺在酸奶腌渍的{0_coll}与{1_coll}之上，锅沿以面糊严密封死，文火焖熟。待端上餐桌时，才敲开面封让香气喷薄而出。</FlavorTextFR_BiryaniMixte.description>
+
+  <!-- EN: mixed meatloaf -->
+  <FlavorTextFR_PainDeViandeMixte.label>双拼烘肉卷</FlavorTextFR_PainDeViandeMixte.label>
+  <!-- EN: {0_coll} for the taste, {1_coll} for the hold, {2_coll} to bind it all together, shaped into a loaf and baked. Mixing the two meats is not thrift: poultry alone dries out, beef alone collapses. -->
+  <FlavorTextFR_PainDeViandeMixte.description>以{0_coll}提味、{1_coll}赋形，再借{2_coll}将肉馅拢合为一，团成枕状入炉烘烤。两肉合用绝非为了省钱：纯用禽肉难免干柴，单用牛肉又易散塌。</FlavorTextFR_PainDeViandeMixte.description>
+
+  <!-- EN: ghee rice -->
+  <FlavorTextFR_GheeRice.label>印式酥油香饭</FlavorTextFR_GheeRice.label>
+  <!-- EN: basmati {0_coll} turned in clarified {1_coll} with whole spices — cinnamon, clove, cardamom, bay — then swelled in boiling water. Called neychoru in Kerala, where it goes with the feasts. -->
+  <FlavorTextFR_GheeRice.description>巴斯马蒂长粒{0_coll}与肉桂、丁香、豆蔻、月桂叶等整粒香料在澄清{1_coll}中翻炒裹匀，再注入沸水焖至粒粒饱满。在喀拉拉邦称为“内乔鲁”，是宴席上的必备主食。</FlavorTextFR_GheeRice.description>
+
+  <!-- EN: tahdig -->
+  <FlavorTextFR_Tahdig.label>波斯藏红花金脆锅巴饭</FlavorTextFR_Tahdig.label>
+  <!-- EN: the bottom of the pot: {0_coll} mixed with {2_plur} and saffron, packed down into melted {1_coll} and left over a low flame until it forms a golden crust, turned out onto the dish in one piece. That is the part people quarrel over. -->
+  <FlavorTextFR_Tahdig.description>整口锅的精华尽在锅底：{0_coll}拌入{2_plur}与藏红花，在化开的{1_coll}中压实，以文火慢烘出整块金黄酥脆的锅巴，再完整倒扣装盘。满桌食客争抢的正是这一口。</FlavorTextFR_Tahdig.description>
+
+  <!-- EN: butter and soy rice -->
+  <FlavorTextFR_RizBeurreSoja.label>黄油酱油拌饭</FlavorTextFR_RizBeurreSoja.label>
+  <!-- EN: a knob of {1_adj} melting into scalding {0_coll}, a thread of {2_adj}, and nothing else at all. Made at one in the morning, out of whatever is left in the cooker. -->
+  <FlavorTextFR_RizBeurreSoja.description>滚烫的{0_coll}上化开一小块{1_adj}，再淋上一圈{2_adj}，此外别无他物。这是凌晨一点掏空电饭煲剩饭做出的深夜慰藉。</FlavorTextFR_RizBeurreSoja.description>
+
+  <!-- EN: butter and garlic rice -->
+  <FlavorTextFR_RizBeurreAil.label>蒜香黄油炒饭</FlavorTextFR_RizBeurreAil.label>
+  <!-- EN: {2_coll} chopped and turned gold in foaming {1_coll}, then {0_coll} fried in it grain by grain. The garlic has to colour without burning: past gold it turns bitter and the dish is lost. -->
+  <FlavorTextFR_RizBeurreAil.description>切碎的{2_coll}在起泡的{1_coll}中煸至金黄，再下入{0_coll}炒至粒粒分明。蒜末须得上色却不焦糊：一旦过了金黄的火候便会发苦，整盘饭也就毁了。</FlavorTextFR_RizBeurreAil.description>
+
+  <!-- EN: tom kha -->
+  <FlavorTextFR_TomKha.label>泰式南姜椰汁汤</FlavorTextFR_TomKha.label>
+  <!-- EN: a {0_adj} milk infused with galangal, lemongrass and kaffir lime leaves, in which {1_coll} and {2_coll} poach. Galangal is not ginger and cannot be replaced: it is what makes the dish. -->
+  <FlavorTextFR_TomKha.description>南姜、香茅与疯柑叶浸煮出的醇郁{0_adj}浆中，文火慢浸着{1_coll}与{2_coll}。南姜绝非普通生姜，半点替换不得——整碗汤的灵魂全在于此。</FlavorTextFR_TomKha.description>
+
+  <!-- EN: moilee -->
+  <FlavorTextFR_Moilee.label>喀拉拉椰香炖鱼</FlavorTextFR_Moilee.label>
+  <!-- EN: a white curry from Kerala: {1_coll} poached in a {0_adj} milk with turmeric, with {2_coll} added at the end so that they keep their shape. Mild, almost pale — the chilli here is green and discreet. -->
+  <FlavorTextFR_Moilee.description>源自喀拉拉邦的白咖喱：{1_coll}在加了姜黄的{0_adj}浆中文火浸熟，临出锅前才下入{2_coll}以保其形整不烂。色泽浅淡、滋味温润，唯有一抹青椒隐约透出微辛。</FlavorTextFR_Moilee.description>
+
+  <!-- EN: beef in coconut milk -->
+  <FlavorTextFR_BoeufLaitDeCoco.label>椰浆慢炖牛肉</FlavorTextFR_BoeufLaitDeCoco.label>
+  <!-- EN: {1_coll} braised very slowly in a {0_adj} milk and a {2_adj} paste, until the milk breaks and the oil rises. From there on, the meat fries in its own sauce. -->
+  <FlavorTextFR_BoeufLaitDeCoco.description>{1_coll}在{0_adj}浆与{2_adj}酱中极慢地煨炖，直至椰浆油水分离、红油浮面。自此往后，肉块便在自家的浓汁油脂中慢煎入味。</FlavorTextFR_BoeufLaitDeCoco.description>
+
+  <!-- EN: haupia -->
+  <FlavorTextFR_Haupia.label>夏威夷椰奶糕</FlavorTextFR_Haupia.label>
+  <!-- EN: a {0_adj} milk sweetened with {1_plur} and bound with a {2_adj} starch, poured out in a sheet and left to set in the cold, then cut into squares that are eaten with the fingers. The dessert of the Hawaiian lūʻau. -->
+  <FlavorTextFR_Haupia.description>{0_adj}浆加{1_plur}增甜，以{2_adj}淀粉勾芡熬稠，倾入浅盘冷藏凝结后切成方块，可直接拈取入口。这是夏威夷卢奥宴席上的传统甜点。</FlavorTextFR_Haupia.description>
+
+  <!-- EN: cocada -->
+  <FlavorTextFR_Cocada.label>拉美椰丝奶糖</FlavorTextFR_Cocada.label>
+  <!-- EN: {0_coll} grated and cooked with {1_plur} and {2_plur} until the mass pulls away from the bottom of the pan, then dropped by the spoonful into little heaps that harden as they cool. -->
+  <FlavorTextFR_Cocada.description>擦丝的{0_coll}与{1_plur}、{2_plur}同熬至抱团离锅，再用勺子一团团舀出，放凉后便凝成硬脆的小糖堆。</FlavorTextFR_Cocada.description>
+
+  <!-- EN: pol sambol -->
+  <FlavorTextFR_PolSambol.label>斯里兰卡辣味椰蓉松</FlavorTextFR_PolSambol.label>
+  <!-- EN: fresh {0_coll} grated and pounded in the mortar with dried {1_coll}, red onion and the juice of {2_adj}. Cutting, dry, served beside everything in Sri Lanka. Made to the minute: grated the day before, the coconut turns rancid. -->
+  <FlavorTextFR_PolSambol.description>鲜{0_coll}擦丝后与干{1_coll}、红洋葱及{2_adj}汁同入石臼捣匀。口感干爽辛烈，在斯里兰卡几乎佐配一切饭食。此物须现做现吃，若提前一天擦好椰丝便会走油变味。</FlavorTextFR_PolSambol.description>
+
+  <!-- EN: coconut chutney -->
+  <FlavorTextFR_ChutneyDeCoco.label>印式椰蓉辣酱</FlavorTextFR_ChutneyDeCoco.label>
+  <!-- EN: {0_coll} blended with toasted {1_coll} and a little water, then woken up with a tempering: mustard seed and curry leaves burst in scalding oil and poured over the top. It goes with the dosa. -->
+  <FlavorTextFR_ChutneyDeCoco.description>{0_coll}与焙香的{1_coll}加少许水搅打成泥，最后泼上一勺爆香了芥菜籽与咖喱叶的滚油激出香气，最宜佐食多萨薄饼。</FlavorTextFR_ChutneyDeCoco.description>
+
+  <!-- EN: citrus and fennel salad -->
+  <FlavorTextFR_SaladeAgrumesFenouil.label>柑橘茴香沙拉</FlavorTextFR_SaladeAgrumesFenouil.label>
+  <!-- EN: {0_coll} cut down to the flesh and sliced into rounds, with fennel shaved on the mandoline, {2_coll} and black {1_coll}. Oil, pepper, nothing more: the acidity of the fruit stands in for vinegar. -->
+  <FlavorTextFR_SaladeAgrumesFenouil.description>削尽白衣露出果肉的{0_coll}横切成圆片，配以擦片器刨出的薄茴香片、{2_coll}与黑{1_coll}。只需清油与胡椒调味，鲜果自带的酸意便足以代醋。</FlavorTextFR_SaladeAgrumesFenouil.description>
+
+  <!-- EN: preserved lemons -->
+  <FlavorTextFR_CitronConfit.label>摩洛哥盐渍柠檬</FlavorTextFR_CitronConfit.label>
+  <!-- EN: {0_coll} split in a cross, packed with coarse salt and pressed into a jar where they give up their juice over a month, with {2_plur} and under a layer of {1_adj} oil. Only the peel is used; the pulp is thrown away. -->
+  <FlavorTextFR_CitronConfit.description>{0_coll}十字切开而不切断，塞满粗盐与{2_plur}压入罐中，顶上封一层{1_adj}油，静置整月任其渗出原汁。入菜时只取果皮，果肉则尽数弃去。</FlavorTextFR_CitronConfit.description>
+
+  <!-- EN: ponzu -->
+  <FlavorTextFR_Ponzu.label>日式柑橘醋汁</FlavorTextFR_Ponzu.label>
+  <!-- EN: the juice of {0_adj} mixed with {1_plur}, mirin and a {2_adj} broth with bonito shavings, left to stand several days before it is strained. As much for dipping as for seasoning. -->
+  <FlavorTextFR_Ponzu.description>{0_adj}汁调入{1_plur}、味醂以及加了木鱼花的{2_adj}高汤，静置数日醇化后再行滤清。无论是作蘸水还是入菜调味皆相宜。</FlavorTextFR_Ponzu.description>
+
+  <!-- EN: citrus vinaigrette -->
+  <FlavorTextFR_VinaigretteAgrumes.label>柑橘油醋汁</FlavorTextFR_VinaigretteAgrumes.label>
+  <!-- EN: the juice of {0_adj} mounted with {1_adj} oil over a point of {2_adj}, which keeps the emulsion from falling. Three volumes of oil to one of juice, corrected to the taste of the fruit. -->
+  <FlavorTextFR_VinaigretteAgrumes.description>{0_adj}汁借一点{2_adj}作底，慢慢打入{1_adj}油乳化，使酱汁久置不散。油与果汁大体按三比一调配，再视鲜果的酸甜略作增减。</FlavorTextFR_VinaigretteAgrumes.description>
+
+  <!-- EN: citrus-lacquered chicken -->
+  <FlavorTextFR_PouletLaqueAgrumes.label>橘釉烤禽</FlavorTextFR_PouletLaqueAgrumes.label>
+  <!-- EN: {1_coll} roasted and brushed at the end of the cooking with a mixture of {2_adj} and reduced juice of {0_adj}, painted on three times over. The glaze burns in no time at all: it goes on only at the very end. -->
+  <FlavorTextFR_PouletLaqueAgrumes.description>{1_coll}入炉烤熟，收尾时将{2_adj}与熬浓的{0_adj}汁调匀，分三次刷在表皮挂釉。糖釉极易焦糊，非到出炉前的最后一刻不可刷上。</FlavorTextFR_PouletLaqueAgrumes.description>
+
+</LanguageData>

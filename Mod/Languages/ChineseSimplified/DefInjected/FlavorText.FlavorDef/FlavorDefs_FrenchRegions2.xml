@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: potjevleesch -->
+  <FlavorTextFR_Potjevleesch.label>佛兰德斯四肉冻</FlavorTextFR_Potjevleesch.label>
+  <!-- EN: four white meats stacked into a terrine and cooked in {2_plur} with vinegar, then set to jelly in the cold. Eaten cold, with hot chips: that is the whole point of it. -->
+  <FlavorTextFR_Potjevleesch.description>四种白肉层层码入陶钵，兑入{2_plur}与香醋慢火煨熟，再静置冷处凝作晶莹肉冻。冷肉冻配滚烫的炸薯条：这便是整道菜的精髓所在。</FlavorTextFR_Potjevleesch.description>
+
+  <!-- EN: hochepot -->
+  <FlavorTextFR_Hochepot.label>北方摇锅杂肉浓汤</FlavorTextFR_Hochepot.label>
+  <!-- EN: a pot-au-feu of the North, into which go the cuts nobody wants — tail, ear, trotter — with {1_coll} and {2_coll}. Hochepot: the pot that gets shaken. -->
+  <FlavorTextFR_Hochepot.description>法国北方的火上锅，专收那些无人问津的下水边角——肉尾、猪耳、蹄子——与{1_coll}和{2_coll}共炖。法语菜名本义便是“摇晃的汤锅”。</FlavorTextFR_Hochepot.description>
+
+  <!-- EN: welsh rarebit -->
+  <FlavorTextFR_Welsh.label>北方威尔士干酪焗吐司</FlavorTextFR_Welsh.label>
+  <!-- EN: {0_coll} melted with {1_plur} and mustard, poured over a slice of bread and {2_coll}, then browned. A fried egg on top if you want the full version. -->
+  <FlavorTextFR_Welsh.description>用{1_plur}与芥末熬化的浓稠{0_coll}，浇在垫有{2_coll}的面包片上，送入炉中焗至金黄焦香。若想吃全套，顶上再加一枚煎蛋。</FlavorTextFR_Welsh.description>
+
+  <!-- EN: leek flamiche -->
+  <FlavorTextFR_FlamicheAuxPoireaux.label>皮卡第双层酥皮韭葱派</FlavorTextFR_FlamicheAuxPoireaux.label>
+  <!-- EN: {0_coll} melted in {2_plur} without colour, shut between two sheets of pastry and baked until the top gilds. A Picard dish, with no cream at all in the original. -->
+  <FlavorTextFR_FlamicheAuxPoireaux.description>在{2_plur}中低温煸软却绝不上色的{0_coll}，封入上下两层酥皮之间，入炉烤至表皮镀金。这是一道地道的皮卡第名点，最初的古法里半滴奶油也不放。</FlavorTextFR_FlamicheAuxPoireaux.description>
+
+  <!-- EN: maroilles tart -->
+  <FlavorTextFR_TarteAuMaroilles.label>马鲁瓦耶臭奶酪挞</FlavorTextFR_TarteAuMaroilles.label>
+  <!-- EN: a risen dough covered with {0_adj} in slivers and {2_adj}, baked until the whole thing bubbles. The smell carries three rooms; the taste is milder than it lets you believe. -->
+  <FlavorTextFR_TarteAuMaroilles.description>发面饼底上铺满{0_adj}薄片与{2_adj}，入炉烤至通体冒泡。气味虽浓烈得能飘过三间屋子，入口却比闻起来温润得多。</FlavorTextFR_TarteAuMaroilles.description>
+
+  <!-- EN: herring with potatoes in oil -->
+  <FlavorTextFR_HarengPommesALHuile.label>油浸鲱鱼温土豆沙拉</FlavorTextFR_HarengPommesALHuile.label>
+  <!-- EN: smoked fillets marinated in {2_plur} with onion and bay, over warm {1_coll} cut into rounds, which drink up the scented oil. -->
+  <FlavorTextFR_HarengPommesALHuile.description>加洋葱与月桂叶在{2_plur}中浸渍入味的烟熏鱼柳，铺在切成圆片、尚带余温的{1_coll}上，让温热的薯片尽数吸饱醇香油脂。</FlavorTextFR_HarengPommesALHuile.description>
+
+  <!-- EN: caghuse -->
+  <FlavorTextFR_Caghuse.label>皮卡第洋葱焖猪蹄膀</FlavorTextFR_Caghuse.label>
+  <!-- EN: a wheel of {0_adj} cooked under a lid on a bed of {1_adj}, without a drop of water — the juice comes from the meat and the onions alone. Eaten cold the next day. -->
+  <FlavorTextFR_Caghuse.description>厚切轮状{0_adj}垫在满满一层{1_adj}上加盖慢焖，不添半滴清水——满锅汤汁尽数析自鲜肉与洋葱本身。留到次日冷食最为地道。</FlavorTextFR_Caghuse.description>
+
+  <!-- EN: pigs' trotters Sainte-Menehould -->
+  <FlavorTextFR_PiedsSainteMenehould.label>圣默努尔德酥烤猪蹄</FlavorTextFR_PiedsSainteMenehould.label>
+  <!-- EN: trotters poached for forty hours, until the bones turn tender and are eaten along with the rest, then crumbed and grilled. Louis XVI is said to have stopped for them during his flight, which delayed him. -->
+  <FlavorTextFR_PiedsSainteMenehould.description>微沸慢煨整整四十个小时的猪蹄，直煮到骨头酥软得能连骨带肉一并嚼碎，再裹上面包糠炙烤出脆壳。相传路易十六在出逃途中为贪恋这一口美味而驻足，结果耽误了行程。</FlavorTextFR_PiedsSainteMenehould.description>
+
+  <!-- EN: eel in green sauce -->
+  <FlavorTextFR_AnguilleAuVert.label>佛兰德斯绿酱烩鳗鱼</FlavorTextFR_AnguilleAuVert.label>
+  <!-- EN: lengths of eel poached in white {2_plur} in a mass of green herbs — sorrel, watercress, spinach — until the sauce takes their colour. Served cold. -->
+  <FlavorTextFR_AnguilleAuVert.description>切段河鳗与大把碧绿香草——酸模、水田芥、菠菜——一同在白{2_plur}中慢火煨熟，直至汤汁尽染翠绿。放凉后冷食。</FlavorTextFR_AnguilleAuVert.description>
+
+  <!-- EN: sole normande -->
+  <FlavorTextFR_SoleNormande.label>诺曼底苹果酒奶油烩龙利鱼</FlavorTextFR_SoleNormande.label>
+  <!-- EN: {0_coll} poached in cider, garnished with {1_plur} and mushrooms, the sauce reduced and mounted with {2_plur}. One of the oldest bourgeois recipes still served. -->
+  <FlavorTextFR_SoleNormande.description>在苹果酒中微沸慢煮的{0_coll}，佐以{1_plur}与蘑菇，汤汁收浓后汇入{2_plur}增稠。这是至今仍在餐桌上流传的最古老的中产阶级名菜之一。</FlavorTextFR_SoleNormande.description>
+
+  <!-- EN: marmite dieppoise -->
+  <FlavorTextFR_MarmiteDieppoise.label>迪耶普奶油海鲜锅</FlavorTextFR_MarmiteDieppoise.label>
+  <!-- EN: several fish and {1_coll} poached separately and only then brought together in a broth creamed with cider. Every flesh has its own cooking time: put them all in at once and the whole thing is lost. -->
+  <FlavorTextFR_MarmiteDieppoise.description>数种鲜鱼与{1_coll}分别微沸煮熟，最后才汇入调了苹果酒与奶油的高汤中。每一种鱼虾贝肉各有其火候：若是图省事一股脑儿下锅，整锅鲜味便全毁了。</FlavorTextFR_MarmiteDieppoise.description>
+
+  <!-- EN: mussels in cream -->
+  <FlavorTextFR_MoulesALaCreme.label>诺曼底奶油煮贻贝</FlavorTextFR_MoulesALaCreme.label>
+  <!-- EN: {0_coll} opened over a high flame in {2_plur}, their liquor strained of sand, then reduced and bound with {1_plur}, and poured back over them. -->
+  <FlavorTextFR_MoulesALaCreme.description>加入{2_plur}在猛火上煮至开口的{0_coll}，原汤滤净细沙后熬浓，调入{1_plur}收成白汁，再重新浇回贝肉之上。</FlavorTextFR_MoulesALaCreme.description>
+
+  <!-- EN: duck à la rouennaise -->
+  <FlavorTextFR_CanardALaRouennaise.label>鲁昂血鸭</FlavorTextFR_CanardALaRouennaise.label>
+  <!-- EN: a bird smothered rather than bled, so as to keep its blood, roasted rare; the carcass is then pressed and the juice bound with the liver and red {2_plur}. -->
+  <FlavorTextFR_CanardALaRouennaise.description>窒息宰杀而不放血以留住满腔鲜血的肥鸭，入炉烤至三分熟；随后将鸭架送入特制银压榨机榨出骨髓血水，与鸭肝及红{2_plur}一同熬成浓醇血汁。</FlavorTextFR_CanardALaRouennaise.description>
+
+  <!-- EN: black pudding with apples -->
+  <FlavorTextFR_BoudinNoirAuxPommes.label>苹果煎法式血肠</FlavorTextFR_BoudinNoirAuxPommes.label>
+  <!-- EN: a black pudding pricked with a fork and fried gently — too fierce a heat and it bursts — with {2_coll} caramelised in butter. The sugar of the fruit cuts the iron of the blood. -->
+  <FlavorTextFR_BoudinNoirAuxPommes.description>用叉子扎孔后文火慢煎的黑血肠——火候稍猛便会爆裂——搭配黄油煎出焦糖香的{2_coll}。果肉的清甜恰恰化去了猪血的铁腥。</FlavorTextFR_BoudinNoirAuxPommes.description>
+
+  <!-- EN: baked camembert -->
+  <FlavorTextFR_CamembertRoti.label>木盒烤卡芒贝尔奶酪</FlavorTextFR_CamembertRoti.label>
+  <!-- EN: a whole box of {0_adj} scored in a cross, stuck with {2_plur} and put into the oven in its own wood until it runs. Bread is dipped into it until there is nothing left. -->
+  <FlavorTextFR_CamembertRoti.description>表面划出十字花刀、嵌满{2_plur}的整轮{0_adj}，连同原装薄木盒一起送入烤炉，烤至内芯化作滚烫流心。以面包蘸食，直至木盒见底。</FlavorTextFR_CamembertRoti.description>
+
+  <!-- EN: omelette de la Mère Poulard -->
+  <FlavorTextFR_OmeletteMerePoulard.label>普拉尔妈妈舒芙蕾欧姆蛋</FlavorTextFR_OmeletteMerePoulard.label>
+  <!-- EN: {0_coll} beaten very long with a whisk, until they foam like a soufflé, and cooked in {1_plur} in a long-handled pan over a wood fire. The exact recipe was never given away. -->
+  <FlavorTextFR_OmeletteMerePoulard.description>用打蛋器久久抽打至如舒芙蕾般绵密起泡的{0_coll}，盛入融有{1_plur}的长柄铜锅，在柴火明火上烘熟。其独门秘方至今从未外传。</FlavorTextFR_OmeletteMerePoulard.description>
+
+  <!-- EN: lobster à l'armoricaine -->
+  <FlavorTextFR_HomardALArmoricaine.label>阿莫里卡白兰地烩龙虾</FlavorTextFR_HomardALArmoricaine.label>
+  <!-- EN: {0_coll} cut up alive and seared in its own shell, flamed with cognac, stewed with {1_plur} and white {2_plur}, the sauce thickened with the coral. Armoricaine or américaine: the quarrel has run for a century. -->
+  <FlavorTextFR_HomardALArmoricaine.description>鲜活斩件带壳猛火快煎的{0_coll}，泼入干邑白兰地点火炙香，再加{1_plur}与白{2_plur}慢炖，最后以虾脑虾膏收浓汤汁。究竟该叫“阿莫里卡风味”还是“美式风味”，这场笔墨官司已经打了整整一百年。</FlavorTextFR_HomardALArmoricaine.description>
+
+  <!-- EN: scallops à la bretonne -->
+  <FlavorTextFR_SaintJacquesBretonne.label>布列塔尼蒜香黄油焗扇贝</FlavorTextFR_SaintJacquesBretonne.label>
+  <!-- EN: {0_coll} put back into its shell under garlic and parsley and breadcrumbs in {2_plur}, run under the grill for two minutes. Any longer and it turns to rubber. -->
+  <FlavorTextFR_SaintJacquesBretonne.description>重新盛回贝壳的{0_coll}，铺满蒜末、欧芹、面包糠与{2_plur}，送入明火烤炉下炙烤两分钟。再多烤片刻，贝肉便会老得像橡胶。</FlavorTextFR_SaintJacquesBretonne.description>
+
+  <!-- EN: galette-saucisse -->
+  <FlavorTextFR_GaletteSaucisse.label>布列塔尼荞麦薄饼卷烤肠</FlavorTextFR_GaletteSaucisse.label>
+  <!-- EN: a grilled sausage rolled in a cold {0_adj} galette, and nothing else — mustard is tolerated, ketchup is disputed. Eaten standing, at the match or at the market. -->
+  <FlavorTextFR_GaletteSaucisse.description>用一张冷{0_adj}薄饼卷起一根滋滋冒油的烤香肠，此外别无他物——抹点芥末尚可容忍，加番茄酱则必惹非议。无论是在球场看台还是在集市摊前，都得站着拿在手里吃。</FlavorTextFR_GaletteSaucisse.description>
+
+  <!-- EN: stuffed clams -->
+  <FlavorTextFR_PalourdesFarcies.label>蒜香欧芹黄油焗蛤蜊</FlavorTextFR_PalourdesFarcies.label>
+  <!-- EN: {0_coll} opened and covered with a butter worked with {1_plur} and parsley, put into the oven until the butter bubbles up and runs over the edge. -->
+  <FlavorTextFR_PalourdesFarcies.description>撬开半壳的{0_coll}，填满揉入{1_plur}与欧芹的香草黄油，送入炉中烘烤，直至黄油沸腾冒泡、漫过贝壳边缘。</FlavorTextFR_PalourdesFarcies.description>
+
+  <!-- EN: stuffed spider crab -->
+  <FlavorTextFR_AraigneeDeMerFarcie.label>法式酿蜘蛛蟹斗</FlavorTextFR_AraigneeDeMerFarcie.label>
+  <!-- EN: {0_coll} picked out patiently, mixed with its own coral and the yolks of hard-boiled {1_adj}, then packed back into the emptied shell. An hour of work for ten minutes of eating. -->
+  <FlavorTextFR_AraigneeDeMerFarcie.description>耐心剔出的{0_coll}，与蟹黄蟹膏及全熟{1_adj}黄拌匀，再满满当当地填回空蟹壳中。拆肉备料费去一小时，大快朵颐不过十分钟。</FlavorTextFR_AraigneeDeMerFarcie.description>
+
+  <!-- EN: pike-perch with beurre blanc -->
+  <FlavorTextFR_SandreAuBeurreBlanc.label>南特白黄油汁佐梭鲈</FlavorTextFR_SandreAuBeurreBlanc.label>
+  <!-- EN: a river fish poached, served under an emulsion of {2_adj} reduced in white wine, into which cold {1_coll} is worked piece by piece. The sauce splits at the first excess of heat. -->
+  <FlavorTextFR_SandreAuBeurreBlanc.description>微沸慢煮的淡水鱼，淋上南特经典白黄油汁：将{2_adj}在白葡萄酒中熬干浓缩，再逐小块搅入冰冷的{1_coll}乳化而成。炉火稍一过头，酱汁便会油水分离。</FlavorTextFR_SandreAuBeurreBlanc.description>
+
+  <!-- EN: mogettes with ham -->
+  <FlavorTextFR_MogettesAuJambon.label>旺代白芸豆炖火腿</FlavorTextFR_MogettesAuJambon.label>
+  <!-- EN: white Vendée {0_coll} cooked in barely trembling water with {2_coll}, half crushed to thicken their own broth, and served with a slice of {1_adj}. -->
+  <FlavorTextFR_MogettesAuJambon.description>在似沸非沸的微火清水中与{2_coll}同煮的旺代白{0_coll}，将半数豆粒压碎以收浓原汤，上桌时配上一片厚切{1_adj}。</FlavorTextFR_MogettesAuJambon.description>
+
+  <!-- EN: rillettes -->
+  <FlavorTextFR_Rillettes.label>图尔熟肉抹酱</FlavorTextFR_Rillettes.label>
+  <!-- EN: {0_coll} cooked five hours in {1_coll} until it falls apart, pulled with a fork and never ground, then pressed into a pot under a layer of fat that keeps it. -->
+  <FlavorTextFR_Rillettes.description>在{1_coll}中慢煨五个小时直至酥烂脱骨的{0_coll}，只用叉子挑成肉丝而绝不搅碎，随后压入陶罐，表面浇一层油脂封存保鲜。</FlavorTextFR_Rillettes.description>
+
+  <!-- EN: Easter pâté -->
+  <FlavorTextFR_PateDePaques.label>贝里复活节流心蛋肉派</FlavorTextFR_PateDePaques.label>
+  <!-- EN: a stuffing of {0_adj} shut inside a pastry, with whole hard-boiled eggs lined up down the middle so that a yellow disc appears in every slice. -->
+  <FlavorTextFR_PateDePaques.description>酥皮内裹满{0_adj}馅，正中央排入一溜整颗全熟水煮蛋；切开上桌时，每一片肉派中心都嵌着一轮明黄圆月。</FlavorTextFR_PateDePaques.description>
+
+  <!-- EN: poulet en barbouille -->
+  <FlavorTextFR_PouletEnBarbouille.label>贝里红酒血汁炖鸡</FlavorTextFR_PouletEnBarbouille.label>
+  <!-- EN: {0_coll} stewed in wine, the sauce thickened with the bird's own blood and liver. Barbouille, for what it leaves on the chin of whoever eats it. -->
+  <FlavorTextFR_PouletEnBarbouille.description>在葡萄酒中慢炖的{0_coll}，以家禽自身的鲜血与禽肝收浓酱汁。法语菜名意为“花脸”，皆因食客大快朵颐后下巴上总免不了沾满浓黑酱汁。</FlavorTextFR_PouletEnBarbouille.description>
+
+  <!-- EN: chicken with morels -->
+  <FlavorTextFR_PouletAuxMorilles.label>汝拉羊肚菌黄酒炖鸡</FlavorTextFR_PouletAuxMorilles.label>
+  <!-- EN: {0_coll} from the Jura and dried {1_coll} swollen back up in water — that soaking water, strained, is worth a stock — the sauce enriched with mountain {2_plur}. -->
+  <FlavorTextFR_PouletAuxMorilles.description>产自汝拉山区的{0_coll}，配以温水泡发的{1_coll}干——那碗滤净泥沙的泡菌水堪比上等高汤——最后在酱汁中融化高山{2_plur}增香提醇。</FlavorTextFR_PouletAuxMorilles.description>
+
+  <!-- EN: Morteau sausage with lentils -->
+  <FlavorTextFR_MorteauAuxLentilles.label>莫尔托烟熏肠炖兵豆</FlavorTextFR_MorteauAuxLentilles.label>
+  <!-- EN: a sausage smoked over resinous wood, poached without ever being allowed to boil, on {1_coll} stewed with {2_plur} stuck with cloves. -->
+  <FlavorTextFR_MorteauAuxLentilles.description>松柏树脂木慢火熏制的粗香肠，在绝不沸腾的热水中微火浸熟，卧在加了插满丁香的{2_plur}慢炖而成的{1_coll}之上。</FlavorTextFR_MorteauAuxLentilles.description>
+
+  <!-- EN: hot mont d'or -->
+  <FlavorTextFR_MontDOrChaud.label>热烤蒙多尔木盒奶酪</FlavorTextFR_MontDOrChaud.label>
+  <!-- EN: a whole box of {0_adj} pierced through, doused with white {1_plur} and garlic, put into the oven inside its spruce hoop until it turns liquid. Eaten with a spoon, with {2_coll} in their skins. -->
+  <FlavorTextFR_MontDOrChaud.description>在整轮{0_adj}中心挖孔，灌入白{1_plur}并塞入蒜瓣，连着云杉木箍直接送入烤炉，烤至化作一汪浓稠流心。用勺子舀起，配着带皮煮熟的{2_coll}一同享用。</FlavorTextFR_MontDOrChaud.description>
+
+  <!-- EN: pâté lorrain -->
+  <FlavorTextFR_PateLorrain.label>洛林酒香酥皮肉派</FlavorTextFR_PateLorrain.label>
+  <!-- EN: {0_coll} cut with a knife and marinated two days in white {2_plur}, shut inside a narrow puff pastry. Eaten warm, never scalding. -->
+  <FlavorTextFR_PateLorrain.description>手工刀切而非绞碎的{0_coll}，在白{2_plur}中浸腌两日，裹入长条形千层酥皮中烘烤。宜温食，切忌滚烫入口。</FlavorTextFR_PateLorrain.description>
+
+  <!-- EN: potée lorraine -->
+  <FlavorTextFR_PoteeLorraine.label>洛林熏肉蔬菜浓汤锅</FlavorTextFR_PoteeLorraine.label>
+  <!-- EN: {0_coll} and winter roots stewed together with smoked and salted {1_coll}. The broth is served first, over bread; the meats come afterwards. -->
+  <FlavorTextFR_PoteeLorraine.description>将{0_coll}、冬日根茎蔬菜与烟熏腌渍的{1_coll}同锅慢炖。上桌时先将热汤浇在面包上饮用，随后再奉上大盘肉菜。</FlavorTextFR_PoteeLorraine.description>
+
+  <!-- EN: rabbit with mirabelles -->
+  <FlavorTextFR_LapinALaMirabelle.label>洛林黄金李炖兔肉</FlavorTextFR_LapinALaMirabelle.label>
+  <!-- EN: {0_coll} coloured in {2_plur}, flamed with eau-de-vie and stewed with yellow {1_coll} that fall apart and sweeten the sauce without anything being added. -->
+  <FlavorTextFR_LapinALaMirabelle.description>在{2_plur}中煎上色的{0_coll}，泼入水果白兰地点火激香，再加入金黄的米拉贝尔{1_coll}同炖；果肉在慢火中自然化开，不添分毫糖便令酱汁甘润生津。</FlavorTextFR_LapinALaMirabelle.description>
+
+  <!-- EN: quenelles sauce Nantua -->
+  <FlavorTextFR_QuenellesNantua.label>南蒂阿小龙虾酱焗鱼丸</FlavorTextFR_QuenellesNantua.label>
+  <!-- EN: a stuffing of {0_adj} mounted with {1_plur} and panade, shaped with a spoon and poached, then swollen in the oven under a pink sauce of crayfish and {2_adj}. -->
+  <FlavorTextFR_QuenellesNantua.description>将{0_adj}泥与{1_plur}及面糊搅打上劲，用两把汤勺团成橄榄形入水微沸浸熟，再淋上小龙虾与{2_adj}熬制的粉红浓汁，送入烤炉焗至蓬松鼓胀。</FlavorTextFR_QuenellesNantua.description>
+
+  <!-- EN: salade lyonnaise -->
+  <FlavorTextFR_SaladeLyonnaise.label>里昂风味水波蛋培根沙拉</FlavorTextFR_SaladeLyonnaise.label>
+  <!-- EN: bitter frisée, {2_coll} fried in the pan, croutons rubbed with garlic and a poached egg set over the top. You break the yolk and it becomes the dressing. -->
+  <FlavorTextFR_SaladeLyonnaise.description>微苦的菊苣叶、平底锅煎得滋滋作响的{2_coll}丁、擦过蒜瓣的烤面包丁，顶上卧一枚嫩滑水波蛋。轻轻划破蛋黄，流淌而出的蛋液便是最好的沙拉酱。</FlavorTextFR_SaladeLyonnaise.description>
+
+  <!-- EN: poularde demi-deuil -->
+  <FlavorTextFR_PoulardeDemiDeuil.label>里昂半丧礼松露肥母鸡</FlavorTextFR_PoulardeDemiDeuil.label>
+  <!-- EN: a fowl under whose skin black slivers of {1_adj} have been slid, poached whole in a broth of bones. The black on the white is what earns it its name: half-mourning. -->
+  <FlavorTextFR_PoulardeDemiDeuil.description>在皮下塞满乌黑{1_adj}薄片的肥嫩母鸡，整只放入骨汤中微沸慢浸至熟。雪白鸡皮下隐现的片片乌黑，恰似旧时黑白相间的半丧服，由此得名“半丧礼”。</FlavorTextFR_PoulardeDemiDeuil.description>
+
+  <!-- EN: tripe à la lyonnaise -->
+  <FlavorTextFR_GrasDoubleLyonnais.label>里昂洋葱炒牛肚</FlavorTextFR_GrasDoubleLyonnais.label>
+  <!-- EN: {0_coll} cooked ahead, cut into strips and fried in {2_plur} until the edges crisp, with {1_coll} turned golden and a splash of vinegar at the end. -->
+  <FlavorTextFR_GrasDoubleLyonnais.description>预先煮熟切条的{0_coll}，在{2_plur}中与炒至金黄的{1_coll}一同猛火煸至边缘焦脆，起锅前烹入一勺香醋激出酸香。</FlavorTextFR_GrasDoubleLyonnais.description>
+
+</LanguageData>

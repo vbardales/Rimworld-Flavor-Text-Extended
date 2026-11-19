@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: oil down -->
+  <FlavorTextFR_OilDown.label>椰浆焖面包果咸肉（油沉锅）</FlavorTextFR_OilDown.label>
+  <!-- EN: {0_coll} in quarters smothered in {1_adj} milk with salted {2_coll}, until the liquid is entirely drunk up and only the oil is left in the bottom. That is where the name comes from. -->
+  <FlavorTextFR_OilDown.description>将切作四瓣的{0_coll}与腌{2_coll}浸入{1_adj}浆中加盖慢焖，直至汤汁被彻底吸干、锅底只余一层清亮椰油——这正是其菜名的由来。</FlavorTextFR_OilDown.description>
+
+  <!-- EN: uru in coconut milk -->
+  <FlavorTextFR_UruAuLaitDeCoco.label>椰奶炖面包果</FlavorTextFR_UruAuLaitDeCoco.label>
+  <!-- EN: {0_coll} peeled and simmered in hand-pressed {1_adj} milk with {2_coll} and thyme. Picked green it holds to the knife; picked ripe it melts, and that is another dish. -->
+  <FlavorTextFR_UruAuLaitDeCoco.description>将去皮的{0_coll}放入手榨{1_adj}浆中，与{2_coll}和百里香一同慢火煨煮。青果下锅则切块成形，熟果下锅则化作柔滑浓泥，那是截然不同的两道菜。</FlavorTextFR_UruAuLaitDeCoco.description>
+
+  <!-- EN: fire-roasted uru with saltfish -->
+  <FlavorTextFR_UruRotiMorue.label>炭烤面包果佐咸鱼</FlavorTextFR_UruRotiMorue.label>
+  <!-- EN: {0_coll} set whole on the embers until the skin chars on every side, split open scalding and served with salted {1_coll} soaked out and flaked, with raw {2_plur} and oil. -->
+  <FlavorTextFR_UruRotiMorue.description>将整颗{0_coll}直接架在炭火余烬上烤至外皮四面焦黑，趁滚烫劈开，佐以泡发拆碎的咸{1_coll}、生{2_plur}丝与热油同食。</FlavorTextFR_UruRotiMorue.description>
+
+  <!-- EN: breadfruit fries -->
+  <FlavorTextFR_FritesDeFruitAPain.label>酥炸面包果条</FlavorTextFR_FritesDeFruitAPain.label>
+  <!-- EN: firm {0_coll} cut into batons, dropped twice into boiling {2_plur} as a potato would be, and salted with {1_plur} and chilli straight out of the pan. -->
+  <FlavorTextFR_FritesDeFruitAPain.description>将紧实的{0_coll}切成粗条，像炸薯条一样先后两次投入滚沸的{2_plur}中复炸，出锅趁热撒上盐、{1_plur}与辣椒粉。</FlavorTextFR_FritesDeFruitAPain.description>
+
+  <!-- EN: breadfruit curry -->
+  <FlavorTextFR_CurryDeFruitAPain.label>鹰嘴豆咖喱面包果</FlavorTextFR_CurryDeFruitAPain.label>
+  <!-- EN: {0_coll} in large cubes simmered with soaked {1_coll} in a masala toasted with whole {2_plur}. It drinks sauce like nothing else, so you make twice as much. -->
+  <FlavorTextFR_CurryDeFruitAPain.description>将切成大块的{0_coll}与泡发的{1_coll}放入由整粒{2_plur}焙香的玛萨拉酱汁中慢炖。它吸汁极猛，因此酱汁总得备上双份。</FlavorTextFR_CurryDeFruitAPain.description>
+
+  <!-- EN: breadfruit fritters -->
+  <FlavorTextFR_BeignetsDeFruitAPain.label>炸面包果球</FlavorTextFR_BeignetsDeFruitAPain.label>
+  <!-- EN: a mash of ripe {0_adj} bound with {1_plur} and beaten {2_plur}, rested, then dropped by the spoonful into the fat. They swell all at once and sink back the moment they cool. -->
+  <FlavorTextFR_BeignetsDeFruitAPain.description>将熟透的{0_adj}捣成泥，拌入{1_plur}与打散的{2_plur}静置片刻，再用勺子舀入热油中。油锅里的果球会瞬间鼓胀，一旦放凉便又悄然回缩。</FlavorTextFR_BeignetsDeFruitAPain.description>
+
+  <!-- EN: breadfruit po'e -->
+  <FlavorTextFR_PoeAuFruitAPain.label>波利尼西亚面包果布丁</FlavorTextFR_PoeAuFruitAPain.label>
+  <!-- EN: a paste of very ripe {0_adj}, {1_adj} and starch, baked in a Polynesian oven until it turns translucent and elastic, then covered with cold-pressed {2_adj} milk. -->
+  <FlavorTextFR_PoeAuFruitAPain.description>将熟透的{0_adj}与{1_adj}、淀粉捣成糊状，送入波利尼西亚地炉烘烤至半透明且富有弹性，食用时浇上冷榨{2_adj}浆。</FlavorTextFR_PoeAuFruitAPain.description>
+
+  <!-- EN: bougna -->
+  <FlavorTextFR_Bougna.label>新喀里多尼亚蕉叶焖鸡</FlavorTextFR_Bougna.label>
+  <!-- EN: {0_coll} and {1_coll} stacked with {2_coll} inside bound banana leaves, buried on heated stones and covered over with earth for two hours. The parcel is opened at the table. -->
+  <FlavorTextFR_Bougna.description>将{0_coll}、{1_coll}与{2_coll}层层叠放，用芭蕉叶严密包裹捆扎，埋在烧热的火山石上覆土闷烤两小时，上桌后方才解开叶包。</FlavorTextFR_Bougna.description>
+
+  <!-- EN: cream of breadfruit -->
+  <FlavorTextFR_VelouteFruitAPain.label>奶油面包果浓汤</FlavorTextFR_VelouteFruitAPain.label>
+  <!-- EN: a purée of {0_adj} loosened with {1_plur} and finished with {2_plur}, nutmeg grated over. Its texture is that of potato, milder and faintly sweet. -->
+  <FlavorTextFR_VelouteFruitAPain.description>用{1_plur}将{0_adj}泥化开，收尾拌入{2_plur}并现磨少许肉豆蔻粉。口感近似土豆浓汤，却更为温润，带着一丝若有若无的清甜。</FlavorTextFR_VelouteFruitAPain.description>
+
+  <!-- EN: breadfruit and beans -->
+  <FlavorTextFR_FruitAPainAuxHaricots.label>红豆番茄炖面包果</FlavorTextFR_FruitAPainAuxHaricots.label>
+  <!-- EN: {0_coll} diced and simmered with red {1_coll} and a {2_adj} sauce with sweet pepper. One tree feeds a household for a season, which explains the number of recipes. -->
+  <FlavorTextFR_FruitAPainAuxHaricots.description>将切丁的{0_coll}与红{1_coll}放入加了甜椒的{2_adj}酱汁中慢炖。一棵面包果树便能养活一家人整整一季，也难怪它的做法如此繁多。</FlavorTextFR_FruitAPainAuxHaricots.description>
+
+  <!-- EN: sorrel soup -->
+  <FlavorTextFR_SoupeALOseille.label>法式酸模奶油汤</FlavorTextFR_SoupeALOseille.label>
+  <!-- EN: {0_coll} thrown in raw at the last moment into a {1_adj} broth, where it melts in thirty seconds and turns khaki, then bound with {2_plur}. Cooked any longer, it loses all its sharpness. -->
+  <FlavorTextFR_SoupeALOseille.description>在起锅前最后一刻将生{0_coll}投入滚烫的{1_adj}汤底中，叶片在三十秒内融化并转为黄褐色，随即拌入{2_plur}收稠。若再多煮片刻，那股独特的清酸便会荡然无存。</FlavorTextFR_SoupeALOseille.description>
+
+  <!-- EN: schav -->
+  <FlavorTextFR_Schav.label>东欧冰镇酸模汤</FlavorTextFR_Schav.label>
+  <!-- EN: {0_coll} briefly boiled then chilled, bound with beaten {1_plur} off the heat and whitened with {2_plur}. Served ice-cold with a hot potato at the bottom of the bowl. -->
+  <FlavorTextFR_Schav.description>将{0_coll}略微焯煮后离火，趁余温拌入打散的{1_plur}，再兑入{2_plur}调白并彻底冰镇。上桌时汤是冰凉的，碗底却垫着一颗滚烫的土豆。</FlavorTextFR_Schav.description>
+
+  <!-- EN: salmon with sorrel -->
+  <FlavorTextFR_SaumonALOseille.label>酸模白汁煎三文鱼</FlavorTextFR_SaumonALOseille.label>
+  <!-- EN: a {1_adj} escalope seared on one side only and left pink, napped with a {2_adj} sauce reduced in white wine where {0_coll} has just melted. The acid of the leaf stands in for lemon. -->
+  <FlavorTextFR_SaumonALOseille.description>将{1_adj}薄片仅单面快煎以保留内里的粉嫩，浇上用白葡萄酒收浓并刚刚融化了{0_coll}的{2_adj}酱汁。叶片天然的果酸恰可代替柠檬。</FlavorTextFR_SaumonALOseille.description>
+
+  <!-- EN: sorrel omelette -->
+  <FlavorTextFR_OmeletteALOseille.label>酸模煎蛋卷</FlavorTextFR_OmeletteALOseille.label>
+  <!-- EN: {0_coll} wilted in foaming {2_plur} before the beaten {1_coll} go in. It gives up a great deal of water: wilt it apart and drain it, or the omelette will not set. -->
+  <FlavorTextFR_OmeletteALOseille.description>先将{0_coll}在起泡的{2_plur}中煸软，再倒入打散的{1_coll}。酸模受热会渗出大量汁水，必须先单独煸炒沥干，否则蛋卷无法凝固成形。</FlavorTextFR_OmeletteALOseille.description>
+
+  <!-- EN: green borscht -->
+  <FlavorTextFR_BortschVert.label>绿罗宋汤</FlavorTextFR_BortschVert.label>
+  <!-- EN: a borscht without beet: {0_coll} gives the sourness that beet gives elsewhere, with {1_coll} in cubes and hard {2_coll} halved as it is served. -->
+  <FlavorTextFR_BortschVert.description>不用甜菜根的罗宋汤：由{0_coll}提供别处靠甜菜发酵得来的酸爽，汤中炖着{1_coll}丁，上桌时再放上对半切开的全熟{2_coll}。</FlavorTextFR_BortschVert.description>
+
+  <!-- EN: sorrel tart -->
+  <FlavorTextFR_TarteALOseille.label>酸模奶酪咸派</FlavorTextFR_TarteALOseille.label>
+  <!-- EN: a {1_adj} pastry filled with {0_adj} stewed down and well pressed, covered with fresh {2_adj}. The acidity cuts the fat of the pastry, which no mild herb would do. -->
+  <FlavorTextFR_TarteALOseille.description>在{1_adj}派皮中填入慢火熬软并挤干汁水的{0_adj}，表面铺满新鲜{2_adj}烘烤。叶片凛冽的酸度能完美化解派皮的油腻，这是任何温和香草都无法企及的。</FlavorTextFR_TarteALOseille.description>
+
+  <!-- EN: sorrel purée -->
+  <FlavorTextFR_PureeDOseille.label>黄油酸模泥</FlavorTextFR_PureeDOseille.label>
+  <!-- EN: {0_coll} melted in {1_plur} with a chopped {2_adj}, reduced until almost nothing is left. Two large baskets make one bowl: that is the price of it. -->
+  <FlavorTextFR_PureeDOseille.description>将{0_coll}与切碎的{2_adj}一同在{1_plur}中慢火熬化，一直收干到所剩无几。整整两大筐鲜叶才能熬出一小碗，这便是它的代价。</FlavorTextFR_PureeDOseille.description>
+
+  <!-- EN: sorrel pesto -->
+  <FlavorTextFR_PestoDOseille.label>酸模坚果青酱</FlavorTextFR_PestoDOseille.label>
+  <!-- EN: raw {0_coll} pounded with toasted {1_coll} and {2_adj} oil, no garlic. It does not keep: oxalic acid blackens the lot within the hour, so it is made for the meal at hand. -->
+  <FlavorTextFR_PestoDOseille.description>将生{0_coll}与烘香的{1_coll}及{2_adj}油一同捣成泥，不加半点大蒜。这种酱无法存放，草酸会在一小时内令其变黑，因此只能现做现吃。</FlavorTextFR_PestoDOseille.description>
+
+  <!-- EN: sorrel sarma -->
+  <FlavorTextFR_SarmaALOseille.label>酸模叶包羊肉饭</FlavorTextFR_SarmaALOseille.label>
+  <!-- EN: large blanched {0_adj} leaves, rolled tight around raw {1_adj} and minced {2_adj}, stood upright in the pot and cooked covered under a weighted plate. -->
+  <FlavorTextFR_SarmaALOseille.description>取宽大的{0_adj}叶焯水烫软，紧紧卷入生{1_adj}与{2_adj}末，在锅中竖直码紧，压上一只重盘加盖慢焖。</FlavorTextFR_SarmaALOseille.description>
+
+  <!-- EN: turkey with chestnuts -->
+  <FlavorTextFR_DindeAuxMarrons.label>栗子填馅烤禽</FlavorTextFR_DindeAuxMarrons.label>
+  <!-- EN: {1_coll} stuffed with whole {0_plur} and its own minced flesh, basted with {2_plur} every twenty minutes. The chestnuts at the bottom candy in the juices and are better than the bird. -->
+  <FlavorTextFR_DindeAuxMarrons.description>在整只{1_coll}腹中填满整颗{0_plur}与剁碎的禽肉馅，烤制时每隔二十分钟浇淋一次{2_plur}。垫在锅底的栗子浸饱了肉汁与油脂，烤出焦糖般的甜香，比禽肉本身还要美味。</FlavorTextFR_DindeAuxMarrons.description>
+
+  <!-- EN: chestnut purée -->
+  <FlavorTextFR_PureeDeMarrons.label>法式栗子泥</FlavorTextFR_PureeDeMarrons.label>
+  <!-- EN: {0_coll} poached in {1_plur} with a stick of celery, passed through a sieve and beaten with {2_plur}. The celery cannot be tasted but keeps the purée from cloying. -->
+  <FlavorTextFR_PureeDeMarrons.description>将{0_coll}与一根芹菜梗放入{1_plur}中慢煮，过筛成细腻浓泥后再拌入{2_plur}搅打。吃的时候尝不出芹菜味，但它能巧妙地中和栗子泥的甜腻。</FlavorTextFR_PureeDeMarrons.description>
+
+  <!-- EN: chestnut and pumpkin soup -->
+  <FlavorTextFR_SoupeChataignesPotiron.label>栗子南瓜浓汤</FlavorTextFR_SoupeChataignesPotiron.label>
+  <!-- EN: {0_coll} and {1_coll} roasted separately before being blended together, bound with {2_plur}. Two sweetnesses too much alike: it takes a great deal of pepper to tell them apart. -->
+  <FlavorTextFR_SoupeChataignesPotiron.description>将{0_coll}与{1_coll}分别烘烤后再一同搅打成浓汤，并以{2_plur}调和。两者的甘甜太过相似，必须撒入大量黑胡椒方能分出层次。</FlavorTextFR_SoupeChataignesPotiron.description>
+
+  <!-- EN: castagnaccio -->
+  <FlavorTextFR_Castagnaccio.label>托斯卡纳栗子薄饼</FlavorTextFR_Castagnaccio.label>
+  <!-- EN: a {0_adj} flour slaked with water — no egg, no sugar, no leavening — spread very thin, drizzled with {1_adj} oil and scattered with dried {2_adj} and rosemary. It cracks as it bakes, and that is intended. -->
+  <FlavorTextFR_Castagnaccio.description>将{0_adj}粉直接用清水调开——不加蛋、不加糖、也不发酵——薄薄铺入烤盘，淋上{1_adj}油，撒上{2_adj}干与迷迭香。烘烤时表面自然龟裂，这正是它应有的模样。</FlavorTextFR_Castagnaccio.description>
+
+  <!-- EN: mont blanc -->
+  <FlavorTextFR_MontBlanc.label>蒙布朗栗子蛋糕</FlavorTextFR_MontBlanc.label>
+  <!-- EN: a cream of {0_adj} and {1_adj} pushed through a sieve into vermicelli, heaped over a meringue and crowned with whipped {2_adj}. The disorder is the correct form. -->
+  <FlavorTextFR_MontBlanc.description>将{0_adj}与{1_adj}制成的甜泥过筛挤成细密的粉丝状，蓬松地堆叠在蛋白霜饼底上，顶端再冠以打发的{2_adj}。那副凌乱如雪峰的姿态正是它的标准形态。</FlavorTextFR_MontBlanc.description>
+
+  <!-- EN: kuri gohan -->
+  <FlavorTextFR_KuriGohan.label>日式栗子饭</FlavorTextFR_KuriGohan.label>
+  <!-- EN: {1_coll} cooked with raw peeled {0_coll}, a splash of {2_adj} and sake, without stirring once. An autumn dish made on the day the burrs open, and no other. -->
+  <FlavorTextFR_KuriGohan.description>将去壳剥皮的生{0_coll}与{1_coll}同入锅中，淋入少许{2_adj}酱汁与清酒焖熟，中途绝不翻拌。这是专属于栗蓬裂开之日的秋令美味。</FlavorTextFR_KuriGohan.description>
+
+  <!-- EN: pork braised with chestnuts -->
+  <FlavorTextFR_PorcBraiseChataignes.label>板栗红烧肉</FlavorTextFR_PorcBraiseChataignes.label>
+  <!-- EN: {1_coll} braised in caramel and {2_plur}, with {0_coll} added halfway so they take up the sauce without falling apart. They drink it in and become the best of the dish. -->
+  <FlavorTextFR_PorcBraiseChataignes.description>将{1_coll}在糖色与{2_plur}酱汁中慢火红烧，中途下入{0_coll}使其吸饱浓汁而又不致碎烂。浸润了肉香的板栗最终成了整道菜里最出彩的部分。</FlavorTextFR_PorcBraiseChataignes.description>
+
+  <!-- EN: chestnuts with cabbage and bacon -->
+  <FlavorTextFR_ChataignesChouLard.label>栗子培根焖卷心菜</FlavorTextFR_ChataignesChouLard.label>
+  <!-- EN: {1_coll} braised an hour in the rendered {2_adj} fat, with {0_coll} roasted and peeled while still hot. The chestnut stood in for bread in the mountains, and still shows why. -->
+  <FlavorTextFR_ChataignesChouLard.description>用煸出的{2_adj}油脂将{1_coll}慢焖一小时，再加入烤熟后趁热剥壳的{0_coll}。昔日山民以栗代粮，尝过此菜便知其中道理。</FlavorTextFR_ChataignesChouLard.description>
+
+  <!-- EN: marrons glacés -->
+  <FlavorTextFR_MarronsGlaces.label>法式糖渍栗子</FlavorTextFR_MarronsGlaces.label>
+  <!-- EN: whole {0_coll} passed through seven days of a steadily thicker {1_adj} syrup, scented with vanilla and flavoured with {2_plur}, then dried in a warming cupboard. One breaks and the batch is downgraded. -->
+  <FlavorTextFR_MarronsGlaces.description>将整颗{0_coll}在添了香草与{2_plur}的{1_adj}糖浆中浸渍整整七天，糖浆逐日加浓，最后送入温箱烘出糖衣。只要有一颗碎裂，整批成品便算降级。</FlavorTextFR_MarronsGlaces.description>
+
+  <!-- EN: chestnut polenta -->
+  <FlavorTextFR_PolentaDeChataigne.label>栗子粉波伦塔玉米糊</FlavorTextFR_PolentaDeChataigne.label>
+  <!-- EN: a {0_adj} flour cut with yellow {2_plur}, rained into boiling water and stirred forty minutes always the same way, then served with fresh {1_plur}. -->
+  <FlavorTextFR_PolentaDeChataigne.description>将{0_adj}粉与黄{2_plur}混合，如细雨般撒入沸水中，朝同一方向持续搅动四十分钟，出锅后佐以新鲜{1_plur}食用。</FlavorTextFR_PolentaDeChataigne.description>
+
+  <!-- EN: chestnut risotto -->
+  <FlavorTextFR_RisottoAuxChataignes.label>野菌栗子意式烩饭</FlavorTextFR_RisottoAuxChataignes.label>
+  <!-- EN: {1_coll} brought on with stock and {2_coll} from the woods, half the {0_adj} crushed to bind and the rest left in pieces. Two textures of one ingredient, which is enough for the dish. -->
+  <FlavorTextFR_RisottoAuxChataignes.description>用高汤与林间采来的{2_coll}慢烩{1_coll}，将一半{0_adj}碾碎融入汤汁增稠，另一半保留大块颗粒。同一种食材呈现出双重口感，便足以撑起整道佳肴。</FlavorTextFR_RisottoAuxChataignes.description>
+
+  <!-- EN: Caesar salad -->
+  <FlavorTextFR_SaladeCesar.label>凯撒沙拉</FlavorTextFR_SaladeCesar.label>
+  <!-- EN: hearts of {0_adj} romaine kept whole, coated in a dressing built on raw {2_plur}, aged {1_plur} and anchovy. Invented in Tijuana on a day when the kitchen had almost nothing left. -->
+  <FlavorTextFR_SaladeCesar.description>保留整颗脆嫩的{0_adj}菜心，裹满由生{2_plur}、陈年{1_plur}与凤尾鱼调成的浓醇酱汁。这道名菜诞生于蒂华纳某个厨房食材几近告罄的日子。</FlavorTextFR_SaladeCesar.description>
+
+  <!-- EN: braised lettuce with peas -->
+  <FlavorTextFR_LaitueBraiseePetitsPois.label>黄油青豆焖生菜</FlavorTextFR_LaitueBraiseePetitsPois.label>
+  <!-- EN: {0_coll} quartered and smothered in {2_plur} with {1_coll} and small onions, without a drop of water — the leaves give up quite enough on their own. -->
+  <FlavorTextFR_LaitueBraiseePetitsPois.description>将切作四瓣的{0_coll}与{1_coll}、小洋葱一同放入{2_plur}中加盖慢焖，无需加一滴水——菜叶自身渗出的汁水便已绰绰有余。</FlavorTextFR_LaitueBraiseePetitsPois.description>
+
+  <!-- EN: ssambap -->
+  <FlavorTextFR_Ssambap.label>韩式菜包饭</FlavorTextFR_Ssambap.label>
+  <!-- EN: a {0_adj} leaf held flat in the palm, a spoonful of {1_adj}, a piece of grilled {2_adj} and a dab of fermented paste, folded into one mouthful that has to hold in a single go. -->
+  <FlavorTextFR_Ssambap.description>掌心摊开一片{0_adj}叶，舀一勺{1_adj}，放上一块烤{2_adj}并抹一点发酵大酱，折成饱满的一团，必须一口塞进嘴里才算地道。</FlavorTextFR_Ssambap.description>
+
+  <!-- EN: stir-fried lettuce with garlic -->
+  <FlavorTextFR_LaitueSauteeALAil.label>蒜蓉生菜</FlavorTextFR_LaitueSauteeALAil.label>
+  <!-- EN: {0_coll} thrown into a smoking wok with {2_plur} and crushed {1_plur}, tossed forty seconds and not one more. It must stay crisp at the stem and melting at the leaf. -->
+  <FlavorTextFR_LaitueSauteeALAil.description>将{0_coll}与拍碎的{1_plur}、{2_plur}酱汁一同投入冒烟的铁锅，猛火颠炒四十秒即刻出锅，多一秒都不行。菜梗必须保持清脆，而菜叶则恰到好处地柔嫩入味。</FlavorTextFR_LaitueSauteeALAil.description>
+
+  <!-- EN: chicken lettuce wraps -->
+  <FlavorTextFR_WrapsLaituePoulet.label>生菜包鸡松</FlavorTextFR_WrapsLaituePoulet.label>
+  <!-- EN: {1_coll} chopped with a knife and fried very dry, served scalding in chilled {0_adj} cups, with {2_adj} oil and crushed peanuts. The contrast of temperature is the dish. -->
+  <FlavorTextFR_WrapsLaituePoulet.description>将{1_coll}手工剁成肉松干煸出香，趁滚烫盛入冰镇的{0_adj}叶盏中，淋上{2_adj}油并撒上花生碎。一冷一热的鲜明对比正是这道菜的灵魂。</FlavorTextFR_WrapsLaituePoulet.description>
+
+  <!-- EN: cream of lettuce -->
+  <FlavorTextFR_VelouteDeLaitue.label>奶油生菜浓汤</FlavorTextFR_VelouteDeLaitue.label>
+  <!-- EN: {0_coll} gone to seed or grown too bitter for a salad, thrown into a {1_adj} broth and blended at once, bound with {2_plur}. The soup of July gardens, when everything bolts together. -->
+  <FlavorTextFR_VelouteDeLaitue.description>将抽薹结籽或因长老变苦而不宜生食的{0_coll}投入{1_adj}高汤中，烫软后立即搅打成泥，再以{2_plur}调和。这是七月菜园里群蔬齐齐抽薹时的应景汤品。</FlavorTextFR_VelouteDeLaitue.description>
+
+  <!-- EN: kinpira renkon -->
+  <FlavorTextFR_KinpiraRenkon.label>日式金平莲藕</FlavorTextFR_KinpiraRenkon.label>
+  <!-- EN: rounds of {0_adj} soaked in vinegar to keep them white, seared hard then glazed with {1_plur} and mirin, scattered with toasted {2_adj}. The holes fill with sauce. -->
+  <FlavorTextFR_KinpiraRenkon.description>将切成圆片的{0_adj}浸入醋水保持洁白，猛火快煎后以{1_plur}酱汁与味醂收汁挂亮，最后撒上焙香的{2_adj}。莲藕孔洞里尽数蓄满了咸甜浓郁的酱汁。</FlavorTextFR_KinpiraRenkon.description>
+
+  <!-- EN: renkon tempura -->
+  <FlavorTextFR_RenkonTempura.label>莲藕天妇罗</FlavorTextFR_RenkonTempura.label>
+  <!-- EN: slices of {0_adj} dipped in a {1_adj} batter barely stirred into iced water, fried in very hot {2_plur}. The batter must stay lumpy: beaten smooth, it turns into a crust. -->
+  <FlavorTextFR_RenkonTempura.description>将{0_adj}切片，蘸一层用冰水粗略拌开的{1_adj}面糊，投入滚烫的{2_plur}中炸熟。面糊必须保留些许粉疙瘩——若是搅得太顺滑，炸出来便成了硬壳。</FlavorTextFR_RenkonTempura.description>
+
+  <!-- EN: pork and lotus root soup -->
+  <FlavorTextFR_SoupePorcLotus.label>莲藕红枣排骨汤</FlavorTextFR_SoupePorcLotus.label>
+  <!-- EN: {1_adj} ribs and lengths of {0_adj} simmered three hours with red {2_coll} and nothing else. The rhizome turns floury and sweet; this is a soup drunk to get well. -->
+  <FlavorTextFR_SoupePorcLotus.description>将{1_adj}排骨与切段的{0_adj}加上红{2_coll}，不添多余调料，文火慢煲三个小时。藕块炖得粉糯回甘，是一碗温润养人的滋补靓汤。</FlavorTextFR_SoupePorcLotus.description>
+
+  <!-- EN: sweet-and-sour lotus root -->
+  <FlavorTextFR_LotusAigreDoux.label>糖醋麻辣脆藕片</FlavorTextFR_LotusAigreDoux.label>
+  <!-- EN: rounds of {0_adj} seared over a high flame in a {1_adj} vinegar with dried {2_plur} and Sichuan pepper. They stay crisp whatever you do, which is the whole point. -->
+  <FlavorTextFR_LotusAigreDoux.description>将圆薄的{0_adj}片配干{2_plur}与花椒，在调了{1_adj}的香醋汁中大火爆炒。无论怎么翻炒藕片依然爽脆利落，这正是它的妙处所在。</FlavorTextFR_LotusAigreDoux.description>
+
+  <!-- EN: lotus root stuffed with sticky rice -->
+  <FlavorTextFR_LotusRizGluant.label>桂花糯米藕</FlavorTextFR_LotusRizGluant.label>
+  <!-- EN: the holes of the {0_adj} packed one by one with sticky {1_plur} using a chopstick, the length plugged shut and then cooked for hours in a {2_adj} syrup with osmanthus. Sliced cold, into marbled rounds. -->
+  <FlavorTextFR_LotusRizGluant.description>用筷子将糯{1_plur}一点点塞满{0_adj}的孔洞，盖回藕蒂封口后，放入加了桂花的{2_adj}糖浆中慢煮数小时。放凉后切片，呈现出大理石般精巧的花纹。</FlavorTextFR_LotusRizGluant.description>
+
+  <!-- EN: sweet lotus seed soup -->
+  <FlavorTextFR_SoupeSucreeGrainesLotus.label>红枣莲子羹</FlavorTextFR_SoupeSucreeGrainesLotus.label>
+  <!-- EN: {0_coll} with the green germ picked out — bitter as bark — poached in a {1_adj} syrup with red {2_coll}. Served warm, between courses rather than after them. -->
+  <FlavorTextFR_SoupeSucreeGrainesLotus.description>剔除{0_coll}中心苦如树皮的青绿莲芯，与红{2_coll}一同在{1_adj}水中慢火浸煮。温热奉客，常在席间而非餐后呈上。</FlavorTextFR_SoupeSucreeGrainesLotus.description>
+
+  <!-- EN: lotus seed congee -->
+  <FlavorTextFR_CongeeGrainesLotus.label>莲子粥</FlavorTextFR_CongeeGrainesLotus.label>
+  <!-- EN: {1_coll} broken down in ten times its volume of water with {0_coll} and a few slices of {2_adj}, stirred now and then for two hours until the grains can no longer be told apart. -->
+  <FlavorTextFR_CongeeGrainesLotus.description>用十倍的水将{1_coll}、{0_coll}与几片{2_adj}同煮，两小时内不时搅动，直至米粒彻底化开、水米交融。</FlavorTextFR_CongeeGrainesLotus.description>
+
+  <!-- EN: lo mai gai -->
+  <FlavorTextFR_LoMaiGai.label>荷叶糯米鸡</FlavorTextFR_LoMaiGai.label>
+  <!-- EN: sticky {1_coll} and marinated {2_coll} closed inside a dried {0_adj} leaf softened in hot water, tied and steamed. The leaf is not eaten but scents everything. -->
+  <FlavorTextFR_LoMaiGai.description>将用热水泡软的干{0_adj}叶摊开，裹入糯{1_coll}与腌制入味的{2_coll}，捆扎严实后上笼蒸熟。荷叶虽不入口，却将清香沁入了每一粒米中。</FlavorTextFR_LoMaiGai.description>
+
+  <!-- EN: lotus root salad -->
+  <FlavorTextFR_SaladeRacineDeLotus.label>凉拌藕片</FlavorTextFR_SaladeRacineDeLotus.label>
+  <!-- EN: rounds of {0_adj} blanched thirty seconds and dropped into iced water, tossed with {1_plur} cut on the bias and a {2_plur} dressing. The pattern of the holes is half the dish. -->
+  <FlavorTextFR_SaladeRacineDeLotus.description>将{0_adj}片沸水快焯三十秒后立即浸入冰水，与斜刀切块的{1_plur}及{2_plur}调味汁拌匀。藕片玲珑剔透的孔洞花纹本身便占了半壁风采。</FlavorTextFR_SaladeRacineDeLotus.description>
+
+  <!-- EN: dried human meat -->
+  <FlavorTextFR_ViandeHumaineSechee.label>风干人肉脯</FlavorTextFR_ViandeHumaineSechee.label>
+  <!-- EN: {0_coll} cut with the grain, brined with {2_plur} and {1_plur}, then air-dried over several days. Keeps for months and needs no fuel. -->
+  <FlavorTextFR_ViandeHumaineSechee.description>顺着纹理切开的{0_coll}，用{2_plur}与{1_plur}盐水腌渍后悬起风干数日。可保存数月之久，且无需消耗燃料。</FlavorTextFR_ViandeHumaineSechee.description>
+
+  <!-- EN: human meat stew -->
+  <FlavorTextFR_RagoutChairHumaine.label>炖人肉</FlavorTextFR_RagoutChairHumaine.label>
+  <!-- EN: {0_coll} in cubes seared then moistened with {2_plur}, simmered covered with {1_coll} in large pieces. A long cooking, as for any adult and well-worked animal. -->
+  <FlavorTextFR_RagoutChairHumaine.description>将切块的{0_coll}煎封表面后烹入{2_plur}，与大块{1_coll}一同加盖慢炖。如同烹饪任何成年且常年劳作的动物一样，需要漫长的炖煮时间。</FlavorTextFR_RagoutChairHumaine.description>
+
+  <!-- EN: roast human meat -->
+  <FlavorTextFR_RotiChairHumaine.label>烤人肉</FlavorTextFR_RotiChairHumaine.label>
+  <!-- EN: a {0_adj} joint barded with {1_plur}, stuck with {2_plur} and roasted at moderate heat. It is lean and dries quickly: the barding is not optional. -->
+  <FlavorTextFR_RotiChairHumaine.description>在大块带骨{0_adj}外裹上一层{1_plur}，嵌满{2_plur}瓣后以中火烘烤。这种肉精瘦且极易变柴，外覆油脂绝非可有可无的步骤。</FlavorTextFR_RotiChairHumaine.description>
+
+  <!-- EN: human meat skewers -->
+  <FlavorTextFR_BrochettesChairHumaine.label>人肉烤串</FlavorTextFR_BrochettesChairHumaine.label>
+  <!-- EN: cubes of {0_adj} alternated with {1_coll} and {2_coll} on metal rods, grilled over a high flame and turned often. Short cooking, or the meat toughens. -->
+  <FlavorTextFR_BrochettesChairHumaine.description>将{0_adj}块与{1_coll}、{2_coll}交替穿在金属签上，架在猛火上频繁翻动快烤。火候必须短促，否则肉质会迅速变硬。</FlavorTextFR_BrochettesChairHumaine.description>
+
+  <!-- EN: human meat sausage -->
+  <FlavorTextFR_SaucisseChairHumaine.label>人肉香肠</FlavorTextFR_SaucisseChairHumaine.label>
+  <!-- EN: {0_coll} coarsely minced and brought up to a third {1_adj}, seasoned with {2_plur} and cased. Without the added fat the sausage crumbles as it cooks. -->
+  <FlavorTextFR_SaucisseChairHumaine.description>将{0_coll}粗略绞碎，掺入三分之一的{1_adj}，以{2_plur}调味后灌入肠衣。若不额外补充油脂，香肠在受热时便会散碎。</FlavorTextFR_SaucisseChairHumaine.description>
+
+  <!-- EN: human meat pie -->
+  <FlavorTextFR_TourteChairHumaine.label>人肉派</FlavorTextFR_TourteChairHumaine.label>
+  <!-- EN: {0_coll} cooked ahead and cooled, closed in a {1_adj} and {2_adj} pastry with a chimney to let the steam out. Eaten cold as readily as hot. -->
+  <FlavorTextFR_TourteChairHumaine.description>将预先煮熟放凉的{0_coll}包入由{1_adj}与{2_adj}揉制的派皮中，顶部留出一个排气孔烘烤。无论热食还是冷吃皆宜。</FlavorTextFR_TourteChairHumaine.description>
+
+  <!-- EN: human meat hash -->
+  <FlavorTextFR_HachisChairHumaine.label>土豆泥焗人肉末</FlavorTextFR_HachisChairHumaine.label>
+  <!-- EN: {0_coll} minced and spread across the dish, covered with a {1_adj} mash beaten with {2_plur} and browned. The usual way of using up yesterday's roast. -->
+  <FlavorTextFR_HachisChairHumaine.description>将剁碎的{0_coll}平铺在烤盘底部，盖上一层加了{2_plur}搅打的{1_adj}泥，送入烤箱烤至表面金黄焦香。这是处理隔夜剩烤肉的惯常做法。</FlavorTextFR_HachisChairHumaine.description>
+
+  <!-- EN: human meat curry -->
+  <FlavorTextFR_CurryChairHumaine.label>咖喱人肉</FlavorTextFR_CurryChairHumaine.label>
+  <!-- EN: {0_coll} simmered in {2_adj} milk with a paste of {1_adj} and toasted spices. The fat of the coconut makes up for a meat that supplies little of its own. -->
+  <FlavorTextFR_CurryChairHumaine.description>将{0_coll}放入加了{1_adj}酱与烘焙香料的{2_adj}浆中慢火煨煮。椰浆丰腴的油脂恰好弥补了这种肉类自身匮乏的脂肪。</FlavorTextFR_CurryChairHumaine.description>
+
+  <!-- EN: human meatballs -->
+  <FlavorTextFR_BoulettesChairHumaine.label>人肉丸子</FlavorTextFR_BoulettesChairHumaine.label>
+  <!-- EN: {0_coll} minced and bound with {1_plur} and soaked {2_adj} crumb, rolled by hand and poached in stock. The crumb holds the water and keeps the ball from drying out. -->
+  <FlavorTextFR_BoulettesChairHumaine.description>将{0_coll}剁成肉糜，拌入{1_plur}与浸软的{2_adj}面包屑，手搓成丸后在高汤中浸熟。面包屑能锁住水分，防止肉丸变干发柴。</FlavorTextFR_BoulettesChairHumaine.description>
+
+  <!-- EN: human meat stock -->
+  <FlavorTextFR_BouillonChairHumaine.label>人肉骨汤</FlavorTextFR_BouillonChairHumaine.label>
+  <!-- EN: {1_coll} cracked and roasted before going in to tremble with the trimmings of {0_adj} and {2_coll} for garnish, skimmed regularly for six hours. It is never allowed to boil. -->
+  <FlavorTextFR_BouillonChairHumaine.description>将{1_coll}敲裂烤香后入锅，与{0_adj}边角料和增香的{2_coll}一同保持微沸慢熬六小时，期间定时撇去浮沫，全程绝不令其大滚。</FlavorTextFR_BouillonChairHumaine.description>
+
+  <!-- EN: human meat pâté -->
+  <FlavorTextFR_PateChairHumaine.label>人肉酱糜</FlavorTextFR_PateChairHumaine.label>
+  <!-- EN: {0_coll} and {1_coll} minced together, steeped in {2_plur} overnight then baked in a terrine in a water bath. Left to ripen three days in the cold before it is cut. -->
+  <FlavorTextFR_PateChairHumaine.description>将{0_coll}与{1_coll}一同绞碎，浸入{2_plur}中腌渍过夜，再装入陶模隔水烘烤。切片食用前需在冷处静置熟成三天。</FlavorTextFR_PateChairHumaine.description>
+
+  <!-- EN: human meat fried rice -->
+  <FlavorTextFR_RizSauteChairHumaine.label>人肉丁炒饭</FlavorTextFR_RizSauteChairHumaine.label>
+  <!-- EN: yesterday's {1_coll}, dry and loose, fried very hard with {0_coll} in small dice and scrambled {2_coll}. Fresh rice clumps and ruins the dish: it has to be cold. -->
+  <FlavorTextFR_RizSauteChairHumaine.description>取隔夜干爽松散的{1_coll}，与切作小丁的{0_coll}和炒散的{2_coll}猛火快炒。刚出锅的新饭容易粘连成团而毁掉整道菜，必须用冷饭才行。</FlavorTextFR_RizSauteChairHumaine.description>
+
+</LanguageData>

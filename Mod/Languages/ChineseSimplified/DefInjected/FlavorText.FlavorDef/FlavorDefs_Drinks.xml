@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: doujiang -->
+  <FlavorTextFR_Doujiang.label>豆浆</FlavorTextFR_Doujiang.label>
+  <!-- EN: {0_coll} soaked overnight, ground with {1_plur} then strained through cloth and brought to the boil — raw, they cannot be digested. Drunk scalding at first light, sweetened with {2_plur} or else salted with vinegar. -->
+  <FlavorTextFR_Doujiang.description>{0_coll}浸泡过夜，与{1_plur}同磨成浆，以布滤渣后彻底煮沸——生浆断不可食。破晓时分趁滚烫饮下，或加{2_plur}作甜浆，或点盐醋成咸浆。</FlavorTextFR_Doujiang.description>
+
+  <!-- EN: black soy milk -->
+  <FlavorTextFR_LaitDeSojaNoir.label>黑豆浆</FlavorTextFR_LaitDeSojaNoir.label>
+  <!-- EN: black {0_coll} toasted before being ground with {1_plur}, which gives a drink of a violet grey, rounder than yellow soy, lifted with toasted black {2_plur}. -->
+  <FlavorTextFR_LaitDeSojaNoir.description>黑{0_coll}先行焙香，再与{1_plur}同磨成浆，色泽紫灰，滋味较黄豆浆更为醇厚圆润，再借焙熟的黑{2_plur}提香。</FlavorTextFR_LaitDeSojaNoir.description>
+
+  <!-- EN: sattu sharbat -->
+  <FlavorTextFR_SattuSharbat.label>萨图鹰嘴豆冷饮</FlavorTextFR_SattuSharbat.label>
+  <!-- EN: a flour of roasted {0_adj}, slaked in cold {1_plur} with the juice of {2_adj}, black salt and cumin. The drink of the Bihar summers: it feeds as much as it quenches, and needs no cooking at all. -->
+  <FlavorTextFR_SattuSharbat.description>焙熟的{0_adj}磨粉，以冰凉的{1_plur}化开，调入{2_adj}汁、黑盐与孜然。这是比哈尔邦夏日的消暑饮品：既能果腹又能解渴，且完全无需开火。</FlavorTextFR_SattuSharbat.description>
+
+  <!-- EN: mung bean drink -->
+  <FlavorTextFR_BoissonHaricotMungo.label>绿豆沙饮</FlavorTextFR_BoissonHaricotMungo.label>
+  <!-- EN: mung {0_coll} cooked past done and passed through a sieve, let down with {1_plur} and scented with fresh {2_plur}. Drunk iced through the heatwaves, for its cooling virtues as much as for its taste. -->
+  <FlavorTextFR_BoissonHaricotMungo.description>绿{0_coll}煮至软烂过筛，兑入{1_plur}化开，再添新鲜{2_plur}赋香。酷暑热浪中冰镇饮用，既贪其清甜滋味，亦取其清热消暑之效。</FlavorTextFR_BoissonHaricotMungo.description>
+
+  <!-- EN: po cha -->
+  <FlavorTextFR_PoCha.label>酥油茶</FlavorTextFR_PoCha.label>
+  <!-- EN: a brick of {1_adj} boiled for hours with {2_plur}, then churned in a wooden tube with yak {0_coll} and a great deal of salt. It is not an infusion but a fatty broth: at four thousand metres, that is what keeps you upright. -->
+  <FlavorTextFR_PoCha.description>紧压{1_adj}砖与{2_plur}熬煮数小时，再倒入木桶中与牦牛{0_coll}及足量食盐一同打制交融。它与其说是茶饮，不如说是一碗浓酽脂汤：在海拔四千米的高原上，全靠它支撑体力。</FlavorTextFR_PoCha.description>
+
+  <!-- EN: butter coffee -->
+  <FlavorTextFR_CafeAuBeurre.label>黄油咖啡</FlavorTextFR_CafeAuBeurre.label>
+  <!-- EN: a tight {1_coll} let down with hot {2_plur}, into which a knob of {0_adj} is melted and whisked to an emulsion. Without the whisk the fat rises in a pool and the drink is vile. -->
+  <FlavorTextFR_CafeAuBeurre.description>浓酽的{1_coll}兑入热{2_plur}，再投入一小块{0_adj}融化并搅打至乳化交融。若是少了搅打这一步，油脂便会浮聚成汪，难以下咽。</FlavorTextFR_CafeAuBeurre.description>
+
+  <!-- EN: buttered grog -->
+  <FlavorTextFR_GrogAuBeurre.label>黄油格罗格热酒</FlavorTextFR_GrogAuBeurre.label>
+  <!-- EN: {1_coll} let down with boiling water over {2_coll} and spices, with a knob of {0_adj} melting on the surface into a shining disc. Served in a tankard, never in a glass: the heat would not hold. -->
+  <FlavorTextFR_GrogAuBeurre.description>以沸水冲开{1_coll}、{2_coll}与香料，表面浮着一小块{0_adj}，融化成一圈油亮的光斑。必得盛在厚啤酒杯中，断不可用玻璃杯：否则留不住热气。</FlavorTextFR_GrogAuBeurre.description>
+
+  <!-- EN: buttered hot chocolate -->
+  <FlavorTextFR_ChocolatChaudAuBeurre.label>黄油热巧克力</FlavorTextFR_ChocolatChaudAuBeurre.label>
+  <!-- EN: {1_coll} melted in boiling {2_plur} rather than in milk, and raised with a knob of {0_adj} and a whisk. More bitter and denser than with milk, and this is how it was drunk before the cow got involved. -->
+  <FlavorTextFR_ChocolatChaudAuBeurre.description>{1_coll}不以牛奶而以沸腾的{2_plur}融化，再添一小块{0_adj}搅打起泡。比用牛奶冲调的更苦、更稠，在牛奶尚未介入之前，人们本就是这样饮用的。</FlavorTextFR_ChocolatChaudAuBeurre.description>
+
+  <!-- EN: coconut water -->
+  <FlavorTextFR_EauDeCoco.label>鲜椰子水</FlavorTextFR_EauDeCoco.label>
+  <!-- EN: a young {0_adj} topped with a machete, whose water is drunk through a straw before the jellied flesh is scraped out with a spoon. Let down with iced {1_plur} and a thread of {2_adj}. -->
+  <FlavorTextFR_EauDeCoco.description>用砍刀削开嫩{0_adj}顶盖，先插吸管饮尽清冽椰水，再用勺刮食凝脂般的嫩肉。兑入冰镇{1_plur}，再滴入少许{2_adj}汁提味。</FlavorTextFR_EauDeCoco.description>
+
+  <!-- EN: buko shake -->
+  <FlavorTextFR_BukoShake.label>菲式嫩椰奶昔</FlavorTextFR_BukoShake.label>
+  <!-- EN: the tender flesh of a young {0_adj}, the kind that is scraped out with a spoon, blended with its own water, iced {1_coll} and {2_coll}. In the Philippines it is sold at the roadside in the shell itself. -->
+  <FlavorTextFR_BukoShake.description>将需要用勺刮取的嫩{0_adj}果肉连同原汁、冰镇{1_coll}与{2_coll}一同搅打成昔。在菲律宾，路边摊贩常直接将其盛在原壳中售卖。</FlavorTextFR_BukoShake.description>
+
+  <!-- EN: coconut and pineapple cooler -->
+  <FlavorTextFR_CocoAnanas.label>椰香凤梨冰饮</FlavorTextFR_CocoAnanas.label>
+  <!-- EN: the water and the flesh of a {0_adj} blended with well-ripened {2_coll} and let down with {1_plur}, over a great deal of crushed ice. No cream goes into it: the fruit supplies the richness. -->
+  <FlavorTextFR_CocoAnanas.description>将{0_adj}水与果肉同熟透的{2_coll}一起搅打，兑入{1_plur}，浇在满满的碎冰之上。无需添加分毫奶油：鲜果本身便足以带来丰腴口感。</FlavorTextFR_CocoAnanas.description>
+
+  <!-- EN: coconut rum punch -->
+  <FlavorTextFR_PunchCocoRhum.label>椰香朗姆潘趣酒</FlavorTextFR_PunchCocoRhum.label>
+  <!-- EN: the water of a {0_adj} poured over {1_coll} and a {2_adj} syrup, served in the shell with a straw. It goes down too easily, which is the whole problem. -->
+  <FlavorTextFR_PunchCocoRhum.description>将清甜的{0_adj}水注在{1_coll}与{2_adj}糖浆之上，连着原壳插上吸管奉客。入口未免太过顺滑，而最大的麻烦也正在于此。</FlavorTextFR_PunchCocoRhum.description>
+
+</LanguageData>

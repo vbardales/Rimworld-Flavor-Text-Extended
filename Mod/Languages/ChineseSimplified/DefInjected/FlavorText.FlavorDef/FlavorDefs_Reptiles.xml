@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: creole turtle soup -->
+  <FlavorTextFR_TurtleSoupCreole.label>克里奥尔甲鱼汤</FlavorTextFR_TurtleSoupCreole.label>
+  <!-- EN: {0_coll} stewed in a brown roux with the Creole trinity, chopped hard-boiled eggs and a splash of sherry poured into the plate as it is served. The bottle stays on the table. -->
+  <FlavorTextFR_TurtleSoupCreole.description>将{0_coll}置于棕色油面酱中，与克里奥尔三味蔬菜一同慢炖，佐以切碎的全熟水煮蛋，上桌时往盘中淋入少许雪莉酒。酒瓶则留在餐桌上随时添用。</FlavorTextFR_TurtleSoupCreole.description>
+
+  <!-- EN: turtle gumbo -->
+  <FlavorTextFR_TurtleGumbo.label>秋葵浓汤炖龟肉</FlavorTextFR_TurtleGumbo.label>
+  <!-- EN: a roux pushed to chocolate brown, {1_coll} to bind it, smoked {2_coll} and {0_coll}, which needs two hours more than all the rest. -->
+  <FlavorTextFR_TurtleGumbo.description>将油面酱炒至巧克力般的深褐色，加入{1_coll}收稠，再放入烟熏{2_coll}与{0_coll}——后者比其余食材都得多炖上整整两个小时。</FlavorTextFR_TurtleGumbo.description>
+
+  <!-- EN: Chinese braised turtle -->
+  <FlavorTextFR_TortueBraisee.label>黄焖甲鱼</FlavorTextFR_TortueBraisee.label>
+  <!-- EN: a soft-shelled turtle braised in rice wine with black {1_coll}, ginger and goji berries. The cartilage around the rim is the part sought after, gelatinous and melting. -->
+  <FlavorTextFR_TortueBraisee.description>将整只甲鱼用米酒与黑{1_coll}、生姜及枸杞一同红烧慢焖。甲壳边缘的裙边是最受追捧的部位，胶质丰腴、入口即化。</FlavorTextFR_TortueBraisee.description>
+
+  <!-- EN: turtle congee -->
+  <FlavorTextFR_TurtleCongee.label>甲鱼粥</FlavorTextFR_TurtleCongee.label>
+  <!-- EN: {1_coll} burst over a low flame for hours until it turns to cream, {0_coll} pulled into threads through it and a great deal of {2_adj} in shreds. A convalescent's dish in southern China. -->
+  <FlavorTextFR_TurtleCongee.description>将{1_coll}以文火慢熬数小时直至米粒开花、化作浓稠米糜，混入拆成细丝的{0_coll}，再撒上大把{2_adj}丝。这是中国南方滋补养病的佳肴。</FlavorTextFR_TurtleCongee.description>
+
+  <!-- EN: caldo de iguana -->
+  <FlavorTextFR_CaldoDeIguana.label>墨西哥鬣蜥清汤</FlavorTextFR_CaldoDeIguana.label>
+  <!-- EN: {0_coll} boiled with {1_coll}, {2_coll} on the cob and epazote. A broth of Oaxaca and Michoacán, reputed to set anyone back on their feet. -->
+  <FlavorTextFR_CaldoDeIguana.description>将{0_coll}与{1_coll}、带棒{2_coll}以及土荆芥一同熬煮。这碗源自瓦哈卡与米却肯的浓汤，据传能让任何虚弱之人重振精神。</FlavorTextFR_CaldoDeIguana.description>
+
+  <!-- EN: iguana en mole -->
+  <FlavorTextFR_IguanaEnMole.label>莫莱酱炖鬣蜥</FlavorTextFR_IguanaEnMole.label>
+  <!-- EN: {0_coll} drowned in a black-brown sauce of toasted {2_coll} and {1_adj}, stewed until the flesh comes away from the small bones. -->
+  <FlavorTextFR_IguanaEnMole.description>将{0_coll}浸入由烘香的{2_coll}与{1_adj}熬成的黑褐色莫莱浓酱中，慢火细炖至肉质酥烂、与细骨自然脱离。</FlavorTextFR_IguanaEnMole.description>
+
+  <!-- EN: tacos de iguana -->
+  <FlavorTextFR_TacosDeIguana.label>鬣蜥肉塔可</FlavorTextFR_TacosDeIguana.label>
+  <!-- EN: {0_coll} pulled apart after a long braise, served in {1_adj} tortillas with raw {2_coll} and coriander. The taste is of chicken and of fish at once. -->
+  <FlavorTextFR_TacosDeIguana.description>将长时间慢炖的{0_coll}手撕成丝，裹入{1_adj}薄饼中，佐以生{2_coll}碎与香菜。尝起来兼具鸡肉的醇厚与鱼肉的鲜嫩。</FlavorTextFR_TacosDeIguana.description>
+
+  <!-- EN: iguana en coco -->
+  <FlavorTextFR_IguanaEnCoco.label>椰奶炖鬣蜥</FlavorTextFR_IguanaEnCoco.label>
+  <!-- EN: {0_coll} stewed in a {1_adj} milk lifted with {2_plur} and ginger. The Caribbean version, from the coasts of Honduras down to Colombia. -->
+  <FlavorTextFR_IguanaEnCoco.description>将{0_coll}浸入以{2_plur}和生姜提味的{1_adj}浆中慢炖。这是从洪都拉斯海岸一路延伸至哥伦比亚的加勒比风味做法。</FlavorTextFR_IguanaEnCoco.description>
+
+  <!-- EN: alligator sauce piquante -->
+  <FlavorTextFR_AlligatorSaucePiquante.label>卡真香辣汁炖鳄鱼</FlavorTextFR_AlligatorSaucePiquante.label>
+  <!-- EN: {0_coll} from the tail in dice, stewed in a roux and {1_coll} with cayenne pepper. The Cajun alligator dish, the one served at the parish fairs. -->
+  <FlavorTextFR_AlligatorSaucePiquante.description>取鳄鱼尾部的{0_coll}切丁，在油面酱与{1_coll}、卡宴辣椒熬成的辣汁中慢炖。这是最地道的卡真鳄鱼料理，也是教区集市上的招牌菜。</FlavorTextFR_AlligatorSaucePiquante.description>
+
+  <!-- EN: alligator gumbo -->
+  <FlavorTextFR_AlligatorGumbo.label>秋葵浓汤炖鳄鱼</FlavorTextFR_AlligatorGumbo.label>
+  <!-- EN: {0_coll} and smoked andouille in a dark roux bound with {1_plur}, served over rice. The tail gives a white, firm flesh, the legs a browner and stronger meat. -->
+  <FlavorTextFR_AlligatorGumbo.description>将{0_coll}与烟熏安杜伊香肠放入深色油面酱中，以{1_plur}增稠，浇在米饭上食用。尾肉洁白紧实，腿肉则色泽较深、风味更浓。</FlavorTextFR_AlligatorGumbo.description>
+
+  <!-- EN: alligator jambalaya -->
+  <FlavorTextFR_AlligatorJambalaya.label>什锦鳄鱼抓饭</FlavorTextFR_AlligatorJambalaya.label>
+  <!-- EN: {1_coll} cooked in the {0_adj} pan juices with {2_coll}, celery and onion. Nothing is stirred once the rice goes in: the crust at the bottom is part of the dish. -->
+  <FlavorTextFR_AlligatorJambalaya.description>用煎过{0_adj}的原锅肉汁加入{2_coll}、芹菜与洋葱焖熟{1_coll}。米下锅后绝不翻动，锅底结出的那层焦香锅巴正是整道菜的精髓。</FlavorTextFR_AlligatorJambalaya.description>
+
+  <!-- EN: cajun alligator bites -->
+  <FlavorTextFR_BeignetsAlligator.label>卡真酥炸鳄鱼球</FlavorTextFR_BeignetsAlligator.label>
+  <!-- EN: dice of {0_adj} marinated in buttermilk, rolled in a {2_adj} flour with paprika and cayenne, and fried on the spot. Eaten on a toothpick, with a rémoulade. -->
+  <FlavorTextFR_BeignetsAlligator.description>将{0_adj}丁浸入酪乳腌制，裹上调入红椒粉、卡宴辣椒与{2_adj}的面粉现炸出锅。用牙签挑着，蘸法式蛋黄酱趁热吃。</FlavorTextFR_BeignetsAlligator.description>
+
+  <!-- EN: alligator boudin -->
+  <FlavorTextFR_AlligatorBoudin.label>路易斯安那鳄鱼米肠</FlavorTextFR_AlligatorBoudin.label>
+  <!-- EN: {0_coll} minced and mixed with cooked {1_plur} and {2_plur}, cased and then reheated in steam. You squeeze the casing to push the filling out and throw the skin away. -->
+  <FlavorTextFR_AlligatorBoudin.description>将{0_coll}剁碎，与煮熟的{1_plur}和{2_plur}拌匀后灌入肠衣，再隔水蒸热。吃的时候捏住肠衣把内馅挤进嘴里，外皮则弃之不食。</FlavorTextFR_AlligatorBoudin.description>
+
+  <!-- EN: alligator étouffée -->
+  <FlavorTextFR_AlligatorEtouffee.label>法式盖焖鳄鱼肉</FlavorTextFR_AlligatorEtouffee.label>
+  <!-- EN: {0_coll} smothered under a lid in a blond {1_adj} roux with {2_plur} melted down, never allowed to boil. Paler than the sauce piquante, and milder. -->
+  <FlavorTextFR_AlligatorEtouffee.description>用浅金色的{1_adj}面酱将{2_plur}熬化，放入{0_coll}加盖微火慢焖，全程不令其沸腾。成菜色泽比香辣浓汁更浅，滋味也更为温润。</FlavorTextFR_AlligatorEtouffee.description>
+
+  <!-- EN: frogs' legs with parsley -->
+  <FlavorTextFR_CuissesGrenouillePersillees.label>蒜香欧芹煎田鸡腿</FlavorTextFR_CuissesGrenouillePersillees.label>
+  <!-- EN: {0_coll} floured and fried in foaming {2_plur}, thrown off the heat into a {1_adj} persillade. Eaten with the fingers, and the bone is sucked. -->
+  <FlavorTextFR_CuissesGrenouillePersillees.description>将{0_coll}拍粉，放入起泡的{2_plur}中煎至金黄，离火后拌入{1_adj}与欧芹碎。这道菜须直接上手抓食，连骨头也要吮吸干净。</FlavorTextFR_CuissesGrenouillePersillees.description>
+
+  <!-- EN: frogs' legs in cream -->
+  <FlavorTextFR_CuissesGrenouilleCreme.label>白汁奶油烩田鸡腿</FlavorTextFR_CuissesGrenouilleCreme.label>
+  <!-- EN: {0_coll} poached in white {2_plur}, the cooking liquid reduced and mounted with {1_plur} and tarragon. The Dombes version, served in a small dish. -->
+  <FlavorTextFR_CuissesGrenouilleCreme.description>将{0_coll}用白{2_plur}微火浸熟，原汤收浓后拌入{1_plur}与龙蒿增香。这是法国东布地区的传统做法，盛在小碟中奉客。</FlavorTextFR_CuissesGrenouilleCreme.description>
+
+  <!-- EN: gan guo tian ji -->
+  <FlavorTextFR_GanGuoTianJi.label>干锅田鸡</FlavorTextFR_GanGuoTianJi.label>
+  <!-- EN: {0_coll} fried dry in a scorching wok with a mass of whole {1_adj}, {2_coll} and celery, served in its metal dish set over a burner that goes on cooking it. -->
+  <FlavorTextFR_GanGuoTianJi.description>将{0_coll}放入滚烫的铁锅中干煸，下大把整根{1_adj}、{2_coll}与芹菜猛火快炒，连锅端上小火炉边炖边吃。</FlavorTextFR_GanGuoTianJi.description>
+
+  <!-- EN: frog in Sichuan pepper -->
+  <FlavorTextFR_GrenouilleSichuan.label>麻辣水煮美蛙</FlavorTextFR_GrenouilleSichuan.label>
+  <!-- EN: {0_coll} poached in a red oil loaded with dried {1_adj} and Sichuan {2_adj}, which numbs the mouth before the chilli burns it. -->
+  <FlavorTextFR_GrenouilleSichuan.description>将{0_coll}浸入铺满干{1_adj}与四川花椒等{2_adj}的滚烫红油中浸熟，花椒的酥麻赶在辣椒的灼热之前率先占领口腔。</FlavorTextFR_GrenouilleSichuan.description>
+
+  <!-- EN: frog congee -->
+  <FlavorTextFR_CongeeGrenouille.label>水律田鸡粥</FlavorTextFR_CongeeGrenouille.label>
+  <!-- EN: {1_coll} cooked until it falls apart, {0_coll} added in the last minutes so as to stay firm, with {2_coll} and spring onion. Eaten at first light, in southern China. -->
+  <FlavorTextFR_CongeeGrenouille.description>将{1_coll}熬至米花尽散，在出锅前几分钟才下入{0_coll}以保持肉质爽滑弹牙，再佐以{2_coll}丝与葱花。这是中国南方破晓时分的早茶美味。</FlavorTextFR_CongeeGrenouille.description>
+
+  <!-- EN: monitor lizard in coconut milk -->
+  <FlavorTextFR_VaranAuCoco.label>椰浆慢炖巨蜥</FlavorTextFR_VaranAuCoco.label>
+  <!-- EN: {0_coll} jointed and stewed a long while in a spiced {1_adj} milk — its flesh is firm and lean, and gives way only over a low flame. -->
+  <FlavorTextFR_VaranAuCoco.description>将{0_coll}顺着关节斩块，浸入加了香料的{1_adj}浆中长时间慢炖——它的肉质紧实少脂，唯有文火久煨方能使其酥软。</FlavorTextFR_VaranAuCoco.description>
+
+  <!-- EN: spiced grilled monitor -->
+  <FlavorTextFR_VaranGrille.label>香辣炭烤巨蜥</FlavorTextFR_VaranGrille.label>
+  <!-- EN: {0_coll} rubbed with pounded {1_plur} and brushed with {2_plur}, grilled over embers. Bush meat, closer to chicken than to fish whatever it may look like. -->
+  <FlavorTextFR_VaranGrille.description>在{0_coll}表面抹上捣碎的{1_plur}、刷一层{2_plur}，架在余烬上慢烤。这种丛林野味无论外表如何，尝起来都更接近鸡肉而非鱼肉。</FlavorTextFR_VaranGrille.description>
+
+  <!-- EN: Cantonese snake soup -->
+  <FlavorTextFR_SoupeDeSerpent.label>太史五蛇羹</FlavorTextFR_SoupeDeSerpent.label>
+  <!-- EN: {0_coll} shredded into very fine threads, stewed with black {1_coll}, {2_coll} and citrus peel, bound with starch. A winter dish, reputed to warm the blood. -->
+  <FlavorTextFR_SoupeDeSerpent.description>将{0_coll}拆成极细的肉丝，与黑{1_coll}丝、{2_coll}丝及陈皮同烩，最后勾薄芡收浓。这是一道冬令进补名菜，素有行气活血、驱寒暖身之誉。</FlavorTextFR_SoupeDeSerpent.description>
+
+  <!-- EN: rattlesnake chilli -->
+  <FlavorTextFR_RattlesnakeChili.label>西南辣豆炖响尾蛇</FlavorTextFR_RattlesnakeChili.label>
+  <!-- EN: {0_coll} boned with patience — the skeleton is nothing but ribs — and stewed with {1_plur} and dried {2_plur}. A dish of the American Southwest, half cookery and half bravado. -->
+  <FlavorTextFR_RattlesnakeChili.description>耐心地剔下{0_coll}——它的骨架几乎全是细密肋骨——再与{1_plur}和干{2_plur}一同慢炖。这道美国西南部的旷野菜肴，一半是厨艺，一半是逞勇。</FlavorTextFR_RattlesnakeChili.description>
+
+  <!-- EN: fried snake -->
+  <FlavorTextFR_SerpentFrit.label>椒盐酥炸蛇段</FlavorTextFR_SerpentFrit.label>
+  <!-- EN: lengths of {0_adj} rolled in a seasoned flour and fried in {2_plur} until golden. You eat around the ribs, as you would a corn cob. -->
+  <FlavorTextFR_SerpentFrit.description>将斩段的{0_adj}裹上调味面粉，放入滚烫的{2_plur}中炸至金黄酥脆。吃的时候像啃玉米棒一样绕着肋骨啃食。</FlavorTextFR_SerpentFrit.description>
+
+</LanguageData>

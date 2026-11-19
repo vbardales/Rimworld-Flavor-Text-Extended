@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Flavor Text leek -->
+  <FT_Leek.label>韭葱风味文本</FT_Leek.label>
+  <!-- EN: poireau -->
+  <FT_Leek.keywords.2>韭葱</FT_Leek.keywords.2>
+  <!-- EN: poireaux -->
+  <FT_Leek.keywords.3>大葱</FT_Leek.keywords.3>
+
+  <!-- EN: Flavor Text shallot -->
+  <FT_Shallot.label>红葱风味文本</FT_Shallot.label>
+  <!-- EN: échalote -->
+  <FT_Shallot.keywords.2>红葱</FT_Shallot.keywords.2>
+  <!-- EN: echalote -->
+  <FT_Shallot.keywords.3>青葱</FT_Shallot.keywords.3>
+
+</LanguageData>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: aamras -->
+  <FlavorTextFR_Aamras.label>印度香甜芒果泥</FlavorTextFR_Aamras.label>
+  <!-- EN: the pulp of {0_adj} pressed out by hand rather than blended — the whisk oxidises it and dulls the colour — with barely any {1_plur}, scented with cardamom and saffron. -->
+  <FlavorTextFR_Aamras.description>{0_adj}果肉纯凭手工揉压出浆而不借搅拌机——刀片高速搅打会令果肉氧化黯淡——仅加微末{1_plur}，再以小豆蔻与藏红花提香。</FlavorTextFR_Aamras.description>
+
+  <!-- EN: aamras puri -->
+  <FlavorTextFR_AamrasPuri.label>印度芒果泥配炸面饼</FlavorTextFR_AamrasPuri.label>
+  <!-- EN: the purée of {0_adj} served with scalding puffed puri, torn open to dip with. Sweet and savoury in the same mouthful: a whole meal in Gujarat while the season lasts. -->
+  <FlavorTextFR_AamrasPuri.description>浓醇的{0_adj}果泥佐以滚烫鼓胀的油炸普里饼，撕开热饼蘸食果泥。一口之内甜咸交融，在古吉拉特邦的芒果季里便是一顿圆满的正餐。</FlavorTextFR_AamrasPuri.description>
+
+  <!-- EN: mango lassi -->
+  <FlavorTextFR_MangoLassi.label>芒果拉西酸奶昔</FlavorTextFR_MangoLassi.label>
+  <!-- EN: {0_coll} beaten with {1_plur} and {2_plur} until it foams, served iced. The sharpness of the yoghurt keeps the fruit from cloying. -->
+  <FlavorTextFR_MangoLassi.description>{0_coll}与{1_plur}、{2_plur}搅打至泛起绵密泡沫，冰镇饮用。酸奶的清爽酸度令浓甜的果香丝毫不显甜腻。</FlavorTextFR_MangoLassi.description>
+
+  <!-- EN: mango shrikhand -->
+  <FlavorTextFR_MangoShrikhand.label>印度芒果滤乳甜酪</FlavorTextFR_MangoShrikhand.label>
+  <!-- EN: {1_coll} hung overnight in muslin until it has given up all its whey, worked together with the pulp of {0_adj} and scattered with slivered {2_adj}. -->
+  <FlavorTextFR_MangoShrikhand.description>{1_coll}裹入细纱布悬挂整夜沥尽乳清，与{0_adj}果浆揉匀，表面撒满{2_adj}细丝。</FlavorTextFR_MangoShrikhand.description>
+
+  <!-- EN: mango kulfi -->
+  <FlavorTextFR_MangoKulfi.label>印度芒果库尔菲冰糕</FlavorTextFR_MangoKulfi.label>
+  <!-- EN: {1_coll} reduced by half then loaded with the pulp of {0_adj} and with {2_adj}, frozen in metal cones without being churned. It melts slowly, which leaves time to enjoy it. -->
+  <FlavorTextFR_MangoKulfi.description>{1_coll}慢熬浓缩过半，拌入满满的{0_adj}果浆与{2_adj}，注入金属锥模直接冻硬而不加搅打。冰糕融化极慢，让人得以从容品味。</FlavorTextFR_MangoKulfi.description>
+
+  <!-- EN: mango phirni -->
+  <FlavorTextFR_MangoPhirni.label>印度芒果碎米布丁</FlavorTextFR_MangoPhirni.label>
+  <!-- EN: {1_coll} coarsely broken before cooking — that is what parts phirni from kheer — cooked in {2_plur} until it thickens, then cooled in earthenware cups with the purée of {0_adj}. -->
+  <FlavorTextFR_MangoPhirni.description>{1_coll}下锅前先粗粗碾碎——这正是它与整米熬煮的米布丁的区别所在——在{2_plur}中慢煮至浓稠，拌入{0_adj}果泥后盛入陶碗放凉凝结。</FlavorTextFR_MangoPhirni.description>
+
+  <!-- EN: mango sticky rice -->
+  <FlavorTextFR_MangoStickyRice.label>芒果糯米饭</FlavorTextFR_MangoStickyRice.label>
+  <!-- EN: sticky {1_coll} soaked overnight, steamed and then drowned in {2_adj} milk both salted and sweetened, with {0_coll} sliced alongside. The salted cream poured over at the last moment is what the imitations forget. -->
+  <FlavorTextFR_MangoStickyRice.description>糯{1_coll}浸泡过夜后上笼蒸熟，饱吸咸甜交织的{2_adj}浆，旁侧码放切片的{0_coll}。临上桌前淋上的那勺咸椰浆，正是坊间仿品最常遗忘的灵魂所在。</FlavorTextFR_MangoStickyRice.description>
+
+  <!-- EN: chè xoài -->
+  <FlavorTextFR_CheXoai.label>越式芒果西米糖水</FlavorTextFR_CheXoai.label>
+  <!-- EN: dice of {0_adj} in a sweetened {1_adj} milk, with tapioca pearls and crushed ice. As much drunk through a wide straw as eaten with a spoon. -->
+  <FlavorTextFR_CheXoai.description>{0_adj}果丁浸在甜{1_adj}浆中，配以晶莹木薯珍珠与碎冰。既可用粗吸管豪饮，亦可用汤匙舀食。</FlavorTextFR_CheXoai.description>
+
+  <!-- EN: mango pomelo sago -->
+  <FlavorTextFR_MangoPomeloSago.label>杨枝甘露</FlavorTextFR_MangoPomeloSago.label>
+  <!-- EN: a purée of {0_adj} let down with {1_plur}, with sago pearls and the vesicles of {2_adj} teased apart one by one. The bitterness of the pomelo keeps the whole thing from turning to syrup. -->
+  <FlavorTextFR_MangoPomeloSago.description>{0_adj}果泥兑入{1_plur}调匀，拌入西米与逐粒剥散的{2_adj}果肉。柚子肉那一丝微苦的回甘，恰到好处地化解了甜腻。</FlavorTextFR_MangoPomeloSago.description>
+
+  <!-- EN: mango pudding -->
+  <FlavorTextFR_MangoPudding.label>港式芒果布甸</FlavorTextFR_MangoPudding.label>
+  <!-- EN: a custard set with {2_plur} and evaporated {1_plur}, turned out still trembling, with fresh dice of {0_adj} over the top. The dessert at the end of a Cantonese dim sum. -->
+  <FlavorTextFR_MangoPudding.description>以{2_plur}和淡{1_plur}凝成的布甸倒扣脱模，犹自颤巍巍地晃动，顶上撒满新鲜{0_adj}果丁。这是广式早茶收尾时的经典甜品。</FlavorTextFR_MangoPudding.description>
+
+  <!-- EN: mango float -->
+  <FlavorTextFR_MangoFloat.label>菲律宾芒果冰盒蛋糕</FlavorTextFR_MangoFloat.label>
+  <!-- EN: alternating layers of graham crackers, {1_adj} whipped with condensed milk and {0_adj} in slivers, left overnight in the cold to set. The biscuits soften and turn into cake. -->
+  <FlavorTextFR_MangoFloat.description>全麦饼干、炼乳打发的{1_adj}与薄片{0_adj}层层交替铺叠，冷藏过夜定型。饼干吸饱奶香后柔化，口感宛如蛋糕。</FlavorTextFR_MangoFloat.description>
+
+  <!-- EN: mango bingsu -->
+  <FlavorTextFR_MangoBingsu.label>韩式芒果牛奶雪花冰</FlavorTextFR_MangoBingsu.label>
+  <!-- EN: a mountain of frozen {1_coll} shaved into flakes — not crushed ice, frozen milk — covered with {0_plur} and a spoonful of sweetened {2_adj} paste. -->
+  <FlavorTextFR_MangoBingsu.description>冻硬的{1_coll}刨成如山堆积的雪花薄片——绝非普通碎冰，而是纯正冰砖牛乳——铺满{0_plur}，再添一勺甜{2_adj}沙。</FlavorTextFR_MangoBingsu.description>
+
+  <!-- EN: mango cheesecake -->
+  <FlavorTextFR_MangoCheesecake.label>芒果芝士蛋糕</FlavorTextFR_MangoCheesecake.label>
+  <!-- EN: a {1_adj} and {2_adj} filling under a mirror of {0_adj}. The fruit has to be very ripe: a firm mango gives up water and makes the mirror run. -->
+  <FlavorTextFR_MangoCheesecake.description>{1_adj}与{2_adj}交融的饼芯上覆一层光可鉴人的{0_adj}镜面果胶。所用鲜果必须熟透：生硬的芒果会析出水分，令镜面流淌溃散。</FlavorTextFR_MangoCheesecake.description>
+
+  <!-- EN: mango pavlova -->
+  <FlavorTextFR_MangoPavlova.label>芒果帕夫洛娃蛋白霜蛋糕</FlavorTextFR_MangoPavlova.label>
+  <!-- EN: a {1_adj} meringue dried for hours in a very low oven, crisp outside and marshmallow within, covered with whipped {2_plur} and {0_plur}. Built at the last minute. -->
+  <FlavorTextFR_MangoPavlova.description>{1_adj}蛋白霜在极低温烤箱中慢烘数小时，外层酥脆而内里软糯如棉花糖，表面覆满打发{2_plur}与{0_plur}。必须在上桌前最后一刻组装完毕。</FlavorTextFR_MangoPavlova.description>
+
+  <!-- EN: mousse de manga -->
+  <FlavorTextFR_MousseDeManga.label>葡式芒果慕斯</FlavorTextFR_MousseDeManga.label>
+  <!-- EN: the pulp of {0_adj} folded into whipped {1_plur}, with no gelatine — the fibre of the fruit is enough to hold it up if the mango is ripe enough. Served in a glass, very cold. -->
+  <FlavorTextFR_MousseDeManga.description>{0_adj}果浆轻轻翻拌入打发的{1_plur}中，不加半点吉利丁——只要芒果足够熟透，果肉纤维本身便足以撑起绵密质地。盛入玻璃杯中冰镇透心后享用。</FlavorTextFR_MousseDeManga.description>
+
+  <!-- EN: mangonada -->
+  <FlavorTextFR_Mangonada.label>墨西哥酸辣芒果冰沙</FlavorTextFR_Mangonada.label>
+  <!-- EN: iced {0_coll}, sour salted chamoy, green {2_coll} and a rain of {1_adj} powder, with a tamarind stick planted in it. Sweet, salt, sour and hot in a single mouthful. -->
+  <FlavorTextFR_Mangonada.description>冰镇{0_coll}冰沙配以咸酸查莫伊酱、青{2_coll}汁，撒上一层{1_adj}粉，再插一根罗望子糖棒。甜、咸、酸、辣四味在一口之中同时引爆。</FlavorTextFR_Mangonada.description>
+
+  <!-- EN: mango chutney -->
+  <FlavorTextFR_MangoChutney.label>芒果酸甜酱</FlavorTextFR_MangoChutney.label>
+  <!-- EN: green {0_coll} candied in vinegar with {1_plur} and {2_plur} until they turn translucent and amber. It keeps a year, and improves over the first months. -->
+  <FlavorTextFR_MangoChutney.description>青{0_coll}与{1_plur}、{2_plur}在醋中慢熬糖渍，直至化作晶莹透亮的琥珀色。可保存整年，且在头几个月里风味愈发醇厚。</FlavorTextFR_MangoChutney.description>
+
+  <!-- EN: aam ka achar -->
+  <FlavorTextFR_AamKaAchar.label>印度油渍辣味青芒</FlavorTextFR_AamKaAchar.label>
+  <!-- EN: pieces of green {0_adj} salted and dried in the sun, then drowned in a mustard oil loaded with {1_plur} and spices. Nothing is cooked: the sun and the salt do all of it, over a few weeks. -->
+  <FlavorTextFR_AamKaAchar.description>青{0_adj}切块抹盐暴晒脱水，再浸入满是{1_plur}与香料的芥子油中。全程不动烟火：仅凭烈日与食盐，在数周之内完成蜕变。</FlavorTextFR_AamKaAchar.description>
+
+  <!-- EN: mango chow -->
+  <FlavorTextFR_MangoChow.label>特立尼达酸辣拌青芒</FlavorTextFR_MangoChow.label>
+  <!-- EN: green {0_coll} in quarters, shaken up in salt, crushed {1_coll}, {2_coll} and chadon beni. Eaten out of the bag itself, in Trinidad, at the side of the road. -->
+  <FlavorTextFR_MangoChow.description>切成四瓣的青{0_coll}与盐、捣碎的{1_coll}、{2_coll}及刺芫荽一同摇晃拌匀。在特立尼达的路边，人们总是直接捧着袋子大快朵颐。</FlavorTextFR_MangoChow.description>
+
+  <!-- EN: sambal mangga -->
+  <FlavorTextFR_SambalMangga.label>印尼青芒叁巴辣酱</FlavorTextFR_SambalMangga.label>
+  <!-- EN: green {0_coll} grated and pounded in the mortar with {1_plur} and {2_plur}, with shrimp paste. The acidity of the fruit stands in for tamarind and makes the sambal sharper. -->
+  <FlavorTextFR_SambalMangga.description>擦丝的青{0_coll}与{1_plur}、{2_plur}及虾膏同入石臼捣融。青芒的果酸取代了罗望子，令叁巴酱的锋芒更为鲜明。</FlavorTextFR_SambalMangga.description>
+
+  <!-- EN: mango rougail -->
+  <FlavorTextFR_RougailMangue.label>留尼汪青芒辣味佐酱</FlavorTextFR_RougailMangue.label>
+  <!-- EN: green {0_coll} crushed with salt, {1_plur} and {2_plur}, served raw beside the cari. On Réunion no meal arrives without its rougail. -->
+  <FlavorTextFR_RougailMangue.description>青{0_coll}加盐、{1_plur}与{2_plur}生捣成酱，作为留尼汪炖菜的佐餐伴侣。在留尼汪岛上，无此辣酱不成席。</FlavorTextFR_RougailMangue.description>
+
+  <!-- EN: mango achard -->
+  <FlavorTextFR_AchardDeMangue.label>毛里求斯黄姜腌青芒丝</FlavorTextFR_AchardDeMangue.label>
+  <!-- EN: green {0_coll} and {1_coll} in fine julienne, blanched and then marinated in {2_plur} with turmeric and mustard. The Mauritian condiment: crisp, and bright yellow. -->
+  <FlavorTextFR_AchardDeMangue.description>青{0_coll}与{1_coll}切细丝焯水，再以加了姜黄与芥末的{2_plur}腌渍入味。这是毛里求斯的经典佐餐小菜，色泽明黄、口感爽脆。</FlavorTextFR_AchardDeMangue.description>
+
+  <!-- EN: gỏi xoài -->
+  <FlavorTextFR_GoiXoai.label>越式青芒鱼松沙拉</FlavorTextFR_GoiXoai.label>
+  <!-- EN: green {0_coll} in julienne, dried {2_coll} pulled into threads, crushed {1_coll} and a fish sauce with lime. The crunch comes from the mango, not from any salad leaf. -->
+  <FlavorTextFR_GoiXoai.description>青{0_coll}切细丝，配撕成细缕的{2_coll}干与碎{1_coll}，淋上青柠鱼露汁拌匀。整道菜的爽脆口感全凭青芒支撑，半片生菜叶也无需借力。</FlavorTextFR_GoiXoai.description>
+
+  <!-- EN: mango dal -->
+  <FlavorTextFR_MangoDal.label>印度青芒扁豆浓汤</FlavorTextFR_MangoDal.label>
+  <!-- EN: {1_coll} cooked until they fall apart with pieces of green {0_coll}, which stands in for tamarind as the acid. A tempering of toasted {2_adj} poured over scalding at the end. -->
+  <FlavorTextFR_MangoDal.description>{1_coll}与切块的青{0_coll}同煮至酥烂，以青芒代替罗望子提酸。出锅前淋上一勺滚油爆香的{2_adj}激发浓香。</FlavorTextFR_MangoDal.description>
+
+  <!-- EN: green mango curry -->
+  <FlavorTextFR_RawMangoCurry.label>青芒椰浆咖哩</FlavorTextFR_RawMangoCurry.label>
+  <!-- EN: green {0_coll} stewed in a {1_adj} milk raised with turmeric and mustard seed. The fruit keeps its shape and its acidity: this is not a dessert, whatever sugar it holds. -->
+  <FlavorTextFR_RawMangoCurry.description>青{0_coll}在添了姜黄与芥菜籽的{1_adj}浆中慢炖。果块依旧保持着棱角与明亮酸度——无论里头含多少糖分，这都绝非甜点。</FlavorTextFR_RawMangoCurry.description>
+
+  <!-- EN: chicken and mango curry -->
+  <FlavorTextFR_MangoChickenCurry.label>芒果炖鸡咖哩</FlavorTextFR_MangoChickenCurry.label>
+  <!-- EN: {1_coll} stewed in a sauce where ripe {0_coll} melts away and sweetens the curry, while a few green pieces kept whole supply the acid. -->
+  <FlavorTextFR_MangoChickenCurry.description>{1_coll}在浓稠酱汁中慢炖，熟透的{0_coll}融化其中为咖哩染上甘甜，而几块完好保留的青芒则负责提供清爽酸味。</FlavorTextFR_MangoChickenCurry.description>
+
+  <!-- EN: mango ceviche -->
+  <FlavorTextFR_CevicheMangue.label>芒果酸橘汁腌海鲜</FlavorTextFR_CevicheMangue.label>
+  <!-- EN: {1_coll} raw and stiffened by the acid of {2_adj}, with {0_coll} in dice and coriander. The sugar of the fruit rounds off the citrus without cancelling it. -->
+  <FlavorTextFR_CevicheMangue.description>生{1_coll}在{2_adj}的果酸浸润下变得紧实弹牙，拌入{0_coll}丁与香菜。芒果的甜润柔化了柑橘的尖锐酸度，却又不掩其清爽锋芒。</FlavorTextFR_CevicheMangue.description>
+
+  <!-- EN: tuna and mango tartare -->
+  <FlavorTextFR_TartareThonMangue.label>金枪鱼芒果鞑靼</FlavorTextFR_TartareThonMangue.label>
+  <!-- EN: {1_coll} cut with a knife into even dice, mixed with {0_plur} of the same size, {2_adj} oil and soy. Cut in a machine, the fish turns to paste: that is the one thing to avoid. -->
+  <FlavorTextFR_TartareThonMangue.description>{1_coll}纯用刀工切成匀称小丁，与同样大小的{0_plur}丁、{2_adj}油及酱油拌匀。鱼肉一旦进机器绞碎便会化作烂泥，这正是料理时最忌讳的大忌。</FlavorTextFR_TartareThonMangue.description>
+
+  <!-- EN: salmon and mango poke -->
+  <FlavorTextFR_PokeSaumonMangue.label>三文鱼芒果波奇饭</FlavorTextFR_PokeSaumonMangue.label>
+  <!-- EN: warm vinegared {2_coll} in the bottom of the bowl, raw {1_coll} marinated in soy, {0_coll} in cubes and spring onion. The rice has to be warm and the fish cold. -->
+  <FlavorTextFR_PokeSaumonMangue.description>碗底铺温热的醋拌{2_coll}，顶上码放酱油腌渍的生{1_coll}、{0_coll}方块与翠绿葱花。米饭必须温热，而鱼生必须冰凉。</FlavorTextFR_PokeSaumonMangue.description>
+
+</LanguageData>

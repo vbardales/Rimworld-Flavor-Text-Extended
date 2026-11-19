@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: pulut durian -->
+  <FlavorTextFR_PulutDurian.label>榴莲糯米饭</FlavorTextFR_PulutDurian.label>
+  <!-- EN: sticky {1_coll} steamed and salted with {2_adj} milk, with the flesh of {0_adj} set on top and not stirred in. The fat of the coconut and the salt temper the fruit, which otherwise crushes everything. -->
+  <FlavorTextFR_PulutDurian.description>糯{1_coll}蒸熟后拌入微咸的{2_adj}浆，顶上覆以{0_adj}果肉而不加搅动。椰脂的醇厚与盐味恰好驯服了这种原本会盖过一切的霸道水果。</FlavorTextFR_PulutDurian.description>
+
+  <!-- EN: pengat durian -->
+  <FlavorTextFR_PengatDurian.label>椰浆棕榈糖炖榴莲</FlavorTextFR_PengatDurian.label>
+  <!-- EN: the flesh of {0_adj} broken down in a hot {1_adj} milk sweetened with palm {2_plur}, scented with pandan. Eaten warm with a spoon, somewhere between a cream and a soup. -->
+  <FlavorTextFR_PengatDurian.description>{0_adj}果肉在加了棕榈{2_plur}与斑兰叶的滚热{1_adj}浆中炖至半化。趁温热用勺舀食，质地介于浓汤与奶羹之间。</FlavorTextFR_PengatDurian.description>
+
+  <!-- EN: cendol durian -->
+  <FlavorTextFR_CendolDurian.label>榴莲珍多冰</FlavorTextFR_CendolDurian.label>
+  <!-- EN: green vermicelli of rice flour and pandan, crushed ice, {1_adj} milk and a spoonful of the flesh of {0_adj} over the top. Everything is mixed together before eating. -->
+  <FlavorTextFR_CendolDurian.description>米粉与斑兰汁制成的翠绿粉条配以碎冰与{1_adj}浆，顶上盛一勺{0_adj}果肉。吃前需将所有食材彻底拌匀。</FlavorTextFR_CendolDurian.description>
+
+  <!-- EN: es durian -->
+  <FlavorTextFR_EsDurian.label>印尼榴莲刨冰</FlavorTextFR_EsDurian.label>
+  <!-- EN: crushed ice drowned in {2_adj} condensed milk, with {0_coll} in pieces and sometimes grated cheese — the Indonesian pairing that baffles everyone and that nobody there questions. -->
+  <FlavorTextFR_EsDurian.description>碎冰淋满{2_adj}炼乳，铺上大块{0_coll}，有时还会擦上奶酪丝——这种令外人百思不得其解的印尼搭配，在当地却深入人心、无人置疑。</FlavorTextFR_EsDurian.description>
+
+  <!-- EN: dodol durian -->
+  <FlavorTextFR_DodolDurian.label>榴莲朵朵糕</FlavorTextFR_DodolDurian.label>
+  <!-- EN: a paste of sticky {1_adj} flour, palm {2_adj} and the flesh of {0_adj}, stirred without stopping for six hours in a cauldron until it turns almost black and pulls away from the sides. -->
+  <FlavorTextFR_DodolDurian.description>糯{1_adj}粉、棕榈{2_adj}与{0_adj}果肉在大锅中连续搅熬六个钟头，直至色泽近乎乌黑、凝成不粘锅壁的柔韧软糕。</FlavorTextFR_DodolDurian.description>
+
+  <!-- EN: durian mochi -->
+  <FlavorTextFR_DurianMochi.label>榴莲大福</FlavorTextFR_DurianMochi.label>
+  <!-- EN: a skin of sticky {1_adj} dough filled with cold {0_adj} flesh. The dough holds the smell in until the first bite, which makes it a formidable practical joke. -->
+  <FlavorTextFR_DurianMochi.description>柔糯的{1_adj}外皮包裹着冰凉的{0_adj}果肉。糯米皮将气味严密锁住，直到咬下第一口才瞬间迸发，堪称捉弄人的绝佳利器。</FlavorTextFR_DurianMochi.description>
+
+  <!-- EN: bánh pía sầu riêng -->
+  <FlavorTextFR_BanhPiaSauRieng.label>越南榴莲朥饼</FlavorTextFR_BanhPiaSauRieng.label>
+  <!-- EN: a Vietnamese cake of spiralled puff pastry, filled with a paste of {0_adj} and a salted {2_adj} yolk at the centre. The layers peel apart one by one at the cut. -->
+  <FlavorTextFR_BanhPiaSauRieng.description>螺旋千层酥皮的越南传统月饼，内包{0_adj}软馅，正中嵌一枚咸{2_adj}黄。切开时层层酥皮如花瓣般片片剥落。</FlavorTextFR_BanhPiaSauRieng.description>
+
+  <!-- EN: durian mooncake -->
+  <FlavorTextFR_DurianMooncake.label>榴莲冰皮月饼</FlavorTextFR_DurianMooncake.label>
+  <!-- EN: an uncooked snow-skin dough pressed in a seal, filled with the flesh of {0_adj} and a sweetened {2_adj} paste. Served iced, unlike the classic mooncake. -->
+  <FlavorTextFR_DurianMooncake.description>免烤冰皮压模成型，内填{0_adj}果肉与甜{2_adj}沙。有别于传统月饼，需冰镇后享用。</FlavorTextFR_DurianMooncake.description>
+
+  <!-- EN: durian mille crêpes -->
+  <FlavorTextFR_DurianMilleCrepes.label>榴莲千层蛋糕</FlavorTextFR_DurianMilleCrepes.label>
+  <!-- EN: twenty very fine pancakes stacked up, each parted from the next by a layer of {0_adj} flesh folded into whipped {2_plur}. Cut clean, and eaten iced. -->
+  <FlavorTextFR_DurianMilleCrepes.description>二十张薄如蝉翼的可丽饼层层叠起，每层之间皆抹满拌入打发{2_plur}的{0_adj}果肉。冰镇后利落切块享用。</FlavorTextFR_DurianMilleCrepes.description>
+
+  <!-- EN: durian puff -->
+  <FlavorTextFR_DurianPuff.label>榴莲泡芙</FlavorTextFR_DurianPuff.label>
+  <!-- EN: small choux buns filled with a pure {0_adj} cream, served cold. Sold in refrigerated boxes in Singapore, and banned on the underground like everything else containing that fruit. -->
+  <FlavorTextFR_DurianPuff.description>小巧的泡芙壳内注满纯正的冰凉{0_adj}奶馅。在新加坡常以冷藏盒装售卖，也同其他一切含有这门水果的食物一样禁止带上地铁。</FlavorTextFR_DurianPuff.description>
+
+  <!-- EN: durian cheesecake -->
+  <FlavorTextFR_DurianCheesecake.label>榴莲芝士蛋糕</FlavorTextFR_DurianCheesecake.label>
+  <!-- EN: an uncooked {1_adj} filling loaded with the flesh of {0_adj}, set in the cold a whole night. The cheese rounds off the fruit and makes it approachable to the uninitiated. -->
+  <FlavorTextFR_DurianCheesecake.description>免烤{1_adj}糊中豪气地拌入大量{0_adj}果肉，冷藏整夜凝结成型。奶酪柔化了榴莲的凌厉，令初尝者也能欣然接受。</FlavorTextFR_DurianCheesecake.description>
+
+  <!-- EN: durian cake -->
+  <FlavorTextFR_GateauAuDurian.label>榴莲海绵蛋糕</FlavorTextFR_GateauAuDurian.label>
+  <!-- EN: a very airy sponge into whose raw batter the flesh of {0_adj} is folded. The smell fills the kitchen while it bakes and settles there for the day. -->
+  <FlavorTextFR_GateauAuDurian.description>极为蓬松的海绵蛋糕，生面糊中拌入了{0_adj}果肉。烘烤时浓香盈满厨房，一整天都久久不散。</FlavorTextFR_GateauAuDurian.description>
+
+  <!-- EN: durian ice cream -->
+  <FlavorTextFR_GlaceAuDurian.label>榴莲冰淇淋</FlavorTextFR_GlaceAuDurian.label>
+  <!-- EN: a {1_adj} and {2_adj} base in which the fruit goes in raw, with no cooking to soften its scent. The cold tames it a little; a little only. -->
+  <FlavorTextFR_GlaceAuDurian.description>以{1_adj}与{2_adj}为基底，生果肉直接搅入其中，未经半点加热来收敛气味。低温稍微驯服了它的锋芒——但也仅仅是一点而已。</FlavorTextFR_GlaceAuDurian.description>
+
+  <!-- EN: tempoyak -->
+  <FlavorTextFR_Tempoyak.label>发酵榴莲酱</FlavorTextFR_Tempoyak.label>
+  <!-- EN: the flesh of {0_adj} salted and left to ferment a week in a closed jar, until it turns sour and creamy. It is no longer a fruit at that stage: it is a condiment, and it keeps for months. -->
+  <FlavorTextFR_Tempoyak.description>{0_adj}果肉加盐封入罐中发酵一周，直至化作酸香绵密的膏状。此时的它已不再是水果，而是一味能保存数月的浓郁酱料。</FlavorTextFR_Tempoyak.description>
+
+  <!-- EN: sambal tempoyak -->
+  <FlavorTextFR_SambalTempoyak.label>叁巴发酵榴莲酱</FlavorTextFR_SambalTempoyak.label>
+  <!-- EN: fermented {0_coll} pounded in the mortar with {1_plur} and {2_plur}, then briefly fried. The acidity of the fermentation stands in for the tamarind one would use elsewhere. -->
+  <FlavorTextFR_SambalTempoyak.description>发酵{0_coll}与{1_plur}、{2_plur}在臼中捣烂，再下锅略加煸炒。发酵产生的酸味取代了别处常用的罗望子。</FlavorTextFR_SambalTempoyak.description>
+
+  <!-- EN: gulai tempoyak -->
+  <FlavorTextFR_GulaiTempoyak.label>发酵榴莲黄咖哩</FlavorTextFR_GulaiTempoyak.label>
+  <!-- EN: a yellow curry built on {1_adj} milk and turmeric, soured with fermented {0_plur} rather than with tamarind. The sauce takes on a thickness no other acid will give it. -->
+  <FlavorTextFR_GulaiTempoyak.description>以{1_adj}浆与姜黄熬成的黄咖哩，不用罗望子，而是以发酵{0_plur}提酸。酱汁由此获得的醇厚质感，是任何其他酸味食材都无法赋予的。</FlavorTextFR_GulaiTempoyak.description>
+
+  <!-- EN: ikan patin tempoyak -->
+  <FlavorTextFR_IkanPatinTempoyak.label>发酵榴莲炖河鱼</FlavorTextFR_IkanPatinTempoyak.label>
+  <!-- EN: river {1_coll} stewed in fermented {0_coll} and {2_coll}, with no coconut milk at all. The emblematic dish of Pahang and Jambi, and the best demonstration that this fruit is not only a dessert. -->
+  <FlavorTextFR_IkanPatinTempoyak.description>淡水{1_coll}在发酵{0_coll}与{2_coll}中慢炖，滴椰浆不加。这是彭亨与占碑的标志性名菜，也是证明这门水果绝非仅限于甜点的最佳例证。</FlavorTextFR_IkanPatinTempoyak.description>
+
+</LanguageData>

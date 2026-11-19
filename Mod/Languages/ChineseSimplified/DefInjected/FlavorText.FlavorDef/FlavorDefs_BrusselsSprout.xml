@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: brussels sprouts with bacon -->
+  <FlavorTextFR_ChouxBruxellesLardons.label>培根煎抱子甘蓝</FlavorTextFR_ChouxBruxellesLardons.label>
+  <!-- EN: {0_coll} halved and seared cut side down in the fat rendered from {1_adj}, without being stirred, until the cut face blackens. It is that caramelising that takes out the bitterness, not boiling. -->
+  <FlavorTextFR_ChouxBruxellesLardons.description>{0_coll}对半切开，切面朝下浸在{1_adj}煸出的油脂中静煎，切忌翻动，直至切面焦黑。正是这层焦糖化褪去了苦涩，而非水煮。</FlavorTextFR_ChouxBruxellesLardons.description>
+
+  <!-- EN: brussels sprouts with chestnuts -->
+  <FlavorTextFR_ChouxBruxellesMarrons.label>栗子炒抱子甘蓝</FlavorTextFR_ChouxBruxellesMarrons.label>
+  <!-- EN: {0_coll} blanched then sweated in {2_plur} with whole {1_coll} already cooked, which half fall apart and sweeten the dish. The side of the year-end table. -->
+  <FlavorTextFR_ChouxBruxellesMarrons.description>{0_coll}焯水后与熟{1_coll}同在{2_plur}中慢炒，半酥烂的栗子为整道菜染上甘甜。这是岁末节日餐桌上的经典配菜。</FlavorTextFR_ChouxBruxellesMarrons.description>
+
+  <!-- EN: brussels sprout gratin -->
+  <FlavorTextFR_GratinChouxBruxelles.label>奶酪焗抱子甘蓝</FlavorTextFR_GratinChouxBruxelles.label>
+  <!-- EN: {0_coll} part-cooked and well drained under a {1_adj} béchamel with nutmeg, browned with {2_plur}. Badly drained, they give up their water and wash the sauce out. -->
+  <FlavorTextFR_GratinChouxBruxelles.description>{0_coll}半熟后彻底沥干，淋上添了肉豆蔻的{1_adj}白酱，撒{2_plur}烤至金黄。若是沥水不净，渗出的汁水便会冲淡整盘酱汁。</FlavorTextFR_GratinChouxBruxelles.description>
+
+  <!-- EN: brussels sprouts in mustard -->
+  <FlavorTextFR_ChouxBruxellesMoutarde.label>芥末奶油抱子甘蓝</FlavorTextFR_ChouxBruxellesMoutarde.label>
+  <!-- EN: {0_coll} fried and then coated in a {2_adj} sauce mounted with {1_plur} off the heat — boiled, the mustard loses its heat and turns bitter. -->
+  <FlavorTextFR_ChouxBruxellesMoutarde.description>{0_coll}煎香后裹上离火拌入{1_plur}的{2_adj}酱汁——芥末一旦沸煮便会散去辛香、徒留苦味。</FlavorTextFR_ChouxBruxellesMoutarde.description>
+
+  <!-- EN: brussels sprout risotto -->
+  <FlavorTextFR_RisottoChouxBruxelles.label>抱子甘蓝意式炖饭</FlavorTextFR_RisottoChouxBruxelles.label>
+  <!-- EN: the outer leaves of {0_adj} pulled off and fried apart for the crunch, the hearts sliced and melted into {1_coll}, and {2_coll} to bind it. -->
+  <FlavorTextFR_RisottoChouxBruxelles.description>{0_adj}剥下外叶另锅炸脆，菜心切丝煨入{1_coll}中直至软融，最后以{2_coll}乳化收浓。</FlavorTextFR_RisottoChouxBruxelles.description>
+
+  <!-- EN: pasta with brussels sprouts and pancetta -->
+  <FlavorTextFR_PastaChouxBruxellesPancetta.label>意式培根抱子甘蓝意面</FlavorTextFR_PastaChouxBruxellesPancetta.label>
+  <!-- EN: {0_coll} pulled leaf from leaf and fried in the fat of {2_adj}, tossed through the pasta with a little cooking water. Separated leaves colour far better than whole sprouts. -->
+  <FlavorTextFR_PastaChouxBruxellesPancetta.description>{0_coll}逐片剥下叶片，在{2_adj}煸出的油脂中煎香，加少许煮面水与意面翻拌均匀。剥散的叶片远比整颗甘蓝更容易煎出诱人焦色。</FlavorTextFR_PastaChouxBruxellesPancetta.description>
+
+  <!-- EN: brussels sprout Caesar salad -->
+  <FlavorTextFR_ChouxBruxellesCesar.label>抱子甘蓝凯撒沙拉</FlavorTextFR_ChouxBruxellesCesar.label>
+  <!-- EN: {0_coll} raw and shaved into ribbons, dressed with a Caesar mounted on {2_plur} and garlic, with {1_coll} grated over and croutons. Raw, they are nutty rather than bitter. -->
+  <FlavorTextFR_ChouxBruxellesCesar.description>生{0_coll}刨成细丝，拌入以{2_plur}和蒜泥打成的凯撒酱，撒上现擦的{1_coll}与烤面包丁。生食的抱子甘蓝非但不苦，反而透着坚果香。</FlavorTextFR_ChouxBruxellesCesar.description>
+
+  <!-- EN: brussels sprout slaw -->
+  <FlavorTextFR_ChouxBruxellesSlaw.label>凉拌抱子甘蓝丝</FlavorTextFR_ChouxBruxellesSlaw.label>
+  <!-- EN: {0_coll} sliced on the razor, {1_coll} in matchsticks and toasted {2_coll}, bound with a sharp dressing. Made an hour ahead so that the ribbons soften. -->
+  <FlavorTextFR_ChouxBruxellesSlaw.description>{0_coll}刨成薄如刀锋的细丝，配火柴棍粗细的{1_coll}丝与烘香的{2_coll}，淋酸爽酱汁拌匀。需提前一小时拌好，静待菜丝微软入味。</FlavorTextFR_ChouxBruxellesSlaw.description>
+
+  <!-- EN: maple and bacon brussels sprouts -->
+  <FlavorTextFR_ChouxBruxellesErableLard.label>枫糖培根烤抱子甘蓝</FlavorTextFR_ChouxBruxellesErableLard.label>
+  <!-- EN: {0_coll} roasted in a very hot oven with {1_coll}, lacquered with {2_plur} in the last minutes only — poured on earlier, it burns before the sprouts are done. -->
+  <FlavorTextFR_ChouxBruxellesErableLard.description>{0_coll}与{1_coll}同入高温烤箱烘烤，唯在最后几分钟才刷上{2_plur}挂釉——若是淋得太早，甘蓝尚未熟透糖汁便已焦糊。</FlavorTextFR_ChouxBruxellesErableLard.description>
+
+  <!-- EN: crisp brussels sprouts -->
+  <FlavorTextFR_ChouxBruxellesCroustillants.label>酥炸抱子甘蓝</FlavorTextFR_ChouxBruxellesCroustillants.label>
+  <!-- EN: {0_coll} thrown in whole to scalding oil: the outer leaves explode into blackened petals while the heart stays tender. A thread of {2_adj} on the way out, and nothing else. -->
+  <FlavorTextFR_ChouxBruxellesCroustillants.description>整颗{0_coll}投入滚油：外叶瞬间炸开如焦黑花瓣，内芯却依然鲜嫩。出锅时挤少许{2_adj}汁即可，无需画蛇添足。</FlavorTextFR_ChouxBruxellesCroustillants.description>
+
+  <!-- EN: buffalo brussels sprouts -->
+  <FlavorTextFR_ChouxBruxellesBuffalo.label>水牛城辣酱抱子甘蓝</FlavorTextFR_ChouxBruxellesBuffalo.label>
+  <!-- EN: {0_coll} fried and then shaken in a {1_adj} vinegar sauce emulsified with {2_plur}. The chicken-wing recipe, applied to a vegetable nobody used to like. -->
+  <FlavorTextFR_ChouxBruxellesBuffalo.description>{0_coll}炸脆后，投入以{2_plur}乳化的{1_adj}醋汁中翻拌裹匀。将炸鸡翅的配方用在一种昔日无人问津的蔬菜上，竟有奇效。</FlavorTextFR_ChouxBruxellesBuffalo.description>
+
+  <!-- EN: brussels sprout hash -->
+  <FlavorTextFR_ChouxBruxellesHash.label>抱子甘蓝土豆煎饼</FlavorTextFR_ChouxBruxellesHash.label>
+  <!-- EN: {0_coll} chopped and {1_coll} in dice fried together until they catch on the bottom, with {2_coll} broken over them at the end. The leftovers breakfast. -->
+  <FlavorTextFR_ChouxBruxellesHash.description>切碎的{0_coll}与{1_coll}丁同锅慢煎至锅底结出焦壳，最后磕入{2_coll}烘熟。这是化剩菜为神奇的早餐佳肴。</FlavorTextFR_ChouxBruxellesHash.description>
+
+  <!-- EN: miso-glazed brussels sprouts -->
+  <FlavorTextFR_ChouxBruxellesMiso.label>味噌炙烤抱子甘蓝</FlavorTextFR_ChouxBruxellesMiso.label>
+  <!-- EN: {0_coll} roasted then coated in a paste of fermented {1_adj}, mirin and sugar, run back under the grill until the glaze bubbles, and scattered with toasted {2_plur}. -->
+  <FlavorTextFR_ChouxBruxellesMiso.description>{0_coll}烤熟后裹上发酵{1_adj}、味醂与糖调成的酱汁，重回炉下炙烤至酱面起泡，最后撒上烘香的{2_plur}。</FlavorTextFR_ChouxBruxellesMiso.description>
+
+  <!-- EN: brussels sprout curry -->
+  <FlavorTextFR_ChouxBruxellesCurry.label>咖哩抱子甘蓝</FlavorTextFR_ChouxBruxellesCurry.label>
+  <!-- EN: {0_coll} quartered and stewed in a {1_adj} milk built on cumin, turmeric and mustard seeds burst in hot oil. -->
+  <FlavorTextFR_ChouxBruxellesCurry.description>四瓣切开的{0_coll}在热油爆香孜然、姜黄与芥菜籽的{1_adj}浆中慢炖入味。</FlavorTextFR_ChouxBruxellesCurry.description>
+
+</LanguageData>

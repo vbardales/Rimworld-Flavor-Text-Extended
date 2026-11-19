@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: gỏi cuốn -->
+  <FlavorTextFR_GoiCuon.label>越南米纸夏卷</FlavorTextFR_GoiCuon.label>
+  <!-- EN: {0_adj} wrappers dipped for a second in warm water, rolled tight over {1_coll} and herbs. You can see the pink through the sheet: that is why it is rolled that way round. -->
+  <FlavorTextFR_GoiCuon.description>{0_adj}薄皮在温水里轻蘸一秒，紧紧卷起{1_coll}与新鲜香草。透过半透明的米纸能隐约看见那抹粉红——特意把虾贴在外层卷起，正是为了这一眼惊艳。</FlavorTextFR_GoiCuon.description>
+
+  <!-- EN: bo bun -->
+  <FlavorTextFR_BoBun.label>越式烤牛肉拌檬粉</FlavorTextFR_BoBun.label>
+  <!-- EN: cold {0_adj} vermicelli under scalding fried {1_coll}, with raw herbs and a clear sweet-salt sauce poured over the top. Hot and cold in the same bowl, and it is not a fault. -->
+  <FlavorTextFR_BoBun.description>冰凉的{0_adj}粉上铺着滚烫的爆炒{1_coll}与生鲜香草，再淋上一勺清亮咸甜的鱼露汁。冷与热共处一碗，非但不是败笔，反而是点睛之妙。</FlavorTextFR_BoBun.description>
+
+  <!-- EN: nem -->
+  <FlavorTextFR_Nem.label>越南炸春卷</FlavorTextFR_Nem.label>
+  <!-- EN: fine rolls filled with minced {1_plur} and black {2_plur} soaked back up, fried twice over. Eaten wrapped in a lettuce leaf, with mint. -->
+  <FlavorTextFR_Nem.description>裹入碎{1_plur}与泡发黑{2_plur}的纤细春卷，下油锅复炸两次。吃时用生菜叶连同薄荷一并卷起享用。</FlavorTextFR_Nem.description>
+
+  <!-- EN: pad thai -->
+  <FlavorTextFR_PadThai.label>泰式炒河粉</FlavorTextFR_PadThai.label>
+  <!-- EN: {0_adj} noodles fried in a tamarind caramel, {2_coll} scrambled off to one side and then folded back over them, crushed {1_coll} at the end. Invented in the 1930s to save on whole-grain rice. -->
+  <FlavorTextFR_PadThai.description>{0_adj}河粉在罗望子焦糖汁中快炒，将河粉拨到锅边炒熟{2_coll}后再翻拌合一，最后撒上碎{1_coll}。这道菜诞生于二十世纪三十年代，初衷是为了节约整粒大米。</FlavorTextFR_PadThai.description>
+
+  <!-- EN: tom yam -->
+  <FlavorTextFR_TomYam.label>冬阴功汤</FlavorTextFR_TomYam.label>
+  <!-- EN: a {0_adj} broth built on lemongrass, galangal and kaffir lime leaves, soured with {2_plur} off the heat and burnt with {1_plur}. The aromatics are not eaten; they are pushed to the rim. -->
+  <FlavorTextFR_TomYam.description>以香茅、南姜与疯柑叶吊出的{0_adj}鲜汤，离火后挤入{2_plur}汁提酸，再以{1_plur}激出火辣。汤里的香料并不下肚，喝时只管拨到碗边。</FlavorTextFR_TomYam.description>
+
+  <!-- EN: green curry -->
+  <FlavorTextFR_CurryVert.label>泰式绿咖喱</FlavorTextFR_CurryVert.label>
+  <!-- EN: a paste of green {2_adj} pounded and then fried in {1_adj} cream until the oil separates and rises, with {0_coll}. Green is the fiercest of the three curries, for all its mild colour. -->
+  <FlavorTextFR_CurryVert.description>青{2_adj}捣成茸泥，在浓稠的{1_adj}浆中慢炒至油水分离、绿油浮面，再下入{0_coll}同煮。别看色泽清新温和，绿咖喱实则是三色咖喱中最火辣霸道的一款。</FlavorTextFR_CurryVert.description>
+
+  <!-- EN: laap -->
+  <FlavorTextFR_Laap.label>老挝拉普肉碎沙拉</FlavorTextFR_Laap.label>
+  <!-- EN: {0_coll} finely chopped and barely seared, seasoned with {2_plur} and with {1_coll} toasted and pounded, which gives grain and a smell of hazelnut. The national dish of Laos. -->
+  <FlavorTextFR_Laap.description>细细剁碎的{0_coll}略微煸至断生，拌入{2_plur}与干焙捣碎的熟{1_coll}粉，赋予其颗粒质感与宛如榛子般的焦香。这是老挝的国菜。</FlavorTextFR_Laap.description>
+
+  <!-- EN: nasi goreng -->
+  <FlavorTextFR_NasiGoreng.label>印尼炒饭</FlavorTextFR_NasiGoreng.label>
+  <!-- EN: {0_coll} fried in a {2_adj} paste and a thick sweet soy sauce, crowned with a fried egg whose edges are lace from the fat. -->
+  <FlavorTextFR_NasiGoreng.description>{0_coll}加{2_adj}膏与浓稠甜酱油猛火翻炒，顶端盖一颗边缘被热油炸出焦脆蕾丝边的煎蛋。</FlavorTextFR_NasiGoreng.description>
+
+  <!-- EN: satay -->
+  <FlavorTextFR_Satay.label>沙爹烤肉串</FlavorTextFR_Satay.label>
+  <!-- EN: fine strips of {0_adj} marinated in turmeric and {2_plur}, grilled over embers fanned by hand, served with a thick {1_adj} sauce. -->
+  <FlavorTextFR_Satay.description>纤薄的{0_adj}条用姜黄与{2_plur}腌制入味，架在手工扇风的炭火余烬上炙烤，佐以醇厚浓郁的{1_adj}酱。</FlavorTextFR_Satay.description>
+
+</LanguageData>

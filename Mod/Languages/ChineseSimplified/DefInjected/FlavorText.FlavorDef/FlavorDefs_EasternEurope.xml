@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: borscht with smetana -->
+  <FlavorTextFR_Bortsch.label>酸奶油红菜汤</FlavorTextFR_Bortsch.label>
+  <!-- EN: {0_coll} grated and sharpened with vinegar so as to hold their red — without acid the soup turns brown — with {1_coll}, and a spoonful of {2_adj} that draws pink spirals as it melts. -->
+  <FlavorTextFR_Bortsch.description>{0_coll}擦丝后加醋定色以留住艳红——若少了酸味，汤色便会发褐——与{1_coll}同煮，最后舀入一勺{2_adj}，融化时在汤面漾开粉红色的漩涡。</FlavorTextFR_Bortsch.description>
+
+  <!-- EN: bigos -->
+  <FlavorTextFR_Bigos.label>波兰猎人炖肉</FlavorTextFR_Bigos.label>
+  <!-- EN: {0_coll} fermented and fresh mixed together, stewed with {1_plur} and dried {2_plur}, then cooled and reheated several days running. They say it is only good at the third reheating. -->
+  <FlavorTextFR_Bigos.description>酸渍与新鲜的{0_coll}混在一起，加入{1_plur}与干{2_plur}慢炖，随后连着数日放凉再回锅加热。都说这菜非得回锅三次才真正够味。</FlavorTextFR_Bigos.description>
+
+  <!-- EN: blini -->
+  <FlavorTextFR_Blinis.label>俄式薄煎饼</FlavorTextFR_Blinis.label>
+  <!-- EN: small {0_adj} pancakes raised with yeast and left to swell for hours, cooked in butter and served warm with thick {2_plur}. Late-winter feast food, eaten for a week at a time. -->
+  <FlavorTextFR_Blinis.description>小巧的{0_adj}薄饼以酵母发酵数小时至蓬松，用黄油煎熟，趁温热佐浓稠的{2_plur}食用。这是冬末节庆的佳肴，一吃便是整整一周。</FlavorTextFR_Blinis.description>
+
+  <!-- EN: coulibiac -->
+  <FlavorTextFR_Koulibiac.label>俄式千层鱼肉派</FlavorTextFR_Koulibiac.label>
+  <!-- EN: {0_coll} in one whole piece, {1_coll} and hard-boiled {2_coll} built up in strata inside a closed brioche and baked together. Cut like a terrine, and it reveals its layers all at once. -->
+  <FlavorTextFR_Koulibiac.description>整块的{0_coll}、{1_coll}与全熟{2_coll}在密封的布里欧修面皮内层层铺叠，一同入炉烘烤。像切肉冻一般切开，丰富层次便豁然呈现。</FlavorTextFR_Koulibiac.description>
+
+  <!-- EN: solyanka -->
+  <FlavorTextFR_Solianka.label>俄式酸辣杂拌汤</FlavorTextFR_Solianka.label>
+  <!-- EN: a soup deliberately sour and salt: {0_coll} of several kinds, {1_coll} pickled and put in with their brine, {2_coll} and a slice of lemon. The dish of the morning after, and that is no accident. -->
+  <FlavorTextFR_Solianka.description>一道刻意追求又酸又咸的浓汤：数种{0_coll}、连同卤汁一并下锅的酸渍{1_coll}、{2_coll}以及一片柠檬。它是宿醉次日清晨的醒酒良方，而这绝非偶然。</FlavorTextFR_Solianka.description>
+
+  <!-- EN: vareniki -->
+  <FlavorTextFR_Vareniki.label>东欧水饺</FlavorTextFR_Vareniki.label>
+  <!-- EN: half-moons of dough filled with crushed {1_plur}, poached and then doused with {2_adj} melted down in butter. The seal has to hold in boiling water: that is the whole craft. -->
+  <FlavorTextFR_Vareniki.description>半月形的面皮包入捣碎的{1_plur}，下水煮熟后浇上以黄油煸至软烂的{2_adj}。全凭一手捏边功夫，方能让饺口在沸水中不露分毫。</FlavorTextFR_Vareniki.description>
+
+  <!-- EN: khachapuri -->
+  <FlavorTextFR_Khatchapouri.label>格鲁吉亚船形奶酪包</FlavorTextFR_Khatchapouri.label>
+  <!-- EN: a bread shaped like a boat filled with melted {1_adj}, with a raw yolk and a knob of {2_adj} set at the centre as it leaves the oven. Everything is mixed together with the tip of the crust, torn off for the purpose. -->
+  <FlavorTextFR_Khatchapouri.description>船形的面包中盛满融化的{1_adj}，出炉瞬间在正中打入一颗生蛋黄并添上一小块{2_adj}。吃时特意揪下船尖的面包壳，将内馅搅匀蘸食。</FlavorTextFR_Khatchapouri.description>
+
+  <!-- EN: plov -->
+  <FlavorTextFR_Plov.label>中亚手抓饭</FlavorTextFR_Plov.label>
+  <!-- EN: {2_coll} cut into long batons — never grated — sweated with {1_plur} and its fat, {0_coll} poured over without being stirred in and cooked in the steam from below. Made in a cauldron, for fifty people. -->
+  <FlavorTextFR_Plov.description>{2_coll}切成粗长条——断不可擦丝——与{1_plur}及其油脂一同煸透，再将{0_coll}平铺其上而不加翻动，全靠底部的蒸汽焖熟。常以大铁锅烹制，一锅足供五十人享用。</FlavorTextFR_Plov.description>
+
+  <!-- EN: shashlik -->
+  <FlavorTextFR_Chachlik.label>俄式大串烤肉</FlavorTextFR_Chachlik.label>
+  <!-- EN: {0_coll} marinated overnight with grated {1_plur} and {2_plur}, threaded onto broad metal blades and grilled over dying embers. A lean piece, then a fat piece, and so on. -->
+  <FlavorTextFR_Chachlik.description>{0_coll}与擦碎的{1_plur}及{2_plur}腌渍过夜，穿在宽扁的金属签上，置于将熄的炭火余烬上炙烤。一块瘦肉配一块肥肉，依次相间。</FlavorTextFR_Chachlik.description>
+
+  <!-- EN: kasha -->
+  <FlavorTextFR_Kacha.label>俄式荞麦粥</FlavorTextFR_Kacha.label>
+  <!-- EN: {0_coll} toasted dry until it smells of hazelnut, then swelled in salted water and generously {1_plur}, with {2_coll}. The most ordinary dish there is, and the one most missed when you leave. -->
+  <FlavorTextFR_Kacha.description>{0_coll}干锅焙出榛果香气，再以淡盐水焖至粒粒饱满，拌入足量{1_plur}与{2_coll}。世间最寻常不过的家常饭食，却也是离乡之人最魂牵梦萦的味道。</FlavorTextFR_Kacha.description>
+
+  <!-- EN: żurek -->
+  <FlavorTextFR_Zourek.label>波兰黑麦酸汤</FlavorTextFR_Zourek.label>
+  <!-- EN: a white and frankly sour soup, built on a {0_adj} leaven fermented for several days, with smoked {1_coll} and hard-boiled {2_coll}. Sometimes served in a hollowed loaf, which is eaten at the end. -->
+  <FlavorTextFR_Zourek.description>一道色白而酸味直率的浓汤，以发酵数日的{0_adj}酸酵头为汤底，佐以烟熏{1_coll}与全熟{2_coll}。有时直接盛在掏空的圆面包盅里奉客，喝罢连面包一并吃尽。</FlavorTextFR_Zourek.description>
+
+</LanguageData>

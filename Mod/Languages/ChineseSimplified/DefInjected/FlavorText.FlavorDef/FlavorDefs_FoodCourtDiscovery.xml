@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: altang -->
+  <FlavorTextExtended_Altang.label>韩式明太鱼籽汤</FlavorTextExtended_Altang.label>
+  <!-- EN: a spicy soup with {0_coll}, {1_coll} and soft {2_adj} curds in a rich broth. This colony version stands in for the fish roe of the original dish. -->
+  <FlavorTextExtended_Altang.description>在醇厚高汤中加入{0_coll}、{1_coll}与软嫩的{2_adj}凝块煮成的香辣汤。殖民地版本以此替代了原版菜肴中的鱼籽。</FlavorTextExtended_Altang.description>
+
+  <!-- EN: beondegi -->
+  <FlavorTextExtended_Beondegi.label>韩式煮蚕蛹</FlavorTextExtended_Beondegi.label>
+  <!-- EN: {0_coll} simmered until tender and served in a small cup. A colony adaptation of the silkworm-pupa street snack. -->
+  <FlavorTextExtended_Beondegi.description>{0_coll}慢煮至软嫩，盛在小纸杯中享用。这是对韩国街头蚕蛹小吃的殖民地改良版本。</FlavorTextExtended_Beondegi.description>
+
+  <!-- EN: bungeoppang -->
+  <FlavorTextExtended_Bungeoppang.label>鲫鱼饼</FlavorTextExtended_Bungeoppang.label>
+  <!-- EN: fish-shaped {0_adj} pastries enclosing a smooth filling of {1_coll} sweetened with {2_coll}. The mould gives them their shape; there is no fish in the filling. -->
+  <FlavorTextExtended_Bungeoppang.description>鱼形的{0_adj}面点，内裹以{2_coll}加甜的绵密{1_coll}馅。鱼的形状来自烤模，馅料里其实并没有鱼。</FlavorTextExtended_Bungeoppang.description>
+
+  <!-- EN: jjapaghuri -->
+  <FlavorTextExtended_Jjapaghuri.label>浣熊炸酱面</FlavorTextExtended_Jjapaghuri.label>
+  <!-- EN: {0_adj} noodles tossed in a dark {2_adj} sauce, then topped with seared {1_coll}. A pantry adaptation of a dish combining two kinds of instant noodles. -->
+  <FlavorTextExtended_Jjapaghuri.description>{0_adj}面条裹满深浓的{2_adj}酱，上面铺着煎香的{1_coll}。这是用家常食材还原由两种方便面混搭而成的名菜。</FlavorTextExtended_Jjapaghuri.description>
+
+  <!-- EN: kimchijeon -->
+  <FlavorTextExtended_Kimchijeon.label>泡菜煎饼</FlavorTextExtended_Kimchijeon.label>
+  <!-- EN: a thin {0_adj} pancake folded around fermented {1_coll} and {2_coll}, fried until the edges turn crisp. The sour filling seasons the batter as it cooks. -->
+  <FlavorTextExtended_Kimchijeon.description>裹入发酵{1_coll}与{2_coll}的薄{0_adj}煎饼，下锅煎至边缘焦脆。酸爽的馅料在煎制过程中自然为面糊赋予了滋味。</FlavorTextExtended_Kimchijeon.description>
+
+</LanguageData>

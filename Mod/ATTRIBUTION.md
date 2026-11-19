@@ -39,6 +39,13 @@ compiled language wrapper limits French inflection and joining-grammar patches t
 This wrapper belongs to the companion, not to this extension. See its own status for
 current coverage and validation results.
 
+## Chinese Simplified translation
+
+The Chinese Simplified text of the dish labels and descriptions (`Mod/Languages/ChineseSimplified/`) comes from
+**Flavor Text Extended 中文汉化** by Longifolene ([Workshop 3836775688](https://steamcommunity.com/sharedfiles/filedetails/?id=3836775688)),
+reused with thanks. Its page says generative AI was used heavily and asks for corrections. It states no licence for the
+translation: it is used as a silent-author case and will be removed if the author asks.
+
 ## AI assistance
 
 The content of this mod was produced with the assistance of Claude (Anthropic) and

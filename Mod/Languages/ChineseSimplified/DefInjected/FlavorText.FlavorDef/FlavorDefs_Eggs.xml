@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: medium-boiled {0_coll} -->
+  <FlavorTextFR_OeufMollet.label>溏心{0_coll}</FlavorTextFR_OeufMollet.label>
+  <!-- EN: exactly six minutes in simmering water, then straight into ice. The white is firm, the yolk still runs. Of the three ways to cook eggs in their shells, this is the only one that peels cleanly; it requires patience and eggs that are a few days old. -->
+  <FlavorTextFR_OeufMollet.description>微沸水中精准煮满六分钟，随即投入冰水。蛋白已然凝实，蛋黄却依旧流心。在带壳煮蛋的三种火候之中，唯独这一种能干脆利落地剥壳装盘；只是剥壳时需得有耐心，且得用存放了数日的蛋。</FlavorTextFR_OeufMollet.description>
+
+</LanguageData>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: risi e bisi -->
+  <FlavorTextFR_RisiEBisi.label>威尼斯豌豆烩饭</FlavorTextFR_RisiEBisi.label>
+  <!-- EN: {0_coll} and {1_coll} cooked together, somewhere between a soup and a risotto — loose enough for the spoon, too thick for the bowl. The pods go into the stock; nothing is wasted. -->
+  <FlavorTextFR_RisiEBisi.description>{0_coll}与{1_coll}同煮，浓稠度介于汤羹与意式烩饭之间——用勺舀起尚显流动，盛在碗里却又嫌太稠。豆荚亦拿去熬制高汤，分毫不浪费。</FlavorTextFR_RisiEBisi.description>
+
+  <!-- EN: gnocchi -->
+  <FlavorTextFR_Gnocchi.label>意式土豆团子</FlavorTextFR_Gnocchi.label>
+  <!-- EN: {0_coll} crushed while still hot and bound with as little flour as can be managed, rolled, and ridged with a fork. They are done when they rise. -->
+  <FlavorTextFR_Gnocchi.description>{0_coll}趁热压泥，仅掺入少到不能再少的面粉揉合成团，搓条切块后在叉背上滚出纹路。入水煮至浮起即熟。</FlavorTextFR_Gnocchi.description>
+
+  <!-- EN: osso buco -->
+  <FlavorTextFR_OssoBuco.label>米兰烩牛膝</FlavorTextFR_OssoBuco.label>
+  <!-- EN: slices of shin braised in {1_plur} and {2_plur}, the bone left in the middle. The marrow it holds is the whole reason for the dish. -->
+  <FlavorTextFR_OssoBuco.description>带骨横切的小腿肉在{1_plur}与{2_plur}中慢火焖烩，正中留着一段筒骨。骨洞中封存的丰腴骨髓，才是整道菜的灵魂所在。</FlavorTextFR_OssoBuco.description>
+
+  <!-- EN: {0_adj} parmigiana -->
+  <FlavorTextFR_Parmigiana.label>帕尔马风味千层烤{0_adj}</FlavorTextFR_Parmigiana.label>
+  <!-- EN: {0_coll} sliced, drawn in salt and then fried, built up in layers with {1_plur} and {2_plur}, and browned. The salt takes out the bitterness; without it the dish cannot be eaten. -->
+  <FlavorTextFR_Parmigiana.description>{0_coll}切片后用盐杀出水分再下锅煎透，与{1_plur}和{2_plur}层层铺叠，入炉烤至表面焦黄。盐能逼出苦涩汁水，少了这一步便难以下咽。</FlavorTextFR_Parmigiana.description>
+
+  <!-- EN: caponata -->
+  <FlavorTextFR_Caponata.label>西西里酸甜炖茄子</FlavorTextFR_Caponata.label>
+  <!-- EN: {0_coll} fried apart, brought together with {1_plur} melted down and {2_plur}, then made sweet-and-sour with vinegar and sugar. Eaten cold, the next day, once the acidity has settled. -->
+  <FlavorTextFR_Caponata.description>{0_coll}单独煎好，与煸至软烂的{1_plur}及{2_plur}汇合一锅，再加糖醋调出酸甜风味。留待次日酸味柔和收敛之后，冷食最佳。</FlavorTextFR_Caponata.description>
+
+  <!-- EN: minestrone -->
+  <FlavorTextFR_Minestrone.label>意式什锦蔬菜汤</FlavorTextFR_Minestrone.label>
+  <!-- EN: a soup out of the back of the larder: {0_coll}, {1_coll} and {2_coll} stewed with no fixed recipe. Better the next day, which suits everybody. -->
+  <FlavorTextFR_Minestrone.description>一道清理储藏室角落的家常浓汤：{0_coll}、{1_coll}与{2_coll}一锅慢炖，并无固定菜谱。放到第二天滋味更佳，可谓人人称便。</FlavorTextFR_Minestrone.description>
+
+  <!-- EN: ribollita -->
+  <FlavorTextFR_Ribollita.label>托斯卡纳回锅面包汤</FlavorTextFR_Ribollita.label>
+  <!-- EN: literally reboiled: yesterday's {0_adj} and {1_adj} soup, thickened with stale bread and put back on the heat until it will no longer run. -->
+  <FlavorTextFR_Ribollita.description>字面意思便是“回锅重煮”：将隔夜的{0_adj}{1_adj}汤加入陈面包增稠，重新上火慢熬，直至浓稠得不再流动。</FlavorTextFR_Ribollita.description>
+
+  <!-- EN: panna cotta -->
+  <FlavorTextFR_PannaCotta.label>意式奶冻</FlavorTextFR_PannaCotta.label>
+  <!-- EN: {0_coll} barely warmed with {1_plur}, set in the cold just enough to hold, and napped with a {2_adj} coulis. It has to tremble when the plate is set down. -->
+  <FlavorTextFR_PannaCotta.description>{0_coll}与{1_plur}微温化开，冷藏至恰好凝结成形，表面淋一层{2_adj}果酱。端盘落桌之时，冻体须得微微颤动才算合格。</FlavorTextFR_PannaCotta.description>
+
+  <!-- EN: cannoli -->
+  <FlavorTextFR_Cannoli.label>西西里奶酪卷</FlavorTextFR_Cannoli.label>
+  <!-- EN: tubes of pastry fried around a cane, filled with sweetened {1_plur} and {2_plur} at the last moment. Filled in advance they go soft and are worth nothing. -->
+  <FlavorTextFR_Cannoli.description>面皮卷在芦苇管上炸成脆筒，临上桌前才填入加糖的{1_plur}与{2_plur}。若是提前填馅，脆壳受潮变软便分文不值了。</FlavorTextFR_Cannoli.description>
+
+  <!-- EN: focaccia -->
+  <FlavorTextFR_Focaccia.label>佛卡夏面包</FlavorTextFR_Focaccia.label>
+  <!-- EN: a very wet dough dimpled with the fingertips, drowned in {1_adj} oil and salted in coarse grains. The holes hold the oil: they are not decorative. -->
+  <FlavorTextFR_Focaccia.description>含水量极高的面团以指尖戳出满面凹窝，淋满{1_adj}油并撒上粗粒海盐。那些凹窝是为了蓄住油脂，绝非摆设。</FlavorTextFR_Focaccia.description>
+
+  <!-- EN: arancini -->
+  <FlavorTextFR_Arancini.label>西西里炸饭团</FlavorTextFR_Arancini.label>
+  <!-- EN: cold leftover risotto packed into a ball around a {2_adj} heart, rolled in a {1_adj} crumb and fried. The name means little oranges, after the colour they take coming out of the oil. -->
+  <FlavorTextFR_Arancini.description>放凉的隔夜烩饭包入一颗{2_adj}内芯捏成圆团，裹上{1_adj}面包糠下锅炸透。其名意为“小橙子”，得名于出锅时金黄诱人的色泽。</FlavorTextFR_Arancini.description>
+
+  <!-- EN: caprese -->
+  <FlavorTextFR_Caprese.label>卡普里沙拉</FlavorTextFR_Caprese.label>
+  <!-- EN: {0_coll} and {1_coll} in alternating slices, oil, salt, green leaves. Nothing else, and above all no vinegar. -->
+  <FlavorTextFR_Caprese.description>{0_coll}与{1_coll}切片相间排开，淋油、撒盐、缀以翠绿香草叶。此外别无他物，尤其断不可放醋。</FlavorTextFR_Caprese.description>
+
+  <!-- EN: saltimbocca -->
+  <FlavorTextFR_Saltimbocca.label>罗马鼠尾草火腿小牛排</FlavorTextFR_Saltimbocca.label>
+  <!-- EN: an escalope of {0_adj} flattened out, a sage leaf and a slice of {1_adj} pinned to it, seared a minute a side. The name says: leaps into the mouth. -->
+  <FlavorTextFR_Saltimbocca.description>拍扁的{0_adj}薄片上用牙签别住一片鼠尾草叶与一片{1_adj}，两面各煎一分钟即成。其名意为：“自己跳进嘴里”。</FlavorTextFR_Saltimbocca.description>
+
+  <!-- EN: vitello tonnato -->
+  <FlavorTextFR_VitelloTonnato.label>皮埃蒙特金枪鱼酱小牛肉</FlavorTextFR_VitelloTonnato.label>
+  <!-- EN: {0_coll} poached, cooled, sliced as thin as it will go, and napped with a cold {1_adj} sauce mounted with {2_plur}. The pairing seems absurd until the first mouthful. -->
+  <FlavorTextFR_VitelloTonnato.description>{0_coll}慢水煨熟后放凉，切得薄如蝉翼，再淋上以{2_plur}乳化调成的冷{1_adj}酱。这般搭配听来荒诞不经，但只要尝上第一口便会折服。</FlavorTextFR_VitelloTonnato.description>
+
+  <!-- EN: panzanella -->
+  <FlavorTextFR_Panzanella.label>托斯卡纳面包沙拉</FlavorTextFR_Panzanella.label>
+  <!-- EN: hard bread soaked and then pressed out, mixed with {1_plur} and {2_plur}. A dish invented to throw nothing away, and now a dish people ask for. -->
+  <FlavorTextFR_Panzanella.description>硬面包泡软后挤干水分，与{1_plur}和{2_plur}拌在一起。起初只是为了不浪费剩面包的权宜之计，如今却成了人们争相点选的名菜。</FlavorTextFR_Panzanella.description>
+
+  <!-- EN: bagna càuda -->
+  <FlavorTextFR_BagnaCauda.label>皮埃蒙特热鳀鱼蒜香蘸酱</FlavorTextFR_BagnaCauda.label>
+  <!-- EN: {0_coll} melted down in {2_plur} with a great deal of {1_adj}, kept warm over a flame. Raw vegetables are dipped into it; the smell stays in the room for three days. -->
+  <FlavorTextFR_BagnaCauda.description>{0_coll}与大量{1_adj}在{2_plur}中慢火融化交融，置于小火上持续保温。食时以生鲜蔬菜蘸取；那股浓烈香气在屋里三日不散。</FlavorTextFR_BagnaCauda.description>
+
+  <!-- EN: fritto misto -->
+  <FlavorTextFR_FrittoMisto.label>意式什锦炸海鲜</FlavorTextFR_FrittoMisto.label>
+  <!-- EN: {0_coll} rolled in flour, thrown into scalding oil and lifted straight back out, served with {2_plur}. Eaten standing, out of paper, before it has cooled. -->
+  <FlavorTextFR_FrittoMisto.description>{0_coll}薄扑一层干粉，投入滚油中一炸即捞，佐以{2_plur}。盛在纸筒里，趁热立在街边吃下。</FlavorTextFR_FrittoMisto.description>
+
+  <!-- EN: polpette -->
+  <FlavorTextFR_Polpette.label>意式茄汁肉丸</FlavorTextFR_Polpette.label>
+  <!-- EN: {0_coll} minced and lightened with soaked crumb, rolled into balls and finished in a {2_adj} sauce. -->
+  <FlavorTextFR_Polpette.description>{0_coll}剁碎后掺入泡软的面包心使其松软，搓成圆丸，最后在{2_adj}酱汁中收汁烹成。</FlavorTextFR_Polpette.description>
+
+  <!-- EN: cotoletta alla milanese -->
+  <FlavorTextFR_CotolettaMilanese.label>米兰带骨炸小牛排</FlavorTextFR_CotolettaMilanese.label>
+  <!-- EN: a {0_adj} chop left on its bone, taken through {2_plur} and then breadcrumbs, and cooked in clarified butter. Milan and Vienna have argued over which came first for two centuries. -->
+  <FlavorTextFR_CotolettaMilanese.description>带骨的{0_adj}排先拖一层{2_plur}液，再裹上面包糠，入澄清黄油中煎至金黄。米兰与维也纳为了争论谁才是正统鼻祖，已经吵了整整两个世纪。</FlavorTextFR_CotolettaMilanese.description>
+
+  <!-- EN: amatriciana -->
+  <FlavorTextFR_Amatriciana.label>阿马特里切风味意面</FlavorTextFR_Amatriciana.label>
+  <!-- EN: {2_coll} rendered slowly until it turns translucent, {1_coll} added to the fat it gives up, and the pasta finished in it. -->
+  <FlavorTextFR_Amatriciana.description>{2_coll}慢火煸至晶莹透亮，在逼出的油脂中投入{1_coll}熬成浓汁，最后下入意面收汁裹匀。</FlavorTextFR_Amatriciana.description>
+
+  <!-- EN: zabaione -->
+  <FlavorTextFR_Zabaione.label>萨巴雍甜酒蛋奶糊</FlavorTextFR_Zabaione.label>
+  <!-- EN: the yolks of {0_adj} whisked with {1_plur} and {2_plur} over a water bath, until they treble in volume. One second too long and it is a sweet omelette. -->
+  <FlavorTextFR_Zabaione.description>{0_adj}黄与{1_plur}、{2_plur}隔水加热并不断搅打，直至体积膨胀至三倍大小。哪怕多热一秒，便会变成一盘甜味炒蛋。</FlavorTextFR_Zabaione.description>
+
+</LanguageData>

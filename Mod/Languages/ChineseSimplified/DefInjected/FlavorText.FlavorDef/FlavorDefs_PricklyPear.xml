@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: prickly pear jam -->
+  <FlavorTextFR_ConfitureFigueBarbarie.label>仙人掌果果酱</FlavorTextFR_ConfitureFigueBarbarie.label>
+  <!-- EN: {0_coll} peeled with gloves — the glochids are invisible and drive themselves in — cooked with {1_plur} and scented with {2_plur}. The pips are sieved out or kept, according to one's patience. -->
+  <FlavorTextFR_ConfitureFigueBarbarie.description>{0_coll}戴上手套剥皮——那些肉眼难辨的芒刺极易扎入皮肤——加{1_plur}熬煮并以{2_plur}提香。至于里头的硬籽是滤除还是保留，全凭做酱之人的耐性。</FlavorTextFR_ConfitureFigueBarbarie.description>
+
+  <!-- EN: queso de tuna -->
+  <FlavorTextFR_QuesoDeTuna.label>墨西哥仙人掌果坚果糕</FlavorTextFR_QuesoDeTuna.label>
+  <!-- EN: the pulp of {0_adj} reduced for hours into a brown paste firm enough to be cut, loaded with {1_plur}. Despite the name there is no cheese in it: the shape of the block is what christened it. -->
+  <FlavorTextFR_QuesoDeTuna.description>{0_adj}果肉慢熬数小时，收成硬实可切的深褐果糕，内里嵌满{1_plur}。原名虽带“奶酪”二字，里头却无半点乳制品，纯粹因圆砖般的造型而得名。</FlavorTextFR_QuesoDeTuna.description>
+
+  <!-- EN: prickly pear chutney -->
+  <FlavorTextFR_ChutneyFigueBarbarie.label>仙人掌果酸甜酱</FlavorTextFR_ChutneyFigueBarbarie.label>
+  <!-- EN: {0_coll} candied in vinegar with {2_plur} and {1_plur}, until the sweet and the sour come into balance. It keeps for months and improves over the first weeks. -->
+  <FlavorTextFR_ChutneyFigueBarbarie.description>{0_coll}与{2_plur}、{1_plur}在醋中慢熬蜜渍，直至酸甜达到微妙平衡。可保存数月，且在头几周内风味愈发醇美。</FlavorTextFR_ChutneyFigueBarbarie.description>
+
+  <!-- EN: granita ai fichi d'India -->
+  <FlavorTextFR_GranitaFichiIndia.label>西西里仙人掌果冰沙</FlavorTextFR_GranitaFichiIndia.label>
+  <!-- EN: the strained juice of {0_adj}, sweetened and sharpened with {2_plur}, set in the cold and scraped with a fork every half-hour so that it stays in crystals. Eaten in Sicily at breakfast, with a brioche. -->
+  <FlavorTextFR_GranitaFichiIndia.description>过滤后的{0_adj}汁加糖并以{2_plur}提酸，送入冷处凝结，每半小时用叉子刮松一次以保持晶莹冰晶。在西西里岛，人们常在早餐时配着布里欧修甜面包一同享用。</FlavorTextFR_GranitaFichiIndia.description>
+
+  <!-- EN: gelato al fico d'India -->
+  <FlavorTextFR_GelatoFicoIndia.label>意式仙人掌果冰淇淋</FlavorTextFR_GelatoFicoIndia.label>
+  <!-- EN: a {1_adj} base churned with little air, in which the pulp of {0_adj} gives a deep pink that comes from no colouring at all. Denser than an ice cream, served with a spatula. -->
+  <FlavorTextFR_GelatoFicoIndia.description>低空气含量慢速搅打的{1_adj}基底中融入{0_adj}果浆，无需半点人工色素便呈现出深邃的粉红色。质地比普通冰淇淋更为绵密厚重，上桌时需用平铲盛取。</FlavorTextFR_GelatoFicoIndia.description>
+
+  <!-- EN: nieve de tuna -->
+  <FlavorTextFR_NieveDeTuna.label>墨西哥仙人掌果手工雪糕</FlavorTextFR_NieveDeTuna.label>
+  <!-- EN: an ice beaten by hand in a wooden pail packed round with ice and salt, as it is done in the Mexican squares. The pulp of {0_adj} and {1_coll}, and nothing else. -->
+  <FlavorTextFR_NieveDeTuna.description>一如墨西哥广场上的传统做法，将铁桶嵌在铺满碎冰与粗盐的木桶中手工搅打成冰。全凭{0_adj}果肉与{1_coll}交融，此外别无他物。</FlavorTextFR_NieveDeTuna.description>
+
+  <!-- EN: prickly pear tart -->
+  <FlavorTextFR_TarteFigueBarbarie.label>仙人掌果挞</FlavorTextFR_TarteFigueBarbarie.label>
+  <!-- EN: a shortcrust base made with {2_plur}, filled with a set {0_adj} jelly whose colour goes from magenta to garnet as it cools. -->
+  <FlavorTextFR_TarteFigueBarbarie.description>以{2_plur}揉成的甜酥挞壳内注满凝结的{0_adj}果冻，随着温度冷却，色泽由洋红渐次化作深邃的石榴红。</FlavorTextFR_TarteFigueBarbarie.description>
+
+  <!-- EN: prickly pear cheesecake -->
+  <FlavorTextFR_CheesecakeFigueBarbarie.label>仙人掌果芝士蛋糕</FlavorTextFR_CheesecakeFigueBarbarie.label>
+  <!-- EN: a {1_adj} and {2_adj} filling napped with a mirror of {0_adj}. The acidity of the fruit cuts the fat of the cheese, which red berries do less sharply. -->
+  <FlavorTextFR_CheesecakeFigueBarbarie.description>{1_adj}与{2_adj}交融的内馅之上覆一层{0_adj}镜面果胶。果实的清酸利落地化解了奶酪的厚重脂感，比寻常红浆果更为爽口。</FlavorTextFR_CheesecakeFigueBarbarie.description>
+
+  <!-- EN: prickly pears with yoghurt and pistachios -->
+  <FlavorTextFR_FigueBarbarieYaourtPistaches.label>仙人掌果开心果酸奶碗</FlavorTextFR_FigueBarbarieYaourtPistaches.label>
+  <!-- EN: {0_coll} peeled and sliced over drained {1_coll}, doused with honey and scattered with crushed {2_adj}. The dessert of late summer, from the Maghreb to the Levant. -->
+  <FlavorTextFR_FigueBarbarieYaourtPistaches.description>{0_coll}去皮切片铺在滤干乳清的厚{1_coll}上，淋满蜂蜜并撒上捣碎的{2_adj}。从马格里布到黎凡特，这都是夏末时节的经典甜点。</FlavorTextFR_FigueBarbarieYaourtPistaches.description>
+
+  <!-- EN: colonche -->
+  <FlavorTextFR_Colonche.label>墨西哥仙人掌果发酵酒</FlavorTextFR_Colonche.label>
+  <!-- EN: the juice of red {0_adj} left to ferment a few days in an earthenware jar. A pre-Hispanic drink, still sold in the markets of central Mexico. -->
+  <FlavorTextFR_Colonche.description>红{0_adj}汁盛入陶瓮中自然发酵数日而成。这种前西班牙时期的古老饮品，至今仍在墨西哥中部的集市上售卖。</FlavorTextFR_Colonche.description>
+
+  <!-- EN: salsa de tuna -->
+  <FlavorTextFR_SalsaDeTuna.label>仙人掌果莎莎酱</FlavorTextFR_SalsaDeTuna.label>
+  <!-- EN: {0_coll} in dice, {1_coll} finely chopped and red {2_coll}, with lime and coriander. The sugar of the fruit puts out the chilli without masking it. -->
+  <FlavorTextFR_SalsaDeTuna.description>切丁的{0_coll}、切碎的{1_coll}与红{2_coll}，拌入青柠汁与香菜。果肉的清甜抚平了辣椒的燥烈，却又不掩其辛香。</FlavorTextFR_SalsaDeTuna.description>
+
+  <!-- EN: nopal and prickly pear salad -->
+  <FlavorTextFR_SaladeNopalesTuna.label>仙人掌茎果双味沙拉</FlavorTextFR_SaladeNopalesTuna.label>
+  <!-- EN: the pads of the cactus despined, blanched to take out their slime and cut into strips, and the fruit of the same cactus in dice — with {1_coll} and {2_coll}. The whole plant on one plate. -->
+  <FlavorTextFR_SaladeNopalesTuna.description>仙人掌肉质茎刮刺焯水褪去黏液后切条，配以同株结出的仙人掌果丁，再拌入{1_coll}与{2_coll}。一盘之内，尽揽整株植物的风味。</FlavorTextFR_SaladeNopalesTuna.description>
+
+  <!-- EN: prickly pear and feta salad -->
+  <FlavorTextFR_SaladeFigueBarbarieFeta.label>仙人掌果菲达奶酪沙拉</FlavorTextFR_SaladeFigueBarbarieFeta.label>
+  <!-- EN: {0_coll} in quarters over a bed of bitter {2_adj}, with {1_coll} crumbled over, mint and a thread of oil. The sweetness of the fruit against the salt of the cheese. -->
+  <FlavorTextFR_SaladeFigueBarbarieFeta.description>切成四瓣的{0_coll}铺在微苦的{2_adj}叶上，撒上掰碎的{1_coll}与薄荷，再淋一线橄榄油。果肉的甘甜与奶酪的咸香交织碰撞。</FlavorTextFR_SaladeFigueBarbarieFeta.description>
+
+  <!-- EN: prickly pear ceviche -->
+  <FlavorTextFR_CevicheFigueBarbarie.label>仙人掌果酸橘汁腌海鲜</FlavorTextFR_CevicheFigueBarbarie.label>
+  <!-- EN: {1_coll} raw and cooked by the acid of {2_adj}, with {0_coll} in dice bringing the sugar and the colour. A recent invention of the Mexican Pacific coast. -->
+  <FlavorTextFR_CevicheFigueBarbarie.description>生{1_coll}借{2_adj}的果酸熟成定型，拌入{0_coll}丁增添清甜与艳色。这是墨西哥太平洋沿岸近年来兴起的新派佳肴。</FlavorTextFR_CevicheFigueBarbarie.description>
+
+  <!-- EN: prickly pear glazed chicken -->
+  <FlavorTextFR_PouletFigueBarbarie.label>仙人掌果亮釉烤鸡</FlavorTextFR_PouletFigueBarbarie.label>
+  <!-- EN: {1_coll} grilled and lacquered with a {0_adj} syrup lifted with smoked {2_plur}. The glaze goes on at the end of the cooking only: the sugar of the fruit burns fast. -->
+  <FlavorTextFR_PouletFigueBarbarie.description>{1_coll}炙烤至熟，刷上添了烟熏{2_plur}提味的{0_adj}糖浆亮釉。唯在起锅前才可刷釉——果糖极易受热焦黑。</FlavorTextFR_PouletFigueBarbarie.description>
+
+</LanguageData>

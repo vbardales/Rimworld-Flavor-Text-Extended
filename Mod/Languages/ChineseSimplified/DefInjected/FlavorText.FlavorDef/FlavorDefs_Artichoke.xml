@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: artichokes à la barigoule -->
+  <FlavorTextFR_ArtichautsBarigoule.label>巴里古勒风味焖洋蓟</FlavorTextFR_ArtichautsBarigoule.label>
+  <!-- EN: small violet artichokes turned and split, sweated in {1_plur} with a mirepoix, moistened with white {2_plur} and left to reduce dry. The name comes from a mushroom nobody has put in for two centuries. -->
+  <FlavorTextFR_ArtichautsBarigoule.description>小型紫洋蓟修整对切，与香味蔬菜碎一同在{1_plur}中慢煸，淋入白{2_plur}收干汁水。这道菜的名字源于一种早在两百年前就不再添入其中的蘑菇。</FlavorTextFR_ArtichautsBarigoule.description>
+
+  <!-- EN: artichokes vinaigrette -->
+  <FlavorTextFR_ArtichautsVinaigrette.label>油醋汁洋蓟</FlavorTextFR_ArtichautsVinaigrette.label>
+  <!-- EN: {0_coll} boiled whole and head down, served warm with a mustard vinaigrette. You pull the leaves off one by one and scrape the base of each between your teeth; the heart is kept for last. -->
+  <FlavorTextFR_ArtichautsVinaigrette.description>整颗{0_coll}倒扣水煮，趁温热佐以芥末油醋汁上桌。食客需将苞片逐一剥下，用牙齿刮食底部的嫩肉，而最精华的菜心则留到最后享尽。</FlavorTextFR_ArtichautsVinaigrette.description>
+
+  <!-- EN: stuffed artichokes -->
+  <FlavorTextFR_ArtichautsFarcis.label>酿洋蓟</FlavorTextFR_ArtichautsFarcis.label>
+  <!-- EN: {0_coll} cleared of their choke, filled with a {1_adj} stuffing bound with crumb, and braised upright in a little stock until the leaves open of their own accord. -->
+  <FlavorTextFR_ArtichautsFarcis.description>{0_coll}挖去绒毛，填入掺有面包屑的{1_adj}馅，直立于浅高汤中慢焖，直至苞片自然舒展绽开。</FlavorTextFR_ArtichautsFarcis.description>
+
+  <!-- EN: carciofi alla romana -->
+  <FlavorTextFR_CarciofiAllaRomana.label>罗马风味焖洋蓟</FlavorTextFR_CarciofiAllaRomana.label>
+  <!-- EN: {0_coll} trimmed down to the tender heart, stuffed with {1_plur} and Roman mint, planted stem upwards in a narrow pan and sweated in oil and water. -->
+  <FlavorTextFR_CarciofiAllaRomana.description>{0_coll}修剪至仅留嫩心，酿入{1_plur}与罗马薄荷，茎部朝上密排于窄锅中，以油水慢焖至熟软。</FlavorTextFR_CarciofiAllaRomana.description>
+
+  <!-- EN: carciofi alla giudia -->
+  <FlavorTextFR_CarciofiAllaGiudia.label>犹太风味酥炸洋蓟</FlavorTextFR_CarciofiAllaGiudia.label>
+  <!-- EN: {0_coll} whole fried twice over, crushed between the two fryings so that the leaves open into a flower and turn as brittle as crisps. An invention of the Roman ghetto. -->
+  <FlavorTextFR_CarciofiAllaGiudia.description>整颗{0_coll}经两次油炸，复炸前按扁使其苞片如花朵般绽放，口感酥脆如薯片。这是昔日罗马犹太聚居区的独创名菜。</FlavorTextFR_CarciofiAllaGiudia.description>
+
+  <!-- EN: risotto ai carciofi -->
+  <FlavorTextFR_RisottoAiCarciofi.label>洋蓟意式炖饭</FlavorTextFR_RisottoAiCarciofi.label>
+  <!-- EN: {1_coll} pearled and moistened ladle by ladle, {0_coll} cut into slivers and added in two goes — the first at the start to melt away, the rest at the end to stay firm — then bound with {2_plur}. -->
+  <FlavorTextFR_RisottoAiCarciofi.description>{1_coll}炒至半透明后逐勺添汤慢烩，切丝的{0_coll}分两次下锅——头一批随米同煮至融化入味，后一批起锅前才下以保爽脆——最后拌入{2_plur}乳化收浓。</FlavorTextFR_RisottoAiCarciofi.description>
+
+  <!-- EN: pasta ai carciofi -->
+  <FlavorTextFR_PastaAiCarciofi.label>洋蓟意面</FlavorTextFR_PastaAiCarciofi.label>
+  <!-- EN: {0_coll} shaved fine and melted down in {2_plur} and oil, let down with a little cooking water to bind the pasta without cream. -->
+  <FlavorTextFR_PastaAiCarciofi.description>{0_coll}削成薄片，在{2_plur}与热油中慢煸至软融，兑入少许煮面水使其无需奶油便能浓稠地裹住面条。</FlavorTextFR_PastaAiCarciofi.description>
+
+  <!-- EN: frittata di carciofi -->
+  <FlavorTextFR_FrittataDiCarciofi.label>洋蓟意式烘蛋</FlavorTextFR_FrittataDiCarciofi.label>
+  <!-- EN: {0_coll} fried until they gild, drowned in {1_plur} beaten with {2_plur}, cooked over a very low flame then turned over with a plate. Eaten cold, cut into wedges. -->
+  <FlavorTextFR_FrittataDiCarciofi.description>{0_coll}煎至金黄，淋入同{2_plur}打散的{1_plur}液，微火慢烘后借盘子翻面煎熟。放凉后切角享用。</FlavorTextFR_FrittataDiCarciofi.description>
+
+  <!-- EN: parmigiana di carciofi -->
+  <FlavorTextFR_ParmigianaDiCarciofi.label>帕尔马风味千层烤洋蓟</FlavorTextFR_ParmigianaDiCarciofi.label>
+  <!-- EN: {0_coll} sliced, floured and fried, built up in layers with {1_plur} and {2_plur}, then browned. Less known than the aubergine version, and finer. -->
+  <FlavorTextFR_ParmigianaDiCarciofi.description>{0_coll}切片拍粉油炸，与{1_plur}及{2_plur}层层叠起，入炉烤至表面焦黄。虽不如茄子版广为人知，风味却更为精妙。</FlavorTextFR_ParmigianaDiCarciofi.description>
+
+  <!-- EN: artichoke pizza -->
+  <FlavorTextFR_PizzaAuxArtichauts.label>洋蓟披萨</FlavorTextFR_PizzaAuxArtichauts.label>
+  <!-- EN: {0_coll} marinated in oil and laid on the base at the last moment, with {2_coll} — one of the four quarters of a capricciosa, promoted to a whole dish. -->
+  <FlavorTextFR_PizzaAuxArtichauts.description>油浸{0_coll}在最后关头与{2_coll}一同铺上饼底——原本只是随想曲披萨四角配料之一，如今独占鳌头自成一格。</FlavorTextFR_PizzaAuxArtichauts.description>
+
+  <!-- EN: alcachofas con jamón -->
+  <FlavorTextFR_AlcachofasConJamon.label>火腿炒洋蓟</FlavorTextFR_AlcachofasConJamon.label>
+  <!-- EN: {0_coll} blanched and then fried in {2_plur} with {1_plur} cut into dice, which gives up its fat and salts the dish without anything else being added. -->
+  <FlavorTextFR_AlcachofasConJamon.description>{0_coll}焯水后与切丁的{1_plur}同入{2_plur}油锅煸炒，肉丁析出脂香与咸味，无需额外调料便已滋味十足。</FlavorTextFR_AlcachofasConJamon.description>
+
+  <!-- EN: aginares a la polita -->
+  <FlavorTextFR_AginaresAlaPolita.label>君士坦丁堡风味炖洋蓟</FlavorTextFR_AginaresAlaPolita.label>
+  <!-- EN: {0_coll} braised in oil with {1_coll} and carrots, bound with an {2_adj} avgolemono mounted off the heat. In the manner of the City — meaning Constantinople. -->
+  <FlavorTextFR_AginaresAlaPolita.description>{0_coll}与{1_coll}、胡萝卜以橄榄油慢炖，离火后拌入{2_adj}蛋黄酱汁收浓。所谓“都城风味”，指的正是君士坦丁堡。</FlavorTextFR_AginaresAlaPolita.description>
+
+  <!-- EN: zeytinyağlı enginar -->
+  <FlavorTextFR_ZeytinyagliEnginar.label>土耳其橄榄油冷浸洋蓟</FlavorTextFR_ZeytinyagliEnginar.label>
+  <!-- EN: the bottoms of {0_adj} filled with {2_plur} and diced carrot, cooked in {1_adj} oil and cooled in it. Turkish olive-oil dishes are always eaten cold. -->
+  <FlavorTextFR_ZeytinyagliEnginar.description>{0_adj}底托盛满{2_plur}与胡萝卜丁，在{1_adj}油中焖熟并原汁放凉。土耳其的橄榄油菜肴向来冷食。</FlavorTextFR_ZeytinyagliEnginar.description>
+
+  <!-- EN: dolma qarnoun -->
+  <FlavorTextFR_DolmaQarnoun.label>阿尔及利亚酿洋蓟</FlavorTextFR_DolmaQarnoun.label>
+  <!-- EN: the bottoms of {0_adj} filled with a hash of {1_adj} and {2_adj}, stewed in a white lemon sauce. The Algerian dish of spring, when the cardoons come in. -->
+  <FlavorTextFR_DolmaQarnoun.description>{0_adj}底托酿入{1_adj}与{2_adj}拌成的碎馅，在白色柠檬汁中慢炖。这是阿尔及利亚春季刺菜蓟上市时的时令佳肴。</FlavorTextFR_DolmaQarnoun.description>
+
+  <!-- EN: artichoke tagine -->
+  <FlavorTextFR_TajineDArtichauts.label>洋蓟塔吉锅</FlavorTextFR_TajineDArtichauts.label>
+  <!-- EN: {1_coll} stewed with saffron and ginger, {0_coll} added halfway through so as not to fall apart, and preserved {2_coll} at the very end. -->
+  <FlavorTextFR_TajineDArtichauts.description>{1_coll}加藏红花与生姜慢炖，中途放入{0_coll}以防炖烂散架，起锅前再添入盐渍{2_coll}提味。</FlavorTextFR_TajineDArtichauts.description>
+
+  <!-- EN: spinach and artichoke dip -->
+  <FlavorTextFR_SpinachArtichokeDip.label>菠菜洋蓟芝士蘸酱</FlavorTextFR_SpinachArtichokeDip.label>
+  <!-- EN: {0_coll} and {1_coll} chopped and drowned in melted {2_plur}, browned and served boiling with something to dip. The American party dish above all others, and nobody stops in time. -->
+  <FlavorTextFR_SpinachArtichokeDip.description>{0_coll}与{1_coll}切碎后浸满融化的{2_plur}，烤至焦黄冒泡，趁滚烫配着脆片蘸食。这是美式派对上当仁不让的头牌，没人能适时停嘴。</FlavorTextFR_SpinachArtichokeDip.description>
+
+</LanguageData>

@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: misir wat -->
+  <FlavorTextFR_MisirWatDuo.label>埃塞俄比亚香辣红扁豆泥</FlavorTextFR_MisirWatDuo.label>
+  <!-- EN: red {0_coll} melted down in a spiced butter and a mixture of {1_adj}, until they form nothing but a dark purée. Eaten without utensils, pinched up in a spongy flatbread. -->
+  <FlavorTextFR_MisirWatDuo.description>红{0_coll}在香料黄油与{1_adj}碎中慢熬，直至彻底融成一锅深色浓泥。食用时不设刀叉，只用气孔密布的软薄饼拈取。</FlavorTextFR_MisirWatDuo.description>
+
+  <!-- EN: artichokes vinaigrette -->
+  <FlavorTextFR_ArtichautsVinaigretteDuo.label>油醋汁洋蓟</FlavorTextFR_ArtichautsVinaigretteDuo.label>
+  <!-- EN: {0_coll} boiled whole and head down, served warm with a mustard vinaigrette. You pull the leaves off one by one and scrape the base of each between your teeth; the heart is kept for last. -->
+  <FlavorTextFR_ArtichautsVinaigretteDuo.description>整颗{0_coll}倒扣水煮，趁温热佐以芥末油醋汁上桌。食客需将苞片逐一剥下，用牙齿刮食底部的嫩肉，而最精华的菜心则留到最后享尽。</FlavorTextFR_ArtichautsVinaigretteDuo.description>
+
+  <!-- EN: stuffed artichokes -->
+  <FlavorTextFR_ArtichautsFarcisDuo.label>酿洋蓟</FlavorTextFR_ArtichautsFarcisDuo.label>
+  <!-- EN: {0_coll} cleared of their choke, filled with a {1_adj} stuffing bound with crumb, and braised upright in a little stock until the leaves open of their own accord. -->
+  <FlavorTextFR_ArtichautsFarcisDuo.description>{0_coll}挖去绒毛，填入掺有面包屑的{1_adj}馅，直立于浅高汤中慢焖，直至苞片自然舒展绽开。</FlavorTextFR_ArtichautsFarcisDuo.description>
+
+  <!-- EN: carciofi alla romana -->
+  <FlavorTextFR_CarciofiAllaRomanaDuo.label>罗马风味焖洋蓟</FlavorTextFR_CarciofiAllaRomanaDuo.label>
+  <!-- EN: {0_coll} trimmed down to the tender heart, stuffed with {1_plur} and Roman mint, planted stem upwards in a narrow pan and sweated in oil and water. -->
+  <FlavorTextFR_CarciofiAllaRomanaDuo.description>{0_coll}修剪至仅留嫩心，酿入{1_plur}与罗马薄荷，茎部朝上密排于窄锅中，以油水慢焖至熟软。</FlavorTextFR_CarciofiAllaRomanaDuo.description>
+
+  <!-- EN: carciofi alla giudia -->
+  <FlavorTextFR_CarciofiAllaGiudiaDuo.label>犹太风味酥炸洋蓟</FlavorTextFR_CarciofiAllaGiudiaDuo.label>
+  <!-- EN: {0_coll} whole fried twice over, crushed between the two fryings so that the leaves open into a flower and turn as brittle as crisps. An invention of the Roman ghetto. -->
+  <FlavorTextFR_CarciofiAllaGiudiaDuo.description>整颗{0_coll}经两次油炸，复炸前按扁使其苞片如花朵般绽放，口感酥脆如薯片。这是昔日罗马犹太聚居区的独创名菜。</FlavorTextFR_CarciofiAllaGiudiaDuo.description>
+
+  <!-- EN: artichoke pizza -->
+  <FlavorTextFR_PizzaAuxArtichautsDuo.label>洋蓟披萨</FlavorTextFR_PizzaAuxArtichautsDuo.label>
+  <!-- EN: {0_coll} marinated in oil and laid on the base at the last moment, with {1_coll} — one of the four quarters of a capricciosa, promoted to a whole dish. -->
+  <FlavorTextFR_PizzaAuxArtichautsDuo.description>油浸{0_coll}在最后关头与{1_coll}一同铺上饼底——原本只是随想曲披萨四角配料之一，如今独占鳌头自成一格。</FlavorTextFR_PizzaAuxArtichautsDuo.description>
+
+  <!-- EN: asparagus à la flamande -->
+  <FlavorTextFR_AspergesFlamandeDuo.label>佛兰德斯风味芦笋</FlavorTextFR_AspergesFlamandeDuo.label>
+  <!-- EN: white {0_coll} served with a hard-boiled egg crushed with a fork into melted butter, parsley and a grating of nutmeg. Everyone mixes their own sauce on their own plate. -->
+  <FlavorTextFR_AspergesFlamandeDuo.description>白{0_coll}佐以叉子碾碎的全熟水煮蛋、融化黄油、欧芹与现磨肉豆蔻。食客各自在盘中拌匀酱料享用。</FlavorTextFR_AspergesFlamandeDuo.description>
+
+  <!-- EN: asparagus tart -->
+  <FlavorTextFR_TarteAuxAspergesDuo.label>芦笋挞</FlavorTextFR_TarteAuxAspergesDuo.label>
+  <!-- EN: {0_coll} laid out in spokes over a blind-baked base, with a {1_adj} cream between them. Tips to the centre, ends to the rim: that is the only way every slice gets one. -->
+  <FlavorTextFR_TarteAuxAspergesDuo.description>{0_coll}在盲烤过的挞皮上呈辐条状铺开，间隙填满{1_adj}奶酱。嫩尖朝心、根茎朝边——唯有如此，切开的每一块才能分得笋尖。</FlavorTextFR_TarteAuxAspergesDuo.description>
+
+  <!-- EN: brussels sprout curry -->
+  <FlavorTextFR_ChouxBruxellesCurryDuo.label>咖哩抱子甘蓝</FlavorTextFR_ChouxBruxellesCurryDuo.label>
+  <!-- EN: {0_coll} quartered and stewed in a {1_adj} milk built on cumin, turmeric and mustard seeds burst in hot oil. -->
+  <FlavorTextFR_ChouxBruxellesCurryDuo.description>四瓣切开的{0_coll}在热油爆香孜然、姜黄与芥菜籽的{1_adj}浆中慢炖入味。</FlavorTextFR_ChouxBruxellesCurryDuo.description>
+
+  <!-- EN: pear and gorgonzola pizza -->
+  <FlavorTextFR_PizzaPoireGorgonzolaDuo.label>香梨戈贡佐拉披萨</FlavorTextFR_PizzaPoireGorgonzolaDuo.label>
+  <!-- EN: a white base with no tomato, {1_coll} in drops and {0_coll} in slices laid on halfway through the baking so that they do not dry out, with a thread of honey as it comes out. -->
+  <FlavorTextFR_PizzaPoireGorgonzolaDuo.description>不用番茄酱的白底饼皮，点缀着一簇簇{1_coll}，烘烤过半时才铺上切片的{0_coll}以免烤干，出炉之际再淋上一缕蜂蜜。</FlavorTextFR_PizzaPoireGorgonzolaDuo.description>
+
+  <!-- EN: fig and goat's cheese crostini -->
+  <FlavorTextFR_CrostiniFigueChevreDuo.label>无花果山羊奶酪烤面包片</FlavorTextFR_CrostiniFigueChevreDuo.label>
+  <!-- EN: slices of toasted bread, fresh {1_coll} crushed over them and {0_coll} opened in four, run under the grill for thirty seconds. The honey goes on after, never before. -->
+  <FlavorTextFR_CrostiniFigueChevreDuo.description>烘脆的面包片上碾开新鲜{1_coll}，放上十字切开的{0_coll}，送入炙炉烘烤三十秒。蜂蜜必须在出炉后淋上，切不可提前。</FlavorTextFR_CrostiniFigueChevreDuo.description>
+
+  <!-- EN: apple and cheddar toastie -->
+  <FlavorTextFR_GrilledCheesePommeCheddarDuo.label>苹果切达奶酪热压三明治</FlavorTextFR_GrilledCheesePommeCheddarDuo.label>
+  <!-- EN: aged {1_coll} and {0_coll} in fine slivers between two buttered slices, pressed in the pan. The apple gives up a little water that keeps the cheese from setting. -->
+  <FlavorTextFR_GrilledCheesePommeCheddarDuo.description>两片抹了黄油的面包之间夹入陈年{1_coll}与切成薄片的{0_coll}，在平底锅中压烤而成。苹果渗出的些微汁水恰好能让奶酪保持柔润而不凝结。</FlavorTextFR_GrilledCheesePommeCheddarDuo.description>
+
+  <!-- EN: hot goat's cheese with cherries -->
+  <FlavorTextFR_ChevreChaudAuxCerisesDuo.label>樱桃热烤山羊奶酪</FlavorTextFR_ChevreChaudAuxCerisesDuo.label>
+  <!-- EN: a round of {1_adj} set on a slice of bread and put in the oven until it runs, with {0_coll} fried in vinegar. The acidity of the fruit cuts the fat of the hot cheese. -->
+  <FlavorTextFR_ChevreChaudAuxCerisesDuo.description>将一圆块{1_adj}置于面包片上，送入烤箱烘至微融流淌，佐以用醋煎过的{0_coll}。果实的酸爽恰好化解了热奶酪的丰腴脂香。</FlavorTextFR_ChevreChaudAuxCerisesDuo.description>
+
+  <!-- EN: cheese-stuffed mushrooms -->
+  <FlavorTextFR_ChampignonsFarcisDuo.label>芝士酿蘑菇</FlavorTextFR_ChampignonsFarcisDuo.label>
+  <!-- EN: {0_coll} destalked and filled with a {1_adj} stuffing and breadcrumbs, baked until they give up their water and take it back again. -->
+  <FlavorTextFR_ChampignonsFarcisDuo.description>去蒂的{0_coll}中填入{1_adj}馅料与面包糠，送入烤箱烘至蘑菇渗出汁水又重新将其吸饱。</FlavorTextFR_ChampignonsFarcisDuo.description>
+
+  <!-- EN: saganaki -->
+  <FlavorTextFR_SaganakiDuo.label>希腊香煎奶酪</FlavorTextFR_SaganakiDuo.label>
+  <!-- EN: a thick slice of hard {0_adj} floured and seared in a small two-handled pan, until a crust forms. Doused with {1_plur} at the table, and sometimes flamed. -->
+  <FlavorTextFR_SaganakiDuo.description>厚切硬质{0_adj}拍上面粉，在双耳小平底锅中猛火煎出金黄焦壳。上桌时淋上{1_plur}汁，有时还会点火炙烤。</FlavorTextFR_SaganakiDuo.description>
+
+  <!-- EN: ricotta and spinach gnudi -->
+  <FlavorTextFR_GnudiDuo.label>里科塔菠菜裸团子</FlavorTextFR_GnudiDuo.label>
+  <!-- EN: the filling of a ravioli without its wrapper — {0_coll} and {1_coll} bound with a little flour and poached naked. Gnudi means undressed. -->
+  <FlavorTextFR_GnudiDuo.description>褪去了面皮的意式方饺内馅——用少许面粉将{0_coll}与{1_coll}揉合，直接赤裸下水微沸汆熟。“Gnudi”在意大利语中正是“赤裸”之意。</FlavorTextFR_GnudiDuo.description>
+
+  <!-- EN: grilled halloumi with vegetables -->
+  <FlavorTextFR_HalloumiGrilleLegumesDuo.label>炙烤哈罗米奶酪配时蔬</FlavorTextFR_HalloumiGrilleLegumesDuo.label>
+  <!-- EN: {0_coll} sliced thick and grilled until it takes the bars without melting — it is the only cheese that holds on a grill — with roasted {1_coll} and za'atar. -->
+  <FlavorTextFR_HalloumiGrilleLegumesDuo.description>厚切{0_coll}在烤架上炙出焦痕而不融化——这是唯一能在烤架上保持成形的奶酪——佐以烘烤{1_coll}与中东百里香碎。</FlavorTextFR_HalloumiGrilleLegumesDuo.description>
+
+  <!-- EN: xiaolongbao -->
+  <FlavorTextFR_XiaolongbaoDuo.label>小笼包</FlavorTextFR_XiaolongbaoDuo.label>
+  <!-- EN: dumplings pleated eighteen times, filled with {1_plur} and a jelly of stock that turns back to liquid in the steam. You pierce them before biting, on pain of a burn. -->
+  <FlavorTextFR_XiaolongbaoDuo.description>捏出十八道褶的薄皮包子，裹着{1_plur}馅与遇热化作滚烫浓汤的高汤皮冻。动口前必先咬破小口吸汤，否则定要烫伤舌头。</FlavorTextFR_XiaolongbaoDuo.description>
+
+  <!-- EN: xiaolongbao -->
+  <FlavorTextFR_XiaolongbaoSolo.label>小笼包</FlavorTextFR_XiaolongbaoSolo.label>
+  <!-- EN: dumplings pleated eighteen times, filled with {0_plur} and a jelly of stock that turns back to liquid in the steam. You pierce them before biting, on pain of a burn. -->
+  <FlavorTextFR_XiaolongbaoSolo.description>捏出十八道褶的薄皮包子，裹着{0_plur}馅与遇热化作滚烫浓汤的高汤皮冻。动口前必先咬破小口吸汤，否则定要烫伤舌头。</FlavorTextFR_XiaolongbaoSolo.description>
+
+  <!-- EN: wonton -->
+  <FlavorTextFR_WontonDuo.label>馄饨</FlavorTextFR_WontonDuo.label>
+  <!-- EN: squares of dough so fine that the {0_adj} filling shows through, closed with a pinch and poached in a {1_adj} broth. The tail of dough floats and ripples: that is what gave them their name. -->
+  <FlavorTextFR_WontonDuo.description>薄如蝉翼的方皮透出里头的{0_adj}馅，信手一捏封口，下入{1_adj}清汤中氽熟。裙边在汤中如云朵般舒展飘荡，“云吞”之名便由此而来。</FlavorTextFR_WontonDuo.description>
+
+  <!-- EN: peking duck -->
+  <FlavorTextFR_CanardLaqueDuo.label>北京烤鸭</FlavorTextFR_CanardLaqueDuo.label>
+  <!-- EN: a bird blown full of air to lift the skin off the flesh, scalded, lacquered with {1_plur} and dried a day in the wind before roasting. The skin is served first, in fine pancakes, and the meat afterwards. -->
+  <FlavorTextFR_CanardLaqueDuo.description>往禽身吹气使皮肉分离，经沸水烫皮、挂上{1_plur}糖水，再晾吹一日后入炉烤制。油亮酥脆的鸭皮先片下卷入薄饼享用，鸭肉随后再上。</FlavorTextFR_CanardLaqueDuo.description>
+
+  <!-- EN: bœuf miroton -->
+  <FlavorTextFR_BoeufMirotonDuo.label>米罗东洋葱烩牛肉</FlavorTextFR_BoeufMirotonDuo.label>
+  <!-- EN: the {0_adj} left over from the pot-au-feu, sliced and reheated in a {1_adj} sauce with vinegar and mustard. A dish born of thrift and kept on for the taste of it. -->
+  <FlavorTextFR_BoeufMirotonDuo.description>法式火上锅吃剩的{0_adj}，切片后在加了香醋与芥末的{1_adj}酱汁中回锅煨热。这是一道源于节俭、却因风味绝佳而世代流传的家常菜。</FlavorTextFR_BoeufMirotonDuo.description>
+
+  <!-- EN: tongue in sauce piquante -->
+  <FlavorTextFR_LangueSaucePiquanteDuo.label>酸辣酱烩口条</FlavorTextFR_LangueSaucePiquanteDuo.label>
+  <!-- EN: {0_coll} poached for hours then peeled while still hot — cold, the skin will not come away — served under a {1_adj} sauce with vinegar and gherkins. -->
+  <FlavorTextFR_LangueSaucePiquanteDuo.description>慢火微沸数小时后趁热剥去舌苔的{0_coll}——一旦放凉，外皮便再也揭不下来——淋上调入香醋与酸黄瓜的{1_adj}酸辣浓汁上桌。</FlavorTextFR_LangueSaucePiquanteDuo.description>
+
+  <!-- EN: tête de veau sauce gribiche -->
+  <FlavorTextFR_TeteDeVeauGribicheDuo.label>格里比什酱佐小牛头肉</FlavorTextFR_TeteDeVeauGribicheDuo.label>
+  <!-- EN: {0_coll} rolled and poached in a white broth, served warm under a sauce built on hard-boiled {1_adj} yolks, lifted with capers and herbs. You either eat it or you do not; there is no middle ground. -->
+  <FlavorTextFR_TeteDeVeauGribicheDuo.description>卷起后在白汤中慢火煨熟的{0_coll}，温热上桌，佐以用全熟{1_adj}黄打底、刺山柑与香草提鲜的冷乳化酱。这道菜要么让人甘之如饴，要么让人退避三舍，绝无折中之道。</FlavorTextFR_TeteDeVeauGribicheDuo.description>
+
+  <!-- EN: tablier de sapeur -->
+  <FlavorTextFR_TriplesLyonnaisesDuo.label>里昂工兵围裙炸牛肚</FlavorTextFR_TriplesLyonnaisesDuo.label>
+  <!-- EN: a piece of {0_adj} marinated in white wine, crumbed with {1_plur} and breadcrumbs, then grilled. The name comes from a marshal of Lyon who had been a sapper in his youth. -->
+  <FlavorTextFR_TriplesLyonnaisesDuo.description>白葡萄酒腌制入味的{0_adj}，裹上{1_plur}液与面包糠后炙烤至金黄酥脆。菜名意为“工兵围裙”，典出一位年轻时当过工兵的里昂元帅。</FlavorTextFR_TriplesLyonnaisesDuo.description>
+
+  <!-- EN: andouillette and chips -->
+  <FlavorTextFR_AndouilletteFritesDuo.label>法式猪肚肠配薯条</FlavorTextFR_AndouilletteFritesDuo.label>
+  <!-- EN: an andouillette grilled until the skin splits open, with {1_coll} in batons and a spoonful of mustard. You either love it or you leave the table. -->
+  <FlavorTextFR_AndouilletteFritesDuo.description>烤到肠衣爆裂的法式猪肚肠，配上切成粗条的{1_coll}与一勺芥末酱。这道菜要么让人爱不释口，要么让人掩鼻离席。</FlavorTextFR_AndouilletteFritesDuo.description>
+
+  <!-- EN: palette à la diable -->
+  <FlavorTextFR_PaletteALaDiableDuo.label>魔鬼风味芥末烤猪肩肉</FlavorTextFR_PaletteALaDiableDuo.label>
+  <!-- EN: smoked {0_coll} poached, painted over with {1_plur} and breadcrumbs, then run under the grill until it crusts. À la diable means only this: mustarded and scalding. -->
+  <FlavorTextFR_PaletteALaDiableDuo.description>先经微沸慢煮的烟熏{0_coll}，表面刷满{1_plur}并裹上面包糠，再送入明火下炙烤出酥脆硬壳。所谓“魔鬼风味”无非如此：辛辣呛鼻，滚烫灼口。</FlavorTextFR_PaletteALaDiableDuo.description>
+
+  <!-- EN: ham on the bone -->
+  <FlavorTextFR_JambonALOsDuo.label>带骨整火腿</FlavorTextFR_JambonALOsDuo.label>
+  <!-- EN: a whole piece of {0_adj} cooked on its bone and carved in front of you. The flesh against the bone is the best of it, and the last to be served. -->
+  <FlavorTextFR_JambonALOsDuo.description>整只带骨烹熟、当面现片的{0_adj}火腿。贴骨肉最是鲜美，也总是留到最后才分食。</FlavorTextFR_JambonALOsDuo.description>
+
+  <!-- EN: {0_adj} shank -->
+  <FlavorTextFR_SourisDAgneauDuo.label>红焖{0_adj}小腿</FlavorTextFR_SourisDAgneauDuo.label>
+  <!-- EN: the small muscle of the shank, braised so long that it slides off the bone. One shank per guest, never fewer. -->
+  <FlavorTextFR_SourisDAgneauDuo.description>小腿骨上那块饱满的腱子肉，经漫长慢焖直至轻触脱骨。待客之礼是一人一整只，绝不可少。</FlavorTextFR_SourisDAgneauDuo.description>
+
+  <!-- EN: {0_adj} shank -->
+  <FlavorTextFR_SourisDAgneauSolo.label>红焖{0_adj}小腿</FlavorTextFR_SourisDAgneauSolo.label>
+  <!-- EN: the small muscle of the shank, braised so long that it slides off the bone. One shank per guest, never fewer. -->
+  <FlavorTextFR_SourisDAgneauSolo.description>小腿骨上那块饱满的腱子肉，经漫长慢焖直至轻触脱骨。待客之礼是一人一整只，绝不可少。</FlavorTextFR_SourisDAgneauSolo.description>
+
+  <!-- EN: stuffed cabbage -->
+  <FlavorTextFR_ChouFarciDuo.label>法式整颗酿卷心菜</FlavorTextFR_ChouFarciDuo.label>
+  <!-- EN: a whole cabbage blanched and opened leaf by leaf, packed with {1_plur} between every layer, then closed up in a cloth and poached for hours. It is cut into wedges, like a cake. -->
+  <FlavorTextFR_ChouFarciDuo.description>整颗焯水后逐叶展开的卷心菜，每层菜叶间皆铺满{1_plur}，重新拢合后以棉布扎紧，入汤微沸慢煨数小时。上桌时如分切蛋糕一般切成楔形块。</FlavorTextFR_ChouFarciDuo.description>
+
+  <!-- EN: croque-madame -->
+  <FlavorTextFR_CroqueMadameDuo.label>库克夫人三明治</FlavorTextFR_CroqueMadameDuo.label>
+  <!-- EN: a croque-monsieur crowned with a fried egg, whose broken yolk serves as the sauce. The hat is what earns it the name. -->
+  <FlavorTextFR_CroqueMadameDuo.description>顶上冠以一枚煎蛋的库克先生三明治，划破的流心蛋黄便是天然酱汁。正是这顶宛如淑女礼帽的煎蛋，为它赢得了“夫人”之名。</FlavorTextFR_CroqueMadameDuo.description>
+
+  <!-- EN: onion tart -->
+  <FlavorTextFR_TarteALOignonDuo.label>法式洋葱挞</FlavorTextFR_TarteALOignonDuo.label>
+  <!-- EN: {0_coll} stewed an hour without taking any colour, mixed with smoked {1_plur} and spread over a shortcrust base. Alsatian or Lyonnais, according to the hand that made it. -->
+  <FlavorTextFR_TarteALOignonDuo.description>小火慢煨一小时却绝不焦黄的{0_coll}，拌入烟熏{1_plur}后铺满酥脆派底。究竟属阿尔萨斯风味还是里昂风味，全看掌勺人的手笔。</FlavorTextFR_TarteALOignonDuo.description>
+
+  <!-- EN: pâté en croûte -->
+  <FlavorTextFR_PateEnCrouteDuo.label>法式酥皮肉派</FlavorTextFR_PateEnCrouteDuo.label>
+  <!-- EN: a stuffing of {0_adj} and {1_adj} built into a terrine of pastry, baked with a chimney, then filled with jelly through that hole once it has cooled. Cut clean, cold, never warm. -->
+  <FlavorTextFR_PateEnCrouteDuo.description>将{0_adj}与{1_adj}制成的肉馅填入酥皮模具，顶留气孔入炉烘烤，待放凉后再顺着气孔灌满高汤冻。必须彻底冰透后利落切片，绝不可温食。</FlavorTextFR_PateEnCrouteDuo.description>
+
+  <!-- EN: vol-au-vent -->
+  <FlavorTextFR_VolAuVentDuo.label>法式千层酥盒</FlavorTextFR_VolAuVentDuo.label>
+  <!-- EN: a puff pastry case so light it might fly away — hence the name — filled with {0_adj} and {1_adj} in a white sauce, and topped again with its own lid. -->
+  <FlavorTextFR_VolAuVentDuo.description>轻盈得仿佛一阵风便能吹走的千层酥皮盒——法语原名即由此而来——内填白汁烩制的{0_adj}与{1_adj}，顶上再轻轻合回酥皮小盖。</FlavorTextFR_VolAuVentDuo.description>
+
+  <!-- EN: pound cake -->
+  <FlavorTextFR_QuatreQuartsDuo.label>四分之一磅蛋糕</FlavorTextFR_QuatreQuartsDuo.label>
+  <!-- EN: as much flour as {0_adj}, as sugar, as {1_adj} — four equal quarters, which is what the French name says. You weigh the eggs first and everything else follows. -->
+  <FlavorTextFR_QuatreQuartsDuo.description>面粉、{0_adj}、糖与{1_adj}份量完全相等——四者各占四分之一，正如其法文原名所示。做时先称量蛋的重量，其余一切皆以此为准。</FlavorTextFR_QuatreQuartsDuo.description>
+
+  <!-- EN: yoghurt cake -->
+  <FlavorTextFR_GateauAuYaourtDuo.label>法式酸奶蛋糕</FlavorTextFR_GateauAuYaourtDuo.label>
+  <!-- EN: the {0_adj} pot serves as the measure for everything else. The first cake anyone learns to make, and the only one whose recipe is never forgotten. -->
+  <FlavorTextFR_GateauAuYaourtDuo.description>空出来的{0_adj}杯便是丈量其余一切食材的量杯。这是每个人学会做的第一款蛋糕，也是唯一一个永远不会被遗忘的配方。</FlavorTextFR_GateauAuYaourtDuo.description>
+
+  <!-- EN: paris-brest -->
+  <FlavorTextFR_ParisBrestDuo.label>巴黎布雷斯特泡芙</FlavorTextFR_ParisBrestDuo.label>
+  <!-- EN: a ring of choux pastry split and filled with a {0_adj} praline cream. The shape imitates a bicycle wheel: the pastry cook had his shop on the route of the race. -->
+  <FlavorTextFR_ParisBrestDuo.description>环形泡芙酥皮横向剖开，填入{0_adj}帕林内焦糖奶油霜。它的造型仿自自行车轮——创制它的甜点师，当年就在这项自行车赛的途经路线上开店。</FlavorTextFR_ParisBrestDuo.description>
+
+  <!-- EN: mille-feuille -->
+  <FlavorTextFR_MilleFeuilleDuo.label>拿破仑千层酥</FlavorTextFR_MilleFeuilleDuo.label>
+  <!-- EN: three sheets of puff pastry baked under a weight to stay flat, built up with a {1_adj} pastry cream. Eaten lying on its side: nobody has ever managed it any other way. -->
+  <FlavorTextFR_MilleFeuilleDuo.description>三层千层酥皮压上重物烤得平整薄脆，层层夹入{1_adj}卡仕达酱叠起。吃时总得将它放倒侧切——从古至今，没人能用别的法子体面地切开它。</FlavorTextFR_MilleFeuilleDuo.description>
+
+  <!-- EN: coffee éclair -->
+  <FlavorTextFR_EclairAuCafeDuo.label>咖啡闪电泡芙</FlavorTextFR_EclairAuCafeDuo.label>
+  <!-- EN: a length of choux pastry filled with a {0_adj} cream and iced in the same flavour. The name is said to come from how fast it is eaten. -->
+  <FlavorTextFR_EclairAuCafeDuo.description>修长的泡芙内填满{0_adj}奶油馅，表面再覆上一层同味糖霜。据说“闪电”之名，正是源于人们将它一扫而光的速度。</FlavorTextFR_EclairAuCafeDuo.description>
+
+  <!-- EN: rum baba -->
+  <FlavorTextFR_BabaAuRhumDuo.label>朗姆巴巴蛋糕</FlavorTextFR_BabaAuRhumDuo.label>
+  <!-- EN: a risen dough dried out on purpose, then drowned in a warm {1_adj} syrup with {0_plur} until it can take up no more. Pressed gently, it should give juice back. -->
+  <FlavorTextFR_BabaAuRhumDuo.description>发酵面团烤成刻意偏干的蛋糕坯，再浸入兑了{0_plur}的温热{1_adj}糖浆中直至吸饱。用勺轻按时，糕体应当能渗出丰盈的汁水。</FlavorTextFR_BabaAuRhumDuo.description>
+
+  <!-- EN: profiteroles -->
+  <FlavorTextFR_ProfiterolesDuo.label>热巧克力淋冰淇淋泡芙</FlavorTextFR_ProfiterolesDuo.label>
+  <!-- EN: small choux buns filled with {1_adj} ice cream, drowned under hot {0_coll} poured in front of the guests. The clash of temperatures is the whole dessert. -->
+  <FlavorTextFR_ProfiterolesDuo.description>小巧的圆泡芙中填满{1_adj}冰淇淋，当着宾客的面淋下滚烫的{0_coll}酱。冷与热的交锋，便是整道甜点的灵魂所在。</FlavorTextFR_ProfiterolesDuo.description>
+
+  <!-- EN: madeleines -->
+  <FlavorTextFR_MadeleineDuo.label>玛德琳贝壳蛋糕</FlavorTextFR_MadeleineDuo.label>
+  <!-- EN: a batter rested in the cold then put into a very hot oven: the thermal shock makes the hump, and a madeleine without a hump has failed. Scented with {1_plur}. -->
+  <FlavorTextFR_MadeleineDuo.description>面糊先经冷藏静置，再猛然送入高温烤箱：冷热骤变的冲击会催生出标志性的凸起小肚脐，而没有小肚脐的玛德琳便算失败之作。糕体中萦绕着{1_plur}的清香。</FlavorTextFR_MadeleineDuo.description>
+
+  <!-- EN: canelés -->
+  <FlavorTextFR_CaneleDuo.label>可露丽</FlavorTextFR_CaneleDuo.label>
+  <!-- EN: a liquid batter rested two days, baked in copper moulds lined with wax, until an almost black crust forms around a soft {0_adj} and {1_adj} heart. -->
+  <FlavorTextFR_CaneleDuo.description>稀薄的面糊静置两天后，倒入涂了蜂蜡的铜模中烘烤，直至外层结出近乎乌黑的焦糖脆壳，内里则包裹着柔润的{0_adj}与{1_adj}软心。</FlavorTextFR_CaneleDuo.description>
+
+  <!-- EN: Breton shortbread -->
+  <FlavorTextFR_SableBretonDuo.label>布列塔尼酥饼</FlavorTextFR_SableBretonDuo.label>
+  <!-- EN: almost as much salted {0_adj} as flour, barely worked so it stays sandy. The salt is not a seasoning here: it is the main ingredient after the butter. -->
+  <FlavorTextFR_SableBretonDuo.description>咸{0_adj}的用量几乎与面粉相当，仅稍加揉合以保持沙酥的质地。在这里，盐绝非点缀的调味品，而是仅次于黄油的主角。</FlavorTextFR_SableBretonDuo.description>
+
+  <!-- EN: teurgoule -->
+  <FlavorTextFR_TeurgouleDuo.label>诺曼底慢烤肉桂米布丁</FlavorTextFR_TeurgouleDuo.label>
+  <!-- EN: {0_coll} and {1_coll} with cinnamon, baked five hours in the baker's oven in an earthenware dish, until a thick brown skin forms. The name comes from the burn it deals to anyone who will not wait. -->
+  <FlavorTextFR_TeurgouleDuo.description>{0_coll}与{1_coll}调入肉桂，盛在陶钵中送入面包房的余温烤炉慢烘五个小时，直至表面结出一层厚实的深褐焦皮。其名意为“烫歪嘴”，源于心急偷吃者被滚烫米糊烫得龇牙咧嘴的模样。</FlavorTextFR_TeurgouleDuo.description>
+
+  <!-- EN: bugnes -->
+  <FlavorTextFR_BugnesDuo.label>里昂炸面结</FlavorTextFR_BugnesDuo.label>
+  <!-- EN: ribbons of knotted dough, scented with {1_plur} and orange flower water, fried and sugared. Thick in Lyon, dry and brittle in Saint-Étienne: each city defends its own. -->
+  <FlavorTextFR_BugnesDuo.description>以{1_plur}与橙花水赋香的面带挽成结，下油锅炸透后撒满糖粉。里昂的做法厚实蓬松，圣艾蒂安的做法则干脆薄硬——两座城市各自捍卫着自家的正统。</FlavorTextFR_BugnesDuo.description>
+
+  <!-- EN: sachertorte -->
+  <FlavorTextFR_SachertorteDuo.label>萨赫蛋糕</FlavorTextFR_SachertorteDuo.label>
+  <!-- EN: a dense {0_adj} sponge, split and filled with a layer of {1_adj} jam, glazed with a dark smooth fondant. Two Viennese houses spent seven years in court over this cake. -->
+  <FlavorTextFR_SachertorteDuo.description>绵密紧实的{0_adj}海绵蛋糕横向剖开，夹入一层{1_adj}果酱，外覆深邃光亮的翻糖淋面。维也纳的两家名店曾为了这款蛋糕的正统名号对簿公堂长达七年。</FlavorTextFR_SachertorteDuo.description>
+
+  <!-- EN: apfelstrudel -->
+  <FlavorTextFR_ApfelstrudelDuo.label>维也纳苹果卷</FlavorTextFR_ApfelstrudelDuo.label>
+  <!-- EN: a dough stretched by hand over a tablecloth until a newspaper can be read through it, filled with {0_adj} and dried {1_adj}, then rolled. One tear in the dough and it all begins again. -->
+  <FlavorTextFR_ApfelstrudelDuo.description>面团在桌布上徒手拉展，直至薄得能透过它读报，铺上{0_adj}片与{1_adj}干后卷起烘烤。面皮但凡破开一道裂口，便只能推倒重来。</FlavorTextFR_ApfelstrudelDuo.description>
+
+  <!-- EN: kaiserschmarrn -->
+  <FlavorTextFR_KaiserschmarrnDuo.label>奥地利皇帝煎饼</FlavorTextFR_KaiserschmarrnDuo.label>
+  <!-- EN: a thick {0_adj} pancake torn into pieces with the spatula while it cooks, caramelised in sugar with dried {1_coll}. The Emperor's mess: the name admits its want of manners. -->
+  <FlavorTextFR_KaiserschmarrnDuo.description>厚实的{0_adj}松饼在锅中煎制时直接用铲子撕成碎块，撒糖并加入{1_coll}干煎出焦糖香。直译便是“皇帝的乱炖”——这名字坦然承认了它不拘礼数的卖相。</FlavorTextFR_KaiserschmarrnDuo.description>
+
+  <!-- EN: makowiec -->
+  <FlavorTextFR_MakowiecDuo.label>波兰罂粟籽卷</FlavorTextFR_MakowiecDuo.label>
+  <!-- EN: a brioche rolled over a mass of ground poppy seeds cooked with {1_plur}. The black and white spiral shows at the cut. -->
+  <FlavorTextFR_MakowiecDuo.description>丰润的甜面包卷起一层用{1_plur}熬煮的研磨罂粟籽厚馅。切开时，切面上便会映出黑白相间的螺旋纹路。</FlavorTextFR_MakowiecDuo.description>
+
+  <!-- EN: medovik -->
+  <FlavorTextFR_MedovikDuo.label>俄式蜂蜜千层蛋糕</FlavorTextFR_MedovikDuo.label>
+  <!-- EN: a dozen discs of {0_adj} dough baked one at a time, stacked with a soured cream and left overnight so the whole thing softens and turns tender. -->
+  <FlavorTextFR_MedovikDuo.description>十几张{0_adj}薄面饼逐一烘熟，层层抹上酸奶油叠起，静置过夜，待整座蛋糕吸饱湿气、变得柔润绵软。</FlavorTextFR_MedovikDuo.description>
+
+  <!-- EN: bakewell tart -->
+  <FlavorTextFR_BakewellTartDuo.label>贝克韦尔杏仁果酱塔</FlavorTextFR_BakewellTartDuo.label>
+  <!-- EN: a shortcrust base, a layer of {1_adj} jam, and an {0_adj} frangipane over the top that rises and browns in the oven. -->
+  <FlavorTextFR_BakewellTartDuo.description>酥脆的塔底上抹一层{1_adj}果酱，顶层铺满{0_adj}奶油馅，送入烤箱烘至蓬松鼓起、表面金黄。</FlavorTextFR_BakewellTartDuo.description>
+
+  <!-- EN: tres leches -->
+  <FlavorTextFR_TresLechesDuo.label>拉美三奶蛋糕</FlavorTextFR_TresLechesDuo.label>
+  <!-- EN: a sponge dried out on purpose, pricked all over and drowned in three different milks until it can take no more. It has to be sodden without collapsing: that is the whole exercise. -->
+  <FlavorTextFR_TresLechesDuo.description>特意烤得偏干的海绵蛋糕，扎满小孔后浸入三种乳品调成的奶液中直至再也吸不进去。糕体必须饱含乳汁却又绝不塌陷——这便是整道甜点的功力所在。</FlavorTextFR_TresLechesDuo.description>
+
+  <!-- EN: alfajores -->
+  <FlavorTextFR_AlfajoresDuo.label>南美焦糖牛奶夹心饼</FlavorTextFR_AlfajoresDuo.label>
+  <!-- EN: two very short biscuits stuck together with dulce de leche, the edges rolled in grated {1_plur}. They fall apart the moment you pick them up, which is the sign they are good. -->
+  <FlavorTextFR_AlfajoresDuo.description>两片极酥的饼干以焦糖牛奶酱粘合，边缘滚上一圈细碎的{1_plur}。手指刚一拈起便酥得掉渣，恰是其品质上乘的明证。</FlavorTextFR_AlfajoresDuo.description>
+
+  <!-- EN: brownie -->
+  <FlavorTextFR_BrownieDuo.label>布朗尼</FlavorTextFR_BrownieDuo.label>
+  <!-- EN: very little flour, a great deal of {0_adj}, and crushed {1_coll}. Out of the oven too late and it is only a cake; too early and it is not yet a brownie. -->
+  <FlavorTextFR_BrownieDuo.description>极少的面粉、大量的{0_adj}，加上碾碎的{1_coll}。出炉太晚，它就只是一块普通蛋糕；出炉太早，它又还算不上真正的布朗尼。</FlavorTextFR_BrownieDuo.description>
+
+  <!-- EN: cheesecake -->
+  <FlavorTextFR_CheesecakeDuo.label>纽约芝士蛋糕</FlavorTextFR_CheesecakeDuo.label>
+  <!-- EN: a base of buttered biscuits under an {0_adj} and {1_adj} filling, baked in a water bath and cooled slowly — a shock of temperature splits it in two. -->
+  <FlavorTextFR_CheesecakeDuo.description>黄油饼干碎压实的饼底上，铺满厚实的{0_adj}与{1_adj}内馅，隔水浴烘烤后缓慢降温——温度一旦骤变，表面便会裂成两半。</FlavorTextFR_CheesecakeDuo.description>
+
+  <!-- EN: lamington -->
+  <FlavorTextFR_LamingtonDuo.label>澳洲拉明顿椰丝方糕</FlavorTextFR_LamingtonDuo.label>
+  <!-- EN: cubes of sponge dipped in a runny {0_adj} icing then rolled in grated {1_plur}. Australian, and named after a governor of Queensland who had nothing to do with it. -->
+  <FlavorTextFR_LamingtonDuo.description>切成方块的松软海绵蛋糕，先浸入流淌的{0_adj}糖霜，再滚满细碎的{1_plur}。这道澳洲名点以昆士兰总督拉明顿勋爵命名，尽管他本人与此糕点毫无瓜葛。</FlavorTextFR_LamingtonDuo.description>
+
+  <!-- EN: malva pudding -->
+  <FlavorTextFR_MalvaPuddingDuo.label>南非马尔瓦热布丁蛋糕</FlavorTextFR_MalvaPuddingDuo.label>
+  <!-- EN: a South African {0_adj} and apricot cake, pricked as it leaves the oven and drowned in a hot {1_adj} sauce that it absorbs entirely. -->
+  <FlavorTextFR_MalvaPuddingDuo.description>加入{0_adj}与杏子果酱烤成的南非蛋糕，刚出炉便扎满小孔，浇下滚烫的{1_adj}奶酱，任由糕体将其尽数吸收。</FlavorTextFR_MalvaPuddingDuo.description>
+
+  <!-- EN: künefe -->
+  <FlavorTextFR_KunefeDuo.label>土耳其库纳法拉丝芝士饼</FlavorTextFR_KunefeDuo.label>
+  <!-- EN: fresh {0_coll} caught between two layers of shredded pastry, browned on both sides then doused in scalding syrup. Eaten at once: the cheese must still pull. -->
+  <FlavorTextFR_KunefeDuo.description>新鲜无盐{0_coll}夹在两层如发丝般的酥皮丝之间，两面煎至金黄酥脆后浇上滚烫的糖浆。必须趁热即食——此时的奶酪还须能拉出长丝。</FlavorTextFR_KunefeDuo.description>
+
+  <!-- EN: maamoul -->
+  <FlavorTextFR_MaamoulDuo.label>中东椰枣模压酥饼</FlavorTextFR_MaamoulDuo.label>
+  <!-- EN: a semolina dough worked with clarified {1_plur} and rested overnight, filled with {0_plur} and pressed into a carved wooden mould. Each pattern names a different filling. -->
+  <FlavorTextFR_MaamoulDuo.description>粗粒小麦粉加入澄清{1_plur}揉成面团并静置过夜，包入{0_plur}馅后压入雕花木模定型。每一种花纹都对应着内里不同的馅料。</FlavorTextFR_MaamoulDuo.description>
+
+  <!-- EN: om ali -->
+  <FlavorTextFR_OmAliDuo.label>埃及阿里之母烤奶酥布丁</FlavorTextFR_OmAliDuo.label>
+  <!-- EN: broken puff pastry drowned in sweetened {0_plur} and covered with {1_adj}, browned until the top crisps over a sodden underside. -->
+  <FlavorTextFR_OmAliDuo.description>掰碎的千层酥皮浸没在加甜的{0_plur}中，撒满{1_adj}碎，入炉烘至顶层焦香酥脆，底下则饱吸乳汁、温润绵软。</FlavorTextFR_OmAliDuo.description>
+
+  <!-- EN: basbousa -->
+  <FlavorTextFR_BasbousaDuo.label>中东糖浆椰香粗麦蛋糕</FlavorTextFR_BasbousaDuo.label>
+  <!-- EN: a semolina cake with {0_adj} and {1_adj}, cut into diamonds before baking and soaked with syrup the moment it leaves the oven, while it is still scalding. -->
+  <FlavorTextFR_BasbousaDuo.description>拌入{0_adj}与{1_adj}的粗粒小麦粉蛋糕，入炉前预先划成菱形格，出炉尚滚烫的一刹那便浇满糖浆使其浸透。</FlavorTextFR_BasbousaDuo.description>
+
+  <!-- EN: taiyaki -->
+  <FlavorTextFR_TaiyakiDuo.label>鲷鱼烧</FlavorTextFR_TaiyakiDuo.label>
+  <!-- EN: a waffle batter cooked in a mould shaped like a sea bream, filled with a sweet {0_adj} paste. Whether to bite the head or the tail first divides Japan. -->
+  <FlavorTextFR_TaiyakiDuo.description>华夫饼面糊注入鲷鱼形状的铁模中，夹入甜润的{0_adj}沙馅烘熟。究竟该先咬鱼头还是先咬鱼尾，至今仍让整个日本争论不休。</FlavorTextFR_TaiyakiDuo.description>
+
+  <!-- EN: hotteok -->
+  <FlavorTextFR_HotteokDuo.label>韩式坚果糖饼</FlavorTextFR_HotteokDuo.label>
+  <!-- EN: a risen flatbread filled with cane {0_plur} and crushed {1_plur}, flattened on the hot plate. The filling turns into a boiling syrup that burns the tongue without fail. -->
+  <FlavorTextFR_HotteokDuo.description>发酵面团包入蔗{0_plur}与碾碎的{1_plur}，在滚烫的铁板上压扁煎熟。内馅受热化作滚沸的糖浆，心急咬下者十有八九要被烫到舌头。</FlavorTextFR_HotteokDuo.description>
+
+  <!-- EN: bánh pía sầu riêng -->
+  <FlavorTextFR_BanhPiaSauRiengDuo.label>越南榴莲朥饼</FlavorTextFR_BanhPiaSauRiengDuo.label>
+  <!-- EN: a Vietnamese cake of spiralled puff pastry, filled with a paste of {0_adj} and a salted {1_adj} yolk at the centre. The layers peel apart one by one at the cut. -->
+  <FlavorTextFR_BanhPiaSauRiengDuo.description>螺旋千层酥皮的越南传统月饼，内包{0_adj}软馅，正中嵌一枚咸{1_adj}黄。切开时层层酥皮如花瓣般片片剥落。</FlavorTextFR_BanhPiaSauRiengDuo.description>
+
+  <!-- EN: durian mooncake -->
+  <FlavorTextFR_DurianMooncakeDuo.label>榴莲冰皮月饼</FlavorTextFR_DurianMooncakeDuo.label>
+  <!-- EN: an uncooked snow-skin dough pressed in a seal, filled with the flesh of {0_adj} and a sweetened {1_adj} paste. Served iced, unlike the classic mooncake. -->
+  <FlavorTextFR_DurianMooncakeDuo.description>免烤冰皮压模成型，内填{0_adj}果肉与甜{1_adj}沙。有别于传统月饼，需冰镇后享用。</FlavorTextFR_DurianMooncakeDuo.description>
+
+  <!-- EN: durian mille crêpes -->
+  <FlavorTextFR_DurianMilleCrepesDuo.label>榴莲千层蛋糕</FlavorTextFR_DurianMilleCrepesDuo.label>
+  <!-- EN: twenty very fine pancakes stacked up, each parted from the next by a layer of {0_adj} flesh folded into whipped {1_plur}. Cut clean, and eaten iced. -->
+  <FlavorTextFR_DurianMilleCrepesDuo.description>二十张薄如蝉翼的可丽饼层层叠起，每层之间皆抹满拌入打发{1_plur}的{0_adj}果肉。冰镇后利落切块享用。</FlavorTextFR_DurianMilleCrepesDuo.description>
+
+  <!-- EN: durian puff -->
+  <FlavorTextFR_DurianPuffDuo.label>榴莲泡芙</FlavorTextFR_DurianPuffDuo.label>
+  <!-- EN: small choux buns filled with a pure {0_adj} cream, served cold. Sold in refrigerated boxes in Singapore, and banned on the underground like everything else containing that fruit. -->
+  <FlavorTextFR_DurianPuffDuo.description>小巧的泡芙壳内注满纯正的冰凉{0_adj}奶馅。在新加坡常以冷藏盒装售卖，也同其他一切含有这门水果的食物一样禁止带上地铁。</FlavorTextFR_DurianPuffDuo.description>
+
+  <!-- EN: durian cake -->
+  <FlavorTextFR_GateauAuDurianDuo.label>榴莲海绵蛋糕</FlavorTextFR_GateauAuDurianDuo.label>
+  <!-- EN: a very airy sponge into whose raw batter the flesh of {0_adj} is folded. The smell fills the kitchen while it bakes and settles there for the day. -->
+  <FlavorTextFR_GateauAuDurianDuo.description>极为蓬松的海绵蛋糕，生面糊中拌入了{0_adj}果肉。烘烤时浓香盈满厨房，一整天都久久不散。</FlavorTextFR_GateauAuDurianDuo.description>
+
+  <!-- EN: tempoyak -->
+  <FlavorTextFR_TempoyakDuo.label>发酵榴莲酱</FlavorTextFR_TempoyakDuo.label>
+  <!-- EN: the flesh of {0_adj} salted and left to ferment a week in a closed jar, until it turns sour and creamy. It is no longer a fruit at that stage: it is a condiment, and it keeps for months. -->
+  <FlavorTextFR_TempoyakDuo.description>{0_adj}果肉加盐封入罐中发酵一周，直至化作酸香绵密的膏状。此时的它已不再是水果，而是一味能保存数月的浓郁酱料。</FlavorTextFR_TempoyakDuo.description>
+
+  <!-- EN: vareniki -->
+  <FlavorTextFR_VarenikiDuo.label>东欧水饺</FlavorTextFR_VarenikiDuo.label>
+  <!-- EN: half-moons of dough filled with crushed {0_plur}, poached and then doused with {1_adj} melted down in butter. The seal has to hold in boiling water: that is the whole craft. -->
+  <FlavorTextFR_VarenikiDuo.description>半月形的面皮包入捣碎的{0_plur}，下水煮熟后浇上以黄油煸至软烂的{1_adj}。全凭一手捏边功夫，方能让饺口在沸水中不露分毫。</FlavorTextFR_VarenikiDuo.description>
+
+  <!-- EN: khachapuri -->
+  <FlavorTextFR_KhatchapouriDuo.label>格鲁吉亚船形奶酪包</FlavorTextFR_KhatchapouriDuo.label>
+  <!-- EN: a bread shaped like a boat filled with melted {0_adj}, with a raw yolk and a knob of {1_adj} set at the centre as it leaves the oven. Everything is mixed together with the tip of the crust, torn off for the purpose. -->
+  <FlavorTextFR_KhatchapouriDuo.description>船形的面包中盛满融化的{0_adj}，出炉瞬间在正中打入一颗生蛋黄并添上一小块{1_adj}。吃时特意揪下船尖的面包壳，将内馅搅匀蘸食。</FlavorTextFR_KhatchapouriDuo.description>
+
+  <!-- EN: francesinha -->
+  <FlavorTextFR_FrancesinhaDuo.label>波尔图湿三明治</FlavorTextFR_FrancesinhaDuo.label>
+  <!-- EN: a Porto croque-monsieur pushed to absurdity: four meats stacked, melted cheese over the top, and a thick {1_adj} and tomato sauce poured to the brim of the plate. -->
+  <FlavorTextFR_FrancesinhaDuo.description>一道推向极致的波尔图式热三明治：四层肉食叠起，外覆融化的奶酪，再浇上满溢至盘沿的浓郁{1_adj}番茄酱汁。</FlavorTextFR_FrancesinhaDuo.description>
+
+  <!-- EN: bifana -->
+  <FlavorTextFR_BifanaDuo.label>葡式猪扒包</FlavorTextFR_BifanaDuo.label>
+  <!-- EN: thin {0_adj} escalopes simmered with {1_plur} and white wine, stacked scalding into a roll that drinks up the sauce. -->
+  <FlavorTextFR_BifanaDuo.description>与{1_plur}及白葡萄酒同煨的{0_adj}薄片，趁滚烫层层夹入圆面包中，任面包吸饱浓郁汤汁。</FlavorTextFR_BifanaDuo.description>
+
+  <!-- EN: cataplana de marisco -->
+  <FlavorTextFR_CataplanaDeMariscoDuo.label>葡式铜锅海鲜炖肉</FlavorTextFR_CataplanaDeMariscoDuo.label>
+  <!-- EN: {0_coll} and {1_coll} cooked together in a hinged copper pot clamped shut — no steam escapes, and the dish cooks in its own juices. -->
+  <FlavorTextFR_CataplanaDeMariscoDuo.description>{0_coll}与{1_coll}一同封入紧扣的合页双层铜锅中焖熟——不泄分毫蒸汽，全凭食材自身的汁水烹成。</FlavorTextFR_CataplanaDeMariscoDuo.description>
+
+  <!-- EN: sauerbraten -->
+  <FlavorTextFR_SauerbratenDuo.label>德式酸焖牛肉</FlavorTextFR_SauerbratenDuo.label>
+  <!-- EN: a joint of {0_adj} marinated in vinegar for a whole week, braised, the sauce thickened with crumbled gingerbread and sweetened with dried {1_plur}. -->
+  <FlavorTextFR_SauerbratenDuo.description>大块{0_adj}在醋汁中浸渍整整一周后慢火焖熟，汤汁以捏碎的姜饼收浓，再添干{1_plur}点缀甜味。</FlavorTextFR_SauerbratenDuo.description>
+
+  <!-- EN: schweinshaxe -->
+  <FlavorTextFR_SchweinshaxeDuo.label>德式烤猪肘</FlavorTextFR_SchweinshaxeDuo.label>
+  <!-- EN: a whole knuckle roasted for hours and basted with brown {1_plur}, until the rind becomes a shell that cracks under the knife. -->
+  <FlavorTextFR_SchweinshaxeDuo.description>整只猪肘烘烤数小时，期间不断浇淋深色{1_plur}，直至外皮化作刀锋下咔嚓作响的脆壳。</FlavorTextFR_SchweinshaxeDuo.description>
+
+  <!-- EN: wiener schnitzel -->
+  <FlavorTextFR_WienerSchnitzelDuo.label>维也纳炸肉排</FlavorTextFR_WienerSchnitzelDuo.label>
+  <!-- EN: an escalope of {0_adj} beaten until translucent, crumbed without pressing, and fried in butter with the pan shaken so the coating puffs and lifts off the meat. -->
+  <FlavorTextFR_WienerSchnitzelDuo.description>{0_adj}薄片拍打至近乎透光，轻裹面包糠而不加按压，入黄油锅中不断晃动煎炸，使外壳蓬松鼓起、与肉排若即若离。</FlavorTextFR_WienerSchnitzelDuo.description>
+
+  <!-- EN: tafelspitz -->
+  <FlavorTextFR_TafelspitzDuo.label>维也纳清煮牛肉</FlavorTextFR_TafelspitzDuo.label>
+  <!-- EN: a cut of {0_adj} poached in a broth of roots, served with an {1_adj} sauce of horseradish and apple. Franz Joseph's favourite dish, they say, and he ate it every day. -->
+  <FlavorTextFR_TafelspitzDuo.description>在根茎蔬菜高汤中慢火清煮的大块{0_adj}，佐以辣根和苹果调成的{1_adj}酱汁。相传这是弗朗茨·约瑟夫皇帝最钟爱的菜肴，日日皆要享用。</FlavorTextFR_TafelspitzDuo.description>
+
+  <!-- EN: frikadeller -->
+  <FlavorTextFR_FrikadellerDuo.label>丹麦煎肉饼</FlavorTextFR_FrikadellerDuo.label>
+  <!-- EN: {0_coll} minced twice, lightened with flour and {1_adj}, shaped with a spoon into domed patties and fried long and slow in butter. -->
+  <FlavorTextFR_FrikadellerDuo.description>{0_coll}绞碎两遍，调入面粉与{1_adj}使其松软，用勺拢成微拱的肉饼，在黄油中慢火久煎而成。</FlavorTextFR_FrikadellerDuo.description>
+
+  <!-- EN: lapskaus -->
+  <FlavorTextFR_LapskausDuo.label>挪威水手炖肉</FlavorTextFR_LapskausDuo.label>
+  <!-- EN: {0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever was kept on board. -->
+  <FlavorTextFR_LapskausDuo.description>{0_coll}与根茎蔬菜一同久炖，直至万物融为一体、彼此难分。这是一道水手菜，用咸肉与船舱里仅存的食材一锅炖成。</FlavorTextFR_LapskausDuo.description>
+
+  <!-- EN: steak and ale pie -->
+  <FlavorTextFR_SteakAndAlePieDuo.label>英式麦酒牛肉派</FlavorTextFR_SteakAndAlePieDuo.label>
+  <!-- EN: {0_coll} braised in brown {1_plur} until it falls into threads, shut in under a pastry lid that swells and browns in the oven. -->
+  <FlavorTextFR_SteakAndAlePieDuo.description>{0_coll}在深色{1_plur}中慢炖至酥烂成丝，封入酥皮盖下，送入烤箱烘至蓬松焦黄。</FlavorTextFR_SteakAndAlePieDuo.description>
+
+  <!-- EN: kedgeree -->
+  <FlavorTextFR_KedgereeDuo.label>英印咖喱熏鱼饭</FlavorTextFR_KedgereeDuo.label>
+  <!-- EN: curried {0_coll} folded through flaked smoked fish and hard-boiled eggs. An Indian khichdi carried home by the British and turned by them into a breakfast dish. -->
+  <FlavorTextFR_KedgereeDuo.description>咖喱味的{0_coll}拌入拆碎的烟熏鱼肉与全熟水煮蛋。这道源自印度的香料豆饭被英国人带回故土，演变成了一道早餐佳肴。</FlavorTextFR_KedgereeDuo.description>
+
+  <!-- EN: fig tart -->
+  <FlavorTextFR_TarteAuxFiguesDuo.label>无花果挞</FlavorTextFR_TarteAuxFiguesDuo.label>
+  <!-- EN: {0_coll} split in a cross and stood upright on a {1_adj} cream, which drinks up their juice as it bakes and keeps the pastry from going soft. -->
+  <FlavorTextFR_TarteAuxFiguesDuo.description>{0_coll}划十字切开，直立排布在{1_adj}奶油馅上；烘烤时杏仁馅吸尽渗出的果汁，令底下的挞皮依旧酥脆不软塌。</FlavorTextFR_TarteAuxFiguesDuo.description>
+
+  <!-- EN: crostata di fichi -->
+  <FlavorTextFR_CrostataDiFichiDuo.label>意式无花果果酱格纹派</FlavorTextFR_CrostataDiFichiDuo.label>
+  <!-- EN: a shortcrust made with {1_plur}, crossed into a lattice over a thick layer of {0_adj} jam. Eaten cold, the next day, once the pastry has drunk a little of the fruit. -->
+  <FlavorTextFR_CrostataDiFichiDuo.description>以{1_plur}揉成的甜酥派皮覆在厚厚的{0_adj}果酱上，交错编成格纹。待到次日派皮微吸果香后冷食最佳。</FlavorTextFR_CrostataDiFichiDuo.description>
+
+  <!-- EN: fig focaccia -->
+  <FlavorTextFR_FocacciaAuxFiguesDuo.label>无花果佛卡夏</FlavorTextFR_FocacciaAuxFiguesDuo.label>
+  <!-- EN: {0_coll} pushed down into dough dimpled with the fingers, with rosemary, {1_adj} oil and coarse salt. The sugar of the fruit caramelises where it touches the tray. -->
+  <FlavorTextFR_FocacciaAuxFiguesDuo.description>手指按出酒窝的面团里嵌满{0_coll}，撒上迷迭香、{1_adj}油与粗盐。果肉接触烤盘之处，糖分尽数焦糖化。</FlavorTextFR_FocacciaAuxFiguesDuo.description>
+
+  <!-- EN: fig and prosciutto pizza -->
+  <FlavorTextFR_PizzaFiguesProsciuttoDuo.label>无花果生火腿披萨</FlavorTextFR_PizzaFiguesProsciuttoDuo.label>
+  <!-- EN: a white base with no tomato, {0_coll} roasted on it, and raw {1_coll} laid on only as it leaves the oven — cooked, it hardens and loses everything. -->
+  <FlavorTextFR_PizzaFiguesProsciuttoDuo.description>不涂番茄酱的白披萨底铺上{0_coll}入炉烘烤，待出炉瞬间才铺上生{1_coll}——火腿一旦进炉烤熟便会干硬失色、风味尽失。</FlavorTextFR_PizzaFiguesProsciuttoDuo.description>
+
+  <!-- EN: lamb and fig tagine -->
+  <FlavorTextFR_TajineAgneauFiguesDuo.label>无花果羊肉塔吉锅</FlavorTextFR_TajineAgneauFiguesDuo.label>
+  <!-- EN: {1_coll} stewed with saffron, ginger and cinnamon, dried {0_coll} swelled back up and added at the end with toasted almonds. -->
+  <FlavorTextFR_TajineAgneauFiguesDuo.description>{1_coll}加藏红花、生姜与肉桂慢炖，泡发回软的{0_coll}干在起锅前与烤杏仁一同添入锅中。</FlavorTextFR_TajineAgneauFiguesDuo.description>
+
+  <!-- EN: pissaladière -->
+  <FlavorTextFR_PissaladiereDuo.label>尼斯洋葱鳀鱼挞</FlavorTextFR_PissaladiereDuo.label>
+  <!-- EN: a Niçois tart: {0_coll} stewed a whole hour until they are almost a jam, spread over the dough and latticed with {1_adj}. -->
+  <FlavorTextFR_PissaladiereDuo.description>一道尼斯风味咸挞：将{0_coll}慢煨整整一小时直至化作绵密浓酱，铺在面皮上，再交错码成{1_adj}菱格纹。</FlavorTextFR_PissaladiereDuo.description>
+
+  <!-- EN: fondue savoyarde -->
+  <FlavorTextFR_FondueSavoyardeDuo.label>萨瓦奶酪火锅</FlavorTextFR_FondueSavoyardeDuo.label>
+  <!-- EN: {0_coll} melted in {1_plur} in a pot rubbed with garlic, kept hot the whole evening. Bread is dipped in on the end of a fork; whoever drops it buys the next round. -->
+  <FlavorTextFR_FondueSavoyardeDuo.description>在擦过蒜瓣的陶锅中用{1_plur}融化的{0_coll}，整晚小火保温。食客用长叉挑起面包块蘸食；谁若是把面包掉进锅里，下一轮酒钱便归谁买单。</FlavorTextFR_FondueSavoyardeDuo.description>
+
+  <!-- EN: aligot -->
+  <FlavorTextFR_AligotDuo.label>阿利戈奶酪土豆泥</FlavorTextFR_AligotDuo.label>
+  <!-- EN: a mash of {0_adj} worked with {1_plur} and a spatula, for a long time, until it draws into ribbons when it is lifted. The arm gives out before the paste does. -->
+  <FlavorTextFR_AligotDuo.description>用木铲将{0_adj}泥与{1_plur}久久用力搅打，直至挑起时拉出绸缎般绵长的瀑布丝。往往泥还未卸力，掌勺人的手臂便先酸麻难当了。</FlavorTextFR_AligotDuo.description>
+
+  <!-- EN: flammekueche -->
+  <FlavorTextFR_FlammekuecheDuo.label>阿尔萨斯火焰薄饼</FlavorTextFR_FlammekuecheDuo.label>
+  <!-- EN: a dough rolled out to the very edge of tearing, covered with raw {0_adj} and {1_adj}, slid for two minutes as close to the embers as it will go. -->
+  <FlavorTextFR_FlammekuecheDuo.description>擀到近乎破皮的极薄面饼，铺满生鲜{0_adj}与{1_adj}，紧贴炉膛明火余烬烘烤两分钟即成。</FlavorTextFR_FlammekuecheDuo.description>
+
+  <!-- EN: kougelhopf -->
+  <FlavorTextFR_KougelhopfDuo.label>阿尔萨斯咕咕霍夫皇冠蛋糕</FlavorTextFR_KougelhopfDuo.label>
+  <!-- EN: a slow brioche baked in a fluted mould, with {0_plur} soaked in advance and {1_plur} set in the bottom so that they end up at the summit. -->
+  <FlavorTextFR_KougelhopfDuo.description>在螺旋棱纹模具中慢发酵烘烤的布里欧修蛋糕，揉入预先泡软的{0_plur}，模具槽底排入一颗颗{1_plur}，脱模翻转后便化作冠顶的明珠。</FlavorTextFR_KougelhopfDuo.description>
+
+  <!-- EN: far breton -->
+  <FlavorTextFR_FarBretonDuo.label>布列塔尼厚布丁蛋糕</FlavorTextFR_FarBretonDuo.label>
+  <!-- EN: a dense custard of {0_plur} and {1_plur}, baked until the top browns and the middle still trembles. -->
+  <FlavorTextFR_FarBretonDuo.description>用{0_plur}与{1_plur}调制的扎实蛋奶糕，入炉烤至表皮焦褐，而内芯依然微微颤动。</FlavorTextFR_FarBretonDuo.description>
+
+  <!-- EN: {0_adj} confit -->
+  <FlavorTextFR_ConfitDeVolailleDuo.label>油封{0_adj}</FlavorTextFR_ConfitDeVolailleDuo.label>
+  <!-- EN: {0_coll} salted for a day, then cooked very slowly submerged in {1_plur}, and kept in it afterwards. The skin is crisped at the last moment, in a pan. -->
+  <FlavorTextFR_ConfitDeVolailleDuo.description>粗盐腌渍一日的{0_coll}，浸没在{1_plur}中以极微之火慢煨熟透，随后连肉带油一并封存。上桌前最后一刻才入平底锅将表皮煎得酥脆。</FlavorTextFR_ConfitDeVolailleDuo.description>
+
+  <!-- EN: {0_adj} blanquette -->
+  <FlavorTextFR_BlanquetteDuo.label>法式白汁烩{0_adj}</FlavorTextFR_BlanquetteDuo.label>
+  <!-- EN: {0_coll} cooked without taking any colour — that is the whole difficulty — the sauce mounted with {1_plur} and sharpened at the very last moment. -->
+  <FlavorTextFR_BlanquetteDuo.description>烹煮全程绝不能染上一丝焦色的{0_coll}——全道菜的功夫尽在于此——汤汁以{1_plur}收浓，出锅前最后一刻加酸提亮风味。</FlavorTextFR_BlanquetteDuo.description>
+
+  <!-- EN: gratinée onion soup -->
+  <FlavorTextFR_SoupeALOignonGratineeDuo.label>法式焗洋葱汤</FlavorTextFR_SoupeALOignonGratineeDuo.label>
+  <!-- EN: {0_coll} browned very slowly to a deep colour, moistened, then covered with bread and {1_adj} and run under the grill. -->
+  <FlavorTextFR_SoupeALOignonGratineeDuo.description>极慢火煸炒至深琥珀色的{0_coll}，兑汤煮开后铺上面包片与{1_adj}，送入明火烤炉下炙出拉丝焦壳。</FlavorTextFR_SoupeALOignonGratineeDuo.description>
+
+  <!-- EN: croque-monsieur -->
+  <FlavorTextFR_CroqueMonsieurDuo.label>库克先生三明治</FlavorTextFR_CroqueMonsieurDuo.label>
+  <!-- EN: two slices of bread, {1_coll} between them, {0_coll} above and below, the whole browned until the edges run over and catch a little. -->
+  <FlavorTextFR_CroqueMonsieurDuo.description>两片吐司夹着{1_coll}，上下皆铺满{0_coll}，整块入炉烘烤，直至边缘流淌出融化的奶酪并烤出微焦脆边。</FlavorTextFR_CroqueMonsieurDuo.description>
+
+  <!-- EN: leek flamiche -->
+  <FlavorTextFR_FlamicheAuxPoireauxDuo.label>皮卡第双层酥皮韭葱派</FlavorTextFR_FlamicheAuxPoireauxDuo.label>
+  <!-- EN: {0_coll} melted in {1_plur} without colour, shut between two sheets of pastry and baked until the top gilds. A Picard dish, with no cream at all in the original. -->
+  <FlavorTextFR_FlamicheAuxPoireauxDuo.description>在{1_plur}中低温煸软却绝不上色的{0_coll}，封入上下两层酥皮之间，入炉烤至表皮镀金。这是一道地道的皮卡第名点，最初的古法里半滴奶油也不放。</FlavorTextFR_FlamicheAuxPoireauxDuo.description>
+
+  <!-- EN: pigs' trotters Sainte-Menehould -->
+  <FlavorTextFR_PiedsSainteMenehouldDuo.label>圣默努尔德酥烤猪蹄</FlavorTextFR_PiedsSainteMenehouldDuo.label>
+  <!-- EN: trotters poached for forty hours, until the bones turn tender and are eaten along with the rest, then crumbed and grilled. Louis XVI is said to have stopped for them during his flight, which delayed him. -->
+  <FlavorTextFR_PiedsSainteMenehouldDuo.description>微沸慢煨整整四十个小时的猪蹄，直煮到骨头酥软得能连骨带肉一并嚼碎，再裹上面包糠炙烤出脆壳。相传路易十六在出逃途中为贪恋这一口美味而驻足，结果耽误了行程。</FlavorTextFR_PiedsSainteMenehouldDuo.description>
+
+  <!-- EN: baked camembert -->
+  <FlavorTextFR_CamembertRotiDuo.label>木盒烤卡芒贝尔奶酪</FlavorTextFR_CamembertRotiDuo.label>
+  <!-- EN: a whole box of {0_adj} scored in a cross, stuck with {1_plur} and put into the oven in its own wood until it runs. Bread is dipped into it until there is nothing left. -->
+  <FlavorTextFR_CamembertRotiDuo.description>表面划出十字花刀、嵌满{1_plur}的整轮{0_adj}，连同原装薄木盒一起送入烤炉，烤至内芯化作滚烫流心。以面包蘸食，直至木盒见底。</FlavorTextFR_CamembertRotiDuo.description>
+
+  <!-- EN: omelette de la Mère Poulard -->
+  <FlavorTextFR_OmeletteMerePoulardDuo.label>普拉尔妈妈舒芙蕾欧姆蛋</FlavorTextFR_OmeletteMerePoulardDuo.label>
+  <!-- EN: {0_coll} beaten very long with a whisk, until they foam like a soufflé, and cooked in {1_plur} in a long-handled pan over a wood fire. The exact recipe was never given away. -->
+  <FlavorTextFR_OmeletteMerePoulardDuo.description>用打蛋器久久抽打至如舒芙蕾般绵密起泡的{0_coll}，盛入融有{1_plur}的长柄铜锅，在柴火明火上烘熟。其独门秘方至今从未外传。</FlavorTextFR_OmeletteMerePoulardDuo.description>
+
+  <!-- EN: scallops à la bretonne -->
+  <FlavorTextFR_SaintJacquesBretonneDuo.label>布列塔尼蒜香黄油焗扇贝</FlavorTextFR_SaintJacquesBretonneDuo.label>
+  <!-- EN: {0_coll} put back into its shell under garlic and parsley and breadcrumbs in {1_plur}, run under the grill for two minutes. Any longer and it turns to rubber. -->
+  <FlavorTextFR_SaintJacquesBretonneDuo.description>重新盛回贝壳的{0_coll}，铺满蒜末、欧芹、面包糠与{1_plur}，送入明火烤炉下炙烤两分钟。再多烤片刻，贝肉便会老得像橡胶。</FlavorTextFR_SaintJacquesBretonneDuo.description>
+
+  <!-- EN: galette-saucisse -->
+  <FlavorTextFR_GaletteSaucisseDuo.label>布列塔尼荞麦薄饼卷烤肠</FlavorTextFR_GaletteSaucisseDuo.label>
+  <!-- EN: a grilled sausage rolled in a cold {0_adj} galette, and nothing else — mustard is tolerated, ketchup is disputed. Eaten standing, at the match or at the market. -->
+  <FlavorTextFR_GaletteSaucisseDuo.description>用一张冷{0_adj}薄饼卷起一根滋滋冒油的烤香肠，此外别无他物——抹点芥末尚可容忍，加番茄酱则必惹非议。无论是在球场看台还是在集市摊前，都得站着拿在手里吃。</FlavorTextFR_GaletteSaucisseDuo.description>
+
+  <!-- EN: stuffed clams -->
+  <FlavorTextFR_PalourdesFarciesDuo.label>蒜香欧芹黄油焗蛤蜊</FlavorTextFR_PalourdesFarciesDuo.label>
+  <!-- EN: {0_coll} opened and covered with a butter worked with {1_plur} and parsley, put into the oven until the butter bubbles up and runs over the edge. -->
+  <FlavorTextFR_PalourdesFarciesDuo.description>撬开半壳的{0_coll}，填满揉入{1_plur}与欧芹的香草黄油，送入炉中烘烤，直至黄油沸腾冒泡、漫过贝壳边缘。</FlavorTextFR_PalourdesFarciesDuo.description>
+
+  <!-- EN: stuffed spider crab -->
+  <FlavorTextFR_AraigneeDeMerFarcieDuo.label>法式酿蜘蛛蟹斗</FlavorTextFR_AraigneeDeMerFarcieDuo.label>
+  <!-- EN: {0_coll} picked out patiently, mixed with its own coral and the yolks of hard-boiled {1_adj}, then packed back into the emptied shell. An hour of work for ten minutes of eating. -->
+  <FlavorTextFR_AraigneeDeMerFarcieDuo.description>耐心剔出的{0_coll}，与蟹黄蟹膏及全熟{1_adj}黄拌匀，再满满当当地填回空蟹壳中。拆肉备料费去一小时，大快朵颐不过十分钟。</FlavorTextFR_AraigneeDeMerFarcieDuo.description>
+
+  <!-- EN: rillettes -->
+  <FlavorTextFR_RillettesDuo.label>图尔熟肉抹酱</FlavorTextFR_RillettesDuo.label>
+  <!-- EN: {0_coll} cooked five hours in {1_coll} until it falls apart, pulled with a fork and never ground, then pressed into a pot under a layer of fat that keeps it. -->
+  <FlavorTextFR_RillettesDuo.description>在{1_coll}中慢煨五个小时直至酥烂脱骨的{0_coll}，只用叉子挑成肉丝而绝不搅碎，随后压入陶罐，表面浇一层油脂封存保鲜。</FlavorTextFR_RillettesDuo.description>
+
+  <!-- EN: Easter pâté -->
+  <FlavorTextFR_PateDePaquesDuo.label>贝里复活节流心蛋肉派</FlavorTextFR_PateDePaquesDuo.label>
+  <!-- EN: a stuffing of {0_adj} shut inside a pastry, with whole hard-boiled eggs lined up down the middle so that a yellow disc appears in every slice. -->
+  <FlavorTextFR_PateDePaquesDuo.description>酥皮内裹满{0_adj}馅，正中央排入一溜整颗全熟水煮蛋；切开上桌时，每一片肉派中心都嵌着一轮明黄圆月。</FlavorTextFR_PateDePaquesDuo.description>
+
+  <!-- EN: poulet en barbouille -->
+  <FlavorTextFR_PouletEnBarbouilleDuo.label>贝里红酒血汁炖鸡</FlavorTextFR_PouletEnBarbouilleDuo.label>
+  <!-- EN: {0_coll} stewed in wine, the sauce thickened with the bird's own blood and liver. Barbouille, for what it leaves on the chin of whoever eats it. -->
+  <FlavorTextFR_PouletEnBarbouilleDuo.description>在葡萄酒中慢炖的{0_coll}，以家禽自身的鲜血与禽肝收浓酱汁。法语菜名意为“花脸”，皆因食客大快朵颐后下巴上总免不了沾满浓黑酱汁。</FlavorTextFR_PouletEnBarbouilleDuo.description>
+
+  <!-- EN: potée lorraine -->
+  <FlavorTextFR_PoteeLorraineDuo.label>洛林熏肉蔬菜浓汤锅</FlavorTextFR_PoteeLorraineDuo.label>
+  <!-- EN: {0_coll} and winter roots stewed together with smoked and salted {1_coll}. The broth is served first, over bread; the meats come afterwards. -->
+  <FlavorTextFR_PoteeLorraineDuo.description>将{0_coll}、冬日根茎蔬菜与烟熏腌渍的{1_coll}同锅慢炖。上桌时先将热汤浇在面包上饮用，随后再奉上大盘肉菜。</FlavorTextFR_PoteeLorraineDuo.description>
+
+  <!-- EN: salade lyonnaise -->
+  <FlavorTextFR_SaladeLyonnaiseDuo.label>里昂风味水波蛋培根沙拉</FlavorTextFR_SaladeLyonnaiseDuo.label>
+  <!-- EN: bitter frisée, {1_coll} fried in the pan, croutons rubbed with garlic and a poached egg set over the top. You break the yolk and it becomes the dressing. -->
+  <FlavorTextFR_SaladeLyonnaiseDuo.description>微苦的菊苣叶、平底锅煎得滋滋作响的{1_coll}丁、擦过蒜瓣的烤面包丁，顶上卧一枚嫩滑水波蛋。轻轻划破蛋黄，流淌而出的蛋液便是最好的沙拉酱。</FlavorTextFR_SaladeLyonnaiseDuo.description>
+
+  <!-- EN: biryani -->
+  <FlavorTextFR_BiryaniDuo.label>印度香饭</FlavorTextFR_BiryaniDuo.label>
+  <!-- EN: {0_coll}, half-cooked, and marinated {1_coll} built up in layers, sealed under a lid luted with dough, and finished smothered. It is never stirred: every layer must still be distinct when it is opened. -->
+  <FlavorTextFR_BiryaniDuo.description>半熟的{0_coll}与腌制入味的{1_coll}层层叠放，锅盖边缘用面团严密糊死，微火焖熟。切忌翻动搅拌：揭盖之时，每一层都必须泾渭分明。</FlavorTextFR_BiryaniDuo.description>
+
+  <!-- EN: palak paneer -->
+  <FlavorTextFR_PalakPaneerDuo.label>菠菜芝士咖喱</FlavorTextFR_PalakPaneerDuo.label>
+  <!-- EN: {0_coll} blanched then ground into a green purée cooked only briefly so that it does not brown, into which are set cubes of fresh {1_adj} that do not melt. -->
+  <FlavorTextFR_PalakPaneerDuo.description>{0_coll}焯水后研磨成碧绿菜泥，略加烹煮以免变色发暗，再嵌入手切的新鲜{1_adj}块——受热亦不融化。</FlavorTextFR_PalakPaneerDuo.description>
+
+  <!-- EN: gulab jamun -->
+  <FlavorTextFR_GulabJamunDuo.label>玫瑰奶球</FlavorTextFR_GulabJamunDuo.label>
+  <!-- EN: {0_coll} reduced for hours into a solid paste, rolled into balls, fried very gently, and left to drink up a {1_adj} syrup scented with rose. They have to run when you bite them. -->
+  <FlavorTextFR_GulabJamunDuo.description>{0_coll}慢熬数小时浓缩成固态奶团，搓圆后以微火慢炸，再浸入散发玫瑰芬芳的{1_adj}糖浆中吸饱甜汁。一口咬下，必须汁水四溢才算地道。</FlavorTextFR_GulabJamunDuo.description>
+
+  <!-- EN: risi e bisi -->
+  <FlavorTextFR_RisiEBisiDuo.label>威尼斯豌豆烩饭</FlavorTextFR_RisiEBisiDuo.label>
+  <!-- EN: {0_coll} and {1_coll} cooked together, somewhere between a soup and a risotto — loose enough for the spoon, too thick for the bowl. The pods go into the stock; nothing is wasted. -->
+  <FlavorTextFR_RisiEBisiDuo.description>{0_coll}与{1_coll}同煮，浓稠度介于汤羹与意式烩饭之间——用勺舀起尚显流动，盛在碗里却又嫌太稠。豆荚亦拿去熬制高汤，分毫不浪费。</FlavorTextFR_RisiEBisiDuo.description>
+
+  <!-- EN: gnocchi -->
+  <FlavorTextFR_GnocchiDuo.label>意式土豆团子</FlavorTextFR_GnocchiDuo.label>
+  <!-- EN: {0_coll} crushed while still hot and bound with as little flour as can be managed, rolled, and ridged with a fork. They are done when they rise. -->
+  <FlavorTextFR_GnocchiDuo.description>{0_coll}趁热压泥，仅掺入少到不能再少的面粉揉合成团，搓条切块后在叉背上滚出纹路。入水煮至浮起即熟。</FlavorTextFR_GnocchiDuo.description>
+
+  <!-- EN: focaccia -->
+  <FlavorTextFR_FocacciaDuo.label>佛卡夏面包</FlavorTextFR_FocacciaDuo.label>
+  <!-- EN: a very wet dough dimpled with the fingertips, drowned in {1_adj} oil and salted in coarse grains. The holes hold the oil: they are not decorative. -->
+  <FlavorTextFR_FocacciaDuo.description>含水量极高的面团以指尖戳出满面凹窝，淋满{1_adj}油并撒上粗粒海盐。那些凹窝是为了蓄住油脂，绝非摆设。</FlavorTextFR_FocacciaDuo.description>
+
+  <!-- EN: caprese -->
+  <FlavorTextFR_CapreseDuo.label>卡普里沙拉</FlavorTextFR_CapreseDuo.label>
+  <!-- EN: {0_coll} and {1_coll} in alternating slices, oil, salt, green leaves. Nothing else, and above all no vinegar. -->
+  <FlavorTextFR_CapreseDuo.description>{0_coll}与{1_coll}切片相间排开，淋油、撒盐、缀以翠绿香草叶。此外别无他物，尤其断不可放醋。</FlavorTextFR_CapreseDuo.description>
+
+  <!-- EN: saltimbocca -->
+  <FlavorTextFR_SaltimboccaDuo.label>罗马鼠尾草火腿小牛排</FlavorTextFR_SaltimboccaDuo.label>
+  <!-- EN: an escalope of {0_adj} flattened out, a sage leaf and a slice of {1_adj} pinned to it, seared a minute a side. The name says: leaps into the mouth. -->
+  <FlavorTextFR_SaltimboccaDuo.description>拍扁的{0_adj}薄片上用牙签别住一片鼠尾草叶与一片{1_adj}，两面各煎一分钟即成。其名意为：“自己跳进嘴里”。</FlavorTextFR_SaltimboccaDuo.description>
+
+  <!-- EN: udon -->
+  <FlavorTextFR_UdonDuo.label>乌冬面</FlavorTextFR_UdonDuo.label>
+  <!-- EN: thick, soft noodles kneaded underfoot beneath a cloth, in a clear {1_adj} broth. The texture matters more than the taste, and it is deliberate. -->
+  <FlavorTextFR_UdonDuo.description>隔着厚布用脚踩揉而成的粗软面条，浸在清澈的{1_adj}高汤里。比起味道，它更讲究弹滑的口感，而这正是刻意追求的境界。</FlavorTextFR_UdonDuo.description>
+
+  <!-- EN: soba -->
+  <FlavorTextFR_SobaDuo.label>荞麦面</FlavorTextFR_SobaDuo.label>
+  <!-- EN: grey {0_adj} noodles, served cold on a rack with a {1_adj} sauce apart. The cooking water is drunk at the end, let down in what is left of the sauce. -->
+  <FlavorTextFR_SobaDuo.description>灰褐色的{0_adj}面条，冰镇后盛在竹屉上，另附一盅{1_adj}蘸汁。最后用煮面水兑开碗底余下的蘸汁，一饮而尽。</FlavorTextFR_SobaDuo.description>
+
+  <!-- EN: agedashi dofu -->
+  <FlavorTextFR_AgedashiDofuDuo.label>扬出豆腐</FlavorTextFR_AgedashiDofuDuo.label>
+  <!-- EN: cubes of {0_adj} tofu rolled in starch and fried, set into a warm {1_adj} broth. The crust holds just long enough to reach the table. -->
+  <FlavorTextFR_AgedashiDofuDuo.description>{0_adj}豆腐切块拍粉油炸，浸入温热的{1_adj}高汤中。那层薄脆外皮刚好能撑到端上餐桌的那一刻。</FlavorTextFR_AgedashiDofuDuo.description>
+
+  <!-- EN: korokke -->
+  <FlavorTextFR_KorokkeDuo.label>可乐饼</FlavorTextFR_KorokkeDuo.label>
+  <!-- EN: a mash of {0_adj} mixed with minced {1_plur}, crumbed in coarse breadcrumbs and fried. A distant descendant of the French croquette, which arrived by boat last century. -->
+  <FlavorTextFR_KorokkeDuo.description>{0_adj}泥拌入炒香的碎{1_plur}，裹上粗粒面包糠下锅炸至金黄。它是上世纪乘船东渡的法式炸肉饼的远房后裔。</FlavorTextFR_KorokkeDuo.description>
+
+  <!-- EN: dorayaki -->
+  <FlavorTextFR_DorayakiDuo.label>铜锣烧</FlavorTextFR_DorayakiDuo.label>
+  <!-- EN: two small thick pancakes made with {1_plur} and honey, closed over a sweet {0_adj} paste. The name comes from the gong they imitate. -->
+  <FlavorTextFR_DorayakiDuo.description>两片用{1_plur}与蜂蜜烤出的厚实小圆饼，中间夹着香甜的{0_adj}沙馅。因形似铜锣而得名。</FlavorTextFR_DorayakiDuo.description>
+
+  <!-- EN: pajeon -->
+  <FlavorTextFR_PajeonDuo.label>韩式葱饼</FlavorTextFR_PajeonDuo.label>
+  <!-- EN: a thick pancake in which {1_coll} stand upright in the batter, gilded on both sides in generous oil. Eaten on rainy days: the sound of the frying recalls the sound of the drops. -->
+  <FlavorTextFR_PajeonDuo.description>整排{1_coll}齐整铺在面糊里的厚煎饼，用宽油将两面煎至金黄焦脆。最宜在雨天享用：热油煎饼的滋滋声恰似窗外淅沥的雨声。</FlavorTextFR_PajeonDuo.description>
+
+  <!-- EN: fattoush -->
+  <FlavorTextFR_FattoucheDuo.label>法图什烤饼沙拉</FlavorTextFR_FattoucheDuo.label>
+  <!-- EN: stale flatbread, toasted and broken by hand, thrown over {0_coll} and {1_coll} with sumac. Served at the last moment: the bread must still crack. -->
+  <FlavorTextFR_FattoucheDuo.description>放干的薄饼烤脆后亲手掰碎，与漆树果粉一同撒在{0_coll}和{1_coll}上。必须在最后一刻拌匀端上：饼脆声不可稍减。</FlavorTextFR_FattoucheDuo.description>
+
+  <!-- EN: tabbouleh -->
+  <FlavorTextFR_TabouleDuo.label>塔布勒沙拉</FlavorTextFR_TabouleDuo.label>
+  <!-- EN: a mountain of herbs chopped with a knife, {1_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere. -->
+  <FlavorTextFR_TabouleDuo.description>刀刃细细切碎的香草堆成小山，拌入切丁的{1_coll}，而碎麦粒不过寥寥一把。那种以谷物为主角的做法，完全是他乡的杜撰。</FlavorTextFR_TabouleDuo.description>
+
+  <!-- EN: tabbouleh -->
+  <FlavorTextFR_TabouleSolo.label>塔布勒沙拉</FlavorTextFR_TabouleSolo.label>
+  <!-- EN: a mountain of herbs chopped with a knife, {0_coll} in dice, and only a handful of bulgur. The version in which the grain dominates is an invention from elsewhere. -->
+  <FlavorTextFR_TabouleSolo.description>刀刃细细切碎的香草堆成小山，拌入切丁的{0_coll}，而碎麦粒不过寥寥一把。那种以谷物为主角的做法，完全是他乡的杜撰。</FlavorTextFR_TabouleSolo.description>
+
+  <!-- EN: pastilla -->
+  <FlavorTextFR_PastillaDuo.label>巴斯蒂亚肉派</FlavorTextFR_PastillaDuo.label>
+  <!-- EN: {0_coll} pulled into threads and toasted {1_coll} shut inside sheets of warqa, the whole dusted over with sugar and cinnamon. A savoury dish served under a sweet layer, and nobody finds it strange. -->
+  <FlavorTextFR_PastillaDuo.description>撕成细丝的{0_coll}与烤香的{1_coll}封入薄如蝉翼的瓦尔卡酥皮中，表面撒满糖粉与肉桂。咸香内馅覆于甜霜之下，却无人觉得违和。</FlavorTextFR_PastillaDuo.description>
+
+  <!-- EN: briouates -->
+  <FlavorTextFR_BriouatesDuo.label>摩洛哥杏仁三角酥</FlavorTextFR_BriouatesDuo.label>
+  <!-- EN: triangles of warqa filled with pounded {0_plur}, fried and then plunged scalding into cold honey. The shock of temperature is what makes them crisp. -->
+  <FlavorTextFR_BriouatesDuo.description>瓦尔卡薄酥皮包入捣碎的{0_plur}折成三角形，炸透后趁滚烫直接浸入冰凉的蜂蜜中。正是这冷热交锋的激荡造就了极致的酥脆。</FlavorTextFR_BriouatesDuo.description>
+
+  <!-- EN: mint tea -->
+  <FlavorTextFR_TheALaMentheDuo.label>摩洛哥薄荷茶</FlavorTextFR_TheALaMentheDuo.label>
+  <!-- EN: green {0_coll}, a handful of mint, and a great deal more {1_adj} than anyone likes to admit. Poured from a height to raise the foam, and three times rather than once. -->
+  <FlavorTextFR_TheALaMentheDuo.description>绿{0_coll}、一大把鲜薄荷，再加上远超任何人愿意承认的分量的{1_adj}。从高处悬壶冲注以激起绵密泡沫，且讲究连饮三杯而非浅尝辄止。</FlavorTextFR_TheALaMentheDuo.description>
+
+  <!-- EN: royal couscous -->
+  <FlavorTextFR_CouscousRoyalDuo.label>皇家库斯库斯</FlavorTextFR_CouscousRoyalDuo.label>
+  <!-- EN: semolina rolled by hand and steamed three times over the broth, served with {0_plur} and {1_plur}. The grain never touches the water. -->
+  <FlavorTextFR_CouscousRoyalDuo.description>手工搓制的粗麦粉置于肉汤上方反复蒸透三次，佐以{0_plur}与{1_plur}同食。麦粒自始至终绝不沾半点汤水。</FlavorTextFR_CouscousRoyalDuo.description>
+
+  <!-- EN: seffa -->
+  <FlavorTextFR_SeffaDuo.label>塞法甜蒸粗麦粉</FlavorTextFR_SeffaDuo.label>
+  <!-- EN: steamed semolina heaped into a cone, striped with cinnamon and icing sugar, crowned with fried {0_plur}, with {1_plur} served apart and cold. -->
+  <FlavorTextFR_SeffaDuo.description>蒸熟的粗麦粉堆成圆锥形，用肉桂粉与糖粉勾勒出条纹，顶端缀满油炸{0_plur}，另附一盅冰镇{1_plur}佐食。</FlavorTextFR_SeffaDuo.description>
+
+  <!-- EN: msemen -->
+  <FlavorTextFR_MsemenDuo.label>姆塞门千层酥饼</FlavorTextFR_MsemenDuo.label>
+  <!-- EN: a dough stretched to transparency on an oiled surface, brushed with {0_plur} and semolina, folded into a square and folded again, then cooked dry. The layers are counted when it is torn. -->
+  <FlavorTextFR_MsemenDuo.description>在抹油的案面上将面团拉扯至薄如透明，刷上{0_plur}、撒上粗麦粉，层层折叠成方块后干烙而成。撕开饼身时，层次分明得可以一一细数。</FlavorTextFR_MsemenDuo.description>
+
+  <!-- EN: aamras -->
+  <FlavorTextFR_AamrasDuo.label>印度香甜芒果泥</FlavorTextFR_AamrasDuo.label>
+  <!-- EN: the pulp of {0_adj} pressed out by hand rather than blended — the whisk oxidises it and dulls the colour — with barely any {1_plur}, scented with cardamom and saffron. -->
+  <FlavorTextFR_AamrasDuo.description>{0_adj}果肉纯凭手工揉压出浆而不借搅拌机——刀片高速搅打会令果肉氧化黯淡——仅加微末{1_plur}，再以小豆蔻与藏红花提香。</FlavorTextFR_AamrasDuo.description>
+
+  <!-- EN: aamras puri -->
+  <FlavorTextFR_AamrasPuriDuo.label>印度芒果泥配炸面饼</FlavorTextFR_AamrasPuriDuo.label>
+  <!-- EN: the purée of {0_adj} served with scalding puffed puri, torn open to dip with. Sweet and savoury in the same mouthful: a whole meal in Gujarat while the season lasts. -->
+  <FlavorTextFR_AamrasPuriDuo.description>浓醇的{0_adj}果泥佐以滚烫鼓胀的油炸普里饼，撕开热饼蘸食果泥。一口之内甜咸交融，在古吉拉特邦的芒果季里便是一顿圆满的正餐。</FlavorTextFR_AamrasPuriDuo.description>
+
+  <!-- EN: mango float -->
+  <FlavorTextFR_MangoFloatDuo.label>菲律宾芒果冰盒蛋糕</FlavorTextFR_MangoFloatDuo.label>
+  <!-- EN: alternating layers of graham crackers, {1_adj} whipped with condensed milk and {0_adj} in slivers, left overnight in the cold to set. The biscuits soften and turn into cake. -->
+  <FlavorTextFR_MangoFloatDuo.description>全麦饼干、炼乳打发的{1_adj}与薄片{0_adj}层层交替铺叠，冷藏过夜定型。饼干吸饱奶香后柔化，口感宛如蛋糕。</FlavorTextFR_MangoFloatDuo.description>
+
+  <!-- EN: green mango curry -->
+  <FlavorTextFR_RawMangoCurryDuo.label>青芒椰浆咖哩</FlavorTextFR_RawMangoCurryDuo.label>
+  <!-- EN: green {0_coll} stewed in a {1_adj} milk raised with turmeric and mustard seed. The fruit keeps its shape and its acidity: this is not a dessert, whatever sugar it holds. -->
+  <FlavorTextFR_RawMangoCurryDuo.description>青{0_coll}在添了姜黄与芥菜籽的{1_adj}浆中慢炖。果块依旧保持着棱角与明亮酸度——无论里头含多少糖分，这都绝非甜点。</FlavorTextFR_RawMangoCurryDuo.description>
+
+  <!-- EN: chicken and mango curry -->
+  <FlavorTextFR_MangoChickenCurryDuo.label>芒果炖鸡咖哩</FlavorTextFR_MangoChickenCurryDuo.label>
+  <!-- EN: {1_coll} stewed in a sauce where ripe {0_coll} melts away and sweetens the curry, while a few green pieces kept whole supply the acid. -->
+  <FlavorTextFR_MangoChickenCurryDuo.description>{1_coll}在浓稠酱汁中慢炖，熟透的{0_coll}融化其中为咖哩染上甘甜，而几块完好保留的青芒则负责提供清爽酸味。</FlavorTextFR_MangoChickenCurryDuo.description>
+
+  <!-- EN: ghee rice -->
+  <FlavorTextFR_GheeRiceDuo.label>印式酥油香饭</FlavorTextFR_GheeRiceDuo.label>
+  <!-- EN: basmati {0_coll} turned in clarified {1_coll} with whole spices — cinnamon, clove, cardamom, bay — then swelled in boiling water. Called neychoru in Kerala, where it goes with the feasts. -->
+  <FlavorTextFR_GheeRiceDuo.description>巴斯马蒂长粒{0_coll}与肉桂、丁香、豆蔻、月桂叶等整粒香料在澄清{1_coll}中翻炒裹匀，再注入沸水焖至粒粒饱满。在喀拉拉邦称为“内乔鲁”，是宴席上的必备主食。</FlavorTextFR_GheeRiceDuo.description>
+
+  <!-- EN: coconut chutney -->
+  <FlavorTextFR_ChutneyDeCocoDuo.label>印式椰蓉辣酱</FlavorTextFR_ChutneyDeCocoDuo.label>
+  <!-- EN: {0_coll} blended with toasted {1_coll} and a little water, then woken up with a tempering: mustard seed and curry leaves burst in scalding oil and poured over the top. It goes with the dosa. -->
+  <FlavorTextFR_ChutneyDeCocoDuo.description>{0_coll}与焙香的{1_coll}加少许水搅打成泥，最后泼上一勺爆香了芥菜籽与咖喱叶的滚油激出香气，最宜佐食多萨薄饼。</FlavorTextFR_ChutneyDeCocoDuo.description>
+
+  <!-- EN: picarones -->
+  <FlavorTextFR_PicaronesDuo.label>秘鲁南瓜红薯甜甜圈</FlavorTextFR_PicaronesDuo.label>
+  <!-- EN: rings of {0_adj} and sweet potato dough, shaped by hand with a turning gesture, fried and drowned in a dark {1_adj} syrup. The colonial successor of an older fritter. -->
+  <FlavorTextFR_PicaronesDuo.description>{0_adj}与红薯揉成的面团，在指尖灵巧一旋捏成圆环下油锅炸酥，再浸满深浓的{1_adj}糖浆。它是殖民时代流传至今的古老炸果子传人。</FlavorTextFR_PicaronesDuo.description>
+
+  <!-- EN: narsharab -->
+  <FlavorTextFR_NarsharabDuo.label>阿塞拜疆五香石榴浓酱</FlavorTextFR_NarsharabDuo.label>
+  <!-- EN: the Azerbaijani molasses, mounted with {1_plur} and scented with cinnamon, clove and bay. Served with grilled sturgeon, and nothing else will stand in for it. -->
+  <FlavorTextFR_NarsharabDuo.description>阿塞拜疆风味的石榴糖蜜，添入{1_plur}熬煮，并以肉桂、丁香与月桂叶赋香。专配炭烤鲟鱼，世间再无他物可堪替代。</FlavorTextFR_NarsharabDuo.description>
+
+  <!-- EN: pomegranate fattoush -->
+  <FlavorTextFR_FattoushGrenadeDuo.label>石榴法图什脆饼沙拉</FlavorTextFR_FattoushGrenadeDuo.label>
+  <!-- EN: flatbread fried and broken up, {1_coll} and herbs, with a dressing of sumac and {0_adj} molasses. The bread must still crack when it reaches the table. -->
+  <FlavorTextFR_FattoushGrenadeDuo.description>炸酥掰碎的大饼与{1_coll}、香草同拌，淋上盐肤木粉与{0_adj}糖蜜调成的酱汁。上桌时碎饼必须依然咬之嘎嘣作响。</FlavorTextFR_FattoushGrenadeDuo.description>
+
+  <!-- EN: kısır with pomegranate -->
+  <FlavorTextFR_KisirGrenadeDuo.label>土耳其石榴碎麦沙拉</FlavorTextFR_KisirGrenadeDuo.label>
+  <!-- EN: fine bulgur swelled in hot water and worked by hand with {1_adj} concentrate, mild pepper and {0_adj} molasses. Served in leaves of lettuce. -->
+  <FlavorTextFR_KisirGrenadeDuo.description>细碎布尔古麦以热水泡发，加浓缩{1_adj}膏、甜椒酱与{0_adj}糖蜜手工揉匀入味。盛在生菜叶中捧食。</FlavorTextFR_KisirGrenadeDuo.description>
+
+  <!-- EN: lamb and pomegranate tagine -->
+  <FlavorTextFR_TajineAgneauGrenadeDuo.label>石榴羊肉塔吉锅</FlavorTextFR_TajineAgneauGrenadeDuo.label>
+  <!-- EN: {1_coll} stewed with saffron and cinnamon, the sauce sharpened with the juice of {0_adj} and the fresh seeds sown on only as it is served — cooked, they lose everything. -->
+  <FlavorTextFR_TajineAgneauGrenadeDuo.description>{1_coll}加藏红花与肉桂慢炖，汤汁以{0_adj}汁提酸，而新鲜石榴籽唯在上桌前才撒入锅中——一旦煮熟便会彻底失去灵气。</FlavorTextFR_TajineAgneauGrenadeDuo.description>
+
+  <!-- EN: anardana chutney -->
+  <FlavorTextFR_AnardanaChutneyDuo.label>印度干石榴籽辣味蘸酱</FlavorTextFR_AnardanaChutneyDuo.label>
+  <!-- EN: the dried and ground seeds of wild {0_adj}, pounded with green {1_plur} and coriander. Anardana stands in for tamarind across the whole of northern India. -->
+  <FlavorTextFR_AnardanaChutneyDuo.description>晒干磨粉的野生{0_adj}籽与青{1_plur}、香菜一同捣成浓酱。在整个北印度，干石榴籽都扮演着替代罗望子的提酸角色。</FlavorTextFR_AnardanaChutneyDuo.description>
+
+  <!-- EN: anardana chicken -->
+  <FlavorTextFR_AnardanaChickenDuo.label>印度干石榴籽炖鸡</FlavorTextFR_AnardanaChickenDuo.label>
+  <!-- EN: {1_coll} marinated in the ground seeds of {0_adj}, whose acidity tenderises the flesh, then stewed with dry spices, with neither tomato nor yoghurt. -->
+  <FlavorTextFR_AnardanaChickenDuo.description>{1_coll}先以磨碎的{0_adj}籽腌渍，借其果酸软化肉质，再加干香料慢炖，全程不放番茄亦不加酸奶。</FlavorTextFR_AnardanaChickenDuo.description>
+
+  <!-- EN: prickly pear tart -->
+  <FlavorTextFR_TarteFigueBarbarieDuo.label>仙人掌果挞</FlavorTextFR_TarteFigueBarbarieDuo.label>
+  <!-- EN: a shortcrust base made with {1_plur}, filled with a set {0_adj} jelly whose colour goes from magenta to garnet as it cools. -->
+  <FlavorTextFR_TarteFigueBarbarieDuo.description>以{1_plur}揉成的甜酥挞壳内注满凝结的{0_adj}果冻，随着温度冷却，色泽由洋红渐次化作深邃的石榴红。</FlavorTextFR_TarteFigueBarbarieDuo.description>
+
+  <!-- EN: sashimi -->
+  <FlavorTextFR_SashimiDuo.label>刺身</FlavorTextFR_SashimiDuo.label>
+  <!-- EN: {0_coll} raw and sliced in one drawn stroke, never sawn, on a bed of shredded radish. The knife and the angle of the cut make the whole dish; there is nothing else to be done. -->
+  <FlavorTextFR_SashimiDuo.description>生鲜{0_coll}一刀拉切成形，断不可来回拉锯，铺在细密的白萝卜丝上。刀锋与下刀的角度便是整道菜的全部奥妙；此外无须任何多余修饰。</FlavorTextFR_SashimiDuo.description>
+
+  <!-- EN: gored gored -->
+  <FlavorTextFR_GoredGoredDuo.label>埃塞俄比亚香辣生牛肉丁</FlavorTextFR_GoredGoredDuo.label>
+  <!-- EN: {0_coll} raw in cubes rather than chopped, rolled in a spiced butter and awaze. The kitfo's cousin in pieces, and the most merciless test of freshness there is. -->
+  <FlavorTextFR_GoredGoredDuo.description>切成方丁而非剁碎的生鲜{0_coll}，裹满香料黄油与阿瓦泽辣酱。它是生拌牛肉末的块状近亲，也是对肉质新鲜度最严苛的考验。</FlavorTextFR_GoredGoredDuo.description>
+
+  <!-- EN: twisted meat sausage -->
+  <FlavorTextFR_SaucisseViandeTordueDuo.label>扭曲肉香肠</FlavorTextFR_SaucisseViandeTordueDuo.label>
+  <!-- EN: {0_coll} minced twice, let down with crumb and heavily seasoned with {1_plur}, cased and then poached. The mincer settles the question of texture. -->
+  <FlavorTextFR_SaucisseViandeTordueDuo.description>{0_coll}绞碎两遍，掺入面包糠并重手下入{1_plur}调味，灌入肠衣后微沸水煮熟。绞肉机彻底解决了口感上的问题。</FlavorTextFR_SaucisseViandeTordueDuo.description>
+
+  <!-- EN: twisted meat pie -->
+  <FlavorTextFR_TourteViandeTordueDuo.label>扭曲肉派</FlavorTextFR_TourteViandeTordueDuo.label>
+  <!-- EN: {0_coll} braised in advance and shut under a {1_adj} pastry. What is under the crust can no longer be seen, and that is part of the point. -->
+  <FlavorTextFR_TourteViandeTordueDuo.description>{0_coll}预先焖熟，严严实实地封入{1_adj}酥皮之下。酥皮之下的光景再也无从窥见，而这正是此菜的用意之一。</FlavorTextFR_TourteViandeTordueDuo.description>
+
+  <!-- EN: soda-glazed pork -->
+  <FlavorTextFR_PorcAuSodaDuo.label>汽水焦糖煨猪肉</FlavorTextFR_PorcAuSodaDuo.label>
+  <!-- EN: a ham cooked slowly in sweetened {0_coll}, whose sugar caramelises and whose acid tenderises. A recipe out of a tin-can kitchen, and nobody has ever explained why it works. -->
+  <FlavorTextFR_PorcAuSodaDuo.description>整块火腿在加甜的{0_coll}中慢火煨熟，其中的糖分焦糖化收汁，酸度则令肉质软嫩。一道源自罐头厨房的奇巧食谱，至今也没人说得清它为何如此美味。</FlavorTextFR_PorcAuSodaDuo.description>
+
+  <!-- EN: alligator sauce piquante -->
+  <FlavorTextFR_AlligatorSaucePiquanteDuo.label>卡真香辣汁炖鳄鱼</FlavorTextFR_AlligatorSaucePiquanteDuo.label>
+  <!-- EN: {0_coll} from the tail in dice, stewed in a roux and {1_coll} with cayenne pepper. The Cajun alligator dish, the one served at the parish fairs. -->
+  <FlavorTextFR_AlligatorSaucePiquanteDuo.description>取鳄鱼尾部的{0_coll}切丁，在油面酱与{1_coll}、卡宴辣椒熬成的辣汁中慢炖。这是最地道的卡真鳄鱼料理，也是教区集市上的招牌菜。</FlavorTextFR_AlligatorSaucePiquanteDuo.description>
+
+  <!-- EN: cajun alligator bites -->
+  <FlavorTextFR_BeignetsAlligatorDuo.label>卡真酥炸鳄鱼球</FlavorTextFR_BeignetsAlligatorDuo.label>
+  <!-- EN: dice of {0_adj} marinated in buttermilk, rolled in a {1_adj} flour with paprika and cayenne, and fried on the spot. Eaten on a toothpick, with a rémoulade. -->
+  <FlavorTextFR_BeignetsAlligatorDuo.description>将{0_adj}丁浸入酪乳腌制，裹上调入红椒粉、卡宴辣椒与{1_adj}的面粉现炸出锅。用牙签挑着，蘸法式蛋黄酱趁热吃。</FlavorTextFR_BeignetsAlligatorDuo.description>
+
+  <!-- EN: monitor lizard in coconut milk -->
+  <FlavorTextFR_VaranAuCocoDuo.label>椰浆慢炖巨蜥</FlavorTextFR_VaranAuCocoDuo.label>
+  <!-- EN: {0_coll} jointed and stewed a long while in a spiced {1_adj} milk — its flesh is firm and lean, and gives way only over a low flame. -->
+  <FlavorTextFR_VaranAuCocoDuo.description>将{0_coll}顺着关节斩块，浸入加了香料的{1_adj}浆中长时间慢炖——它的肉质紧实少脂，唯有文火久煨方能使其酥软。</FlavorTextFR_VaranAuCocoDuo.description>
+
+  <!-- EN: fried snake -->
+  <FlavorTextFR_SerpentFritDuo.label>椒盐酥炸蛇段</FlavorTextFR_SerpentFritDuo.label>
+  <!-- EN: lengths of {0_adj} rolled in a seasoned flour and fried in {1_plur} until golden. You eat around the ribs, as you would a corn cob. -->
+  <FlavorTextFR_SerpentFritDuo.description>将斩段的{0_adj}裹上调味面粉，放入滚烫的{1_plur}中炸至金黄酥脆。吃的时候像啃玉米棒一样绕着肋骨啃食。</FlavorTextFR_SerpentFritDuo.description>
+
+  <!-- EN: tuwo dawa -->
+  <FlavorTextFR_TuwoDawaDuo.label>豪萨高粱糊配花生汤</FlavorTextFR_TuwoDawaDuo.label>
+  <!-- EN: the Hausa version: a {0_adj} ball moulded with a ladle, with a miyan kuka of pounded baobab leaves and a {1_adj} sauce. Baobab thickens without any flour at all. -->
+  <FlavorTextFR_TuwoDawaDuo.description>豪萨人的做法：用汤勺团成圆球状的{0_adj}糊，佐以猴面包树叶舂粉煮成的浓汤与{1_adj}酱。单凭猴面包树叶本身，无需半点面粉便能令汤汁浓稠。</FlavorTextFR_TuwoDawaDuo.description>
+
+  <!-- EN: sorghum genfo -->
+  <FlavorTextFR_GenfoDeSorghoDuo.label>埃塞俄比亚高粱稠粥</FlavorTextFR_GenfoDeSorghoDuo.label>
+  <!-- EN: a very thick {0_adj} porridge moulded into a dome, hollowed at the centre and filled with niter kibbeh — a clarified butter with spices — and {1_adj} berbere. The lunch of young Ethiopian mothers. -->
+  <FlavorTextFR_GenfoDeSorghoDuo.description>熬得极稠的{0_adj}糊隆起如圆丘，顶端掏出凹窝，灌满香料澄清黄油与{1_adj}调成的柏柏尔辣粉。这是埃塞俄比亚新晋母亲坐月子时的滋补午饭。</FlavorTextFR_GenfoDeSorghoDuo.description>
+
+  <!-- EN: popped sorghum -->
+  <FlavorTextFR_PoppedSorghumDuo.label>爆高粱花</FlavorTextFR_PoppedSorghumDuo.label>
+  <!-- EN: {0_coll} thrown by the handful into a scorching pan: the grains burst into minute white balls, ten times smaller than popcorn, and a great deal more tender. -->
+  <FlavorTextFR_PoppedSorghumDuo.description>抓起大把{0_coll}撒入烧得滚烫的锅中，籽粒纷纷爆成细小的白球，虽比爆米花小上十倍，口感却格外柔嫩无渣。</FlavorTextFR_PoppedSorghumDuo.description>
+
+  <!-- EN: gỏi cuốn -->
+  <FlavorTextFR_GoiCuonDuo.label>越南米纸夏卷</FlavorTextFR_GoiCuonDuo.label>
+  <!-- EN: {0_adj} wrappers dipped for a second in warm water, rolled tight over {1_coll} and herbs. You can see the pink through the sheet: that is why it is rolled that way round. -->
+  <FlavorTextFR_GoiCuonDuo.description>{0_adj}薄皮在温水里轻蘸一秒，紧紧卷起{1_coll}与新鲜香草。透过半透明的米纸能隐约看见那抹粉红——特意把虾贴在外层卷起，正是为了这一眼惊艳。</FlavorTextFR_GoiCuonDuo.description>
+
+  <!-- EN: bo bun -->
+  <FlavorTextFR_BoBunDuo.label>越式烤牛肉拌檬粉</FlavorTextFR_BoBunDuo.label>
+  <!-- EN: cold {0_adj} vermicelli under scalding fried {1_coll}, with raw herbs and a clear sweet-salt sauce poured over the top. Hot and cold in the same bowl, and it is not a fault. -->
+  <FlavorTextFR_BoBunDuo.description>冰凉的{0_adj}粉上铺着滚烫的爆炒{1_coll}与生鲜香草，再淋上一勺清亮咸甜的鱼露汁。冷与热共处一碗，非但不是败笔，反而是点睛之妙。</FlavorTextFR_BoBunDuo.description>
+
+  <!-- EN: nem -->
+  <FlavorTextFR_NemDuo.label>越南炸春卷</FlavorTextFR_NemDuo.label>
+  <!-- EN: fine rolls filled with minced {0_plur} and black {1_plur} soaked back up, fried twice over. Eaten wrapped in a lettuce leaf, with mint. -->
+  <FlavorTextFR_NemDuo.description>裹入碎{0_plur}与泡发黑{1_plur}的纤细春卷，下油锅复炸两次。吃时用生菜叶连同薄荷一并卷起享用。</FlavorTextFR_NemDuo.description>
+
+  <!-- EN: pulpo a la gallega -->
+  <FlavorTextFR_PulpoGallegaDuo.label>加利西亚风味章鱼</FlavorTextFR_PulpoGallegaDuo.label>
+  <!-- EN: {0_coll} dipped three times into boiling water before it is left there — otherwise the skin comes away — cut with scissors over rounds of {1_adj}, oil and smoked paprika. -->
+  <FlavorTextFR_PulpoGallegaDuo.description>{0_coll}先在沸水中三提三浸后再入锅煮熟——否则外皮便会脱落——用剪刀剪成小段，铺在{1_adj}圆片之上，淋油并撒上烟熏红椒粉。</FlavorTextFR_PulpoGallegaDuo.description>
+
+  <!-- EN: fabada -->
+  <FlavorTextFR_FabadaDuo.label>阿斯图里亚斯白豆炖肉</FlavorTextFR_FabadaDuo.label>
+  <!-- EN: large white beans stewed with smoked {1_plur}, never stirred with a spoon: the pot is shaken with a turn of the wrist so as not to break them. -->
+  <FlavorTextFR_FabadaDuo.description>大颗白芸豆与烟熏{1_plur}一同慢火煨炖，全程绝不用勺翻动：全凭手腕轻晃锅身，以免将豆子搅碎。</FlavorTextFR_FabadaDuo.description>
+
+  <!-- EN: salmorejo -->
+  <FlavorTextFR_SalmorejoDuo.label>科尔多瓦番茄冷浓汤</FlavorTextFR_SalmorejoDuo.label>
+  <!-- EN: {0_coll} ground with crumb and mounted with oil into an orange cream thick enough to stand up, served iced with hard-boiled {1_coll} crumbled over. Denser than gazpacho, of which it is the Córdoban cousin. -->
+  <FlavorTextFR_SalmorejoDuo.description>{0_coll}与面包心一同捣碎，徐徐注油乳化成浓稠不散的橙红浓汤，冰镇后撒上切碎的全熟{1_coll}奉客。它是西班牙冷汤来自科尔多瓦的近亲，质地更为醇厚绵密。</FlavorTextFR_SalmorejoDuo.description>
+
+  <!-- EN: fideuà -->
+  <FlavorTextFR_FideuaDuo.label>西班牙海鲜短面</FlavorTextFR_FideuaDuo.label>
+  <!-- EN: short hollow pasta toasted dry then cooked in a {1_adj} fumet, which they drink up while standing on end. Born of a ship's boy hiding the rice from a captain who ate too much of it. -->
+  <FlavorTextFR_FideuaDuo.description>短小的空心意面干锅焙香，再注入{1_adj}高汤焖熟，面条吸饱汤汁后根根竖立。相传最初是因为船长太过贪吃米饭，船上帮厨少年便藏起大米、改用面条烹制而成。</FlavorTextFR_FideuaDuo.description>
+
+  <!-- EN: onion tatin -->
+  <FlavorTextFR_TatinDOignonsDuo.label>法式反烤焦糖洋葱塔</FlavorTextFR_TatinDOignonsDuo.label>
+  <!-- EN: {0_coll} halved and set cut side down in a {1_adj} caramel with vinegar, covered over with pastry and turned out after baking. The principle of the apple tart, applied to the savoury. -->
+  <FlavorTextFR_TatinDOignonsDuo.description>对半切开的{0_coll}切面朝下排入加了醋的{1_adj}焦糖底中，覆上酥皮烘熟后翻转脱模。这是将反烤苹果塔的法则巧妙移用于咸味料理。</FlavorTextFR_TatinDOignonsDuo.description>
+
+  <!-- EN: cipolline in agrodolce -->
+  <FlavorTextFR_CipollineAgrodolceDuo.label>意式糖醋珍珠洋葱</FlavorTextFR_CipollineAgrodolceDuo.label>
+  <!-- EN: small whole {0_coll} glazed in balsamic vinegar and {1_plur}, with bay. Eaten cold, and they keep a week, gaining by the day. -->
+  <FlavorTextFR_CipollineAgrodolceDuo.description>整颗小巧扁圆的{0_coll}加入香脂醋、{1_plur}与月桂叶慢火收汁挂亮。放凉后食用，可存上一周，且风味日胜一日。</FlavorTextFR_CipollineAgrodolceDuo.description>
+
+  <!-- EN: sweet-and-sour beetroot -->
+  <FlavorTextFR_BetteravesAigresDoucesDuo.label>糖醋腌甜菜根</FlavorTextFR_BetteravesAigresDoucesDuo.label>
+  <!-- EN: {0_coll} cooked in their skins then marinated in a {1_adj} vinegar with mustard seed and dill. They take a week to come into balance and keep for months. -->
+  <FlavorTextFR_BetteravesAigresDoucesDuo.description>带皮煮熟的{0_coll}，浸入调有芥末籽与莳萝的{1_adj}甜醋汁中腌渍。需静置一周方能酸甜融洽，此后便可保存数月之久。</FlavorTextFR_BetteravesAigresDoucesDuo.description>
+
+  <!-- EN: takuan -->
+  <FlavorTextFR_TakuanDuo.label>日式泽庵渍萝卜</FlavorTextFR_TakuanDuo.label>
+  <!-- EN: a daikon dried in the sun for weeks until it will bend, then buried in rice bran with {1_plur} and salt. Bright yellow, crisp, and loud to chew. -->
+  <FlavorTextFR_TakuanDuo.description>白萝卜在日光下暴晒数周直至柔韧可弯，再埋入混有{1_plur}与盐的米糠床中腌透。色泽明黄，爽脆多汁，嚼起来咔嚓作响。</FlavorTextFR_TakuanDuo.description>
+
+  <!-- EN: vegetable achards -->
+  <FlavorTextFR_AchardsDeLegumesDuo.label>克里奥尔酸甜姜黄腌菜</FlavorTextFR_AchardsDeLegumesDuo.label>
+  <!-- EN: {0_coll} cut into fine julienne, blanched then drowned in an oil with turmeric, ginger and vinegar, with just enough {1_adj} to round off the acid. They improve over three days. -->
+  <FlavorTextFR_AchardsDeLegumesDuo.description>切成细丝的{0_coll}焯水后，浸入调有姜黄、生姜与醋的香油中，仅加少许{1_adj}以柔化酸味。腌制三天后风味愈发醇美。</FlavorTextFR_AchardsDeLegumesDuo.description>
+
+  <!-- EN: khoresh-e beh -->
+  <FlavorTextFR_KhoreshBehDuo.label>波斯榅桲炖羊肉</FlavorTextFR_KhoreshBehDuo.label>
+  <!-- EN: {0_coll} braised with quinces in quarters, whose hard flesh melts within the hour and scents everything, sharpened with verjuice and sweetened with a little honey. -->
+  <FlavorTextFR_KhoreshBehDuo.description>{0_coll}与切作四瓣的榅桲一同焖炖，原本坚硬的果肉在不出一个钟头内便软融化开、香气四溢，最后以酸葡萄汁提酸，并调入少许蜂蜜增甜。</FlavorTextFR_KhoreshBehDuo.description>
+
+  <!-- EN: steamed pork with water chestnuts -->
+  <FlavorTextFR_PorcVapeurChataigneDEauDuo.label>马蹄蒸肉饼</FlavorTextFR_PorcVapeurChataigneDEauDuo.label>
+  <!-- EN: {1_coll} chopped with a knife and worked in one direction only until it turns elastic, {0_coll} in small dice through it, the whole spread into a cake and steamed over the rice. -->
+  <FlavorTextFR_PorcVapeurChataigneDEauDuo.description>{1_coll}用刀剁碎后顺着同一个方向搅打上劲，拌入切作细丁的{0_coll}，平铺成肉饼架在米饭上方一同蒸熟。</FlavorTextFR_PorcVapeurChataigneDEauDuo.description>
+
+  <!-- EN: pork and water chestnut dumplings -->
+  <FlavorTextFR_JiaoziPorcChataigneDEauDuo.label>马蹄猪肉水饺</FlavorTextFR_JiaoziPorcChataigneDEauDuo.label>
+  <!-- EN: a {1_adj} stuffing in which chopped {0_coll} bring the crunch that meat alone never gives, shut inside discs of dough pleated by hand. -->
+  <FlavorTextFR_JiaoziPorcChataigneDEauDuo.description>{1_adj}馅里拌入切碎的{0_coll}，带来纯肉馅绝难企及的清脆口感，包进手工捏褶的圆面皮中。</FlavorTextFR_JiaoziPorcChataigneDEauDuo.description>
+
+  <!-- EN: prawn and water chestnut dumplings -->
+  <FlavorTextFR_JiaoziCrevettesChataigneDEauDuo.label>马蹄鲜虾饺</FlavorTextFR_JiaoziCrevettesChataigneDEauDuo.label>
+  <!-- EN: {1_coll} left in large pieces rather than ground down, mixed with {0_plur} in dice. Two textures that crack, each in its own way. -->
+  <FlavorTextFR_JiaoziCrevettesChataigneDEauDuo.description>保留大颗粒而不剁成泥的{1_coll}，拌入切丁的{0_plur}。两种截然不同的爽脆在齿间各自迸发。</FlavorTextFR_JiaoziCrevettesChataigneDEauDuo.description>
+
+  <!-- EN: water chestnut spring rolls -->
+  <FlavorTextFR_RouleauxChataigneDEauDuo.label>马蹄春卷</FlavorTextFR_RouleauxChataigneDEauDuo.label>
+  <!-- EN: {1_coll} and {0_coll} finely sliced, rolled tight in a sheet of pastry and fried to a golden brown. The crunch comes from the inside as much as from the crust. -->
+  <FlavorTextFR_RouleauxChataigneDEauDuo.description>{1_coll}与{0_coll}切作细丝，用薄春卷皮紧紧卷起，下锅炸至金黄酥脆。那一口咔嚓声既来自外皮，也同样来自内馅。</FlavorTextFR_RouleauxChataigneDEauDuo.description>
+
+  <!-- EN: artichokes vinaigrette -->
+  <FlavorTextFR_ArtichautsVinaigretteSolo.label>油醋汁洋蓟</FlavorTextFR_ArtichautsVinaigretteSolo.label>
+  <!-- EN: {0_coll} boiled whole and head down, served warm with a mustard vinaigrette. You pull the leaves off one by one and scrape the base of each between your teeth; the heart is kept for last. -->
+  <FlavorTextFR_ArtichautsVinaigretteSolo.description>整颗{0_coll}倒扣水煮，趁温热佐以芥末油醋汁上桌。食客需将苞片逐一剥下，用牙齿刮食底部的嫩肉，而最精华的菜心则留到最后享尽。</FlavorTextFR_ArtichautsVinaigretteSolo.description>
+
+  <!-- EN: carciofi alla giudia -->
+  <FlavorTextFR_CarciofiAllaGiudiaSolo.label>犹太风味酥炸洋蓟</FlavorTextFR_CarciofiAllaGiudiaSolo.label>
+  <!-- EN: {0_coll} whole fried twice over, crushed between the two fryings so that the leaves open into a flower and turn as brittle as crisps. An invention of the Roman ghetto. -->
+  <FlavorTextFR_CarciofiAllaGiudiaSolo.description>整颗{0_coll}经两次油炸，复炸前按扁使其苞片如花朵般绽放，口感酥脆如薯片。这是昔日罗马犹太聚居区的独创名菜。</FlavorTextFR_CarciofiAllaGiudiaSolo.description>
+
+  <!-- EN: asparagus à la flamande -->
+  <FlavorTextFR_AspergesFlamandeSolo.label>佛兰德斯风味芦笋</FlavorTextFR_AspergesFlamandeSolo.label>
+  <!-- EN: white {0_coll} served with a hard-boiled egg crushed with a fork into melted butter, parsley and a grating of nutmeg. Everyone mixes their own sauce on their own plate. -->
+  <FlavorTextFR_AspergesFlamandeSolo.description>白{0_coll}佐以叉子碾碎的全熟水煮蛋、融化黄油、欧芹与现磨肉豆蔻。食客各自在盘中拌匀酱料享用。</FlavorTextFR_AspergesFlamandeSolo.description>
+
+  <!-- EN: asparagus with sauce mousseline -->
+  <FlavorTextFR_AspergesMousselineSolo.label>慕斯林酱芦笋</FlavorTextFR_AspergesMousselineSolo.label>
+  <!-- EN: the same hollandaise, lightened by a third with whipped cream folded in off the heat. It doubles in volume and loses its bite: the Sunday version. -->
+  <FlavorTextFR_AspergesMousselineSolo.description>同样以荷兰酱为底，离火后拌入占三分之一分量的打发奶油使其质地轻盈。酱汁体积翻倍，敛去了锋芒，是专属于周日餐桌的温润版本。</FlavorTextFR_AspergesMousselineSolo.description>
+
+  <!-- EN: ham on the bone -->
+  <FlavorTextFR_JambonALOsSolo.label>带骨整火腿</FlavorTextFR_JambonALOsSolo.label>
+  <!-- EN: a whole piece of {0_adj} cooked on its bone and carved in front of you. The flesh against the bone is the best of it, and the last to be served. -->
+  <FlavorTextFR_JambonALOsSolo.description>整只带骨烹熟、当面现片的{0_adj}火腿。贴骨肉最是鲜美，也总是留到最后才分食。</FlavorTextFR_JambonALOsSolo.description>
+
+  <!-- EN: chocolate mousse -->
+  <FlavorTextFR_MousseAuChocolatSolo.label>巧克力慕斯</FlavorTextFR_MousseAuChocolatSolo.label>
+  <!-- EN: {0_coll} melted and bound with yolks, lightened with whipped whites folded in three goes — the first third to loosen it, the other two with a spatula, without knocking the air out. -->
+  <FlavorTextFR_MousseAuChocolatSolo.description>融化的{0_coll}与蛋黄拌合，再分三次翻拌入打发的蛋白使其轻盈——前三分之一用来化开基底，后两次则用刮刀轻柔翻拌，切不可压散其中的空气。</FlavorTextFR_MousseAuChocolatSolo.description>
+
+  <!-- EN: künefe -->
+  <FlavorTextFR_KunefeSolo.label>土耳其库纳法拉丝芝士饼</FlavorTextFR_KunefeSolo.label>
+  <!-- EN: fresh {0_coll} caught between two layers of shredded pastry, browned on both sides then doused in scalding syrup. Eaten at once: the cheese must still pull. -->
+  <FlavorTextFR_KunefeSolo.description>新鲜无盐{0_coll}夹在两层如发丝般的酥皮丝之间，两面煎至金黄酥脆后浇上滚烫的糖浆。必须趁热即食——此时的奶酪还须能拉出长丝。</FlavorTextFR_KunefeSolo.description>
+
+  <!-- EN: durian puff -->
+  <FlavorTextFR_DurianPuffSolo.label>榴莲泡芙</FlavorTextFR_DurianPuffSolo.label>
+  <!-- EN: small choux buns filled with a pure {0_adj} cream, served cold. Sold in refrigerated boxes in Singapore, and banned on the underground like everything else containing that fruit. -->
+  <FlavorTextFR_DurianPuffSolo.description>小巧的泡芙壳内注满纯正的冰凉{0_adj}奶馅。在新加坡常以冷藏盒装售卖，也同其他一切含有这门水果的食物一样禁止带上地铁。</FlavorTextFR_DurianPuffSolo.description>
+
+  <!-- EN: durian cake -->
+  <FlavorTextFR_GateauAuDurianSolo.label>榴莲海绵蛋糕</FlavorTextFR_GateauAuDurianSolo.label>
+  <!-- EN: a very airy sponge into whose raw batter the flesh of {0_adj} is folded. The smell fills the kitchen while it bakes and settles there for the day. -->
+  <FlavorTextFR_GateauAuDurianSolo.description>极为蓬松的海绵蛋糕，生面糊中拌入了{0_adj}果肉。烘烤时浓香盈满厨房，一整天都久久不散。</FlavorTextFR_GateauAuDurianSolo.description>
+
+  <!-- EN: tempoyak -->
+  <FlavorTextFR_TempoyakSolo.label>发酵榴莲酱</FlavorTextFR_TempoyakSolo.label>
+  <!-- EN: the flesh of {0_adj} salted and left to ferment a week in a closed jar, until it turns sour and creamy. It is no longer a fruit at that stage: it is a condiment, and it keeps for months. -->
+  <FlavorTextFR_TempoyakSolo.description>{0_adj}果肉加盐封入罐中发酵一周，直至化作酸香绵密的膏状。此时的它已不再是水果，而是一味能保存数月的浓郁酱料。</FlavorTextFR_TempoyakSolo.description>
+
+  <!-- EN: wiener schnitzel -->
+  <FlavorTextFR_WienerSchnitzelSolo.label>维也纳炸肉排</FlavorTextFR_WienerSchnitzelSolo.label>
+  <!-- EN: an escalope of {0_adj} beaten until translucent, crumbed without pressing, and fried in butter with the pan shaken so the coating puffs and lifts off the meat. -->
+  <FlavorTextFR_WienerSchnitzelSolo.description>{0_adj}薄片拍打至近乎透光，轻裹面包糠而不加按压，入黄油锅中不断晃动煎炸，使外壳蓬松鼓起、与肉排若即若离。</FlavorTextFR_WienerSchnitzelSolo.description>
+
+  <!-- EN: poronkäristys -->
+  <FlavorTextFR_PoronkaristysSolo.label>芬兰小炒驯鹿肉</FlavorTextFR_PoronkaristysSolo.label>
+  <!-- EN: reindeer {0_coll} planed into shavings off the frozen block, thrown into scalding fat and served with a mash and a spoonful of lingonberries. A dish of Lapland, eaten in winter. -->
+  <FlavorTextFR_PoronkaristysSolo.description>冻硬的驯鹿等{0_coll}直接刨成薄片，投入滚烫油脂中急火快炒，佐以薯泥和一勺越橘果酱。一道拉普兰地区的冬日佳肴。</FlavorTextFR_PoronkaristysSolo.description>
+
+  <!-- EN: lapskaus -->
+  <FlavorTextFR_LapskausSolo.label>挪威水手炖肉</FlavorTextFR_LapskausSolo.label>
+  <!-- EN: {0_coll} and the roots cooked together so long that nothing can be told apart. A sailor's dish, made of salted meat and whatever was kept on board. -->
+  <FlavorTextFR_LapskausSolo.description>{0_coll}与根茎蔬菜一同久炖，直至万物融为一体、彼此难分。这是一道水手菜，用咸肉与船舱里仅存的食材一锅炖成。</FlavorTextFR_LapskausSolo.description>
+
+  <!-- EN: kedgeree -->
+  <FlavorTextFR_KedgereeSolo.label>英印咖喱熏鱼饭</FlavorTextFR_KedgereeSolo.label>
+  <!-- EN: curried {0_coll} folded through flaked smoked fish and hard-boiled eggs. An Indian khichdi carried home by the British and turned by them into a breakfast dish. -->
+  <FlavorTextFR_KedgereeSolo.description>咖喱味的{0_coll}拌入拆碎的烟熏鱼肉与全熟水煮蛋。这道源自印度的香料豆饭被英国人带回故土，演变成了一道早餐佳肴。</FlavorTextFR_KedgereeSolo.description>
+
+  <!-- EN: daube provençale -->
+  <FlavorTextFR_DaubeProvencaleSolo.label>普罗旺斯红酒焖牛肉</FlavorTextFR_DaubeProvencaleSolo.label>
+  <!-- EN: {0_coll} marinated a whole night, then cooked so long and so gently that it falls apart under the spoon. -->
+  <FlavorTextFR_DaubeProvencaleSolo.description>浸腌整夜的{0_coll}，以微火漫长慢焖，直至轻触勺尖便应声酥烂。</FlavorTextFR_DaubeProvencaleSolo.description>
+
+  <!-- EN: gougères -->
+  <FlavorTextFR_GougeresSolo.label>勃艮第奶酪泡芙</FlavorTextFR_GougeresSolo.label>
+  <!-- EN: choux pastry made with {0_plur}, puffed in the oven until it sounds hollow. Eaten warm, standing up, while waiting for the rest. -->
+  <FlavorTextFR_GougeresSolo.description>揉入{0_plur}烤制而成的咸味泡芙，在炉中高高鼓起，轻叩如闻空响。宜在等候正餐时站着趁热吃。</FlavorTextFR_GougeresSolo.description>
+
+  <!-- EN: Easter pâté -->
+  <FlavorTextFR_PateDePaquesSolo.label>贝里复活节流心蛋肉派</FlavorTextFR_PateDePaquesSolo.label>
+  <!-- EN: a stuffing of {0_adj} shut inside a pastry, with whole hard-boiled eggs lined up down the middle so that a yellow disc appears in every slice. -->
+  <FlavorTextFR_PateDePaquesSolo.description>酥皮内裹满{0_adj}馅，正中央排入一溜整颗全熟水煮蛋；切开上桌时，每一片肉派中心都嵌着一轮明黄圆月。</FlavorTextFR_PateDePaquesSolo.description>
+
+  <!-- EN: poulet en barbouille -->
+  <FlavorTextFR_PouletEnBarbouilleSolo.label>贝里红酒血汁炖鸡</FlavorTextFR_PouletEnBarbouilleSolo.label>
+  <!-- EN: {0_coll} stewed in wine, the sauce thickened with the bird's own blood and liver. Barbouille, for what it leaves on the chin of whoever eats it. -->
+  <FlavorTextFR_PouletEnBarbouilleSolo.description>在葡萄酒中慢炖的{0_coll}，以家禽自身的鲜血与禽肝收浓酱汁。法语菜名意为“花脸”，皆因食客大快朵颐后下巴上总免不了沾满浓黑酱汁。</FlavorTextFR_PouletEnBarbouilleSolo.description>
+
+  <!-- EN: gnocchi -->
+  <FlavorTextFR_GnocchiSolo.label>意式土豆团子</FlavorTextFR_GnocchiSolo.label>
+  <!-- EN: {0_coll} crushed while still hot and bound with as little flour as can be managed, rolled, and ridged with a fork. They are done when they rise. -->
+  <FlavorTextFR_GnocchiSolo.description>{0_coll}趁热压泥，仅掺入少到不能再少的面粉揉合成团，搓条切块后在叉背上滚出纹路。入水煮至浮起即熟。</FlavorTextFR_GnocchiSolo.description>
+
+  <!-- EN: aamras puri -->
+  <FlavorTextFR_AamrasPuriSolo.label>印度芒果泥配炸面饼</FlavorTextFR_AamrasPuriSolo.label>
+  <!-- EN: the purée of {0_adj} served with scalding puffed puri, torn open to dip with. Sweet and savoury in the same mouthful: a whole meal in Gujarat while the season lasts. -->
+  <FlavorTextFR_AamrasPuriSolo.description>浓醇的{0_adj}果泥佐以滚烫鼓胀的油炸普里饼，撕开热饼蘸食果泥。一口之内甜咸交融，在古吉拉特邦的芒果季里便是一顿圆满的正餐。</FlavorTextFR_AamrasPuriSolo.description>
+
+  <!-- EN: pomegranate molasses -->
+  <FlavorTextFR_MelasseDeGrenadeSolo.label>石榴糖蜜</FlavorTextFR_MelasseDeGrenadeSolo.label>
+  <!-- EN: the juice of {0_adj} reduced for hours to a tenth of its volume: thick, black and frankly sour. Dibs rumman in Arabic, nar ekşisi in Turkish — the lemon of the Levant. -->
+  <FlavorTextFR_MelasseDeGrenadeSolo.description>{0_adj}汁慢熬数小时浓缩至原体积的十分之一：质地浓稠、色泽乌黑、酸味凌厉。阿拉伯语称“迪布斯鲁曼”，土耳其语称“纳尔埃克希西”——堪称黎凡特地区的柠檬。</FlavorTextFR_MelasseDeGrenadeSolo.description>
+
+  <!-- EN: colonche -->
+  <FlavorTextFR_ColoncheSolo.label>墨西哥仙人掌果发酵酒</FlavorTextFR_ColoncheSolo.label>
+  <!-- EN: the juice of red {0_adj} left to ferment a few days in an earthenware jar. A pre-Hispanic drink, still sold in the markets of central Mexico. -->
+  <FlavorTextFR_ColoncheSolo.description>红{0_adj}汁盛入陶瓮中自然发酵数日而成。这种前西班牙时期的古老饮品，至今仍在墨西哥中部的集市上售卖。</FlavorTextFR_ColoncheSolo.description>
+
+  <!-- EN: sashimi -->
+  <FlavorTextFR_SashimiSolo.label>刺身</FlavorTextFR_SashimiSolo.label>
+  <!-- EN: {0_coll} raw and sliced in one drawn stroke, never sawn, on a bed of shredded radish. The knife and the angle of the cut make the whole dish; there is nothing else to be done. -->
+  <FlavorTextFR_SashimiSolo.description>生鲜{0_coll}一刀拉切成形，断不可来回拉锯，铺在细密的白萝卜丝上。刀锋与下刀的角度便是整道菜的全部奥妙；此外无须任何多余修饰。</FlavorTextFR_SashimiSolo.description>
+
+  <!-- EN: gored gored -->
+  <FlavorTextFR_GoredGoredSolo.label>埃塞俄比亚香辣生牛肉丁</FlavorTextFR_GoredGoredSolo.label>
+  <!-- EN: {0_coll} raw in cubes rather than chopped, rolled in a spiced butter and awaze. The kitfo's cousin in pieces, and the most merciless test of freshness there is. -->
+  <FlavorTextFR_GoredGoredSolo.description>切成方丁而非剁碎的生鲜{0_coll}，裹满香料黄油与阿瓦泽辣酱。它是生拌牛肉末的块状近亲，也是对肉质新鲜度最严苛的考验。</FlavorTextFR_GoredGoredSolo.description>
+
+  <!-- EN: creole turtle soup -->
+  <FlavorTextFR_TurtleSoupCreoleSolo.label>克里奥尔甲鱼汤</FlavorTextFR_TurtleSoupCreoleSolo.label>
+  <!-- EN: {0_coll} stewed in a brown roux with the Creole trinity, chopped hard-boiled eggs and a splash of sherry poured into the plate as it is served. The bottle stays on the table. -->
+  <FlavorTextFR_TurtleSoupCreoleSolo.description>将{0_coll}置于棕色油面酱中，与克里奥尔三味蔬菜一同慢炖，佐以切碎的全熟水煮蛋，上桌时往盘中淋入少许雪莉酒。酒瓶则留在餐桌上随时添用。</FlavorTextFR_TurtleSoupCreoleSolo.description>
+
+  <!-- EN: popped sorghum -->
+  <FlavorTextFR_PoppedSorghumSolo.label>爆高粱花</FlavorTextFR_PoppedSorghumSolo.label>
+  <!-- EN: {0_coll} thrown by the handful into a scorching pan: the grains burst into minute white balls, ten times smaller than popcorn, and a great deal more tender. -->
+  <FlavorTextFR_PoppedSorghumSolo.description>抓起大把{0_coll}撒入烧得滚烫的锅中，籽粒纷纷爆成细小的白球，虽比爆米花小上十倍，口感却格外柔嫩无渣。</FlavorTextFR_PoppedSorghumSolo.description>
+
+  <!-- EN: khoresh-e beh -->
+  <FlavorTextFR_KhoreshBehSolo.label>波斯榅桲炖羊肉</FlavorTextFR_KhoreshBehSolo.label>
+  <!-- EN: {0_coll} braised with quinces in quarters, whose hard flesh melts within the hour and scents everything, sharpened with verjuice and sweetened with a little honey. -->
+  <FlavorTextFR_KhoreshBehSolo.description>{0_coll}与切作四瓣的榅桲一同焖炖，原本坚硬的果肉在不出一个钟头内便软融化开、香气四溢，最后以酸葡萄汁提酸，并调入少许蜂蜜增甜。</FlavorTextFR_KhoreshBehSolo.description>
+
+  <!-- EN: ma tai go -->
+  <FlavorTextFR_MaTaiGoSolo.label>马蹄糕</FlavorTextFR_MaTaiGoSolo.label>
+  <!-- EN: a paste of {0_adj} starch and rock sugar, steamed into a translucent amber slab with whole dice set in it. Eaten warm, or cut up and fried in the pan the next day. -->
+  <FlavorTextFR_MaTaiGoSolo.description>{0_adj}粉与冰糖调成粉浆，蒸成嵌有爽脆马蹄丁的半透明琥珀色糕体。既可趁温热享用，也可留到次日切片下平底锅香煎。</FlavorTextFR_MaTaiGoSolo.description>
+
+  <!-- EN: yoghurt cake -->
+  <FlavorTextFR_GateauAuYaourtSolo.label>法式酸奶蛋糕</FlavorTextFR_GateauAuYaourtSolo.label>
+  <!-- EN: the {0_adj} pot serves as the measure for everything else. The first cake anyone learns to make, and the only one whose recipe is never forgotten. -->
+  <FlavorTextFR_GateauAuYaourtSolo.description>空出来的{0_adj}杯便是丈量其余一切食材的量杯。这是每个人学会做的第一款蛋糕，也是唯一一个永远不会被遗忘的配方。</FlavorTextFR_GateauAuYaourtSolo.description>
+
+  <!-- EN: medovik -->
+  <FlavorTextFR_MedovikSolo.label>俄式蜂蜜千层蛋糕</FlavorTextFR_MedovikSolo.label>
+  <!-- EN: a dozen discs of {0_adj} dough baked one at a time, stacked with a soured cream and left overnight so the whole thing softens and turns tender. -->
+  <FlavorTextFR_MedovikSolo.description>十几张{0_adj}薄面饼逐一烘熟，层层抹上酸奶油叠起，静置过夜，待整座蛋糕吸饱湿气、变得柔润绵软。</FlavorTextFR_MedovikSolo.description>
+
+  <!-- EN: taiyaki -->
+  <FlavorTextFR_TaiyakiSolo.label>鲷鱼烧</FlavorTextFR_TaiyakiSolo.label>
+  <!-- EN: a waffle batter cooked in a mould shaped like a sea bream, filled with a sweet {0_adj} paste. Whether to bite the head or the tail first divides Japan. -->
+  <FlavorTextFR_TaiyakiSolo.description>华夫饼面糊注入鲷鱼形状的铁模中，夹入甜润的{0_adj}沙馅烘熟。究竟该先咬鱼头还是先咬鱼尾，至今仍让整个日本争论不休。</FlavorTextFR_TaiyakiSolo.description>
+
+  <!-- EN: briouates -->
+  <FlavorTextFR_BriouatesSolo.label>摩洛哥杏仁三角酥</FlavorTextFR_BriouatesSolo.label>
+  <!-- EN: triangles of warqa filled with pounded {0_plur}, fried and then plunged scalding into cold honey. The shock of temperature is what makes them crisp. -->
+  <FlavorTextFR_BriouatesSolo.description>瓦尔卡薄酥皮包入捣碎的{0_plur}折成三角形，炸透后趁滚烫直接浸入冰凉的蜂蜜中。正是这冷热交锋的激荡造就了极致的酥脆。</FlavorTextFR_BriouatesSolo.description>
+
+  <!-- EN: pajeon -->
+  <FlavorTextFR_PajeonSolo.label>韩式葱饼</FlavorTextFR_PajeonSolo.label>
+  <!-- EN: a thick pancake in which {0_coll} stand upright in the batter, gilded on both sides in generous oil. Eaten on rainy days: the sound of the frying recalls the sound of the drops. -->
+  <FlavorTextFR_PajeonSolo.description>整排{0_coll}齐整铺在面糊里的厚煎饼，用宽油将两面煎至金黄焦脆。最宜在雨天享用：热油煎饼的滋滋声恰似窗外淅沥的雨声。</FlavorTextFR_PajeonSolo.description>
+
+  <!-- EN: peking duck -->
+  <FlavorTextFR_CanardLaqueSolo.label>北京烤鸭</FlavorTextFR_CanardLaqueSolo.label>
+  <!-- EN: a bird blown full of air to lift the skin off the flesh, scalded, lacquered with syrup and dried a day in the wind before roasting. The skin is served first, in fine pancakes, and the meat afterwards. -->
+  <FlavorTextFR_CanardLaqueSolo.description>往禽身吹气使皮肉分离，经沸水烫皮、挂上糖浆，再晾吹一日后入炉烤制。油亮酥脆的鸭皮先片下卷入薄饼享用，鸭肉随后再上。</FlavorTextFR_CanardLaqueSolo.description>
+
+  <!-- EN: stuffed cabbage -->
+  <FlavorTextFR_ChouFarciSolo.label>法式整颗酿卷心菜</FlavorTextFR_ChouFarciSolo.label>
+  <!-- EN: a whole cabbage blanched and opened leaf by leaf, packed with meat between every layer, then closed up in a cloth and poached for hours. It is cut into wedges, like a cake. -->
+  <FlavorTextFR_ChouFarciSolo.description>整颗焯水后逐叶展开的卷心菜，每层菜叶间皆铺满肉馅，重新拢合后以棉布扎紧，入汤微沸慢煨数小时。上桌时如分切蛋糕一般切成楔形块。</FlavorTextFR_ChouFarciSolo.description>
+
+  <!-- EN: sernik -->
+  <FlavorTextFR_SernikSolo.label>波兰凝乳芝士蛋糕</FlavorTextFR_SernikSolo.label>
+  <!-- EN: a Polish curd cheese passed three times through a sieve, beaten with eggs and baked slowly. Denser and less sweet than its western cousins. -->
+  <FlavorTextFR_SernikSolo.description>波兰鲜凝乳奶酪反复过筛三次，与鸡蛋一同搅打均匀后慢火烘烤。相比西欧的同类芝士蛋糕，它的质地更为紧实醇厚，甜度也更为内敛。</FlavorTextFR_SernikSolo.description>
+
+  <!-- EN: gravlax -->
+  <FlavorTextFR_GravlaxSolo.label>北欧莳萝腌鱼</FlavorTextFR_GravlaxSolo.label>
+  <!-- EN: a fillet buried two days under salt, sugar and a great deal of dill, beneath a weight. The name means buried salmon: it really was once put down in the sand. -->
+  <FlavorTextFR_GravlaxSolo.description>鱼柳掩埋在盐、白糖与大量莳萝之下，压上重物腌渍两日。其名本意为“埋藏的鲑鱼”：古时人们确实曾将其埋入沙土中发酵。</FlavorTextFR_GravlaxSolo.description>
+
+  <!-- EN: eel in green sauce -->
+  <FlavorTextFR_AnguilleAuVertSolo.label>佛兰德斯绿酱烩鳗鱼</FlavorTextFR_AnguilleAuVertSolo.label>
+  <!-- EN: lengths of eel poached in white wine in a mass of green herbs — sorrel, watercress, spinach — until the sauce takes their colour. Served cold. -->
+  <FlavorTextFR_AnguilleAuVertSolo.description>切段河鳗与大把碧绿香草——酸模、水田芥、菠菜——一同在白葡萄酒中慢火煨熟，直至汤汁尽染翠绿。放凉后冷食。</FlavorTextFR_AnguilleAuVertSolo.description>
+
+  <!-- EN: marmite dieppoise -->
+  <FlavorTextFR_MarmiteDieppoiseSolo.label>迪耶普奶油海鲜锅</FlavorTextFR_MarmiteDieppoiseSolo.label>
+  <!-- EN: several fish and shellfish poached separately and only then brought together in a broth creamed with cider. Every flesh has its own cooking time: put them all in at once and the whole thing is lost. -->
+  <FlavorTextFR_MarmiteDieppoiseSolo.description>数种鲜鱼与贝类分别微沸煮熟，最后才汇入调了苹果酒与奶油的高汤中。每一种鱼虾贝肉各有其火候：若是图省事一股脑儿下锅，整锅鲜味便全毁了。</FlavorTextFR_MarmiteDieppoiseSolo.description>
+
+  <!-- EN: duck à la rouennaise -->
+  <FlavorTextFR_CanardALaRouennaiseSolo.label>鲁昂血鸭</FlavorTextFR_CanardALaRouennaiseSolo.label>
+  <!-- EN: a bird smothered rather than bled, so as to keep its blood, roasted rare; the carcass is then pressed and the juice bound with the liver and red wine. -->
+  <FlavorTextFR_CanardALaRouennaiseSolo.description>窒息宰杀而不放血以留住满腔鲜血的肥鸭，入炉烤至三分熟；随后将鸭架送入特制银压榨机榨出骨髓血水，与鸭肝及红葡萄酒一同熬成浓醇血汁。</FlavorTextFR_CanardALaRouennaiseSolo.description>
+
+  <!-- EN: black pudding with apples -->
+  <FlavorTextFR_BoudinNoirAuxPommesSolo.label>苹果煎法式血肠</FlavorTextFR_BoudinNoirAuxPommesSolo.label>
+  <!-- EN: a black pudding pricked with a fork and fried gently — too fierce a heat and it bursts — with apples caramelised in butter. The sugar of the fruit cuts the iron of the blood. -->
+  <FlavorTextFR_BoudinNoirAuxPommesSolo.description>用叉子扎孔后文火慢煎的黑血肠——火候稍猛便会爆裂——搭配黄油煎出焦糖香的苹果。果肉的清甜恰恰化去了猪血的铁腥。</FlavorTextFR_BoudinNoirAuxPommesSolo.description>
+
+  <!-- EN: salade lyonnaise -->
+  <FlavorTextFR_SaladeLyonnaiseSolo.label>里昂风味水波蛋培根沙拉</FlavorTextFR_SaladeLyonnaiseSolo.label>
+  <!-- EN: bitter frisée, lardons fried in the pan, croutons rubbed with garlic and a poached egg set over the top. You break the yolk and it becomes the dressing. -->
+  <FlavorTextFR_SaladeLyonnaiseSolo.description>微苦的菊苣叶、平底锅煎得滋滋作响的咸肉丁、擦过蒜瓣的烤面包丁，顶上卧一枚嫩滑水波蛋。轻轻划破蛋黄，流淌而出的蛋液便是最好的沙拉酱。</FlavorTextFR_SaladeLyonnaiseSolo.description>
+
+  <!-- EN: poularde demi-deuil -->
+  <FlavorTextFR_PoulardeDemiDeuilSolo.label>里昂半丧礼松露肥母鸡</FlavorTextFR_PoulardeDemiDeuilSolo.label>
+  <!-- EN: a fowl under whose skin black slivers of truffle have been slid, poached whole in a broth of bones. The black on the white is what earns it its name: half-mourning. -->
+  <FlavorTextFR_PoulardeDemiDeuilSolo.description>在皮下塞满乌黑松露薄片的肥嫩母鸡，整只放入骨汤中微沸慢浸至熟。雪白鸡皮下隐现的片片乌黑，恰似旧时黑白相间的半丧服，由此得名“半丧礼”。</FlavorTextFR_PoulardeDemiDeuilSolo.description>
+
+  <!-- EN: focaccia -->
+  <FlavorTextFR_FocacciaSolo.label>佛卡夏面包</FlavorTextFR_FocacciaSolo.label>
+  <!-- EN: a very wet dough dimpled with the fingertips, drowned in olive oil and salted in coarse grains. The holes hold the oil: they are not decorative. -->
+  <FlavorTextFR_FocacciaSolo.description>含水量极高的面团以指尖戳出满面凹窝，淋满橄榄油并撒上粗粒海盐。那些凹窝是为了蓄住油脂，绝非摆设。</FlavorTextFR_FocacciaSolo.description>
+
+  <!-- EN: udon -->
+  <FlavorTextFR_UdonSolo.label>乌冬面</FlavorTextFR_UdonSolo.label>
+  <!-- EN: thick, soft noodles kneaded underfoot beneath a cloth, in a clear kombu broth. The texture matters more than the taste, and it is deliberate. -->
+  <FlavorTextFR_UdonSolo.description>隔着厚布用脚踩揉而成的粗软面条，浸在清澈的昆布高汤里。比起味道，它更讲究弹滑的口感，而这正是刻意追求的境界。</FlavorTextFR_UdonSolo.description>
+
+  <!-- EN: msemen -->
+  <FlavorTextFR_MsemenSolo.label>姆塞门千层酥饼</FlavorTextFR_MsemenSolo.label>
+  <!-- EN: a dough stretched to transparency on an oiled surface, brushed with butter and semolina, folded into a square and folded again, then cooked dry. The layers are counted when it is torn. -->
+  <FlavorTextFR_MsemenSolo.description>在抹油的案面上将面团拉扯至薄如透明，刷上黄油、撒上粗麦粉，层层折叠成方块后干烙而成。撕开饼身时，层次分明得可以一一细数。</FlavorTextFR_MsemenSolo.description>
+
+  <!-- EN: rice tart -->
+  <FlavorTextFR_TarteAuRizSolo.label>比利时米布丁挞</FlavorTextFR_TarteAuRizSolo.label>
+  <!-- EN: a very thick rice pudding poured into a case of plain risen dough, then baked until the top crazes over. The speciality of Verviers, eaten there for centuries. -->
+  <FlavorTextFR_TarteAuRizSolo.description>将熬得极稠的奶香米布丁注入原味发酵面团捏成的挞壳中，入炉烘烤至表面微焦开裂。这是比利时韦尔维耶世代相传的百年名点。</FlavorTextFR_TarteAuRizSolo.description>
+
+  <!-- EN: narsharab -->
+  <FlavorTextFR_NarsharabSolo.label>阿塞拜疆五香石榴浓酱</FlavorTextFR_NarsharabSolo.label>
+  <!-- EN: the Azerbaijani molasses, mounted with sugar and scented with cinnamon, clove and bay. Served with grilled sturgeon, and nothing else will stand in for it. -->
+  <FlavorTextFR_NarsharabSolo.description>阿塞拜疆风味的石榴糖蜜，添入白糖熬煮，并以肉桂、丁香与月桂叶赋香。专配炭烤鲟鱼，世间再无他物可堪替代。</FlavorTextFR_NarsharabSolo.description>
+
+  <!-- EN: pong tia koon -->
+  <FlavorTextFR_PongTiaKoonSolo.label>柬式炭烤毛蛋</FlavorTextFR_PongTiaKoonSolo.label>
+  <!-- EN: the Cambodian version, grilled over embers rather than boiled, served with a dip of lime, salt and Kampot pepper. -->
+  <FlavorTextFR_PongTiaKoonSolo.description>柬埔寨的做法，不以水煮而置于炭火余烬上炙烤，佐以青柠、食盐与贡布胡椒调成的蘸料食用。</FlavorTextFR_PongTiaKoonSolo.description>
+
+  <!-- EN: Chinese braised turtle -->
+  <FlavorTextFR_TortueBraiseeSolo.label>黄焖甲鱼</FlavorTextFR_TortueBraiseeSolo.label>
+  <!-- EN: a soft-shelled turtle braised in rice wine with black mushrooms, ginger and goji berries. The cartilage around the rim is the part sought after, gelatinous and melting. -->
+  <FlavorTextFR_TortueBraiseeSolo.description>将整只甲鱼用米酒与黑香菇、生姜及枸杞一同红烧慢焖。甲壳边缘的裙边是最受追捧的部位，胶质丰腴、入口即化。</FlavorTextFR_TortueBraiseeSolo.description>
+
+  <!-- EN: fabada -->
+  <FlavorTextFR_FabadaSolo.label>阿斯图里亚斯白豆炖肉</FlavorTextFR_FabadaSolo.label>
+  <!-- EN: large white beans stewed with smoked pork, never stirred with a spoon: the pot is shaken with a turn of the wrist so as not to break them. -->
+  <FlavorTextFR_FabadaSolo.description>大颗白芸豆与烟熏猪肉一同慢火煨炖，全程绝不用勺翻动：全凭手腕轻晃锅身，以免将豆子搅碎。</FlavorTextFR_FabadaSolo.description>
+
+  <!-- EN: fideuà -->
+  <FlavorTextFR_FideuaSolo.label>西班牙海鲜短面</FlavorTextFR_FideuaSolo.label>
+  <!-- EN: short hollow pasta toasted dry then cooked in a fish fumet, which they drink up while standing on end. Born of a ship's boy hiding the rice from a captain who ate too much of it. -->
+  <FlavorTextFR_FideuaSolo.description>短小的空心意面干锅焙香，再注入鲜鱼高汤焖熟，面条吸饱汤汁后根根竖立。相传最初是因为船长太过贪吃米饭，船上帮厨少年便藏起大米、改用面条烹制而成。</FlavorTextFR_FideuaSolo.description>
+
+  <!-- EN: takuan -->
+  <FlavorTextFR_TakuanSolo.label>日式泽庵渍萝卜</FlavorTextFR_TakuanSolo.label>
+  <!-- EN: a daikon dried in the sun for weeks until it will bend, then buried in rice bran with sugar and salt. Bright yellow, crisp, and loud to chew. -->
+  <FlavorTextFR_TakuanSolo.description>白萝卜在日光下暴晒数周直至柔韧可弯，再埋入混有白糖与盐的米糠床中腌透。色泽明黄，爽脆多汁，嚼起来咔嚓作响。</FlavorTextFR_TakuanSolo.description>
+
+  <!-- EN: schweinshaxe -->
+  <FlavorTextFR_SchweinshaxeSolo.label>德式烤猪肘</FlavorTextFR_SchweinshaxeSolo.label>
+  <!-- EN: a whole knuckle roasted for hours and basted with brown beer, until the rind becomes a shell that cracks under the knife. -->
+  <FlavorTextFR_SchweinshaxeSolo.description>整只猪肘烘烤数小时，期间不断浇淋深色啤酒，直至外皮化作刀锋下咔嚓作响的脆壳。</FlavorTextFR_SchweinshaxeSolo.description>
+
+</LanguageData>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: bibimbap -->
+  <FlavorTextFR_Bibimbap.label>韩式拌饭</FlavorTextFR_Bibimbap.label>
+  <!-- EN: {0_coll} crowned with {2_adj} laid out in sectors, each seasoned apart, and a {1_adj} yolk at the centre. The name means mixed rice: all that arrangement is destroyed with one stroke of the spoon, and it is meant to be. -->
+  <FlavorTextFR_Bibimbap.description>{0_coll}上按扇形整齐码放各自调味的{2_adj}，正中卧一颗{1_adj}黄。其名本义便是“拌饭”：精心排布的摆盘只需一勺便被彻底搅乱，而这正是它的本意。</FlavorTextFR_Bibimbap.description>
+
+  <!-- EN: tteokbokki -->
+  <FlavorTextFR_Tteokbokki.label>辣炒年糕</FlavorTextFR_Tteokbokki.label>
+  <!-- EN: cylinders of {0_adj} dough stewed in a {1_adj} and {2_adj} sauce until it coats them. The elastic texture surprises more than the chilli does. -->
+  <FlavorTextFR_Tteokbokki.description>圆柱形的{0_adj}年糕条在{1_adj}与{2_adj}调成的红亮浓汁中慢煮收汁。比起辛辣的滋味，那弹牙筋道的口感更令人惊艳。</FlavorTextFR_Tteokbokki.description>
+
+  <!-- EN: samgyetang -->
+  <FlavorTextFR_Samgyetang.label>参鸡汤</FlavorTextFR_Samgyetang.label>
+  <!-- EN: a whole fowl stuffed with sticky {1_plur} and {2_plur}, boiled until the bones come away. Eaten on the hottest days of summer, to fight fire with fire. -->
+  <FlavorTextFR_Samgyetang.description>整禽腹中塞满软糯的{1_plur}与{2_plur}，文火慢炖至骨肉分离。常在盛夏酷暑之日享用，取“以热制热”之道。</FlavorTextFR_Samgyetang.description>
+
+  <!-- EN: galbi -->
+  <FlavorTextFR_Galbi.label>韩式烤牛排骨</FlavorTextFR_Galbi.label>
+  <!-- EN: {0_adj} ribs cut in a concertina so as to marinate faster in {1_plur} and {2_plur}, grilled at the table itself. The grated pear in the marinade tenderises the meat. -->
+  <FlavorTextFR_Galbi.description>{0_adj}排骨用刀片成手风琴般的薄片以便更快吸饱{1_plur}与{2_plur}，直接在餐桌上现烤。腌料中的梨泥令肉质格外柔嫩。</FlavorTextFR_Galbi.description>
+
+  <!-- EN: doenjang jjigae -->
+  <FlavorTextFR_DoenjangJjigae.label>大酱汤</FlavorTextFR_DoenjangJjigae.label>
+  <!-- EN: a bubbling stew of fermented {0_adj} paste, with {1_coll} and {2_coll}. It arrives still cooking in its earthenware pot, and goes on for ten minutes. -->
+  <FlavorTextFR_DoenjangJjigae.description>用发酵{0_adj}酱同{1_coll}、{2_coll}煮成的滚烫浓汤。端上桌时仍在陶锅里咕嘟沸腾，热气足足能持续十分钟。</FlavorTextFR_DoenjangJjigae.description>
+
+  <!-- EN: pajeon -->
+  <FlavorTextFR_Pajeon.label>韩式葱饼</FlavorTextFR_Pajeon.label>
+  <!-- EN: a thick pancake in which {2_coll} stand upright in the batter, gilded on both sides in generous oil. Eaten on rainy days: the sound of the frying recalls the sound of the drops. -->
+  <FlavorTextFR_Pajeon.description>整排{2_coll}齐整铺在面糊里的厚煎饼，用宽油将两面煎至金黄焦脆。最宜在雨天享用：热油煎饼的滋滋声恰似窗外淅沥的雨声。</FlavorTextFR_Pajeon.description>
+
+  <!-- EN: kimbap -->
+  <FlavorTextFR_Kimbap.label>紫菜包饭</FlavorTextFR_Kimbap.label>
+  <!-- EN: {0_coll} seasoned with sesame oil — not with vinegar — rolled in {1_plur} with a strip of {2_adj} in the form of an omelette, then sliced. Picnic and train food. -->
+  <FlavorTextFR_Kimbap.description>用芝麻油而非米醋拌香的{0_coll}，铺在{1_plur}上并裹入煎成蛋饼条的{2_adj}，卷紧后切段。是野餐郊游与绿皮火车上的常备美食。</FlavorTextFR_Kimbap.description>
+
+  <!-- EN: sundubu jjigae -->
+  <FlavorTextFR_SundubuJjigae.label>纯豆腐汤</FlavorTextFR_SundubuJjigae.label>
+  <!-- EN: tofu so little pressed that it falls apart under the spoon, in a red {1_adj} broth, with {2_coll} broken into it at the last moment. -->
+  <FlavorTextFR_SundubuJjigae.description>未经压制、勺子一碰即碎的嫩豆腐浸在红亮的{1_adj}汤中，出锅前最后一刻再磕入生{2_coll}。</FlavorTextFR_SundubuJjigae.description>
+
+  <!-- EN: dakgangjeong -->
+  <FlavorTextFR_Dakgangjeong.label>韩式甜辣炸鸡块</FlavorTextFR_Dakgangjeong.label>
+  <!-- EN: {0_coll} fried twice — the second frying driving out the water left under the crust — then lacquered with {1_plur} and {2_plur}. It stays crisp under the sauce, which is the whole feat. -->
+  <FlavorTextFR_Dakgangjeong.description>{0_coll}复炸两次——第二遍油炸逼出脆壳下的余水——再裹上闪亮的{1_plur}与{2_plur}酱汁。哪怕挂满浓酱依然酥脆不软，这正是它的绝活所在。</FlavorTextFR_Dakgangjeong.description>
+
+  <!-- EN: naengmyeon -->
+  <FlavorTextFR_Naengmyeon.label>冷面</FlavorTextFR_Naengmyeon.label>
+  <!-- EN: {0_adj} noodles served in an iced broth, sometimes half frozen, with {1_coll} and half an egg. They are cut with scissors at the table: they are too elastic for teeth. -->
+  <FlavorTextFR_Naengmyeon.description>{0_adj}面浸在冰镇甚至带着冰碴的清汤里，佐以{1_coll}与半颗鸡蛋。上桌时得用剪刀剪断：面条实在太过筋道，光靠牙齿很难咬断。</FlavorTextFR_Naengmyeon.description>
+
+  <!-- EN: japchae -->
+  <FlavorTextFR_Japchae.label>韩式杂菜</FlavorTextFR_Japchae.label>
+  <!-- EN: sweet potato noodles, translucent and slippery, fried with {0_plur} and {1_plur} and with {2_coll} each cooked separately so as to keep its own colour. -->
+  <FlavorTextFR_Japchae.description>晶莹爽滑的红薯粉条与{0_plur}、{1_plur}拌炒，搭配各自单独炒熟以保色泽鲜明的各色{2_coll}。</FlavorTextFR_Japchae.description>
+
+  <!-- EN: jeyuk bokkeum -->
+  <FlavorTextFR_JeyukBokkeum.label>辣炒猪肉</FlavorTextFR_JeyukBokkeum.label>
+  <!-- EN: {0_coll} sliced thin and fried over a high flame in a {1_adj} paste, with {2_coll}. The sugar of the marinade caramelises and catches: that is the object. -->
+  <FlavorTextFR_JeyukBokkeum.description>切薄片的{0_coll}裹满{1_adj}酱，与{2_coll}一同猛火快炒。腌料中的糖分焦糖化并染上一抹锅底焦香：这正是追求的风味。</FlavorTextFR_JeyukBokkeum.description>
+
+  <!-- EN: gyeranjjim -->
+  <FlavorTextFR_Gyeranjjim.label>韩式蒸汽蛋羹</FlavorTextFR_Gyeranjjim.label>
+  <!-- EN: {0_coll} beaten with their own weight in water, steamed until they swell up over the rim of the bowl, scattered with {1_plur} and {2_plur}. It falls again within the minute. -->
+  <FlavorTextFR_Gyeranjjim.description>{0_coll}加入等量清水打匀，猛火蒸至蓬松高耸出石锅边缘，撒上{1_plur}与{2_plur}。端上桌不过一分钟便会慢慢回落。</FlavorTextFR_Gyeranjjim.description>
+
+  <!-- EN: bossam -->
+  <FlavorTextFR_Bossam.label>韩式菜包肉</FlavorTextFR_Bossam.label>
+  <!-- EN: {0_coll} boiled a long while and then sliced warm, to be wrapped by hand in {1_adj} leaves with a raw clove of {2_adj}. Every mouthful is built by the eater. -->
+  <FlavorTextFR_Bossam.description>久煮去腥的{0_coll}趁温热切片，亲手用{1_adj}叶连同一瓣生{2_adj}包裹起来。每一口丰盛滋味都由食客亲手拼凑而成。</FlavorTextFR_Bossam.description>
+
+</LanguageData>

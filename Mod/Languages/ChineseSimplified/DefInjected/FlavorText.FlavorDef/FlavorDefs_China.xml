@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: mapo doufu -->
+  <FlavorTextFR_MapoDoufu.label>麻婆豆腐</FlavorTextFR_MapoDoufu.label>
+  <!-- EN: cubes of {0_adj} tofu slipped into a red sauce of fermented beans, with minced {2_coll} and Sichuan pepper that numbs the tongue before {1_coll} burns it. -->
+  <FlavorTextFR_MapoDoufu.description>滑嫩的{0_adj}豆腐块滑入红亮的豆瓣红油与碎{2_coll}中，花椒赶在{1_coll}灼烧舌尖之前，先一步带来酥麻。</FlavorTextFR_MapoDoufu.description>
+
+  <!-- EN: char siu -->
+  <FlavorTextFR_CharSiu.label>叉烧</FlavorTextFR_CharSiu.label>
+  <!-- EN: strips of {0_adj} lacquered with honey and {2_plur}, hung on hooks over the fire until the edges blacken. The name means cooked on a fork. -->
+  <FlavorTextFR_CharSiu.description>{0_adj}条刷上蜂蜜与{2_plur}，挂在铁钩上悬火炙烤，直至边角微焦发亮。其名本义便是“插在叉上烧烤”。</FlavorTextFR_CharSiu.description>
+
+  <!-- EN: xiaolongbao -->
+  <FlavorTextFR_Xiaolongbao.label>小笼包</FlavorTextFR_Xiaolongbao.label>
+  <!-- EN: dumplings pleated eighteen times, filled with {1_plur} and a jelly of stock that turns back to liquid in the steam. You pierce them before biting, on pain of a burn. -->
+  <FlavorTextFR_Xiaolongbao.description>捏出十八道褶的薄皮包子，裹着{1_plur}馅与遇热化作滚烫浓汤的高汤皮冻。动口前必先咬破小口吸汤，否则定要烫伤舌头。</FlavorTextFR_Xiaolongbao.description>
+
+  <!-- EN: gong bao -->
+  <FlavorTextFR_GongBao.label>宫保鸡丁</FlavorTextFR_GongBao.label>
+  <!-- EN: {0_coll} in dice fried so fast that the wok never cools, with whole {2_coll} left in the oil and {1_coll} added last of all so as to stay crisp. -->
+  <FlavorTextFR_GongBao.description>切丁的{0_coll}在滚烫铁锅中急火快炒，整颗{2_coll}在热油里煸出糊辣香气，最后撒入{1_coll}以保其酥脆。</FlavorTextFR_GongBao.description>
+
+  <!-- EN: hongshao rou -->
+  <FlavorTextFR_HongshaoRou.label>红烧肉</FlavorTextFR_HongshaoRou.label>
+  <!-- EN: cubes of {0_adj} caramelised in {1_coll} melted dry before they are stewed with {2_plur}. The sugar has to brown without bitterness: a few seconds part the two. -->
+  <FlavorTextFR_HongshaoRou.description>方正的{0_adj}块在干熬融化的{1_coll}中炒出糖色，再加{2_plur}慢炖收汁。糖色须红亮而不发苦，成败只在短短数秒之间。</FlavorTextFR_HongshaoRou.description>
+
+  <!-- EN: dan dan noodles -->
+  <FlavorTextFR_DanDan.label>担担面</FlavorTextFR_DanDan.label>
+  <!-- EN: noodles served over a pool of {1_adj} paste and {2_adj} oil, to be mixed by the eater. The name comes from the carrying pole of the hawkers who bore them. -->
+  <FlavorTextFR_DanDan.description>碗底铺一层醇厚的{1_adj}酱与红亮{2_adj}油，挑入面条，由食客自行拌匀。其名源于当年走街串巷叫卖小贩肩上的扁担。</FlavorTextFR_DanDan.description>
+
+  <!-- EN: wonton -->
+  <FlavorTextFR_Wonton.label>馄饨</FlavorTextFR_Wonton.label>
+  <!-- EN: squares of dough so fine that the {1_adj} filling shows through, closed with a pinch and poached in a {2_adj} broth. The tail of dough floats and ripples: that is what gave them their name. -->
+  <FlavorTextFR_Wonton.description>薄如蝉翼的方皮透出里头的{1_adj}馅，信手一捏封口，下入{2_adj}清汤中氽熟。裙边在汤中如云朵般舒展飘荡，“云吞”之名便由此而来。</FlavorTextFR_Wonton.description>
+
+  <!-- EN: peking duck -->
+  <FlavorTextFR_CanardLaque.label>北京烤鸭</FlavorTextFR_CanardLaque.label>
+  <!-- EN: a bird blown full of air to lift the skin off the flesh, scalded, lacquered with {1_plur} and dried a day in the wind before roasting. The skin is served first, in fine pancakes, and the meat afterwards. -->
+  <FlavorTextFR_CanardLaque.description>往禽身吹气使皮肉分离，经沸水烫皮、挂上{1_plur}糖水，再晾吹一日后入炉烤制。油亮酥脆的鸭皮先片下卷入薄饼享用，鸭肉随后再上。</FlavorTextFR_CanardLaque.description>
+
+  <!-- EN: cantonese fried rice -->
+  <FlavorTextFR_RizCantonais.label>广式炒饭</FlavorTextFR_RizCantonais.label>
+  <!-- EN: yesterday's {0_coll}, dry and loose grain by grain, fried at the highest flame with {1_plur} and {2_plur}. Fresh rice clumps and turns to porridge: it has to have slept. -->
+  <FlavorTextFR_RizCantonais.description>隔夜的{0_coll}干爽而粒粒分明，与{1_plur}、{2_plur}一同猛火颠炒。刚出锅的新饭容易粘连成团，唯有“睡过一觉”的隔夜饭才炒得起镬气。</FlavorTextFR_RizCantonais.description>
+
+  <!-- EN: chicken with cashews -->
+  <FlavorTextFR_PouletNoixCajou.label>腰果鸡丁</FlavorTextFR_PouletNoixCajou.label>
+  <!-- EN: {0_coll} coated in starch and blanched in warm oil before it meets the wok — that is what keeps it tender — then fried with {2_plur} and toasted {1_coll}. -->
+  <FlavorTextFR_PouletNoixCajou.description>{0_coll}上浆后先在温油中滑熟——这正是肉质滑嫩的秘诀——随后下锅与{2_plur}及烤香的{1_coll}急火合炒。</FlavorTextFR_PouletNoixCajou.description>
+
+</LanguageData>

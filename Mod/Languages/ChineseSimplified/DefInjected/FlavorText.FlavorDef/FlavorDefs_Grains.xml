@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: amaranth porridge -->
+  <FlavorTextFR_PorridgeDAmarante.label>苋籽奶粥</FlavorTextFR_PorridgeDAmarante.label>
+  <!-- EN: {0_coll} burst over a low flame in {1_plur} until the grains split and give up their mucilage, finished with crushed {2_adj}. It thickens enormously as it cools. -->
+  <FlavorTextFR_PorridgeDAmarante.description>{0_coll}在{1_plur}中以文火慢熬，直至籽粒爆裂、释出胶质，出锅前撒上拍碎的{2_adj}。待其冷却后，粥体便会变得格外浓稠。</FlavorTextFR_PorridgeDAmarante.description>
+
+  <!-- EN: alegría -->
+  <FlavorTextFR_Alegria.label>欢欣苋籽糖</FlavorTextFR_Alegria.label>
+  <!-- EN: {0_coll} popped grain by grain on a scorching plate, bound with hot {1_plur} and toasted {2_plur} and pressed into a bar. The name means joy, and it has been sold since the Conquest. -->
+  <FlavorTextFR_Alegria.description>将{0_coll}在滚烫的铁板上逐粒爆香，拌入熬热的{1_plur}与烘香的{2_plur}，压制成型。其名意为“欢欣”，自西班牙征服时期便沿街售卖至今。</FlavorTextFR_Alegria.description>
+
+  <!-- EN: rajgira roti -->
+  <FlavorTextFR_RajgiraRoti.label>印式苋籽烙饼</FlavorTextFR_RajgiraRoti.label>
+  <!-- EN: an {0_adj} flour, which holds no gluten, bound by {2_coll} and a hot mash of {1_adj} — without them the flatbread tears under the pin. Cooked dry, then brushed over. -->
+  <FlavorTextFR_RajgiraRoti.description>全无筋性的{0_adj}粉全赖{2_coll}与滚烫的{1_adj}泥揉合定型——若少了这两样，面饼在擀面杖下一压便碎。干烙至熟后再刷油润泽。</FlavorTextFR_RajgiraRoti.description>
+
+  <!-- EN: amaranth atole -->
+  <FlavorTextFR_AtoleDAmarante.label>苋籽阿托莱热饮</FlavorTextFR_AtoleDAmarante.label>
+  <!-- EN: a thick drink of {0_adj} and {1_adj} slaked in water, whisked with {2_plur} and cinnamon until it foams. Drunk scalding, at first light, before the work in the fields. -->
+  <FlavorTextFR_AtoleDAmarante.description>{0_adj}与{1_adj}加水化开熬成浓浆，调入{2_plur}与肉桂奋力搅打至泛起细腻泡沫。破晓下田劳作前，须趁着滚烫一饮而尽。</FlavorTextFR_AtoleDAmarante.description>
+
+  <!-- EN: amaranth pilaf -->
+  <FlavorTextFR_PilafDAmarante.label>苋籽抓饭</FlavorTextFR_PilafDAmarante.label>
+  <!-- EN: {0_coll} toasted dry before it is moistened with stock, with a fondue of {2_adj} and {1_coll} taken in the pan. The grain stays minute but cracks under the tooth, which rice does not. -->
+  <FlavorTextFR_PilafDAmarante.description>{0_coll}先入干锅焙香，再浇入高汤焖煮，拌入锅中慢炒软化的{2_adj}与{1_coll}。籽粒虽微，齿间咬下却噼啪脆响，这是大米所没有的趣味。</FlavorTextFR_PilafDAmarante.description>
+
+  <!-- EN: rajgira ladoo -->
+  <FlavorTextFR_RajgiraLadoo.label>印式苋籽甜球</FlavorTextFR_RajgiraLadoo.label>
+  <!-- EN: popped {0_coll} rolled into balls by hand in a {1_adj} syrup taken to the soft crack with clarified {2_plur}. They are shaped scalding hot: cold, they no longer hold. -->
+  <FlavorTextFR_RajgiraLadoo.description>爆香的{0_coll}拌入以澄清{2_plur}熬至软脆阶段的{1_adj}糖浆，趁着烫手手工团成圆球——一旦放凉，便再也捏不成型。</FlavorTextFR_RajgiraLadoo.description>
+
+  <!-- EN: mushroom orzotto -->
+  <FlavorTextFR_OrzottoChampignons.label>菌菇大麦烩饭</FlavorTextFR_OrzottoChampignons.label>
+  <!-- EN: pearl {0_coll} moistened ladle after ladle like a risotto, bound off the heat with grated {2_plur}, with a panful of {1_adj}. It stands the cooking far better than rice and forgives a wandering mind. -->
+  <FlavorTextFR_OrzottoChampignons.description>珍珠{0_coll}仿照意式烩饭之法一勺勺添汤慢煨，离火后拌入擦碎的{2_plur}收稠，再配上一满锅炒香的{1_adj}。大麦比大米耐煮得多，即便掌勺时稍稍走神也无妨。</FlavorTextFR_OrzottoChampignons.description>
+
+  <!-- EN: beef and barley soup -->
+  <FlavorTextFR_SoupeBoeufOrge.label>大麦牛肉汤</FlavorTextFR_SoupeBoeufOrge.label>
+  <!-- EN: a broth drawn from {1_adj} on the bone for three hours, thickened with pearl {0_plur} and loaded with {2_adj} in large dice. The barley goes on swelling in the pot: the next day's soup is a stew. -->
+  <FlavorTextFR_SoupeBoeufOrge.description>带骨{1_adj}慢熬三小时吊出浓汤，下入珍珠{0_plur}增稠，再添满大块切丁的{2_adj}。麦仁在锅中久泡不歇，今日的清汤到了明日便成了浓炖。</FlavorTextFR_SoupeBoeufOrge.description>
+
+  <!-- EN: scotch broth -->
+  <FlavorTextFR_ScotchBroth.label>苏格兰大麦羊肉汤</FlavorTextFR_ScotchBroth.label>
+  <!-- EN: {1_coll} from the neck simmered with pearl {0_coll}, yellow {2_coll} and leek, skimmed often. Eaten as a broth on the first day and with a fork on the second. -->
+  <FlavorTextFR_ScotchBroth.description>脖颈部位的{1_coll}与珍珠{0_coll}、黄心{2_coll}及韭葱一同文火慢炖，期间频频撇去浮沫。头一天当汤喝，第二天便稠得能用叉子吃。</FlavorTextFR_ScotchBroth.description>
+
+  <!-- EN: krupnik -->
+  <FlavorTextFR_Krupnik.label>波兰大麦山菌汤</FlavorTextFR_Krupnik.label>
+  <!-- EN: a peasant soup of pearl {0_adj}, {2_adj} in cubes and dried {1_adj} soaked back up, whose soaking water is kept — it is what carries all the taste. -->
+  <FlavorTextFR_Krupnik.description>珍珠{0_adj}、切丁的{2_adj}与泡发的干{1_adj}同煮的农家浓汤，泡菌子的原汤悉数留用——整锅汤的鲜魂全系于此。</FlavorTextFR_Krupnik.description>
+
+  <!-- EN: barley with butter tea -->
+  <FlavorTextFR_OrgeAuTheBeurre.label>酥油茶拌糌粑</FlavorTextFR_OrgeAuTheBeurre.label>
+  <!-- EN: a flour of roasted {0_adj}, worked with the fingertips in a bowl of salted {1_plur} beaten with {2_plur}. Eaten without utensils, rolling the paste against the side of the bowl. It carries you a day's walk. -->
+  <FlavorTextFR_OrgeAuTheBeurre.description>炒熟的{0_adj}磨粉，在盛有咸味{1_plur}与打融{2_plur}的碗中以指尖揉捻成团。无需碗箸，贴着碗壁将面团捏实便可入口，吃饱了足可支撑一整天的跋涉。</FlavorTextFR_OrgeAuTheBeurre.description>
+
+  <!-- EN: barley and feta salad -->
+  <FlavorTextFR_SaladeOrgeFeta.label>大麦菲达奶酪沙拉</FlavorTextFR_SaladeOrgeFeta.label>
+  <!-- EN: pearl {0_coll} cooked and then cooled straight down, mixed with diced {2_plur}, crumbled {1_plur} and a great deal of herbs. Dress it warm: cold, it takes up nothing at all. -->
+  <FlavorTextFR_SaladeOrgeFeta.description>珍珠{0_coll}煮熟后即刻摊凉，拌入切丁的{2_plur}、捏碎的{1_plur}与大把香草。须趁温热时拌入酱汁，一旦彻底冰凉便再难入味。</FlavorTextFR_SaladeOrgeFeta.description>
+
+  <!-- EN: boribap -->
+  <FlavorTextFR_Boribap.label>韩式大麦饭</FlavorTextFR_Boribap.label>
+  <!-- EN: {1_coll} cooked with pressed {0_coll} and soaked {2_coll}, all in the same water. It was the food of the lean years, and has become a restaurant order. -->
+  <FlavorTextFR_Boribap.description>{1_coll}与压扁的{0_coll}、泡发的{2_coll}同锅焖煮。昔日荒年果腹的粗食，如今却成了食肆菜单上的雅馔。</FlavorTextFR_Boribap.description>
+
+  <!-- EN: barley in milk -->
+  <FlavorTextFR_OrgeAuLait.label>牛奶大麦布丁</FlavorTextFR_OrgeAuLait.label>
+  <!-- EN: hulled {0_coll} cooked for an hour in {1_plur} with a stick of cinnamon and barely any {2_adj}. Rougher than rice pudding, and a good deal more sustaining. -->
+  <FlavorTextFR_OrgeAuLait.description>去壳{0_coll}在{1_plur}中加一根肉桂与少许{2_adj}慢熬一小时。口感比米布丁更为粗犷，却也扎实耐饥得多。</FlavorTextFR_OrgeAuLait.description>
+
+  <!-- EN: barley bannock -->
+  <FlavorTextFR_BannockDOrge.label>苏格兰大麦圆饼</FlavorTextFR_BannockDOrge.label>
+  <!-- EN: a thick {0_adj} cake, cooked on a hot stone or straight on the plate, worked with soured {2_plur} and {1_plur}. No yeast: it rises on the sour milk alone. -->
+  <FlavorTextFR_BannockDOrge.description>以发酵变酸的{2_plur}和{1_plur}揉入{0_adj}粉，在滚烫石板或铁铛上烙出的厚饼。不加酵母，全凭酸奶的酸气使其蓬松起发。</FlavorTextFR_BannockDOrge.description>
+
+  <!-- EN: barley with leeks -->
+  <FlavorTextFR_OrgeAuxPoireaux.label>韭葱烩大麦</FlavorTextFR_OrgeAuxPoireaux.label>
+  <!-- EN: pearl {0_coll} sweated in stock with a fondue of {1_adj} brought on very gently, mounted with {2_plur} at the end. White and green go together here, contrary to the usual rule. -->
+  <FlavorTextFR_OrgeAuxPoireaux.description>珍珠{0_coll}在高汤中慢煨，配以文火慢炒至融化的{1_adj}，收汁时调入{2_plur}增润。此菜一反常规，将葱白与青叶尽数入馔。</FlavorTextFR_OrgeAuxPoireaux.description>
+
+  <!-- EN: mushroom quinotto -->
+  <FlavorTextFR_QuinottoChampignons.label>菌菇藜麦烩饭</FlavorTextFR_QuinottoChampignons.label>
+  <!-- EN: {0_coll} rinsed at length to strip its bitter saponin, then brought on like a risotto with {1_coll} and bound with {2_plur}. The germ unwinds into a ring: that is the sign it is cooked. -->
+  <FlavorTextFR_QuinottoChampignons.description>{0_coll}反复淘洗以褪尽苦涩的皂苷，再循意式烩饭之法与{1_coll}同煨，最后拌入{2_plur}收浓。待胚芽舒展成一圈细环，便是熟透的标志。</FlavorTextFR_QuinottoChampignons.description>
+
+  <!-- EN: quinoa and pomegranate salad -->
+  <FlavorTextFR_SaladeQuinoaGrenade.label>石榴藜麦沙拉</FlavorTextFR_SaladeQuinoaGrenade.label>
+  <!-- EN: {0_coll} cooled out flat, mixed with the seeds of {1_adj} and shredded {2_plur}, with a thread of sharp molasses. The seeds burst in the middle of something that does not crunch: that is the whole point. -->
+  <FlavorTextFR_SaladeQuinoaGrenade.description>摊平晾凉的{0_coll}拌入{1_adj}籽与切丝的{2_plur}，淋上一缕酸冽的果糖浆。在绵软不脆的麦粒间咬破爆汁的石榴籽，正是整道菜的妙处所在。</FlavorTextFR_SaladeQuinoaGrenade.description>
+
+  <!-- EN: quinoa chaufa -->
+  <FlavorTextFR_QuinoaChaufa.label>秘鲁中式炒藜麦</FlavorTextFR_QuinoaChaufa.label>
+  <!-- EN: {0_coll} fried in a very hot wok with an omelette of {1_adj} cut into ribbons, ginger and {2_coll}. Cantonese fried rice carried up into the Andes, with the grain of the place. -->
+  <FlavorTextFR_QuinoaChaufa.description>{0_coll}与切成细丝的{1_adj}皮、姜末及{2_coll}同入烈火铁锅猛炒。这是传上安第斯高原的粤式炒饭，只是换用了当地的谷物。</FlavorTextFR_QuinoaChaufa.description>
+
+  <!-- EN: quinoa and bean chilli -->
+  <FlavorTextFR_ChiliQuinoaHaricots.label>辣味黑豆炖藜麦</FlavorTextFR_ChiliQuinoaHaricots.label>
+  <!-- EN: black {1_coll} and {0_coll} stewed together for an hour with {2_plur} and cumin. The quinoa thickens the juices with no need of flour or of reduction. -->
+  <FlavorTextFR_ChiliQuinoaHaricots.description>黑{1_coll}与{0_coll}佐以{2_plur}和孜然慢炖一小时。藜麦自然能将汤汁收得浓稠，既不必勾芡，也无需大火收汁。</FlavorTextFR_ChiliQuinoaHaricots.description>
+
+  <!-- EN: quinoa-stuffed peppers -->
+  <FlavorTextFR_PoivronsFarcisQuinoa.label>藜麦酿甜椒</FlavorTextFR_PoivronsFarcisQuinoa.label>
+  <!-- EN: {1_coll} hollowed and blanched, filled with {0_adj} bound with a crushed {2_adj}, then baked until the skin wrinkles. Served in their own cooking juices. -->
+  <FlavorTextFR_PoivronsFarcisQuinoa.description>{1_coll}挖空焯水，填入以捣碎的{2_adj}拌匀的{0_adj}馅，入炉烘烤至表皮起皱，连着烤出的原汁一同上桌。</FlavorTextFR_PoivronsFarcisQuinoa.description>
+
+  <!-- EN: quinoa in milk -->
+  <FlavorTextFR_QuinoaAuLait.label>牛奶煮藜麦</FlavorTextFR_QuinoaAuLait.label>
+  <!-- EN: {0_coll} cooked in {1_plur} with cinnamon and barely any {2_adj}, until every grain unwinds its germ. Eaten warm, from a bowl, as it is in La Paz at daybreak. -->
+  <FlavorTextFR_QuinoaAuLait.description>{0_coll}在{1_plur}中加肉桂与少许{2_adj}慢煮，直至每一粒都舒展出圈状胚芽。一如拉巴斯破晓时分的街景，盛在碗里趁热吃下。</FlavorTextFR_QuinoaAuLait.description>
+
+  <!-- EN: quinoa cakes -->
+  <FlavorTextFR_GalettesDeQuinoa.label>香煎藜麦饼</FlavorTextFR_GalettesDeQuinoa.label>
+  <!-- EN: {0_coll} cooked then bound with beaten {1_plur} and grated {2_plur}, shaped with a spoon and seared on both sides. They hold together badly while hot: let them settle before turning them. -->
+  <FlavorTextFR_GalettesDeQuinoa.description>煮熟的{0_coll}拌入打散的{1_plur}与擦丝的{2_plur}，用勺子团成饼状下锅双面煎黄。趁热时极易松散，须等煎定型后再行翻面。</FlavorTextFR_GalettesDeQuinoa.description>
+
+  <!-- EN: quinoa tabbouleh -->
+  <FlavorTextFR_TaboulehDeQuinoa.label>藜麦塔布勒沙拉</FlavorTextFR_TaboulehDeQuinoa.label>
+  <!-- EN: a great deal more parsley than {0_adj}, with {2_coll} seeded and cut into the smallest dice and the juice of {1_adj}. The grain here is the seasoning of the herb, never the other way about. -->
+  <FlavorTextFR_TaboulehDeQuinoa.description>欧芹的分量远多于{0_adj}，佐以去籽切成极细小丁的{2_coll}并淋上{1_adj}汁。在这里，谷物只是香草的点缀，绝非喧宾夺主。</FlavorTextFR_TaboulehDeQuinoa.description>
+
+  <!-- EN: quinoa and avocado salad -->
+  <FlavorTextFR_SaladeQuinoaAvocat.label>牛油果藜麦沙拉</FlavorTextFR_SaladeQuinoaAvocat.label>
+  <!-- EN: cold {0_coll}, {1_coll} cut at the last moment and a dressing of green {2_plur} and coriander. The avocado crushes a little against the grains, and that is what binds the salad. -->
+  <FlavorTextFR_SaladeQuinoaAvocat.description>冰镇的{0_coll}配上临上桌才切块的{1_coll}，淋以青{2_plur}与香菜调成的酱汁。牛油果在麦粒间轻轻碾压半融，恰好将整盘沙拉裹拢在一起。</FlavorTextFR_SaladeQuinoaAvocat.description>
+
+  <!-- EN: tô with okra sauce -->
+  <FlavorTextFR_ToSauceGombo.label>秋葵酱配小米坨</FlavorTextFR_ToSauceGombo.label>
+  <!-- EN: a firm paste of {0_adj} worked with a spatula against the wall of the pot, dipped into a stringy {1_adj} sauce mounted with {2_plur}. Eaten by hand, digging into the ball. -->
+  <FlavorTextFR_ToSauceGombo.description>用木铲贴着锅壁将{0_adj}浆反复搅打成紧实的糊团，蘸食兑入{2_plur}熬成的拉丝{1_adj}浓汁。吃时不用餐具，直接伸手揪下一团蘸汁入口。</FlavorTextFR_ToSauceGombo.description>
+
+  <!-- EN: tô with groundnut sauce -->
+  <FlavorTextFR_ToSauceArachide.label>花生酱配小米坨</FlavorTextFR_ToSauceArachide.label>
+  <!-- EN: the same {0_adj} paste, dipped this time into a sauce of long-pounded {1_adj} cooked in {2_plur} until the oil rises to the surface. That is the sign that it is ready. -->
+  <FlavorTextFR_ToSauceArachide.description>同样紧实的{0_adj}糊团，这一回蘸的是久舂成泥的{1_adj}在{2_plur}中慢熬出的浓酱。待红油浮上酱面，便是火候到家的标志。</FlavorTextFR_ToSauceArachide.description>
+
+  <!-- EN: thiakry -->
+  <FlavorTextFR_Thiakry.label>西非酸奶小米甜酪</FlavorTextFR_Thiakry.label>
+  <!-- EN: a semolina of {0_adj} rolled by hand and then steamed three times over, drowned in {1_plur} sweetened with {2_plur} and orange flower water. Served ice-cold, at the end of the meal. -->
+  <FlavorTextFR_Thiakry.description>{0_adj}粗粉手工搓粒后三度上笼蒸透，浸入加了{2_plur}与橙花水调甜的{1_plur}之中。冰镇后于席末呈上。</FlavorTextFR_Thiakry.description>
+
+  <!-- EN: kambu koozh -->
+  <FlavorTextFR_KambuKoozh.label>南印酸奶小米冷粥</FlavorTextFR_KambuKoozh.label>
+  <!-- EN: a gruel of cracked {0_adj} left to sour a whole night, let down with beaten {1_plur} and salted, drunk straight from the bowl with raw {2_coll} and a chilli. Taken before daybreak, against the heat to come. -->
+  <FlavorTextFR_KambuKoozh.description>碾碎的{0_adj}煮粥静置一整夜自然发酸，兑入打散的{1_plur}与食盐调稀，佐着生{2_coll}与青椒直接端碗饮下。破晓前喝上一碗，足以抵御白日的酷暑。</FlavorTextFR_KambuKoozh.description>
+
+  <!-- EN: ragi dosa -->
+  <FlavorTextFR_RagiDosa.label>印式小米发酵薄饼</FlavorTextFR_RagiDosa.label>
+  <!-- EN: a batter of {0_adj}, {1_adj} and soaked black {2_adj}, fermented overnight then spread into a veil over a scorching plate. It comes out almost black, and far finer than it looks. -->
+  <FlavorTextFR_RagiDosa.description>{0_adj}、{1_adj}与泡发的黑{2_adj}磨浆彻夜发酵，在滚烫铁板上摊成薄如蝉翼的圆饼。成品色近乌黑，滋味却比卖相细腻得多。</FlavorTextFR_RagiDosa.description>
+
+  <!-- EN: bajra khichdi -->
+  <FlavorTextFR_BajraKhichdi.label>印式小米扁豆焖饭</FlavorTextFR_BajraKhichdi.label>
+  <!-- EN: {0_coll} cracked in a mortar and cooked under a lid with split {1_coll}, doused with clarified {2_plur} as it is served. A winter dish of the desert, where the eating is fat because the nights freeze. -->
+  <FlavorTextFR_BajraKhichdi.description>{0_coll}在臼中舂裂，与去皮{1_coll}加盖焖熟，上桌时浇下大勺澄清{2_plur}。这是沙漠地带的冬日吃食——只因寒夜彻骨，饭食才须这般丰腴厚重。</FlavorTextFR_BajraKhichdi.description>
+
+  <!-- EN: xiaomi zhou -->
+  <FlavorTextFR_XiaomiZhou.label>南瓜红枣小米粥</FlavorTextFR_XiaomiZhou.label>
+  <!-- EN: {0_coll} burst for an hour in a great deal of water with {1_coll} in cubes that falls apart, and whole red {2_coll}. A yellow film forms on the surface: that is the part given to the sick. -->
+  <FlavorTextFR_XiaomiZhou.description>{0_coll}在宽水中与切块煮化了的{1_coll}及整颗红{2_coll}慢熬一小时至米粒开花。粥面凝起的一层黄亮米油，是专留给病人的滋补佳品。</FlavorTextFR_XiaomiZhou.description>
+
+  <!-- EN: bajra roti -->
+  <FlavorTextFR_BajraRoti.label>印式小米烙饼</FlavorTextFR_BajraRoti.label>
+  <!-- EN: a thick cake of {0_adj}, worked with hot water and chopped {1_coll}, patted out between the palms for want of being able to roll it, and cooked straight on the embers before it is rubbed with {2_plur}. -->
+  <FlavorTextFR_BajraRoti.description>{0_adj}粉冲入热水并拌入切碎的{1_coll}，因无法用杖擀开，只能双掌拍打成厚饼，直接置于炭火余烬上烘熟，出炉后再抹上{2_plur}。</FlavorTextFR_BajraRoti.description>
+
+  <!-- EN: millet and vegetable pilaf -->
+  <FlavorTextFR_PilafDeMil.label>时蔬小米抓饭</FlavorTextFR_PilafDeMil.label>
+  <!-- EN: {0_coll} toasted dry until it smells of hazelnut, then swelled in stock with {1_coll} cut small and a fondue of {2_adj}. It doubles in volume and drinks up twice its own weight. -->
+  <FlavorTextFR_PilafDeMil.description>{0_coll}干焙至飘出榛果香气，再与切碎的{1_coll}和慢炒软化的{2_adj}一同在高汤中焖至饱胀。它会吸饱自身两倍重量的汤汁，体积也随之涨大一倍。</FlavorTextFR_PilafDeMil.description>
+
+</LanguageData>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: lomo saltado -->
+  <FlavorTextFR_LomoSaltado.label>秘鲁小炒牛肉</FlavorTextFR_LomoSaltado.label>
+  <!-- EN: {0_coll} fried in the wok over a brutal flame with {2_plur}, deglazed with vinegar and soy, then tossed through fried {1_plur}. A Chinese dish that came through the Andes and stayed. -->
+  <FlavorTextFR_LomoSaltado.description>{0_coll}与{2_plur}在铁锅中猛火爆炒，烹入食醋与酱油激起锅气，再拌入炸好的{1_plur}条。这是一道翻越安第斯山脉并就此扎根的中式小炒。</FlavorTextFR_LomoSaltado.description>
+
+  <!-- EN: ají de gallina -->
+  <FlavorTextFR_AjiDeGallina.label>秘鲁黄椒奶油手撕鸡</FlavorTextFR_AjiDeGallina.label>
+  <!-- EN: {0_coll} boiled and then pulled apart by hand, in a yellow sauce thickened with crumb and ground {2_adj}, coloured with mild {1_plur}. The chilli is there for the colour as much as for the fire. -->
+  <FlavorTextFR_AjiDeGallina.description>煮熟后手撕成丝的{0_coll}，浸在用面包屑和研磨{2_adj}勾芡、并以温和的{1_plur}染成亮黄色的浓酱中。辣椒在此既是为了添一抹热辣，也是为了那一抹明艳金黄。</FlavorTextFR_AjiDeGallina.description>
+
+  <!-- EN: causa limeña -->
+  <FlavorTextFR_CausaLimena.label>利马千层土豆泥</FlavorTextFR_CausaLimena.label>
+  <!-- EN: a mash of yellow {0_adj}, worked with {1_plur} and chilli until it turns as malleable as dough, built up in layers with {2_plur}. Eaten cold, cut clean. -->
+  <FlavorTextFR_CausaLimena.description>黄{0_adj}泥揉入{1_plur}与辣椒，反复推揉至如面团般柔顺可塑，夹入{2_plur}层层叠起。冰镇后切块享用，切面平整利落。</FlavorTextFR_CausaLimena.description>
+
+  <!-- EN: anticuchos -->
+  <FlavorTextFR_Anticuchos.label>秘鲁烤牛心串</FlavorTextFR_Anticuchos.label>
+  <!-- EN: {0_coll} marinated in vinegar, {1_plur} and {2_plur}, threaded onto skewers and grilled over charcoal in the street. Born of what the masters would not eat. -->
+  <FlavorTextFR_Anticuchos.description>{0_coll}浸泡在食醋、{1_plur}与{2_plur}中腌制入味，穿签后在街头炭火上炙烤。这道名吃最初诞生于昔日庄园主弃而不食的下水。</FlavorTextFR_Anticuchos.description>
+
+  <!-- EN: papa a la huancaína -->
+  <FlavorTextFR_PapaHuancaina.label>万卡约黄椒奶酪淋土豆</FlavorTextFR_PapaHuancaina.label>
+  <!-- EN: {0_coll} boiled and cold, drowned under a sauce of fresh {1_adj} and yellow {2_adj} passed through a sieve until it turns silken. A first course, never a main. -->
+  <FlavorTextFR_PapaHuancaina.description>煮熟放凉的{0_coll}，淋满用鲜{1_adj}与黄{2_adj}过筛滤至如丝绸般顺滑的浓酱。它永远是开胃头盘，绝不充当主菜。</FlavorTextFR_PapaHuancaina.description>
+
+  <!-- EN: rocoto relleno -->
+  <FlavorTextFR_RocotoRelleno.label>秘鲁烤酿辣椒</FlavorTextFR_RocotoRelleno.label>
+  <!-- EN: {0_coll} hollowed and blanched three times over to take out most of the fire, stuffed with minced {1_plur}, capped with {2_plur} and put in the oven. Three times, and it still burns. -->
+  <FlavorTextFR_RocotoRelleno.description>{0_coll}掏空后连焯三次水以褪去大半燥辣，填入碎{1_plur}馅，盖上一层{2_plur}送入烤箱。哪怕焯了三遍水，依然辣得够呛。</FlavorTextFR_RocotoRelleno.description>
+
+  <!-- EN: chupe de camarones -->
+  <FlavorTextFR_ChupeDeCamarones.label>秘鲁鲜虾浓汤</FlavorTextFR_ChupeDeCamarones.label>
+  <!-- EN: a thick soup of {0_adj}, {1_adj} and {2_adj}, into which a whole egg is broken at the last moment. The prawn heads make the stock and are never thrown away. -->
+  <FlavorTextFR_ChupeDeCamarones.description>用{0_adj}、{1_adj}与{2_adj}熬成的醇厚浓汤，出锅前最后一刻磕入一整颗鸡蛋。虾头是吊出鲜美高汤的功臣，绝不能随手丢弃。</FlavorTextFR_ChupeDeCamarones.description>
+
+  <!-- EN: arroz con pollo -->
+  <FlavorTextFR_ArrozConPollo.label>秘鲁翠绿鸡肉饭</FlavorTextFR_ArrozConPollo.label>
+  <!-- EN: {0_coll} cooked in {1_adj} stock and a coriander purée that dyes it deep green, with {2_coll}. The colour disconcerts at first, and is then missed when it is not there. -->
+  <FlavorTextFR_ArrozConPollo.description>{0_coll}加{2_coll}在{1_adj}高汤与将其染成深绿色的香菜泥中焖熟。那抹浓绿初看令人怔忡，吃惯之后若是少了这颜色反而叫人惦念。</FlavorTextFR_ArrozConPollo.description>
+
+  <!-- EN: pachamanca -->
+  <FlavorTextFR_Pachamanca.label>帕查曼卡地炉焖肉</FlavorTextFR_Pachamanca.label>
+  <!-- EN: {0_coll}, {1_coll} and {2_coll} buried in a pit lined with fire-heated stones, covered over with earth, and left to cook for hours. The name means pot of the earth; it is not a figure of speech. -->
+  <FlavorTextFR_Pachamanca.description>{0_coll}、{1_coll}与{2_coll}一同埋入铺满烈火烧红石块的土坑，覆土封严，靠余温焖烤数小时。其名意为“大地之锅”——这可不是什么修辞比喻。</FlavorTextFR_Pachamanca.description>
+
+  <!-- EN: sopa de quinua -->
+  <FlavorTextFR_SopaDeQuinua.label>安第斯藜麦汤</FlavorTextFR_SopaDeQuinua.label>
+  <!-- EN: {0_coll} rinsed at length — its saponin is bitter — then stewed with {1_plur} until it opens its germs into spirals, with {2_plur} melted through it. -->
+  <FlavorTextFR_SopaDeQuinua.description>{0_coll}经反复淘洗以除去发苦的皂苷，随后与{1_plur}同炖，直至胚芽绽开成小巧的螺旋，最后融化{2_plur}拌入汤中。</FlavorTextFR_SopaDeQuinua.description>
+
+  <!-- EN: tacu tacu -->
+  <FlavorTextFR_TacuTacu.label>塔库塔库豆泥煎饭饼</FlavorTextFR_TacuTacu.label>
+  <!-- EN: yesterday's {0_coll} and {1_coll} crushed together and fried into a cake gilded on both faces, with {2_plur} turned in it. A dish born of leftovers, and now an institution. -->
+  <FlavorTextFR_TacuTacu.description>隔夜的{0_coll}与{1_coll}压碎揉合，拌入炒香的{2_plur}，在锅里煎成两面金黄的厚饼。一道源于剩饭的家常菜，如今已成秘鲁餐饮界的经典。</FlavorTextFR_TacuTacu.description>
+
+  <!-- EN: {0_adj} seco -->
+  <FlavorTextFR_SecoDeCordero.label>秘鲁香菜炖{0_adj}</FlavorTextFR_SecoDeCordero.label>
+  <!-- EN: {0_coll} braised in a purée of {1_adj} and fermented {2_plur}, until the sauce turns dark green. It is called dry although it swims: nobody knows why. -->
+  <FlavorTextFR_SecoDeCordero.description>{0_coll}在{1_adj}泥与发酵{2_plur}中慢火精炖，直至汤汁化作深邃的浓绿。明明汤汁丰盈却偏偏取名为“干炖”（Seco），至于缘由则无人知晓。</FlavorTextFR_SecoDeCordero.description>
+
+  <!-- EN: picarones -->
+  <FlavorTextFR_Picarones.label>秘鲁南瓜红薯甜甜圈</FlavorTextFR_Picarones.label>
+  <!-- EN: rings of {0_adj} and sweet potato dough, shaped by hand with a turning gesture, fried and drowned in a dark {2_adj} syrup. The colonial successor of an older fritter. -->
+  <FlavorTextFR_Picarones.description>{0_adj}与红薯揉成的面团，在指尖灵巧一旋捏成圆环下油锅炸酥，再浸满深浓的{2_adj}糖浆。它是殖民时代流传至今的古老炸果子传人。</FlavorTextFR_Picarones.description>
+
+  <!-- EN: suspiro a la limeña -->
+  <FlavorTextFR_SuspiroLimena.label>利马少女的叹息</FlavorTextFR_SuspiroLimena.label>
+  <!-- EN: {0_coll} reduced with {2_plur} for an hour to a caramel, bound with {1_adj} yolks, and capped with a port meringue. Named after a sigh, for its sweetness and its brevity. -->
+  <FlavorTextFR_SuspiroLimena.description>{0_coll}与{2_plur}慢熬一小时化作焦糖奶酱，调入{1_adj}黄增稠，顶端覆以波特酒蛋白霜。因其甘美绝伦又转瞬即逝，故以“叹息”为名。</FlavorTextFR_SuspiroLimena.description>
+
+</LanguageData>

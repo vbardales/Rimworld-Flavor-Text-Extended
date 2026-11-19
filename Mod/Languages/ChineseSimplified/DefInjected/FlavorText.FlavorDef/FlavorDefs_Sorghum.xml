@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: sorghum tô -->
+  <FlavorTextFR_ToDeSorgho.label>秋葵酱配高粱坨</FlavorTextFR_ToDeSorgho.label>
+  <!-- EN: a {0_adj} paste beaten with a spatula until it turns smooth and firm, served with a stringy {1_adj} sauce. You take a ball of it in your right hand, hollow it with your thumb, and dip. -->
+  <FlavorTextFR_ToDeSorgho.description>用木铲反复搅打至柔滑紧实的{0_adj}糊团，佐以拉丝的{1_adj}浓汁。吃时右手揪下一团，拇指按出凹窝，舀起酱汁送入口中。</FlavorTextFR_ToDeSorgho.description>
+
+  <!-- EN: tuwo dawa -->
+  <FlavorTextFR_TuwoDawa.label>豪萨高粱糊配花生汤</FlavorTextFR_TuwoDawa.label>
+  <!-- EN: the Hausa version: a {0_adj} ball moulded with a ladle, with a miyan kuka of pounded baobab leaves and a {2_adj} sauce. Baobab thickens without any flour at all. -->
+  <FlavorTextFR_TuwoDawa.description>豪萨人的做法：用汤勺团成圆球状的{0_adj}糊，佐以猴面包树叶舂粉煮成的浓汤与{2_adj}酱。单凭猴面包树叶本身，无需半点面粉便能令汤汁浓稠。</FlavorTextFR_TuwoDawa.description>
+
+  <!-- EN: fura da nono -->
+  <FlavorTextFR_FuraDaNono.label>富拉尼发酵酸奶高粱饮</FlavorTextFR_FuraDaNono.label>
+  <!-- EN: balls of cooked {0_adj}, pounded with {2_plur} and ginger, crushed into the fermented {1_coll} of the Fulani herders. Drunk from a calabash, it stands in for a whole meal on the road. -->
+  <FlavorTextFR_FuraDaNono.description>煮熟的{0_adj}与{2_plur}、生姜同舂成团，吃时碾碎融入富拉尼牧民发酵的酸{1_coll}中。端起葫芦瓢饮下，在旅途中便足以顶替一顿正餐。</FlavorTextFR_FuraDaNono.description>
+
+  <!-- EN: sorghum ogi -->
+  <FlavorTextFR_OgiDeSorgho.label>西非发酵高粱酸粥</FlavorTextFR_OgiDeSorgho.label>
+  <!-- EN: {0_coll} soaked three days, ground, sieved and left to sour, then cooked into a smooth gruel. Sour, {1_adj} and scented with {2_plur}: the breakfast of half of West Africa. -->
+  <FlavorTextFR_OgiDeSorgho.description>{0_coll}浸泡三日后磨浆过筛、静置发酸，再熬成柔滑的糊粥。酸爽回甘，调入{1_adj}并透着{2_plur}的辛香——半个西非的清晨都由此开启。</FlavorTextFR_OgiDeSorgho.description>
+
+  <!-- EN: kisra -->
+  <FlavorTextFR_Kisra.label>苏丹发酵高粱薄饼</FlavorTextFR_Kisra.label>
+  <!-- EN: a fermented {0_adj} batter spread into a veil over a scorching plate, so fine that it cooks in ten seconds. Stacked by the dozen, it serves as the plate for a {1_adj} and {2_adj} mullah. -->
+  <FlavorTextFR_Kisra.description>发酵的{0_adj}面糊在滚烫铁板上摊成薄纱，薄得只需十秒便已熟透。一摞十余张叠作盘底，上面直接浇上{1_adj}{2_adj}炖菜同吃。</FlavorTextFR_Kisra.description>
+
+  <!-- EN: sorghum asida -->
+  <FlavorTextFR_AsidaDeSorgho.label>阿西达高粱糊</FlavorTextFR_AsidaDeSorgho.label>
+  <!-- EN: a {0_adj} paste worked to elasticity, hollowed into a well at the centre and filled with melted {1_coll} and {2_coll}. Eaten from the edges towards the middle, by several people out of one dish. -->
+  <FlavorTextFR_AsidaDeSorgho.description>搅打得柔韧弹牙的{0_adj}糊团，中央挖出深窝，注满融化的{1_coll}与{2_coll}。数人围坐一盘，由外沿向中心就着蜜油分食。</FlavorTextFR_AsidaDeSorgho.description>
+
+  <!-- EN: sorghum injera -->
+  <FlavorTextFR_InjeraDeSorgho.label>高粱英吉拉酸饼</FlavorTextFR_InjeraDeSorgho.label>
+  <!-- EN: a {0_adj} batter fermented three days, poured in a spiral over the plate and covered: the bubbles that break the surface make the eyes. Loaded with a {1_adj} and {2_adj} misir wat. -->
+  <FlavorTextFR_InjeraDeSorgho.description>发酵三日的{0_adj}面糊沿铁铛旋圈浇下并加盖焖熟，表面破开的气泡凝成密布的蜂窝眼，饼面上铺满以{1_adj}和{2_adj}慢炖的辣酱。</FlavorTextFR_InjeraDeSorgho.description>
+
+  <!-- EN: sorghum genfo -->
+  <FlavorTextFR_GenfoDeSorgho.label>埃塞俄比亚高粱稠粥</FlavorTextFR_GenfoDeSorgho.label>
+  <!-- EN: a very thick {0_adj} porridge moulded into a dome, hollowed at the centre and filled with niter kibbeh — a clarified butter with spices — and {2_adj} berbere. The lunch of young Ethiopian mothers. -->
+  <FlavorTextFR_GenfoDeSorgho.description>熬得极稠的{0_adj}糊隆起如圆丘，顶端掏出凹窝，灌满香料澄清黄油与{2_adj}调成的柏柏尔辣粉。这是埃塞俄比亚新晋母亲坐月子时的滋补午饭。</FlavorTextFR_GenfoDeSorgho.description>
+
+  <!-- EN: ting ya mabele -->
+  <FlavorTextFR_TingYaMabele.label>博茨瓦纳发酵高粱粥</FlavorTextFR_TingYaMabele.label>
+  <!-- EN: {0_coll} left to ferment several days before it is cooked, which gives it its frank sourness, served with {2_coll} and curdled {1_coll}. The national dish of Botswana, eaten morning and evening. -->
+  <FlavorTextFR_TingYaMabele.description>{0_coll}先发酵数日再下锅熬煮，由此生出一股爽利的酸香，佐以{2_coll}和凝乳酸{1_coll}同食。这是博茨瓦纳的国菜，无论晨昏皆离不开它。</FlavorTextFR_TingYaMabele.description>
+
+  <!-- EN: jowar bhakri -->
+  <FlavorTextFR_JowarBhakri.label>印式高粱烙饼</FlavorTextFR_JowarBhakri.label>
+  <!-- EN: a {0_adj} flatbread worked with scalding water and flattened with the palm — with no gluten it tears at the least hesitation — cooked dry then puffed over the flame, with a pounded {1_adj} and {2_adj} thecha. -->
+  <FlavorTextFR_JowarBhakri.description>沸水烫面的{0_adj}团全凭手掌拍扁——因毫无筋性，稍一迟疑便会开裂——干烙后再架于明火上烘至鼓起，佐以捣碎的{1_adj}{2_adj}辣酱同食。</FlavorTextFR_JowarBhakri.description>
+
+  <!-- EN: jowar khichdi -->
+  <FlavorTextFR_JowarKhichdi.label>高粱扁豆焖饭</FlavorTextFR_JowarKhichdi.label>
+  <!-- EN: {0_coll} cracked and {1_coll} cooked together until they can no longer be told apart, lifted by a tempering of {2_adj} toasted in ghee. The dish served to convalescents. -->
+  <FlavorTextFR_JowarKhichdi.description>碾碎的{0_coll}与{1_coll}同煮至交融难分，出锅前淋上一勺酥油爆香的{2_adj}提味。这是专供病后初愈者调养脾胃的温润膳食。</FlavorTextFR_JowarKhichdi.description>
+
+  <!-- EN: jowar dosa -->
+  <FlavorTextFR_JowarDosa.label>高粱发酵薄饼</FlavorTextFR_JowarDosa.label>
+  <!-- EN: a batter of {0_adj}, {1_adj} and {2_adj} fermented overnight, spread in a spiral over the plate and cooked until the edges crisp. -->
+  <FlavorTextFR_JowarDosa.description>{0_adj}、{1_adj}与{2_adj}磨成米浆彻夜发酵，在铁铛上旋圈摊薄，烙至边缘焦脆翘起。</FlavorTextFR_JowarDosa.description>
+
+  <!-- EN: jowar thalipeeth -->
+  <FlavorTextFR_JowarThalipeeth.label>印式杂粮香料厚饼</FlavorTextFR_JowarThalipeeth.label>
+  <!-- EN: a thick flatbread of several flours mixed together, loaded with raw {1_adj} and {2_adj}, flattened straight into the pan with wetted fingers and pierced with a hole at the centre. -->
+  <FlavorTextFR_JowarThalipeeth.description>数种杂粮粉混揉而成的面团中拌满生{1_adj}与{2_adj}，蘸湿手指直接在锅中按扁成厚饼，正中戳出一孔以便受热均匀。</FlavorTextFR_JowarThalipeeth.description>
+
+  <!-- EN: susu bap -->
+  <FlavorTextFR_SusuBap.label>韩式高粱红豆饭</FlavorTextFR_SusuBap.label>
+  <!-- EN: {1_coll} cooked with a handful of {0_adj} and {2_adj}, which stain it a dark red. It was served to children on their first birthday, to keep ill fortune away. -->
+  <FlavorTextFR_SusuBap.description>{1_coll}抓入一把{0_adj}与{2_adj}同焖，米粒尽染深红。旧俗在小儿周岁宴上必奉此饭，以祈辟邪消灾。</FlavorTextFR_SusuBap.description>
+
+  <!-- EN: susu-bukkumi -->
+  <FlavorTextFR_SusuBukkumi.label>韩式高粱红豆煎饼</FlavorTextFR_SusuBukkumi.label>
+  <!-- EN: small cakes of sticky {0_adj} fried in the pan and then folded into half-moons over a sweetened {1_adj} paste. The sorghum gives them a rust colour and a taste of hazelnut. -->
+  <FlavorTextFR_SusuBukkumi.description>黏糯的{0_adj}小圆饼下锅油煎，裹入甜{1_adj}沙对折成半月形。高粱赋予了饼皮铁锈般的红褐色与一缕榛果香气。</FlavorTextFR_SusuBukkumi.description>
+
+  <!-- EN: sorghum bowl -->
+  <FlavorTextFR_SorghumGrainBowl.label>时蔬坚果高粱饭</FlavorTextFR_SorghumGrainBowl.label>
+  <!-- EN: whole {0_coll} boiled an hour until it splits without falling apart, mixed with roasted {1_plur} and toasted {2_plur}. It stays firm under the tooth, unlike every other grain. -->
+  <FlavorTextFR_SorghumGrainBowl.description>整粒{0_coll}慢煮一小时至表皮微裂而粒形不散，拌入烤熟的{1_plur}与焙香的{2_plur}。不同于其他谷物，它咬在齿间依旧紧实弹牙。</FlavorTextFR_SorghumGrainBowl.description>
+
+  <!-- EN: popped sorghum -->
+  <FlavorTextFR_PoppedSorghum.label>爆高粱花</FlavorTextFR_PoppedSorghum.label>
+  <!-- EN: {0_coll} thrown by the handful into a scorching pan: the grains burst into minute white balls, ten times smaller than popcorn, and a great deal more tender. -->
+  <FlavorTextFR_PoppedSorghum.description>抓起大把{0_coll}撒入烧得滚烫的锅中，籽粒纷纷爆成细小的白球，虽比爆米花小上十倍，口感却格外柔嫩无渣。</FlavorTextFR_PoppedSorghum.description>
+
+  <!-- EN: biscuits with sorghum syrup -->
+  <FlavorTextFR_SorghumSyrupBiscuits.label>高粱糖浆淋松饼</FlavorTextFR_SorghumSyrupBiscuits.label>
+  <!-- EN: {2_adj} scones split open scalding and drowned in sorghum {1_plur}, dark and bitter under the sweetness. The syrup and the grain come from the same plant, pressed or threshed. -->
+  <FlavorTextFR_SorghumSyrupBiscuits.description>{2_adj}松饼趁滚烫掰开，浇满色泽深暗、甜中透着微苦的高粱{1_plur}。糖浆与谷粒同出一株作物，不过一是榨秆取汁，一是打穗收粮。</FlavorTextFR_SorghumSyrupBiscuits.description>
+
+  <!-- EN: sorghum molasses cookies -->
+  <FlavorTextFR_SorghumMolassesCookies.label>高粱糖蜜姜汁曲奇</FlavorTextFR_SorghumMolassesCookies.label>
+  <!-- EN: a dough of sorghum {1_adj} and ground {2_adj}, baked briefly so as to stay soft in the middle and crazed on top. -->
+  <FlavorTextFR_SorghumMolassesCookies.description>揉入高粱{1_adj}与{2_adj}粉的面团，入炉略烘即止，使饼心保持绵软而表面自然开裂。</FlavorTextFR_SorghumMolassesCookies.description>
+
+  <!-- EN: sorghum pecan pie -->
+  <FlavorTextFR_SorghumPecanPie.label>高粱糖浆山核桃派</FlavorTextFR_SorghumPecanPie.label>
+  <!-- EN: {1_coll} drowned in a {2_adj} filling bound with {0_adj} syrup, less cloying than corn syrup and a great deal deeper. The pie of Kentucky and Tennessee. -->
+  <FlavorTextFR_SorghumPecanPie.description>{1_coll}浸没在以{0_adj}糖浆与{2_adj}调成的馅心中，比玉米糖浆少了几分甜腻，却多了几分醇厚深邃。这是肯塔基与田纳西州的家乡名派。</FlavorTextFR_SorghumPecanPie.description>
+
+</LanguageData>
